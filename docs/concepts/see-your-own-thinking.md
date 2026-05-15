@@ -16,7 +16,7 @@ Everyone has problems they have not put on paper. Strategic blockers they have n
 
 These are unexternalized bottlenecks. They live inside your head, taking up cognitive space, creating low-grade anxiety, and never getting resolved. Not because you are lazy or incapable. Because the bottleneck has never been made visible enough to work on.
 
-This is the most common state for people who have not yet [externalized their brain](/foundations/externalize-your-brain). They know something is wrong. They might even talk about it regularly. But talking about a problem and actually addressing a problem are different activities. Most people stay stuck in the first one for months or years.
+This is the most common state for people who have not yet externalized their brain. They know something is wrong. They might even talk about it regularly. But talking about a problem and actually addressing a problem are different activities. Most people stay stuck in the first one for months or years.
 
 The shift happens when you see your own thinking.
 
@@ -28,7 +28,7 @@ The agent reflects your thinking back to you. Not as a mirror that shows you wha
 
 You say: "I feel stuck." The agent, operating from months of your context, says: "You have mentioned this three times in the last two weeks. The blocker appears to be X. You have not addressed it because Y. Based on your stated priorities, here is what resolving it would unlock."
 
-That is not a generic chatbot response. That is a system that knows you well enough to hold you accountable to your own goals. It can do this because you [externalized your brain](/foundations/externalize-your-brain) into a context library that gives the agent real knowledge of your situation.
+That is not a generic chatbot response. That is a system that knows you well enough to hold you accountable to your own goals. It can do this because you externalized your brain into a context library that gives the agent real knowledge of your situation.
 
 The result is metacognition: the ability to think about your own thinking. Most people have never experienced this at the level that a well-configured AI system can provide. A good therapist can do it in limited doses, once a week, for the topics you choose to bring up. A well-configured personal AI operating environment can do it continuously, across every domain of your life, with total context.
 
@@ -56,7 +56,7 @@ There is a reason most people do not achieve this level of self-awareness on the
 
 1. **Honest capture.** You have to actually record what you are thinking, feeling, and doing. Most people avoid this because it forces confrontation with uncomfortable truths.
 
-2. **Total context.** A friend can give you advice, but they only know the slice of your life you share with them. A therapist knows your emotional landscape but probably not your business strategy. Your AI, if you have [externalized properly](/foundations/externalize-your-brain), knows all of it.
+2. **Total context.** A friend can give you advice, but they only know the slice of your life you share with them. A therapist knows your emotional landscape but probably not your business strategy. Your AI, if you have externalized properly, knows all of it.
 
 3. **Consistent reflection.** Insight from one conversation fades. The power of seeing your own thinking comes from doing it regularly. A daily brain dump practice, processed by an AI that remembers everything, creates a running conversation with yourself that compounds over time.
 
@@ -88,7 +88,4 @@ You are not asking the AI to solve the problem for you. You are using the AI to 
 
 ## Further Reading
 
-- [Externalize Your Brain](/foundations/externalize-your-brain): The HOW. Getting what is inside your head into plain text so AI can read it. See Your Own Thinking is what happens next.
-- [The Exocortex](/concepts/the-exocortex): The cognitive frame for the system this discipline runs on.
 - [You Are the Bottleneck](/concepts/you-are-the-bottleneck): The companion concept. Seeing your own thinking is how you discover the bottleneck; admitting the bottleneck is what makes the work possible.
-- [The Life Harness](/concepts/the-life-harness): A harness is only as good as what it wraps around. Seeing your own thinking is how you develop what the harness amplifies.

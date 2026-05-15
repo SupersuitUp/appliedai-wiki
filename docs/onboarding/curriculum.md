@@ -68,5 +68,4 @@ Optimize, automate, and compound.
 ## Further Reading
 
 - [Student Journey](/onboarding/student-journey) for the entry-state to exit-state arc this curriculum produces
-- [Command Center](/playbooks/command-center) for the implementation pattern Module 2.1 introduces
 - [Knowledge Repo Design](/playbooks/knowledge-repo-design) for the repo layer Module 2.6 (the artifact system) builds on

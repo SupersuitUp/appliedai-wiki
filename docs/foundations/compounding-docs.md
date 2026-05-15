@@ -76,7 +76,4 @@ Start writing. The flywheel is waiting.
 ## Further Reading
 
 - [Signal Theory](/foundations/signal-theory): Why the quality of your documents matters as much as the quantity
-- [Context Lake](/disciplines/context-lake): The structured collection of files that compounds
 - [Harness Engineering](/disciplines/harness-engineering): How agentic harnesses discover and use your context
-- [Externalize Your Brain](/foundations/externalize-your-brain): Why the human is the bottleneck and how writing fixes it
-- [Capture, Process, Compound](/foundations/capture-process-compound): The daily practice that feeds the flywheel

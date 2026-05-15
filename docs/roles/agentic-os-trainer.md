@@ -118,6 +118,5 @@ The key insight is that the activation is a one-time event, but the progression 
 
 ## Further Reading
 
-- [Train Your Agent](/foundations/train-your-agent): the foundational practice every trainee builds.
 - [Roles](/roles): the broader landscape of emerging applied AI roles.
 - [Playbooks](/playbooks): the procedures this role hands to trainees.

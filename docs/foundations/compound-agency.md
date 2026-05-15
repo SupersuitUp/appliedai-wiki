@@ -44,7 +44,7 @@ A compound-agency practitioner has three things:
 
 **2. An agent workspace.** They have built a command center that holds their context: their goals, relationships, decisions, principles, and history. An AI agent reads all of it and operates from that foundation. This is not a chatbot. It is a persistent system that compounds over time. At 90 days, it knows their operation well enough to draft in their voice, brief them before any meeting, and surface the right information at the right moment. This is the suit.
 
-**3. The reps.** Compound agency is not a download. You do not install it and walk away. It is a practice. You feed the system daily (transcripts, brain dumps, decisions, reflections). You refine your [skill files](/concepts/instruction-files). You [externalize your brain](/foundations/externalize-your-brain) so the AI can carry more of the load. The system gets better because you put in the work. The people who treat it like a one-time setup get one-time results. The people who treat it like a discipline become superhuman.
+**3. The reps.** Compound agency is not a download. You do not install it and walk away. It is a practice. You feed the system daily (transcripts, brain dumps, decisions, reflections). You refine your [skill files](/concepts/instruction-files). You externalize your brain so the AI can carry more of the load. The system gets better because you put in the work. The people who treat it like a one-time setup get one-time results. The people who treat it like a discipline become superhuman.
 
 ## The Evolution Metaphor
 
@@ -63,7 +63,6 @@ Suit up.
 ## Further Reading
 
 - [The Survivor Economy](/foundations/the-survivor-economy): The economic reality that makes compound agency urgent
-- [Externalize Your Brain](/foundations/externalize-your-brain): Why you are the bottleneck and how to fix it
 - [Harness Engineering](/disciplines/harness-engineering): The technical discipline of building the suit
 - [Effective AGI](/foundations/effective-agi): The claim that AGI is already here for anyone who can wield it
 - [Jevons Paradox](/foundations/jevons-paradox): The economic mechanism. As AI makes execution cheap, total demand for capable humans expands. Compound-agency practitioners ride that expansion.

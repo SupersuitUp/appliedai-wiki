@@ -54,4 +54,3 @@ Verify by opening the editor, pointing it at a workspace folder, and confirming 
 ## Further Reading
 
 - [Git](/reference/tools/git): VS Code surfaces Git diffs and history inline.
-- [Setups](/reference/tools/setups): harness setups that assume VS Code as the editor.

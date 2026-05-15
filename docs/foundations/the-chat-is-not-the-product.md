@@ -78,5 +78,4 @@ An interview or brainstorm is different. Conversation for the sake of exploring 
 ## Further Reading
 
 - [The Chatbot Trap](/foundations/the-chatbot-trap): The upstream mental-model trap that this workflow problem lives inside
-- [Capture, Process, Compound](/foundations/capture-process-compound): The daily practice that makes workspace-as-source-of-truth real
 - [Compounding Docs](/foundations/compounding-docs): Your document library is the persistent layer

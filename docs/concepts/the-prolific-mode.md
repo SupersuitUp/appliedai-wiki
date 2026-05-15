@@ -94,5 +94,4 @@ Start making too much. Get comfortable with the waste. Train your eye on the sta
 - [Harness Engineering](/disciplines/harness-engineering): The substrate that makes the cost per candidate trivial.
 - [Strategy Is the New Execution](/concepts/strategy-is-the-new-execution): Why taste applied across candidates is the scarce resource, not the candidates themselves.
 - [Slop Factory](/concepts/slop-factory): Prolific without taste. The other way the mode fails.
-- [Signalmaxxing](/concepts/signalmaxxing): Taste as a trainable discipline across inputs and outputs.
 - [Jevons Paradox](/foundations/jevons-paradox): The economic engine. Cheaper execution expands total demand for taste.

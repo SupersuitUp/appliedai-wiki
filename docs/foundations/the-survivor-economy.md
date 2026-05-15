@@ -71,5 +71,4 @@ Start building. Start now. Create from a position of sovereignty, not dependency
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The technical discipline behind agent harnesses
-- [Capture, Process, Compound](/foundations/capture-process-compound): The daily practice that builds your edge
 - [Compound Agency](/foundations/compound-agency): The state you are building toward when you suit up

@@ -48,4 +48,3 @@ Verify with `gh auth status`.
 ## Further Reading
 
 - [Git](/reference/tools/git): the version control system `gh` is the GitHub companion to.
-- [Setups](/reference/tools/setups): harness setups that use `gh` to scaffold a workspace from a template.

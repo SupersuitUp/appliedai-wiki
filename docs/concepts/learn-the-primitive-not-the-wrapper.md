@@ -40,7 +40,7 @@ Wrappers look like a shortcut. They are a trap.
 
 **Your skills transfer.** The markdown files, skill definitions, CLAUDE.md / AGENTS.md conventions, and muscle memory you build working with a harness directly carry over to every other harness. A wrapper locks you into one vendor's flavor.
 
-**You do not depend on any single harness.** Today Claude Code is the best harness available. In six months it might be an open-source harness. You want the ability to swap harnesses in an afternoon when a better one ships. If your [context lake](/disciplines/context-lake) is just files on your machine and you know how to work with a harness directly, that swap is easy. If you are inside Cowork, it is not.
+**You do not depend on any single harness.** Today Claude Code is the best harness available. In six months it might be an open-source harness. You want the ability to swap harnesses in an afternoon when a better one ships. If your context lake is just files on your machine and you know how to work with a harness directly, that swap is easy. If you are inside Cowork, it is not.
 
 **You can go as deep as you want.** A direct harness exposes the full surface: custom skills, background agents, MCP servers, shell integrations, your own tooling. A wrapper is capped at what the vendor chose to expose.
 
@@ -150,6 +150,5 @@ The friction is real. The upside is uncapped.
 
 ## Further Reading
 
-- [Context Lake](/disciplines/context-lake): The workspace a harness reads
 - [Harness Engineering](/disciplines/harness-engineering): What a harness actually is and why the code around the model matters as much as the model
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): The primitives a harness exposes

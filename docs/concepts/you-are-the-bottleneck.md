@@ -44,7 +44,7 @@ And harder than anything you can buy.
 
 The internal work has no price tag and no delegate. Humility. Self-awareness. The willingness to sit alone and ask an honest question: *what do I need to see about myself that I have been unwilling to see?* For many operators, that question becomes most honest in stillness.
 
-This is the move multipliers cannot replace. [See Your Own Thinking](/concepts/see-your-own-thinking) opens with the same observation: most people have never had their own thinking clearly reflected back to them, and the shift happens when they do. AI can help accelerate that reflection once you have [externalized your brain](/foundations/externalize-your-brain) and given the system enough context to see your patterns. The AI is a mirror. The human still has to look and act.
+This is the move multipliers cannot replace. [See Your Own Thinking](/concepts/see-your-own-thinking) opens with the same observation: most people have never had their own thinking clearly reflected back to them, and the shift happens when they do. AI can help accelerate that reflection once you have externalized your brain and given the system enough context to see your patterns. The AI is a mirror. The human still has to look and act.
 
 ## If You Work For A Bottleneck
 
@@ -68,6 +68,5 @@ That is the first move, and the only one that actually elevates you. Every other
 
 - [The Overconfidence Trap](/disciplines/the-overconfidence-trap): Why you cannot see that you are the bottleneck. AI fluency manufactures confidence that has nothing to do with operator strength.
 - [See Your Own Thinking](/concepts/see-your-own-thinking): The metacognition practice that makes the bottleneck visible.
-- [Externalize Your Brain](/foundations/externalize-your-brain): The precondition for AI being able to reflect your patterns back to you.
 - [Strategy Is the New Execution](/concepts/strategy-is-the-new-execution): The structural reason this matters now. Execution got cheap, so the human bottleneck moved to strategy and judgment.
 - [Judgment Burnout](/concepts/judgment-burnout): What it feels like in the body when the bottleneck is judgment and you keep adding leverage instead of fixing the operator.

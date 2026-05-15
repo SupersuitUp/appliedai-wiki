@@ -71,6 +71,5 @@ The post-prompting era is coming. The question is whether your system is ready f
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The discipline that makes always-on agents useful
-- [Context Lake](/disciplines/context-lake): The context layer always-on agents will operate on
 - [Harness Engineering](/disciplines/harness-engineering): The code layer that always-on agents run inside
 - [KAIROS analysis thread](https://x.com/itsolelehmann/status/2039018963611627545): The source code analysis that revealed Anthropic's always-on agent infrastructure

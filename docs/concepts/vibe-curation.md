@@ -89,5 +89,4 @@ Invest in this role. Recognize it. Protect the people who do it. They are foster
 
 ## Further Reading
 
-- [Signalmaxxing](/concepts/signalmaxxing): The information-environment analog to vibe curation
 - [Spec Writing](/disciplines/spec-writing): Why clarity of vision matters as much as environment

@@ -14,7 +14,7 @@ description: "The runtime side of context engineering. How an agent actually pul
 
 Context engineering is the discipline of building the knowledge base. Context searching is the discipline of querying that knowledge base well at runtime.
 
-An implementer who has spent months building a deep [context lake](/disciplines/context-lake) has solved the supply problem. The agent has all the relevant information available somewhere. The next problem is harder: when the agent gets a specific request, how does it find the right slice of that lake to load into the working session?
+An implementer who has spent months building a deep context lake has solved the supply problem. The agent has all the relevant information available somewhere. The next problem is harder: when the agent gets a specific request, how does it find the right slice of that lake to load into the working session?
 
 That is context searching.
 
@@ -115,7 +115,5 @@ Context engineering builds the lake. Context searching is what makes the lake ac
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The supply side. Building the knowledge base in the first place.
-- [Context Lake](/disciplines/context-lake): The structured collection of files that context searching queries.
 - [Compounding Docs](/foundations/compounding-docs): Why every file you add (and every link you add between files) makes every future search better.
-- [Hypercontext Protocol](/concepts/hypercontext-protocol): Where context searching goes when agents start querying each other's context lakes through trusted permission surfaces.
 - [What Is Context Engineering?](https://www.youtube.com/watch?v=pN-LfxNFiTc) (Martin Keen, IBM): Frames the same retrieval taxonomy at the enterprise scale.

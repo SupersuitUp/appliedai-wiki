@@ -62,6 +62,4 @@ The full curriculum for truth management lives in [Truth Management (sub-section
 
 ## Further Reading
 
-- [PRM](/concepts/prm): the relationship layer of your truth repository, one of the highest-leverage applications of the discipline.
-- [Agentic Relationship Management](/disciplines/agentic-relationship-management): the active practice that compounds on top of PRM.
 - [Disciplines](/disciplines): the other craft pillars.

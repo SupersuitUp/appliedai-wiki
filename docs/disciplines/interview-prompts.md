@@ -152,5 +152,4 @@ A prompt library where every prompt is copy-paste runnable. No placeholders, no 
 - [Spec Writing](/disciplines/spec-writing): The upstream discipline of specifying what you actually want
 - [Context Engineering](/disciplines/context-engineering): Why better inputs produce better outputs
 - [Intent Engineering](/disciplines/intent-engineering): The adjacent skill of making your intent explicit to agents
-- [Train Your Agent](/foundations/train-your-agent): Interview prompts are a training mechanism, not just a querying mechanism
-- [Superprompt](/disciplines/superprompt): The interview pattern is one of the moves that turns a regular prompt into a superprompt
+- [Prompting](/disciplines/prompting): The broader discipline this pattern sits inside

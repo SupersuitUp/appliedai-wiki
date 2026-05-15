@@ -59,6 +59,4 @@ The interface someone has with the digital world is the product now. Creating th
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The engine that powers every command center
-- [Context Lake](/disciplines/context-lake): The structured collection that grows inside every command center
 - [Compounding Docs](/foundations/compounding-docs): Why command centers get more valuable over time
-- [Agentic OS Debt](/concepts/agentic-os-debt): What happens when a command center drifts out of sync with reality

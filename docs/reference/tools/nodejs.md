@@ -50,4 +50,3 @@ Verify with `node --version` and `npm --version`. Both should print version numb
 ## Further Reading
 
 - [Homebrew](/reference/tools/homebrew): how to install Node on Mac in one command.
-- [Setups](/reference/tools/setups): harness setups that depend on Node.

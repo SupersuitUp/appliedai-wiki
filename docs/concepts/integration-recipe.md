@@ -106,4 +106,3 @@ When you find yourself doing the same wiring twice, write the recipe. When you f
 ## Further Reading
 
 - [INTEGRATE.md spec](/reference/standards/integrate-md): The adjacent open standard for library authors teaching agents to wire their library into a target codebase. Different audience and shape; worth reading once to keep them straight.
-- [Capture, Process, Compound](/foundations/capture-process-compound): The general loop recipes accelerate.

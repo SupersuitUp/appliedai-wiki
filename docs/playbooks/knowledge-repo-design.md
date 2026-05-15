@@ -114,6 +114,4 @@ Skip it when:
 
 ## Further Reading
 
-- [Command Center](/playbooks/command-center) for the broader pattern of a single repo evolving into an operator's brain
 - [Teammate Discipline](/foundations/teammate-discipline) for how to behave inside a knowledge repo someone else owns
-- [Agent-Owned Media Pipeline](/playbooks/agent-owned-media-pipeline) for a concrete example of agent handoffs that feed a knowledge repo

@@ -52,6 +52,4 @@ Systematic workflows for implementing truth management:
 ## Further Reading
 
 - [Truth Management (overview)](/disciplines/truth-management): the conceptual frame this curriculum operationalizes.
-- [PRM](/concepts/prm): the relationship slice of truth management.
-- [Agentic Relationship Management](/disciplines/agentic-relationship-management): the active practice that compounds on top of PRM.
 - [Disciplines](/disciplines): the other craft pillars.

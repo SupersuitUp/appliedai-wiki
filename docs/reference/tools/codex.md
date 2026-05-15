@@ -61,12 +61,11 @@ npm install -g @openai/codex
 codex login
 ```
 
-A `.codex/` directory in the workspace serves as the persistent instruction layer, comparable to Claude Code's `CLAUDE.md`. See [Codex Setup](/reference/tools/setups/codex-setup) for the workspace setup procedure.
+A `.codex/` directory in the workspace serves as the persistent instruction layer, comparable to Claude Code's `CLAUDE.md`. See Codex Setup for the workspace setup procedure.
 
 We do not duplicate installation steps here. The tool's own docs are the source of truth.
 
 ## Further Reading
 
 - [Claude Code](/reference/tools/claude-code): the most direct comparison.
-- [Codex Setup](/reference/tools/setups/codex-setup): workspace setup procedure.
 - [Harness Engineering](/disciplines/harness-engineering): the discipline upstream of harness selection.

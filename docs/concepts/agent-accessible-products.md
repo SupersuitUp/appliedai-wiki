@@ -120,7 +120,6 @@ This is also why a sovereign workspace uses plain markdown files instead of prop
 ## Further Reading
 
 **Internal:**
-- [Computer Use](/concepts/computer-use): The universal fallback for every product that never shipped agent-accessible interfaces. Slower, more fragile, but leaves no category of digital work un-delegable.
 - [llms.txt and llms-full.txt](/concepts/llms-txt): The cheapest form of agent accessibility for anyone with a docs site or wiki
 - [Harness Engineering](/disciplines/harness-engineering): How agents interact with tools through harnesses
 - [Agentic UX Rules](/concepts/agentic-ux-rules): The product-design corollary. Growing list of UX rules for the agentic age, starting with search, natural-language settings, and agent-modifiable actions.

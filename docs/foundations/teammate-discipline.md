@@ -99,5 +99,4 @@ Resist that. Stressed-out people do not strategize. The lesson from the setback 
 ## Further Reading
 
 - [Signal Theory](/foundations/signal-theory) for the communication discipline that turns these habits into legible output
-- [Command Center](/playbooks/command-center) for the artifact layer where documentation lives
 - [Knowledge Repo Design](/playbooks/knowledge-repo-design) for how to structure what you document

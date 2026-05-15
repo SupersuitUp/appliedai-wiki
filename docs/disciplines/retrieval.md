@@ -55,10 +55,8 @@ Three patterns where reaching for retrieval is the implementer's mistake:
 ## Tools and concepts downstream
 
 - **[Context Engineering](/disciplines/context-engineering)**: the broader discipline retrieval lives inside. Retrieval is one of several ways to construct context.
-- **[Context Lake](/disciplines/context-lake)**: the king's corpus before retrieval gets layered on top.
 
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering)
-- [Context Lake](/disciplines/context-lake)
 - [Evals](/disciplines/evals)
