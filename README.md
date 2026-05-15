@@ -1,112 +1,106 @@
-# wiki-template
+# appliedai.wiki
 
-*Docusaurus 3 starter for opinionated reference wikis. The bones of every wiki in this ecosystem, extracted once so the next one ships in an hour.*
+*Curated ground truth for practitioners applying AI to businesses at the highest leverage possible.*
+
+Live at **[appliedai.wiki](https://appliedai.wiki)** (noindex, public).
 
 ---
 
-## What this is
+## What this wiki is
 
-A GitHub template repo for spinning up a new Docusaurus reference wiki with the conventions already baked in:
+A craft wiki for the implementers who serve principals (founders, CEOs, operators) running businesses with real stakes. The reader is the applied AI engineer or consultant who walks into a room with someone like that and is expected to deliver leverage, not slideware.
 
-- **Page anatomy enforced.** Frontmatter, H1 + italic one-line definition, divider, named H2 sections, Further Reading. The sample docs in `docs/` demonstrate the shape.
-- **Per-wiki branding via `wiki.config.json`.** Title, tagline, URL, GitHub org/repo, noindex toggle. The Docusaurus config and prebuild scripts read from this single source of truth.
-- **Search built in.** Custom MiniSearch plugin (Cmd+K / `/` trigger, in-memory index, no third-party service).
-- **Bot-blocked at the edge.** `middleware.ts` returns 403 for known LLM training and AI-search user agents.
-- **Noindex by default.** `robots.txt: Disallow: /` + `<meta name="robots" content="noindex, nofollow">`. Toggle via `wiki.config.json`.
-- **`llms.txt` + `llms-full.txt` at build time.** Auto-generated from your docs so well-behaved AI agents can read the wiki without crawling it.
-- **Page templates in `templates/`.** Copy-and-rename scaffolds for `concept.mdx`, `tool.mdx`, `playbook.mdx`, `case-study.mdx`.
+The wiki is opinionated. It captures patterns, foundations, and concrete plays that have produced real outcomes in real engagements. It is not a survey of AI. It is the playbook the curators wish they had on day one.
 
-## How to use this template
+## Who it is for
 
-### 1. Create a new repo from the template
+- Applied AI engineers and consultants who multiply principals
+- Operators evaluating what good applied AI implementation actually looks like
+- Founders and team leads scoping a serious AI engagement
 
-On GitHub: click **Use this template** > **Create a new repository**. Pick your org and name.
+Not for AI hobbyists, generic "AI for business" tourists, or vendors looking for a directory.
 
-Or from the CLI:
+## How the wiki is shaped
 
-```bash
-gh repo create your-org/your-wiki --template SupersuitUp/wiki-template --private
-gh repo clone your-org/your-wiki
-cd your-wiki
-```
+- **[Start Here](https://appliedai.wiki/)**: the framing, the audience, the in-progress disclaimer
+- **[Foundations](https://appliedai.wiki/foundations)**: the load-bearing principles every engagement is built on
+- **[Disciplines](https://appliedai.wiki/disciplines)**: the named practices an implementer needs in their kit
+- **[Playbooks](https://appliedai.wiki/playbooks)**: concrete procedures with concrete shapes
+- **[Engagement Patterns](https://appliedai.wiki/engagement-patterns)**: the shapes a serious engagement actually takes
+- **[Roles](https://appliedai.wiki/roles)** and **[People to Follow](https://appliedai.wiki/people-to-follow)**: who does this work and where to learn from them
+- **[Concepts](https://appliedai.wiki/concepts)**: the lexicon, flat A-Z
+- **[Reference](https://appliedai.wiki/reference)**: glossary, voice rules, quality rubric
 
-### 2. Initialize
+## In-progress disclaimer
+
+The wiki is a working document. The applied AI craft for multiplying principals gets unearthed through real engagements, not theory. Expect pruning, rewriting, and new pages as the curators surface fresh patterns from the field.
+
+## Voice rules
+
+- No em dashes. Use periods, commas, or colons.
+- One coined term lives in one place. Cross-link, do not redefine.
+- Italic one-line definition under every H1.
+- Further Reading at the bottom, internal links first.
+- Absolute paths for cross-links: `/disciplines/term`, not relative.
+- `onBrokenLinks: 'throw'`. A broken cross-link fails the build.
+
+Full voice rules: [reference/voice-rules](https://appliedai.wiki/reference/voice-rules).
+
+## Quality rubric
+
+The bar this wiki is held to lives at [reference/quality-rubric](https://appliedai.wiki/reference/quality-rubric). Seven dimensions: audience fit, craft density, attribution honesty, voice discipline, structural integrity, freshness, and signal-to-noise. Every new page is judged against the rubric before merge.
+
+## Local development
 
 ```bash
 npm install
-npm run init
-```
-
-`npm run init` prompts for title, tagline, URL, GitHub org/repo, description, and noindex preference, then writes `wiki.config.json` and updates `package.json`.
-
-### 3. Customize
-
-- **Brand colors:** edit `src/css/custom.css` (the `--ifm-color-primary-*` group).
-- **Favicon and social card:** replace `static/img/favicon.png` and `static/img/docusaurus-social-card.jpg`.
-- **Sidebar:** edit `sidebars.ts` as content grows. The template ships with three top-level categories (`Start Here`, `Concepts`, `Reference`).
-- **Voice rules:** edit `docs/reference/voice-rules.md` to encode your wiki's writing constraints.
-
-### 4. Run locally
-
-```bash
 npm start -- --port 4444
 ```
 
 Opens at `http://localhost:4444`. Hot-reload on content changes.
 
-### 5. Deploy
-
-The repo ships with `vercel.json` and is ready for Vercel auto-deploy from `main`.
+Build to validate (`onBrokenLinks: 'throw'` will catch broken cross-links):
 
 ```bash
-vercel link
+npm run build
+```
+
+## Deploy
+
+Vercel auto-deploys from `main`. To deploy manually:
+
+```bash
 vercel --prod
 ```
 
 ## Repo layout
 
 ```
-wiki.config.json           Per-wiki branding (single source of truth)
-wiki.config.schema.json    JSON schema for editor autocompletion
-docusaurus.config.ts       Reads wiki.config.json; rarely edited directly
-sidebars.ts                Sidebar structure; edited per wiki
-docs/                      Wiki content
-  start-here/              Entry point
-  concepts/                Flat A-Z lexicon
-  reference/               Tools, glossary, voice rules
-templates/                 Copy-and-rename MDX scaffolds
+wiki.config.json    Per-wiki branding (single source of truth)
+docusaurus.config.ts
+sidebars.ts
+docs/
+  start-here/
+  foundations/
+  disciplines/
+  playbooks/
+  engagement-patterns/
+  roles/
+  people-to-follow/
+  concepts/
+  reference/
 src/
-  css/custom.css           Brand colors + typography
-  components/ShareButton   Reusable copy-link button
-  theme/                   Docusaurus swizzles
-plugins/search-plugin/     Custom MiniSearch
+  css/custom.css    Brand colors + typography
+plugins/search-plugin/
 scripts/
-  init-wiki.sh             `npm run init` — interactive setup
-  generate-llms-txt.sh     Generates llms.txt at build
-  llms-txt-env.mjs         Bridges wiki.config.json -> env vars
-middleware.ts              Edge bot-block
+  generate-llms-txt.sh
+  llms-txt-env.mjs
+middleware.ts       Edge bot-block
 static/
-  img/                     Favicon, social card
-  robots.txt               Disallow all (toggle by removing if noindex=false)
+  img/favicon.png
+  robots.txt
 ```
 
-## Adding pages
+## Lineage
 
-```bash
-cp templates/concept.mdx docs/concepts/my-new-term.md
-cp templates/tool.mdx docs/reference/tools/my-new-tool.md
-```
-
-Then edit the new file. The frontmatter and page anatomy are already in place.
-
-## Conventions enforced by this template
-
-- **One coined term = one concept page.** Never redefine a term in two places. Cross-link.
-- **Italic one-line definition under every H1.** Quotable, scannable.
-- **Further Reading at the bottom.** Internal links first, outside sources second.
-- **Absolute paths for cross-links.** `/concepts/term-name`, not relative paths.
-- **`onBrokenLinks: 'throw'`.** A broken cross-link fails the build.
-
-## License
-
-Use it however you like. No attribution required.
+Forked from [SupersuitUp/wiki-template](https://github.com/SupersuitUp/wiki-template) on 2026-05-15. Conventions and tooling inherit from the template; content is original.
