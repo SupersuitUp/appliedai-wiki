@@ -8,7 +8,7 @@ description: "The cross-organizational pattern-recognizer the CEO retains person
 
 *The cross-organizational pattern-recognizer the CEO retains personally. Wide context across many companies, deep experience inside several, and direct counsel at the moments when the wrong AI decision would cost the entire business.*
 
-This is a senior advisory role. The relationship is direct, between the advisor and the CEO. It exists alongside an internal Chief AI Officer or transformation team. For the embedded operator role, see [Chief AI Officer](/roles/chief-ai-officer).
+This is a senior advisory role. The relationship is direct, between the advisor and the CEO. It exists alongside whatever internal AI transformation team the company has, but the advisor's accountability is to the CEO personally.
 
 ---
 
@@ -26,19 +26,9 @@ Three core functions:
 
 ---
 
-## How this differs from Chief AI Officer
+## How this differs from an internal embedded role
 
-Both roles serve the AI transformation of an organization. The relationships are different.
-
-| | Chief AI Officer | AI Advisor to the CEO |
-|---|---|---|
-| Relationship | Embedded in one company | Direct relationship with the CEO across companies |
-| Scope of work | Ships systems, runs the transformation, leads the team | Calibrates judgment, surfaces signal, names what others won't |
-| Context | One company, deep | Many companies, deep across all of them |
-| Time commitment | Significant. Fractional or full-time | Small. Typically a few hours of intense work per month |
-| Reports to | The CEO (as part of the org) | The CEO (as personal counsel) |
-
-The two roles are complements. A company with a strong CAIO still benefits from an AI Advisor to the CEO, because cross-organizational pattern recognition cannot be reproduced from inside. A company without a CAIO needs the advisor even more acutely, because the CEO is the de facto AI decision-maker and the wrong call has nowhere to land.
+A company that is serious about AI usually has someone embedded internally who ships the systems, runs the transformation day to day, and leads the in-house team. The Advisor is a different shape. The embedded role is one company, deep. The Advisor is many companies, deep across all of them. The embedded role is full-time or fractional with significant weekly hours. The Advisor is small, typically a few hours of intense work per month. The two are complements. The embedded role makes the work happen. The Advisor calibrates whether the work is the right work in the first place, using cross-organizational signal that cannot be reproduced from inside a single company.
 
 ---
 
@@ -82,7 +72,7 @@ The relationship is direct between advisor and CEO. Internal teams are looped in
 
 **The CEO directly.** The relationship is personal. Trust is the substrate.
 
-**The Chief AI Officer (if one exists), the head of product, and the head of engineering.** Looped in by the CEO when the conversation requires it. The advisor stays out of internal politics and is careful to avoid undermining the in-house team's accountability.
+**The internal AI lead (if one exists), the head of product, and the head of engineering.** Looped in by the CEO when the conversation requires it. The advisor stays out of internal politics and is careful to avoid undermining the in-house team's accountability.
 
 **The board, occasionally.** When the AI strategy needs board-level grounding, the advisor may join to brief or to align. This is at the CEO's invitation.
 
@@ -126,7 +116,6 @@ This is a role most practitioners grow into rather than enter from outside. The 
 
 ## Further Reading
 
-- [Chief AI Officer](/roles/chief-ai-officer). The embedded operator role. Complementary to the Advisor.
-- [Roles](/roles). The broader landscape of emerging applied AI roles.
+- [Roles](/roles). The broader landscape of emerging applied AI implementer roles.
 - [Disciplines](/disciplines). The craft pillars the advisor draws on when calibrating strategy.
 - [The Elevator Economy](/foundations/the-elevator-economy). The macro context that makes this role urgent.

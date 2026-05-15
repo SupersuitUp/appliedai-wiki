@@ -112,6 +112,6 @@ The best consultants are stack-flexible. They ask the client "what are you runni
 ## Further Reading
 
 - [Roles](/roles). The broader landscape of emerging applied AI roles.
-- [Chief AI Officer](/roles/chief-ai-officer). The senior role this one often grows into.
+- [AI Advisor to the CEO](/roles/ai-advisor-to-the-ceo). The senior advisory shape an experienced consultant often grows into.
 - [Disciplines](/disciplines). The craft pillars the consultant draws from.
 - [Playbooks](/playbooks). The procedures the consultant runs on engagements.

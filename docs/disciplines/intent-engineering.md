@@ -54,7 +54,7 @@ Three reasons.
 
 First, it's genuinely new. Before agents could run autonomously over long time horizons, organizations didn't need this. The human was the intent layer. Long-running agents broke that model and created a demand for something that didn't exist.
 
-Second, it's a two-cultures problem. The people who understand organizational strategy (executives, operations leaders) are not the people who build agents. The people building agents (engineers) don't typically see organizational alignment as their job. Bridging that gap requires someone whose role explicitly spans both. The Chief AI Officer role is emerging to do exactly this.
+Second, it's a two-cultures problem. The people who understand organizational strategy (executives, operations leaders) are not the people who build agents. The people building agents (engineers) don't typically see organizational alignment as their job. Bridging that gap requires someone whose role explicitly spans both. The applied AI implementer specialty exists to do exactly this.
 
 Third, it's hard. Making organizational intent explicit and structured is difficult work. Most organizations have never had to do it. Their values live in slide decks, in leadership principles that get cited during performance reviews but aren't operationalized, in the tacit knowledge of experienced employees who know what to do in ambiguous situations even though they've never been told.
 

@@ -32,11 +32,9 @@ This role sits in a specific lane. The boundaries matter.
 
 **vs. [Applied AI Consultant](/roles/applied-ai-consultant):** the consultant builds specific AI solutions for specific business problems (automate this workflow, build this agent, integrate these systems). The Enablement Architect builds the platform that enables everyone in the company to build their own solutions. The consultant delivers fish. The Enablement Architect teaches a company to fish by building the fishing infrastructure.
 
-**vs. [Chief AI Officer](/roles/chief-ai-officer):** the CAIO is the strategic leader who sets the transformation vision, leads identity shifts, and designs the self-improving organization at the executive level. The Enablement Architect reports to (or works alongside) the CAIO and handles the implementation: the platform, the integrations, the skill marketplace, the adoption mechanics. The CAIO says "we will become the most productive company in the world." The Enablement Architect builds the infrastructure that makes it possible.
+**vs. an internal executive AI lead:** the executive lead sets the transformation vision, drives identity shifts, and designs the self-improving organization at the executive level. The Enablement Architect reports to (or works alongside) that leader and handles the implementation: the platform, the integrations, the skill marketplace, the adoption mechanics. The executive says "we will become the most productive company in the world." The Enablement Architect builds the infrastructure that makes it possible.
 
-**vs. Business OS Administrator:** the BOS Admin maintains the ongoing operating environment: agent orchestration, context curation, access governance. The Enablement Architect focuses specifically on the upskilling and adoption layer: getting every employee productive with AI, building the skill-sharing infrastructure, and driving the cultural transformation. In mature organizations these roles work in tandem. The Enablement Architect builds the platform. The BOS Admin keeps it running.
-
-**vs. Agentic OS Trainer:** the Trainer runs workshops and coaches individuals through agent setup. The Enablement Architect operates at the organizational level: deploying the company-wide platform, designing the skill marketplace, building adoption mechanics, and integrating with enterprise systems. A Trainer might run a workshop at the company. The Enablement Architect builds the permanent infrastructure that makes every employee's daily AI experience seamless.
+**vs. [Agentic OS Trainer](/roles/agentic-os-trainer):** the Trainer runs workshops and coaches individuals through agent setup. The Enablement Architect operates at the organizational level: deploying the company-wide platform, designing the skill marketplace, building adoption mechanics, and integrating with enterprise systems. A Trainer might run a workshop at the company. The Enablement Architect builds the permanent infrastructure that makes every employee's daily AI experience seamless.
 
 ---
 
@@ -131,7 +129,7 @@ The strongest AI Enablement Architects combine all three: they can build the pla
 ## Further Reading
 
 - [Roles](/roles). The broader landscape of emerging applied AI roles.
-- [Chief AI Officer](/roles/chief-ai-officer). The strategic role this one typically reports to.
 - [Applied AI Consultant](/roles/applied-ai-consultant). The adjacent client-facing build role.
+- [Corporate Upskiller](/roles/corporate-upskiller). The change-management partner an Enablement Architect often pairs with.
 - [Playbooks](/playbooks). The procedures the architect runs.
 - [Disciplines](/disciplines). The craft pillars (harness engineering, context engineering) this role is built on.

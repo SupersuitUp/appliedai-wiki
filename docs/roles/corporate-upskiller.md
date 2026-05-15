@@ -79,7 +79,6 @@ A well-run Corporate Upskiller practice is a real business. The market is large,
 
 ## Further Reading
 
-- [Chief AI Officer](/roles/chief-ai-officer). The internal counterpart. A Corporate Upskiller often partners with the Chief AI Officer during an engagement.
 - [AI Enablement Architect](/roles/ai-enablement-architect). The platform-infrastructure role. Corporate Upskillers deliver the human layer; Enablement Architects build the platform underneath.
 - [Agentic OS Trainer](/roles/agentic-os-trainer). The individual-activation role. Trainers install one person's agent workspace; Corporate Upskillers do the same at organizational scale.
 - [Playbooks](/playbooks). The procedures Corporate Upskillers adapt and run.

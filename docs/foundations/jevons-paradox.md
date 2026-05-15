@@ -64,7 +64,7 @@ Concretely:
 
 ### Entirely new categories of work
 
-Jobs that did not exist before. AI product managers. AI safety engineers. Prompt engineers. Applied AI practitioners. AI operating-environment trainers. Chief AI Officers. These roles are being defined right now, by the people filling them for the first time. This is where the fastest wage growth of the decade is landing.
+Jobs that did not exist before. AI product managers. AI safety engineers. Prompt engineers. Applied AI implementers. AI operating-environment trainers. Cross-functional AI leaders. These roles are being defined right now, by the people filling them for the first time. This is where the fastest wage growth of the decade is landing.
 
 ### Long-tail services that were priced out
 
