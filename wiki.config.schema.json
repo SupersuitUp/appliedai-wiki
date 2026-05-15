@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Wiki configuration",
+  "description": "Per-wiki branding and behavior. Edit directly or run `npm run init`.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "tagline",
+    "url",
+    "organizationName",
+    "projectName",
+    "copyright",
+    "noindex",
+    "description"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "title": { "type": "string", "description": "Site title and navbar label" },
+    "tagline": { "type": "string", "description": "One-line site tagline" },
+    "url": { "type": "string", "description": "Production URL with protocol" },
+    "organizationName": { "type": "string", "description": "GitHub org/user" },
+    "projectName": { "type": "string", "description": "GitHub repo name" },
+    "copyright": { "type": "string", "description": "Footer copyright text" },
+    "noindex": { "type": "boolean", "description": "If true, robots noindex meta + disable sitemap" },
+    "description": { "type": "string", "description": "Site description used in llms.txt header" }
+  }
+}

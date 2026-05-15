@@ -1,0 +1,11 @@
+{
+  "$schema": "./wiki.config.schema.json",
+  "title": "Template Wiki",
+  "tagline": "A Docusaurus wiki starter",
+  "url": "https://example.com",
+  "organizationName": "your-org",
+  "projectName": "your-wiki",
+  "copyright": "Template Wiki",
+  "noindex": true,
+  "description": "Canonical reference for the topic this wiki covers."
+}
