@@ -14,4 +14,4 @@ The Glossary is a fast-scanning index: every coined term on one line, linked to 
 
 Use this when you want to skim the surface area of the wiki without committing to a full read.
 
-- **[Sample Concept](/concepts/sample-concept)** — one-line definition of the sample concept.
+- **[Sample Concept](/concepts/sample-concept)**: one-line definition of the sample concept.
