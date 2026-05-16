@@ -2,12 +2,14 @@
 title: Start Here
 slug: /
 sidebar_position: 1
-description: "Ground truth for implementers multiplying the kings of their entrepreneurial ecosystems."
+description: "The implementer multiplies the king. Ground truth for the implementer's craft, before the engagement begins."
 ---
 
 # appliedai.wiki
 
-*Ground truth for implementers multiplying the kings of their entrepreneurial ecosystems. Pre-engagement scaffolding. The real craft gets unearthed in the work.*
+*The implementer multiplies the king. Ground truth for the implementer's craft, before the engagement begins. The real work gets unearthed in the engagement itself.*
+
+![Three-panel comic. THE KING'S CEILING: a dignified king (salt-and-pepper hair, sharp suit, expensive watch) at a corner-office desk overlooking his empire (REAL ESTATE, HOLDINGS, CONTENT, CAPITAL verticals visible through windows); a massive thought-cloud above his head with idea-nodes (NEW FUND VEHICLE, MARKET-ENTRY PLAN, ACQUISITION, CONTENT THESIS, HIRING SPEC); only one workstream actively flowing to his team below (EXECUTING ACQUISITION WORKSTREAM 23%); floor line reads EMPIRE TOO BIG FOR HUMAN-CAP SCALING; king is not yet armored. Caption: 'The king's empire outgrew human-cap scaling.' THE IMPLEMENTER'S CRAFT: the applied AI engineer (hoodie + jeans, focused) at a high-tech workbench inside the king's compound assembling a custom armored chest plate; cyan holographic blueprints of the king's empire architecture floating around him; toolbox labeled APPLIED AI open at his feet with named disciplines visible (PROMPTING, CONTEXT ENGINEERING, EVALS, AGENTS, RETRIEVAL); HIGH-LEVERAGE filter chart visible; the king beside him watching engaged; arc-reactor cyan core starting to glow on the chest plate. Caption: 'The implementer arrives with disciplines, toolbox, and a working filter for what is high-leverage.' KINGDOM MULTIPLIED: wide third-person establishing shot — the king (now wearing his armored chest plate with cyan core, gauntlets, gold halo and agentic swirl glyph above him) and the implementer (same hoodie, toolbox closed at his feet labeled APPLIED AI) stand side-by-side smiling on a balcony surveying the king's empire thriving below; the same verticals (REAL ESTATE, HOLDINGS, CONTENT, CAPITAL) now visibly all operating in parallel with cyan glow; outcome cards float in the air (NEW FUND CLOSED, ACQUISITION SIGNED, CONTENT SHIPPED Q4, EU EXPANSION LAUNCHED); banner reads EMPIRE: HYPERSCALED. Caption: 'Kingdom hyperscaled. Implementer embedded.' Title bar: APPLIED AI. Footer bar: THE IMPLEMENTER MULTIPLIES THE KING.](/img/comics/homepage.png)
 
 ---
 
