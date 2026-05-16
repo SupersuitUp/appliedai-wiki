@@ -51,7 +51,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: undefined,
+    image: 'img/social-card.jpg',
     navbar: {
       title: wiki.title,
       logo: undefined,
