@@ -18,15 +18,8 @@ interface CreationDatePluginContent {
 
 const SECTION_LABELS: Record<string, string> = {
   concepts: 'Concept',
-  disciplines: 'Discipline',
-  'engagement-patterns': 'Engagement Pattern',
-  foundations: 'Foundation',
-  onboarding: 'Onboarding',
-  'people-to-follow': 'Person',
-  playbooks: 'Playbook',
-  reference: 'Reference',
-  roles: 'Role',
-  'start-here': 'Start Here',
+  guides: 'Guide',
+  'case-studies': 'Case Study',
 };
 
 function sectionLabel(section: string): string {
@@ -47,6 +40,44 @@ function monthHeading(d: Date): string {
 function isoDay(iso: string): string {
   return new Date(iso).toISOString().slice(0, 10);
 }
+
+// A file is "new" if its first commit and most recent commit are the same.
+// When sortBy='updated', a row may appear because the file was edited; in
+// that case the badge should read "Updated" even though the file may have
+// been created earlier in the same month. When sortBy='created', the badge
+// always reads "New" because the row is anchored to the creation event.
+function isNew(f: RecentFile, sortBy: 'created' | 'updated'): boolean {
+  if (sortBy === 'created') return true;
+  return f.creationDate === f.lastModifiedDate;
+}
+
+const NEW_BADGE_STYLE: React.CSSProperties = {
+  display: 'inline-block',
+  fontSize: '0.7em',
+  fontWeight: 700,
+  letterSpacing: '0.04em',
+  padding: '0.05rem 0.4rem',
+  borderRadius: '0.2rem',
+  background: 'rgba(34, 197, 94, 0.18)',
+  color: 'rgb(22, 163, 74)',
+  border: '1px solid rgba(34, 197, 94, 0.45)',
+  textTransform: 'uppercase',
+  verticalAlign: 'middle',
+};
+
+const UPDATED_BADGE_STYLE: React.CSSProperties = {
+  display: 'inline-block',
+  fontSize: '0.7em',
+  fontWeight: 700,
+  letterSpacing: '0.04em',
+  padding: '0.05rem 0.4rem',
+  borderRadius: '0.2rem',
+  background: 'rgba(59, 130, 246, 0.16)',
+  color: 'rgb(37, 99, 235)',
+  border: '1px solid rgba(59, 130, 246, 0.4)',
+  textTransform: 'uppercase',
+  verticalAlign: 'middle',
+};
 
 interface Props {
   sortBy?: 'created' | 'updated';
@@ -97,36 +128,42 @@ export default function Changelog({
           <section key={key} style={{ marginBottom: '2.25rem' }}>
             <h2 style={{ marginBottom: '0.75rem' }}>{heading}</h2>
             <ul style={{ paddingLeft: '1.25rem' }}>
-              {filesInGroup.map((f) => (
-                <li
-                  key={f.docKey}
-                  style={{ marginBottom: '0.5rem', lineHeight: 1.55 }}
-                >
-                  <code
-                    style={{
-                      fontSize: '0.85em',
-                      opacity: 0.7,
-                      padding: '0 0.25rem',
-                      background: 'transparent',
-                      border: 'none',
-                    }}
+              {filesInGroup.map((f) => {
+                const fileIsNew = isNew(f, sortBy);
+                return (
+                  <li
+                    key={f.docKey}
+                    style={{ marginBottom: '0.5rem', lineHeight: 1.55 }}
                   >
-                    {isoDay(dateField(f))}
-                  </code>{' '}
-                  <span style={{ opacity: 0.6, fontSize: '0.85em' }}>
-                    ({sectionLabel(f.section)})
-                  </span>{' '}
-                  <Link to={f.routePath}>
-                    <strong>{f.title}</strong>
-                  </Link>
-                  {f.description && (
-                    <>
-                      :{' '}
-                      <span style={{ opacity: 0.85 }}>{f.description}</span>
-                    </>
-                  )}
-                </li>
-              ))}
+                    <span style={fileIsNew ? NEW_BADGE_STYLE : UPDATED_BADGE_STYLE}>
+                      {fileIsNew ? 'New' : 'Updated'}
+                    </span>{' '}
+                    <code
+                      style={{
+                        fontSize: '0.85em',
+                        opacity: 0.7,
+                        padding: '0 0.25rem',
+                        background: 'transparent',
+                        border: 'none',
+                      }}
+                    >
+                      {isoDay(dateField(f))}
+                    </code>{' '}
+                    <span style={{ opacity: 0.6, fontSize: '0.85em' }}>
+                      ({sectionLabel(f.section)})
+                    </span>{' '}
+                    <Link to={f.routePath}>
+                      <strong>{f.title}</strong>
+                    </Link>
+                    {f.description && (
+                      <>
+                        :{' '}
+                        <span style={{ opacity: 0.85 }}>{f.description}</span>
+                      </>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </section>
         );
