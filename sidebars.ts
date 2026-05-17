@@ -110,6 +110,7 @@ const sidebars: SidebarsConfig = {
         'reference/glossary',
       ],
     },
+    'changelog',
   ],
 };
 

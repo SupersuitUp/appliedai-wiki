@@ -1,0 +1,8 @@
+{
+  "name": "creation-date-plugin",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@docusaurus/types": "^3.0.0"
+  }
+}
