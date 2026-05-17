@@ -119,13 +119,16 @@ export default function creationDatePlugin(
           .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
           .join(' ');
 
+        const stripNumberPrefix = (s: string) => s.replace(/^\d+-/, '');
+        const cleanedDocKey = docKey.split('/').map(stripNumberPrefix).join('/');
+
         recentFiles.push({
           docKey,
           routePath: fm.slug
             ? fm.slug.startsWith('/')
               ? fm.slug
               : `/${fm.slug}`
-            : `/${docKey}`,
+            : `/${cleanedDocKey}`,
           section,
           title: fm.title || fallbackTitle,
           description: fm.description,
