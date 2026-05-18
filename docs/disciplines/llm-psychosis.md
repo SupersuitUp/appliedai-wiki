@@ -79,7 +79,7 @@ If a package is individually self-consistent and well tested end-to-end, you can
 
 If you cannot plan and manage a project and architecture for ten engineers, you cannot do it for ten agents either. The agentic stack does not install management capacity. It exposes the lack of it.
 
-The operators currently shipping working systems with eight to ten parallel agents are, almost without exception, people who could already do this work without LLMs. The decade of pre-AI engineering practice they did before the agents arrived is the load-bearing layer. The agents amplify. They do not install the upstream skill.
+The operators currently shipping working systems with eight to ten parallel agents are, almost without exception, people who could already do this work without LLMs. The decade of pre-AI engineering practice they did before the agents arrived is the load-bearing layer. The agents execute. They do not install the upstream skill.
 
 This is the [You Are the Bottleneck](/concepts/you-are-the-bottleneck) frame applied to agents. Smart hires cannot reach up and fix you from below. Smart agents cannot either. The judgment, architecture, and discrimination still have to come from you.
 

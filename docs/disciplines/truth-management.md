@@ -22,7 +22,7 @@ A practitioner running serious workflows operates with a compounding agent surfa
 
 This is the substrate problem. You can have excellent tools and poor truth management. The tools will produce plausible-looking output that does not serve your actual situation. You can have modest tools and excellent truth management. The tools will produce output that consistently lands.
 
-A productive worker can get away with thin truth management because their output is not compounding. Each task starts from scratch. An operator running an AI-leveraged organization cannot get away with it. Their surface compounds from a foundation. If the foundation is poor, the compounding amplifies the inaccuracy.
+A productive worker can get away with thin truth management because their output is not compounding. Each task starts from scratch. An operator running an AI-leveraged organization cannot get away with it. Their surface compounds from a foundation. If the foundation is poor, the compounding magnifies the inaccuracy.
 
 ## The repeated-question test
 

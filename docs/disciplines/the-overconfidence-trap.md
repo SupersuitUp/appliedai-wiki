@@ -70,7 +70,7 @@ The only way to build taste is the old way: study excellent work in your domain,
 
 ### Business Sense
 
-If you are using AI to augment your ability to make money, business sense is the third prerequisite. Without it, the multiplier amplifies noise, not revenue.
+If you are using AI to augment your ability to make money, business sense is the third prerequisite. Without it, the multiplier just scales noise, not revenue.
 
 Business sense means knowing what creates value for whom, what people will actually pay for, and which of your outputs are commercial versus decorative. An operator without business sense, given AI leverage, produces 10x more beautiful artifacts that nobody buys. They feel productive. The bank account stays flat.
 

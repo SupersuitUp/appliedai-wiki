@@ -18,7 +18,7 @@ The philosophical foundation. Why AI changes what people are FOR, not just what 
 
 - **0.1 The Great Reveal.** Why AI changes what people are FOR, not just what they can DO.
 - **0.2 What Is Agency?** High agency in the ordinary sense, then what it takes to operate at a level current frameworks do not yet describe.
-- **0.3 What Is Amplified Agency?** Purpose-driven action amplified by technology and aligned with the operator's actual context.
+- **0.3 What Is Compound Agency?** Purpose-driven action executed at scale by technology and aligned with the operator's articulated will.
 - **0.4 What Is Applied AI?** The difference between knowing AI exists and applying it to your specific life.
 
 ## Part 1: The Foundation (Concepts)

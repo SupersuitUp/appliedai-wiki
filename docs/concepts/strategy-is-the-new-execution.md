@@ -75,9 +75,9 @@ This loop, repeated daily, compounds. After 90 days your AI knows your prioritie
 
 ## For different audiences
 
-**Knowledge workers:** The person with the same job title as you who uses AI strategically will produce 5x to 10x the output. The gap is not typing speed. It is thinking clarity amplified by a system that has full context on their work.
+**Knowledge workers:** The person with the same job title as you who uses AI strategically will produce 5x to 10x the output. The gap is not typing speed. It is thinking clarity multiplied by a system that has full context on their work.
 
-**Business owners:** Your competitive advantage is no longer operational efficiency. It is the quality of your strategic thinking, amplified by an AI that knows your business as well as you do.
+**Business owners:** Your competitive advantage is no longer operational efficiency. It is the quality of your strategic thinking, multiplied by an AI that knows your business as well as you do.
 
 **Practitioners and consultants:** When you help a client, the highest-value service is not configuring their tools. It is helping them think clearly about what to build, who to serve, and what to measure. The tools serve the strategy.
 

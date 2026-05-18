@@ -29,7 +29,7 @@ That relationship has inverted. The tools are now powerful enough for almost any
 - **Can you articulate what you want?** If you cannot specify it clearly, AI cannot execute it. [Spec writing](/disciplines/spec-writing) is the new literacy.
 - **Can you give AI your context?** If the model knows nothing about you, your business, your clients, or your goals, it will produce generic output. Externalizing your brain is the prerequisite.
 - **Can you build systems, not just have conversations?** A single chat prompt is prompt engineering. A persistent system that reads your context, executes your workflows, and improves over time is [harness engineering](/disciplines/harness-engineering). The gap between these two is the gap between a tourist and a resident.
-- **Do you know what to build?** This is the deepest constraint. AI amplifies direction. If you have no direction, it amplifies nothing. If you have the wrong direction, it accelerates you toward the wrong destination. The people who know what they were made to build have a structural advantage that no amount of technical skill can replicate.
+- **Do you know what to build?** This is the deepest constraint. AI executes on articulated direction. Without direction, it executes nothing. With the wrong direction, it accelerates you toward the wrong destination. The people who know what they were made to build have a structural advantage that no amount of technical skill can replicate.
 
 The bottleneck is not the AI. The bottleneck is you.
 
@@ -51,11 +51,11 @@ For most people, effective AGI becomes real through three specific unlocks:
 
 **2. Persistence makes it compound.** A single conversation with AI is useful. A persistent system that remembers everything, updates itself daily, and gets better over time is transformative. At 90 days of compounding context, the system knows your operation well enough to anticipate what you need before you ask.
 
-**3. Self-knowledge makes it aligned.** AI amplifies whatever you point it at. If you know your unique gifts, your mission, and the specific value you bring to the world, AI amplifies something real. If you do not, AI amplifies drift. This is the deepest unlock, and it is the one no technology can provide. You have to do the inner work.
+**3. Self-knowledge makes it aligned.** AI executes against whatever you point it at. If you know your unique gifts, your mission, and the specific value you bring to the world, AI executes against something real. If you do not, AI executes against drift. This is the deepest unlock, and it is the one no technology can provide. You have to do the inner work.
 
 ## The Practical Implication
 
-If effective AGI is here, the correct response is not to learn everything about AI. It is to get clear on what you are building and why, then build the system that amplifies it.
+If effective AGI is here, the correct response is not to learn everything about AI. It is to get clear on what you are building and why, then build the system that executes on it at scale.
 
 Start with your command center. Externalize your brain. Give your AI agent the context it needs to be genuinely useful. Put in the reps daily. Within weeks, you will experience what compound-agency practitioners experience: a qualitative shift in what you can accomplish, not because you became smarter, but because you removed the barriers between your intent and your execution.
 
