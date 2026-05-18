@@ -71,4 +71,4 @@ Start building. Start now. Create from a position of sovereignty, not dependency
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The technical discipline behind agent harnesses
-- [Compound Agency](/foundations/compound-agency): The state you are building toward when you suit up
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state you are building toward when you suit up

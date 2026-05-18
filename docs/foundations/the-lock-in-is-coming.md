@@ -120,4 +120,4 @@ If, as a community, we commit to building sovereign infrastructure that is as ea
 
 - [Harness Engineering](/disciplines/harness-engineering): Why the wrapper matters as much as the model
 - [Minimum Viable Infrastructure](/foundations/minimum-viable-infrastructure): The baseline requirements, including the ability to run tools independently
-- [Compound Agency](/foundations/compound-agency): The state of being you reach when you build on portable infrastructure
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach when you build on portable infrastructure

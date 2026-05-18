@@ -85,5 +85,5 @@ The future for a non-developer is not learning to code. The future is learning t
 
 ## Further Reading
 
-- [Compound Agency](/foundations/compound-agency): The state of being you reach once you cross the line
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach once you cross the line
 - [Harness Engineering](/disciplines/harness-engineering): The technical layer the terminal puts you closer to

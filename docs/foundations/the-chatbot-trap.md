@@ -100,4 +100,4 @@ Once a person has their own environment running and has watched it do one substa
 
 - [The Chat Is Not the Product](/foundations/the-chat-is-not-the-product): The downstream workflow trap that lives inside the same mental-model trap.
 - [Effective AGI](/foundations/effective-agi): The capability claim that the chatbot trap obscures.
-- [Compound Agency](/foundations/compound-agency): The state of being you reach once the trap is broken and you build the persistent system around your work.
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach once the trap is broken and you build the persistent system around your work.

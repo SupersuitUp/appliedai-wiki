@@ -39,7 +39,7 @@ If you believe AGI is five or ten years away, you plan accordingly. You wait. Yo
 
 If you understand that effective AGI is here now, the calculus changes completely. Every month you wait is a month where someone else is compounding their advantage with tools that already work. The [elevator economy](/foundations/the-elevator-economy) is not a future scenario. It is the current reality. The divergence between people who have harnessed effective AGI and people who have not is already dramatic, and it is accelerating.
 
-This is what makes [compound agency](/foundations/compound-agency) urgent. A compound-agency practitioner is not waiting for better tools. They have taken what exists today and built a system around themselves that multiplies their unique capabilities. They are operating at a level that looks like magic to people who are still debating whether AI is "ready."
+This is what makes [hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency) urgent. A hyperagent is not waiting for better tools. They have taken what exists today and built a system around themselves that executes on their articulated will at scale. They are operating at a level that looks like magic to people who are still debating whether AI is "ready."
 
 It is ready. The question is whether you are.
 
@@ -57,7 +57,7 @@ For most people, effective AGI becomes real through three specific unlocks:
 
 If effective AGI is here, the correct response is not to learn everything about AI. It is to get clear on what you are building and why, then build the system that executes on it at scale.
 
-Start with your command center. Externalize your brain. Give your AI agent the context it needs to be genuinely useful. Put in the reps daily. Within weeks, you will experience what compound-agency practitioners experience: a qualitative shift in what you can accomplish, not because you became smarter, but because you removed the barriers between your intent and your execution.
+Start with your command center. Externalize your brain. Give your AI agent the context it needs to be genuinely useful. Put in the reps daily. Within weeks, you will experience what hyperagents experience: a qualitative shift in what you can accomplish, not because you became smarter, but because you removed the barriers between your intent and your execution.
 
 The tools are ready. Suit up.
 
@@ -65,7 +65,7 @@ The tools are ready. Suit up.
 
 ## Further Reading
 
-- [Compound Agency](/foundations/compound-agency): The state of being you reach when you harness effective AGI
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach when you harness effective AGI
 - [Context Engineering](/disciplines/context-engineering): The discipline that makes AGI effective for your specific situation
 - [Harness Engineering](/disciplines/harness-engineering): Building the persistent system around the model
 - [The Survivor Economy](/foundations/the-survivor-economy): The economic reality created by effective AGI
