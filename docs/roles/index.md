@@ -39,4 +39,7 @@ These are not job descriptions copied from postings. They are doctrine pages: an
 
 - [Playbooks](/playbooks). The procedures these roles actually run.
 - [Disciplines](/disciplines). The craft pillars these roles draw from.
-- [People to Follow](/people-to-follow). Individual practitioners worth tracking.
+
+<!-- TODO: restore once /people-to-follow has real content:
+  - [People to Follow](/people-to-follow). Individual practitioners worth tracking.
+-->

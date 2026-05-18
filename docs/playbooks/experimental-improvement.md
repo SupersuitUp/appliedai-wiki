@@ -109,5 +109,8 @@ That's the bar worth aiming for.
 ## Further Reading
 
 - [ICP clarity](/playbooks/icp-clarity). Get clear on who you're serving before you optimize anything.
-- [Beyond automation](/playbooks/beyond-automation). The business-owner-side framing of this same principle.
 - [First eval harness](/playbooks/first-eval-harness). The technical scaffolding for systematic improvement.
+
+<!-- TODO: restore link once this playbook exists:
+  - /playbooks/beyond-automation (the business-owner-side framing of this same principle)
+-->

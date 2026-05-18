@@ -34,7 +34,7 @@ If five of five clear both bars, the audience fit is right. If pages feel like A
 These are grep and build checks. Either they pass or they do not.
 
 - `grep -rn '—' docs/` returns zero
-- `grep -rniE 'AAS|Applied AI Society|Imagos|Curia Regis|Travis Oliphant|Pegasus|human unicorn|Daniel as a service|counselors to the kings|strategy for kings|Christofuturist|1000x' docs/` returns zero. (The standalone word "king" is allowed as a canonical term-of-art on this wiki and is not forbidden. Only the Curia-Regis-flavored phrases above are.)
+- `grep -rnE '\bAAS\b|Applied AI Society|Imagos|Curia Regis|Travis Oliphant|Pegasus|human unicorn|Daniel as a service|counselors to the kings|strategy for kings|Christofuturist|1000x' docs/` returns zero. AAS uses word boundaries so it does not falsely match "SaaS". Case-sensitive on purpose; the brand terms have canonical capitalization. The standalone word "king" is allowed as a canonical term-of-art on this wiki and is not forbidden. Only the Curia-Regis-flavored phrases above are.
 - One hundred percent of pages have: frontmatter (title, slug, description), H1 matching title, italic one-line definition under H1, `---` divider, Further Reading section
 - `npm run build` passes with `onBrokenLinks: 'throw'`
 - The `slug:` in frontmatter matches the file path on every page

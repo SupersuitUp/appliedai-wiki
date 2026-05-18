@@ -13,7 +13,7 @@ description: "The Applied AI Engineer multiplies the king. Ground truth for the 
 
 ---
 
-:::warning IN PROGRESS — READ THIS FIRST
+:::warning IN PROGRESS. READ THIS FIRST
 
 This wiki is a snapshot of what the operators behind it currently believe about applying AI to a king's empire. It is **not** a finished manual. It is the starting point you reach for before an engagement so the first conversation skips the preamble.
 

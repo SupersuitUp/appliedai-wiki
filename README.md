@@ -27,7 +27,7 @@ Not for AI hobbyists, generic "AI for business" tourists, or vendors looking for
 - **[Disciplines](https://appliedai.wiki/disciplines)**: the named practices an implementer needs in their kit
 - **[Playbooks](https://appliedai.wiki/playbooks)**: concrete procedures with concrete shapes
 - **[Engagement Patterns](https://appliedai.wiki/engagement-patterns)**: the shapes a serious engagement actually takes
-- **[Roles](https://appliedai.wiki/roles)** and **[People to Follow](https://appliedai.wiki/people-to-follow)**: who does this work and where to learn from them
+- **[Roles](https://appliedai.wiki/roles)**: the named roles inside a king's AI org
 - **[Concepts](https://appliedai.wiki/concepts)**: the lexicon, flat A-Z
 - **[Reference](https://appliedai.wiki/reference)**: glossary, voice rules, quality rubric
 

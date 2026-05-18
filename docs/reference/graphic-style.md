@@ -14,7 +14,7 @@ This wiki is part of the [Supersuit Up wiki family](https://supersuit.wiki) and 
 
 ## Article-hero comic strips (default)
 
-The default illustration for any article on this wiki is a **comic-strip summary** in neo-comic action-zine style with high-tech power-armor visual DNA — the same family used across [supersuit.wiki](https://supersuit.wiki) and the rest of the Supersuit Up wiki family. Cream paper, bold inked outlines, crimson + cobalt + gold + arc-reactor cyan, first-person helmet-visor POV as the signature panel, panel count matched to the article's beats.
+The default illustration for any article on this wiki is a **comic-strip summary** in neo-comic action-zine style with high-tech power-armor visual DNA, the same family used across [supersuit.wiki](https://supersuit.wiki) and the rest of the Supersuit Up wiki family. Cream paper, bold inked outlines, crimson + cobalt + gold + arc-reactor cyan, first-person helmet-visor POV as the signature panel, panel count matched to the article's beats.
 
 **Canonical spec:** [supersuit.wiki/reference/graphic-style](https://supersuit.wiki/reference/graphic-style). The full prompt template, palette, panel-count rules, and IP-name discipline live there.
 
