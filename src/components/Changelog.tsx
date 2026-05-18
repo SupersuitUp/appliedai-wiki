@@ -41,6 +41,32 @@ function isoDay(iso: string): string {
   return new Date(iso).toISOString().slice(0, 10);
 }
 
+// Renders inline markdown link syntax `[text](url)` in description strings.
+// Descriptions come from doc frontmatter and sometimes contain links to
+// related concepts; without parsing, the brackets render literally.
+function renderDescription(text: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    nodes.push(
+      <Link key={key++} to={match[2]}>
+        {match[1]}
+      </Link>,
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+  return nodes;
+}
+
 // A file is "new" if its first commit and most recent commit are the same.
 // When sortBy='updated', a row may appear because the file was edited; in
 // that case the badge should read "Updated" even though the file may have
@@ -158,7 +184,9 @@ export default function Changelog({
                     {f.description && (
                       <>
                         :{' '}
-                        <span style={{ opacity: 0.85 }}>{f.description}</span>
+                        <span style={{ opacity: 0.85 }}>
+                          {renderDescription(f.description)}
+                        </span>
                       </>
                     )}
                   </li>
