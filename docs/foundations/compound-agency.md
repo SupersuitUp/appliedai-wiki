@@ -1,12 +1,12 @@
 ---
 title: Compound Agency
 slug: /foundations/compound-agency
-description: The state of a human wrapped in AI systems that amplify their capability, judgment, and reach until their effective output diverges from baseline by orders of magnitude.
+description: The state of a human who has built AI systems that execute on their articulated will at scale, until their effective output diverges from baseline by orders of magnitude.
 ---
 
 # Compound Agency
 
-*A human being wrapped in AI systems that amplify their unique capabilities, judgment, and vision, until their effective output diverges from anyone operating without that amplification.*
+*A human being wrapped in AI systems that execute on their articulated will across thousands of parallel acts of work, until their effective output diverges from anyone operating without that execution layer.*
 
 ---
 
@@ -18,9 +18,9 @@ Power laws are emerging in AI usage. Something like the top 1% of users generate
 
 The word for the people going up is **compound agency**.
 
-Compound agency is not a robot. It is not an AI. It is a human being who has wrapped themselves in AI systems that amplify their unique capabilities, judgment, and vision. They think faster, execute faster, learn faster, and compound faster than anyone operating without that amplification. They are not replaced by AI. They are augmented by it. The star of the show is still the human. The AI is the suit.
+Compound agency is not a robot. It is not an AI. It is a human being who has wrapped themselves in AI systems that execute on their articulated will across the work they would otherwise have to do alone. The metaphor is closer to cloning than to multiplying. The human articulates their will. The AI runs thousands of parallel acts of execution consistent with that articulated will. The decisions stay with the human; the execution scales without them. They are not replaced by AI. They are augmented by it. The star of the show is still the human. The AI is the suit.
 
-Think Iron Man. Tony Stark without the suit is a brilliant engineer. Tony Stark with the suit can reshape the world. The suit does not replace his intelligence. It multiplies it. That is compound agency.
+Think Iron Man. Tony Stark without the suit is a brilliant engineer. Tony Stark with the suit can reshape the world. The suit does not replace his intelligence. It executes on what his intelligence has already decided, at a scale his unaugmented body could never reach. That is compound agency.
 
 ## Why This Matters Now
 
@@ -48,9 +48,9 @@ A compound-agency practitioner has three things:
 
 ## The Evolution Metaphor
 
-Think about the classic illustration of human evolution: from hunched figures to upright humans, each stage more capable than the last. Compound agency is the next frame in that sequence. Not a chip in your brain. Not a merger with machines. Just a human being who has learned to extend their will into the world with as little friction as possible, using AI as the amplifier.
+Think about the classic illustration of human evolution: from hunched figures to upright humans, each stage more capable than the last. Compound agency is the next frame in that sequence. Not a chip in your brain. Not a merger with machines. Just a human being who has learned to extend their will into the world with as little friction as possible, using AI as the executor.
 
-Everyone thinks they are supposed to create a random app. Vibe code something, ship a dashboard, call it a startup. The highest-leverage move is to understand the unique offering you bring to the world, wrap yourself in a system that amplifies it, and become the kind of person that every organization needs and cannot replace.
+Everyone thinks they are supposed to create a random app. Vibe code something, ship a dashboard, call it a startup. The highest-leverage move is to understand the unique offering you bring to the world, wrap yourself in a system that executes on your articulated will at scale, and become the kind of person that every organization needs and cannot replace.
 
 That is the compound-agency path.
 

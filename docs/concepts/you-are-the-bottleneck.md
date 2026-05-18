@@ -1,12 +1,12 @@
 ---
 title: You Are the Bottleneck
 slug: /concepts/you-are-the-bottleneck
-description: Money amplifies you. AI amplifies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
+description: Money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
 ---
 
 # You Are the Bottleneck
 
-*Money amplifies you. AI amplifies you. Smart hires cannot reach up and fix you from below. If you are the bottleneck, the leverage around you makes the problem more expensive, not smaller. You cannot hire, buy, or scale your way out of being the thing that needs to change.*
+*Money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. If you are the bottleneck, the leverage around you makes the problem more expensive, not smaller. You cannot hire, buy, or scale your way out of being the thing that needs to change.*
 
 ---
 
@@ -20,7 +20,7 @@ The work is on the leader. No one can do the work on the leader for the leader. 
 
 ## What Leverage Actually Does
 
-Capital scales whatever you put in. So does AI. These are multipliers. They amplify the input. They do not repair it.
+Capital scales whatever you put in. So does AI. These are multipliers. They multiply the input. They do not repair it.
 
 If the operator is a 1.5x operator, the multiplier turns the business into a bigger 1.5x. If the operator is a bottleneck, the multiplier turns the business into a more expensive, better-staffed bottleneck. The multiplier does not notice the difference. The team does. The market eventually does too.
 
