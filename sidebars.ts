@@ -113,6 +113,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'reference/standards/align-md',
             'reference/standards/integrate-md',
+            'reference/standards/generate-md',
           ],
         },
         'reference/voice-rules',
