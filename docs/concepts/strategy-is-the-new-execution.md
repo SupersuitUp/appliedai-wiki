@@ -83,6 +83,12 @@ This loop, repeated daily, compounds. After 90 days your AI knows your prioritie
 
 ---
 
+## Supporting voices
+
+- **Board of Innovation (2024-11-08):** "AI and gen AI is very much a general-purpose technology where everyone has access. Just using that technology will not give you any competitive advantage." BOI's four-archetypes framing (temporal first-mover, reinforce existing advantages, build something others can't imitate, new business models) corroborates the strategy-as-bottleneck thesis. [Field note](/note-sharers/board-of-innovation/2024-11-08-three-waves).
+
+---
+
 ## Further reading
 
 - [You Are the Bottleneck](/concepts/you-are-the-bottleneck): The personal version. If strategy is the bottleneck, and strategy lives in you, then you are the bottleneck.
