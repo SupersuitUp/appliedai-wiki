@@ -53,6 +53,12 @@ Machines require this level of specificity. Humans benefit from it too. The disc
 
 ---
 
+## Supporting voices
+
+- **Y Combinator (2026-05-19):** "Most companies today are organized like a Roman legion where human beings are the conduit for information flowing up and down." A YC partner argues this hierarchical assumption is structurally broken once AI can carry the information flow, and that net-new companies should not build the legion shape at all. The same talk drops "middle management is done" in favor of an org with two roles: ICs and DRIs. [Field note](/note-sharers/y-combinator/2026-05-19-self-improving-company). See also [The End of Middle Management](/perspectives/end-of-middle-management).
+
+---
+
 ## Further Reading
 
 - [Observable Behavior Engineering](/disciplines/observable-behavior-engineering): The discipline of translating vague intent into specific, measurable actions

@@ -1,0 +1,117 @@
+---
+title: Designing an AI Loop
+slug: /playbooks/designing-an-ai-loop
+description: "A five-component structure for designing a single self-improving loop inside your company. Sensor layer, policy layer, tool layer, quality gate, learning mechanism. The unit of construction for an AI-native company is the loop, not the workflow."
+---
+
+# Designing an AI Loop
+
+*A five-component structure for designing a single self-improving loop inside your company. Sensor layer, policy layer, tool layer, quality gate, learning mechanism. The unit of construction for an AI-native company is the loop, not the workflow.*
+
+---
+
+## When to use this playbook
+
+You have a workflow that is currently human-mediated and you want to design its AI-native replacement. Examples: customer support triage, product analytics review, internal knowledge queries, sales follow-up sequences, code review and merge. The playbook is most useful for greenfield builds inside a net-new org. Retrofitting it onto a legacy operation requires meaningful additional work on system integration and change management; do not assume it ports clean.
+
+The structure was articulated by Diana Hu at YC and referenced in a YC Root Access talk. We document it here as a playbook because the structure transfers across loop types.
+
+## The five components
+
+### 1. Sensor layer
+
+The inputs from the world that the loop watches. The word "sensor" is general; the inputs are usually mundane: customer emails, support tickets, product telemetry, subscription cancellations, code changes, calendar events, partner messages. The sensor layer is the surface area where the loop notices something happened.
+
+Design questions:
+- What sources are we drawing from?
+- How fresh do the signals need to be (real-time, hourly, daily)?
+- What are the storage and indexing decisions that let downstream components actually query the sensors?
+
+### 2. Policy layer
+
+The rules about what the loop is allowed to do, what it must escalate, and what it must log. The policy layer is where you encode your operating constraints: which actions require human approval, which actions can ship autonomously, which actions are forbidden, which must produce an audit trail.
+
+Design questions:
+- What is the loop allowed to do without human review?
+- What requires a named human's approval (a directly responsible individual)?
+- What is the loop forbidden from doing under any circumstances?
+- What is the logging requirement so the loop's behavior is auditable?
+
+### 3. Tool layer
+
+The deterministic APIs and skills the loop can call. The tool layer is your code. It is what gives the loop precise capabilities: query my database, look at my calendar, send this email, file this PR, run this script, look up this customer. Tools are deterministic by design, even though the policy that calls them is not.
+
+Design questions:
+- What tools does the loop need to act on its inputs?
+- Are the tools well-scoped (one-job-each) or do they overlap?
+- Is there a skills file or context document that tells the loop how each tool is supposed to be used?
+- How do we update the tools when the loop discovers it needs a new one?
+
+### 4. Quality gate
+
+The mechanisms that catch loop failures before they propagate. Quality gates are evals, safety filters, human review for high-risk outputs, and integration checks. A loop without quality gates is a loop that scales mistakes.
+
+Design questions:
+- What does "good" output look like for this loop?
+- How do we measure that automatically (evals, golden datasets, integration tests)?
+- What is the human-review threshold (which outputs go through a human before they ship)?
+- How do we catch regressions when the loop or its tools change?
+
+### 5. Learning mechanism
+
+The feedback that closes the loop and lets it improve. The learning mechanism is what makes the system self-improving rather than just self-running. It is usually a monitoring agent that watches the loop in production, identifies failure modes, and feeds the diagnoses back into the tool layer, the policy layer, or the skills/context.
+
+Design questions:
+- What signal tells us the loop is performing well or badly?
+- Who or what watches that signal continuously?
+- When a failure is detected, what is the path from diagnosis to fix? Is it human-mediated or agent-mediated?
+- How frequently does the loop's behavior change as a result of learning, and how do we keep that change auditable?
+
+## How to design a new loop, step by step
+
+1. **Name the loop's purpose.** One sentence. What outcome does it produce? Who benefits?
+2. **Identify the sensor layer.** List every source the loop should be drawing from. Note which already exist and which need to be built.
+3. **Draft the policy layer.** Write the explicit rules. Be conservative on what runs autonomously in the first version; tighten the policy as the loop earns trust.
+4. **Inventory the tool layer.** List every action the loop will need to take. For each, identify whether a tool already exists, needs to be built, or needs to be exposed as an API.
+5. **Define the quality gate.** Specify the evals and the human-review thresholds before the loop ships, not after.
+6. **Design the learning mechanism.** Decide what watches the loop and what the diagnosis-to-fix path looks like.
+7. **Build the simplest version that closes all five loops.** Resist the urge to optimize any single component before all five are connected.
+8. **Run it on real inputs.** Watch the failure modes. Let the learning mechanism start filing improvements.
+
+## The YC overnight example, mapped to the structure
+
+- **Sensor:** every YC employee's query against the internal database, captured.
+- **Policy:** auto-merge low-risk fixes; escalate high-risk ones to a human DRI.
+- **Tool:** the existing deterministic query tools plus the YC codebase.
+- **Quality gate:** an agent reviews the auto-generated PR before merge.
+- **Learning mechanism:** the monitoring agent that diagnoses query failures and files the fix.
+
+The result: when a query fails today, the loop typically files and merges a fix overnight, and the same query succeeds tomorrow morning. The loop got better while everyone was sleeping. That is what the five-component structure enables when all five are connected.
+
+## Common failure modes
+
+**Skipping the quality gate to ship faster.** Without evals and human-review thresholds, the loop scales mistakes invisibly. Build the gate before you ship the loop, even if it slows down version one.
+
+**Treating the learning mechanism as optional.** A loop without learning is a workflow with extra steps. The self-improving property is the entire reason to use this structure; if there is no learning mechanism, redesign or do not build the loop at all.
+
+**Confusing tools with policy.** Tools should be deterministic and reusable across many loops. Policy is the call-site decision about which tools to use and when. Mixing them produces tools that have business logic embedded, which makes them un-reusable.
+
+**Skipping sensor capture for everything.** If the loop only sees a narrow slice of the world, its learning will be narrow too. Capture broadly; the storage and indexing cost is much cheaper than the cost of a loop that learns from incomplete data.
+
+**Retrofitting this onto a legacy org without addressing integration.** The structure assumes clean access to sensors and tools. In a legacy enterprise, sensor capture and tool exposure are usually the dominant cost. Plan for that or do not start.
+
+## Sources
+
+This playbook was developed based on Diana Hu's loop architecture and a related YC Root Access talk, May 2026.
+
+- Field note: [YC on the self-improving company](/note-sharers/y-combinator/2026-05-19-self-improving-company).
+- Original talk: https://www.youtube.com/watch?v=t-G67yKAHBQ.
+
+The five-component structure is YC's framing. The step-by-step design walkthrough and failure-mode commentary are ours.
+
+## Further Reading
+
+- [Always-On Agents](/concepts/always-on-agents) for the broader concept of agents that work while you sleep.
+- [Self-Improving Artifacts](/concepts/self-improving-artifacts) for what the loop's outputs look like as living documents.
+- [Legible Organization](/disciplines/legible-organization) for the sensor-layer pre-condition.
+- [Roles to Workflows](/concepts/roles-to-workflows) for the org-level mental shift this playbook lives inside.

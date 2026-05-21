@@ -1,0 +1,91 @@
+---
+title: Legible Organization
+slug: /disciplines/legible-organization
+description: "Record everything so the AI can see it. If it was not captured, it did not happen to your intelligence. The pre-condition for every self-improving loop. Emails, messages, meetings, office hours, decisions, hand-offs, all of it, diarized and surfaced as context."
+---
+
+# Legible Organization
+
+*Record everything so the AI can see it. If it was not captured, it did not happen to your intelligence. The pre-condition for every self-improving loop. Emails, messages, meetings, office hours, decisions, hand-offs, all of it, diarized and surfaced as context.*
+
+---
+
+## Why this is a discipline
+
+A self-improving company is bounded by what is legible to its AI. The smartest loop in the world cannot learn from context it never sees. Every undocumented decision, unrecorded conversation, and lost piece of know-how is a hole in the company brain. Filling those holes is not a one-time data-migration project; it is a continuous operating discipline that has to be embedded in how the company runs.
+
+The YC partner who articulated this in a 2026 Root Access talk put it bluntly: every single thing that happens in the company, if it is recorded, happened to the AI. If it was not recorded, it did not happen to your intelligence. The discipline is to close the gap between "what actually happened in the company" and "what the AI can see."
+
+## The discipline in practice
+
+### Capture broadly, prune later
+
+The default posture is record-everything. Emails (all of them, not curated highlights). Slack messages and DMs. Meeting recordings. Office hours. Customer calls. Sales conversations. Internal hand-offs. Code commits and PR conversations. Product telemetry. Customer support tickets. The storage cost of capturing everything is much cheaper than the strategic cost of an AI that learns from incomplete data.
+
+Pruning happens at the indexing and summarization layer, not at the capture layer. The raw record stays. The summaries get regenerated as the models get better.
+
+### Diarize before you index
+
+A 100,000-hour audio archive is not legible. It is just a pile of data. The discipline includes the diarization step: turning raw captures into structured artifacts (transcripts with speakers identified, action items extracted, decisions surfaced, topics tagged). The diarized form is what the AI actually reads.
+
+Diarization is a recurring cost. Budget for it. Measure the lag between capture and diarization; if your captures are sitting unindexed for weeks, your loops are learning from stale context.
+
+### Surface breadcrumbs, not the whole archive
+
+Even diarized, the archive is too large to dump into a context window. The AI needs breadcrumbs: queryable summaries, semantic indexes, and pointers to the raw record when deeper context is needed. Build the retrieval layer as carefully as you build the capture layer.
+
+### Treat the captured archive as durable; treat tooling as ephemeral
+
+The captures, transcripts, and summaries are the durable asset. The dashboards, query interfaces, and agentic harnesses that read them are ephemeral (see [Ephemeral Software, Precious Context](/foundations/ephemeral-software-precious-context)). When models improve, regenerate the tooling on top of the same archive. Do not lose the raw record because the tool that read it became obsolete.
+
+## What gets captured (a starter inventory)
+
+| Category | Examples | Capture mechanism |
+|----------|----------|-------------------|
+| Internal communication | Email, Slack, DMs | Mail provider API, Slack export, message hooks |
+| Conversations | Meetings, calls, office hours | Recording bots, smart glasses, room microphones |
+| Decisions and hand-offs | Approvals, escalations, transitions | Structured logs in the agentic harness |
+| Customer signal | Tickets, surveys, NPS comments, churn calls | CRM and support tool exports |
+| Product signal | Telemetry, A/B test results, feature usage | Analytics warehouse |
+| Code | Commits, PR conversations, deploy logs | Version control hooks |
+
+This is a starter inventory. Specific industries will add to it. The principle: capture every place where the company's intelligence is currently being lost.
+
+## What this discipline is not
+
+- **Not surveillance theater.** The point is not to monitor employees; it is to capture the organizational substrate so the AI can support work. Policies on what is captured and who can access it matter and should be transparent.
+- **Not "record meetings and call it done."** Recording is the first step. Diarization, indexing, summarization, and retrieval are what turn the recording into legibility.
+- **Not a one-time setup.** This is a continuous operating discipline. The captures, the diarization, and the indexing all need ongoing attention.
+
+## What good looks like
+
+A new employee on day one can ask the company brain a question and get an answer with the combined judgment of every prior decision the company has made on that topic. The answer points to the raw record so the new employee can audit the synthesis. The answer is current to the previous day's office hours and meetings. The cost of producing the answer is dominated by retrieval, not by the cost of having captured the underlying context.
+
+When the company brain falls short, it falls short visibly and the gap surfaces a capture or diarization improvement. The discipline closes its own holes.
+
+## Common failure modes
+
+**Capture without diarization.** A storage cost that produces no operational benefit. Recordings sit unstructured forever.
+
+**Diarization without retrieval.** Indexed transcripts that nobody queries. The discipline ends at the indexing layer and never reaches the loops that should be consuming the context.
+
+**Selective capture.** Only recording the things you want to be on record. Produces a brain that is biased toward optimistic versions of events and incapable of learning from failures.
+
+**Capture-then-throw-away after a retention window.** Loses the substrate the AI needs to improve over time. Different from prudent data-retention practices, which preserve summaries even when raw captures are aged out.
+
+**Surveillance framing.** Capturing without transparency or employee buy-in. Backlash quickly outpaces benefit. The discipline only works when the org has agreed to it.
+
+## Sources
+
+This discipline is documented based on a YC Root Access talk, May 2026.
+
+- Field note: [YC on the self-improving company](/note-sharers/y-combinator/2026-05-19-self-improving-company).
+- Original talk: https://www.youtube.com/watch?v=t-G67yKAHBQ.
+
+The "record everything" framing is YC's. The capture inventory and failure-mode commentary are ours.
+
+## Further Reading
+
+- [Always-On Agents](/concepts/always-on-agents) for what becomes possible once the organization is legible.
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop) for the sensor layer this discipline feeds.
+- [Self-Improving Artifacts](/concepts/self-improving-artifacts) for the outputs a legible organization can regenerate.

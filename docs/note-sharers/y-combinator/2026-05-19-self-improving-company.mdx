@@ -1,0 +1,117 @@
+---
+title: "YC on the self-improving company"
+slug: /note-sharers/y-combinator/2026-05-19-self-improving-company
+description: "Field notes from a May 2026 YC Root Access talk. The Roman-legion company is over. Reimagine the company as recursive self-improving AI loops. ICs and DRIs only. Burn tokens, not headcount. Right for net-new orgs, far-fetched for legacy dinosaurs."
+date: 2026-05-19
+source_url: https://www.youtube.com/watch?v=t-G67yKAHBQ
+source_firm: y-combinator
+source_type: talk
+---
+
+# YC on the self-improving company
+
+*Field notes from a May 2026 YC Root Access talk. The Roman-legion company is over. Reimagine the company as recursive self-improving AI loops. ICs and DRIs only. Burn tokens, not headcount. Right for net-new orgs, far-fetched for legacy dinosaurs.*
+
+---
+
+## Source
+
+- **Firm:** Y Combinator (YC).
+- **Speaker:** YC partner (the speaker references Garry Tan, Diana Hu, and Pete Koomen as separate presenters in the same session; the speaker is likely Tom Blomfield based on those contextual cues).
+- **Format:** Conference talk, YC Root Access channel, 13:28.
+- **Date watched:** 2026-05-19.
+- **URL:** https://www.youtube.com/watch?v=t-G67yKAHBQ
+- **Endorsement disclaimer:** YC's claims are reported here as their claims. Their prescriptions are downstream of a specific operating context (small teams, no legacy systems, capital-rich, talent-dense). The blueprint is right for net-new orgs and far-fetched for legacy dinosaurs.
+
+## What we lifted
+
+### 1. Companies organized like Roman legions; AI breaks the assumption
+[→ Reinforces: [/concepts/roles-to-workflows](/concepts/roles-to-workflows)]
+
+The YC partner's frame: most companies are organized like Roman legions. Nested hierarchies, named individuals with spans of control, information passing up and down through humans as the conduit. The underlying assumption is that humans should be the conduit. AI breaks that assumption directly: information can flow through agents, decisions can compose in software, and the legion shape stops being load-bearing. Reinforces the existing roles-to-workflows argument from a different angle.
+
+### 2. AI as recursive self-improving loops, not a productivity bolt-on
+[→ Reinforces: [/concepts/always-on-agents](/concepts/always-on-agents)]
+
+YC's sharpest reframe: do not treat AI as a copilot that boosts engineer productivity 20%. That is the old way of working with a more powerful engine bolted on. The reimagined company is a set of recursive self-improving AI loops where the loop, not the human, is the unit of work. Pairs cleanly with the always-on-agents thesis: agents that work while you sleep, the shift from answer-when-asked to act-and-improve.
+
+### 3. The 5-component AI loop (sensor, policy, tool, quality gate, learning)
+[→ New page: [/playbooks/designing-an-ai-loop](/playbooks/designing-an-ai-loop)]
+
+Diana Hu's structure, referenced by the YC partner. Every self-improving loop has five components: a sensor layer (the inputs from the world), a policy layer (the rules about what to do and what to escalate), a tool layer (the deterministic APIs and skills), a quality gate (evals, safety filters, human review for high-risk actions), and a learning mechanism (the feedback that closes the loop). Liftable as a wiki playbook for designing a single loop inside your org.
+
+### 4. YC's overnight self-improvement example
+[→ Reinforces: [/concepts/always-on-agents](/concepts/always-on-agents)]
+
+YC's working live example. They had a query agent with deterministic database tools. They put a monitoring agent on top of it that watches every YC employee's query and flags the ones that failed. The monitoring agent diagnoses the failure (missing tool, missing skill file entry, missing database view), writes the code, opens a pull request to the YC codebase, has another agent review it, merges, and deploys. Next morning the same query succeeds. The speaker calls it the "holy shit" moment when the system went from sidekick to self-improving infrastructure. Reinforces always-on-agents with field evidence.
+
+### 5. Burn tokens, not headcount
+[field-note bullet only]
+
+> "We are seeing companies get to demo day with about 5x more revenue per employee than they did 18 months ago. And I think that's going to continue to series A and series B."
+
+YC's directional claim about org-design economics in the AI-native company. Token usage becomes the new productivity metric. The speaker acknowledges the gaming risk if you turn it into a leaderboard, but the directional signal is that companies will be token-constrained before they are headcount-constrained. Worth recording as a quote; we have not validated the 5x number ourselves.
+
+### 6. Only two roles matter: ICs and DRIs. Middle management is over.
+[→ New page: [/perspectives/end-of-middle-management](/perspectives/end-of-middle-management)] + [→ Reinforces: [/concepts/roles-to-workflows](/concepts/roles-to-workflows)]
+
+The strongest role-shift claim in the talk. The YC partner argues two roles matter in the AI-native company: ICs (builders, operators, individual contributors) and DRIs (directly responsible individuals, named humans accountable for outcomes). Middle management exists to coordinate; AI does coordination now. This is squarely a greenfield claim. Retrofitting it onto an org with thousands of middle managers is a different conversation, but for net-new orgs, the speaker argues there is no excuse to build the legion shape.
+
+### 7. Make the entire organization legible to AI; record everything
+[→ New page: [/disciplines/legible-organization](/disciplines/legible-organization)]
+
+The pre-condition for self-improving loops. The YC partner's claim: if it was not recorded, it did not happen to the AI. YC records every partner email, every Slack message, every DM, every office hour. The discipline is to capture everything, diarize and summarize it, and surface breadcrumbs to the AI. The intelligence of your company is bounded by what is legible to it.
+
+### 8. Self-improving artifacts (YC user manual regenerated from 2000 hrs of office hours)
+[→ New page: [/concepts/self-improving-artifacts](/concepts/self-improving-artifacts)]
+
+Concrete example. YC's old user manual was static and five to ten years out of date. With 2000 hours of office-hour recordings captured over the prior three months, a YC partner regenerated the user manual over a weekend. The new one is 150 pages and updates monthly: new advice given is compared against the existing manual and either incorporated or discarded. A static document becomes a living one fed by raw organizational context.
+
+### 9. Software is ephemeral; context and data are precious
+[→ New page: [/foundations/ephemeral-software-precious-context](/foundations/ephemeral-software-precious-context)]
+
+The inversion of where value lives. With Codex-class models, most internal dashboards and operational software can be one-shot generated. Treat the software as disposable; regenerate it when the models get smarter. Preserve the raw data and the skills/context. The durable assets are the company brain (data, skills, knowhow); the software on top is ephemeral.
+
+### 10. Humans live around the edges of the company brain
+[→ New page: [/perspectives/humans-at-the-edges](/perspectives/humans-at-the-edges)]
+
+The closing frame. In the AI-native company, the AI sits in the center: the company brain, the data, the skills, the loops. Humans interface with the real world at the perimeter, where the intelligence makes contact with reality: novel situations, ethical considerations, high-stakes calls, sales conversations, the moments where a founder needs another human in the room. The org chart inverts: the AI is the trunk, the humans are the limbs.
+
+## Best quotes
+
+> "Most companies today are organized like a Roman legion where human beings are the conduit for information flowing up and down."
+
+> "AI isn't something you bolt onto the side of a company. It's not like a tool you give to your engineers to make them more productive. You can reimagine what a company is as a set of recursive self-improving AI loops."
+
+> "If you can run every single step of that without human intervention, with minimal human intervention, your system gets better and better and better while you're sleeping."
+
+> "Burn tokens, not headcount."
+
+> "Middle management is done. I just don't think you need middle management for this coordination problem. I think AI should be doing it."
+
+> "Every single thing that happens, if it is recorded, it happened to the AI. If it did not get recorded, it did not happen to your intelligence."
+
+> "The software on top of it is ephemeral. The business context and skills are the valuable part."
+
+> "If you were building your company today, would you start it in this shape?"
+
+## Cross-references
+
+Pages created in this run:
+
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop)
+- [The End of Middle Management](/perspectives/end-of-middle-management)
+- [Legible Organization](/disciplines/legible-organization)
+- [Self-Improving Artifacts](/concepts/self-improving-artifacts)
+- [Ephemeral Software, Precious Context](/foundations/ephemeral-software-precious-context)
+- [Humans at the Edges](/perspectives/humans-at-the-edges)
+
+Pages extended in this run:
+
+- [Roles to Workflows](/concepts/roles-to-workflows): YC's Roman-legion frame and ICs-plus-DRIs claim cited as supporting voices.
+- [Always-On Agents](/concepts/always-on-agents): YC's recursive-loops thesis and the overnight self-improvement example cited as supporting voices.
+
+## Further Reading
+
+- [Y Combinator profile](/note-sharers/y-combinator) for the firm's stance and other notes.
+- [Note Sharers](/note-sharers) for the full directory.

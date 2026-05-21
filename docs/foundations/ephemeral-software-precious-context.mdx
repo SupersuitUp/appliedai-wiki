@@ -1,0 +1,88 @@
+---
+title: Ephemeral Software, Precious Context
+slug: /foundations/ephemeral-software-precious-context
+description: "Where value lives in an AI-native company. Software gets regenerated when the models get smarter. Data, skills, and captured context do not. Build for the inversion: hoard the substrate, treat the tooling as disposable."
+---
+
+# Ephemeral Software, Precious Context
+
+*Where value lives in an AI-native company. Software gets regenerated when the models get smarter. Data, skills, and captured context do not. Build for the inversion: hoard the substrate, treat the tooling as disposable.*
+
+---
+
+## The inversion
+
+For most of the last two decades, software was the precious thing. Building it took time and money; once built, you defended it. Data flowed through the software; the software shaped the data; the software was what your engineers spent their hours on, and the company's competitive position was downstream of how good the software was.
+
+That ordering is inverting. With Codex-class models, most internal dashboards and operational software can be one-shot generated from a spec. The cost of regenerating a tool when the model improves is now lower than the cost of maintaining it through the model improvement. Software that took six months to build a few years ago can be regenerated in an afternoon today, and the regenerated version is often better because the model writing it has stronger primitives.
+
+What does not get cheaper: the captured context the software needs to be useful. The data, the skills files, the organizational substrate (see [Legible Organization](/disciplines/legible-organization)). Those are the durable assets. The software is a thin layer on top, regenerable on demand.
+
+## The implication for how you allocate effort
+
+The dominant question shifts. The old question was "what should we build?" The new question is "what context should we preserve?" The first question is asked once per project; the second is asked continuously.
+
+This changes where the strategic attention goes:
+
+- **Data and capture systems.** Invest heavily. Loss of captured context is irrecoverable. Loss of a dashboard is a regeneration job.
+- **Skills and context files.** Invest heavily. These are how the next model knows what your company does.
+- **One-shot regen capability.** Invest moderately. Having a working pipeline that can generate internal tools from a spec is a multiplier on every other investment.
+- **The software itself.** Invest minimally beyond getting it to work. Resist gold-plating tools you may regenerate in three months.
+
+The default treatment of internal software is "disposable." Build it to be functional. Maintain it lightly. When you outgrow it or the models get materially better, regenerate it rather than refactor it.
+
+## What this does not apply to
+
+This is a claim about most internal operational software. It is not a universal claim about all software.
+
+**Customer-facing software** where stability, trust, and continuity matter is a different question. You usually do not want to regenerate your billing system or your authentication layer every quarter. The cost of failure in those systems is high, the value of stability is high, and the existing software is more battle-tested than a freshly generated replacement.
+
+**Software that encodes irreplaceable judgment** in its design is also a different question. Some software has years of accumulated subtle decisions baked in. Regenerating it would lose the subtle decisions. Be careful about which category you are in.
+
+**Software whose interface is itself the product** has different economics. You can regenerate the backend; you cannot regenerate the user's familiarity with the UI without cost.
+
+The principle applies cleanly to internal dashboards, operational tooling, internal workflows, custom CRUD apps, reporting layers, and admin interfaces. It applies less cleanly to customer-facing surfaces and core infrastructure.
+
+## What this does to the engineering hiring funnel
+
+The old hire profile: someone who can ship and maintain durable software. The new hire profile for internal tooling: someone who can write clean specs, debug AI-generated code, and reason about which systems should be regenerable versus durable. Different skill mix. Both are valuable; the org needs both. The mistake is hiring exclusively against the old profile when the bulk of internal work has shifted to the new one.
+
+For customer-facing and core-infrastructure work, the old profile still dominates.
+
+## What this does to the data and context layer
+
+The data and context layer has to become first-class. Most legacy orgs treat data engineering as plumbing and treat the captured context (Slack archives, email archives, meeting recordings) as exhaust. In the inverted world, that is backward. The plumbing is the high-leverage investment because every regenerable tool depends on it.
+
+Practical consequences:
+
+- Capture continuously. Storage is cheap.
+- Index and diarize aggressively. Raw captures without retrieval are dead storage.
+- Version your skills files and context documents the way you used to version your software.
+- Audit the durability of your context layer separately from the durability of your software.
+
+## Common failure modes
+
+**Treating one-shot generation as permission to skip the spec.** A one-shot tool from a vague prompt produces vague tooling. The spec discipline matters more in the regen world, not less.
+
+**Discarding raw context after summarizing it.** The summary is generated from a particular model with particular priorities. The next model will summarize differently and possibly better. Keep the raw.
+
+**Refactoring instead of regenerating.** When a tool needs significant change and the underlying spec is clean, regeneration is often cleaner than refactoring. Refactoring works well when the spec is in your head; regeneration works well when the spec is in a file.
+
+**Confusing internal tooling with customer-facing software.** Applying the regen-everything posture to a billing system or an auth layer is a recipe for outages. Match the posture to the system class.
+
+**Hoarding software, neglecting context.** The most common mistake in legacy orgs trying to adopt this posture. They keep their old codebases as precious objects while letting the captured context layer decay. The exact wrong inversion.
+
+## Sources
+
+This frame is documented based on a YC Root Access talk, May 2026.
+
+- Field note: [YC on the self-improving company](/note-sharers/y-combinator/2026-05-19-self-improving-company).
+- Original talk: https://www.youtube.com/watch?v=t-G67yKAHBQ.
+
+The "treat software as ephemeral, context as precious" framing is YC's. The category breakdown (internal vs customer-facing vs infrastructure) and failure-mode commentary are ours.
+
+## Further Reading
+
+- [Legible Organization](/disciplines/legible-organization) for how to build the precious-context layer.
+- [Self-Improving Artifacts](/concepts/self-improving-artifacts) for documents that exemplify the inversion.
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop) for the tool-layer slot inside a loop that benefits from this posture.

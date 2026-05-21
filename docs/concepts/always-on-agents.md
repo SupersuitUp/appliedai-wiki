@@ -68,6 +68,12 @@ The post-prompting era is coming. The question is whether your system is ready f
 
 ---
 
+## Supporting voices
+
+- **Y Combinator (2026-05-19):** A YC partner frames the AI-native company as "a set of recursive self-improving AI loops" rather than a productivity bolt-on. Their live example: a monitoring agent watches every YC employee's database query, diagnoses failures, files a pull request to fix the missing tool or skill, has an agent review and merge, deploys. The same query succeeds the next morning. Field evidence for what an always-on agent looks like in production. [Field note](/note-sharers/y-combinator/2026-05-19-self-improving-company). See also [Designing an AI Loop](/playbooks/designing-an-ai-loop).
+
+---
+
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The discipline that makes always-on agents useful

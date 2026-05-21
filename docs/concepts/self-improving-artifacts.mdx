@@ -1,0 +1,76 @@
+---
+title: Self-Improving Artifacts
+slug: /concepts/self-improving-artifacts
+description: "Documents that regenerate from raw organizational context on a cadence, rather than being maintained by hand. The static user manual is replaced by a living one fed by every new conversation, decision, and recording in the company brain."
+---
+
+# Self-Improving Artifacts
+
+*Documents that regenerate from raw organizational context on a cadence, rather than being maintained by hand. The static user manual is replaced by a living one fed by every new conversation, decision, and recording in the company brain.*
+
+---
+
+## The shift
+
+The traditional company artifact (the user manual, the playbook, the onboarding doc, the runbook) is a snapshot. Someone writes it. It goes out of date. The institutional gap between "what the document says" and "what the company actually does" widens until someone notices and starts a rewrite. The rewrite produces a new snapshot, which immediately starts going out of date.
+
+A self-improving artifact inverts that. The document is regenerated from raw organizational context on a cadence. The captured material (office hours, decisions, hand-offs, customer conversations, support tickets) is the source of truth. The artifact is a synthesis of the source of truth, refreshed monthly, weekly, or in real time depending on the artifact and the cadence at which it should track reality.
+
+The YC example: a 150-page user manual regenerated from 2000 hours of office-hour recordings over a weekend, then updated monthly as new office hours accumulate. The static doc that was five to ten years out of date became a living doc that tracks current advice.
+
+## Why this works now
+
+Self-improving artifacts require three components, all of which only recently became cheap enough to compose into a working system:
+
+1. **Comprehensive capture.** The raw substrate has to exist (see [Legible Organization](/disciplines/legible-organization)). If the company is not capturing its own work, there is nothing to regenerate from.
+2. **Large-context synthesis.** Modern LLMs can consume tens of thousands of pages of transcripts and produce coherent synthesis. The "150-page user manual from 2000 hours of office hours" example is operationally possible at a cost that makes sense.
+3. **Incremental update logic.** The artifact does not need to be regenerated from scratch each time. New context is compared against the existing artifact; the artifact is updated where the new context disagrees, extends, or contradicts.
+
+Take any of those three away and self-improving artifacts collapse back to the static-document pattern.
+
+## What kinds of artifacts can self-improve
+
+Not everything should be a self-improving artifact. The pattern fits documents where:
+
+- The source material is captured and grows continuously.
+- The "current best understanding" changes faster than someone is willing to maintain by hand.
+- The audience benefits from the most current synthesis, not from a frozen reference.
+
+Good candidates: user manuals and onboarding documents; product documentation for internal users; sales playbooks; competitive intelligence summaries; engineering runbooks for systems that change often; customer-segment summaries; decision logs for policy areas.
+
+Less good candidates: legal contracts; regulatory filings; immutable specifications; published research; anything where versioning and historical traceability matter more than currency.
+
+## How to design a self-improving artifact
+
+1. **Identify the artifact and its audience.** Be specific. Not "documentation," but "the onboarding guide for new YC partners" or "the cancellation-recovery playbook for the customer success team."
+2. **Identify the source material.** What captured organizational context feeds this artifact? The richer the source material, the better the regeneration.
+3. **Define the synthesis prompt.** What does a good version of this artifact look like? Structure, length, tone, level of detail. Codify it.
+4. **Set the cadence.** Real-time? Monthly? On a trigger (e.g. when 50 new pieces of source material accumulate)?
+5. **Define the update logic.** Full regeneration each cycle, or incremental update? For most artifacts, incremental is right: compare new context against existing artifact, update sections where there is signal, leave the rest alone.
+6. **Add a versioning and review layer.** Every regenerated version should be saved with provenance (what context fed it, when it ran, what changed). High-stakes artifacts get human review before publication; lower-stakes artifacts can publish autonomously.
+7. **Build the consuming layer.** Self-improving artifacts are not just human-read documents. Pump them into agents as context (the user manual that regenerates monthly is the same artifact your customer-support agent reads when answering a question).
+
+## What this concept is not
+
+- **Not "the AI writes our documentation now."** It is a feedback loop that synthesizes the company's own raw context into structured artifacts. The synthesis is the work; the writing is downstream.
+- **Not a replacement for editorial judgment.** Humans still curate which artifacts exist, what they are for, and what good looks like. The pattern automates the maintenance, not the design.
+- **Not appropriate for every document.** As above, some documents should stay static. Pick deliberately.
+
+## What good looks like
+
+The new-employee onboarding artifact is current to last week's all-hands. The customer-segment summary is current to last month's churn calls. The engineering runbook for system X reflects the post-mortem from the incident two days ago. When someone asks a question, the answer is fresh because the artifact is fresh. The cost of keeping documentation current has moved from "someone's full-time job" to "a scheduled compute job."
+
+## Sources
+
+This concept is documented based on a YC Root Access talk, May 2026.
+
+- Field note: [YC on the self-improving company](/note-sharers/y-combinator/2026-05-19-self-improving-company).
+- Original talk: https://www.youtube.com/watch?v=t-G67yKAHBQ.
+
+The user-manual example and the regeneration framing are YC's. The design-step walkthrough and failure-mode notes are ours.
+
+## Further Reading
+
+- [Legible Organization](/disciplines/legible-organization) for the capture discipline that feeds self-improving artifacts.
+- [Always-On Agents](/concepts/always-on-agents) for the broader pattern of work that continues without human triggering.
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop) for the architecture of which self-improving artifacts are one output.
