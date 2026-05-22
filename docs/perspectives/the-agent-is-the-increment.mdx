@@ -1,0 +1,42 @@
+---
+title: The agent is the increment
+description: Why the superpowers plugin's brainstorming → writing-plans → executing-plans pipeline produces higher-fidelity AI work than efficient one-shot prompts. Pay the planning tax. The cost is upfront. The payoff is anti-drift.
+---
+
+# The agent is the increment
+*Why the superpowers plugin's brainstorming → writing-plans → executing-plans pipeline produces higher-fidelity AI work than efficient one-shot prompts. Pay the planning tax. The cost is upfront. The payoff is anti-drift.*
+
+---
+
+The instinct when working with an AI agent is to compress. Shorter prompt, fewer steps, faster turn. Efficient. Lean. Move fast.
+
+That instinct is wrong.
+
+The superpowers plugin for Claude Code ships a small set of opinionated SOPs (`brainstorming`, `writing-plans`, `executing-plans`) that look on paper like ceremony. You sit with the agent answering one multiple-choice question at a time. You watch it write a spec document. You watch it write a plan document derived from the spec. You approve. Then it executes the plan task by task, with each task dispatched to a fresh subagent.
+
+Compared to a one-shot prompt, this looks like five times the work. It is not.
+
+## Each artifact prevents drift
+
+Every artifact in that chain is doing real work to prevent drift.
+
+The brainstorming questions force you to surface assumptions before the agent commits to them. The spec is the agent's contract with your intent. The plan is the spec decomposed into individually-executable units. And the fresh subagent per task is the punch line.
+
+The agent that executes is itself the increment.
+
+## Why fresh-context subagents matter
+
+Context drift is the silent killer of agentic work. A single long-running agent accumulates inconsistencies, forgets early constraints, narrates over the spec, and slowly diverges from what you actually wanted. By the end of a long session, the artifact bears only a family resemblance to your original intent.
+
+A subagent dispatched fresh per task has no history to drift through. It reads the task, the spec it links back to, and the relevant files. It does the work. It hands back a result that the orchestrator reviews against the spec. Drift cannot accumulate because there is no accumulator.
+
+The seemingly extra steps are the anti-drift mechanism. The cost is paid upfront, in brainstorming questions and plan-writing time. The payoff is that the final artifact actually matches what you described at the start of the session.
+
+## The lesson generalizes
+
+Any time you are about to one-shot a complex multi-step prompt, ask the real question. Am I trying to be efficient, or am I trying to be correct?
+
+If correctness matters, structure the work into a chain of small fresh-context units with explicit artifacts between each. Pay the planning tax. Get the fidelity.
+
+## Further Reading
+- The superpowers plugin for Claude Code ships these SOPs as installable skills.
