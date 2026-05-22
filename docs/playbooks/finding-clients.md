@@ -108,8 +108,13 @@ This is not a strategy for scaling to 100 clients. It's a strategy for getting y
 
 Scale comes later. Trust comes first.
 
+## Supporting voices
+
+- **Anonymous AI consultancy founder (2026-05-21):** "It is always just from the PE fund itself, which is why I feel like these deal structures is the PE function has a lot of autonomy in deciding what to do. Normally, how they structure it is a bigger retainer on the fund level that they then have their portcos essentially." Top-down through the PE fund beats top-down through the portco. Worth adding to your channel mix once trust-based intros are running. [→ field note](/note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade). See also [PE fund cascade](/engagement-patterns/pe-fund-cascade).
+
 ## Further Reading
 
 - [ICP clarity](/playbooks/icp-clarity). Once you have a few clients, sharpen who you serve.
 - [Pilot pitch](/playbooks/pilot-pitch). The shape of the first real proposal.
 - [Pricing](/playbooks/pricing). How to price the engagement once trust is established.
+- [PE fund cascade](/engagement-patterns/pe-fund-cascade). The buyer pattern that multiplies one fund-level retainer across many portcos.

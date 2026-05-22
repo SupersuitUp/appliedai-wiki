@@ -337,8 +337,13 @@ Once you start retainers, send monthly impact reports. Show the numbers. You are
 - **Quoting before discovery.** A number quoted before you understand the workflow and the cost of the problem is a guess. Charge for the discovery if needed.
 - **100% close rate.** You are underpriced. Raise until you start hearing no on roughly 1 in 3 proposals.
 
+## Supporting voices
+
+- **Anonymous AI consultancy founder (2026-05-21):** "We do our minimum amount is 9 k a month. Of course, as you get larger, we just try to go for bigger deal sizes." Concrete floor for boutique applied-AI retainers, with PE-fund retainers anchoring around $30K/month. The structure also transfers risk to the buyer: the three-month POC is paid up front, so if the year-long conversion does not happen, the operator still earns. [→ field note](/note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade).
+
 ## Further Reading
 
 - [ICP clarity](/playbooks/icp-clarity). Get clear on who you serve before you price.
 - [Pilot scope](/playbooks/pilot-scope). The upstream scoping doc that makes pricing easier.
 - [Pilot pitch](/playbooks/pilot-pitch). The proposal format that pairs with these prices.
+- [Pilot to engagement](/playbooks/pilot-to-engagement). The conversion pattern from a paid POC into a year-long engagement.

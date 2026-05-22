@@ -88,8 +88,13 @@ If it succeeds, the next move. If it fails, what changes.
 - **No approver in the room.** A pilot scoped with an operator but approved by an executive who was never in the conversation will get cut at the last meeting. Bring the approver in by step 5 at the latest.
 - **Timeline longer than 12 weeks.** Beyond 12 weeks, the team loses urgency, the model landscape shifts, and the pilot becomes a project. Narrow the scope until 12 weeks fits.
 
+## Supporting voices
+
+- **Anonymous AI consultancy founder (2026-05-21):** "We do a three month POC. We go out and interview every single person that touches any function in the business. Then we scope out sort of AI transformation, then we can implement the transformation for them, likely within a subset of the team for them to utilize, get used to. And then after the POC is done and the ROI that comes from it, we do a year long engagement to where we roll out to everything." Same shape as this playbook, with the conversion mechanics treated as a structural feature, not a hope. The MBB firms use this exact structure to secure long contracts. [→ field note](/note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade).
+
 ## Further Reading
 
 - [Workflow decomposition](/playbooks/workflow-decomposition). The upstream playbook that produces the candidate problems.
 - [Pilot pitch](/playbooks/pilot-pitch). The practitioner side of the same conversation.
 - [Pricing](/playbooks/pricing). How to price the engagement once the scope is set.
+- [Pilot to engagement](/playbooks/pilot-to-engagement). The conversion playbook for turning a paid POC into a year-long engagement.
