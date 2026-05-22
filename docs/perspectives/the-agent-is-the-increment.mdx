@@ -10,33 +10,77 @@ description: Why the superpowers plugin's brainstorming → writing-plans → ex
 
 The instinct when working with an AI agent is to compress. Shorter prompt, fewer steps, faster turn. Efficient. Lean. Move fast.
 
-That instinct is wrong.
+That instinct is wrong for any work where correctness matters more than vibes.
 
-The superpowers plugin for Claude Code ships a small set of opinionated SOPs (`brainstorming`, `writing-plans`, `executing-plans`) that look on paper like ceremony. You sit with the agent answering one multiple-choice question at a time. You watch it write a spec document. You watch it write a plan document derived from the spec. You approve. Then it executes the plan task by task, with each task dispatched to a fresh subagent.
+The superpowers plugin for Claude Code ships a small set of opinionated SOPs (`brainstorming`, `writing-plans`, `executing-plans`, `test-driven-development`, `code-review`) that look on paper like ceremony. You sit with the agent answering one multiple-choice question at a time. You watch it write a spec document. You watch it write a plan document derived from the spec. You approve. Then it executes the plan task by task, with each task dispatched to a fresh subagent.
 
 Compared to a one-shot prompt, this looks like five times the work. It is not.
 
-## Each artifact prevents drift
+## What the SOP actually prevents
 
-Every artifact in that chain is doing real work to prevent drift.
+The seemingly extra steps are the anti-drift mechanism. They exist to head off four specific failure modes that agentic coding consistently produces when you skip them.
 
-The brainstorming questions force you to surface assumptions before the agent commits to them. The spec is the agent's contract with your intent. The plan is the spec decomposed into individually-executable units. And the fresh subagent per task is the punch line.
+- **Coding drift.** The agent starts confidently building the wrong thing after twenty minutes. The output looks coherent. It is solving the wrong problem.
+- **Context collapse.** On a long-lived project, the agent loses the thread. Recent edits contradict earlier decisions. Architecture turns into spaghetti.
+- **Vibe coding debt.** Fast demos become impossible-to-maintain systems. The early prototype that ships in an hour becomes the refactor that takes a quarter.
+- **Junior-engineer behavior.** Edge cases get ignored. Architectural decisions get made one prompt at a time. Tests prove the agent ran, not that the system works.
+
+Raw one-shot prompting is a great fit for prototypes, exploratory coding, and UI iteration. It is a terrible fit for anything that will outlive the session. The SOP is the upgrade path from one to the other.
+
+## Spec vs plan: what each artifact does
+
+The most underrated part of the SOP is the deliberate split between two distinct artifacts.
+
+The **spec** is the WHAT and the WHY. It defines the desired reality: what problem are we solving, what should the user be able to do, what are the inputs and outputs, what edge cases matter, what are we explicitly NOT building. Spec is product truth and constraints.
+
+The **plan** is the HOW. Spec decomposed into an ordered execution path: set up the framework, add the auth layer, write the ingestion worker, wire the dashboard, integration tests, deploy. Plan is implementation strategy and task ordering.
+
+The reframe that makes the whole pipeline click:
+
+> prompt = request
+> spec = contract
+
+A prompt is a request the agent interprets however it likes. A spec is a contract the agent commits to. The interpretation surface shrinks; the fidelity rises.
+
+Agents fail differently depending on which artifact is weak. A weak spec produces the wrong thing built well. A weak plan produces the right thing built chaotically. Modern coding agents are surprisingly capable at turning a strong plan into code. They are still bad at unstated requirements, long-term coherence, and product judgment. The spec is where humans (or higher-level orchestrating agents) compensate for that gap.
+
+## The fresh-context subagent is the punch line
+
+Every artifact in the chain is doing real work to prevent drift. The brainstorming questions force you to surface assumptions before the agent commits to them. The spec is the contract. The plan is the spec decomposed into individually-executable units.
+
+And then comes the part that makes the whole thing work: each plan task gets dispatched to a fresh subagent.
 
 The agent that executes is itself the increment.
 
-## Why fresh-context subagents matter
-
 Context drift is the silent killer of agentic work. A single long-running agent accumulates inconsistencies, forgets early constraints, narrates over the spec, and slowly diverges from what you actually wanted. By the end of a long session, the artifact bears only a family resemblance to your original intent.
 
-A subagent dispatched fresh per task has no history to drift through. It reads the task, the spec it links back to, and the relevant files. It does the work. It hands back a result that the orchestrator reviews against the spec. Drift cannot accumulate because there is no accumulator.
+A subagent dispatched fresh per task has no history to drift through. It reads the task description, the spec it links back to, and the relevant files. It does the work. It hands back a result that the orchestrator reviews against the spec. Drift cannot accumulate because there is no accumulator.
 
-The seemingly extra steps are the anti-drift mechanism. The cost is paid upfront, in brainstorming questions and plan-writing time. The payoff is that the final artifact actually matches what you described at the start of the session.
+The cost is paid upfront, in brainstorming questions and plan-writing time. The payoff is that the final artifact actually matches what you described at the start of the session.
+
+## When the ceremony is overkill
+
+Honest caveat. The full pipeline is overkill for plenty of real work.
+
+- Prototypes and hackathon builds where the artifact is throwaway.
+- Greenfield exploration where you do not yet know what the spec should say.
+- Solo founder velocity on a product you fully understand.
+- UI iteration where the feedback loop is the browser, not a test suite.
+- Single-file edits where the scope cannot drift.
+
+For those, raw direct prompting beats the SOP. Move fast. Ship the vibe. Iterate.
+
+The SOP earns its overhead the moment any of the following becomes true: the codebase is long-lived, the team is more than one human, the system is regulated or security-sensitive, the refactor touches multiple subsystems, the work hands off between humans and agents, or you are dispatching parallel agents that have to converge.
+
+The smart move is selective. Raw mode for exploration. The SOP for stabilization and hardening. The musician analogy is apt. Sometimes you want jazz. Sometimes you want an orchestra.
 
 ## The lesson generalizes
 
 Any time you are about to one-shot a complex multi-step prompt, ask the real question. Am I trying to be efficient, or am I trying to be correct?
 
-If correctness matters, structure the work into a chain of small fresh-context units with explicit artifacts between each. Pay the planning tax. Get the fidelity.
+If correctness matters, structure the work into a chain of small fresh-context units with explicit artifacts between each. Write the spec. Write the plan. Dispatch fresh subagents. Let each one be the increment.
+
+Pay the planning tax. Get the fidelity.
 
 ## Further Reading
-- The superpowers plugin for Claude Code ships these SOPs as installable skills.
+- The **superpowers** plugin ships these SOPs as installable skills for Claude Code. Install via the Claude Code plugin system. Once installed, the named skills used here become invocable: `superpowers:brainstorming`, `superpowers:writing-plans`, `superpowers:executing-plans`, `superpowers:subagent-driven-development`, `superpowers:test-driven-development`, `superpowers:requesting-code-review`, `superpowers:verification-before-completion`.
