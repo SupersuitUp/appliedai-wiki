@@ -119,7 +119,7 @@ export default function creationDatePlugin(
           .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
           .join(' ');
 
-        const stripNumberPrefix = (s: string) => s.replace(/^\d+-/, '');
+        const stripNumberPrefix = (s: string) => s.replace(/^\d+-(?!\d)/, '');
         const cleanedDocKey = docKey.split('/').map(stripNumberPrefix).join('/');
 
         recentFiles.push({
