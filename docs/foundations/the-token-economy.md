@@ -55,4 +55,5 @@ The token economy is not a future abstraction. It's the pricing layer of every A
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The discipline of curating the right information state for AI systems. Better context means fewer wasted tokens.
-- [Jevons Paradox](/foundations/jevons-paradox): The economic mechanism behind why cheaper tokens expand total demand
+- [Jevons Paradox](/foundations/jevons-paradox): The economic mechanism behind why cheaper tokens expand total demand.
+- [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for): Daniel Priestley's framing of what survives the substitution: conviction, judgment, taste, commercial outcomes, and improving the system.
