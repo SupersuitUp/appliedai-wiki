@@ -1,5 +1,5 @@
 {
-  "buildCommand": "git fetch --unshallow 2>/dev/null || true; npm run build",
+  "buildCommand": "git fetch --unshallow 2>/dev/null || true; pnpm run build",
   "outputDirectory": "build",
   "framework": "docusaurus-2",
   "trailingSlash": false
