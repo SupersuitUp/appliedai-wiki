@@ -22,7 +22,7 @@ The failure mode in the other direction: a fat harness with thin skills. Forty t
 
 ## What a Fat Skill Actually Is
 
-A skill is a markdown file that teaches the model **how** to do something, not **what** to do. The "what" lives in the prompt. The "how" lives in the skill. See [Instruction Files](/concepts/instruction-files) for the mechanical details of how skills load.
+A skill is a markdown file that teaches the model **how** to do something, not **what** to do. The "what" lives in the prompt. The "how" lives in the skill. See [Skill Files](/concepts/skill-files) for the mechanical details of how skills load.
 
 A **fat skill** is a thick, opinionated, example-laden procedure. Sometimes it is 50 pages. Sometimes it is 5. The length is not the point. The density of encoded judgment is.
 
@@ -99,7 +99,9 @@ Start writing your fat skills. One workflow at a time. The ones you write now wi
 
 - [Harness Engineering](/disciplines/harness-engineering): Why the code wrapped around the model matters as much as the model. Fat skills are the user-facing layer of the harness.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): The deep dive on Claude Code's source, where the thin-harness-fat-skills pattern was first made legible.
-- [Instruction Files](/concepts/instruction-files): How skills, CLAUDE.md, and memory files load into a session.
+- [Skill Files](/concepts/skill-files): The on-demand workflow file format every fat skill lives in.
+- [Agent Rule Files](/concepts/agent-rule-files): The standing-orders layer (CLAUDE.md, AGENTS.md) that a fat skill's library is referenced from.
+- [Memory Files](/concepts/memory-files): The harness-managed notes layer, and why fat skills make auto-memory unnecessary.
 - [Spec Writing](/disciplines/spec-writing): Why the precision of your instructions, not the code, is the real asset.
 - [Observable Behavior Engineering](/disciplines/observable-behavior-engineering): Defining what good looks like in concrete, testable terms. The discipline underneath writing a good skill.
 - [Skill File First, App Second](/concepts/skill-file-first-app-second): The product strategy that flows from this architecture.

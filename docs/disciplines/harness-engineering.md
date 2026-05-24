@@ -78,7 +78,9 @@ All software will be self-evolving software. The question is not whether this ha
 
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): Deep technical analysis of a real-world harness, with patterns mapped to every concept in this article
 - [Fat Skills](/concepts/fat-skills): Thin harness, fat skills. The architectural rule for where intelligence actually lives.
-- [Instruction Files](/concepts/instruction-files): CLAUDE.md, skills, and memory as the user-configurable layer of the harness
+- [Agent Rule Files](/concepts/agent-rule-files): the standing-orders layer (CLAUDE.md and AGENTS.md)
+- [Skill Files](/concepts/skill-files): the on-demand workflow layer
+- [Memory Files](/concepts/memory-files): the harness-managed notes layer, and why this framework defaults it off
 - [Context Engineering](/disciplines/context-engineering): The discipline that feeds the harness
 - [MetaHarness Paper](https://arxiv.org/abs/2603.28052) (Stanford, MIT, Krafton, March 2026)
 - [MetaHarness Project Page](https://yoonholee.com/meta-harness/) with interactive demo

@@ -52,7 +52,7 @@ But should it have to rebuild that pipeline every session?
 
 Domain knowledge compounds. Video editing is not one ffmpeg call. It is hundreds of edge cases, format quirks, codec behaviors, and non-obvious dependencies that take iteration to get right.
 
-A [skill file](https://supersuit.wiki/concepts/skill-files) or system prompt does not solve this. A skill can tell an agent how to think about a problem. It cannot execute the solution. That distinction matters. The skill is the knowledge. The tool is the execution.
+A [skill file](/concepts/skill-files) or system prompt does not solve this. A skill can tell an agent how to think about a problem. It cannot execute the solution. That distinction matters. The skill is the knowledge. The tool is the execution.
 
 Execution from scratch is expensive. Every time the agent rebuilds the same workflow in context, it writes code, debugs edge cases, and burns tokens on work that should already be packaged. Worse, it is fragile.
 
@@ -96,7 +96,7 @@ These three things are often confused. Here is the distinction.
 
 ### A skill is knowledge
 
-It is a set of [instructions](https://supersuit.wiki/concepts/skill-files) that tells an agent how to think about a domain. What to prioritize, what patterns to follow, what pitfalls to avoid, what tools to use. Skills live in the agent's context window. They shape reasoning and direct tool calling.
+It is a set of [instructions](/concepts/skill-files) that tells an agent how to think about a domain. What to prioritize, what patterns to follow, what pitfalls to avoid, what tools to use. Skills live in the agent's context window. They shape reasoning and direct tool calling.
 
 ### An MCP server is a connector
 
@@ -176,4 +176,4 @@ The harnesses are here. Now clip in.
 - [Harness Engineering](https://appliedai.wiki/disciplines/harness-engineering): The layer that CLIPs attach to
 - [Anatomy of a Harness](https://appliedai.wiki/disciplines/anatomy-of-a-harness): Deep technical analysis of how harnesses work
 - [Agent-Accessible Products](https://appliedai.wiki/concepts/agent-accessible-products): The broader shift toward agent-native software
-- [Skill Files](https://supersuit.wiki/concepts/skill-files): How skills differ from CLIPs (knowledge vs. execution)
+- [Skill Files](/concepts/skill-files): How skills differ from CLIPs (knowledge vs. execution)

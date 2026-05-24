@@ -27,7 +27,9 @@ Use this when you want to skim the surface area of the wiki without committing t
 - **[Command Centers](/concepts/command-centers)**: the meta-concept. Personal workspaces, business operating environments, custom harnesses for individuals and organizations are all command centers.
 - **[Context Overflow](/concepts/context-overflow)**: the most dangerous form of overwhelm is the kind that feels like momentum. How high-signal people accidentally drown in opportunity.
 - **[Context Searching](/concepts/context-searching)**: the runtime side of context engineering. How an agent actually pulls the right context out of your knowledge base at the moment it needs it.
-- **[Instruction Files](/concepts/instruction-files)**: the new unit of programming. Plain markdown files that configure how an AI agent operates within a specific context. CLAUDE.md, AGENTS.md, skill files, memory files.
+- **[Agent Rule Files](/concepts/agent-rule-files)**: standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. The version-controlled spine of how an agent behaves inside your workspace.
+- **[Skill Files](/concepts/skill-files)**: on-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. The library of procedures the agent runs on your behalf.
+- **[Memory Files](/concepts/memory-files)**: harness-managed notes the agent writes to itself between sessions. A worse-engineered version of what AGENTS.md already does. Off by default in this framework.
 - **[llms.txt and llms-full.txt](/concepts/llms-txt)**: two plain-text files that turn your wiki into something every LLM can read at full fidelity, without you having to host a chatbot.
 
 ## Skills and integration

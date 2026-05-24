@@ -124,6 +124,6 @@ If you are helping clients build AI systems, self-improvement is not a feature y
 - [Harness Engineering](/disciplines/harness-engineering): Self-improving harnesses as a building block
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): Claude Code's hook system as the observation layer for self-improvement
 - [Intent Engineering](/disciplines/intent-engineering): Defining what "better" means so systems can improve toward it
-- [Instruction Files](/concepts/instruction-files): The configurable layer where self-improvement happens
+- [Agent Rule Files](/concepts/agent-rule-files): The configurable layer where self-improvement happens
 - [MetaHarness Paper](https://arxiv.org/abs/2603.28052) (Stanford, MIT, Krafton, March 2026): Harnesses that improve themselves
 - [The AI Scientist](https://arxiv.org/abs/2408.06292) (Sakana AI, August 2024): Automated scientific research as a self-improving system

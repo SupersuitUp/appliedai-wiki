@@ -20,7 +20,7 @@ The order matters because most app projects fail at the capability layer, not th
 
 ## What A Skill File Is
 
-A skill file is a structured prompt and instruction set that tells an agentic harness how to do a specific task: format inputs, run the right steps, call the right tools, return the right output. Read more in [Fat Skills](/concepts/fat-skills) and [Instruction Files](/concepts/instruction-files).
+A skill file is a structured prompt and instruction set that tells an agentic harness how to do a specific task: format inputs, run the right steps, call the right tools, return the right output. Read more in [Skill Files](/concepts/skill-files) and [Fat Skills](/concepts/fat-skills).
 
 The skill file is the workflow distilled to its essence. No buttons. No screens. No login. Just the instructions plus the operator's context. Run it and see if the output is real.
 
@@ -80,6 +80,7 @@ The skill file moment is the unlock. Most clients have never seen a working AI c
 ## Further Reading
 
 - [Fat Skills](/concepts/fat-skills): What it looks like when a skill file is dense enough to actually transfer judgment
-- [Instruction Files](/concepts/instruction-files): The full stack of files that configure an agent harness
+- [Skill Files](/concepts/skill-files): The canonical concept page for the file format described in this article.
+- [Agent Rule Files](/concepts/agent-rule-files): The standing-orders layer (CLAUDE.md, AGENTS.md) that points at the skill file library.
 - [Spec Writing](/disciplines/spec-writing): The discipline that turns a fuzzy idea into a skill file the model can run
 - [Harness Engineering](/disciplines/harness-engineering): The runtime your skill file operates inside

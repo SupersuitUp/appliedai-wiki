@@ -284,5 +284,7 @@ All software will be self-evolving software. We just got to see the source code 
 - [Intent Engineering](/disciplines/intent-engineering): What the permission system is really encoding
 - [Spec Writing](/disciplines/spec-writing): Why skill files as markdown specs matter
 - [Fat Skills](/concepts/fat-skills): The architectural rule for where intelligence actually lives
-- [Instruction Files](/concepts/instruction-files): How CLAUDE.md, skills, and memory load into a session
+- [Agent Rule Files](/concepts/agent-rule-files): How CLAUDE.md and AGENTS.md load into every session
+- [Skill Files](/concepts/skill-files): How on-demand workflows lazy-load on invocation
+- [Memory Files](/concepts/memory-files): How harness-managed notes inject standing context, and why this framework defaults the feature off
 - [MetaHarness Paper](https://arxiv.org/abs/2603.28052) (Stanford, MIT, Krafton, March 2026): The research proving that harness variation produces 6x performance gaps
