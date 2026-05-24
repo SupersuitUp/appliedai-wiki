@@ -24,6 +24,8 @@ Once this wiki has 2+ comics of its own in the family style, use that wiki's own
 
 ## Image embedding
 
+Alt text on every embedded comic stores the **full prompt-readable description of the strip**, detailed enough to reproduce the comic from the alt text alone. This pulls double duty: a screen-reader user gets the description, and the prompt itself stays version-controlled inside the article that uses it. For the underlying principle, see [Version-Control Your Prompts](/foundations/version-control-your-prompts).
+
 Save generated comics to `static/img/comics/<slug>.png` where `<slug>` matches the article's URL slug. Embed at the top of the article, immediately after the subtitle italic block, before the first `## section`:
 
 ```markdown
