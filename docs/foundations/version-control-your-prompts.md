@@ -35,6 +35,10 @@ The wiki's own comic workflow already runs this way. Every article hero on a [Su
 
 For non-markdown surfaces, the equivalent move is a sidecar file: `image.png` next to `image.prompt.txt`, both checked in.
 
+### Caveat: the prompt is one layer of a larger stack
+
+Storing the prompt in alt text gives you version control for a single image and the ability to regenerate it against a future model. It does not, by itself, produce visual coherence across a corpus of images that share a recurring character, palette, or universe. For that, the prompt is one layer of a larger system. The **recurring identity anchors** (character look, palette, world) are best carried by reference images passed alongside the prompt on every render, while the prompt keeps doing load-bearing work on the variable per-render content (scene, HUD, captions, banned-term substitutions). A design system around both layers (canonical spec doc, named characters, banned-term lists, a single bundled generation skill) governs how they cooperate. When you go from "I regenerate this one image" to "I run a coherent visual corpus," see [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals).
+
 ## The Portability Win
 
 The reason this matters more than it looks: image and language models keep getting replaced. Every six to twelve months a new frontier model lands that's materially sharper than the one before it. People who stored their prompts get to re-run their entire library against the new model in an afternoon. People who didn't are back to the chat-history archaeology problem.
@@ -72,6 +76,7 @@ The bar is simple: if you might want to reproduce or improve this output later, 
 
 ## Further Reading
 
+- [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): when you go from regenerating one image to running a coherent visual corpus
 - [Compounding Docs](/foundations/compounding-docs): why every file you keep makes the next AI run sharper
 - [The Lock-in Is Coming](/foundations/the-lock-in-is-coming): why portability is the load-bearing posture
 - [Learn the Primitive, Not the Wrapper](/concepts/learn-the-primitive-not-the-wrapper): the prompt is the primitive
