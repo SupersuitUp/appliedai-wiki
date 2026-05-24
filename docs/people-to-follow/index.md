@@ -21,6 +21,11 @@ Each entry is one short page: a one-line who-they-are, two or three sentences on
 - Outside links go to canonical sources (their newsletter, their GitHub, their primary platform), not to discovery aggregators.
 - If a person is worth following only for a specific topic, say so.
 
+## The people
+
+- **[Daniel Priestley](/people-to-follow/daniel-priestley)** *(public-teaching source)*: founder of Dent Global and ScoreApp, author of *Key Person of Influence*. Principal-facing mentor whose framework on repricing post-AI work is required reading for any consultant advising entrepreneurs through the substitution frontier.
+
 ## Further Reading
 
 - [Foundations](/foundations): the works of these and others, curated by source rather than author
+- [Note Sharers](/note-sharers): firm-level field notes from organizations whose publications we process
