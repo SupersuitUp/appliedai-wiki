@@ -92,3 +92,5 @@ Systematic workflows for implementing truth management:
 ## Further Reading
 
 - [Disciplines](/disciplines): the other craft pillars.
+- [Anointed Repository](https://truthmanagement.wiki/concepts/anointed-repository): the governance act of declaring a specific Git repository as the canonical source of truth for an operation. The piece of discipline the implementer asks the principal to commit to.
+- [Truth Portal](https://truthmanagement.wiki/concepts/truth-portal): the readable interface layered over an anointed repository, shaped for each audience (client, board, ops) without giving them write access to the substrate. The pattern the implementer ships when the principal needs to expose truth to non-engineering audiences.
