@@ -70,3 +70,4 @@ That is the first move, and the only one that actually elevates you. Every other
 - [See Your Own Thinking](/concepts/see-your-own-thinking): The metacognition practice that makes the bottleneck visible.
 - [Strategy Is the New Execution](/concepts/strategy-is-the-new-execution): The structural reason this matters now. Execution got cheap, so the human bottleneck moved to strategy and judgment.
 - [Judgment Burnout](/concepts/judgment-burnout): What it feels like in the body when the bottleneck is judgment and you keep adding leverage instead of fixing the operator.
+- [AI Is Your Smartest, Most Coachable Friend Who Has Read Everything But Experienced Nothing](/perspectives/ai-is-your-smartest-most-coachable-friend): The operator-side model of the same observation. The taste and lived experience that constitute the bottleneck are exactly what the AI lacks.
