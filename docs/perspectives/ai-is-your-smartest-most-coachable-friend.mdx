@@ -18,11 +18,11 @@ This model is more useful than "AI is a tool" or "AI is an oracle" because it pr
 
 ## Why it has zero wisdom
 
-The training corpus is approximately the public internet: most of what got published. Most of what got published is what someone wanted the world to see. Companies promoting themselves. Governments framing themselves. Activists shaping narratives. Influencers selling products. Academics defending priors. The model absorbed the entire corpus of public propaganda with the same weight as the corpus of patient truth-telling, and there is no internal heuristic in the training set that distinguishes pitch from truth. So there is none in the model either.
+The model has zero internal wisdom because its training corpus has zero internal truth signal. The corpus is approximately the public internet, and the average of what gets published is the world's pitch. See [Propaganda-Weighted Average](/concepts/propaganda-weighted-average) for the full mechanism.
 
-Wisdom is good judgment in an ambiguous situation, where what is actually true is different from what most published voices are saying about it. That is the part the model cannot do. It can recall, recombine, and rephrase the published consensus at superhuman speed, and the published consensus is on average a polished pitch. The operators who can produce useful AI output are the ones who can feed the model the unpublished story (the lived data nobody put online, the internal numbers, the actual sequence of events in the room, the suppressed counter-narrative) and grade the output against that. Everyone else is rearranging the propaganda the model was already trained on.
+Wisdom is good judgment in an ambiguous situation, where what is actually true differs from what most published voices are saying. The model cannot do this. It can recall, recombine, and rephrase the published consensus at superhuman speed, and the published consensus is on average a polished pitch. The operators who can produce useful output are the ones who can feed the model the unpublished story (the lived data nobody put online, the internal numbers, the actual sequence of events in the room, the suppressed counter-narrative) and grade the output against that. Everyone else is rearranging the propaganda the model was already trained on.
 
-This is the load-bearing reason coachability cuts both ways. A vague prompt collapses the model to the propaganda-weighted average. A specific prompt with real ground-truth context pulls it toward the real story. The variable is the operator's access to truth the model does not have.
+This is the load-bearing reason coachability cuts both ways. A vague prompt collapses the model to the propaganda-weighted average. A specific prompt with operator ground-truth context pulls it toward the real story. The variable is the operator's access to truth the model does not have.
 
 ## Coachable in either direction
 

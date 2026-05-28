@@ -106,3 +106,4 @@ For young ambitious operators: the goal is not to outwork everyone. The goal is 
 - [Slop Factory](/concepts/slop-factory): What gets produced when burnt-out operators stop reviewing carefully.
 - [The Overconfidence Trap](/disciplines/the-overconfidence-trap): Why the early honeymoon of running many agents feels like proof you can keep going.
 - [LLM Psychosis](/disciplines/llm-psychosis): What burnt-out judgment actually ships. Generation without discrimination.
+- [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): What the model collapses to when burnt-out judgment stops applying the pull.

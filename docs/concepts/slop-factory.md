@@ -69,3 +69,4 @@ Build the self-running business. Refuse to build the slop factory. The differenc
 - [The Overconfidence Trap](/disciplines/the-overconfidence-trap): The operator-level failure mode that produces slop factories
 - [LLM Psychosis](/disciplines/llm-psychosis): The build-side failure that produces the slop a Slop Factory ships
 - [Judgment Burnout](/concepts/judgment-burnout): The bodily reason burnt-out operators stop reviewing and the slop factory takes over
+- [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): What the slop converges to when no operator is applying ground-truth pull on the model
