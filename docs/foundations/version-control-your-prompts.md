@@ -45,7 +45,7 @@ The reason this matters more than it looks: image and language models keep getti
 
 Stored prompts compound the same way [compounding docs](/foundations/compounding-docs) do. Each prompt you save makes the next regeneration cheaper. After a year you have a library of generative recipes you can lift, fork, and re-aim at whatever model is currently best. Without that library, every new model is a fresh start.
 
-This is the same logic as [learn the primitive, not the wrapper](/concepts/learn-the-primitive-not-the-wrapper) and [the lock-in is coming](/foundations/the-lock-in-is-coming). The prompt is the primitive. The model is the wrapper of the week. You want your work portable across the wrappers, anchored to artifacts you own.
+This is the same logic as [learn the harness, not the wrapper](/perspectives/learn-the-harness-not-the-wrapper) and [the lock-in is coming](/foundations/the-lock-in-is-coming). The prompt is the primitive. The model is the wrapper of the week. You want your work portable across the wrappers, anchored to artifacts you own.
 
 A working corollary: don't try to nail the prompt on the first try. Ship the imperfect version, store it, regenerate with the next iteration. The prompt improves like code does. It's never "done." Treating it as precious because you finally got one good output is the trap.
 
@@ -79,6 +79,6 @@ The bar is simple: if you might want to reproduce or improve this output later, 
 - [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): when you go from regenerating one image to running a coherent visual corpus
 - [Compounding Docs](/foundations/compounding-docs): why every file you keep makes the next AI run sharper
 - [The Lock-in Is Coming](/foundations/the-lock-in-is-coming): why portability is the load-bearing posture
-- [Learn the Primitive, Not the Wrapper](/concepts/learn-the-primitive-not-the-wrapper): the prompt is the primitive
+- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): the prompt is the primitive
 - [Ephemeral Software, Precious Context](/foundations/ephemeral-software-precious-context): the artifacts worth keeping outlive the tools that made them
 - [Graphic Style](/reference/graphic-style): the wiki's own image-prompt policy, including the reproducible alt-text spec

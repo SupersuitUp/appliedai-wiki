@@ -20,7 +20,7 @@ A high-ticket closing seat includes proposal formatting, follow-up, and CRM hygi
 
 ## The good kind of wrapper
 
-This wiki warns against [learning the vendor wrapper instead of the primitive](/concepts/learn-the-primitive-not-the-wrapper). A seat wrapper is the opposite case, and the distinction is worth stating plainly so the word "wrapper" does not get read as an insult.
+This wiki warns against [learning the vendor wrapper instead of the harness](/perspectives/learn-the-harness-not-the-wrapper). A seat wrapper is the opposite case, and the distinction is worth stating plainly so the word "wrapper" does not get read as an insult.
 
 A bad wrapper is a generic interface over the general-purpose agentic harness, sold to people who would be better off learning the harness itself. It hides the primitive and caps you at what a vendor chose to expose. A seat wrapper is narrow on purpose. It does not hide a general-purpose tool; it specializes one. It is built by someone who learned the primitive, aimed at one role's specific, repeatable processes, owned by the operator rather than rented from a vendor. Specialization is exactly what makes it good. A wrapper around the whole supercomputer is a trap. A wrapper around one seat is an asset.
 
@@ -51,7 +51,7 @@ The result is a [legible](/disciplines/legible-organization), ownable system tha
 ## Further Reading
 
 - [Comparative Human Edge](/concepts/comparative-human-edge), the part of the seat a wrapper must never try to automate.
-- [Learn the Primitive, Not the Wrapper](/concepts/learn-the-primitive-not-the-wrapper), the bad wrapper this concept is defined against.
+- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper), the bad wrapper this concept is defined against.
 - [The Mission Harness](/concepts/mission-harness), the shared-purpose harness one level up from a single seat.
 - [Harness Engineering](/disciplines/harness-engineering), how the AI system around the role actually gets built.
 - [Roles to Workflows](/concepts/roles-to-workflows), the move from a job title to the processes a wrapper encodes.

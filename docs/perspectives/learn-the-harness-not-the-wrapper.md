@@ -30,7 +30,7 @@ Two terms to keep straight.
 
 **A wrapper** is a friendlier UI built on top of a specific harness, usually by the vendor that makes the harness. Claude Cowork is a wrapper: it is [Anthropic's Desktop-app layer over Claude Code](https://claude.com/product/cowork), billed as “Claude Code without the code.” You point it at a folder, it reads and writes files in that folder, and you interact through a chat window. It is the same underlying harness, with the primitives hidden behind an opinionated interface.
 
-Wrappers look like a shortcut. They are a trap.
+The kind of wrapper this page warns about is the generic vendor layer you adopt so you never have to meet the primitive. That kind looks like a shortcut and is a trap. A wrapper built on purpose for one specific seat is the opposite, and a good thing: see [Seat Wrapper](/concepts/seat-wrapper). The difference is whether the wrapper hides a general-purpose tool from you or specializes one for a single role. This page is about the first kind.
 
 ---
 
@@ -118,6 +118,8 @@ Here is the prediction: companies and individuals will build custom agent viewer
 
 The reason they can build custom viewers is that everything underneath is plain files and a well-understood harness. The UI on top is a choice. The substrate is the product.
 
+A viewer like that, built for one role on top of files and a harness you understand, is a [Seat Wrapper](/concepts/seat-wrapper): the good kind of wrapper, because it specializes the primitive for a single seat instead of hiding the primitive from a general user.
+
 If you learn a vendor's wrapper, your skills die the day that wrapper changes. If you learn the harness and the files, your skills persist forever, because every future interface (including the one you or your team eventually builds) is just another wrapper over the same underlying thing. This is the essence of [personal software](https://supersuit.wiki/concepts/personal-software): the custom, hyper-specific interfaces that emerge once the substrate is solid.
 
 ---
@@ -165,3 +167,4 @@ The friction is real. The upside is uncapped.
 - [Claude Code Setup](/reference/tools/claude-code): The default harness we teach
 - [Hermes Setup](/reference/tools/hermes): A second harness to prove your skills transfer
 - [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): Why minimal harnesses keep winning and kitchen-sink defaults are the failure mode
+- [Seat Wrapper](/concepts/seat-wrapper): The good kind of wrapper. Specializes the primitive for one seat instead of hiding it from a general user

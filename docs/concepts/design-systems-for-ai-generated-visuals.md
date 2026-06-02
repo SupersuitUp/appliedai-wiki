@@ -86,5 +86,5 @@ The implementer's value to the principal is standing up the system that keeps th
 
 - [Version-Control Your Prompts](/foundations/version-control-your-prompts): the alt-text-as-prompt-storage discipline this concept builds on
 - [Compounding Docs](/foundations/compounding-docs): why corpus coherence compounds over time
-- [Learn the Primitive, Not the Wrapper](/concepts/learn-the-primitive-not-the-wrapper): reference images are the primitive, the prompt is the variable wrapper
+- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): reference images are the primitive, the prompt is the variable wrapper
 - [Graphic Style](/reference/graphic-style): this wiki's own visual spec, an in-production worked example

@@ -19,7 +19,7 @@ Use this when you want to skim the surface area of the wiki without committing t
 - **[Agent-Accessible Products](/concepts/agent-accessible-products)**: if agents cannot use your product, agents will replace your product. The CLI, API, and MCP shift in product design.
 - **[Agentic UX Rules](/concepts/agentic-ux-rules)**: a growing list of UX rules for the agentic age. The bar for product UX has moved because AI moved it.
 - **[Always-On Agents](/concepts/always-on-agents)**: the shift from AI that answers when asked to AI that works for you while you sleep.
-- **[Learn the Primitive, Not the Wrapper](/concepts/learn-the-primitive-not-the-wrapper)**: agentic harnesses like Claude Code, Hermes, and Codex are primitives. Vendor wrappers hide them to look friendlier. Learn the primitive so your skills transfer.
+- **[Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper)**: agentic harnesses like Claude Code, Hermes, and Codex are primitives. Vendor wrappers hide them to look friendlier. Learn the harness so your skills transfer.
 - **[The Mission Harness](/concepts/mission-harness)**: everyone talks about AI alignment. Aligned to what? A mission harness makes it concrete: a system that keeps humans and agents aligned with a shared purpose.
 
 ## Context and truth
