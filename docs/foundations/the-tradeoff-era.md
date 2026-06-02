@@ -73,6 +73,12 @@ Treat models like ingredients. Pick the best one for the dish on the day you coo
 
 ---
 
+## Supporting voices
+
+- **bycloud (2026-05-27):** DeepSeek V4 is a cost-performance release, not a leaderboard play. The team is open that on raw reasoning they sit roughly 3 to 6 months behind GPT-5.4 and Gemini 3.1 Pro, and they bet on cheap long context instead. That is the swappable-dependency thesis from the supply side: V4 is the ingredient you reach for when the dish needs a million tokens of context at a price you can run at volume. bycloud also surfaces the runtime dial (non-thinking, think-high, think-max, where Pro Max is just Pro at maximum reasoning effort), so reasoning budget becomes a per-task knob rather than a model choice. [Field note](/note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse).
+
+---
+
 ## Further Reading
 
 - [The Overconfidence Trap](/disciplines/the-overconfidence-trap)

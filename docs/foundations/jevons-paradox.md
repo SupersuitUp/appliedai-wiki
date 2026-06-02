@@ -126,6 +126,12 @@ The train is already pulling away from the station. The question is whether you 
 
 ---
 
+## Supporting voices
+
+- **bycloud (2026-05-27):** DeepSeek V4 is Jevons Paradox at the token layer. As efficiency cut the cost of a million-token context by an order of magnitude, demand did not soften: it surged. bycloud's read on why frontier models feel "dumber" lately is that the demand is too high to serve, and meeting it is what justifies the data-center buildout. "When you feel like the model you love using is getting dumber, that's because the demand is too high." Cheaper tokens expanded what is worth doing with them, exactly as the paradox predicts. [Field note](/note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse).
+
+---
+
 ## Further Reading
 
 - [The Survivor Economy](/foundations/the-survivor-economy): What the sorting looks like inside companies doing it well and poorly.

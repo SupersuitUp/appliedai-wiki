@@ -52,6 +52,12 @@ The token economy is not a future abstraction. It's the pricing layer of every A
 
 ---
 
+## Supporting voices
+
+- **bycloud (2026-05-27):** DeepSeek V4 treats token cost as the design driver, not a side effect. bycloud reports V4 at roughly 0.435 per million input and 0.87 per million output, against Gemini 3.1 Pro (2 in / 12 out) and Opus 4.6 (5 in / 25 out): on the same budget, "a company can use DeepSeek for 7 years and only 4 months if they use Claude." The whole stack was redesigned around one question, how do you make a million-token context actually affordable, which is the token economy stated as an engineering mandate. [Field note](/note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse).
+
+---
+
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The discipline of curating the right information state for AI systems. Better context means fewer wasted tokens.
