@@ -38,19 +38,19 @@ The firm rolls the remaining solutions out in a deliberate order where each one 
 
 These are anonymized case studies from one firm's published library. The numbers below are the firm's own claims, not independently audited, so treat the specific multiples as illustrative and the recurring shape as the durable lesson.
 
-| Sector | Size | "We just need..." | Claimed year-1 result |
-|---|---|---|---|
-| Commercial real estate | $55M, 250 staff | a property management app | $12M ROI, 30% lower vacancy |
-| Regional utility | $85M, 350 staff | an outage app and billing chatbot | $15M ROI, 35% fewer outages |
-| Energy services | ~$75M, 300 staff | AI for service and reporting | ranked blueprint, compounding ROI |
-| Wealth management | $90M, 300 staff | a compliance tool | $10M ROI, 12,000 hours saved |
-| Steel fabrication | $80M, 400 staff | sensors to monitor equipment | $10M ROI, 40% less downtime |
-| HVAC field service | $45M, 300 staff, 120 trucks | a better dispatch app | $4M ROI, NPS +20 |
-| Manufacturing and distribution | $70M, 250 staff | a better forecasting tool | $8M ROI, 95% on-time fulfillment |
-| Mortgage lending | $65M, 250 staff | a staff and borrower chatbot | ~$1M+ ROI, 90% of questions auto-answered |
-| Professional services | $40M, 180 staff | a staff Q&A chatbot | $2M ROI, 20% faster delivery |
-| Publishing | $60M, 200 staff | an AI writing assistant | $6M ROI, 40% faster cycles |
-| Publishing (larger) | ~$80M, 350 staff | AI writing tools | $18M, claimed 12x ROI |
+| Sector | Size | "We just need..." | Built, in sequence | Claimed year-1 result |
+|---|---|---|---|---|
+| Commercial real estate | $55M, 250 staff | a property management app | portfolio dashboards, then AI lease pricing, then AI maintenance | $12M ROI, 30% lower vacancy |
+| Regional utility | $85M, 350 staff | an outage app and billing chatbot | outage prediction, then billing automation, then customer-concierge AI | $15M ROI, 35% fewer outages |
+| Energy services | ~$75M, 300 staff | AI for service and reporting | support chatbots and CRM integration, then predictive sales analytics, meter validation, and EDI error handling | ranked blueprint, compounding ROI |
+| Wealth management | $90M, 300 staff | a compliance tool | SEC/FINRA filing automation, then CRM integration, then predictive client insights | $10M ROI, 12,000 hours saved |
+| Steel fabrication | $80M, 400 staff | sensors to monitor equipment | predictive maintenance, then supply-chain AI, then scheduling AI | $10M ROI, 40% less downtime |
+| HVAC field service | $45M, 300 staff, 120 trucks | a better dispatch app | routing AI, then predictive maintenance, then customer concierge | $4M ROI, NPS +20 |
+| Manufacturing and distribution | $70M, 250 staff | a better forecasting tool | demand forecasting, then automatic reordering, then margin dashboards | $8M ROI, 95% on-time fulfillment |
+| Mortgage lending | $65M, 250 staff | a staff and borrower chatbot | a staff Q&A assistant in Teams, then compliance-guideline search, then onboarding automation | ~$1M+ ROI, 90% of questions auto-answered |
+| Professional services | $40M, 180 staff | a staff Q&A chatbot | an internal Q&A assistant, then proposal-generation AI, then project dashboards | $2M ROI, 20% faster delivery |
+| Publishing | $60M, 200 staff | an AI writing assistant | AI auto-tagging, then a unified content hub, then predictive sales analytics | $6M ROI, 40% faster cycles |
+| Publishing (larger) | ~$80M, 350 staff | AI writing tools | metadata automation and social scheduling, then proofreading automation and a discoverability engine, then audience and trend analysis | $18M, claimed 12x ROI |
 
 Two things are striking. First, the buyer's wrong starting thought is always a single tool, and it is always the same single tool shape (an app, a chatbot, a sensor, a forecaster). Second, every client sits in the [mid-market sweet spot](/foundations/mid-markets-are-the-ai-sweet-spot): roughly $40M to $90M in revenue, 180 to 400 staff, profitable but hitting a scale ceiling. The arc is calibrated to that buyer.
 
