@@ -60,6 +60,18 @@ The arc is really one idea applied at three time scales: **sequence beats assemb
 
 This is also why the blueprint is sold before the build. The order of operations is the scarce expertise. Any vendor can sell a chatbot. Knowing which three solutions to install, in which sequence, so the third is worth more because the first two already shipped, is the part the client cannot do alone.
 
+## What the case studies don't show
+
+The arc is sound on first principles. The case studies are weak as proof. A skeptical operator should read the evidence base knowing what a marketing case-study library leaves out.
+
+- **No base rate.** These are wins only. There is no denominator: no count of how many engagements stalled, how many blueprints never converted to a rollout, or how the showcased clients were selected. "This produces a five-to-twelve-times return" is a claim the wins cannot support, because the losses are not in the sample.
+- **Projected upside, not audited return.** The day-one number ("the blueprint revealed $12M in upside") is a pre-engagement projection, which is a sales artifact, not a measured result. The year-one figures are self-reported by the firm that was paid to produce them. Treat both as claims.
+- **The compounding counterfactual is asserted, never run.** "$4M sequenced versus $2M piecemeal" was never tested on the same client both ways. It is a plausible story about order, not a measurement.
+- **The day-one blueprint is compressed for the pitch.** Mapping every process across divisions and ranking it by ROI does not actually happen in a literal day. The "1 Day" is a sales-shaped intensive that produces a first-draft roadmap, not a finished strategy. Useful as a wedge; not a complete diligence.
+- **The hard part is barely mentioned.** Almost every case skips the adoption and change-management work, which is where most real transformations actually fail. The deck shows the tool shipping; it does not show the six weeks of getting operators to trust it. A clean sequence on paper still stalls if the second solution depends on data the first was supposed to clean and did not.
+
+None of this kills the pattern. It calibrates how to use it: the arc is a first-principles process worth running, and the case studies are illustration of the shape, not evidence of a guaranteed multiple.
+
 ## What this does not mean
 
 It does not mean the ROI numbers are gospel. They are a single firm's marketing claims with suspiciously round multiples. The durable lesson is the process shape, not the specific figures. Borrow the arc, not the spreadsheet.
