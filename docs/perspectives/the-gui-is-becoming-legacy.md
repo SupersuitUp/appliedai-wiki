@@ -18,6 +18,8 @@ That layer was load-bearing for forty years. Most people who use computers are n
 
 The GUI is starting to come back off, and most non-developers have not noticed yet.
 
+One scoping note before the argument runs. This is a claim about the layer where software gets built, customized, and operated by power users. At the layer where a non-technical leader runs a company, the GUI is holding, and arguably strengthening, for reasons worth taking seriously. That counter-case is laid out in [Where this thesis is weakest](#where-this-thesis-is-weakest) at the end.
+
 ## Why it is coming back off
 
 When you type `clauded` and press Enter, you are launching Claude Code. There is no icon. There is no browser tab. The application opens directly in the terminal. You speak or type. It does work. You move on.
@@ -83,7 +85,23 @@ The future for a non-developer is not learning to code. The future is learning t
 
 ---
 
+## Where this thesis is weakest
+
+The argument above is strongest for the people building and customizing software, and it gets weaker the closer you get to the non-technical leader running a company. Spend real time with mainstream operators (CEOs, function heads, the people leading teams) and the GUI does not look like it is going anywhere. It looks load-bearing, for reasons the terminal does not replace.
+
+- **Legibility is the product.** A dashboard makes state visible at a glance. A leader delegating to a team needs to see what is happening, not reconstruct it from scrolling text output. The GUI is how an organization stays auditable.
+- **Approval and reversibility.** A button that says "approve" or "send" over a clear preview is a control surface. It is how a busy decision-maker stays in the loop without doing the work themselves. See [The Permission Surface](/perspectives/the-permission-surface).
+- **Muscle memory and trust.** Leaders run on tools they already know. The switching cost is real and trust is earned slowly. "Faster in principle" loses to "familiar and safe" for the person whose job is judgment, not operation.
+
+The deeper point: for these operators, AI arrives through the GUI, not instead of it. The approve-or-reject card, the "draft ready" widget, the dashboard that now writes its own summary. They never touch a terminal and they get more AI leverage every quarter anyway. The same instinct is why [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): a blank prompt is not what a leader wants, a structured surface is.
+
+So scope the thesis. The GUI is becoming legacy as the **authoring** layer, and for the operator who crosses over into building. It is not becoming legacy as the **control** layer for the person running the company, and it may be getting more important there, because legibility and trust are exactly what that person is buying.
+
+---
+
 ## Further Reading
 
+- [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): why a structured surface beats a blank prompt
+- [The Permission Surface](/perspectives/the-permission-surface): the GUI as a control-and-approval surface
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach once you cross the line
 - [Harness Engineering](/disciplines/harness-engineering): The technical layer the terminal puts you closer to
