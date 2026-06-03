@@ -87,5 +87,5 @@ Strategy, here, is the taste you apply at each narrow. Execution is what the [ha
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The substrate that makes parallel execution cheap.
-- [Signal Theory](/foundations/signal-theory): The discipline of taste applied across your inputs and outputs. Sharper taste makes every narrow faster and truer.
+- [Signal Theory](/concepts/signal-theory): The discipline of taste applied across your inputs and outputs. Sharper taste makes every narrow faster and truer.
 - [Unified Intelligence with Amit Jain (Stanford CS153, April 2026)](https://x.com/AnjneyMidha/status/2045274349121556533): Source of the "execution used to be at a premium, now you can execute all of them" framing.

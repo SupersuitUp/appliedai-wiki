@@ -67,4 +67,4 @@ They understand both the principles (which are durable) and the implementation (
 ## Further Reading
 
 - [Curriculum](/onboarding/curriculum) for the module sequence that produces this arc
-- [Teammate Discipline](/foundations/teammate-discipline) for the operator hygiene the curriculum quietly trains
+- [Teammate Discipline](/disciplines/teammate-discipline) for the operator hygiene the curriculum quietly trains

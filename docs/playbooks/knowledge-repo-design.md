@@ -114,4 +114,4 @@ Skip it when:
 
 ## Further Reading
 
-- [Teammate Discipline](/foundations/teammate-discipline) for how to behave inside a knowledge repo someone else owns
+- [Teammate Discipline](/disciplines/teammate-discipline) for how to behave inside a knowledge repo someone else owns

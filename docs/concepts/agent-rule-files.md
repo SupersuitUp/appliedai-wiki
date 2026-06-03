@@ -61,7 +61,7 @@ After studying how harnesses actually load these files and watching real practit
 
 **State constraints, not just goals.** "Build a REST API" is a goal. "Build a REST API. Never expose internal IDs in responses. Always validate request bodies against Zod schemas. Return 404 for missing resources, never 500" is a goal with constraints. The constraints matter more than the goal, because the agent can figure out what to build but cannot intuit what you consider unacceptable.
 
-**Compound, do not refresh.** Every time you catch the agent doing something off-pattern, write the correction into the file. The file gets richer over time and the agent gets sharper every week without any model change. This is the [compounding docs](/foundations/compounding-docs) discipline applied to the most load-bearing file in the workspace.
+**Compound, do not refresh.** Every time you catch the agent doing something off-pattern, write the correction into the file. The file gets richer over time and the agent gets sharper every week without any model change. This is the [compounding docs](/concepts/compounding-docs) discipline applied to the most load-bearing file in the workspace.
 
 **Update when behavior drifts, not when prompts get long.** If you keep correcting the agent on the same issue, the fix is a new line in the rule file. Once it is in the file, you never correct it again. If the agent makes a mistake inside a [skill file](/concepts/skill-files), the fix lives in the skill, not in the rule file.
 
@@ -94,6 +94,6 @@ This is [context engineering](/disciplines/context-engineering) at its most prac
 - [Harness Engineering](/disciplines/harness-engineering): rule files are the user-configurable layer of the harness.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): how Claude Code's harness actually discovers and assembles the nested rule-file stack.
 - [Spec Writing](/disciplines/spec-writing): the quality chain that applies to every rule file.
-- [Compounding Docs](/foundations/compounding-docs): the practice that keeps rule files getting richer over time.
+- [Compounding Docs](/concepts/compounding-docs): the practice that keeps rule files getting richer over time.
 - [Fat Skills](/concepts/fat-skills): what a rule file looks like when it is dense with encoded judgment.
 - [Context Engineering](/disciplines/context-engineering): the discipline of curating the right information state.

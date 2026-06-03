@@ -44,7 +44,7 @@ The kind of wrapper this page warns about is the generic vendor layer you adopt 
 
 **You can go as deep as you want.** A direct harness exposes the full surface: custom skills, background agents, MCP servers, shell integrations, your own tooling. A wrapper is capped at what the vendor chose to expose.
 
-**You stay un-locked-in.** [The lock-in is coming](https://appliedai.wiki/foundations/the-lock-in-is-coming). Every hyperscaler has the same incentive: pull you deeper into their platform until switching is unthinkable. Wrappers are the tip of that spear. Cowork is a good wrapper. It is still a wrapper.
+**You stay un-locked-in.** [The lock-in is coming](https://appliedai.wiki/perspectives/the-lock-in-is-coming). Every hyperscaler has the same incentive: pull you deeper into their platform until switching is unthinkable. Wrappers are the tip of that spear. Cowork is a good wrapper. It is still a wrapper.
 
 The line I keep coming back to:
 
@@ -158,8 +158,8 @@ The friction is real. The upside is uncapped.
 
 - [Personal Agentic OS](/paos/what-it-is): The workspace a harness reads
 - [Harness Engineering](https://appliedai.wiki/disciplines/harness-engineering): What a harness actually is and why the code around the model matters as much as the model
-- [The Lock-In Is Coming](https://appliedai.wiki/foundations/the-lock-in-is-coming): Why every hyperscaler will eventually ship a wrapper
-- [The Chat Is Not the Product](https://appliedai.wiki/foundations/the-chat-is-not-the-product): Chat windows versus persistent files
+- [The Lock-In Is Coming](https://appliedai.wiki/perspectives/the-lock-in-is-coming): Why every hyperscaler will eventually ship a wrapper
+- [The Chat Is Not the Product](https://appliedai.wiki/perspectives/the-chat-is-not-the-product): Chat windows versus persistent files
 - [Personal Software](https://supersuit.wiki/concepts/personal-software): Custom UIs over shared files and agents
 - [Operational Reality](https://supersuit.wiki/concepts/operational-reality): What your files should contain
 - Ramp: Glass: A custom agent viewer at scale

@@ -113,6 +113,6 @@ This protocol pulls out the gut-level material that makes a brand specific inste
 
 ## Further Reading
 
-- [Signal Theory](/foundations/signal-theory) for the diagnostic that determines whether the resulting brand language actually lands
-- [Teammate Discipline](/foundations/teammate-discipline) for the listening posture the interviewer needs to hold
+- [Signal Theory](/concepts/signal-theory) for the diagnostic that determines whether the resulting brand language actually lands
+- [Teammate Discipline](/disciplines/teammate-discipline) for the listening posture the interviewer needs to hold
 - [Knowledge Repo Design](/playbooks/knowledge-repo-design) for where to store the raw interview material so it stays useful

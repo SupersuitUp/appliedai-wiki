@@ -48,6 +48,6 @@ It does not mean the operator is the only path to truth. Verified ground-truth d
 ## Further Reading
 
 - [AI Is Your Smartest, Most Coachable Friend Who Has Read Everything But Experienced Nothing](/perspectives/ai-is-your-smartest-most-coachable-friend) for the broader operator-side model this concept lives inside.
-- [Slop Factory](/concepts/slop-factory) for what happens at scale when nobody applies the pull.
+- [Slop Factory](/perspectives/slop-factory) for what happens at scale when nobody applies the pull.
 - [Vibe Curation](/concepts/vibe-curation) for the editing-seat discipline that grades the output against the operator's actual taste.
-- [You Are the Bottleneck](/concepts/you-are-the-bottleneck) for why the operator's access to truth is the load-bearing capacity in the loop.
+- [You Are the Bottleneck](/perspectives/you-are-the-bottleneck) for why the operator's access to truth is the load-bearing capacity in the loop.

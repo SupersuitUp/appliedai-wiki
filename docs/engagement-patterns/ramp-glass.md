@@ -38,7 +38,7 @@ So they built Glass, their own AI productivity suite built on Anthropic's Claude
 
 Glass comes auto-configured on install. Employees sign in once via SSO and 30+ tools light up: Salesforce, Snowflake, Gong, Slack, Notion, Google Workspace, Figma, plus Ramp's own internal products. No setup guide. No tickets to IT. If the user has to debug, they have already lost.
 
-This is [minimum viable infrastructure](/foundations/minimum-viable-infrastructure) done right. When a sales rep asks Glass to pull context from a Gong call, enrich it with Salesforce data, and draft a follow-up, it works because everything is already connected.
+This is [minimum viable infrastructure](/concepts/minimum-viable-infrastructure) done right. When a sales rep asks Glass to pull context from a Gong call, enrich it with Salesforce data, and draft a follow-up, it works because everything is already connected.
 
 ### Shared skills through the Dojo
 
@@ -54,7 +54,7 @@ The Dojo includes a built-in AI guide called the Sensei that looks at which tool
 
 When users first open Glass, the system builds a full memory layer based on their authenticated connections. Every chat session has context on the people they work with, their active projects, relevant Slack channels, Notion documents, and Linear tickets.
 
-A synthesis pipeline runs every 24 hours, mining previous sessions and connected tools for updates. Glass adapts to the user's world without them re-explaining things every session. This is [context engineering](/disciplines/context-engineering) and [compounding docs](/foundations/compounding-docs) at the organizational scale.
+A synthesis pipeline runs every 24 hours, mining previous sessions and connected tools for updates. Glass adapts to the user's world without them re-explaining things every session. This is [context engineering](/disciplines/context-engineering) and [compounding docs](/concepts/compounding-docs) at the organizational scale.
 
 ### Always-on automation
 
@@ -218,6 +218,6 @@ The most important lesson is the simplest one: just get started.
 
 - [Harness Engineering](/disciplines/harness-engineering): the technical foundation. The models are good enough. The harness is what matters.
 - [Context Engineering](/disciplines/context-engineering): what Glass's memory system practices at organizational scale.
-- [Compounding Docs](/foundations/compounding-docs): why the Dojo flywheel keeps getting more valuable.
-- [Minimum Viable Infrastructure](/foundations/minimum-viable-infrastructure): the principle behind "everything connects on day one."
+- [Compounding Docs](/concepts/compounding-docs): why the Dojo flywheel keeps getting more valuable.
+- [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure): the principle behind "everything connects on day one."
 - [AI Enablement Architect](/roles/ai-enablement-architect): the role responsible for building Glass-shaped systems inside other companies.

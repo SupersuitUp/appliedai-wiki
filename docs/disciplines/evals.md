@@ -46,9 +46,9 @@ If those four are true, evals are real in the king's organization. If they are n
 
 ## Pages in this discipline
 
-- **[The Judgment Line](/disciplines/the-judgment-line)**: where AI ends and human judgment begins. The most important boundary in any AI system.
-- **[The Overconfidence Trap](/disciplines/the-overconfidence-trap)**: the failure mode where the model is wrong with conviction and the operator believes it.
-- **[LLM Psychosis](/disciplines/llm-psychosis)**: the failure mode where the model loses the plot mid-conversation. How to detect and prevent.
+- **[The Judgment Line](/perspectives/the-judgment-line)**: where AI ends and human judgment begins. The most important boundary in any AI system.
+- **[The Overconfidence Trap](/perspectives/the-overconfidence-trap)**: the failure mode where the model is wrong with conviction and the operator believes it.
+- **[LLM Psychosis](/perspectives/llm-psychosis)**: the failure mode where the model loses the plot mid-conversation. How to detect and prevent.
 - **[Observable Behavior Engineering](/disciplines/observable-behavior-engineering)**: instrumenting AI systems so failures are visible before they reach the customer.
 
 ## Playbooks downstream
@@ -58,5 +58,5 @@ If those four are true, evals are real in the king's organization. If they are n
 ## Further Reading
 
 - [Disciplines](/disciplines)
-- [The Judgment Line](/disciplines/the-judgment-line)
+- [The Judgment Line](/perspectives/the-judgment-line)
 - [First eval harness in week one](/playbooks/first-eval-harness)

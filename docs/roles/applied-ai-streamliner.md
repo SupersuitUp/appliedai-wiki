@@ -101,4 +101,4 @@ The Streamliner combines building skills with consulting instincts.
 - [Workflow Decomposition](/playbooks/workflow-decomposition): the framework for breaking down professional workflows into automatable components.
 - [Pricing](/playbooks/pricing): principles-based pricing for high-value AI engagements.
 - [Context Engineering](/disciplines/context-engineering): building apps that have the right context to be useful on the first try.
-- [The Chat Is Not the Product](/foundations/the-chat-is-not-the-product): why wrapping AI in a real interface matters more than exposing a chat box.
+- [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): why wrapping AI in a real interface matters more than exposing a chat box.

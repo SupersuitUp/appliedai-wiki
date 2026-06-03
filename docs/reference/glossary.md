@@ -43,17 +43,17 @@ Use this when you want to skim the surface area of the wiki without committing t
 ## Craft, taste, and the human side
 
 - **[Agentic Exploration](/concepts/agentic-exploration)**: execution is cheap now and taste is the whole game. Explore wide, narrow by taste, explore again, repeat until the work is great.
-- **[Judgment Burnout](/concepts/judgment-burnout)**: AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment.
-- **[The Prolific Mode](/concepts/the-prolific-mode)**: great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.
+- **[Judgment Burnout](/perspectives/judgment-burnout)**: AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment.
+- **[The Prolific Mode](/perspectives/the-prolific-mode)**: great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.
 - **[See Your Own Thinking](/concepts/see-your-own-thinking)**: most people have never seen their own thinking laid out in front of them. When they do, everything changes.
 - **[Vibe Curation](/concepts/vibe-curation)**: the most valuable engineers in the world will only work in environments where they feel safe. Someone has to foster those environments.
-- **[You Are the Bottleneck](/concepts/you-are-the-bottleneck)**: money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
+- **[You Are the Bottleneck](/perspectives/you-are-the-bottleneck)**: money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
 
 ## Business and strategy
 
 - **[The Roles-to-Workflows Shift](/concepts/roles-to-workflows)**: stop thinking about your business in terms of roles. Start thinking in terms of workflows. The single biggest mental model shift for the AI era.
-- **[Slop Factory](/concepts/slop-factory)**: a business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
-- **[Strategy Is the New Execution](/concepts/strategy-is-the-new-execution)**: execution is being commoditized. The highest-leverage skill in the AI economy is the ability to define reality, set objectives, and evaluate whether the system is working.
+- **[Slop Factory](/perspectives/slop-factory)**: a business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
+- **[Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution)**: execution is being commoditized. The highest-leverage skill in the AI economy is the ability to define reality, set objectives, and evaluate whether the system is working.
 
 ## Further Reading
 

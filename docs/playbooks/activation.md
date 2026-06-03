@@ -141,7 +141,7 @@ Activation is not a part of the job. It is the job. Everything else is support i
 ## Further Reading
 
 - [The Encounter](https://supersuit.wiki/concepts/the-encounter): The foundational frame for the first time a person meets your work.
-- [Minimum Viable Infrastructure](https://appliedai.wiki/foundations/minimum-viable-infrastructure): The two-hour protocol for getting a person activated on their Personal Agentic OS.
+- [Minimum Viable Infrastructure](https://appliedai.wiki/concepts/minimum-viable-infrastructure): The two-hour protocol for getting a person activated on their Personal Agentic OS.
 - [Personal Agentic OS](/paos/what-it-is): The core thing practitioners are building.
 - [Liberation Architecture](https://supersuit.wiki/concepts/liberation-architecture): The design philosophy for experiences that free rather than trap.
 - [Context Engineering](https://appliedai.wiki/disciplines/context-engineering): Why knowing who the person is matters more than the tool you hand them.

@@ -26,27 +26,27 @@ source_type: webinar
 ## What we lifted
 
 ### 1. Efficiency is the real frontier; the bottleneck just moves
-[→ New page: [/concepts/the-moving-bottleneck](/concepts/the-moving-bottleneck)] · [→ reinforces: [/foundations/the-token-economy](/foundations/the-token-economy)] · [→ reinforces: [/foundations/jevons-paradox](/foundations/jevons-paradox)]
+[→ New page: [/perspectives/the-moving-bottleneck](/perspectives/the-moving-bottleneck)] · [→ reinforces: [/perspectives/the-token-economy](/perspectives/the-token-economy)] · [→ reinforces: [/concepts/jevons-paradox](/concepts/jevons-paradox)]
 
 The whole V4 release is engineered around one question: how do you make a million-token context actually affordable? bycloud's read is that the paper reads like a systems-engineering paper as much as a model paper. Make attention cheap and the binding constraint immediately migrates: for a sparse MoE model, serving cost shifts to moving and computing expert weights, so DeepSeek trained the experts in FP4. Compress the indexer too, push it to lower precision, and the constraint moves again. Efficiency is a frontier you keep advancing, not a finish line you cross once. The operator lesson travels past the model lab: when you make one layer cheap, look immediately for where the cost just relocated.
 
 ### 2. Cost-performance over benchmark-maxing
-[→ reinforces: [/foundations/the-tradeoff-era](/foundations/the-tradeoff-era)] · [→ reinforces: [/foundations/the-token-economy](/foundations/the-token-economy)]
+[→ reinforces: [/perspectives/the-tradeoff-era](/perspectives/the-tradeoff-era)] · [→ reinforces: [/perspectives/the-token-economy](/perspectives/the-token-economy)]
 
 DeepSeek did not ship V4 to top the leaderboard. bycloud frames it as a cost-performance release: they are honest that on raw reasoning they sit roughly 3 to 6 months behind GPT-5.4 and Gemini 3.1 Pro, and they did not lean on agentic claims. Their bet is that cheaper long context makes test-time scaling cheaper, which makes the model better by letting it think longer. Efficiency is treated as the strategy itself, with capability following from cost. For an operator picking models, the leaderboard is the wrong scoreboard: the model that wins your task is the one that delivers the quality you need at a price that lets you run it at the volume you need.
 
 ### 3. Cheap long context unlocks cheap test-time scaling
-[field-note bullet] · [→ reinforces: [/foundations/the-tradeoff-era](/foundations/the-tradeoff-era)]
+[field-note bullet] · [→ reinforces: [/perspectives/the-tradeoff-era](/perspectives/the-tradeoff-era)]
 
 The chain is the point: if a model can reason over a million tokens cheaply, you can afford to let it think longer, and longer thinking usually performs much better. DeepSeek exposes this directly as a runtime dial (a non-thinking mode, "think high," and "think max" with longer context and weaker length penalties). Pro Max is not a different architecture from Pro: it is Pro run at the highest reasoning-effort setting. The operator takeaway is that on a cheap-context model, reasoning budget becomes a knob you turn per task rather than a cost you fear.
 
 ### 4. The DeepSeek cost gap, with numbers
-[→ reinforces: [/foundations/the-token-economy](/foundations/the-token-economy)]
+[→ reinforces: [/perspectives/the-token-economy](/perspectives/the-token-economy)]
 
 bycloud's reported pricing: DeepSeek V4 at roughly 0.435 per million input and 0.87 per million output (with a cache hit near 0.3625), against GLM 5.1 at 1.4 in / 4.4 out, Gemini 3.1 Pro at 2 in / 12 out, and Opus 4.6 at 5 in / 25 out. His framing: on the same budget, a company runs DeepSeek for 7 years versus Claude for about 4 months. The 75% discount was made permanent during the release, and bycloud estimates DeepSeek still clears a 50 to 70% margin (a guess anchored on what V3 reportedly earned). File the exact figures as their claims, but the order-of-magnitude cost gap is the signal worth tracking for model selection.
 
 ### 5. Serving reliability is the real bottleneck at scale
-[→ reinforces: [/foundations/jevons-paradox](/foundations/jevons-paradox)]
+[→ reinforces: [/concepts/jevons-paradox](/concepts/jevons-paradox)]
 
 The sharpest applied point is buried in a footnote of the paper: DeepSeek left some benchmark entries against Kimi K2.6 and GLM 5.1 blank because those rivals' APIs were too busy to return responses. Capability alone is worthless if a model is too expensive, too slow, or too hard to serve reliably. bycloud reads the surging demand as a refutation of the bubble thesis: when the model you love feels dumber, that is load, not decline, and meeting that load is what justifies the data-center buildout. Reliability under demand is part of the product, not an ops afterthought.
 
@@ -71,14 +71,14 @@ bycloud's closing note is that DeepSeek doing all of this in the open is a publi
 
 Pages created in this run:
 
-- [The Moving Bottleneck](/concepts/the-moving-bottleneck)
+- [The Moving Bottleneck](/perspectives/the-moving-bottleneck)
 - [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling)
 
 Pages extended in this run:
 
-- [The Token Economy](/foundations/the-token-economy): DeepSeek V4's pricing and efficiency-as-design-driver cited as a supporting voice.
-- [Jevons Paradox](/foundations/jevons-paradox): cheaper context plus surging demand cited as a live token-layer instance.
-- [The Tradeoff Era](/foundations/the-tradeoff-era): DeepSeek as the cost-optimized swappable dependency cited as a supporting voice.
+- [The Token Economy](/perspectives/the-token-economy): DeepSeek V4's pricing and efficiency-as-design-driver cited as a supporting voice.
+- [Jevons Paradox](/concepts/jevons-paradox): cheaper context plus surging demand cited as a live token-layer instance.
+- [The Tradeoff Era](/perspectives/the-tradeoff-era): DeepSeek as the cost-optimized swappable dependency cited as a supporting voice.
 
 ## Further Reading
 

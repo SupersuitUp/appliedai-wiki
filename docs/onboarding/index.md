@@ -28,7 +28,7 @@ The rest of the wiki tells you *how* to do the work. Onboarding tells you *what 
 
 ## For Implementers
 
-If you are entering an engagement under this discipline, read this section first, in order. Start with [Teammate Discipline](/foundations/teammate-discipline) for the operator hygiene principles. Then read the [Curriculum](/onboarding/curriculum) so you understand what an operator goes through when they go through onboarding. Then study the playbooks you will actually be running.
+If you are entering an engagement under this discipline, read this section first, in order. Start with [Teammate Discipline](/disciplines/teammate-discipline) for the operator hygiene principles. Then read the [Curriculum](/onboarding/curriculum) so you understand what an operator goes through when they go through onboarding. Then study the playbooks you will actually be running.
 
 The standard is non-negotiable, but it is teachable. Read carefully. The cost of skimming this section is paid later, when an avoidable misunderstanding compounds.
 
@@ -40,4 +40,4 @@ If you are being onboarded into a personal AI operating environment, the [Curric
 
 - [Curriculum](/onboarding/curriculum) for the module sequence
 - [Student Journey](/onboarding/student-journey) for the entry-state to exit-state arc
-- [Teammate Discipline](/foundations/teammate-discipline) for the operator hygiene principles that apply to everyone working inside an engagement
+- [Teammate Discipline](/disciplines/teammate-discipline) for the operator hygiene principles that apply to everyone working inside an engagement

@@ -24,7 +24,7 @@ His framing is also useful for implementers who need to translate their own infr
 
 ## Contributions
 
-- **[The Token Rug Pull](/foundations/the-token-rug-pull)**: the foundation page distilled from his coverage of the AI Token Price Index and the structural argument that subsidized token prices will reset.
+- **[The Token Rug Pull](/perspectives/the-token-rug-pull)**: the foundation page distilled from his coverage of the AI Token Price Index and the structural argument that subsidized token prices will reset.
 
 ## Field Notes
 
@@ -42,7 +42,7 @@ His prescription: the businesses that survive the reset are the ones who got off
 >
 > Dr. Errol Brandt, ["Prepare for the AI Token Rug Pull"](https://www.youtube.com/watch?v=DZAcEa5dmVQ), YouTube, 2026-05-23
 
-Where it landed on this wiki: [The Token Rug Pull](/foundations/the-token-rug-pull) as the primary foundation page; cross-linked from [The Lock-In Is Coming](/foundations/the-lock-in-is-coming) as a downstream consequence of the same structural argument.
+Where it landed on this wiki: [The Token Rug Pull](/perspectives/the-token-rug-pull) as the primary foundation page; cross-linked from [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming) as a downstream consequence of the same structural argument.
 
 ## How to cite him
 
@@ -56,6 +56,6 @@ When a wiki page is distilled rather than quoted verbatim, note the source at th
 
 ## Further Reading
 
-- [The Token Rug Pull](/foundations/the-token-rug-pull): the foundation page distilled from his work.
-- [The Lock-In Is Coming](/foundations/the-lock-in-is-coming): the structural argument his thesis sits inside.
+- [The Token Rug Pull](/perspectives/the-token-rug-pull): the foundation page distilled from his work.
+- [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming): the structural argument his thesis sits inside.
 - [People to Follow](/people-to-follow): other practitioners worth tracking.

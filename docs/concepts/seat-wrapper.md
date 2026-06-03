@@ -14,7 +14,7 @@ description: "A purpose-built AI system scoped to one seat, encoding that role's
 
 ## The claim
 
-A seat wrapper is a harness scoped to one seat. The ontology is [EOS](https://traction.wiki), the Entrepreneurial Operating System from Gino Wickman's *Traction*, documented in full at traction.wiki: a [seat](https://traction.wiki/concepts/seat) is one position with a success purpose, made up of several [roles](https://traction.wiki/concepts/five-major-roles). You plot those roles onto [the jagged frontier](/concepts/the-jagged-frontier). The seat wrapper runs the roles that land inside the frontier, so the person filling the seat keeps the roles that land outside it: their [comparative human edge](/concepts/comparative-human-edge).
+A seat wrapper is a harness scoped to one seat. The ontology is [EOS](https://traction.wiki), the Entrepreneurial Operating System from Gino Wickman's *Traction*, documented in full at traction.wiki: a [seat](https://traction.wiki/concepts/seat) is one position with a success purpose, made up of several [roles](https://traction.wiki/concepts/five-major-roles). You plot those roles onto [the jagged frontier](/perspectives/the-jagged-frontier). The seat wrapper runs the roles that land inside the frontier, so the person filling the seat keeps the roles that land outside it: their [comparative human edge](/perspectives/comparative-human-edge).
 
 A high-ticket closing seat includes proposal formatting, follow-up, and CRM hygiene, all of which sit inside the frontier, and it includes the relationship and the close, which sit outside it. A seat wrapper runs the first set. The closer spends their hours on the second, which is the only reason the seat exists.
 
@@ -28,13 +28,13 @@ A bad wrapper is a generic interface over the general-purpose agentic harness, s
 
 A seat wrapper belongs to the seat, not to the person. The in-frontier roles live in the wrapper instead of in one occupant's head, so a new person can step into the seat and be productive on day one. The repeatable processes, the institutional knowledge, the way this seat does its work are encoded and owned by the business.
 
-That is what makes a seat wrapper valuable to an owner: it removes key-person risk. When a seat depends on a specific individual who carries the process in their head, losing that person is a crisis. When the process lives in the wrapper, what each new occupant adds is their [comparative human edge](/concepts/comparative-human-edge) on the roles outside the frontier, and the seat keeps running through the swap. The business is not hostage to one human. The seat is built to outlive whoever sits in it.
+That is what makes a seat wrapper valuable to an owner: it removes key-person risk. When a seat depends on a specific individual who carries the process in their head, losing that person is a crisis. When the process lives in the wrapper, what each new occupant adds is their [comparative human edge](/perspectives/comparative-human-edge) on the roles outside the frontier, and the seat keeps running through the swap. The business is not hostage to one human. The seat is built to outlive whoever sits in it.
 
 ## Most operators do not need the supercomputer
 
 A general-purpose agentic harness is a supercomputer for open-ended work. The person whose job is to build new things needs it. The person whose job is a defined seat with known processes usually does not. They need a sharp seat wrapper for their function, not the full surface of a tool built for someone whose work has no fixed shape.
 
-This is why seat wrappers will be most of what actually ships into organizations. Most roles are seats, not open-ended building. Pointing every seat-holder at a raw supercomputer is how you get [judgment burnout](/concepts/judgment-burnout) and [slop](/concepts/slop-factory). Pointing them at a wrapper built for their seat is how you get lift.
+This is why seat wrappers will be most of what actually ships into organizations. Most roles are seats, not open-ended building. Pointing every seat-holder at a raw supercomputer is how you get [judgment burnout](/perspectives/judgment-burnout) and [slop](/perspectives/slop-factory). Pointing them at a wrapper built for their seat is how you get lift.
 
 ## How to build one
 
@@ -43,14 +43,14 @@ The build follows the seat, not the tool.
 - **Start from the success purpose.** Name what the seat is measured on. Everything the wrapper does serves that one outcome.
 - **List the roles.** A seat is several roles. Write them down before you automate anything.
 - **Plot each role on the frontier.** Probe it, do not guess (see [Agentic Exploration](/concepts/agentic-exploration)). Some roles land inside, some outside.
-- **Wrap the inside roles.** Encode the in-frontier roles as [skill files](/concepts/skill-files) on a real harness, not a generic chat box. Leave the out-of-frontier roles, the [comparative human edge](/concepts/comparative-human-edge), to the person.
+- **Wrap the inside roles.** Encode the in-frontier roles as [skill files](/concepts/skill-files) on a real harness, not a generic chat box. Leave the out-of-frontier roles, the [comparative human edge](/perspectives/comparative-human-edge), to the person.
 - **Measure the lift to the function.** A seat wrapper earns its place when the seat's success metric moves, not when the demo looks impressive.
 
 The result is a [legible](/disciplines/legible-organization), ownable system that makes one seat win harder, while the comparative human edge stays exactly where it belongs.
 
 ## Further Reading
 
-- [Comparative Human Edge](/concepts/comparative-human-edge), the part of the seat a wrapper must never try to automate.
+- [Comparative Human Edge](/perspectives/comparative-human-edge), the part of the seat a wrapper must never try to automate.
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper), the bad wrapper this concept is defined against.
 - [The Mission Harness](/concepts/mission-harness), the shared-purpose harness one level up from a single seat.
 - [Harness Engineering](/disciplines/harness-engineering), how the AI system around the role actually gets built.

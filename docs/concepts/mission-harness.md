@@ -42,7 +42,7 @@ This is a judgment role. It requires taste, conviction, and the authority to cou
 
 ### The Applied AI Lead
 
-The applied AI lead is the person (or team) who translates the steward's intent into systems that execute. They build the [agentic harnesses](/disciplines/harness-engineering), write the skill files, design the [permission surfaces](/disciplines/the-permission-surface), and configure the agents so that AI output actually reflects the mission's values.
+The applied AI lead is the person (or team) who translates the steward's intent into systems that execute. They build the [agentic harnesses](/disciplines/harness-engineering), write the skill files, design the [permission surfaces](/perspectives/the-permission-surface), and configure the agents so that AI output actually reflects the mission's values.
 
 The steward says: "We need to activate 10,000 people into the applied AI economy this year without burning anyone out and without compromising on truth." The applied AI lead builds the system that makes that happen: the course platform, the workshop automation, the community infrastructure, the content pipeline, the feedback loops.
 
@@ -58,7 +58,7 @@ A mission harness is not a single tool. It is the full stack of systems that kee
 
 **Feedback loops.** Systems that detect when the mission is drifting. Metrics, yes, but also qualitative signals. Are workshop participants actually transformed? Are community members getting real opportunities? Is the content still high-signal? The mission steward reads these signals and adjusts. The harness makes the signals visible.
 
-**[Compounding docs](/foundations/compounding-docs).** Every document the team creates (meeting notes, strategic memos, relationship files, lesson-learned entries) feeds back into the harness. The agents get smarter. The next output is better. The mission harness improves itself over time.
+**[Compounding docs](/concepts/compounding-docs).** Every document the team creates (meeting notes, strategic memos, relationship files, lesson-learned entries) feeds back into the harness. The agents get smarter. The next output is better. The mission harness improves itself over time.
 
 **People.** The humans on the mission. Their roles, their strengths, their relationships, their alignment with the mission's values. A mission harness includes the social architecture, not just the technical architecture.
 
@@ -78,7 +78,7 @@ Every mission needs a harness. Whether you are running a nonprofit, a startup, a
 
 If the answer is no, you are relying on vibes and good intentions. That works at small scale. It does not work when you are trying to change the world.
 
-Start with the truth documents. Write down what you believe, what you are building, and why it matters. Then build the agent instructions that translate those beliefs into behavior. Then create the feedback loops that tell you whether the mission is actually being served. Then let the [compounding docs](/foundations/compounding-docs) flywheel do its work.
+Start with the truth documents. Write down what you believe, what you are building, and why it matters. Then build the agent instructions that translate those beliefs into behavior. Then create the feedback loops that tell you whether the mission is actually being served. Then let the [compounding docs](/concepts/compounding-docs) flywheel do its work.
 
 The mission is too important to leave to chance. Harness it.
 
@@ -88,5 +88,5 @@ The mission is too important to leave to chance. Harness it.
 
 - [Intent Engineering](/disciplines/intent-engineering): Encoding organizational purpose into infrastructure
 - [Harness Engineering](/disciplines/harness-engineering): The technical architecture of agent harnesses
-- [Compounding Docs](/foundations/compounding-docs): How mission harnesses get better over time
-- [The Permission Surface](/disciplines/the-permission-surface): Bounding what agents can do on the mission's behalf
+- [Compounding Docs](/concepts/compounding-docs): How mission harnesses get better over time
+- [The Permission Surface](/perspectives/the-permission-surface): Bounding what agents can do on the mission's behalf

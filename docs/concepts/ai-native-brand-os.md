@@ -86,7 +86,7 @@ The order of operations, written so it can be handed to an agent as a spec:
 4. **Build the motif and template library.** The graphic-element assets and components, the deck template elements, and the website section blocks, all reusable.
 5. **Stand up the generation layer.** Write the master prompt, the per-asset example prompts, assemble the reference-image set, and finalize the banned-term list.
 6. **Wrap it in one funnel.** Bundle the spec, the token code, the asset library, and the generation layer into a single skill or repo so every new artifact renders through one path and the discipline cannot drift across operators. See [Skill File First, App Second](/concepts/skill-file-first-app-second) and [Integration Recipe](/concepts/integration-recipe).
-7. **Ship the two-forms discipline and an alignment audit.** Store every generation prompt alongside its artifact ([Version-Control Your Prompts](/foundations/version-control-your-prompts)), and after each render, pull the OS up to match if the render landed a sharper motif or a cleaner token.
+7. **Ship the two-forms discipline and an alignment audit.** Store every generation prompt alongside its artifact ([Version-Control Your Prompts](/disciplines/version-control-your-prompts)), and after each render, pull the OS up to match if the render landed a sharper motif or a cleaner token.
 
 Most of the cost is in steps 1 through 3. Once the identity is locked and tokenized and the logo matrix exists, every new site, deck, and asset is cheap, because the agent is composing from a fixed kit instead of reinventing the brand.
 
@@ -100,7 +100,7 @@ This is the same split that governs source-controlled truth generally: the repo 
 
 A brand OS turns "make something on-brand" from a design request into a generation call. A new landing page pulls the real tokens and section blocks. A new deck assembles from the real template elements. A new social set renders through the real reference images and master prompt. The brand stays one universe across a hundred artifacts, across a year, across whoever (or whatever) is making the next thing, because the identity lives in artifacts a machine consumes rather than rules a human approximates.
 
-One on-brand asset is a deliverable. The brand OS is the asset that makes every future on-brand asset cheap. See [Agent-Accessible Products](/concepts/agent-accessible-products) for the same move applied to a product, and [Compounding Docs](/foundations/compounding-docs) for why the coherence compounds.
+One on-brand asset is a deliverable. The brand OS is the asset that makes every future on-brand asset cheap. See [Agent-Accessible Products](/concepts/agent-accessible-products) for the same move applied to a product, and [Compounding Docs](/concepts/compounding-docs) for why the coherence compounds.
 
 ---
 
@@ -108,7 +108,7 @@ One on-brand asset is a deliverable. The brand OS is the asset that makes every 
 
 - [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): the visual-corpus sub-discipline a brand OS generalizes from.
 - [Golden Examples](/concepts/golden-examples): curating A+ on-brand outputs as in-context references for the next render.
-- [Version-Control Your Prompts](/foundations/version-control-your-prompts): the prompt-storage discipline the generation layer runs on.
+- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the prompt-storage discipline the generation layer runs on.
 - [Agent-Accessible Products](/concepts/agent-accessible-products): making an asset something an agent can consume and act on.
 - [Skill File First, App Second](/concepts/skill-file-first-app-second): wrapping the OS as one callable funnel.
-- [Compounding Docs](/foundations/compounding-docs): why one coherent system beats a hundred one-off assets.
+- [Compounding Docs](/concepts/compounding-docs): why one coherent system beats a hundred one-off assets.

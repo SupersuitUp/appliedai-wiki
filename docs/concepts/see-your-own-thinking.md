@@ -88,4 +88,4 @@ You are not asking the AI to solve the problem for you. You are using the AI to 
 
 ## Further Reading
 
-- [You Are the Bottleneck](/concepts/you-are-the-bottleneck): The companion concept. Seeing your own thinking is how you discover the bottleneck; admitting the bottleneck is what makes the work possible.
+- [You Are the Bottleneck](/perspectives/you-are-the-bottleneck): The companion concept. Seeing your own thinking is how you discover the bottleneck; admitting the bottleneck is what makes the work possible.

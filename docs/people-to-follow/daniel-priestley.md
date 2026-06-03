@@ -40,7 +40,7 @@ The synthesis is the "digital soil" metaphor. In the agricultural age the farmer
 >
 > Daniel Priestley, ["Why You Must Stop Selling Your Time for Money"](https://www.youtube.com/watch?v=wkPatBreE9w), YouTube, 2026-05-23
 
-Where it landed on this wiki: [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for) as a perspective page; cross-linked from [The Token Economy](/foundations/the-token-economy) as the economic substrate.
+Where it landed on this wiki: [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for) as a perspective page; cross-linked from [The Token Economy](/perspectives/the-token-economy) as the economic substrate.
 
 ## How to cite him
 
@@ -55,5 +55,5 @@ When a wiki page is distilled rather than quoted verbatim, note the source at th
 ## Further Reading
 
 - [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for): the perspective distilled from his teaching.
-- [The Token Economy](/foundations/the-token-economy): the economic substrate his frame sits on.
+- [The Token Economy](/perspectives/the-token-economy): the economic substrate his frame sits on.
 - [People to Follow](/people-to-follow): other practitioners worth tracking.

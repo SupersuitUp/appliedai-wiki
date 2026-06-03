@@ -99,6 +99,6 @@ This is [context engineering](/disciplines/context-engineering) at the workflow 
 - [Harness Engineering](/disciplines/harness-engineering): skill files are the user-configurable workflow layer of the harness.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): how Claude Code discovers, loads, and follows skill files.
 - [Spec Writing](/disciplines/spec-writing): the quality chain that applies to every skill file.
-- [CLIPs](/foundations/clips): where skills end and full programs begin.
+- [CLIPs](/concepts/clips): where skills end and full programs begin.
 - [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): the system the skill library configures.
 - [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop): where the principal writes their first skill files.

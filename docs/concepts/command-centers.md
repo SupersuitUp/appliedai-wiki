@@ -38,7 +38,7 @@ This shift is happening because of three converging forces:
 
 **1. AI makes customization cheap.** Building a system tailored to one person used to require a dedicated engineering team. Now an AI agent reading your context files can produce personalized output that no generic app could match. The economics of custom have flipped.
 
-**2. Context is the new moat.** The more context your command center accumulates, the more valuable it becomes and the harder it is to replace. Not because of lock-in (your files are portable markdown), but because the depth of operational knowledge represented in those files is genuinely irreplaceable. This is the [compounding docs](/foundations/compounding-docs) effect applied to your entire operation.
+**2. Context is the new moat.** The more context your command center accumulates, the more valuable it becomes and the harder it is to replace. Not because of lock-in (your files are portable markdown), but because the depth of operational knowledge represented in those files is genuinely irreplaceable. This is the [compounding docs](/concepts/compounding-docs) effect applied to your entire operation.
 
 **3. Generic tools are drowning in AI-generated noise.** When AI can generate a million apps overnight, another generic dashboard is more noise. A system that knows your clients by name, understands your decision-making patterns, and briefs you before every meeting is signal. Command centers survive the flood because they are specific by nature.
 
@@ -59,4 +59,4 @@ The interface someone has with the digital world is the product now. Creating th
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The engine that powers every command center
-- [Compounding Docs](/foundations/compounding-docs): Why command centers get more valuable over time
+- [Compounding Docs](/concepts/compounding-docs): Why command centers get more valuable over time

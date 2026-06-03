@@ -23,7 +23,7 @@ The work is encoding, not invention. The AI consultant is not designing a new wa
 
 ### 1. The prerequisite is documented business logic
 
-If the client cannot articulate the logic, the engagement either fails or quietly mutates into a discovery project. This is the structural reason [Mid-Markets Are the AI Sweet Spot](/foundations/mid-markets-are-the-ai-sweet-spot): mid-market companies have already written down their logic to onboard offshore teams, while SMBs have not yet. The first question on a sales call should not be "what AI do you want." It should be "show me your SOPs."
+If the client cannot articulate the logic, the engagement either fails or quietly mutates into a discovery project. This is the structural reason [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): mid-market companies have already written down their logic to onboard offshore teams, while SMBs have not yet. The first question on a sales call should not be "what AI do you want." It should be "show me your SOPs."
 
 ### 2. The technical work is bounded by the logic quality
 
@@ -53,9 +53,9 @@ A counterfactual SMB engagement (no documented SOP, founder makes refund calls c
 
 ## Related patterns
 
-- **Strategy is the new execution** ([/concepts/strategy-is-the-new-execution](/concepts/strategy-is-the-new-execution)). Once execution is cheap, the differentiator moves to whether you are executing the right thing. Converting business logic faithfully requires you to first confirm the business logic is worth converting.
-- **You are the bottleneck** ([/concepts/you-are-the-bottleneck](/concepts/you-are-the-bottleneck)). The same operator who could not write down their logic is also the operator who will struggle to use the AI system once it exists. The encoding work has to upgrade the operator's clarity, not just the operator's tools.
-- **The chat is not the product** ([/foundations/the-chat-is-not-the-product](/foundations/the-chat-is-not-the-product)). The AI system the encoded logic produces is not usually a chatbot. It is workflows, batch jobs, agents triggered by events, dashboards that compose model output. The chat is incidental.
+- **Strategy is the new execution** ([/perspectives/strategy-is-the-new-execution](/perspectives/strategy-is-the-new-execution)). Once execution is cheap, the differentiator moves to whether you are executing the right thing. Converting business logic faithfully requires you to first confirm the business logic is worth converting.
+- **You are the bottleneck** ([/perspectives/you-are-the-bottleneck](/perspectives/you-are-the-bottleneck)). The same operator who could not write down their logic is also the operator who will struggle to use the AI system once it exists. The encoding work has to upgrade the operator's clarity, not just the operator's tools.
+- **The chat is not the product** ([/perspectives/the-chat-is-not-the-product](/perspectives/the-chat-is-not-the-product)). The AI system the encoded logic produces is not usually a chatbot. It is workflows, batch jobs, agents triggered by events, dashboards that compose model output. The chat is incidental.
 
 ## Sources
 
@@ -63,7 +63,7 @@ A counterfactual SMB engagement (no documented SOP, founder makes refund calls c
 
 ## Further Reading
 
-- [Mid-Markets Are the AI Sweet Spot](/foundations/mid-markets-are-the-ai-sweet-spot): the client profile that has the documented logic prerequisite.
+- [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): the client profile that has the documented logic prerequisite.
 - [Workshop → Blueprint → Project → Partnership Engagement Ladder](/playbooks/workshop-blueprint-project-partnership-ladder): the engagement structure that separates discovery from build.
-- [Strategy Is the New Execution](/concepts/strategy-is-the-new-execution): why the logic-defining work is now the high-value work.
+- [Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution): why the logic-defining work is now the high-value work.
 - [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): the architectural correlate of treating AI engagements as encoding work.

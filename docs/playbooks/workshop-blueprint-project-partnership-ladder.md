@@ -20,13 +20,13 @@ By the time a client has moved through all four steps:
 - The consultant has been embedded in the client's strategic AI thinking for 6-18 months.
 - The client has paid the consultant six to seven figures over the course of the ladder.
 - The consultant has visibility into the client's full operations and can spot the next opportunity before any competitor.
-- The engagement structure is contracted and recurring, which produces the kind of revenue that re-rates the firm's valuation (see [The Services-Firm Re-Rating Threshold](/foundations/services-firm-re-rating-threshold)).
+- The engagement structure is contracted and recurring, which produces the kind of revenue that re-rates the firm's valuation (see [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold)).
 
 A client who completes all four steps is structurally hard for another firm to win.
 
 ## When to run it
 
-- **From the first sales call onward** with any mid-market prospect ($10M-$250M annual revenue, see [Mid-Markets Are the AI Sweet Spot](/foundations/mid-markets-are-the-ai-sweet-spot)).
+- **From the first sales call onward** with any mid-market prospect ($10M-$250M annual revenue, see [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot)).
 - **As the standard sales path**, not the exception. The discount path (skipping straight to a custom project) is reserved for repeat clients or warm referrals where the prior steps have already been earned through prior work.
 
 ## The four steps
@@ -119,7 +119,7 @@ The engagement contract for each step lives in the consulting firm's repository 
 
 - [The AI Tech Partnership Revenue Model](/playbooks/ai-tech-partnership-revenue-model): the pricing structure for step 4.
 - [Buying Relief, Not AI](/perspectives/buying-relief-not-ai): why the workshop deliverable matters as much as the build deliverable.
-- [Mid-Markets Are the AI Sweet Spot](/foundations/mid-markets-are-the-ai-sweet-spot): the client profile the ladder is calibrated to.
-- [The Services-Firm Re-Rating Threshold](/foundations/services-firm-re-rating-threshold): why the partnership step matters for the firm's valuation.
+- [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): the client profile the ladder is calibrated to.
+- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold): why the partnership step matters for the firm's valuation.
 - [Pricing](/playbooks/pricing): broader pricing playbook this ladder sits inside.
 - [Pilot to Engagement](/playbooks/pilot-to-engagement): the related transition playbook.

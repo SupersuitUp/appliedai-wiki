@@ -18,7 +18,7 @@ The dominant pricing model in AI consulting is time-and-materials or fixed-scope
 - Recurring annual contract values in the $200k-$2M+ range.
 - Revenue that scales with the client's growth, not with the consultant's hours.
 - Strategic alignment between consultant and client (when the client wins, the consultant wins).
-- The kind of contracted, performance-linked revenue that re-rates the firm's valuation at exit (see [The Services-Firm Re-Rating Threshold](/foundations/services-firm-re-rating-threshold)).
+- The kind of contracted, performance-linked revenue that re-rates the firm's valuation at exit (see [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold)).
 - Defensibility: a partnership-shaped engagement is structurally harder for a competitor to displace than a fixed-scope project.
 
 ## When it works
@@ -94,7 +94,7 @@ Compared to a fixed-scope build project that would have closed at $150-300k.
 
 ## Why this is the bigger shift than people realize
 
-The reason this model produces dramatically more revenue than time-and-materials is structural, not negotiation skill. AI systems are not really software. They are labor replacement. The value they produce shows up in the client's labor allocation, not their software allocation (see [AI Eats Labor Allocation](/foundations/ai-eats-labor-allocation)). A consulting firm pricing AI systems as software is pricing against the wrong allocation. Performance-based partnerships price against the labor allocation, which is 50-100x larger.
+The reason this model produces dramatically more revenue than time-and-materials is structural, not negotiation skill. AI systems are not really software. They are labor replacement. The value they produce shows up in the client's labor allocation, not their software allocation (see [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation)). A consulting firm pricing AI systems as software is pricing against the wrong allocation. Performance-based partnerships price against the labor allocation, which is 50-100x larger.
 
 ## Sources
 
@@ -103,7 +103,7 @@ The reason this model produces dramatically more revenue than time-and-materials
 ## Further Reading
 
 - [Workshop → Blueprint → Project → Partnership Engagement Ladder](/playbooks/workshop-blueprint-project-partnership-ladder): the engagement structure this revenue model lives inside.
-- [AI Eats Labor Allocation](/foundations/ai-eats-labor-allocation): the structural reason this model works.
-- [The Services-Firm Re-Rating Threshold](/foundations/services-firm-re-rating-threshold): what partnership-shaped revenue compounds toward.
+- [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation): the structural reason this model works.
+- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold): what partnership-shaped revenue compounds toward.
 - [Pricing](/playbooks/pricing): broader pricing playbook this model sits inside.
 - [Lifestyle or Enterprise-Value Posture](/perspectives/lifestyle-or-enterprise-value-posture): the strategic context that makes the partnership model worth pursuing.

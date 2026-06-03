@@ -56,7 +56,7 @@ Reference-image anchoring is the seed. A full design system for AI-generated vis
 
 **A single bundled generation skill.** Wrap the spec doc, the reference image library, the prompt template, the banned-term lists, and the post-processing rules into one callable. Every render goes through one funnel. The discipline doesn't drift across operators because there is only one path. New operators learn the system by reading the skill. New visual conventions get added to the skill and propagate everywhere.
 
-**Version-controlled prompts.** The prompts you ship belong in files alongside the artifacts they generate. For images on a markdown surface, alt text doubles as accessibility and prompt storage. The full discipline lives in [Version-Control Your Prompts](/foundations/version-control-your-prompts).
+**Version-controlled prompts.** The prompts you ship belong in files alongside the artifacts they generate. For images on a markdown surface, alt text doubles as accessibility and prompt storage. The full discipline lives in [Version-Control Your Prompts](/disciplines/version-control-your-prompts).
 
 **Artifact-and-source alignment.** After a render lands, the artifact (image) and its source (article, deck, brand doc) get audited together. If the render introduced a sharper framing, a renamed concept, or a new beat, the source gets pulled up to match. Drift between artifact and source is corpus rot. Catch it in the same commit.
 
@@ -73,7 +73,7 @@ If you're building this for a principal or a firm, here's the order of operation
 1. **Lock the spec first.** One document. Palette, line weight, composition, named characters, banned vocabulary. Write it before you generate a single artifact.
 2. **Produce the reference image library.** Generate (or commission) the canonical character sheets and style references. Save them where the generation skill can read them. This is the single highest-leverage step.
 3. **Wrap the discipline in a skill.** Bundle the spec, the references, the prompt template, the banned-term lists, and the output paths into one callable. Make it the only way to generate corpus artifacts.
-4. **Ship the alt-text discipline.** Every embed stores the prompt-readable description in the alt text. See [Version-Control Your Prompts](/foundations/version-control-your-prompts).
+4. **Ship the alt-text discipline.** Every embed stores the prompt-readable description in the alt text. See [Version-Control Your Prompts](/disciplines/version-control-your-prompts).
 5. **Audit alignment after every render.** Pull the source artifact up to match if the render landed a sharper framing.
 
 Most of the cost lives in steps 1 and 2. Once the spec and the references exist, every subsequent render is cheap. The design system pays for itself by the third artifact.
@@ -84,7 +84,7 @@ The implementer's value to the principal is standing up the system that keeps th
 
 ## Further Reading
 
-- [Version-Control Your Prompts](/foundations/version-control-your-prompts): the alt-text-as-prompt-storage discipline this concept builds on
-- [Compounding Docs](/foundations/compounding-docs): why corpus coherence compounds over time
+- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the alt-text-as-prompt-storage discipline this concept builds on
+- [Compounding Docs](/concepts/compounding-docs): why corpus coherence compounds over time
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): reference images are the primitive, the prompt is the variable wrapper
 - [Graphic Style](/reference/graphic-style): this wiki's own visual spec, an in-production worked example

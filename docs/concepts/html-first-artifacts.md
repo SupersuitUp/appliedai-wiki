@@ -135,7 +135,7 @@ HTML-first artifacts are how practitioners stay in the loop with an agent that i
 
 ## Further Reading
 
-- [Compounding Docs](/foundations/compounding-docs): Why every artifact should accumulate value over time.
+- [Compounding Docs](/concepts/compounding-docs): Why every artifact should accumulate value over time.
 - [Spec Writing](/disciplines/spec-writing): The artifact type that benefits most from the HTML upgrade.
 - [Harness Engineering](/disciplines/harness-engineering): The harness producing these artifacts.
 

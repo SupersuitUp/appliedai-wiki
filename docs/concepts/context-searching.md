@@ -115,5 +115,5 @@ Context engineering builds the lake. Context searching is what makes the lake ac
 ## Further Reading
 
 - [Context Engineering](/disciplines/context-engineering): The supply side. Building the knowledge base in the first place.
-- [Compounding Docs](/foundations/compounding-docs): Why every file you add (and every link you add between files) makes every future search better.
+- [Compounding Docs](/concepts/compounding-docs): Why every file you add (and every link you add between files) makes every future search better.
 - [What Is Context Engineering?](https://www.youtube.com/watch?v=pN-LfxNFiTc) (Martin Keen, IBM): Frames the same retrieval taxonomy at the enterprise scale.

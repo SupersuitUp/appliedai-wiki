@@ -30,7 +30,7 @@ But you are over-promising. You are saying yes to things that pull you away from
 
 When you are light in the world, everything is drawn to you. Good people, bad people, promising projects, dead ends. The signal and the noise arrive through the same channel: someone who is excited and wants your attention.
 
-This is different from information noise. [Signal theory](/foundations/signal-theory) is about curating your inputs: feeds, media, group chats. Context overflow is about the demands on your *output*: your time, your energy, your commitments. You can have a perfectly curated information diet and still drown in obligations.
+This is different from information noise. [Signal theory](/concepts/signal-theory) is about curating your inputs: feeds, media, group chats. Context overflow is about the demands on your *output*: your time, your energy, your commitments. You can have a perfectly curated information diet and still drown in obligations.
 
 The compounding factor is that some of these opportunities genuinely are exponential. That makes it harder to say no. If you turn down ten things and one of them would have been life-changing, was that the right call? The answer is almost always yes, because the nine that were not life-changing would have consumed the energy you needed for the one that was.
 
@@ -75,5 +75,5 @@ And for the people you say no to: build systems that serve them without requirin
 
 ## Further Reading
 
-- [Signal Theory](/foundations/signal-theory): The practice that makes you high-signal (and therefore a target for context overflow)
+- [Signal Theory](/concepts/signal-theory): The practice that makes you high-signal (and therefore a target for context overflow)
 - [Truth Management](/disciplines/truth-management): Keeping your priorities and commitments in sync with reality

@@ -28,5 +28,5 @@ Each entry is one short page: a one-line who-they-are, two or three sentences on
 
 ## Further Reading
 
-- [Foundations](/foundations): the works of these and others, curated by source rather than author
+- [Perspectives](/perspectives): the theses these practitioners and others argue
 - [Note Sharers](/note-sharers): firm-level field notes from organizations whose publications we process

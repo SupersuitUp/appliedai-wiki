@@ -128,6 +128,6 @@ If you are running Hermes, the honest practice is to treat its memory subsystem 
 - [Agent Rule Files](/concepts/agent-rule-files): the sibling concept. The explicit, versioned, human-written version of what memory files attempt to do automatically.
 - [Skill Files](/concepts/skill-files): the second sibling. The discipline of fixing the skill file instead of letting a memory entry paper over the bug.
 - [AGENTS.md](https://supersuit.wiki/concepts/agents-md): the open standard. The right home for cross-project rules and preferences.
-- [Compounding Docs](/foundations/compounding-docs): the practice that makes deliberate context systems sharper over time. The opposite of auto-memory's polluting accumulation.
+- [Compounding Docs](/concepts/compounding-docs): the practice that makes deliberate context systems sharper over time. The opposite of auto-memory's polluting accumulation.
 - [Context Engineering](/disciplines/context-engineering): the discipline this concept defends.
 - [Harness Engineering](/disciplines/harness-engineering): the broader layer memory features live in.
