@@ -90,6 +90,8 @@ The order of operations, written so it can be handed to an agent as a spec:
 
 Most of the cost is in steps 1 through 3. Once the identity is locked and tokenized and the logo matrix exists, every new site, deck, and asset is cheap, because the agent is composing from a fixed kit instead of reinventing the brand.
 
+This seven-step order is runnable as a recipe. See [Generate a Brand OS](/playbooks/generate-a-brand-os) for the GENERATE.md that conducts the interview, scaffolds the repo, and emits the full package one time per brand.
+
 ## The Production Form: A Dedicated Brand Repo, Rendered
 
 The funnel in step 6 has a natural home: a dedicated repository, one per brand, that is the source of truth, with a rendered site layered on top as the human interface. The repo holds the brand as files an agent consumes directly: the logo matrix as named SVGs and PNGs, the color and type tokens as code, the fonts, the motif components, the prompt library, the reference-image set, and a root manifest (a `brand.json`, a `BRAND.md`, an `llms.txt` index) that lets an agent discover every asset at a stable path. The site rendered from that repo gives a human the gallery: live color swatches to copy, the full logo matrix with a download button per format, type specimens, the prompt library with copy buttons, and the do-and-don't rules.
