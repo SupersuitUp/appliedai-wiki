@@ -148,6 +148,12 @@ Best for strategic partnerships where you deeply believe in the company's trajec
 
 **Structure:** reduced cash fee plus equity stake or percentage of net profit. Common ranges: 5 to 20% depending on depth of involvement.
 
+### Model E: gain sharing
+
+Best for high-confidence, high-capability work where you can predict and measure the result.
+
+You take an agreed percentage of the gain itself: the savings you uncover or the upside you unlock. It sits above a high retainer on the leverage ladder, because a retainer caps your upside and gain sharing does not. Usually stacked on a smaller base fee. Only reach for it when the gain has a clear baseline, is attributable to your work, and the client will honor an agreed count. Full mechanics, the two shapes, and the preconditions are at [gain sharing](/concepts/gain-sharing).
+
 ---
 
 ## The discovery conversation
