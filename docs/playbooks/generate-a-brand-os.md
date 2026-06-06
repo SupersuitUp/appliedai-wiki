@@ -6,10 +6,10 @@ description: A GENERATE.md recipe that scaffolds a complete AI-Native Brand OS f
 
 # Generate a Brand OS
 
-<!-- last_updated: 2026-06-04 -->
-<!-- version: 0.1 -->
+<!-- last_updated: 2026-06-06 -->
+<!-- version: 0.2 -->
 
-**Canonical source:** [appliedai.wiki/playbooks/generate-a-brand-os](https://www.appliedai.wiki/playbooks/generate-a-brand-os) is the rendered recipe. The runnable copy lives at `~/.agents/skills/generate-a-brand-os/GENERATE.md`.
+**This page is canonical.** It is the always-current source of truth for the recipe. A local harness skill (`~/.agents/skills/generate-a-brand-os/`) is a thin pointer to this page; follow what is here. Pairs with the [brand.txt standard](/reference/standards/brand-txt) and [AI-Native Brand OS](/concepts/ai-native-brand-os).
 
 You are running a ONE-TIME GENERATION. After this completes, one brand exists as a system: a dedicated repo whose root manifest an agent can read to produce on-brand sites, decks, and assets. Do not re-run for the same brand. Re-run only to scaffold a different brand.
 
@@ -24,8 +24,10 @@ A dedicated brand-os repo for one brand, with the brand in two forms at once: a 
 - `tokens.css`: color and type as CSS variables, plus a framework theme block (Tailwind or design-token JSON) so a generated site and deck pull from one source.
 - `logos/`: the full logo matrix. Mark, wordmark, and lockups, each in full-color, mono, and knockout, on light and dark grounds, exported to SVG plus the raster and crop formats (favicon, social avatar, open-graph lockup).
 - `motifs/` and `templates/`: the recurring graphic signatures and the reusable composition blocks (deck title/divider/data/closing, website hero/feature/CTA/footer).
-- `generation-layer/`: the master prompt, per-asset example prompts, the reference-image set, the banned-term list, and an `illustrations/SPEC.md` for the AI-native illustration system.
+- `generation-layer/golden-atomic-brand-references/`: the **Golden Atomic Brand References (GABR)**, the pillar. Best-in-class exemplar renders that are the brand universe, each stored next to the exact prompt that produced it plus alt text. A rulebook tells a model what to do; golden references show it what good looks like. They are fed back into an image model as in-context references to generate net-new on-brand assets. Golden = best-in-class example of its type; Atomic = a single self-contained reusable unit; Brand Reference = fed back to seed new assets.
+- `generation-layer/`: the master prompt, per-asset example prompts, the banned-term list, and an `illustrations/SPEC.md` for the AI-native illustration system.
 - A `voice` slice: taglines, naming conventions, tone in a sentence or two, on-brand and off-brand example lines.
+- `brand.txt` at the served root: the all-in-one agent prime. The whole brand on one statically-served page (identity, master prompt, tokens, voice, banned terms inline, plus absolute URLs to every asset). Like `llms.txt` for a website, but for generating in the brand's voice and look. Auto-generated at build time so it never drifts; one pasted link primes any harness with no repo access. See the [brand.txt standard](/reference/standards/brand-txt).
 - Optionally, a rendered Docusaurus portal over the repo (the human gallery), optionally deployed to a domain.
 
 The success test is concrete. Hand only this repo to an agent with no designer in the loop and ask for a landing page, a deck, and a social set. If the three come back unmistakably one brand, the OS is real.
@@ -71,10 +73,12 @@ Show output to the operator after each step. Do not chain steps silently.
 3. **Generate the full logo matrix.** Every mark, wordmark, and lockup, in full-color, mono, and knockout, on light and dark, exported to SVG plus raster and crop formats. Do not ration variants; a missing conversion is where the brand drifts. Success: the matrix files exist in `logos/`.
 4. **Tokenize color and type.** Emit `tokens.css` (CSS variables), the framework theme block, and the font `@import` with the role mapping. Success: a throwaway HTML file using only these tokens renders in the brand's colors and fonts.
 5. **Build the motif and template library.** The graphic-element source files and components, the deck template elements, and the website section blocks. Success: each motif and template exists as a reusable file, not a screenshot.
-6. **Stand up the generation layer.** Write the master prompt, the per-asset example prompts, assemble the reference-image set, finalize the banned-term list, and write `generation-layer/illustrations/SPEC.md`. Success: one example prompt run through the image model returns an on-brand asset.
-7. **Write the root manifest.** Fill `BRAND.md` and `brand.json` so they index every artifact above at a stable path, with the aesthetic posture and the seven components. Success: an agent handed only `BRAND.md` can locate every other asset.
-8. **Render and deploy (optional, full only).** Build the Docusaurus portal, fix broken links, and deploy. Success: the live site shows the logo matrix, live swatches, type specimens, and the prompt library with copy buttons.
-9. **Version-control the prompts and run the alignment audit.** Store every generation prompt alongside its artifact. After the first real render, pull the manifest up to match anything the render sharpened. Success: prompts are committed next to outputs and the manifest reflects the latest identity.
+6. **Stand up the generation layer.** Write the master prompt, the per-asset example prompts, finalize the banned-term list, and write `generation-layer/illustrations/SPEC.md`. Success: one example prompt run through the image model returns an on-brand asset.
+6b. **Build the Golden Atomic Brand References (the pillar).** Generate the exemplar renders that are the universe (the mark, a hero scene, each character or mascot, the core content atom, key templates, a sticker or motif set). Disciplines learned from real runs: generate **incrementally, validating each with the operator** (the validation is what makes a reference golden); **store each render next to its exact prompt** and the **reference images passed**; **pass an earlier golden reference back in** whenever an asset reuses a brand element (a mark, a mascot, a character) so style never drifts; for finished assets, **stamp the real wordmark** into a reserved band rather than letting the model draw it (image models garble text). Success: each reference is validated and committed with its prompt.
+7. **Write the root manifest, three surfaces.** Fill `brand.json` (structured data, the source of truth), `BRAND.md` (the human front door), and wire `brand.txt` (the served agent prime). Each indexes every artifact at a stable path. Success: an agent handed only `BRAND.md`, or just `brand.txt`, can locate every asset.
+7b. **Wire `brand.txt`, generated at build time.** A small dependency-free generator (Node, on `prebuild`/`prestart`) reads `brand.json`, inlines identity + master prompt + tokens + voice + banned terms, and emits an absolute URL for every asset, writing `static/brand.txt`. It declares its format and links the [brand.txt standard](/reference/standards/brand-txt). Success: pasting `<site>/brand.txt` into a fresh agent is enough to generate an on-brand asset with no repo access.
+8. **Render and deploy (optional, full only).** Build the Docusaurus portal, fix broken links, and deploy. If the brand is fundamentally a single ground (paper, deep navy), ship the portal in that one mode and disable the dark/light toggle. Success: the live site shows the logo matrix, live swatches, type specimens, the GABR gallery, and the prompt library with copy buttons.
+9. **Version-control the prompts and run the alignment audit.** Store every generation prompt (and its reference images) alongside its artifact. After the first real render, pull the manifest up to match anything the render sharpened. Success: prompts are committed next to outputs and the manifest reflects the latest identity.
 
 ## Output
 
@@ -82,7 +86,9 @@ Show output to the operator after each step. Do not chain steps silently.
 - Manifest: `BRAND.md` and `brand.json` at the repo root.
 - Tokens: `tokens.css`.
 - Logo matrix: `logos/`.
+- Golden Atomic Brand References: `generation-layer/golden-atomic-brand-references/` (each render plus its `*.prompt.md`).
 - Generation layer: `generation-layer/` including `illustrations/SPEC.md`.
+- Agent prime: `brand.txt` at the served root (auto-generated at build time).
 - Portal (full only): the local dev URL and, if deployed, the production URL.
 - Working notes: `./generate-a-brand-os-build-notes.md`.
 
@@ -112,7 +118,9 @@ This is one-time per brand. After the OS exists, do not re-run this recipe to ad
 - [AI-Led Brand Interview](/playbooks/ai-led-brand-interview): the identity-lock phase this recipe calls in step 1.
 - [AI-Native Brand OS](/concepts/ai-native-brand-os): the concept this recipe produces.
 - [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): the discipline the generation layer runs on.
+- [brand.txt](/reference/standards/brand-txt): the all-in-one agent prime this recipe emits.
 - [Starting Your Own Wiki](https://truthmanagement.wiki/playbooks/starting-your-own-wiki): the Docusaurus scaffold the full-portal path reuses.
+- Forkable starter and worked examples: `SupersuitUp/brand-os-template`, `SupersuitUp/supersuit-brand-os`, `POV-DTX/pov-dtx-brand-os`.
 
 ## Pitfalls
 
@@ -121,3 +129,8 @@ This is one-time per brand. After the OS exists, do not re-run this recipe to ad
 - **Pure-white grounds.** Most brands want a warm or cool off-white. Confirm the ground hex in Q13.
 - **Prompts not stored with outputs.** An un-versioned prompt cannot be re-run or improved. Commit the prompt next to the asset every time.
 - **Treating the rendered site as the source of truth.** The repo is canonical; the site is the portal over it. The manifest, not the homepage, is what an agent reads.
+- **Skimping on the Golden Atomic Brand References.** They are the pillar, the difference between a rulebook and a generator. Validate each with the operator and store the prompt next to every render.
+- **Letting an image model draw the wordmark or lockup.** It garbles text and drops letters. Generate the art clean with a reserved band, then stamp the real wordmark programmatically. Make the lockup always-on for finished assets.
+- **Style drift across assets.** Pass the relevant golden reference back in as an input image for any reused element (mark, mascot, character), or the model re-invents it every time.
+- **A stale `brand.txt`.** Generate it at build time from `brand.json` plus an asset scan, never by hand, so it cannot fall behind the assets that exist.
+- **Cluttered repo when the portal is rendered.** Consolidate the asset package under `static/brand/` so the root reads as a clean Docusaurus site, with the manifest trio (`BRAND.md`, `brand.json`, `tokens.css`) at root.
