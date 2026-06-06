@@ -1,54 +1,15 @@
 ---
 title: "Graphic Style"
 slug: /reference/graphic-style
-description: "Visual conventions for illustrations and diagrams on this wiki. The default is comic-strip article summaries in the Supersuit Up family style."
+description: "The visual spec lives in one place: the SuperSuit brand OS brand.txt — one link that primes any image model with the full style, tokens, voice, banned terms, and reference set."
 ---
 
 # Graphic Style
 
-*Visual conventions for illustrations and diagrams on this wiki. The default is comic-strip article summaries in the Supersuit Up family style.*
-
-## Canonical source: brand.txt
-
-The single, always-current visual spec for this universe is the SuperSuit brand OS **`brand.txt`**:
+The visual spec for this universe lives in **one place** — the SuperSuit brand OS `brand.txt`:
 
 > **https://supersuit-brand-os.vercel.app/brand.txt**
 
-Paste that one link into any image model or agent and it is primed with the master prompt, color + type tokens, voice, banned terms, and absolute URLs to every Golden Atomic Brand Reference — including the no-halo rule, the bulky-worn-armor rule, the two-worlds rule (flesh hyperagent vs. holographic Chief of Agents), input-side `HYPERCONTEXT LOADED`, distinct-figures / matched-counts, and input-output coherence. It is generated at build time from the brand OS, so it never drifts. **Where this page and `brand.txt` differ, `brand.txt` wins** — edit the brand OS, not this page. The full brand OS lives at [supersuit-brand-os.vercel.app](https://supersuit-brand-os.vercel.app). The notes below are a human-readable companion.
+Paste that one link into any image model or agent and it is primed with the master prompt, color + type tokens, voice, banned terms, and absolute URLs to every Golden Atomic Brand Reference. It is generated at build time from the brand OS, so it never drifts.
 
----
-
-This wiki is part of the [Supersuit Up wiki family](https://supersuit.wiki) and shares its visual identity. Articles open with a comic-strip hero in the same neo-comic action-zine style used across the family.
-
-## Article-hero comic strips (default)
-
-The default illustration for any article on this wiki is a **comic-strip summary** in neo-comic action-zine style with high-tech power-armor visual DNA, the same family used across [supersuit.wiki](https://supersuit.wiki) and the rest of the Supersuit Up wiki family. Cream paper, bold inked outlines, crimson + cobalt + gold + arc-reactor cyan, first-person helmet-visor POV as the signature panel, panel count matched to the article's beats.
-
-**Canonical spec:** [supersuit.wiki/reference/graphic-style](https://supersuit.wiki/reference/graphic-style). The full prompt template, palette, panel-count rules, and IP-name discipline live there.
-
-**Generation workflow:** use the global `comic-strip` skill at `~/.agents/skills/comic-strip/SKILL.md`. It bundles two canonical reference images that **must** be passed via `--input-image` on every generation to lock the style.
-
-Once this wiki has 2+ comics of its own in the family style, use that wiki's own comics as references for in-wiki style continuity.
-
-## Image embedding
-
-Alt text on every embedded comic stores the **full prompt-readable description of the strip**, detailed enough to reproduce the comic from the alt text alone. This pulls double duty: a screen-reader user gets the description, and the prompt itself stays version-controlled inside the article that uses it. For the underlying principle, see [Version-Control Your Prompts](/disciplines/version-control-your-prompts).
-
-Save generated comics to `static/img/comics/<slug>.png` where `<slug>` matches the article's URL slug. Embed at the top of the article, immediately after the subtitle italic block, before the first `## section`:
-
-```markdown
-*Article subtitle goes here.*
-
-![One-line alt text describing the strip's beats.](/img/comics/<slug>.png)
-
----
-
-## First section
-```
-
----
-
-## Further Reading
-
-- [supersuit.wiki: graphic style](https://supersuit.wiki/reference/graphic-style): the canonical spec for the comic-strip style across the family
-- [Voice rules](/reference/voice-rules): the prose equivalent of this page
+To change the canon, edit the [brand OS](https://supersuit-brand-os.vercel.app) — not this page.
