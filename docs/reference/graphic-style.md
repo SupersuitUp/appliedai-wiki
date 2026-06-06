@@ -8,16 +8,13 @@ description: "Visual conventions for illustrations and diagrams on this wiki. Th
 
 *Visual conventions for illustrations and diagrams on this wiki. The default is comic-strip article summaries in the Supersuit Up family style.*
 
-## Canon update (2026-06-06)
+## Canonical source: brand.txt
 
-These refinements are the current canon and supersede anything below that conflicts. Applied family-wide.
+The single, always-current visual spec for this universe is the SuperSuit brand OS **`brand.txt`**:
 
-- **No halos going forward.** The gold spiral halo is retired. Do NOT add a halo or spiral above any head in new comics. (Existing comics keep theirs until regenerated.) Signal the resolved state through pose, light, and HUD, not a halo.
-- **The Supersuit is bulky worn armor, never a skin-tight muscle suit.** Thick, layered mechanical plates with real volume and visible panel gaps and joints over chest, shoulders, arms, hips, and legs — clearly worn equipment on a normal athletic build, not painted-on muscles.
-- **`HYPERCONTEXT LOADED` is an INPUT-side stamp, used at most once.** It marks the assembled superprompt / substrate loaded INTO the model — never the output. Shipped artifacts use `READY` and `MISSION INTACT`, plus the intent-to-output ratio. Do not slap it on every panel.
-- **Input-output coherence.** The artifacts a comic ships must follow from the intent it shows: a "build a GTM plan" superprompt yields GTM deliverables (strategy, launch deck, channel plan), not an unrelated deal memo.
-- **Moderation workaround.** gpt-image-2 intermittently output-blocks fully Iron-Man-coded armor prompts. Carry the suit identity in the character reference image, describe it in plainer terms, never name "Iron Man," and re-run on a block.
+> **https://supersuit-brand-os.vercel.app/brand.txt**
 
+Paste that one link into any image model or agent and it is primed with the master prompt, color + type tokens, voice, banned terms, and absolute URLs to every Golden Atomic Brand Reference — including the no-halo rule, the bulky-worn-armor rule, the two-worlds rule (flesh hyperagent vs. holographic Chief of Agents), input-side `HYPERCONTEXT LOADED`, distinct-figures / matched-counts, and input-output coherence. It is generated at build time from the brand OS, so it never drifts. **Where this page and `brand.txt` differ, `brand.txt` wins** — edit the brand OS, not this page. The full brand OS lives at [supersuit-brand-os.vercel.app](https://supersuit-brand-os.vercel.app). The notes below are a human-readable companion.
 
 ---
 
