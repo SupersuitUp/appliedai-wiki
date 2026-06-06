@@ -42,13 +42,13 @@ Plain text or Markdown (agents parse both; humans can read it raw). The file inl
 - The full **logo matrix** (every mark, wordmark, lockup, crop).
 - The **Golden Atomic Brand References** (the exemplar images an image model conditions on).
 - The **fonts**, **tokens.css**, and the generation layer.
-- The **hosted on-brand-asset skill(s)** — at minimum a model-agnostic `create-on-brand-image` SKILL.md served by the brand OS (see below).
+- The **hosted on-brand-asset skill(s)** — at minimum a model-agnostic `create-on-brand-image` and a `create-gabr` SKILL.md served by the brand OS (see below).
 
 The links are absolute, not repo-relative, because the consumer may have only the file, not the repo.
 
 ## A hosted generation skill is required
 
-brand.txt is the canon; a brand OS MUST also serve the **procedure**. Ship at least one `create-on-brand-image` skill as a static `SKILL.md` under the served generation layer, and link it from brand.txt. That skill:
+brand.txt is the canon; a brand OS MUST also serve the **procedure**. Ship at least two static `SKILL.md` files under the served generation layer, linked from brand.txt — **`create-on-brand-image`** (make a one-off on-brand asset) and **`create-gabr`** (add a new Golden Atomic Brand Reference to the canon: fit the visual universe, cohere with the existing set, validate with a human, store the prompt + reference images + alt text, register it, regenerate brand.txt). The `create-on-brand-image` skill:
 
 - **Reads brand.txt** as its source of truth — the canon lives there, never duplicated in the skill.
 - **Is model-agnostic with sensible defaults**: it tells the agent to search its registered skills for a top image-creation tool (e.g. `chatgpt-images` / `nano-banana-pro`) and pick one that accepts reference images, falling back to a direct API call.
