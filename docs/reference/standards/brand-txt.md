@@ -52,6 +52,7 @@ The links are absolute, not repo-relative, because the consumer may have only th
 > <lockup> · <tagline>
 
 <one line: this file primes any agent; everything inline + every asset linked>
+Format: the brand.txt standard — https://www.appliedai.wiki/reference/standards/brand-txt
 
 ## Identity
 - Brand / Lockup / Handle / Tagline / One-liner / Audience / Archetype
