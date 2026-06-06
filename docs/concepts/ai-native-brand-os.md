@@ -109,6 +109,7 @@ One on-brand asset is a deliverable. The brand OS is the asset that makes every 
 ## Further Reading
 
 - [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): the visual-corpus sub-discipline a brand OS generalizes from.
+- [brand.txt](/reference/standards/brand-txt): the single served file that primes any agent to generate from the OS in one link.
 - [Golden Examples](/concepts/golden-examples): curating A+ on-brand outputs as in-context references for the next render.
 - [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the prompt-storage discipline the generation layer runs on.
 - [Agent-Accessible Products](/concepts/agent-accessible-products): making an asset something an agent can consume and act on.
