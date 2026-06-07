@@ -1,0 +1,121 @@
+---
+title: "YC on building an AI-native services company"
+slug: /note-sharers/y-combinator/2026-06-03-ai-native-services-company
+description: "Field notes from a June 2026 YC founder playbook. Rebuild services firms (law, tax, insurance) so AI does most of the work and you sell the finished outcome, not a copilot. The human is the interface; the operation is the product. Right for net-new orgs, a thought experiment for incumbents."
+date: 2026-06-03
+source_url: https://www.youtube.com/watch?v=gSNFJbgoaHI
+source_firm: y-combinator
+source_type: webinar
+tags: [ai-native-services, market-selection, pricing, unit-economics, operations]
+---
+
+# YC on building an AI-native services company
+
+*Field notes from a June 2026 YC founder playbook. Rebuild services firms (law, tax, insurance) so AI does most of the work and you sell the finished outcome, not a copilot. The human is the interface; the operation is the product. Right for net-new orgs, a thought experiment for incumbents.*
+
+---
+
+## Source
+
+- **Firm:** Y Combinator (YC).
+- **Speaker:** A YC partner (unnamed in the video; cites Panacea and General Legal as portfolio examples).
+- **Format:** Founder playbook video, Y Combinator channel, 11:22.
+- **Date watched:** 2026-06-03.
+- **URL:** https://www.youtube.com/watch?v=gSNFJbgoaHI
+- **Full private summary:** garyinparadise/docs/misc-collections/content-summaries/2026-06-03-yc-ai-native-services-company-playbook.md
+- **Endorsement disclaimer:** YC's claims are reported here as their claims. The playbook is explicitly from-scratch advice for founders deciding what to start. It is downstream of a greenfield operating context (no legacy systems, capital-rich, talent-dense). The blueprint is right for net-new orgs and a thought experiment for incumbents.
+
+## What we lifted
+
+### 1. The AI-native services company: sell the outcome, not the copilot
+[→ New page: [/concepts/ai-native-services-company](/concepts/ai-native-services-company)]
+
+YC's core thesis. The biggest companies of the next decade may not be software at all: they will be services firms (insurance, law, tax, audit) rebuilt so AI does most of the work and the company hands back the finished outcome. The customer cares about the final product, not the process. This is the opposite of the copilot pattern, where you ship a tool and ask the customer to operate it. The TAMs are trillions and the opportunity did not exist two years ago because the models were not good enough.
+
+### 2. The four-trait market filter
+[→ New page: [/playbooks/picking-an-ai-services-market](/playbooks/picking-an-ai-services-market)]
+
+The named framework worth keeping. The best AI-services markets share four traits: low trust (work already outsourced, customer cares about the result not the process, so you displace a vendor without changing behavior); low judgment at the task level (most steps automatable, judgment concentrated in a few human-in-the-loop spots); a high intelligence threshold (the overall work is genuinely hard, hard enough that models plus humans are required); and regulation as a moat (higher expectations and legal accountability raise the bar for everyone). The "low judgment per task, high intelligence overall" pair is the same architecture as [the judgment line](/perspectives/the-judgment-line), seen from market selection rather than system design.
+
+### 3. The Sam Altman test
+[→ New page: [/concepts/the-sam-altman-test](/concepts/the-sam-altman-test)]
+
+A one-line diagnostic for model risk. Ask: as the models get better, does your service get *stronger*, or does the model itself commoditize *you*? You want to be in the first camp, where every capability jump is a tailwind that widens your lead. If a smarter base model erases your edge, you are renting your business from a lab. Pairs with [open weights as a price ceiling](/perspectives/open-weights-as-price-ceiling).
+
+### 4. The three founder attributes: the product is an operation
+[→ New page: [/roles/ai-services-founder](/roles/ai-services-founder)]
+
+YC's founder profile. The best AI-services founders share domain fluency (you bleed credibility to skeptical buyers in regulated spaces; learned experience is okay), model fluency (you know the frontier and design to ride the curve), and operational rigor (variance, throughput, cycle times, SOPs). The unglamorous third one is the differentiator: you are fundamentally running an operation, and you have to learn that skill set or at least respect it. General Legal is the example: law-firm pedigree plus technical leadership plus shift work engineered to cut cycle times.
+
+### 5. The human is the interface; the operation is the product
+[→ New page: [/concepts/the-product-is-an-operation](/concepts/the-product-is-an-operation)]
+
+The build-the-product inversion. In AI services the human is the interface to the customer, not the product; the software exists to let that human scale nonlinearly. So you build with an operations mindset: find the bottleneck and build for the bottleneck, and treat throughput and cycle time as product metrics tracked like DAU. Reinforces [the moving bottleneck](/perspectives/the-moving-bottleneck): the metric you obsess over moves as you automate.
+
+### 6. Variance is the existential problem
+[→ New page: [/perspectives/variance-is-the-existential-problem](/perspectives/variance-is-the-existential-problem)]
+
+The sharpest survival claim in the playbook. Customers fire you for variance (non-uniform output) faster than for being a bit slower or more expensive than the incumbents. Consistency is what they are buying; inconsistency destroys trust, which causes churn. Output variance, not speed or price, is the churn driver, which makes evals and harness discipline the operator's whole game.
+
+### 7. The early demand trap
+[→ New page: [/perspectives/the-early-demand-trap](/perspectives/the-early-demand-trap)]
+
+A named trap. When you have nothing, it is easy to sign many pilot customers, and they quickly overwhelm your ability to serve, so you get stuck throwing humans at the work and never build to scale. The fix is counterintuitive: cap your first pilots to a small handful and resist signing too many too quickly. Sharpens [pilot scope](/playbooks/pilot-scope): the constraint is your own serving capacity, not demand.
+
+### 8. Sell outcomes, not seats or tokens. The pilot is the product.
+[→ Reinforces: [/playbooks/pricing](/playbooks/pricing)]
+
+The pricing discipline. You are not competing with other software; you are competing with the cost of labor, internal or outsourced. Price per unit (per return, per claim, per loan: cleanest and easiest to explain) or on outcomes (aligns incentives beautifully, harder to forecast). Avoid cost-plus (caps your upside permanently) and straight-line undercutting (signals cheap and low quality). Price on value. Use the first handful of pilots to learn where AI gives unique leverage rather than standardizing too early.
+
+### 9. AI operating leverage
+[→ New page: [/concepts/ai-operating-leverage](/concepts/ai-operating-leverage)]
+
+The P&L bet, named. COGS in these businesses is three lines: model costs, hosting, and humans in the loop. Each needs a number, a trend line, and an owner. The core bet is that the more the product is built, the lower the COGS and the better the gross margin. Traditional services firms top out around 30% margins; the bet is that AI operating leverage gets you toward software margins (50%+) on a market two to three times bigger than software. You don't need to be there immediately, but the trajectory has to be believable. The structural twin of [the services-firm re-rating threshold](/perspectives/services-firm-re-rating-threshold), seen from the greenfield side.
+
+### 10. Don't buy your way in
+[→ New page: [/perspectives/build-dont-buy-your-way-in](/perspectives/build-dont-buy-your-way-in)]
+
+The closing warning, aimed at operators. The temptation is to buy an existing services business, bolt AI on, and short-circuit revenue. Generally a trap: you cannot acquire product-market fit, and legacy firms carry legacy expectations on metrics, hiring, and performance that AI on top does not change. Building is almost always better than buying. The one decent exception: you need a regulatory moat fast (insurance licensing, for example).
+
+## Best quotes
+
+> "Some of the biggest companies of the next decade won't be software businesses at all. They'll be services companies like insurance carriers and law firms rebuilt from scratch with AI doing most of the work."
+
+> "You're not changing behavior. You're showing up where the budget already lives and doing the work."
+
+> "As the models get better, does your service get stronger or does the model itself commoditize you?"
+
+> "The human is the interface of the customer, not the product. The product helps the human scale their work nonlinearly."
+
+> "Customers will fire you for variance faster than they will fire you for being a bit slower or a bit more expensive than the incumbents."
+
+> "Automating the process is the product."
+
+> "You just can't acquire a product market fit. Building is almost always better than buying."
+
+## Where we push back
+
+The market-selection and unit-economics content is durable and lifted on its own terms. The one caveat we keep: this is a from-scratch founder playbook, and YC says so plainly. The traps it names (the early demand trap, buying your way in) are real for incumbents too, but the "start it in this shape" prescriptions assume a greenfield with no legacy systems, no installed customer expectations, and no compliance gravity to retrofit. For a legacy services firm, the playbook reads as a target state to migrate toward, not a switch to flip. The honesty check YC offers (are you using humans because the work needs judgment, or to paper over product gaps?) is the most portable line for any operator, greenfield or not.
+
+## Cross-references
+
+Pages created in this run:
+
+- [The AI-Native Services Company](/concepts/ai-native-services-company)
+- [Picking an AI-Services Market](/playbooks/picking-an-ai-services-market)
+- [The Sam Altman Test](/concepts/the-sam-altman-test)
+- [The AI-Services Founder](/roles/ai-services-founder)
+- [The Product Is an Operation](/concepts/the-product-is-an-operation)
+- [Variance Is the Existential Problem](/perspectives/variance-is-the-existential-problem)
+- [The Early Demand Trap](/perspectives/the-early-demand-trap)
+- [AI Operating Leverage](/concepts/ai-operating-leverage)
+- [Build, Don't Buy Your Way In](/perspectives/build-dont-buy-your-way-in)
+
+Pages extended in this run:
+
+- [Pricing AI engagements](/playbooks/pricing): YC's sell-outcomes-not-seats and price-on-value framing cited as a supporting voice.
+
+## Further Reading
+
+- [Y Combinator profile](/note-sharers/y-combinator) for the firm's stance and other notes.
+- [Note Sharers](/note-sharers) for the full directory.

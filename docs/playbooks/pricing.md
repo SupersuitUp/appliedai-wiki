@@ -346,6 +346,7 @@ Once you start retainers, send monthly impact reports. Show the numbers. You are
 ## Supporting voices
 
 - **Anonymous AI consultancy founder (2026-05-21):** "We do our minimum amount is 9 k a month. Of course, as you get larger, we just try to go for bigger deal sizes." Concrete floor for boutique applied-AI retainers, with PE-fund retainers anchoring around $30K/month. The structure also transfers risk to the buyer: the three-month POC is paid up front, so if the year-long conversion does not happen, the operator still earns. [→ field note](/note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade).
+- **Y Combinator (2026-06-03):** "Sell outcomes, not seats or tokens." For an AI-native services company you are competing with the cost of labor, internal or outsourced, not with other software. Price per unit (per return, per claim, per loan: cleanest and easiest to explain) or on outcomes (aligns incentives, harder to forecast). Avoid cost-plus, which caps your upside permanently, and straight-line undercutting, which signals cheap and low quality. Price on value. [→ field note](/note-sharers/y-combinator/2026-06-03-ai-native-services-company).
 
 ## Further Reading
 
