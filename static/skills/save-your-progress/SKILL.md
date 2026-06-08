@@ -14,9 +14,18 @@ This file is hosted at https://www.appliedai.wiki/skills/save-your-progress/SKIL
 
 A save touches load-bearing surfaces (skills, docs, git history). You MUST present a checklist of proposed changes and get explicit user confirmation BEFORE writing anything. The user can approve all, edit, or deselect items. Apply only what they confirm.
 
+## Step 0 — Find the last checkpoint (so re-runs are incremental)
+
+If this workspace has been saved before, do NOT re-chew the whole history. Find the most recent **save checkpoint** — a line recording the last save's timestamp and commit SHA (in the work log, or in a `SAVE-LOG.md` this skill maintains). If one exists, scope everything below to the delta **since that checkpoint**:
+
+- **Files:** `git diff <last-sha>..` and `git log <last-sha>..HEAD`.
+- **Conversation:** only what has happened since the last save.
+
+This keeps repeated in-session saves cheap and stops the skill from re-proposing changes it already saved. If no checkpoint exists, do a full survey.
+
 ## Step 1 — Survey (read-only)
 
-Without changing anything, build a picture of the session:
+Without changing anything, build a picture of the session (scoped to the delta from Step 0 if there was one):
 
 - What was actually produced or changed this session? (Run `git status` / `git diff --stat` if in a repo.)
 - What decisions were made, and the *why* behind them?
@@ -54,12 +63,13 @@ For each confirmed item:
 - **Commit** — stage and commit with the approved message. Push only if the user asked.
 - **Resume-here note** — record open threads + the next obvious move where the next session will look.
 
-## Step 4 — Report
+## Step 4 — Record the checkpoint, then report
 
-Output the report-back summary (what was saved, where) and state plainly that the chat is now safe to clear/compact — nothing of value lives only in the conversation anymore.
+- **Record a save checkpoint** so the next save is incremental: append a one-line entry — `<ISO timestamp> · <commit SHA you just made> · <one-line summary>` — to the work log if one exists, otherwise to a `SAVE-LOG.md` at the workspace root. This is the anchor Step 0 reads next time.
+- **Report back:** output the report-back summary (what was saved, where) and state plainly that the chat is now safe to clear/compact — nothing of value lives only in the conversation anymore.
 
 ## Notes
 
 - Model-agnostic and harness-agnostic: works in any harness that can read files and run commands.
 - Adaptive, not fixed: coverage over ceremony. Skip slots that don't apply; never manufacture surfaces.
-- Run it often — partway through long sessions, not just at the end. Cheap saves keep the window pressure low.
+- Run it often — partway through long sessions, not just at the end. The checkpoint (Step 0/4) makes each re-run incremental, so cheap, frequent saves keep window pressure low without redoing work.

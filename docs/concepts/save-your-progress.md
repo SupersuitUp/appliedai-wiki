@@ -69,6 +69,8 @@ This is the payoff. Once the sweep is done, the conversation holds nothing that 
 
 Use the hosted, model-agnostic **[save-your-progress skill](/skills)** — a `SKILL.md` you can invoke, link, or fork. It encodes the propose-then-confirm sweep above: survey → present the checklist → wait for your confirmation → apply only what you approved → report what was saved. Point your harness at it (or copy it into your workspace's skills folder) and "save" becomes a one-word command.
 
+It's **incremental**, too. Each save records a small checkpoint (a timestamp and the commit it just made), so running save again in the same session only sweeps what changed *since* — it doesn't re-read the whole chat or re-propose what it already saved. That makes saves cheap enough to hit every hour, not just at the end.
+
 ## Why this matters for you
 
 If you've ever ended a great session with a vague dread that you were about to lose something — you were right, and this is the fix. Make saving a habit and three things change: you stop fearing the context window, you start clearing chats freely, and your workspace quietly gets better every time you stop. The goal is simple: **work you can put down without losing.**
