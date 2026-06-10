@@ -4,18 +4,18 @@ slug: /reference/standards/brand-txt
 description: "A single statically-served file that primes any agent to generate on-brand assets: identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms inline, plus absolute URLs to every brand asset. One link, no repo access, an on-brand asset out the other side."
 ---
 
-# brand.txt Specification v0.2
+# brand.txt — Agentic Brand OS Standard
 
-*A single statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Paste the link into any agent harness and it can produce on-brand work without touching the repo.*
+*The served format spec: one statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Part of the [Agentic Brand OS Standard v0.7](/playbooks/generate-a-brand-os).*
 
 ---
 
 <!-- last_updated: 2026-06-10 -->
-<!-- version: 0.2 -->
+<!-- version: see generate-a-brand-os -->
 
 `brand.txt` is to a brand what [`llms.txt`](https://llmstxt.org) is to a website: one flat, predictable, statically-served file that gives an agent everything it needs about the thing, in one fetch, with no crawling. Where `llms.txt` orients an LLM to a site's content, `brand.txt` primes a harness to *generate in a brand's voice and look*.
 
-It is the interface layer over an [AI-Native Brand OS](/concepts/ai-native-brand-os). The brand OS is the full machine-consumable package (logo matrix, tokens, generation layer, Golden Atomic Brand References). `brand.txt` is the one page that points at all of it and inlines the parts an agent needs immediately, so the cost of priming a new agent drops to pasting a single URL.
+It is the interface layer over an [Agentic Brand OS](/concepts/agentic-brand-os). The brand OS is the full machine-consumable package (logo matrix, tokens, generation layer, Golden Atomic Brand References). `brand.txt` is the one page that points at all of it and inlines the parts an agent needs immediately, so the cost of priming a new agent drops to pasting a single URL.
 
 ## The problem it solves
 
@@ -166,12 +166,15 @@ A brand is agent-ready when priming a harness to work in it costs one pasted lin
 
 ## Version history
 
-- **v0.2** (2026-06-10): "Master prompt" renamed to "preamble" to clarify it is sent to the image model verbatim, not just used to prime a text LLM. Added required `## Characters` section (recurring cast roster with default protagonist designation). GABRs must now be annotated entries (description + pass-when routing rule), not a flat URL list. Added dedicated "GABRs must be annotated" section. Updated required shape and generate-it section to reflect all three additions.
-- **v0.1** (2026-06-06): Initial spec. Documents what works in practice rather than designing comprehensively up front.
+This page tracks the Agentic Brand OS Standard. For the full version history see [Generate a Brand OS](/playbooks/generate-a-brand-os).
+
+- **v0.7** (2026-06-10): "Master prompt" renamed to "preamble." Required `## Characters` section added. GABRs must be annotated objects (description + pass-when), not a flat URL list. Concept renamed from AI-Native Brand OS to Agentic Brand OS.
+- **v0.6** (2026-06-10): `characters` object required in brand.json with `default_protagonist: true` on exactly one entry. `## Characters` section required in brand.txt.
+- **v0.1–0.5** (2026-06-06 to earlier): Initial spec, preamble groundwork, GABR standard, hosted skills requirement.
 
 ## Further Reading
 
-- [AI-Native Brand OS](/concepts/ai-native-brand-os): the full package `brand.txt` is the interface to.
+- [Agentic Brand OS](/concepts/agentic-brand-os): the full package `brand.txt` is the interface to.
 - [Golden Examples](/concepts/golden-examples): the curated A+ references the prime file links for conditioning.
 - [Generate a Brand OS](/playbooks/generate-a-brand-os): the recipe that builds the OS and ships the prime file.
 - [GENERATE.md](/reference/standards/generate-md): the sibling standard that scaffolds the artifact.

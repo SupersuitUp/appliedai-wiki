@@ -1,14 +1,14 @@
 ---
-title: "AI-Native Brand OS"
-slug: /concepts/ai-native-brand-os
-description: "A brand OS is the full machine-consumable package of a brand: every logo conversion, color and type tokens as code, a motif and template library, plus the generation layer (reference images, master prompt, example prompts, banned terms) that lets an agent produce new sites, decks, and assets that all land in the same brand universe."
+title: "Agentic Brand OS"
+slug: /concepts/agentic-brand-os
+description: "An Agentic Brand OS is the full machine-consumable package of a brand: every logo conversion, color and type tokens as code, a motif and template library, plus the generation layer (preamble, Golden Atomic Brand References, example prompts, banned terms) that lets an agent produce new sites, decks, and assets that all land in the same brand universe."
 ---
 
-# AI-Native Brand OS
+# Agentic Brand OS
 
-*A brand OS is the full machine-consumable package of a brand. Every logo conversion, color and type tokens as code, a motif and template library, plus the generation layer (reference images, master prompt, example prompts, banned terms) that lets an agent produce new sites, decks, and assets that all land in the same brand universe.*
+*An Agentic Brand OS is the full machine-consumable package of a brand. Every logo conversion, color and type tokens as code, a motif and template library, plus the generation layer (preamble, Golden Atomic Brand References, example prompts, banned terms) that lets an agent produce new sites, decks, and assets that all land in the same brand universe.*
 
-![Four-panel neo-comic strip on cream paper, high-tech power-armor visual DNA. Title bar: AI-NATIVE BRAND OS. PANEL 1 (top-left), '1. THE BRAND BOOK ROTS': a closed booklet labeled BRAND BOOK v2.3.pdf shut in a desk drawer, and above it a 2x3 grid of six clashing off-brand artifacts (WEBSITE, SLIDE DECK, BUSINESS CARD, APP ICON, BANNER AD, SOCIAL POST) all in different styles. Red DRIFT stamp. Caption: 'A brand book describes the brand. Everyone else approximates.' PANEL 2 (top-right), '2. THE OS, NOT THE BOOK': the supersuited leader (matte-navy exo-suit, vivid orange seam accents, cyan wrist glow) beside a HUD reading EVERY ASSET: SPEC FORM + USABLE FORM. A logo matrix grid shows SYMBOL MARK / WORDMARK / LOCKUPS across LIGHT, DARK, and ONE-COLOR rows (placeholder wordmark NEXORA), plus COLOR TOKENS hex cards, a TYPE SYSTEM specimen (NEXORA SANS Aa), and a MOTIF SYSTEM tile set. Caption: 'The brand OS ships the identity already executable.' PANEL 3 (bottom-left), '3. THE GENERATION LAYER': four glowing input streams labeled REFERENCE IMAGES, MASTER PROMPT, EXAMPLE PROMPTS, BANNED TERMS feed a generation funnel that outputs an ON-BRAND OUTPUT card. Caption: 'References and tokens anchor. Prompts vary. One funnel.' PANEL 4 (bottom-right), '4. ONE UNIVERSE': first-person POV through the helmet visor (translucent cyan visor band as panel border), HUD grid of four freshly generated on-brand artifacts labeled WEBSITE, DECK, SOCIAL SET, APP ICON. Stamps: HYPERCONTEXT LOADED and BRAND COHERENT. A matte-navy gauntleted hand reaches forward; a single gold spiral halo crowns the visor. Caption: 'Make me a site, a deck, a set. All in one universe.' Footer bar: SHIP THE BRAND AS A SYSTEM, NOT A PDF.](/img/comics/ai-native-brand-os.png)
+![Four-panel comic strip on cream paper, high-tech power-armor visual DNA. Title bar: AI-NATIVE BRAND OS (image predates the rename). PANEL 1 (top-left), '1. THE BRAND BOOK ROTS': a closed booklet labeled BRAND BOOK v2.3.pdf shut in a desk drawer, and above it a 2x3 grid of six clashing off-brand artifacts (WEBSITE, SLIDE DECK, BUSINESS CARD, APP ICON, BANNER AD, SOCIAL POST) all in different styles. Red DRIFT stamp. Caption: 'A brand book describes the brand. Everyone else approximates.' PANEL 2 (top-right), '2. THE OS, NOT THE BOOK': the supersuited leader (matte-navy exo-suit, vivid orange seam accents, cyan wrist glow) beside a HUD reading EVERY ASSET: SPEC FORM + USABLE FORM. A logo matrix grid shows SYMBOL MARK / WORDMARK / LOCKUPS across LIGHT, DARK, and ONE-COLOR rows (placeholder wordmark NEXORA), plus COLOR TOKENS hex cards, a TYPE SYSTEM specimen (NEXORA SANS Aa), and a MOTIF SYSTEM tile set. Caption: 'The brand OS ships the identity already executable.' PANEL 3 (bottom-left), '3. THE GENERATION LAYER': four glowing input streams labeled REFERENCE IMAGES, PREAMBLE, EXAMPLE PROMPTS, BANNED TERMS feed a generation funnel that outputs an ON-BRAND OUTPUT card. Caption: 'References and tokens anchor. Prompts vary. One funnel.' PANEL 4 (bottom-right), '4. ONE UNIVERSE': first-person POV through the helmet visor (translucent cyan visor band as panel border), HUD grid of four freshly generated on-brand artifacts labeled WEBSITE, DECK, SOCIAL SET, APP ICON. Stamps: HYPERCONTEXT LOADED and BRAND COHERENT. Caption: 'Make me a site, a deck, a set. All in one universe.' Footer bar: SHIP THE BRAND AS A SYSTEM, NOT A PDF.](/img/comics/agentic-brand-os.png)
 
 ---
 
@@ -20,7 +20,7 @@ A **brand OS** is the same identity rebuilt as a machine-consumable package. Eve
 
 The test is concrete. Hand the OS to an agent with no designer in the loop and ask for a new landing page, a pitch deck, and a set of social cards. If what comes back is unmistakably the same brand, the OS is real. If the agent has to guess, you have a brand book, not a brand OS.
 
-## Why AI-Native Changes the Job
+## Why Agentic Changes the Job
 
 The old brand book optimized for a designer reading it once and internalizing the rules. The brand OS optimizes for an agent consuming it on every render. That flips what each asset has to be.
 
@@ -61,7 +61,7 @@ The same tokens belong in the project's framework config (a Tailwind theme, a de
 
 **Layout and template elements.** The reusable building blocks that make a new artifact feel in-universe before a single word is written: the grid and spacing, the **deck template elements** (title slide, section divider, quote slide, data slide, closing slide), and the **website section blocks** (hero, feature row, CTA band, footer). These are the recurring motifs at the composition level, and they are what let "make me a deck" or "make me a landing page" come back on-brand instead of generic.
 
-**The generation layer.** The AI-native heart of the OS, drawn straight from [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals):
+**The generation layer.** The agentic heart of the OS, drawn straight from [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals):
 
 - A **reference-image set**: paper/ground texture, the motif art, logo examples, and any character or style anchors, passed on every render so identity rides in image data.
 - A **master prompt**: the base template that states the aesthetic, the mandatory hex values, the type rules, and the background treatment, ready to copy before describing the specific asset.
