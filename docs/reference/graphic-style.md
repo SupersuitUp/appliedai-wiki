@@ -18,8 +18,6 @@ To change the canon, edit the [brand OS](https://supersuit-brand-os.vercel.app) 
 
 These are the most commonly violated rules. They are in brand.txt; they are repeated here for speed.
 
-**Helmet is off by default.** Show the hyperagent's human face. A helmet-on shot or helmet-visor first-person POV is opt-in — only when the prompt explicitly requests it.
-
 **Always pass the GABR reference images.** The image model has no memory of prior generations. Without a reference image, character identity drifts every time. Minimum set for a comic:
 - `gabr-08-comic-kit.png` — panel style and layout conventions
 - `gabr-13-chief-of-agents.png` — required any time the Chief of Agents appears. The Chief has a gold comms crown and a high-collared conductor's mantle. Without this reference the crown disappears and the Chief looks like a generic hologram.
