@@ -15,6 +15,10 @@ You are running a ONE-TIME GENERATION. After this completes, one brand exists as
 
 This recipe is the runnable form of the [AI-Native Brand OS](/concepts/ai-native-brand-os) concept. It composes two existing pieces rather than restating them: the [AI-Led Brand Interview](/playbooks/ai-led-brand-interview) supplies the identity-lock phase (the soul of the brand), and [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals) supplies the generation layer. The job here is to turn a locked identity into the machine-consumable package and a repo that holds it at stable paths.
 
+![4-panel comic strip titled "GENERATE A BRAND OS" on cream paper. Panel 1 — THE INTERVIEW: Midas in matte-navy Supersuit with orange seams leans forward at a command table, gesturing toward floating holographic identity cards (color palette swatches, a wordmark silhouette, a type specimen). Caption: "MIDAS LOCKS THE IDENTITY. THE SOUL FIRST." Panel 2 — THE PILLAR: Midas stands before a wall of framed glowing golden reference images — logo mark, character reference, scene reference — each with a gold star stamp. He points at one, approving it. Caption: "HE VALIDATES EACH GOLDEN REFERENCE. SHOW IT, DON'T JUST DESCRIBE IT." Panel 3 — THE PRIME: Close-up of a terminal screen showing "> brand.txt" in cyan text. Midas's gauntleted hand with cyan wrist glow presses Enter. Caption: "BRAND.TXT GENERATED. ONE URL PRIMES ANY AGENT." Panel 4 — MISSION INTACT: Midas stands arms crossed as three holographic output panels float around him — a landing page, a deck slide, a social post — all unmistakably one brand. Bold READY stamp bottom-right. Caption: "THREE SURFACES. ONE BRAND. NO DESIGNER IN THE LOOP." Footer bar: "ONE REPO. ONE URL. ANY AGENT."](/img/comics/generate-a-brand-os.png)
+
+---
+
 ## What This Generates
 
 A dedicated brand-os repo for one brand, with the brand in two forms at once: a human-readable portal and a machine-consumable package. The exact artifact:
