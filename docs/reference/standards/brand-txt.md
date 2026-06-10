@@ -6,12 +6,12 @@ description: "A single statically-served file that primes any agent to generate 
 
 # brand.txt — Agentic Brand OS Standard
 
-*The served format spec: one statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Part of the [Agentic Brand OS Standard v0.7](/playbooks/generate-a-brand-os).*
+*The served format spec: one statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Part of the [Agentic Brand OS Standard v0.7](/playbooks/generate-agentic-brand-os).*
 
 ---
 
 <!-- last_updated: 2026-06-10 -->
-<!-- version: see generate-a-brand-os -->
+<!-- version: see generate-agentic-brand-os -->
 
 `brand.txt` is to a brand what [`llms.txt`](https://llmstxt.org) is to a website: one flat, predictable, statically-served file that gives an agent everything it needs about the thing, in one fetch, with no crawling. Where `llms.txt` orients an LLM to a site's content, `brand.txt` primes a harness to *generate in a brand's voice and look*.
 
@@ -166,7 +166,7 @@ A brand is agent-ready when priming a harness to work in it costs one pasted lin
 
 ## Version history
 
-This page tracks the Agentic Brand OS Standard. For the full version history see [Generate a Brand OS](/playbooks/generate-a-brand-os).
+This page tracks the Agentic Brand OS Standard. For the full version history see [Generate a Brand OS](/playbooks/generate-agentic-brand-os).
 
 - **v0.7** (2026-06-10): "Master prompt" renamed to "preamble." Required `## Characters` section added. GABRs must be annotated objects (description + pass-when), not a flat URL list. Concept renamed from AI-Native Brand OS to Agentic Brand OS.
 - **v0.6** (2026-06-10): `characters` object required in brand.json with `default_protagonist: true` on exactly one entry. `## Characters` section required in brand.txt.
@@ -176,6 +176,6 @@ This page tracks the Agentic Brand OS Standard. For the full version history see
 
 - [Agentic Brand OS](/concepts/agentic-brand-os): the full package `brand.txt` is the interface to.
 - [Golden Examples](/concepts/golden-examples): the curated A+ references the prime file links for conditioning.
-- [Generate a Brand OS](/playbooks/generate-a-brand-os): the recipe that builds the OS and ships the prime file.
+- [Generate a Brand OS](/playbooks/generate-agentic-brand-os): the recipe that builds the OS and ships the prime file.
 - [GENERATE.md](/reference/standards/generate-md): the sibling standard that scaffolds the artifact.
 - [Standards](/reference/standards): the index for all standards in this family.

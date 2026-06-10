@@ -90,7 +90,7 @@ The order of operations, written so it can be handed to an agent as a spec:
 
 Most of the cost is in steps 1 through 3. Once the identity is locked and tokenized and the logo matrix exists, every new site, deck, and asset is cheap, because the agent is composing from a fixed kit instead of reinventing the brand.
 
-This seven-step order is runnable as a recipe. See [Generate a Brand OS](/playbooks/generate-a-brand-os) for the GENERATE.md that conducts the interview, scaffolds the repo, and emits the full package one time per brand.
+This seven-step order is runnable as a recipe. See [Generate a Brand OS](/playbooks/generate-agentic-brand-os) for the GENERATE.md that conducts the interview, scaffolds the repo, and emits the full package one time per brand.
 
 ## The Production Form: A Dedicated Brand Repo, Rendered
 

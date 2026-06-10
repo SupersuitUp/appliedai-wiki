@@ -1,15 +1,15 @@
 ---
-title: Generate a Brand OS
-slug: /playbooks/generate-a-brand-os
+title: Generate an Agentic Brand OS
+slug: /playbooks/generate-agentic-brand-os
 description: A GENERATE.md recipe that scaffolds a complete Agentic Brand OS for one brand. Run the brand interview to lock identity, then emit the machine-consumable package (logo matrix, tokens, motifs, templates, generation layer, manifest) as a dedicated repo, optionally rendered and deployed. One-time generation per brand.
 ---
 
-# Generate a Brand OS
+# Generate an Agentic Brand OS
 
 <!-- last_updated: 2026-06-10 -->
 <!-- version: 0.7 -->
 
-**This page is canonical.** It is the always-current source of truth for the recipe. A local harness skill (`~/.agents/skills/generate-a-brand-os/`) is a thin pointer to this page; follow what is here. Pairs with the [brand.txt standard](/reference/standards/brand-txt) and [Agentic Brand OS](/concepts/agentic-brand-os).
+**This page is canonical.** It is the always-current source of truth for the recipe. A local harness skill (`~/.agents/skills/generate-agentic-brand-os/`) is a thin pointer to this page; follow what is here. Pairs with the [brand.txt standard](/reference/standards/brand-txt) and [Agentic Brand OS](/concepts/agentic-brand-os).
 
 You are running a ONE-TIME GENERATION. After this completes, one brand exists as a system: a dedicated repo whose root manifest an agent can read to produce on-brand sites, decks, and assets. Do not re-run for the same brand. Re-run only to scaffold a different brand.
 
