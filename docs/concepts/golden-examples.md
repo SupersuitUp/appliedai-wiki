@@ -65,7 +65,7 @@ Each category gets its own corner of the library. Each corner is curated the sam
 
 ## The mechanics
 
-For visuals, the mechanics are written up in detail at [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals). The same shape applies to every other category: a few canonical references pass on every generation, the prompt carries the variable per-render content, the system stays coherent because the references stay locked.
+For visuals, the mechanics are written up in detail at [Golden Atomic Brand References](/concepts/golden-atomic-brand-references). The same shape applies to every other category: a few canonical references pass on every generation, the prompt carries the variable per-render content, the system stays coherent because the references stay locked.
 
 The engineer building the system implements the mechanics. The curator demands the discipline.
 
@@ -75,7 +75,7 @@ If the curator is having a brain-numb day (see [AI Psychosis on supersuit.wiki](
 
 ## Further Reading
 
-- [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): the implementation pattern for the visual category. Same principle as this page, with the engineering mechanics worked out in full.
+- [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the implementation pattern for the visual category — curated reference images that anchor recurring identity in image data.
 - [Context Engineering](/disciplines/context-engineering): the discipline of curating what information the harness feeds to the model at each step. Golden examples are one slice of context.
 - [Skill Files](/concepts/skill-files): the structural unit that often carries the reference list for a category.
 - [Hypercontext](https://supersuit.wiki/concepts/hypercontext): the broader substrate the library is one part of.

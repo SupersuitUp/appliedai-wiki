@@ -37,7 +37,7 @@ For non-markdown surfaces, the equivalent move is a sidecar file: `image.png` ne
 
 ### Caveat: the prompt is one layer of a larger stack
 
-Storing the prompt in alt text gives you version control for a single image and the ability to regenerate it against a future model. It does not, by itself, produce visual coherence across a corpus of images that share a recurring character, palette, or universe. For that, the prompt is one layer of a larger system. The **recurring identity anchors** (character look, palette, world) are best carried by reference images passed alongside the prompt on every render, while the prompt keeps doing load-bearing work on the variable per-render content (scene, HUD, captions, banned-term substitutions). A design system around both layers (canonical spec doc, named characters, banned-term lists, a single bundled generation skill) governs how they cooperate. When you go from "I regenerate this one image" to "I run a coherent visual corpus," see [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals).
+Storing the prompt in alt text gives you version control for a single image and the ability to regenerate it against a future model. It does not, by itself, produce visual coherence across a corpus of images that share a recurring character, palette, or universe. For that, the prompt is one layer of a larger system. The **recurring identity anchors** (character look, palette, world) are best carried by reference images passed alongside the prompt on every render, while the prompt keeps doing load-bearing work on the variable per-render content (scene, HUD, captions, banned-term substitutions). A design system around both layers (canonical spec doc, named characters, banned-term lists, a single bundled generation skill) governs how they cooperate. When you go from "I regenerate this one image" to "I run a coherent visual corpus," see [Golden Atomic Brand References](/concepts/golden-atomic-brand-references).
 
 ## The Portability Win
 
@@ -76,7 +76,7 @@ The bar is simple: if you might want to reproduce or improve this output later, 
 
 ## Further Reading
 
-- [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): when you go from regenerating one image to running a coherent visual corpus
+- [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): when you go from regenerating one image to running a coherent visual corpus
 - [Compounding Docs](/concepts/compounding-docs): why every file you keep makes the next AI run sharper
 - [The Lock-in Is Coming](/perspectives/the-lock-in-is-coming): why portability is the load-bearing posture
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): the prompt is the primitive

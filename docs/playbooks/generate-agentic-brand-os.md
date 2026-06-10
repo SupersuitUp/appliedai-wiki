@@ -13,7 +13,7 @@ description: A GENERATE.md recipe that scaffolds a complete Agentic Brand OS for
 
 You are running a ONE-TIME GENERATION. After this completes, one brand exists as a system: a dedicated repo whose root manifest an agent can read to produce on-brand sites, decks, and assets. Do not re-run for the same brand. Re-run only to scaffold a different brand.
 
-This recipe is the runnable form of the [Agentic Brand OS](/concepts/agentic-brand-os) concept. It composes two existing pieces rather than restating them: the [AI-Led Brand Interview](/playbooks/ai-led-brand-interview) supplies the identity-lock phase (the soul of the brand), and [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals) supplies the generation layer. The job here is to turn a locked identity into the machine-consumable package and a repo that holds it at stable paths.
+This recipe is the runnable form of the [Agentic Brand OS](/concepts/agentic-brand-os) concept. It composes two existing pieces: the [AI-Led Brand Interview](/playbooks/ai-led-brand-interview) supplies the identity-lock phase (the soul of the brand), and the generation layer is built on the [Golden Atomic Brand References](/concepts/golden-atomic-brand-references) discipline. The job here is to turn a locked identity into the machine-consumable package and a repo that holds it at stable paths.
 
 ![4-panel comic strip titled "GENERATE A BRAND OS" on cream paper. Panel 1 — THE INTERVIEW: Midas in matte-navy Supersuit with orange seams leans forward at a command table, gesturing toward floating holographic identity cards (color palette swatches, a wordmark silhouette, a type specimen). Caption: "MIDAS LOCKS THE IDENTITY. THE SOUL FIRST." Panel 2 — THE PILLAR: Midas stands before a wall of framed glowing golden reference images — logo mark, character reference, scene reference — each with a gold star stamp. He points at one, approving it. Caption: "HE VALIDATES EACH GOLDEN REFERENCE. SHOW IT, DON'T JUST DESCRIBE IT." Panel 3 — THE PRIME: Close-up of a terminal screen showing "> brand.txt" in cyan text. Midas's gauntleted hand with cyan wrist glow presses Enter. Caption: "BRAND.TXT GENERATED. ONE URL PRIMES ANY AGENT." Panel 4 — MISSION INTACT: Midas stands arms crossed as three holographic output panels float around him — a landing page, a deck slide, a social post — all unmistakably one brand. Bold READY stamp bottom-right. Caption: "THREE SURFACES. ONE BRAND. NO DESIGNER IN THE LOOP." Footer bar: "ONE REPO. ONE URL. ANY AGENT."](/img/comics/generate-a-brand-os.png)
 
@@ -136,7 +136,7 @@ This is one-time per brand. After the OS exists, do not re-run this recipe to ad
 
 - [AI-Led Brand Interview](/playbooks/ai-led-brand-interview): the identity-lock phase this recipe calls in step 1.
 - [Agentic Brand OS](/concepts/agentic-brand-os): the concept this recipe produces.
-- [Design Systems for AI-Generated Visuals](/concepts/design-systems-for-ai-generated-visuals): the discipline the generation layer runs on.
+- [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the curated reference images at the heart of the generation layer.
 - [brand.txt](/reference/standards/brand-txt): the all-in-one agent prime this recipe emits.
 - [Starting Your Own Wiki](https://truthmanagement.wiki/playbooks/starting-your-own-wiki): the Docusaurus scaffold the full-portal path reuses.
 - Forkable starter and worked examples: `SupersuitUp/brand-os-template`, `SupersuitUp/supersuit-brand-os`, `POV-DTX/pov-dtx-brand-os`.
