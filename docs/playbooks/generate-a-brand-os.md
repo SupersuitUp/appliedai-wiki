@@ -132,6 +132,7 @@ This is one-time per brand. After the OS exists, do not re-run this recipe to ad
 - [brand.txt](/reference/standards/brand-txt): the all-in-one agent prime this recipe emits.
 - [Starting Your Own Wiki](https://truthmanagement.wiki/playbooks/starting-your-own-wiki): the Docusaurus scaffold the full-portal path reuses.
 - Forkable starter and worked examples: `SupersuitUp/brand-os-template`, `SupersuitUp/supersuit-brand-os`, `POV-DTX/pov-dtx-brand-os`.
+- Live brand.txt example: [supersuit-brand-os.vercel.app/brand.txt](https://supersuit-brand-os.vercel.app/brand.txt) — see what a fully-generated brand.txt looks like.
 
 ## Pitfalls
 
