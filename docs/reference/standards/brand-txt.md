@@ -6,12 +6,12 @@ description: "A single statically-served file that primes any agent to generate 
 
 # brand.txt — Agentic Brand OS Standard
 
-*The served format spec: one statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Part of the [Agentic Brand OS Standard v0.7](/playbooks/generate-agentic-brand-os).*
+*The served format spec: one statically-served file that makes a brand agent-ready in one link. Identity, preamble, characters roster, graphic types, annotated GABRs, tokens, voice, and banned terms are inlined; every brand asset is listed as an absolute URL. Part of the [Agentic Brand OS Standard v0.8](/playbooks/generate-agentic-brand-os).*
 
 ---
 
 <!-- last_updated: 2026-06-10 -->
-<!-- version: see generate-agentic-brand-os -->
+<!-- version: 0.8 -->
 
 `brand.txt` is to a brand what [`llms.txt`](https://llmstxt.org) is to a website: one flat, predictable, statically-served file that gives an agent everything it needs about the thing, in one fetch, with no crawling. Where `llms.txt` orients an LLM to a site's content, `brand.txt` primes a harness to *generate in a brand's voice and look*.
 
@@ -29,10 +29,11 @@ Plain text or Markdown (agents parse both; humans can read it raw). The file inl
 
 **Inlined (read directly):**
 
-- **Identity**: brand name, lockup, tagline, one-liner, audience, archetype, non-negotiables.
+- **Identity**: brand name, lockup, tagline, one-liner, audience, archetype, non-negotiables, and the brand OS `id` slug (the local cache folder name).
 - **How to generate an on-brand asset**: the numbered procedure (prepend the preamble, pass the reference images, honor the banned terms, stamp the lockup).
 - **Preamble**: the always-on image-generation brief, verbatim, in a copy-ready block. Sent to the image model on every request — contains visual DNA, character descriptions, hard rules, comic format conventions, and moderation notes.
 - **Characters**: the recurring cast. For each character: name, role/lean, visual description, whether they are the default protagonist, and their GABR URL. This is the routing table that tells an agent which character to reach for by default and which GABR to pass alongside them.
+- **Graphic types** (optional but recommended): named output types the brand supports — illustration, comic, stat-card, etc. Each entry declares a prompt suffix, the GABRs to auto-pass, and the output size. An agent reading this can call a named type instead of assembling prompt rules by hand.
 - **Color tokens**: semantic roles with hex.
 - **Type**: families by role, with font-file URLs.
 - **Voice**: motto, tone, the positive move.
@@ -78,6 +79,7 @@ Format: the brand.txt standard — https://www.appliedai.wiki/reference/standard
 ## Identity
 - Brand / Lockup / Handle / Tagline / One-liner / Audience / Archetype
 - Non-negotiable: ...
+- ID: <id-slug>  ← local cache: ~/.agents/agentic_brand_oses/<id>/
 
 ## How to generate an on-brand asset
 1. Prepend the preamble (copy verbatim).
@@ -116,12 +118,46 @@ hard rules, comic format, moderation notes>
 - **<Name>** — **default protagonist**; <role>; <visual description> → https://.../gabr-NN-<slug>.png
 - **<Name>** — <role>; <visual description> → https://.../gabr-NN-<slug>.png
 
+## Graphic types (named output types — pass --type <slug> to use one)
+- **illustration** — <description>
+  suffix: "<prompt suffix>"
+  size: <WxH>
+  auto-gabrs: <gabr-slug>
+- **comic** — <description>
+  suffix: "<prompt suffix>"
+  size: <WxH>
+  auto-gabrs: <gabr-slug>, <gabr-slug>
+
 ## Golden Atomic Brand References (reference images — pass these to the image model)
 - **gabr-NN-<slug>.png** — <what it depicts> | pass when: <routing rule> → https://.../gabr-NN-<slug>.png
 
 ## Fonts / Tokens
 - https://.../brand/fonts/... ; https://.../brand/tokens.css
 ````
+
+## Graphic types declare named output formats
+
+Every brand commonly ships multiple output formats — editorial illustrations, comic strips, stat cards, social cards — each with its own prompt rules, auto-passed GABRs, and size. Without a type system, every project that uses the brand OS must reconstruct these rules itself, creating drift.
+
+The optional `graphic_types` array in `brand.json` solves this. Each entry has five fields:
+
+```json
+{
+  "slug": "illustration",
+  "description": "Single-panel editorial scene. No text, no labels, generous whitespace.",
+  "suffix": ". Generous white space, at least 30 percent of the canvas untouched paper. No text, no labels, no captions inside the image.",
+  "auto_gabrs": ["gabr-18-default-client.png"],
+  "size": "1536x1024"
+}
+```
+
+The build script reads `graphic_types` and emits a `## Graphic types` section in `brand.txt`. An agent or render script can look up a type by slug and get the exact suffix and GABR routing for that format — no brand logic lives in the project.
+
+## Brand OS ID and local cache
+
+Every brand OS declares a short URL-safe `id` slug in `brand.json` (e.g. `"id": "built-for-exit"`). This slug names the local cache folder at `~/.agents/agentic_brand_oses/<id>/`, where agents can cache `brand.txt` and download GABRs for offline or fast access. The build script emits the ID inline in `## Identity`.
+
+A `sync-brand-os` skill acts as the package manager for brand OSes — `sync-brand-os install <brand-txt-url>` fetches `brand.txt`, downloads all listed GABRs into the local cache, and generates a `render-graphic-<id>` skill in `~/.agents/skills/` pre-loaded with the full brand context. See the [spec](/brand.txt) for the full local cache schema.
 
 ## Generate it, do not hand-write it
 
@@ -168,6 +204,7 @@ A brand is agent-ready when priming a harness to work in it costs one pasted lin
 
 This page tracks the Agentic Brand OS Standard. For the full version history see [Generate a Brand OS](/playbooks/generate-agentic-brand-os).
 
+- **v0.8** (2026-06-10): `id` field required in brand.json and emitted in `## Identity`. Optional `graphic_types` array in brand.json; when present, build script emits `## Graphic types` section in brand.txt with slug, description, suffix, auto-gabrs, and size per type. Local brand OS cache convention `~/.agents/agentic_brand_oses/<id>/` documented. `sync-brand-os` and `render-graphic-<id>` patterns introduced.
 - **v0.7** (2026-06-10): "Master prompt" renamed to "preamble." Required `## Characters` section added. GABRs must be annotated objects (description + pass-when), not a flat URL list. Concept renamed from AI-Native Brand OS to Agentic Brand OS.
 - **v0.6** (2026-06-10): `characters` object required in brand.json with `default_protagonist: true` on exactly one entry. `## Characters` section required in brand.txt.
 - **v0.1–0.5** (2026-06-06 to earlier): Initial spec, preamble groundwork, GABR standard, hosted skills requirement.
