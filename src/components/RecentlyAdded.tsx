@@ -2,20 +2,26 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import useGlobalData from '@docusaurus/useGlobalData';
 
-interface RecentFile {
+type ChangeType = 'new' | 'updated' | 'removed';
+
+interface ChangeEvent {
+  id: string;
+  type: ChangeType;
+  date: string;
   docKey: string;
   routePath: string;
   section: string;
   title: string;
   description?: string;
-  creationDate: string;
-  lastModifiedDate: string;
 }
 
 interface CreationDatePluginContent {
-  recentFiles: RecentFile[];
+  changeEvents: ChangeEvent[];
 }
 
+// Section folder slug → display label. Tune this map to match the
+// top-level folders under `docs/`. Operators forking this template
+// should update this when they add or rename top-level sections.
 const SECTION_LABELS: Record<string, string> = {
   concepts: 'Concept',
   guides: 'Guide',
@@ -59,107 +65,126 @@ function renderDescription(text: string): React.ReactNode[] {
   return nodes;
 }
 
-// A file is "new" if its first commit and most recent commit are the same.
-// Once it has been edited again after creation, the dates diverge and we
-// show "updated" instead. This is exact because git commit timestamps are
-// second-precision and a single commit produces identical first/last dates.
-function isNew(f: RecentFile): boolean {
-  return f.creationDate === f.lastModifiedDate;
-}
-
-interface Props {
-  limit?: number;
-  showSectionLabels?: boolean;
-}
-
-const NEW_BADGE_STYLE: React.CSSProperties = {
+const BADGE_BASE: React.CSSProperties = {
   display: 'inline-block',
   fontSize: '0.7em',
   fontWeight: 700,
   letterSpacing: '0.04em',
   padding: '0.05rem 0.4rem',
   borderRadius: '0.2rem',
-  background: 'rgba(34, 197, 94, 0.18)',
-  color: 'rgb(22, 163, 74)',
-  border: '1px solid rgba(34, 197, 94, 0.45)',
   textTransform: 'uppercase',
   verticalAlign: 'middle',
 };
 
-const UPDATED_BADGE_STYLE: React.CSSProperties = {
-  display: 'inline-block',
-  fontSize: '0.7em',
-  fontWeight: 700,
-  letterSpacing: '0.04em',
-  padding: '0.05rem 0.4rem',
-  borderRadius: '0.2rem',
-  background: 'rgba(59, 130, 246, 0.16)',
-  color: 'rgb(37, 99, 235)',
-  border: '1px solid rgba(59, 130, 246, 0.4)',
-  textTransform: 'uppercase',
-  verticalAlign: 'middle',
+const BADGES: Record<ChangeType, { label: string; style: React.CSSProperties }> = {
+  new: {
+    label: 'New',
+    style: {
+      ...BADGE_BASE,
+      background: 'rgba(34, 197, 94, 0.18)',
+      color: 'rgb(22, 163, 74)',
+      border: '1px solid rgba(34, 197, 94, 0.45)',
+    },
+  },
+  updated: {
+    label: 'Updated',
+    style: {
+      ...BADGE_BASE,
+      background: 'rgba(59, 130, 246, 0.16)',
+      color: 'rgb(37, 99, 235)',
+      border: '1px solid rgba(59, 130, 246, 0.4)',
+    },
+  },
+  removed: {
+    label: 'Removed',
+    style: {
+      ...BADGE_BASE,
+      background: 'rgba(239, 68, 68, 0.14)',
+      color: 'rgb(220, 38, 38)',
+      border: '1px solid rgba(239, 68, 68, 0.4)',
+    },
+  },
 };
 
-export default function RecentlyAdded({
-  limit = 7,
-  showSectionLabels = true,
-}: Props) {
+// One changelog row. Shared shape with the Changelog page so the home-page
+// widget is visually identical to the top of the full log. Removed pages and
+// historical events for pages that no longer exist render without a link.
+export function ChangeRow({ event }: { event: ChangeEvent }) {
+  const badge = BADGES[event.type];
+  const linkable = event.type !== 'removed' && event.routePath;
+  const titleNode = linkable ? (
+    <Link to={event.routePath}>
+      <strong>{event.title}</strong>
+    </Link>
+  ) : (
+    <strong
+      style={
+        event.type === 'removed'
+          ? { textDecoration: 'line-through', opacity: 0.7 }
+          : undefined
+      }
+    >
+      {event.title}
+    </strong>
+  );
+
+  return (
+    <li style={{ marginBottom: '0.5rem', lineHeight: 1.55 }}>
+      <span style={badge.style}>{badge.label}</span>{' '}
+      <code
+        style={{
+          fontSize: '0.85em',
+          opacity: 0.7,
+          padding: '0 0.25rem',
+          background: 'transparent',
+          border: 'none',
+        }}
+      >
+        {isoDay(event.date)}
+      </code>{' '}
+      <span style={{ opacity: 0.6, fontSize: '0.85em' }}>
+        ({sectionLabel(event.section)})
+      </span>{' '}
+      {titleNode}
+      {event.description && (
+        <>
+          :{' '}
+          <span style={{ opacity: 0.85 }}>
+            {renderDescription(event.description)}
+          </span>
+        </>
+      )}
+    </li>
+  );
+}
+
+export function useChangeEvents(): ChangeEvent[] {
   const globalData = useGlobalData() as
     | Record<string, Record<string, unknown>>
     | undefined;
   const data = globalData?.['creation-date-plugin']?.default as
     | CreationDatePluginContent
     | undefined;
+  return data?.changeEvents ?? [];
+}
 
-  const files = data?.recentFiles ?? [];
-  if (files.length === 0) {
+interface Props {
+  limit?: number;
+}
+
+export default function RecentlyAdded({ limit = 7 }: Props) {
+  const events = useChangeEvents();
+  if (events.length === 0) {
     return null;
   }
 
-  const top = files.slice(0, limit);
+  const top = events.slice(0, limit);
 
   return (
     <ul style={{ paddingLeft: '1.25rem', margin: 0 }}>
-      {top.map((f) => {
-        const fileIsNew = isNew(f);
-        return (
-          <li
-            key={f.docKey}
-            style={{ marginBottom: '0.5rem', lineHeight: 1.55 }}
-          >
-            <span style={fileIsNew ? NEW_BADGE_STYLE : UPDATED_BADGE_STYLE}>
-              {fileIsNew ? 'New' : 'Updated'}
-            </span>{' '}
-            <code
-              style={{
-                fontSize: '0.85em',
-                opacity: 0.7,
-                padding: '0 0.25rem',
-                background: 'transparent',
-                border: 'none',
-              }}
-            >
-              {isoDay(f.lastModifiedDate)}
-            </code>{' '}
-            {showSectionLabels && (
-              <span style={{ opacity: 0.6, fontSize: '0.85em' }}>
-                ({sectionLabel(f.section)})
-              </span>
-            )}{' '}
-            <Link to={f.routePath}>
-              <strong>{f.title}</strong>
-            </Link>
-            {f.description && (
-              <>
-                :{' '}
-                <span style={{ opacity: 0.85 }}>
-                  {renderDescription(f.description)}
-                </span>
-              </>
-            )}
-          </li>
-        );
-      })}
+      {top.map((e) => (
+        <ChangeRow key={e.id} event={e} />
+      ))}
     </ul>
   );
 }
