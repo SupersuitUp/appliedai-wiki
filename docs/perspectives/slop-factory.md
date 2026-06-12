@@ -64,6 +64,10 @@ Build the self-running business. Refuse to build the slop factory. The differenc
 
 ---
 
+## Supporting voices
+
+- **Vervaeke and Pageau (2026-06-01):** "Model collapse is happening. Every iteration opens the gap between probabilistic term correlation and genuine relevance judgment. It's like photographing a photocopy of a photograph." [→ field note](/note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense)
+
 ## Further Reading
 
 - [The Overconfidence Trap](/perspectives/the-overconfidence-trap): The operator-level failure mode that produces slop factories

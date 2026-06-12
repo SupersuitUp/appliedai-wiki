@@ -106,6 +106,10 @@ This is the same exit move named in [See Your Own Thinking](/concepts/see-your-o
 
 ---
 
+## Supporting voices
+
+- **Vervaeke and Pageau (2026-06-01):** "Peer-reviewed research shows measurable brain-connectivity degradation from chatbot use. Skill atrophy is real. Code written faster, but the ability to write it by hand is gone. This is the cognitive debt compounding." [→ field note](/note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense)
+
 ## Further Reading
 
 - [The Overconfidence Trap](/perspectives/the-overconfidence-trap): The companion frame from the operator-self-perception angle.
