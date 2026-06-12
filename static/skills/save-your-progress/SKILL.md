@@ -35,21 +35,35 @@ Without changing anything, build a picture of the session (scoped to the delta f
 
 ## Step 2 — Propose a checklist (the gate)
 
-Present a grouped, specific checklist of proposed changes. Only include items that actually apply to THIS workspace and session. Example shape:
+Use the `AskUserQuestion` tool with `multiSelect: true` to present proposed changes as native checkboxes — never plain markdown `[ ]` lists. Each question takes 2–4 options; if you have more than 4 items, split into multiple questions (max 4 questions total) grouped by theme.
 
+Typical grouping when there are many items:
+- **Q1 "Durable artifacts"** — work log, skill refinement, wiki/docs update, README update (up to 4)
+- **Q2 "Git + output"** — commit, resume-here note, report-back summary, memory/context update (up to 4)
+
+If there are ≤4 items total, use a single question. Only include items that actually apply to THIS workspace and session.
+
+Each option shape:
+- `label`: short noun phrase — "Work log entry", "Skill update", "SAVE-LOG.md", "Report-back summary"
+- `description`: one sentence — what file, what change, why it matters
+
+Example call:
 ```
-SAVE — proposed changes (confirm before I write):
-  [ ] Work log: append dated entry → <path>            (only if a work log exists)
-  [ ] Skill: refine <skill> / create <new-skill>       (capture: <the repeatable thing>)
-  [ ] Wiki/docs: update <page>                          (now stale because <reason>)
-  [ ] README / state docs: update <path>
-  [ ] Memory/context: update <file(s)>
-  [ ] Commit: "<proposed message>"
-  [ ] Resume-here note: <where> (open threads + next move)
-  [ ] Report-back summary: paste-ready account of what was done
+AskUserQuestion({
+  questions: [{
+    question: "Which of these should I write?",
+    header: "Save items",
+    multiSelect: true,
+    options: [
+      { label: "SAVE-LOG.md", description: "Create at repo root — SHA anchor for incremental saves" },
+      { label: "Session notes artifact", description: "AEP artifact capturing decisions + rationale from this session" },
+      { label: "Report-back summary", description: "Paste-ready account — safe to clear chat after" }
+    ]
+  }]
+})
 ```
 
-Then ask the user to approve all, edit, or deselect. If nothing durable applies, say so plainly rather than inventing work.
+The user's selections are the confirmed items. Apply only those. If nothing durable applies, say so plainly rather than inventing work.
 
 ## Step 3 — Apply only what was confirmed
 

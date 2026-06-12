@@ -6,8 +6,8 @@ description: A GENERATE.md recipe that scaffolds a complete Agentic Brand OS for
 
 # Generate an Agentic Brand OS
 
-<!-- last_updated: 2026-06-10 -->
-<!-- version: 0.7 -->
+<!-- last_updated: 2026-06-11 -->
+<!-- version: 0.8 -->
 
 **This page is canonical.** It is the always-current source of truth for the recipe. A local harness skill (`~/.agents/skills/generate-agentic-brand-os/`) is a thin pointer to this page; follow what is here. Pairs with the [brand.txt standard](/reference/standards/brand-txt) and [Agentic Brand OS](/concepts/agentic-brand-os).
 
