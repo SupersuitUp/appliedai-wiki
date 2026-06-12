@@ -70,3 +70,7 @@ The [AI Token Price Index](https://tokenpriceindex.com/) is the standing referen
 - [The Token Economy](/perspectives/the-token-economy): The atomic-unit treatment of what a token is and how token economics shape applied AI work.
 - [Jevons Paradox](/concepts/jevons-paradox): The flipside, where cheaper tokens expand total demand. Both forces operate on the index at once.
 - [Dr. Errol Brandt](/people-to-follow/dr-errol-brandt): The speaker who surfaced the index, and his field-note log on this wiki.
+
+## Supporting voices
+
+- **The PrimeTime (2026-06-12):** Flagged the incentive asymmetry underlying the "loop-everything" advice: labs give their own employees free and unlimited tokens, then tell practitioners to spend $10,000 a day on the same product. The person whose advice costs them nothing is not in the same position as the person who bears the actual cost. Reinforces the structural misalignment the Token Rug Pull names. [Field note](https://appliedai.wiki/note-sharers/the-primetime/2026-06-12-lying-to-you)
