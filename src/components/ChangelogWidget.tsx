@@ -172,7 +172,7 @@ interface Props {
   limit?: number;
 }
 
-export default function RecentlyAdded({ limit = 7 }: Props) {
+export default function ChangelogWidget({ limit = 7 }: Props) {
   const events = useChangeEvents();
   if (events.length === 0) {
     return null;

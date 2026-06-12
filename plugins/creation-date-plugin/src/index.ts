@@ -6,7 +6,7 @@ import { execSync } from 'child_process';
 // Every change to a doc is its own event, derived from git history:
 // a "new" event when the file is first added, an "updated" event for every
 // later commit that touches it, and a "removed" event when it is deleted.
-// Both the Changelog page and the RecentlyAdded home-page widget render this
+// Both the Changelog page and the ChangelogWidget home-page widget render this
 // same stream, so the widget is always exactly the top N of the changelog.
 type ChangeType = 'new' | 'updated' | 'removed';
 

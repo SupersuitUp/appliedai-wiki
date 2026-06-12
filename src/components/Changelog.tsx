@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChangeRow, useChangeEvents } from './RecentlyAdded';
+import { ChangeRow, useChangeEvents } from './ChangelogWidget';
 
 function monthHeading(d: Date): string {
   return d.toLocaleDateString('en-US', {
@@ -11,7 +11,7 @@ function monthHeading(d: Date): string {
 
 // The full event log. Every git change to a doc is a row (New / Updated /
 // Removed), grouped by the month it happened, newest first. The home-page
-// RecentlyAdded widget renders the same event stream, so it is exactly the
+// Changelog widget renders the same event stream, so it is exactly the
 // top N rows of this list.
 export default function Changelog() {
   const events = useChangeEvents();
