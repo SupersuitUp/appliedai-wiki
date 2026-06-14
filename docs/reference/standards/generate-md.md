@@ -273,7 +273,7 @@ What makes it a GENERATE rather than a SKILL:
 - Re-running with the same inputs would not edit the existing wiki; it would conflict or refuse.
 - Ongoing operations on the wiki (add a page, run a coherence check) are SKILLs, not GENERATEs.
 
-The sibling [Gamify Your Learning In Life](https://truthmanagement.wiki/playbooks/gamify-your-learning-in-life) playbook ships a paired GENERATE that specializes the wiki scaffold for the personal-truth-wiki use case (private repo, password gate, seed-the-first-five-posts, set the maintenance cadence). Two GENERATEs, one shared mechanics layer.
+The sibling [Seed a Personal Learning Wiki](https://truthmanagement.wiki/playbooks/gamify-your-learning-in-life) playbook ships a paired GENERATE that specializes the wiki scaffold for the personal-truth-wiki use case (private repo, password gate, seed-the-first-five-posts, set the maintenance cadence). Two GENERATEs, one shared mechanics layer.
 
 ## Version Note
 
