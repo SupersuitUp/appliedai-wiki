@@ -23,16 +23,27 @@ interface CreationDatePluginContent {
 // top-level folders under `docs/`. Operators forking this template
 // should update this when they add or rename top-level sections.
 const SECTION_LABELS: Record<string, string> = {
-  concepts: 'Concept',
-  guides: 'Guide',
-  'case-studies': 'Case Study',
+  faq: 'FAQ',
+  paos: 'PAOS',
+  'sop-execution-app': 'SOP',
 };
 
+function singularize(word: string): string {
+  if (word.endsWith('ies')) return word.slice(0, -3) + 'y';
+  if (word.endsWith('ss')) return word;
+  if (word.endsWith('s')) return word.slice(0, -1);
+  return word;
+}
+
+// Folder slug -> singular, human label. Acronyms live in SECTION_LABELS;
+// everything else is singularized and title-cased generically, so new
+// sections get a clean label automatically with no per-wiki upkeep.
 function sectionLabel(section: string): string {
-  return (
-    SECTION_LABELS[section] ||
-    section.charAt(0).toUpperCase() + section.slice(1)
-  );
+  if (SECTION_LABELS[section]) return SECTION_LABELS[section];
+  const words = section.split('-');
+  const last = words.length - 1;
+  words[last] = singularize(words[last]);
+  return words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 function isoDay(iso: string): string {
