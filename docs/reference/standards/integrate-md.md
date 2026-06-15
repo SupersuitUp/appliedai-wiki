@@ -10,7 +10,7 @@ description: "An agent-readable file format for wiring one system into another. 
 
 ---
 
-<!-- last_updated: 2026-05-06 -->
+{/* last_updated: 2026-05-06 */}
 
 INTEGRATE.md is a file format for teaching AI agents how to wire one system into another. The agent reads the file and executes the integration steps autonomously.
 
@@ -503,7 +503,7 @@ Key Flavor A move: parenthetical lists of patterns the agent should look for, no
 
 **Shared Spine (both flavors)**
 
-- Does the file start with `<!-- last_updated: YYYY-MM-DD -->`?
+- Does the file start with `{/* last_updated: YYYY-MM-DD */}`?
 - Does the H1 title state what's being built (Flavor A) or what skill is being installed (Flavor B)?
 - Does "What You're Building" / "What This Gives You" describe the end state in one paragraph?
 - Does verification include a concrete command and expected result?

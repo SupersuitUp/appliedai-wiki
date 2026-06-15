@@ -141,9 +141,9 @@ AI is the most powerful scaling tool ever created. That's exactly why you need t
 
 - [Workflow decomposition](/playbooks/workflow-decomposition). The discipline of drawing your business as a workflow before you automate any of it.
 
-<!-- TODO: restore links once these playbooks exist:
+{/* TODO: restore links once these playbooks exist:
   - /playbooks/business-owner-quick-check (Quick check: are you actually ready?)
   - /playbooks/situation-map (the honest assessment that precedes any automation)
   - /playbooks/beyond-automation (the bar to set once a workflow is battle-tested)
   - /playbooks/building-your-app (what to do when the build is the right move)
--->
+*/}

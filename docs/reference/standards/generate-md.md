@@ -10,8 +10,8 @@ description: "An agent-readable file format for one-time scaffolding recipes. Th
 
 ---
 
-<!-- last_updated: 2026-05-19 -->
-<!-- version: 0.1 -->
+{/* last_updated: 2026-05-19 */}
+{/* version: 0.1 */}
 
 GENERATE.md is a file format for teaching an AI agent how to scaffold a new artifact from inputs. The agent reads the file, conducts an interview, executes the scaffold steps, and verifies the result. Once the artifact exists, the GENERATE is done.
 

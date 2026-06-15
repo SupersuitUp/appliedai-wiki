@@ -10,8 +10,8 @@ description: "A single statically-served file that primes any agent to generate 
 
 ---
 
-<!-- last_updated: 2026-06-10 -->
-<!-- version: 0.8 -->
+{/* last_updated: 2026-06-10 */}
+{/* version: 0.8 */}
 
 `brand.txt` is to a brand what [`llms.txt`](https://llmstxt.org) is to a website: one flat, predictable, statically-served file that gives an agent everything it needs about the thing, in one fetch, with no crawling. Where `llms.txt` orients an LLM to a site's content, `brand.txt` primes a harness to *generate in a brand's voice and look*.
 

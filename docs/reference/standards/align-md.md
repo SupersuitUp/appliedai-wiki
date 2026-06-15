@@ -10,8 +10,8 @@ description: "An agent-readable file format for partnership alignment evaluation
 
 ---
 
-<!-- last_updated: 2026-04-05 -->
-<!-- version: 0.1 -->
+{/* last_updated: 2026-04-05 */}
+{/* version: 0.1 */}
 
 ALIGN.md is a file format for teaching AI agents how to evaluate alignment between organizations, people, or entities. Someone pastes your ALIGN.md into their agent and says "evaluate whether we should work together." The agent reads both parties' ALIGN.md files and returns an honest assessment.
 
