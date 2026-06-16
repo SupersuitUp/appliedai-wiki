@@ -44,7 +44,7 @@ This division collapses the cost of generating a coherent corpus. Prompts stay s
 
 Every GABR in a brand OS has:
 
-- **A file** in `static/brand/generation-layer/golden-atomic-brand-references/` — a PNG, named with a sequential number and descriptive slug: `gabr-01-style-anchor.png`, `gabr-07-russ.png`.
+- **A file** in `static/brand/generation-layer/golden-atomic-brand-references/`: a PNG, named with a sequential number and descriptive slug: `gabr-01-style-anchor.png`, `gabr-07-russ.png`. An authored GABR (see Generated and Authored GABRs below) also ships its source (`.svg` / `.html`) next to the rendered PNG so it stays editable.
 - **A prompt and alt text** stored alongside it in the brand OS repo — the prompt that generated it, stored so it can be reproduced or iterated.
 - **A registration entry** in `brand.json`'s `golden_atomic_brand_references.references` array — an object with:
   - `file`: the filename (`gabr-07-russ.png`)
@@ -61,6 +61,18 @@ GABRs fall into two categories:
 **Character GABRs** anchor a specific recurring protagonist. One GABR per character, ideally a full character sheet (multiple poses, gear callouts, facial detail). The routing rule is typically "pass whenever [character name] appears." The character is registered in `brand.json`'s `characters` object pointing to their GABR, so an agent knows who the default protagonist is and which reference to pass without having to reason about it.
 
 **Style and motif GABRs** anchor non-character visual elements: paper texture, a palette and line-weight reference, a recurring motif (hills, sun, geometric mark), a composition exemplar, a comic-style anchor. These typically have broader routing rules ("pass for every image generation request," "pass for any layout asset"). They carry the visual grammar that makes outputs look like the same brand even when no named character appears.
+
+## Generated and Authored GABRs
+
+Most GABRs are **generated** by an image model: photography, scenes, characters, textures, and plenty of diagrams and charts. Modern image models render type and even logos increasingly well, so generation is the default and covers most of what a brand needs. Everything above about references-beat-text applies here.
+
+Some GABRs are better **authored** in code (SVG, HTML, or JS). This is a supported GABR type, not a requirement, and a lower priority than getting the generated canon right. Reach for an authored GABR when you specifically want a reusable component that is exact and editable: precise design tokens and real fonts, guaranteed spelling, exact geometry and color, output that stays crisp at any size, and a version-controlled source you can re-render as the data changes. A templated stat block, a scorecard whose numbers update, a rail you restyle across decks: these are the natural fits.
+
+The choice is a judgment, not a rule. Generate by default. Author when a component needs to be exact and reused, and the cost of building it in code pays for itself across many renders. An authored GABR ships its source (`.svg` / `.html`) alongside the rendered `.png` so it stays editable.
+
+### Stamping the real mark
+
+When an asset needs the brand mark and it must be exact (a favicon, a precise lockup, a watermark that has to match), you can **stamp the real mark** (the actual logo PNG or SVG) into the asset in code rather than relying on the model to redraw it. The latest image models can render marks well, but stamping the real file guarantees fidelity where it matters. This is the same technique as stamping the real wordmark instead of letting the model set the text: an option to reach for when precision counts, not a blanket prohibition on generating the mark.
 
 ## Lifecycle
 
