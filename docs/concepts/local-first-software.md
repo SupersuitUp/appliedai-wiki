@@ -20,6 +20,12 @@ Local-first software runs on your own device and keeps its data there. You own t
 
 The idea has a few names worth knowing. Ink & Switch coined **local-first** for the technical posture: your data lives on your device, syncs across your own machines, and survives without a vendor. Robin Sloan's essay "An app can be a home-cooked meal" names the cultural cousin: **home-cooked software**, or software for one, made for yourself or your household with no intent to scale or sell. Adjacent terms include personal software, malleable software, and end-user programming.
 
+## A GUI over your own data
+
+This overlaps heavily with personal software, the broader idea of software made for one person or household. Personal software does not have to be local: it can use Firebase, deploy to Vercel, and lean on cloud services like anything else. The local-first kind is narrower. It is a thin wrapper over your own files, a user interface that makes it easier to navigate, update, and delete your local truth, with the files themselves as the source of record.
+
+Two things make this worth caring about. Your data sits in plain files you can version control, so your own truth gets the same history, diffing, and rollback that code does. And you get a graphical interface to edit that data instead of being stuck in the terminal. You are not limited to the harness and its text box. The harness can stand up a small local interface on demand, hand it to you in the browser, and let you click through your own data when clicking beats typing.
+
 ## Why it matters now
 
 This pattern was always possible and rarely worth it. Hand-building a custom interface to manage a few dozen records cost a day, so nobody did it for a one-off. Agentic AI collapses that cost from a day to minutes, which changes the economics: a tool per problem becomes affordable, and software for one finally pays off. No single app is the point. The win is that you can now afford an app per problem, fit exactly to the task, gone when the task is.
