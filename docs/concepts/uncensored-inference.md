@@ -8,7 +8,7 @@ description: "When a frontier chat assistant refuses a legitimate task, the fix 
 
 *When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability.*
 
-![Four-panel comic strip in bold neo-comic action-zine style on cream paper, crimson + cobalt + gold + arc-reactor cyan palette. Chunky inked title bar: WHEN THE AI SAYS WE CANT DO POLITICAL. Panel 1 THE REFUSAL: Midas the matte-navy-armored hyperagent leans back exasperated at his physical workstation, one armored hand raised, facing a floating holographic chat window where a grey assistant bubble reads WE CANT DO POLITICAL. Paper-tape caption: The task is legitimate. The refusal is a product decision. Panel 2 THE REFRAME: tight shot on Midas, cyan visor band glowing, a sticky note reading JAILBREAK struck through with a crimson X beside a glowing gold card: A REFUSAL IS A POLICY NOT A CAPABILITY. Caption: Dont fight the model. Pick one that already agrees. Panel 3 THE FOUR PATHS: Midas before a holographic decision board with four glowing labeled cards, SOVEREIGN with a lock and dollar signs, CHINESE MODELS with a downward price arrow, UNCENSORED OPEN with an open padlock, AGGREGATOR with a routing network icon, and coin / eye / brain axis icons along the bottom. Caption: Four paths. Choose on cost, privacy, capability. Panel 4 SHIPPED: Midas at his workstation, a cyan pipeline labeled AGGREGATOR then arrow then MODEL ending in a gold PUBLISHED COMMENTARY card, an inked MISSION INTACT stamp, and a cyan HUD card reading INPUTS PUBLIC OUTPUTS PUBLIC. Caption: Point an aggregator at a permissive model. The data was public anyway. Chunky inked footer bar: PICK THE MODEL THAT AGREES. SHIP THE WORK.](/img/comics/uncensored-inference.png)
+![Four-panel comic strip in bold neo-comic action-zine style on cream paper, crimson + cobalt + gold + arc-reactor cyan palette. Chunky inked title bar: WHEN THE AI SAYS WE CANT DO POLITICAL. Panel 1 THE REFUSAL: Midas the matte-navy-armored hyperagent leans back exasperated at his physical workstation, one armored hand raised, facing a floating holographic chat window where a grey assistant bubble reads WE CANT DO POLITICAL. Paper-tape caption: The task is legitimate. The refusal is a product decision. Panel 2 THE REFRAME: tight shot on Midas, cyan visor band glowing, a sticky note reading JAILBREAK struck through with a crimson X beside a glowing gold card: A REFUSAL IS A POLICY NOT A CAPABILITY. Caption: Dont fight the model. Pick one that already agrees. Panel 3 THE FOUR PATHS: Midas before a holographic decision board with four glowing labeled cards, SOVEREIGN with a lock and dollar signs, OPEN FRONTIER with a downward price arrow, UNCENSORED OPEN with an open padlock, AGGREGATOR with a routing network icon, and coin / eye / brain axis icons along the bottom. Caption: Four paths. Choose on cost, privacy, capability. Panel 4 SHIPPED: Midas at his workstation, a cyan pipeline labeled AGGREGATOR then arrow then MODEL ending in a gold PUBLISHED COMMENTARY card, an inked MISSION INTACT stamp, and a cyan HUD card reading INPUTS PUBLIC OUTPUTS PUBLIC. Caption: Point an aggregator at a permissive model. The data was public anyway. Chunky inked footer bar: PICK THE MODEL THAT AGREES. SHIP THE WORK.](/img/comics/uncensored-inference.png)
 
 ---
 
@@ -42,7 +42,7 @@ Most "I need an uncensored model" requests are entirely about the first. You wan
 | Option | Cost | Privacy | Customizable | Refuses less | Ops burden |
 |---|---|---|---|---|---|
 | Sovereign / self-hosted | High | Highest | Fully | Yes (you set policy) | High |
-| Chinese models (API) | Low | Low | Some | Yes, for Western-political tasks | None |
+| Open frontier models (API) | Low | Low | Some | Yes, much lighter refusal tuning | None |
 | Explicitly uncensored open models | Low to medium | Depends on host | Some | Yes (tuned for it) | Low to high |
 | Aggregator (OpenRouter, etc.) | Low | Low | Little | Depends on model chosen | None |
 
@@ -54,13 +54,13 @@ Run an open-weight model on infrastructure you control: your own GPUs, or dedica
 - **Cons.** Expensive and operationally heavy. You carry GPU cost, serving reliability, scaling, and the engineering to run it. Overkill for a use case whose inputs and outputs are already public.
 - **Choose it when** privacy or deep customization is the actual requirement, not just a nice-to-have. See [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) for what it really takes to stand this up.
 
-### Chinese models
+### Open frontier models
 
-DeepSeek, Qwen, Kimi, GLM and their peers are capable, cheap, and far less likely to refuse Western political content, sharp commentary, or article paraphrasing. They have their own censorship, tuned around topics sensitive to their own government, which is almost never the axis a US-political or general-commentary use case runs on.
+The open-weight frontier models, DeepSeek, Qwen, Kimi, GLM, Llama and their peers, are capable, cheap, and carry much lighter refusal tuning than a consumer assistant. They will take political voice, sharp commentary, and article paraphrasing without the reflexive "we can't do that." You reach them through a hosted API or run them yourself.
 
-- **Pros.** Strong capability per dollar, often an order of magnitude cheaper than closed flagships. Permissive on exactly the Western-political and editorial tasks consumer assistants refuse.
-- **Cons.** Their refusals and biases are real, just pointed elsewhere. Be aware of the [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): every model carries the slant of its training and tuning, and these carry a different one. Privacy depends on which API you hit and where it sits.
-- **Choose it when** you want frontier-adjacent capability cheaply and your task does not brush their sensitive topics.
+- **Pros.** Strong capability per dollar, often an order of magnitude cheaper than closed flagships. Permissive on exactly the editorial and political tasks consumer assistants refuse.
+- **Cons.** Every model still carries the slant of its training and tuning. Be aware of the [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): a permissive model is not a neutral one. Privacy depends on which API you hit and where it sits.
+- **Choose it when** you want frontier-adjacent capability cheaply and do not need refusals trained all the way to zero.
 
 ### Explicitly uncensored open models
 
@@ -72,7 +72,7 @@ Open-weight models specifically tuned to not refuse: the abliterated and "uncens
 
 ### Aggregator (OpenRouter and similar)
 
-A routing layer that gives you one API key and one bill across hundreds of models, including the Chinese and uncensored ones above. You pick the model per request and never touch infrastructure.
+A routing layer that gives you one API key and one bill across hundreds of models, including the open and uncensored ones above. You pick the model per request and never touch infrastructure.
 
 - **Pros.** Cheapest path to "just works." No ops, instant access to permissive models, trivial to swap models when one disappoints. This is the [Tradeoff Era](/perspectives/the-tradeoff-era) move: treat the model as a swappable dependency behind one interface.
 - **Cons.** Not private. Your prompts and outputs pass through the aggregator and the underlying provider. You are trusting two parties instead of zero.
@@ -82,11 +82,11 @@ A routing layer that gives you one API key and one bill across hundreds of model
 
 Work backward from the data. For the canonical version of this request, pulling public article excerpts and writing witty political commentary, **the inputs are already public and the outputs are meant to be published.** There is nothing private to protect. The moment that is true, the privacy advantage of sovereign inference buys you nothing, and its cost and ops burden are pure overhead.
 
-So the pragmatic default is: **point an aggregator at a Chinese or explicitly-uncensored model.** Cheap, permissive, no infrastructure, swap the model the day a better one lands. Reach for sovereign inference only when privacy or customization is a real requirement of the work, not a reflex. Decide on the data, not the vibe: if nothing sensitive flows through it, do not pay to keep nothing secret.
+So the pragmatic default is: **point an aggregator at a permissive open model.** Cheap, permissive, no infrastructure, swap the model the day a better one lands. Reach for sovereign inference only when privacy or customization is a real requirement of the work, not a reflex. Decide on the data, not the vibe: if nothing sensitive flows through it, do not pay to keep nothing secret.
 
 ## Further Reading
 
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure): what standing up your own inference actually demands before you reach for sovereign.
 - [The Tradeoff Era](/perspectives/the-tradeoff-era): why models are swappable dependencies, which is what makes the aggregator path safe.
-- [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling): why the cheap, permissive open and Chinese models exist and keep getting better.
+- [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling): why the cheap, permissive open models exist and keep getting better.
 - [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): every model carries a slant, including the uncensored ones. Know which one you are inheriting.
