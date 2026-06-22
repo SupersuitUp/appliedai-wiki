@@ -20,10 +20,6 @@ Local-first software runs on your own device and keeps its data there. You own t
 
 The idea has a few names worth knowing. Ink & Switch coined **local-first** for the technical posture: your data lives on your device, syncs across your own machines, and survives without a vendor. Robin Sloan's essay "An app can be a home-cooked meal" names the cultural cousin: **home-cooked software**, or software for one, made for yourself or your household with no intent to scale or sell. Adjacent terms include personal software, malleable software, and end-user programming.
 
-## Hyperlocal: the far end
-
-There is an extreme version worth naming separately. Local-first still assumes some ambition: data that syncs across devices, sometimes collaboration. The far end is a tool that runs on one machine, for one person, with no sync, no server, and no future. You build it, use it, and kill it. Call it **hyperlocal software**: maximally local, disposable, an extension of your own computer rather than a product. The word collides with the geographic sense of "hyperlocal" (neighborhood-level news and commerce), so treat it as a private coinage rather than a public label.
-
 ## Why it matters now
 
 This pattern was always possible and rarely worth it. Hand-building a custom interface to manage a few dozen records cost a day, so nobody did it for a one-off. Agentic AI collapses that cost from a day to minutes, which changes the economics: a tool per problem becomes affordable, and software for one finally pays off. No single app is the point. The win is that you can now afford an app per problem, fit exactly to the task, gone when the task is.
