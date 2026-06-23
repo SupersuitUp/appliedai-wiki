@@ -39,7 +39,7 @@ A deck moves left and right, one slide at a time, the way Google Slides and Powe
 - **Click the right half to advance, the left half to go back.** Cheap, obvious, works on touch.
 - **Arrow keys** (and Space for next) for keyboard.
 - **Dot indicators** at the bottom that show position and are themselves clickable.
-- Guard the click handler so it does not fire while the user is selecting text.
+- **Disable text selection on the deck** (`user-select: none`). Otherwise a click meant to advance the slide lands on a word and selects it instead of navigating, which feels broken. With selection off, a click on either half always moves the deck. Keep the genuinely interactive elements (links, the PDF button, the dot indicators) working by stopping click propagation on them, so they act without also flipping the slide.
 
 ## Own the screen: no site chrome
 
