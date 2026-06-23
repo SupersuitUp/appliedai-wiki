@@ -85,6 +85,7 @@ This is how the brand stays coherent as the agent roster grows. Every new agent 
 ## Further Reading
 
 - [Agentic Brand OS](/concepts/agentic-brand-os): the full package GABRs are the generation layer of.
+- [Golden Atomic Brand Templates](/concepts/golden-atomic-brand-templates): the coded twin, for assets whose text, numbers, or logo must be exact.
 - [brand.txt](/reference/standards/brand-txt): the served format that includes annotated GABR entries.
 - [Generate an Agentic Brand OS](/playbooks/generate-agentic-brand-os): the recipe that generates the full brand OS and its GABR canon.
 - [Golden Examples](/concepts/golden-examples): the curation discipline that produces GABR-quality outputs.
