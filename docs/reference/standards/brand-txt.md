@@ -86,7 +86,7 @@ Format: the brand.txt standard — https://www.appliedai.wiki/reference/standard
 1. Prepend the preamble (copy verbatim).
 2. Append the REFERENCE IMAGES block naming each GABR you pass.
 3. Describe the asset. Honor the banned terms.
-4. Stamp the real wordmark onto finished assets (don't let the model draw it).
+4. For a logo inside a generated image, pass the real logo as a reference and render it in place; for assets whose logo or text must be exact, build a coded GABT that embeds the real SVG.
 5. Use the color + type tokens for any code.
 
 ## Preamble (copy verbatim, prepend to every image generation request)
