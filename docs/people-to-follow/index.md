@@ -24,6 +24,7 @@ Each entry is one short page: a one-line who-they-are, two or three sentences on
 ## The people
 
 - **[Dr. Errol Brandt](/people-to-follow/dr-errol-brandt)** *(public-teaching source)*: founder of Kiraa.AI on the Gold Coast, Australia. Doctor of Business Administration, IBM Champion. Principal-facing source on AI unit economics and the structural arguments boards need to hear, including the AI Token Price Index and the case for a portable token stack.
+- **[Cory Doctorow](/people-to-follow/cory-doctorow)** *(public-teaching source)*: author, journalist, and technology-and-labor critic. Source on the deployment anti-pattern an implementer must refuse to build, the [reverse centaur](/concepts/reverse-centaur), and on why reverse-centaur strategies fail to return capital.
 - **[Daniel Priestley](/people-to-follow/daniel-priestley)** *(public-teaching source)*: founder of Dent Global and ScoreApp, author of *Key Person of Influence*. Principal-facing mentor whose framework on repricing post-AI work is required reading for any consultant advising entrepreneurs through the substitution frontier.
 - **[Satya Nadella](/people-to-follow/satya-nadella)** *(public-teaching source)*: chairman and CEO of Microsoft. Public-teaching source on what becomes valuable in the age of token abundance, including cognitive coverage and token intelligence as the human skills that compound alongside agents.
 
