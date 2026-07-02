@@ -49,6 +49,18 @@ This playbook does not apply if the goal is strategic positioning, brand, or org
 
 If those four are true, you can scope a pilot against this map. The pilot's "what we will solve" lands on a specific action or sub-action, not a vague function.
 
+## Choose the cheapest solution per step
+
+Classification tells you which steps to attack. It does not tell you how. Before building anything, run each "automate now" or "automate soon" step through a solution menu and pick the cheapest option that works:
+
+- **Nothing (legibility was the fix).** Writing the step down often reveals it was dumb, redundant, or a workaround for a problem you can delete outright. The best automation is a step you no longer perform. Check this first, on every step.
+- **An existing tool.** Search for a product that already does this, integrated and maintained. Reinventing it in an agent is a worse use of your time (the discipline in [Idolizing the Build](/perspectives/idolizing-the-build)).
+- **A skill file.** A reusable prompt-plus-instructions the agent runs on demand. The right answer for repeatable judgment work the model can already do with the right context.
+- **A custom app.** Worth it when the step recurs constantly, needs a clean interface for a non-technical operator, or wraps enough context that a skill file gets unwieldy.
+- **A developer.** Some steps are worth paying a human to build once, correctly, especially anything touching money, compliance, or brittle integrations.
+
+Let AI itself argue the tradeoffs. Give it the decomposed step and ask which option fits and why, including the option of not automating it at all. The output is not "use AI on everything." It is a per-step decision, and the honest answer is sometimes "this is not worth automating."
+
 ## Worked example: content production pipeline
 
 A media company's content workflow, fully decomposed and classified:
