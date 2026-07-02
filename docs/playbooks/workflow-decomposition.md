@@ -61,6 +61,8 @@ Classification tells you which steps to attack. It does not tell you how. Before
 
 Let AI itself argue the tradeoffs. Give it the decomposed step and ask which option fits and why, including the option of not automating it at all. The output is not "use AI on everything." It is a per-step decision, and the honest answer is sometimes "this is not worth automating."
 
+Once a workflow's steps are decomposed and classified, write the workflow up as a [Hyperdocumented SOP](/concepts/hyperdocumented-sop): the dual-readable map a human can follow and an agent can execute, and the durable artifact this playbook's output becomes.
+
 ## Worked example: content production pipeline
 
 A media company's content workflow, fully decomposed and classified:
