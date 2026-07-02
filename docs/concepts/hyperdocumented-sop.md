@@ -32,7 +32,7 @@ An HDSOP is not a skill. A skill is a packaged, auto-invocable unit of agent cap
 
 The HDSOP is the working unit of [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job). Run [Workflow decomposition](/playbooks/workflow-decomposition) to find the workflows and their automatable steps; write each workflow up as an HDSOP; then automate the repeatable stretches one at a time. The map is valuable even before any automation ships: it trains new people, survives the operator's absence, and makes the business legible to an acquirer.
 
-Scaled to a whole business, this becomes the **Hyper Documentation Protocol**: a version-controlled repository housing every critical workflow as an HDSOP, with a coverage map tracking how much of the business is documented and how much is automated. The canonical treatment, the documentation standard, and a forkable workspace template live on the truth-management wiki: [Hyper Documentation Protocol](https://truthmanagement.wiki/concepts/hyper-documentation-protocol) and [Documenting a Hyperdocumented SOP](https://truthmanagement.wiki/playbooks/documenting-a-hyperdocumented-sop).
+Scaled to a whole business, this becomes the **Hyperdocumentation Protocol**: a version-controlled repository housing every critical workflow as an HDSOP, with a coverage map tracking how much of the business is documented and how much is automated. The canonical treatment, the documentation standard, and a forkable workspace template live on the truth-management wiki: [Hyperdocumentation Protocol](https://truthmanagement.wiki/concepts/hyperdocumentation-protocol) and [Documenting a Hyperdocumented SOP](https://truthmanagement.wiki/playbooks/documenting-a-hyperdocumented-sop).
 
 ## Further Reading
 

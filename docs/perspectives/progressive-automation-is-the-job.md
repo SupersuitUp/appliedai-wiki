@@ -19,7 +19,7 @@ The exciting version of applied AI is the one on the timeline: a new model drops
 
 Treat each week as one more chance to take a proven workflow and make it run with less human attention than it took last week. **Progressive automation** is not a launch. It is a habit, and like every habit its power is in the repetition, not the intensity. The owner who automates one workflow a week for a year has transformed their business. The owner waiting for the perfect AI transformation project has not started.
 
-The habit needs a scoreboard. Keep a coverage map: every critical workflow on one board, each with a documentation status and an automation status. Progress is one row moving one notch, most weeks, and the board makes drift or momentum impossible to hide. The full practice, a version-controlled repository of workflow maps with the coverage map as its work manager, is the [Hyper Documentation Protocol](https://truthmanagement.wiki/concepts/hyper-documentation-protocol).
+The habit needs a scoreboard. Keep a coverage map: every critical workflow on one board, each with a documentation status and an automation status. Progress is one row moving one notch, most weeks, and the board makes drift or momentum impossible to hide. The full practice, a version-controlled repository of workflow maps with the coverage map as its work manager, is the [Hyperdocumentation Protocol](https://truthmanagement.wiki/concepts/hyperdocumentation-protocol).
 
 ## What you are actually buying
 
