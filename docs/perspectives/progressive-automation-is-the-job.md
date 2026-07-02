@@ -17,6 +17,8 @@ image: "/img/comics/progressive-automation-is-the-job.png"
 
 The exciting version of applied AI is the one on the timeline: a new model drops, a new tool trends, someone rebuilds something impressive over a weekend. The version that pays is the one nobody posts about. You get better and better at mapping your own business, and every week you automate a little more of it. There is no single heroic project. There is a cadence.
 
+To be precise about which "boring" is the virtue: the automation practice is boring, and that is praise; the manual drudgery it removes is boring, and that is the disease ([Stop Glorifying Your Pain Tolerance for Drudgery](/perspectives/stop-glorifying-pain-tolerance-for-drudgery)). You embrace the boring cadence exactly so the boring grind disappears.
+
 Treat each week as one more chance to take a proven workflow and make it run with less human attention than it took last week. **Progressive automation** is not a launch. It is a habit, and like every habit its power is in the repetition, not the intensity. The owner who automates one workflow a week for a year has transformed their business. The owner waiting for the perfect AI transformation project has not started.
 
 The habit needs a scoreboard. Keep a coverage map: every critical workflow on one board, each with a documentation status and an automation status. Progress is one row moving one notch, most weeks, and the board makes drift or momentum impossible to hide. The full practice, a version-controlled repository of workflow maps with the coverage map as its work manager, is the [Hyperdocumentation Protocol](https://truthmanagement.wiki/concepts/hyperdocumentation-protocol).
