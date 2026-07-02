@@ -8,6 +8,8 @@ description: "The highest-leverage AI work is boring. Week after week you map on
 
 *The highest-leverage AI work is boring. Week after week you map one more proven, money-making workflow and automate the parts that should be automated. You are not chasing a trend or building a toy. You are buying back human attention, which is sacred, one unglamorous increment at a time.*
 
+![Three-panel action-comic strip on warm cream paper, heavy black inks, matte-navy and vivid-orange power-armor palette with arc-reactor cyan and gold accents. Title bar in chunky inked caps: PROGRESSIVE AUTOMATION IS THE JOB. Panel 1, labeled "1. TOYS OR MONEY": the hyperagent in the bulky matte-navy Supersuit stands between two tables; left, a glittering pile of toy robots and rockets wired to a draining hourglass labeled ATTENTION; right, one plain inked scroll labeled PROVEN WORKFLOW beside stacked gold coins labeled REVENUE; his gauntleted hand rests decisively on the scroll; paper-tape caption: "Do you want to make money, or play with toys?" Panel 2, labeled "2. THE BORING WEEK": the hyperagent at a wall-sized board titled COVERAGE with rows of workflow names (LEAD INTAKE, ONBOARDING, SCHEDULING, REPORTING, FOLLOW-UP, BILLING, RENEWALS, SUPPORT TIER 1) and two status columns, DOCUMENTED and AUTOMATED; his gauntleted hand slides one chip one notch; calendar tags along the top read WK 12, WK 13, WK 14; paper-tape caption: "One row, one notch. The hyperagent does it again next week." Panel 3, labeled "3. WHAT HE BOUGHT BACK": first-person helmet-visor POV through the cyan visor band; HUD cards read ATTENTION RETURNED: 11 HRS/WK, a rising bar chart labeled COVERAGE across WK 1 to WK 16, and CUSTOMERS STILL HAPPY with a green check; below, two open gauntleted hands over a clean desk holding one gold-outlined card labeled THE WORK ONLY HE CAN DO; gold stamp READY; paper-tape caption: "Automation buys back the sacred thing: human attention." Footer bar in chunky inked caps: IT IS BORING ON PURPOSE. IT COMPOUNDS.](/img/comics/progressive-automation-is-the-job.png)
+
 ---
 
 ## The work is boring, and that is the point
@@ -15,6 +17,8 @@ description: "The highest-leverage AI work is boring. Week after week you map on
 The exciting version of applied AI is the one on the timeline: a new model drops, a new tool trends, someone rebuilds something impressive over a weekend. The version that pays is the one nobody posts about. You get better and better at mapping your own business, and every week you automate a little more of it. There is no single heroic project. There is a cadence.
 
 Treat each week as one more chance to take a proven workflow and make it run with less human attention than it took last week. **Progressive automation** is not a launch. It is a habit, and like every habit its power is in the repetition, not the intensity. The owner who automates one workflow a week for a year has transformed their business. The owner waiting for the perfect AI transformation project has not started.
+
+The habit needs a scoreboard. Keep a coverage map: every critical workflow on one board, each with a documentation status and an automation status. Progress is one row moving one notch, most weeks, and the board makes drift or momentum impossible to hide. The full practice, a version-controlled repository of workflow maps with the coverage map as its work manager, is the [Hyper Documentation Protocol](https://truthmanagement.wiki/concepts/hyper-documentation-protocol).
 
 ## What you are actually buying
 
