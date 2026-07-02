@@ -2,6 +2,7 @@
 title: "The Fumble-Then-Hire Curve"
 slug: /perspectives/the-fumble-then-hire-curve
 description: "People try to figure out AI alone on minimal spend, fumble for months, then hire a coach. The lag between starting solo and reaching out is the consultant's sales-timing signal."
+image: "/img/comics/the-fumble-then-hire-curve.png"
 ---
 
 # The Fumble-Then-Hire Curve

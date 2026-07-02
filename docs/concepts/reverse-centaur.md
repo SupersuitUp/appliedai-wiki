@@ -2,6 +2,7 @@
 title: "Reverse Centaur"
 slug: /concepts/reverse-centaur
 description: "An AI deployment that inverts the centaur: the human is subordinated to the machine, paced by it, deskilled by it, and left to absorb the blame when it fails. The failure mode applied AI adoption should be designed against."
+image: "/img/comics/reverse-centaur.png"
 ---
 
 # Reverse Centaur

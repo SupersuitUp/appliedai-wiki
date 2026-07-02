@@ -2,6 +2,7 @@
 title: "Build, Don't Buy Your Way In"
 slug: /perspectives/build-dont-buy-your-way-in
 description: "Buying a legacy services firm and bolting AI on top is a trap: you cannot acquire product-market fit, and legacy expectations on metrics, hiring, and performance do not change because you added AI. The one exception is a regulatory moat you need fast."
+image: "/img/comics/build-dont-buy-your-way-in.png"
 ---
 
 # Build, Don't Buy Your Way In

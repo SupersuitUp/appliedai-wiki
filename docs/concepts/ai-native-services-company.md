@@ -2,6 +2,7 @@
 title: "The AI-Native Services Company"
 slug: /concepts/ai-native-services-company
 description: "A services firm rebuilt from scratch so AI does most of the work and the company delivers the finished outcome instead of a copilot. The opposite of SaaS: you absorb the whole job and hand back the result. Trillion-dollar markets that did not exist two years ago."
+image: "/img/comics/ai-native-services-company.png"
 ---
 
 # The AI-Native Services Company

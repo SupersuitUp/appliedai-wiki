@@ -2,6 +2,7 @@
 title: "Gain Sharing"
 slug: /concepts/gain-sharing
 description: "Charging a share of the measurable gain you create, the savings you uncover or the upside you unlock, instead of a share of your time. The fee floats with the result."
+image: "/img/comics/gain-sharing.png"
 ---
 
 # Gain Sharing

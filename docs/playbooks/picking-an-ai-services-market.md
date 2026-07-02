@@ -2,6 +2,7 @@
 title: "Picking an AI-Services Market"
 slug: /playbooks/picking-an-ai-services-market
 description: "A four-trait filter for choosing the market to build an AI-native services company in: low trust, low judgment at the task level, a high intelligence threshold, and regulation as a moat. Plus two checks: the Sam Altman test and the no-physical-ops rule."
+image: "/img/comics/picking-an-ai-services-market.png"
 ---
 
 # Picking an AI-Services Market

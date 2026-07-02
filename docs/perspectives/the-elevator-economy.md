@@ -2,6 +2,7 @@
 title: The Elevator Economy
 slug: /perspectives/the-elevator-economy
 description: Some people and companies are going up. Everyone else is going down. There is no standing still. The foundational economic observation of the AI era.
+image: "/img/comics/the-elevator-economy.png"
 ---
 
 # The Elevator Economy

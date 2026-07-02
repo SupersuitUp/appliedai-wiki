@@ -2,6 +2,7 @@
 title: "Skill Files"
 slug: /concepts/skill-files
 description: "On-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. Episodic, parametric, called. The library of procedures the agent runs on your behalf."
+image: "/img/comics/skill-files.png"
 ---
 
 # Skill Files

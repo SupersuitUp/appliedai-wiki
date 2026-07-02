@@ -2,6 +2,7 @@
 title: "Seat Wrapper"
 slug: /concepts/seat-wrapper
 description: "A purpose-built AI system scoped to one seat, encoding that role's repeatable processes so the person spends their hours in their comparative human edge. The good kind of wrapper: narrow, specific, built on the primitive."
+image: "/img/comics/seat-wrapper.png"
 ---
 
 # Seat Wrapper

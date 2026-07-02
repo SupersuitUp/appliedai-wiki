@@ -2,6 +2,7 @@
 title: The Chatbot Trap
 slug: /perspectives/the-chatbot-trap
 description: Most people formed their model of AI from free-tier ChatGPT and viral failure clips. Until you have felt your AI do real creative work, you cannot reason accurately about what is now possible.
+image: "/img/comics/the-chatbot-trap.png"
 ---
 
 # The Chatbot Trap

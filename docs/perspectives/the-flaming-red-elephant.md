@@ -2,6 +2,7 @@
 title: The Flaming Red Elephant in the Room
 slug: /perspectives/the-flaming-red-elephant
 description: The obvious political reality that AI discourse keeps refusing to name. Red for the revolutionary spirit rising in a generation locked out of the economy. Flaming for the firebombs already being thrown at AI executives and data centers. Elephant because the cause is obvious and nobody at the top of the industry wants to look at it.
+image: "/img/comics/the-flaming-red-elephant.png"
 ---
 
 # The Flaming Red Elephant in the Room

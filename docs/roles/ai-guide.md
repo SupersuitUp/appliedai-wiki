@@ -2,6 +2,7 @@
 title: "The AI Guide"
 slug: /roles/ai-guide
 description: "The trusted person people go to when they want to know what to do about AI. Advisory at large scale, to anyone. The load-bearing pillar of the AI economy, because trust is the real bottleneck."
+image: "/img/comics/ai-guide.png"
 ---
 
 # The AI Guide

@@ -2,6 +2,7 @@
 title: Disciplines
 slug: /disciplines
 description: "The craft pillars. One page per discipline as the stable home for the highest-leverage picks."
+image: "/img/comics/disciplines.png"
 ---
 
 # Disciplines

@@ -2,6 +2,7 @@
 title: Playbooks
 slug: /playbooks
 description: "Opinionated, step-by-step procedures for the high-leverage moves of an implementation engagement."
+image: "/img/comics/playbooks.png"
 ---
 
 # Playbooks

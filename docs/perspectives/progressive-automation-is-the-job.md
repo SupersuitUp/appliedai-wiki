@@ -2,6 +2,7 @@
 title: Progressive Automation Is the Job
 slug: /perspectives/progressive-automation-is-the-job
 description: "The highest-leverage AI work is boring. Week after week you map one more proven, money-making workflow and automate the parts that should be automated. You are not chasing a trend or building a toy. You are buying back human attention, which is sacred, one unglamorous increment at a time."
+image: "/img/comics/progressive-automation-is-the-job.png"
 ---
 
 # Progressive Automation Is the Job

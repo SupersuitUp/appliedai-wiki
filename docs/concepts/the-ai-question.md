@@ -2,6 +2,7 @@
 title: "The AI Question"
 slug: /concepts/the-ai-question
 description: "The single question every leader is actually asking about AI right now: how can I use it to become more successful? Meet them there, or every high-ticket engagement is out of order."
+image: "/img/comics/the-ai-question.png"
 ---
 
 # The AI Question

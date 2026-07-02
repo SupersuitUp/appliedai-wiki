@@ -2,6 +2,7 @@
 title: Generate an Agentic Brand OS
 slug: /playbooks/generate-agentic-brand-os
 description: A GENERATE.md recipe that scaffolds a complete Agentic Brand OS for one brand. Run the brand interview to lock identity, then emit the machine-consumable package (logo matrix, tokens, motifs, templates, generation layer, manifest) as a dedicated repo, optionally rendered and deployed. One-time generation per brand.
+image: "/img/comics/generate-a-brand-os.png"
 ---
 
 # Generate an Agentic Brand OS

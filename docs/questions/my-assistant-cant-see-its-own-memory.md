@@ -2,6 +2,7 @@
 title: "My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?"
 slug: /questions/my-assistant-cant-see-its-own-memory
 description: "The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer."
+image: "/img/comics/my-assistant-cant-see-its-own-memory.png"
 ---
 
 # My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?

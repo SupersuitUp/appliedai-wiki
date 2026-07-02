@@ -2,6 +2,7 @@
 title: "Case Study: High-Volume Content Studio"
 slug: /disciplines/sop-execution-app/case-studies/high-volume-content-studio
 description: "A content team at a multi-brand media operation moved their production mechanics into a SOP Execution App and shifted the team's hours from execution to editorial judgment."
+image: "/img/comics/high-volume-content-studio.png"
 ---
 
 # Case Study: High-Volume Content Studio

@@ -2,6 +2,7 @@
 title: "Agents Read READMEs"
 slug: /perspectives/agents-read-readmes
 description: "Keep agent rule files thin and push the substance into a genuinely good README the rule file points at. Agents read READMEs the way capable developers do."
+image: "/img/comics/agents-read-readmes.png"
 ---
 
 # Agents Read READMEs

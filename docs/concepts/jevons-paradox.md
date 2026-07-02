@@ -2,6 +2,7 @@
 title: Jevons Paradox
 slug: /concepts/jevons-paradox
 description: When a resource becomes more efficient to use, total consumption tends to rise. AI does not shrink the workforce. It expands what is worth doing.
+image: "/img/comics/jevons-paradox.png"
 ---
 
 # Jevons Paradox

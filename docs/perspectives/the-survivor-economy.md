@@ -2,6 +2,7 @@
 title: The Survivor Economy
 slug: /perspectives/the-survivor-economy
 description: A quiet sorting is underway inside every company. People who can harness AI are becoming dramatically more valuable. Those who cannot are becoming redundant in real time.
+image: "/img/comics/the-survivor-economy.png"
 ---
 
 # The Survivor Economy

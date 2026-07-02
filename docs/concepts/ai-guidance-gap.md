@@ -2,6 +2,7 @@
 title: "The AI Guidance Gap"
 slug: /concepts/ai-guidance-gap
 description: "The structural gap between how fast AI capability ships and how slowly the human trust, judgment, and capability needed to deploy it actually form. The gap caps adoption, and it is the opportunity."
+image: "/img/comics/ai-guidance-gap.png"
 ---
 
 # The AI Guidance Gap

@@ -2,6 +2,7 @@
 title: "Cognitive Coverage"
 slug: /concepts/cognitive-coverage
 description: "Like test coverage measures how much of your code is exercised by tests, cognitive coverage measures how much of an agent's work you actually understand. Verify understanding, do not just accept output."
+image: "/img/comics/cognitive-coverage.png"
 ---
 
 # Cognitive Coverage

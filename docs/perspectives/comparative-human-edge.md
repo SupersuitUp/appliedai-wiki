@@ -2,6 +2,7 @@
 title: "Comparative Human Edge"
 slug: /perspectives/comparative-human-edge
 description: "The capacities where a human stays decisively better than AI and where that advantage is load-bearing for a specific seat. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate."
+image: "/img/comics/comparative-human-edge.png"
 ---
 
 # Comparative Human Edge

@@ -2,6 +2,7 @@
 title: "AI Operating Leverage"
 slug: /concepts/ai-operating-leverage
 description: "The P&L bet of an AI-native services company: the more the product is built, the lower the cost of goods sold and the better the gross margin. It is what pulls a services firm from a ~30% margin ceiling toward software-like 50%+ on a market two to three times bigger than software."
+image: "/img/comics/ai-operating-leverage.png"
 ---
 
 # AI Operating Leverage

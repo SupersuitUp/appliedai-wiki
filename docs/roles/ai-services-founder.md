@@ -2,6 +2,7 @@
 title: "The AI-Services Founder"
 slug: /roles/ai-services-founder
 description: "The founder profile for an AI-native services company: domain fluency, model fluency, and operational rigor. The unglamorous third trait is the differentiator, because the product is an operation."
+image: "/img/comics/ai-services-founder.png"
 ---
 
 # The AI-Services Founder

@@ -2,6 +2,7 @@
 title: Stop Glorifying Your Pain Tolerance for Drudgery
 slug: /perspectives/stop-glorifying-pain-tolerance-for-drudgery
 description: "Enduring brute-force drudgery is a cost you stopped questioning, not a virtue. Redesign the workflow so you stay in flow at the highest impact, and hire the drudgery away, for yourself and for your clients."
+image: "/img/comics/stop-glorifying-pain-tolerance-for-drudgery.png"
 ---
 
 # Stop Glorifying Your Pain Tolerance for Drudgery

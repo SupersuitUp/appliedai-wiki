@@ -2,6 +2,7 @@
 title: "Transformation as Surgery"
 slug: /concepts/transformation-as-surgery
 description: "An AI transformation is invasive, expensive, and often irreversible, like surgery. The guide who profits from recommending it carries a conflict of interest, so the honest one qualifies hard before cutting."
+image: "/img/comics/transformation-as-surgery.png"
 ---
 
 # Transformation as Surgery

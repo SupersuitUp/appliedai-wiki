@@ -2,6 +2,7 @@
 title: "Agentic Brand OS"
 slug: /concepts/agentic-brand-os
 description: "An Agentic Brand OS is the full machine-consumable package of a brand: every logo conversion, color and type tokens as code, a motif and template library, a generation layer (preamble, Golden Atomic Brand References, example prompts, banned terms) for what gets rendered, and coded Golden Atomic Brand Templates for what must be exact, so an agent produces new sites, decks, and assets that all land in the same brand universe."
+image: "/img/comics/agentic-brand-os.png"
 ---
 
 # Agentic Brand OS

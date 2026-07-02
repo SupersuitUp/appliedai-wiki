@@ -3,6 +3,7 @@ title: What it is
 slug: /disciplines/sop-execution-app/what-it-is
 sidebar_position: 1
 description: "A custom web app that exposes a hyperagent's battle-tested digital SOPs as form-driven pages, one tab per SOP. A deployment artifact downstream of the Supersuit, not a replacement for it."
+image: "/img/comics/sop-execution-app.png"
 ---
 
 # What it is

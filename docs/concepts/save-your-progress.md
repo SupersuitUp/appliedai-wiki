@@ -2,6 +2,7 @@
 title: "Save Your Progress"
 slug: /concepts/save-your-progress
 description: "The deliberate act of routing a work session's hard-won value — decisions, rationale, and newly-earned tribal knowledge — into durable homes (work logs, skill files, wiki pages, memory, commits) before the chat clears or the context window fills. The save mechanic for the playable harness experience: a reviewed sweep, never autopilot."
+image: "/img/comics/save-your-progress.png"
 ---
 
 # Save Your Progress

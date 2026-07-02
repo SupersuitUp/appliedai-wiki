@@ -1,6 +1,7 @@
 ---
 title: Workshop → Blueprint → Project → Partnership Engagement Ladder
 description: "The four-step engagement structure that takes AI consulting contracts from $5k to $1M+. Each step is a fixed-price offer. Each step builds trust before the next step gets pitched. Custom AI Studio's operating model."
+image: "/img/comics/workshop-blueprint-project-partnership-ladder.png"
 ---
 
 # Workshop → Blueprint → Project → Partnership Engagement Ladder

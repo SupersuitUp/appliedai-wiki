@@ -3,6 +3,7 @@ title: "What is Applied AI"
 slug: /start-here/what-is-applied-ai
 sidebar_position: 2
 description: "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+image: "/img/comics/what-is-applied-ai.png"
 ---
 
 # What is Applied AI

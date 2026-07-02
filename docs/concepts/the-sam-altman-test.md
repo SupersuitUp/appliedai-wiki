@@ -2,6 +2,7 @@
 title: "The Sam Altman Test"
 slug: /concepts/the-sam-altman-test
 description: "A one-line diagnostic for model risk: as the models get better, does your service get stronger, or does the model itself commoditize you? Build only where capability jumps are tailwinds."
+image: "/img/comics/the-sam-altman-test.png"
 ---
 
 # The Sam Altman Test

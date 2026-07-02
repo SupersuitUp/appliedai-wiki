@@ -2,6 +2,7 @@
 title: "The Early Demand Trap"
 slug: /perspectives/the-early-demand-trap
 description: "Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful."
+image: "/img/comics/the-early-demand-trap.png"
 ---
 
 # The Early Demand Trap

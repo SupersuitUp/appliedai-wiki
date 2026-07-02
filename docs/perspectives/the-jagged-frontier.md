@@ -2,6 +2,7 @@
 title: "The Jagged Frontier"
 slug: /perspectives/the-jagged-frontier
 description: "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
+image: "/img/comics/the-jagged-frontier.png"
 ---
 
 # The Jagged Frontier

@@ -2,6 +2,7 @@
 title: "The Magnificent Crash Is Coming"
 slug: /perspectives/the-magnificent-crash-is-coming
 description: "A large market correction is coming because there is far more AI technology than there is guidance to deploy it. The valuations assume a transformation that trust, which forms slowly, cannot deliver on the implied schedule."
+image: "/img/comics/the-magnificent-crash-is-coming.png"
 ---
 
 # The Magnificent Crash Is Coming

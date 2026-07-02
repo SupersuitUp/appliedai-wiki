@@ -1,6 +1,7 @@
 ---
 title: Convert Business Logic to AI System
 description: "The meta-pattern underneath almost every AI consulting engagement. Take the logic of the business, whether it's been written down or not, and convert it into an AI system. Naming the pattern changes how you scope, sell, price, and execute."
+image: "/img/comics/convert-business-logic-to-ai-system.png"
 ---
 
 # Convert Business Logic to AI System

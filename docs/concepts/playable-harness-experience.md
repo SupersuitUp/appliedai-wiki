@@ -2,6 +2,7 @@
 title: "Playable Harness Experience"
 slug: /concepts/playable-harness-experience
 description: "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+image: "/img/comics/playable-harness-experience.png"
 ---
 
 # Playable Harness Experience

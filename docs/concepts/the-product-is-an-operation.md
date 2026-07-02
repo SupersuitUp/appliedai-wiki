@@ -2,6 +2,7 @@
 title: "The Product Is an Operation"
 slug: /concepts/the-product-is-an-operation
 description: "In AI services the human is the interface to the customer and the software exists to let that human scale nonlinearly. So you build with an operations mindset: find the bottleneck, build for the bottleneck, and track throughput and cycle time like DAU."
+image: "/img/comics/the-product-is-an-operation.png"
 ---
 
 # The Product Is an Operation

@@ -2,6 +2,7 @@
 title: "Golden Examples"
 slug: /concepts/golden-examples
 description: "The A+ outputs you preserve in your library so they can ride as in-context references on every new generation. The asset class of AI-native workflows. Mediocre stuff compounds the same way A+ stuff does."
+image: "/img/comics/golden-examples.png"
 ---
 
 # Golden Examples

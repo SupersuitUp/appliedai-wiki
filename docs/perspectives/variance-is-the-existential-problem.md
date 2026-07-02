@@ -2,6 +2,7 @@
 title: "Variance Is the Existential Problem"
 slug: /perspectives/variance-is-the-existential-problem
 description: "Customers fire an AI-services company for inconsistent output faster than for being slower or more expensive than the incumbent. Consistency is what they are buying. Output variance, not speed or price, is the churn driver."
+image: "/img/comics/variance-is-the-existential-problem.png"
 ---
 
 # Variance Is the Existential Problem

@@ -2,6 +2,7 @@
 title: "The Transformation Arc"
 slug: /perspectives/the-transformation-arc
 description: "The common process the best AI transformation engagements converge on. Refuse the one-tool instinct, lead with a ROI-ranked strategy blueprint, ship quick wins that pay back fast, then sequence the rollout so each solution compounds the last. Derived from a library of mid-market case studies."
+image: "/img/comics/the-transformation-arc.png"
 ---
 
 # The Transformation Arc

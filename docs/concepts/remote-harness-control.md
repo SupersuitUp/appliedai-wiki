@@ -2,6 +2,7 @@
 title: "Remote Harness Control"
 slug: /concepts/remote-harness-control
 description: "Steering your agentic harness from your phone, so heavy work on your real files keeps moving while you are away from the desk."
+image: "/img/comics/remote-harness-control.png"
 ---
 
 # Remote Harness Control

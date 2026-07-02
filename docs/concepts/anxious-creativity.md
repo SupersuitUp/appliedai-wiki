@@ -2,6 +2,7 @@
 title: Anxious Creativity
 slug: /concepts/anxious-creativity
 description: "The compulsion to be doing something with AI without knowing what. It reads as creativity and feels like progress, but it is anxiety: a fear of falling behind that pulls you off the proven work you already do well into an endless churn of new tools and half-built experiments."
+image: "/img/comics/anxious-creativity.png"
 ---
 
 # Anxious Creativity

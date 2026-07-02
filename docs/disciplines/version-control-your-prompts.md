@@ -2,6 +2,7 @@
 title: "Version-Control Your Prompts"
 slug: /disciplines/version-control-your-prompts
 description: "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
+image: "/img/comics/version-control-your-prompts.png"
 ---
 
 # Version-Control Your Prompts

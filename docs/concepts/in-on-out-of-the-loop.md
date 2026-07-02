@@ -2,6 +2,7 @@
 title: "In, On, and Out of the Loop"
 slug: /concepts/in-on-out-of-the-loop
 description: "Three positions a human can hold relative to an automated workflow: in the loop (the human is the gate), on the loop (the human supervises), out of the loop (fully automated, no human trigger). Good practice graduates each workflow down the loop as capability advances."
+image: "/img/comics/in-on-out-of-the-loop.png"
 ---
 
 # In, On, and Out of the Loop

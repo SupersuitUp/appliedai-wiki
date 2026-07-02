@@ -1,6 +1,7 @@
 ---
 title: The AI Tech Partnership Revenue Model
 description: "Budget plus a percentage of top-line revenue. Borrowed from the growth-marketing partner model and adapted for AI consulting. Aligns incentives, captures the value AI labor replacement actually produces, and re-rates the consulting firm's revenue quality."
+image: "/img/comics/ai-tech-partnership-revenue-model.png"
 ---
 
 # The AI Tech Partnership Revenue Model
