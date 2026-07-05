@@ -2,11 +2,14 @@
 title: "The Cheaper Code Gets, the Simpler You Should Build"
 slug: /perspectives/the-cheaper-code-gets-the-simpler-you-should-build
 description: "When producing code costs almost nothing, the friction that used to enforce simplicity is gone. Restraint is now something you supply on purpose. Build the simplest thing that works, and stop."
+image: "/img/comics/the-cheaper-code-gets-the-simpler-you-should-build.png"
 ---
 
 # The Cheaper Code Gets, the Simpler You Should Build
 
 *Cheap production removed the friction that used to keep systems simple. Complexity now costs almost nothing to add and everything to own, so the discipline has to come from you. Build the simplest thing that works, and stop.*
+
+![Three-panel action-comic strip on warm cream paper with heavy black inks in a matte-navy and orange palette. Title bar: "JUST MAKE IT FUNCTIONAL". Panel 1, "1. THE PLEASURE TRAP": Midas the hyperagent in a bulky matte-navy Supersuit with orange seams and cyan visor and wrist glow gleefully welds a towering over-engineered machine of redundant modules and gold gears while a gauge reads "TOKENS BURNED" pinned high; caption: "Producing feels like progress. So you keep producing." Panel 2, "2. THE REQUIREMENT WAS ONE LINE": the giant baroque machine dwarfs a small sign reading "SHIP THE ONE THING" while Midas pauses with one hand to his helmet; caption: "The problem never asked for any of this." Panel 3, "3. BUILD THE BORING VERSION": Midas stands calm as the dismantled machine fades to grey behind him and a cyan beam from his wrist points at one small clean unit stamped "READY"; caption: "The simplest thing that works. Then put the tool down." Footer bar: "EVERY PART YOU ADD IS A PART YOU OWN."](/img/comics/the-cheaper-code-gets-the-simpler-you-should-build.png)
 
 ---
 
