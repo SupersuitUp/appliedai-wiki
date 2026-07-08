@@ -2,11 +2,14 @@
 title: "Boomerang Prompt"
 slug: /concepts/boomerang-prompt
 description: "A prompt you hand another person so an AI interviews them on their own time, then returns their story to you as build-ready material for a bespoke artifact."
+image: "/img/comics/boomerang-prompt.png"
 ---
 
 # Boomerang Prompt
 
 *A prompt you hand another person so an AI interviews them on their own time, then comes back to you loaded with everything you need to build them something.*
+
+![Three-panel cream-paper comic strip. Chunky inked title bar: THE BOOMERANG PROMPT. Panel 1, label "1. THROW IT OUT": a hyperagent in bulky matte-navy plate armor with orange seams and a cyan visor throws a glowing rolled scroll marked "TAILORED PROMPT" across a warm lamplit room; an inked stamp reads "HYPERCONTEXT LOADED". Paper-tape caption: "You hand a friend one tailored prompt." Panel 2, label "2. IT DRAWS THEM OUT": a different flesh person, a young woman with curly dark hair in a yellow hoodie, sits on a couch talking into her phone; her spoken words stream out as a golden ribbon of interview beats (HOW IT STARTED, THE CHALLENGES, WHAT FINALLY CLICKED, LESSONS LEARNED, ADVICE FOR OTHERS, THE NEXT CHAPTER) with a small cyan question-mark bubble at the phone. Paper-tape caption: "An AI interviews them by voice, one question at a time." Panel 3, label "3. IT COMES BACK FULL": the scroll boomerangs back into the hyperagent's gauntlet and unfurls into a finished glowing one-page narrated website titled "MY STORY. MY PATH." with labeled sections; an inked stamp reads "READY". Paper-tape caption: "It returns loaded. You build the thing." Footer bar: GATHERING IS THEIRS. BUILDING IS YOURS.](/img/comics/boomerang-prompt.png)
 
 ---
 
