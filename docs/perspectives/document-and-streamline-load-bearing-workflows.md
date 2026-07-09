@@ -2,11 +2,14 @@
 title: "The Default AI Move Is to Document and Streamline Load-Bearing Workflows"
 slug: /perspectives/document-and-streamline-load-bearing-workflows
 description: "Whatever else you do with AI, the no-regret baseline every business owes itself is to document its load-bearing workflows and streamline them. It is the floor, not the ceiling. Every fancier bet sits on top of a mapped operation or it sits on sand."
+image: "/img/comics/document-and-streamline-load-bearing-workflows.png"
 ---
 
 # The Default AI Move Is to Document and Streamline Load-Bearing Workflows
 
 *Whatever else a business does with AI, the default, no-regret move is to document its load-bearing workflows and streamline them. This is the floor, not the ceiling. Build the chatbot, chase the product, run the data play if you must, but do this first, because every fancier bet sits on top of a mapped operation or it sits on sand.*
+
+![Three-panel action-comic strip on warm cream paper, matte-navy power-armor palette with vivid orange seams and arc-reactor cyan and gold accents. Title bar: THE DEFAULT MOVE. Panel 1, THE SHINY DISTRACTION: the hyperagent in a bulky matte-navy Supersuit stands in an office, pulled toward glittering floating AI toys, a glowing CHATBOT robot and a small rocket, while a low grey fog hides a row of plain unlabeled workflow boxes he is ignoring. Caption: 'The wrong first question: which shiny thing do we build?' Panel 2, MAP THE LOAD-BEARING WORK: the hyperagent at a whiteboard drawing clean vertical flowcharts of a few workflows joined by downward arrows, the fog replaced by a crisp inventory, labeled boxes reading LEAD INTAKE, BILLING, WORKFLOW, ONBOARDING. Caption: 'Document the load-bearing workflows. Then streamline them.' Panel 3, FLOOR, NOT CEILING: on solid bedrock stamped DOCUMENTED and STREAMLINED a tall building stands stable with a gold READY check, while beside it an identical building tilts and cracks as it sinks into loose sand. Caption: 'It sits on a mapped operation, or it sits on sand.' Footer bar: DOCUMENT AND STREAMLINE FIRST.](/img/comics/document-and-streamline-load-bearing-workflows.png)
 
 ---
 
@@ -31,6 +34,8 @@ The move earns "default" status because it is a no-regret bet under every future
 There is a fifth benefit that shows up later: a business whose load-bearing processes live in documents instead of one person's head is transferable, and a transferable business is worth more.
 
 ## What "document and streamline" actually means
+
+![Two-panel comic diptych on warm cream paper, matte-navy power-armor palette with orange seams and cyan and gold accents. Top banner: DOCUMENT, THEN STREAMLINE. Left panel, DOCUMENT: the hyperagent in the matte-navy Supersuit writes one workflow on a whiteboard as a single vertical flowchart, a column of boxes joined by downward arrows, the machine-executable steps glowing cyan and labeled AGENT and the judgment steps orange and labeled HUMAN, with a header reading HDSOP. Caption: 'Write it so a human can follow it and an agent can run it.' Right panel, STREAMLINE: the same flowchart, but the cyan AGENT boxes glow bright and float upward as soft cyan software-light carrying that work away while the hyperagent rests both gauntleted hands on the two remaining orange HUMAN boxes, with a small gold badge reading HOURS RETURNED. Caption: 'Hand the agent steps to the machine. Keep the judgment.' Footer banner: THE MAP FIRST, THEN THE MACHINE.](/img/comics/document-then-streamline.png)
 
 The two verbs are a sequence, and each has a canonical home in the craft.
 
