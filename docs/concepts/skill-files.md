@@ -96,6 +96,7 @@ This is [context engineering](/disciplines/context-engineering) at the workflow 
 - [Memory Files](/concepts/memory-files): the third sibling. Why the discipline of updating a skill matters more than letting auto-memory paper over a skill that misbehaved.
 - [Digital SOPs](https://supersuit.wiki/concepts/digital-sops): the hyperagent-register name for the same primitive.
 - [Fat Skills](/concepts/fat-skills): what a skill file looks like when it is dense with encoded judgment.
+- [Hyperlocal Skills](/concepts/hyperlocal-skills): where a skill file should live. In the repo it operates on, with a global pointer.
 - [Skill File First, App Second](/concepts/skill-file-first-app-second): the product ordering this paradigm enables.
 - [Harness Engineering](/disciplines/harness-engineering): skill files are the user-configurable workflow layer of the harness.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): how Claude Code discovers, loads, and follows skill files.
