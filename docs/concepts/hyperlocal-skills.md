@@ -2,11 +2,14 @@
 title: "Hyperlocal Skills"
 slug: /concepts/hyperlocal-skills
 description: "A file-organization pattern for harness users: a skill file lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer."
+image: "/img/comics/hyperlocal-skills.png"
 ---
 
 # Hyperlocal Skills
 
 *A file-organization pattern for harness users: a [skill file](/concepts/skill-files) lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer.*
+
+![Three-panel comic strip on cream paper. Title bar: HYPERLOCAL SKILLS. Panel 1, THE DRIFT: the hyperagent in matte-navy plate armor with orange seams pulls a dusty cobwebbed SKILL.md scroll reading 'Step 2: edit four files' from a dark shelf, beside a crimson X and a cyan git-diff HUD titled 'THE REPO CHANGED: now five files' listing modified files including an added skills/add-logo/SKILL.md. Paper-tape caption: 'Stored far from its repo, the skill drifts. The code moves; the procedure does not.' Panel 2, HYPERLOCAL HOME: the hyperagent kneels and slots the same scroll into a glowing cyan repo folder tree (repo/, src/, public/, skills/add-logo/SKILL.md highlighted gold) with a tag reading SAME COMMIT, SAME HISTORY. Paper-tape caption: 'The hyperagent files the skill inside the repo it operates on.' Panel 3, GLOBAL POINTER: a central inked index board labeled ~/.agents/skills/ lists plaques (add-logo, build-docs, fix-lint, deploy-prod, gen-readme, sync-schema, update-deps) with orange dotted threads arcing out to distinct glowing repo trees; a bright cyan thread runs from the add-logo plaque to the panel-2 repo tree as the hyperagent invokes it from his desk with a raised cyan-glowing gauntlet. Paper-tape caption: 'One global index of pointers. Invoke from anywhere; the truth lives with the code.' Footer bar: HYPERLOCAL HOME. GLOBAL POINTER.](/img/comics/hyperlocal-skills.png)
 
 ---
 
