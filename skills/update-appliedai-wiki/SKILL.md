@@ -60,9 +60,9 @@ Non-negotiables:
 - **Cross-link aggressively.** Link the canonical home for every concept you reference, and add a `## Further Reading` list of 3 to 5 sibling pages. `rg docs/` to find the real slugs. Every link must resolve (the build enforces this).
 - **Operator audience.** Concrete over abstract. Written for someone running real AI work on a real business.
 
-## Step 5: Hero comic (optional)
+## Step 5: Hero comic (MANDATORY for new pages)
 
-Most pages carry a comic hero. To add or replace one, use the `supersuit-org-comic` global skill (it bundles the canonical brand references and IP-name discipline). The image embeds as the first element after the italic definition line, with reproducible alt text. Skip it to ship text first and add the hero in a follow-up pass.
+**Every new page ships with a comic hero in the same session. Never ship text-only and offer the hero as a follow-up** (standing order from Gary, 2026-07-10). Use the `supersuit-org-comic` global skill (it bundles the canonical brand references and IP-name discipline). The image embeds as the first element after the italic definition line, with reproducible alt text, and the frontmatter gets `image: "/img/comics/<slug>.png"` (og:image rule in the parent CLAUDE.md). If generation fails after reasonable retries, tell Gary before pushing a heroless page. Only skip when editing an existing page that already has its hero.
 
 ## Step 6: Sidebar
 
