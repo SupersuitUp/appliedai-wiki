@@ -1,6 +1,7 @@
 ---
 title: The Lock-In Is Coming
 slug: /perspectives/the-lock-in-is-coming
+draft: true
 description: Every VC-backed hyperscaler with proprietary models will eventually move to lock you in. A structural inevitability the sovereign stack is designed around.
 ---
 

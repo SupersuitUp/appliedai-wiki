@@ -46,6 +46,13 @@ EOF
 # --- Walk + emit -------------------------------------------------------------
 
 find "$DOCS_DIR" -name "*.md" -o -name "*.mdx" | sort | while read -r file; do
+  # Skip draft pages: they are excluded from the production build, so they
+  # must stay out of llms.txt / llms-full.txt too (draft = invisible on every
+  # surface, not just the site nav).
+  if grep -qE '^draft:[[:space:]]*true[[:space:]]*$' "$file" 2>/dev/null; then
+    continue
+  fi
+
   # Extract title from frontmatter
   title=$(grep -m1 '^title:' "$file" 2>/dev/null | sed 's/^title:[[:space:]]*//' | sed 's/^"//' | sed 's/"$//' || echo "")
 

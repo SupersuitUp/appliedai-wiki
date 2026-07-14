@@ -18,8 +18,8 @@ This page is the compressed version of the wiki. It is the orientation a practit
 The market AI is pouring into has a shape, and the shape is widening.
 
 - The gap between people and firms that compound with AI and those that do not keeps widening. See [The Elevator Economy](/perspectives/the-elevator-economy) and, inside organizations, [The Survivor Economy](/perspectives/the-survivor-economy).
-- Compute is metered, and tokens are the atomic unit of AI economics. See [The Token Economy](/perspectives/the-token-economy) and [The Token Rug Pull](/perspectives/the-token-rug-pull).
-- Frontier gains are no longer monotonic, so treat models as swappable dependencies. See [The Tradeoff Era](/perspectives/the-tradeoff-era) and [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming).
+- Compute is metered, and tokens are the atomic unit of AI economics. See [The Token Economy](/perspectives/the-token-economy).
+- Frontier gains are no longer monotonic, so treat models as swappable dependencies. See [The Tradeoff Era](/perspectives/the-tradeoff-era).
 - Cheaper intelligence expands demand rather than shrinking it ([Jevons Paradox](/concepts/jevons-paradox)), and the clearest place to capture that today is the mid-market. See [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot) and [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold).
 
 ## The interface shift

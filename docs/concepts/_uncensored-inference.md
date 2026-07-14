@@ -1,6 +1,7 @@
 ---
 title: "Uncensored Inference"
 slug: /concepts/uncensored-inference
+draft: true
 description: "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
 image: "/img/comics/uncensored-inference.png"
 ---

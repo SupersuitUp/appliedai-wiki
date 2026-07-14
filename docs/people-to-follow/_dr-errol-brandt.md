@@ -1,6 +1,7 @@
 ---
 title: "Dr. Errol Brandt"
 slug: /people-to-follow/dr-errol-brandt
+draft: true
 description: "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
 ---
 

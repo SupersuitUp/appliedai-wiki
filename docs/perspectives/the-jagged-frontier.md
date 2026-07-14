@@ -53,7 +53,3 @@ So the frontier is not just a fact about models. It is a fact about the pairing.
 - [Self-Improving Systems](/concepts/self-improving-systems), the compounding that pushes the border outward.
 - [Three Waves of AI Adoption](/perspectives/three-waves-of-ai-adoption), the longer arc of the frontier advancing.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck), why the human's judgment, not the model, sets the ceiling.
-
-## Supporting voices
-
-- **The PrimeTime (2026-06-12):** Used the jagged frontier argument to rebut "coding is solved." Anthropic's Claude Code had a 14-month terminal flickering bug, a pure software rendering problem, while the same lab claimed coding was the easy part. The bug's existence and duration is evidence that the frontier is not closed, and that human-perceived difficulty is a bad predictor of where AI breaks. [Field note](https://appliedai.wiki/note-sharers/the-primetime/2026-06-12-lying-to-you)

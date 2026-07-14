@@ -107,4 +107,3 @@ If the friction you are feeling is annoying, good. It means you are ready to cro
 - [Compounding Docs](/concepts/compounding-docs): Why owned context gets better over time
 - [Command Centers](/concepts/command-centers): The structured home for your context
 - [Context Overflow](/concepts/context-overflow): What goes wrong when context is unmanaged
-- [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming): Why every provider's memory will pull you deeper in

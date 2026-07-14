@@ -105,7 +105,7 @@ Simple harnesses are sovereign harnesses.
 
 When your harness is small and legible, you can reason about it end to end. When your context is uncontrolled by the vendor, your workflows are portable. When extensions are real code you own, the moat is your skill and your library, not the vendor's lock-in.
 
-This is [progressive sovereignty](https://supersuit.wiki/concepts/progressive-sovereignty) applied to the tool layer. And it is the direct antidote to [the lock-in that is coming](https://appliedai.wiki/perspectives/the-lock-in-is-coming) across every major platform. The more "helpful" the vendor's default, the more of your workflow you are quietly handing them. Simple harnesses invert the default: the vendor provides the core, you provide the intelligence around it, and your work is portable across every model provider in the market.
+This is [progressive sovereignty](https://supersuit.wiki/concepts/progressive-sovereignty) applied to the tool layer. Simple harnesses keep the default in your favor: the provider supplies the core, you supply the intelligence around it, and your work stays portable across every model provider in the market.
 
 Here, the posture is pragmatic. We recommend proprietary harnesses (Claude Code in particular) as the on-ramp because they work today. We also teach the primitives underneath, we keep everything in plain markdown files on your disk, and we treat the harness layer itself as something you should be able to swap. That is how you use the best tool available today without being trapped by it tomorrow.
 
@@ -152,6 +152,5 @@ The industry is going to sort itself out over the next few years. Some products 
 - [Anatomy of a Harness](https://appliedai.wiki/disciplines/anatomy-of-a-harness): The components every harness shares.
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): Why we teach primitives over opinionated desktop layers.
 - [Progressive Sovereignty](https://supersuit.wiki/concepts/progressive-sovereignty): Simple harnesses are the tool-layer expression of this principle.
-- [The Lock-in Is Coming](https://appliedai.wiki/perspectives/the-lock-in-is-coming): The countervailing pressure simple harnesses resist.
 - [Liberation Architecture](https://supersuit.wiki/concepts/liberation-architecture): The design philosophy minimal harnesses embody.
 - [The Spec Is the Product](https://appliedai.wiki/disciplines/spec-writing): When the spec is the product, the harness should get out of the way.

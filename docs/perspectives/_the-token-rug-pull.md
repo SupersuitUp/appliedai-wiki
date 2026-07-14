@@ -1,6 +1,7 @@
 ---
 title: The Token Rug Pull
 slug: /perspectives/the-token-rug-pull
+draft: true
 description: Token prices are sold below cost, propped up by the largest capital subsidy in the history of enterprise software. The bill is coming due, and now there is an index that will measure it.
 image: "/img/comics/the-token-rug-pull.png"
 ---
