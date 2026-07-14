@@ -146,6 +146,24 @@ Never link to `faithwalk.garysheng.com` — that is a gated personal surface. Se
 
 ---
 
+## Hiding a page without deleting it
+
+To make a page invisible on every surface while keeping the file in the repo, do both of these, then rebuild:
+
+1. Add `draft: true` to its frontmatter.
+2. Rename the file (or its folder) with a leading `_` (`git mv foo.md _foo.md`). Docusaurus's default `exclude` ignores `_*` files, so the page gets no route, no search entry, and no `draftIds` manifest line in the client bundle.
+
+Both matter. `draft: true` alone leaves the page's path in the `draftIds` array that ships in the client JS; the `_` prefix removes it. Do not add explicit filenames to a `docs.exclude` array in `docusaurus.config.ts` — that array is serialized into the client bundle, so it leaks the very names you are hiding.
+
+Two build-time generators are wired to honor `draft: true` so hidden pages leave no trace:
+
+- `plugins/creation-date-plugin/` skips draft pages (and their pre-rename git history, matched by basename) so the changelog never shows a new/updated/removed event for them.
+- `scripts/generate-llms-txt.sh` skips draft pages so they stay out of `llms.txt` / `llms-full.txt`.
+
+Before hiding, remove or neutralize every inbound link from pages that stay (the build's `onBrokenLinks: throw` will catch any you miss), and drop any `redirects` entry in `docusaurus.config.ts` that points at the page. Verify by grepping `build/` for the page's title and slug after `pnpm run build`; expect zero hits and `draftIds":[]`. Reverse by dropping the `_` prefix and the `draft` flag.
+
+---
+
 ## Common mistakes
 
 - Writing a `perspectives/` title as a noun label ("The Adoption Inversion") instead of a sentence ("Knowing AI Changes How You Use It").
