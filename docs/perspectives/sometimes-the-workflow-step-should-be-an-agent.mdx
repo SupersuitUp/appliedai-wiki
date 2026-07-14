@@ -1,0 +1,85 @@
+---
+title: "Sometimes the Workflow Step Should Be an Agent"
+slug: /perspectives/sometimes-the-workflow-step-should-be-an-agent
+description: "A single LLM call is the cheap default for a step in a workflow. When the middle of the task needs its own judgment, generated code, and a way to check its own work, put a real agent there instead."
+image: "/img/comics/sometimes-the-workflow-step-should-be-an-agent.png"
+---
+
+# Sometimes the Workflow Step Should Be an Agent
+
+*A single LLM call is the cheap default for a step in a workflow. When the middle of a task needs its own judgment, generated code, and a way to check its own work, put a real agent there instead.*
+
+![Four-panel neo-comic action strip on warm cream paper with heavy black inks, matte-navy Supersuit with orange seams, and arc-reactor-cyan holographics. Title bar: SOMETIMES THE STEP IS A WHOLE AGENT. Panel 1 THREE SHAPES FOR ONE STEP: Midas, the Blasian hyperagent in bulky matte-navy plate armor, seated at his workstation reaching a gauntleted hand toward three holographic cards labeled LLM CALL (small), WORKFLOW (a three-node row), and a large glowing AGENT card with a loop arrow. Caption: "A single call answers. Some steps need a whole agent." Panel 2 THE AGENT LOOP: Midas watches a holographic ring of three nodes, GATHER CONTEXT to TAKE ACTION to VERIFY, beside an AGENT SESSION terminal showing WRITE and RUN code panes. Caption: "It gathers its own context, writes code to act, and checks its own work." Panel 3 STRUCTURED EDGES, MESSY MIDDLE: a horizontal pipeline where an ISSUE card enters at left and a LABEL + PRIORITY card exits at right, with a swirling middle containing CODE REPO (CLONED), CONTAINER (SPINNING), and TESTS (PASSING) icons; Midas stands arms crossed. Caption: "Even a rigid task improvises in the middle. Pin the edges, free the interior." Panel 4 SPEND WHERE IT EARNS: first-person POV through Midas's cyan-glowing helmet visor onto a HUD with cards CAN IT VERIFY ITS OWN WORK? YES, AGENT: ARMED (helmet icon), SDK: HARNESS BAKED IN, and a gold MISSION INTACT stamp. Caption: "Spend the overhead only where the work can check itself." Footer bar: A CALL ANSWERS. AN AGENT WORKS. SPEND THE OVERHEAD WHERE IT EARNS.](/img/comics/sometimes-the-workflow-step-should-be-an-agent.png)
+
+---
+
+## Three shapes for one step
+
+An AI feature comes in three shapes, and most teams only reach for the first.
+
+The **single LLM call** takes text in and returns text out. Classify this ticket. Label this email. Extract these fields. It is cheap, fast, and predictable, and for a genuinely fixed transformation it is the correct choice.
+
+The **workflow** wires several of those calls together with code in between: structured input, structured output, a fixed path. You define the edges tightly. A pull request goes in, a code review comes out.
+
+The **agent** is a different animal. You talk to it in natural language and it takes action flexibly, building its own context and deciding its own trajectory. It finds the files it needs, writes a script, runs it, reads the error, fixes it, and checks the result before it answers. [Claude Code](/reference/tools/claude-code) is the canonical example, and Anthropic's Claude Agent SDK packages that same machinery for you to build on.
+
+The trap is treating the LLM call as the ceiling. Plenty of steps that look like a call, or look like a rigid workflow, run better with a real agent dropped into the middle.
+
+## What the agent actually buys you
+
+A single call has one move: read the input, emit an answer. An agent runs a loop, and the loop is where the value hides. The shape is **gather context, take action, verify the work**, repeated until the work holds up.
+
+Inside that loop the agent has three ways to act, and each trades off differently:
+
+- **Tools** are structured and reliable. Best for atomic, high-stakes actions you want tight control over: writing a file, sending an email, anything irreversible. They cost context and do not compose.
+- **Bash** is composable and cheap on context. The agent chains `grep`, `awk`, `jq`, `ffmpeg`, a package manager, your own CLI scripts. It discovers what it can do at runtime, which buys flexibility at the cost of a little latency.
+- **Code generation** is the most flexible of all. The agent writes a throwaway script to compose a few APIs, run a data analysis, or reshape a source into a format it already understands well (a CSV into SQL, a document into XML).
+
+That last mode is the counterintuitive one: **code generation for non-coding work**. An email agent asked "how much did I spend on ride-sharing this week" does not reason over a hundred raw emails in its head. It writes a search, pipes the results to a file, greps the prices, sums them, and rechecks its own arithmetic against the file. The same move slices an earnings-call video with `ffmpeg` to find every mention of "quarterly results." A single LLM call cannot do any of that. The agent can, because it can run code and read what the code returned.
+
+The mental model worth stealing: the agent is a capable person locked in a room, being handed tasks. Do not slide a stack of papers under the door and hope you included everything. Give it a computer and let it go find what it needs.
+
+## Even a rigid-looking task often wants an agent in the middle
+
+The strongest case is the one that looks least like it needs an agent.
+
+Issue triage sounds like a pure workflow: an issue comes in, a label and a priority come out. Tightly defined edges. Yet the teams running this in production found the middle refuses to stay simple. To triage well, the thing has to clone the repository, sometimes spin up a container, and actually try to reproduce the bug before it can say anything useful. That middle is free-flowing and unpredictable. The ends are structured.
+
+This is the pattern to hold onto: **structured at the edges, agentic in the middle**. You still pin the input and the output. A workflow can call the agent and demand structured output back, so the rest of your pipeline stays deterministic. What you gain is an interior that can improvise when the task turns out to be messier than the schema suggested, which it usually does. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a single loop is composed, and [Workflow Decomposition](/playbooks/workflow-decomposition) for finding which stage actually needs one.
+
+## The test: can it check its own work?
+
+Before you promote a step from a call to an agent, ask one question. Can the agent verify its own output?
+
+Verification is what makes an agent trustworthy without a human watching every move. Code is a strong candidate because it lints, compiles, and runs: the agent gets a hard signal and iterates until the signal is green. Research is a weaker candidate because "correct" is fuzzier, though citing sources is a partial check. The more objective the verification step, the more of the work you can safely hand over and move the human [from in the loop to on it](/concepts/in-on-out-of-the-loop). A step with no way to check itself is a step that wants a human, or wants to stay a plain call with a person reading every result.
+
+Pair that with the reversibility question. Keep genuinely irreversible actions as narrow tools with guardrails. Let the reversible, checkable middle run as an agent.
+
+## The honest cost
+
+An agent is not free, and pretending otherwise is how you end up automating slop. It is slower than a call: discovery, script execution, and linting all add latency. It usually needs a container or sandbox, which is real operational weight. And it is less deterministic by construction, since the whole point is that it decides its own path.
+
+So keep reaching for the single LLM call when the transformation is genuinely fixed, the volume is high, and latency matters: routing, classification, structured extraction. Reserve the agent for the steps where the middle is unpredictable enough to earn the overhead. The tradeoff resembles moving from jQuery to a real framework: more machinery, more ceremony, and a much higher ceiling once the task is complex enough to need it. Below that bar, the extra machinery is only cost. See [Don't Scale Slop](/playbooks/dont-scale-slop) for what happens when you skip this judgment.
+
+## Why reach for the SDK instead of building the harness
+
+If the step earns an agent, the next instinct is to hand-roll one. Resist it.
+
+The teams that build agents at scale kept rebuilding the same parts: tools run in a loop, prompt transitions, a file system for context, subagents, compaction when the context fills, permission checks, a parser that understands what a `bash` command is about to do. Each of those is a hard problem with a long tail of failure modes that only surface at scale. An [SDK built on a proven harness](/disciplines/anatomy-of-a-harness) bakes those lessons in and improves as the underlying agent improves. The composable, code-first substrate is where the leverage compounds, which is also why the [skills should stay fat and the harness thin](/concepts/fat-skills).
+
+The choice is not agent versus LLM call as a matter of taste. It is a design decision you make per step, on evidence. Most steps are fine as a call. The ones where the middle is messy, checkable, and worth getting right are the ones to bake an agent into.
+
+> A call answers. An agent works. Spend the overhead only where the work earns it, and let the SDK carry the parts you should not be rebuilding.
+
+## Sources
+
+Distilled in part from the workshop "[Claude Agent SDK (Full Workshop)](https://www.youtube.com/watch?v=TqC1qOfiVcQ)" by Thariq Shihipar of Anthropic, presented at the AI Engineer conference, 2026. The workshop is the primary source for the three-shape framing (call, workflow, agent), the gather-context / take-action / verify loop, the tools-versus-bash-versus-code-generation tradeoff, and the issue-triage example. Everything here is a practitioner reading of that material, not an endorsement tested in every engagement.
+
+## Further Reading
+
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop): the five-component structure for building a single self-improving loop, the real unit of construction.
+- [Workflow Decomposition](/playbooks/workflow-decomposition): draw the business as a workflow, then find the stage that actually needs an agent.
+- [The Roles-to-Workflows Shift](/concepts/roles-to-workflows): the mental-model change that makes "which step gets an agent" a live question at all.
+- [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop): where the human attention goes once a step can verify itself.
+- [Fat Skills](/concepts/fat-skills): why the harness stays thin and your judgment lives in the skills the agent loads.
+- [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): what a production agent harness is made of, and why you should not rebuild it from scratch.
