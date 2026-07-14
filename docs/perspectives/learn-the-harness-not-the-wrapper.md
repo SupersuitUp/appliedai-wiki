@@ -75,17 +75,9 @@ This applies to any vendor desktop wrapper: Claude Desktop, Claude Code Desktop 
 
 Sometimes they are great. Sometimes they are not.
 
-Here is what the developer Theo wrote after spending an hour in the new Claude Code desktop app:
+The evidence shows up fast. When the new Claude Code desktop app launched, experienced developers publicly documented hitting a wall of half-integrated features, broken hotkeys, and dozens of edge-case bugs within an hour of trying it.
 
-> “I feel bad dunking on them so much but it's genuinely absurd how bad the new Claude Code desktop app is. You can feel the vibe code leaking everywhere. Every 'feature' is barely integrated and full of edge cases that weren't considered. Every menu feels barren, stuffed in last second for some random toggle. Every hotkey breaks as soon as you try to do anything else. I've lost track of how many bugs I've encountered. I found at least 40 in under an hour... Any one of these issues would have been enough for me to do a massive post-mortem and likely fire someone. A $400b company shipping this is absurd.”
-
-[Full thread](https://x.com/theo/status/2044680030706663726). He came back the same day with a sharper line:
-
-> “The Claude Code Desktop app is an affront on software. As developers, we should be offended that they chose to ship something this awful.”
-
-[Follow-up](https://x.com/theo/status/2044697225666929151).
-
-This is the risk of living inside a vendor wrapper. Even a $400B company with the strongest AI talent on earth ships half-baked product. When it happens, your daily workflow breaks with it, and you have no recourse. The harness underneath is still solid. The wrapper is the thing falling apart.
+This is the risk of living inside a vendor wrapper. Even a company with the strongest AI talent on earth ships a rough release sometimes. When it happens, your daily workflow breaks with it and you have no recourse. The harness underneath is still solid. The wrapper is the thing that broke.
 
 The trade-off:
 
