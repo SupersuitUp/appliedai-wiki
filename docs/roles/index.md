@@ -14,6 +14,8 @@ The standard narrative is that AI is eliminating jobs. That is partly true. It i
 
 AI is doing the same thing, faster. The roles documented here are the ones an implementer can credibly offer or step into: the client-facing builder, the cross-organizational pattern-recognizer, the upskilling architect, the workshop instructor, the workflow streamliner, the change-management partner. Each one is a real shape of professional work that an applied AI engineer or consultant can be hired into today.
 
+What ties them together: each role exists to multiply not just the leader who hires it, but the teams that leader depends on. The upskilling architect and the workshop instructor arm the teams directly; the builder and the change-management partner make the multiplication stick across the org.
+
 ## How the section is shaped
 
 Each role page documents:

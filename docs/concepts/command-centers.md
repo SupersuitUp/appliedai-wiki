@@ -24,7 +24,7 @@ The concept lives at two scales. They are the same architecture applied to diffe
 
 **For individuals:** the personal command center. A folder on your computer with markdown files about your goals, relationships, projects, principles, and decision history. An AI agent reads all of it and operates from that context. It compounds daily. At 90 days, it knows your operation well enough to draft emails in your voice, prepare meeting agendas from relationship history, and generate strategic briefs that reflect your actual priorities.
 
-**For organizations:** the AI-native business operating environment. The same principle, scaled up. Every department, every workflow, every piece of institutional knowledge consolidated into one sovereign system. AI agents coordinate across functions because they see the whole picture. The founder sets direction. The OS handles operations. The humans do the work only humans can do.
+**For organizations:** the AI-native business operating environment. The same principle, scaled up. Every department, every workflow, every piece of institutional knowledge consolidated into one sovereign system. AI agents coordinate across functions because they see the whole picture. The leader sets direction. The OS handles operations. The humans do the work only humans can do. The leverage cascades: each team gets its own slice of the shared context and its own agents, so the organization scales because every team is multiplied, not only the leader at the top.
 
 Both are command centers. Both replace scattered tools with unified context. Both compound over time. The individual version is where you start. The organizational version is where it leads.
 

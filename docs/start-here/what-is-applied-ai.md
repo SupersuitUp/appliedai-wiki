@@ -57,6 +57,8 @@ In each case, the human still makes the call. The human is just making better ca
 
 This is not the ceiling. This is the floor. The organizations furthest along are building self-improving operational systems: AI that monitors its own output, identifies what is working, and adjusts without being told to. The founder's job shifts from running the machine to upgrading the machine.
 
+The gains do not stop at the person at the center. The same context and the same agents extend to every team, so the whole organization compounds instead of bottlenecking on one leader at the top.
+
 ## Two discipline principles
 
 **Think in eighty-twenty.** Applied AI executes against whatever you point it at. The practitioner's discipline is asking, on every problem: what are the twenty percent of moves that unlock eighty percent of the leverage here? Most of what any operator could do with AI is not worth doing. The game is picking the few moves that are. "Highest and best use" is not a slogan. It is a filter applied every day.
