@@ -63,3 +63,4 @@ Machines require this level of specificity. Humans benefit from it too. The disc
 
 - [Observable Behavior Engineering](/disciplines/observable-behavior-engineering): The discipline of translating vague intent into specific, measurable actions
 - [Intent Engineering](/disciplines/intent-engineering): Encoding organizational purpose into AI systems so agents optimize for what actually matters
+- [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): once you think in workflows, which steps earn a full agent versus a single LLM call
