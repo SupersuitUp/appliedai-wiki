@@ -21,7 +21,7 @@ Each role page documents:
 - What the person actually does, day to day.
 - Why the role is emerging now.
 - How the engagement typically looks (full-time, fractional, sprint).
-- Who they work with inside the king's organization.
+- Who they work with inside the leader's organization.
 - The skill stack the role rewards.
 
 These are not job descriptions copied from postings. They are doctrine pages: an honest read on the role's center of gravity, its load-bearing skills, and the most common failure modes.

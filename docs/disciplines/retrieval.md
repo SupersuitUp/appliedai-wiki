@@ -12,13 +12,13 @@ description: "The discipline of fetching the right context at the right time. Em
 
 ## What the discipline is
 
-Retrieval is the practice of pulling relevant information into the model's context window from a larger store at inference time. The model itself does not know what is in the king's CRM, the engagement archive, the internal wiki, or last month's board deck. Retrieval makes those visible to the model exactly when they are needed.
+Retrieval is the practice of pulling relevant information into the model's context window from a larger store at inference time. The model itself does not know what is in the leader's CRM, the engagement archive, the internal wiki, or last month's board deck. Retrieval makes those visible to the model exactly when they are needed.
 
 The amateur version is "we set up a vector database." The professional version is a measured pipeline with chunking strategy, embedding model, retrieval evaluation, reranking, and a clear understanding of when retrieval is the right tool versus when long-context, fine-tuning, or just-include-the-document is better.
 
 ## The high-leverage moves
 
-**Decide whether you need retrieval at all.** Most "we should add RAG" instincts are wrong. If the king's reference corpus fits in the context window of a current frontier model (and at million-token contexts, most corpuses do), just include it. Retrieval adds complexity, latency, and a failure mode (the wrong chunks getting pulled). It earns its slot only when the corpus is too large to include, when the documents are dynamic, or when the operator needs auditable retrieval logs.
+**Decide whether you need retrieval at all.** Most "we should add RAG" instincts are wrong. If the leader's reference corpus fits in the context window of a current frontier model (and at million-token contexts, most corpuses do), just include it. Retrieval adds complexity, latency, and a failure mode (the wrong chunks getting pulled). It earns its slot only when the corpus is too large to include, when the documents are dynamic, or when the operator needs auditable retrieval logs.
 
 **Build the retrieval eval before the retrieval pipeline.** A retrieval eval is a set of questions paired with the documents that should be retrieved for each. Measure recall (did the right docs come back) and precision (were the wrong docs filtered out). Without this, every chunking-strategy or embedding-model change is a leap of faith.
 
@@ -39,7 +39,7 @@ The amateur version is "we set up a vector database." The professional version i
 ## What good looks like
 
 - A retrieval eval with at least 30 query/document pairs that span the realistic distribution of queries, scored by recall and precision
-- A documented chunking strategy with the reasoning ("we chunk at H2 boundaries because the king's playbooks are organized by H2") not just the parameter
+- A documented chunking strategy with the reasoning ("we chunk at H2 boundaries because the leader's playbooks are organized by H2") not just the parameter
 - A documented reranking strategy ("first-pass top 50, reranked to top 8 with a cheaper model")
 - A metadata layer that supports the queries the operator actually runs ("show me deals from Q2 2026 in the West Coast portfolio")
 - A retrieval logging trail the operator can audit: for any model output, which documents were retrieved and shown to the model
@@ -48,8 +48,8 @@ The amateur version is "we set up a vector database." The professional version i
 
 Three patterns where reaching for retrieval is the implementer's mistake:
 
-- **The corpus fits in context.** Modern frontier models read a million tokens. A king's strategy archive, a portfolio overview, an annual report: these usually fit. Just include them.
-- **The model needs to memorize, not look up.** If the king's voice or the company's style needs to be embodied (not referenced), fine-tuning beats retrieval.
+- **The corpus fits in context.** Modern frontier models read a million tokens. A leader's strategy archive, a portfolio overview, an annual report: these usually fit. Just include them.
+- **The model needs to memorize, not look up.** If the leader's voice or the company's style needs to be embodied (not referenced), fine-tuning beats retrieval.
 - **The data changes too fast.** If the document set turns over hourly, retrieval indexing becomes the bottleneck. A live API call to the source system is the cleaner answer.
 
 ## Tools and concepts downstream

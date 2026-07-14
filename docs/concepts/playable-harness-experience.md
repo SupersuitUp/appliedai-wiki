@@ -47,7 +47,7 @@ When all five pieces ship together as a forkable GitHub repo, you have a playabl
 
 A playable harness experience is dramatically more powerful when it runs inside a harness loaded with rich [hypercontext](https://supersuit.wiki/concepts/hypercontext) than when it runs inside a bare one.
 
-When the king has loaded their full corpus into the harness (relationships, prior decisions, voice samples, project history, principles, prior artifacts), an experience can read that substrate and supplement itself accordingly. The same is true for a company that has stood up a [company context layer](https://supersuit.wiki/concepts/company-context-layer).
+When the leader has loaded their full corpus into the harness (relationships, prior decisions, voice samples, project history, principles, prior artifacts), an experience can read that substrate and supplement itself accordingly. The same is true for a company that has stood up a [company context layer](https://supersuit.wiki/concepts/company-context-layer).
 
 A bare EOS bootstrap experience asks: *"Who is on your leadership team? List names and titles."*
 

@@ -6,7 +6,7 @@ description: "The discipline of measuring AI output quality at a level the opera
 
 # Evals
 
-*The discipline of measuring AI output quality at a level the king's organization can actually trust. Not vibes. Not vendor dashboards. Golden sets, rubrics, and regression rules versioned alongside the code that produces the output.*
+*The discipline of measuring AI output quality at a level the leader's organization can actually trust. Not vibes. Not vendor dashboards. Golden sets, rubrics, and regression rules versioned alongside the code that produces the output.*
 
 ---
 
@@ -14,11 +14,11 @@ description: "The discipline of measuring AI output quality at a level the opera
 
 An eval is a measurement of whether AI output is doing what it is supposed to do, with enough rigor that the measurement is trustworthy across changes. The amateur version is "I tried it three times and it looked good." The professional version is a versioned golden set, a versioned scoring rubric, a baseline number, and a rule that says a change does not ship if it regresses the baseline.
 
-Without evals, an implementation is faith. With evals, every prompt change, model swap, RAG update, and tool-use refactor produces a number the operator can defend. When the king asks "is it better than last quarter," you have a chart.
+Without evals, an implementation is faith. With evals, every prompt change, model swap, RAG update, and tool-use refactor produces a number the operator can defend. When the leader asks "is it better than last quarter," you have a chart.
 
 ## The high-leverage moves
 
-**Build a golden set before you write a single new prompt.** Twenty examples that span the realistic distribution of inputs, with notes about why each example matters and what good output looks like. Twenty is enough. The point is not coverage. The point is a tripwire that catches regressions before they reach the king's customers.
+**Build a golden set before you write a single new prompt.** Twenty examples that span the realistic distribution of inputs, with notes about why each example matters and what good output looks like. Twenty is enough. The point is not coverage. The point is a tripwire that catches regressions before they reach the leader's customers.
 
 **Write the rubric in the operator's words, not yours.** Interview whoever currently judges output quality. Capture their criteria verbatim. Convert that to a scoring prompt for an LLM judge. If the LLM judge does not agree with the operator on the easy cases, the rubric is wrong, not the operator.
 
@@ -42,7 +42,7 @@ The deliverable shape varies, but the operational state is the same:
 - At least one prompt change has been run through the harness and either shipped or rejected on the basis of the score
 - The operator has seen the dashboard once and agrees the numbers match their intuition
 
-If those four are true, evals are real in the king's organization. If they are not, evals are theater.
+If those four are true, evals are real in the leader's organization. If they are not, evals are theater.
 
 ## Pages in this discipline
 
