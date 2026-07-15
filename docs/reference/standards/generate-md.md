@@ -27,8 +27,9 @@ The two formats compose. A SKILL might invoke a GENERATE during its execution (e
 | [INTEGRATE.md](/reference/standards/integrate-md) | Wire one system into another | Once per wiring (capability persists) | No |
 | [ALIGN.md](/reference/standards/align-md) | Evaluate partnership alignment | On demand, evaluative | No |
 | **GENERATE.md** | **Scaffold a new artifact from inputs** | **Once per artifact** | **Yes (artifact persists, recipe stays idle)** |
+| [BOOMERANG.md](/reference/standards/boomerang-md) | Extract build-ready material from a person | Once per subject (a consumer chat you hand over) | No (a return artifact comes back to you) |
 
-The key axis: SKILL describes a capability; GENERATE describes a one-shot recipe whose output is a persistent artifact.
+The key axis: SKILL describes a capability; GENERATE describes a one-shot recipe whose output is a persistent artifact. BOOMERANG sits slightly apart from the other four: it is the only format read by another person's AI rather than your own agent, and it frequently rides inside a SKILL or GENERATE as the interview phase.
 
 ## Required Metadata
 

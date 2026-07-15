@@ -114,5 +114,6 @@ The raw files ship with the skill: the [paste-in prompt](pathname:///skills/gene
 
 - [Spec Writing](/disciplines/spec-writing): the discipline this operationalizes; the spec it produces is the input to spec-driven development.
 - [Boomerang Prompt](/concepts/boomerang-prompt): the pattern this playbook is an instance of.
+- [BOOMERANG.md](/reference/standards/boomerang-md): the file-format standard this skill's paste-in prompt conforms to.
 - [Interview Prompts](/disciplines/interview-prompts): the prompt-design craft behind the interview half.
 - [Generate a Microautobiography](/playbooks/generate-a-microautobiography): the sibling boomerang, retargeted at a life story instead of a spec.

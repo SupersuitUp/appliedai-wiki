@@ -125,6 +125,7 @@ const sidebars: SidebarsConfig = {
             'reference/standards/align-md',
             'reference/standards/integrate-md',
             'reference/standards/generate-md',
+            'reference/standards/boomerang-md',
             'reference/standards/brand-txt',
           ],
         },

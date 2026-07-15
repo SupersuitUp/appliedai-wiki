@@ -40,6 +40,8 @@ This is the same instinct as the [capture-first autobiography](/playbooks/captur
 
 ## Anatomy of a good Boomerang Prompt
 
+The normative version of this anatomy is the [BOOMERANG.md](/reference/standards/boomerang-md) standard: a versioned file format with a required two-part contract, metadata, and filing convention. This section is the doctrine behind it; reach for the standard when you are authoring one.
+
 A Boomerang Prompt has two explicit parts, and the second is what makes it boomerang rather than just chat.
 
 **Part 1: Interview me.** Instruct the AI to ask one question at a time, wait for the full answer, never stack questions, and follow up when an answer is thin. Give it the areas to cover in rough order, but tell it to follow the energy of the answers rather than march a checklist. Tell it to gather far more than it will use.
@@ -71,6 +73,7 @@ Interview the person yourself instead when the conversation is the point (you ar
 
 ## Further Reading
 
+- [BOOMERANG.md](/reference/standards/boomerang-md): The normative file-format standard that formalizes this pattern
 - [Interview Prompts](/disciplines/interview-prompts): The prompt-design pattern the Boomerang Prompt is built on, for when you are the one running it
 - [Generate a Microautobiography](/playbooks/generate-a-microautobiography): The flagship worked example, with the full paste-in prompt
 - [Generate a Build-Ready Spec](/playbooks/generate-a-spec): The boomerang retargeted at a project instead of a person, so a vague ask comes back as a spec you can triage
