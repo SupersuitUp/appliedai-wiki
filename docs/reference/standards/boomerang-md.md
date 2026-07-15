@@ -50,6 +50,8 @@ Every BOOMERANG.md starts with a `last_updated` and `version` comment. The inter
 
 Use ISO 8601 for the date. Update both fields when you change the interview areas or the return structure.
 
+This `version` is the file's own version, which moves as you refine this particular boomerang. It is distinct from the version of *this standard* the file targets, which every boomerang declares separately (see Conformance below). Keeping them apart lets an instance evolve without implying the standard changed, and lets the standard bump without silently invalidating every instance.
+
 ## Required Sections
 
 Every BOOMERANG.md must include these sections in order. Note the split: a few sections are operator-facing (you read them), and one is the paste-in payload (the subject pastes it). Keep that boundary explicit.
@@ -61,12 +63,24 @@ Every BOOMERANG.md must include these sections in order. Note the split: a few s
 name: <kebab-case-name>
 description: <one-line description of what it extracts and from whom, ending in "Consumer-facing boomerang prompt; hand to a person, not routed by the harness.">
 returns: <one-line description of the build-ready artifact that comes back>
+conforms_to: <this standard's URL> v<version>
 ---
 ```
 
 - **`name`**: kebab-case, matches the folder name and any paired SKILL.md or GENERATE.md `name:` field.
 - **`description`**: one line. State what the boomerang extracts and who runs it, then the trailing marker so a harness does not mistake it for a recipe it should execute itself.
 - **`returns`**: one line naming the artifact the subject sends back (for example "a nine-section build-ready spec" or "narrated life-story chapters").
+- **`conforms_to`**: the URL of this standard plus the version this file targets (for example `https://appliedai.wiki/reference/standards/boomerang-md v0.1`). The machine-readable half of the conformance declaration; see Conformance.
+
+### Conformance
+
+Every boomerang declares which version of this standard it conforms to, in two places: the `conforms_to` frontmatter field above (machine-readable), and a visible line beside the Canonical source (human-readable):
+
+```markdown
+**Conforms to:** [BOOMERANG.md](/reference/standards/boomerang-md) v0.1
+```
+
+This is non-negotiable. A boomerang with no version reference cannot be checked against the contract it claims to follow, and a reader cannot tell whether it predates a breaking change to the standard. When this standard bumps, an instance keeps its old `conforms_to` version until someone updates it against the new one, which is exactly the signal you want.
 
 ### 2. H1 Title
 
@@ -78,7 +92,7 @@ Name the return, not the act of interviewing. Noun-phrase preferred.
 
 ### 3. Orientation
 
-Two to four sentences for the operator: what this extracts, who you hand it to, that the return is build-ready, and that it is one run per subject. Above or within it, include a **Canonical source** line linking the rendered page this boomerang ships in, so an operator who receives only the file can find the current version in one click.
+Two to four sentences for the operator: what this extracts, who you hand it to, that the return is build-ready, and that it is one run per subject. Above or within it, include a **Canonical source** line linking the rendered page this boomerang ships in, and a **Conforms to** line naming this standard with the version the file targets (see Conformance above), so an operator who receives only the file can find both the current version and the contract it follows in one click.
 
 ### 4. Send Note
 
@@ -155,6 +169,7 @@ Copy this as a starting point.
 name: <kebab-case-name>
 description: <what it extracts and from whom, ending in "Consumer-facing boomerang prompt; hand to a person, not routed by the harness.">
 returns: <one-line artifact description>
+conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
 ---
 
 <!-- last_updated: YYYY-MM-DD -->
@@ -163,6 +178,7 @@ returns: <one-line artifact description>
 # <Return Name> Boomerang
 
 **Canonical source:** [<wiki>/<page-slug>](https://<wiki>/<page-slug>): the rendered page this boomerang ships in.
+**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.1
 
 [Orientation: what this extracts, who you hand it to, that the return is
 build-ready, one run per subject.]
