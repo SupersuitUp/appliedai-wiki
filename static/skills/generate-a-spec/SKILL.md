@@ -19,7 +19,7 @@ Do not use it when you already have the detail (this is for extraction, not dres
 
 ## How to run it
 
-1. **Send the prompt.** Give the person `boomerang-prompt.md` (the full paste-in) and this note: *"Paste this whole thing into a new ChatGPT, Claude, or Grok chat. Answer out loud using dictation, not live voice mode. It will interview you one question at a time, then write your spec. Paste that into a Google Doc and send me the link."*
+1. **Send the prompt.** Give the person `BOOMERANG.md` (the full paste-in) and this note: *"Paste this whole thing into a new ChatGPT, Claude, or Grok chat. Answer out loud using dictation, not live voice mode. It will interview you one question at a time, then write your spec. Paste that into a Google Doc and send me the link."*
 2. **They get interviewed.** The AI asks one question at a time across nine areas (the ask, the outcome it serves, current reality, the dream, core features and behaviors, users and data, constraints, open questions, success and scale), following the energy and pushing once when an answer is thin.
 3. **The spec comes back.** The AI writes it in the fixed nine-section structure, led by a TL;DR routing block a busy reader absorbs in ten seconds.
 4. **They share the Google Doc.** They paste the spec into a Google Doc, set "anyone with the link can view," and send you the link. The doc is the artifact, not the chat.
@@ -38,7 +38,7 @@ If a stranger still has to ask "so what do you actually want?" after reading the
 
 ## Files
 
-- `boomerang-prompt.md`: the self-contained paste-in prompt you hand over.
+- `BOOMERANG.md`: the self-contained paste-in prompt you hand over (a conforming BOOMERANG.md instance).
 - `build-notes-template.md`: working-notes starter for when you run the interview yourself.
 
 ## Pairs with

@@ -102,7 +102,7 @@ FINALLY: tell me to copy the whole spec into a new Google Doc, set it to "anyone
 Start now with Part 1. Ask me only the first question, then wait.
 ```
 
-The raw files ship with the skill: the [paste-in prompt](pathname:///skills/generate-a-spec/boomerang-prompt.md) and a [build-notes template](pathname:///skills/generate-a-spec/build-notes-template.md) for when you run the interview yourself inside a harness.
+The raw files ship with the skill: the [paste-in prompt](pathname:///skills/generate-a-spec/BOOMERANG.md) (a conforming [BOOMERANG.md](/reference/standards/boomerang-md) instance) and a [build-notes template](pathname:///skills/generate-a-spec/build-notes-template.md) for when you run the interview yourself inside a harness.
 
 ## When Not to Run This
 

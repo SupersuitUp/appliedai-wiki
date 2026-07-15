@@ -2,5 +2,12 @@
   "buildCommand": "git fetch --unshallow 2>/dev/null || true; pnpm run build",
   "outputDirectory": "build",
   "framework": "docusaurus-2",
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/skills/generate-a-spec/boomerang-prompt.md",
+      "destination": "/skills/generate-a-spec/BOOMERANG.md",
+      "permanent": true
+    }
+  ]
 }

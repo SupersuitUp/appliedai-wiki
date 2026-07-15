@@ -131,10 +131,10 @@ A boomerang lives beside the recipe it serves, or on its own when it stands alon
 
 ```
 <name>/
-  BOOMERANG.md          # this file (or boomerang-prompt.md when it ships inside a SKILL/GENERATE folder)
+  BOOMERANG.md          # this file, always this name
 ```
 
-When a boomerang is the front half of a SKILL or GENERATE, it ships in that recipe's folder as `boomerang-prompt.md` and the recipe references it. When it stands alone, name the file `BOOMERANG.md` and match the folder to the `name:` field.
+Always name the file `BOOMERANG.md`, the canonical name, whether it stands alone or ships as the front half of a SKILL or GENERATE. Keep the name even when embedded, the same way `SKILL.md` and `GENERATE.md` keep theirs: a recipe folder that holds `SKILL.md` (or `GENERATE.md`) next to `BOOMERANG.md` reads at a glance as a capability plus its interview front-half, and the recipe references the boomerang by that name. Match the folder to the `name:` field.
 
 Publish the paste-in prompt at a stable URL so the operator can hand over a link instead of a file. A statically-served copy (for example under a wiki's `static/`) lets the subject open the raw prompt in one click.
 
