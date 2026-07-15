@@ -57,6 +57,8 @@ Two details that consistently raise quality:
 
 **The album listening guide.** The same shape, retargeted. A musician friend wanted a private page aimed at a prospective manager or distributor. The Boomerang Prompt walks him through his origin as an artist, then goes song by song (the story, how it was made, and full credits for each track), then the making of the record and a complete thanks list, and writes it as a narrated listening guide ready to build into a gated page. Same mechanism, different subject and different return structure.
 
+**The build-ready spec.** The same shape, retargeted from a person's story to a person's project. A friend asks you to help build something but hands over a vibe, not a spec. The Boomerang Prompt interviews them across nine areas (the ask, current reality, the dream, features, data, constraints, open questions, success) and returns a build-ready spec led by a triage-ready TL;DR, which they paste into a Google Doc and send you. Now you can tell whether you can help, whether an off-the-shelf tool already does it, or who to forward it to. The full paste-in prompt lives in the [Generate a Build-Ready Spec](/playbooks/generate-a-spec) playbook.
+
 The pattern generalizes: change the areas covered and the shape of Part 2, and the same technique produces founder profiles, memorial pages, portfolio narratives, or onboarding dossiers.
 
 ## When to use it, and when not to
@@ -71,5 +73,6 @@ Interview the person yourself instead when the conversation is the point (you ar
 
 - [Interview Prompts](/disciplines/interview-prompts): The prompt-design pattern the Boomerang Prompt is built on, for when you are the one running it
 - [Generate a Microautobiography](/playbooks/generate-a-microautobiography): The flagship worked example, with the full paste-in prompt
+- [Generate a Build-Ready Spec](/playbooks/generate-a-spec): The boomerang retargeted at a project instead of a person, so a vague ask comes back as a spec you can triage
 - [The Capture-First Autobiography](/playbooks/capture-first-autobiography): The broader principle of gathering raw truth before building any format from it
 - [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop): Choosing where the human belongs in an AI workflow

@@ -138,3 +138,4 @@ This is the work. This is where practitioners create real, lasting value. Not by
 - [Context Engineering](/disciplines/context-engineering): Curating the information state that agents operate within, the "what" the spec references
 - [Observable Behavior Engineering](/disciplines/observable-behavior-engineering): Defining what good looks like in concrete, testable terms
 - [Ontology-Driven Development](/disciplines/ontology-driven-development): The methodology that turns a strong domain model into compounding software
+- [Generate a Build-Ready Spec](/playbooks/generate-a-spec): A Boomerang Prompt that interviews someone who wants something built and returns a triage-ready spec, so you can decide whether you can help before a line of code
