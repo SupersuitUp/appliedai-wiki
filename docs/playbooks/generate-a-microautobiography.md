@@ -57,7 +57,7 @@ Phase B locks the executable decisions: the narrator's persona and name, the Ele
 
 Not everyone has a coding agent in the room. For the subject who wants to start alone, this prompt turns any hosted AI chat (ChatGPT, Claude, Grok) into the interviewer. They paste it in, answer one question at a time until they run out, and the model writes their chapters back in a ready-to-build shape. They then hand that output to whoever builds the page (the Build and Deploy phase below).
 
-It is the same Phase A interview and the same for-the-ear writing rules, packaged so a non-technical person can run the whole front half themselves, in a chat window, on their own time.
+It is the same Phase A interview and the same for-the-ear writing rules, packaged so a non-technical person can run the whole front half themselves, in a chat window, on their own time. It ships as a conforming [BOOMERANG.md](/reference/standards/boomerang-md) file (`BOOMERANG.md` in the template repo), the [Boomerang Prompt](/concepts/boomerang-prompt) pattern applied to a life story.
 
 ```text
 You are going to help me create my microautobiography: a short, narrated version of my life story that will live on a single web page and be read aloud by an AI voice. Think of the finished thing like a museum audio guide for one person's life. A worked example is garysheng.com/bio.
