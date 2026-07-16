@@ -33,7 +33,7 @@ If five of five clear both bars, the audience fit is right. If pages feel like A
 
 These are grep and build checks. Either they pass or they do not.
 
-- `grep -rn '—' docs/` returns zero
+- `rg -n '—' docs/ --glob '!docs/reference/standards/brand-txt.md' | grep -v '!\[' | grep -v '> —' | grep -v '\x60' | grep -v quality-rubric` returns zero. Em dashes are banned in editorial prose; they survive only in comic alt text (which transcribes text rendered inside the images), blockquote attributions, code spans documenting literal emitted formats, the mirrored external brand.txt standard, and this rubric's own commands.
 - `grep -rnE '\bAAS\b|Applied AI Society|Imagos|Curia Regis|Travis Oliphant|Pegasus|human unicorn|Daniel as a service|counselors to the kings|strategy for kings|Christofuturist|1000x' docs/` returns zero. AAS uses word boundaries so it does not falsely match "SaaS". Case-sensitive on purpose; the brand terms have canonical capitalization. The principal is called a "leader" rather than a "king"; the monarchic "king / kingdom" framing has been retired (role-accurate terms like founder, CEO, and operator remain fine). Only the Curia-Regis-flavored phrases above are forbidden.
 - One hundred percent of pages have: frontmatter (title, slug, description), H1 matching title, italic one-line definition under H1, `---` divider, Further Reading section
 - `npm run build` passes with `onBrokenLinks: 'throw'`

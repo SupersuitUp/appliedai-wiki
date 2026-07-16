@@ -1,7 +1,7 @@
 ---
 title: "Graphic Style"
 slug: /reference/graphic-style
-description: "The visual spec lives in one place: the SuperSuit brand OS brand.txt — one link that primes any image model with the full style, tokens, voice, banned terms, and reference set."
+description: "The visual spec lives in one place: the SuperSuit brand OS brand.txt, one link that primes any image model with the full style, tokens, voice, banned terms, and reference set."
 ---
 
 # Graphic Style
@@ -12,7 +12,7 @@ The visual spec for this wiki lives in **one place** — the SuperSuit brand OS 
 
 Paste that one link into any image model or agent and it is primed with the master prompt, color + type tokens, voice, banned terms, and absolute URLs to every Golden Atomic Brand Reference (GABR). It is generated at build time from the brand OS, so it never drifts.
 
-To change the canon, edit the [brand OS](https://supersuit-brand-os.vercel.app) — not this page.
+To change the canon, edit the [brand OS](https://supersuit-brand-os.vercel.app), not this page.
 
 ## Key rules for agents generating comics
 
@@ -23,7 +23,7 @@ These are the most commonly violated rules. They are in brand.txt; they are repe
 - `gabr-13-chief-of-agents.png` — required any time the Chief of Agents appears. The Chief has a gold comms crown and a high-collared conductor's mantle. Without this reference the crown disappears and the Chief looks like a generic hologram.
 - `gabr-02-midas.png` or `gabr-04-chairman.png` — for named hyperagent characters
 
-**No halos or spirals.** Nothing floats above anyone's head in this brand. This includes resolved-state "gold spiral halos" — those are banned.
+**No halos or spirals.** Nothing floats above anyone's head in this brand. This includes resolved-state "gold spiral halos"; those are banned.
 
 **Chief of Agents is holographic, never flesh.** A luminous translucent cyan-and-gold construct in the cyber-cathedral. Never sitting in a real chair. Never in the physical world.
 

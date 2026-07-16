@@ -29,7 +29,7 @@ His framing is also useful for implementers who need to translate their own infr
 
 ## Field Notes
 
-### 2026-05-23 — "Prepare for the AI Token Rug Pull" (YouTube, 5:27)
+### 2026-05-23: "Prepare for the AI Token Rug Pull" (YouTube, 5:27)
 
 A short structural argument with three load-bearing moves:
 

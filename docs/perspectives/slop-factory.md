@@ -48,6 +48,8 @@ Other yellow flags:
 
 When someone calls an AI output "slop," they are usually revealing that they have never seen a well-configured system produce output at its ceiling. The gap between a thin-skill chat session and a [fat-skill](/concepts/fat-skills) production workflow is bigger than most people realize. Slop is almost always a calibration problem: thin skills, no fat skill of what good looks like, no taste layer applied in the loop. Fix the calibration and most of the slop disappears. The factories that remain are the ones that refused to.
 
+Calibration fixes output quality; it cannot fix a broken process being scaled. When the workflow itself is undocumented or wrong, no taste layer saves it, and the slow rebuild in [Don't Scale Slop](/playbooks/dont-scale-slop) is the only cure. The two diagnoses are stages, not rivals: calibrate the outputs, and if slop persists, the process is the patient.
+
 ## The escape
 
 - **Read your own outputs.** Not every one. Enough to stay honest. The day you stop reading them is the day the factory starts producing whatever it wants.

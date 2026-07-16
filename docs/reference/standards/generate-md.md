@@ -81,7 +81,7 @@ the operator explicitly says they want a sibling artifact.
 Above this paragraph, include a **Canonical source** line that links to the rendered page where this GENERATE.md is published. When an operator pastes the file into their harness, the agent (and the operator's future self) should be able to find the canonical page in one click for updates, related material, and the framing that informs the defaults.
 
 ```markdown
-**Canonical source:** [example.wiki/playbooks/<slug>](https://example.wiki/playbooks/<slug>) — the rendered playbook this recipe ships in.
+**Canonical source:** [example.wiki/playbooks/<slug>](https://example.wiki/playbooks/<slug>), the rendered playbook this recipe ships in.
 ```
 
 ### 4. What This Generates
@@ -168,7 +168,7 @@ generates: <one-line artifact description>
 
 # <Artifact Name>
 
-**Canonical source:** [<wiki>/<playbook-slug>](https://<wiki>/<playbook-slug>) — the rendered playbook this recipe ships in.
+**Canonical source:** [<wiki>/<playbook-slug>](https://<wiki>/<playbook-slug>), the rendered playbook this recipe ships in.
 
 You are running a ONE-TIME GENERATION. After this completes, the artifact
 exists at the agreed location and the recipe is done. Do not re-run unless

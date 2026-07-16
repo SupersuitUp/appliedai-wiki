@@ -24,7 +24,7 @@ This playbook does not apply when the buyer is asking for a one-off project, adv
 
 ## Steps
 
-1. **Sell the POC as paid, not free.** A free POC trains the buyer to undervalue the work. The POC pricing should sit between $9K/month at the floor and $30K+/month for fund-level retainers (see [pricing](/playbooks/pricing)). The buyer is paying for evidence, not for a demo.
+1. **Sell the POC as paid, not free.** A free POC trains the buyer to undervalue the work. The POC pricing should sit between $9K/month at the floor and $30K+/month for fund-level retainers (the floor echoes the practitioner quoted in [pricing](/playbooks/pricing)'s Supporting voices; these numbers govern budget-holding mid-market and PE buyers, not the warm-SMB opener in [Pilot Pitch](/playbooks/pilot-pitch)). The buyer is paying for evidence, not for a demo.
 
 2. **Interview every person who touches the function.** This is the foundational month. Not a sample. Not the team leads only. Every single person whose work flows through the function. The output is a workflow map and a universe map (see [pilot scope](/playbooks/pilot-scope)).
 
