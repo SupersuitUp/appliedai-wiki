@@ -2,11 +2,14 @@
 title: "Digital Employee"
 slug: /concepts/digital-employee
 description: "A domain expert's packaged judgment, rentable as a product: the new category agent SDKs unlock, where the expertise scales past the expert's calendar."
+image: "/img/comics/digital-employee.png"
 ---
 
 # Digital Employee
 
 *A domain expert's packaged judgment, rentable as a product. The agent SDKs unlocked a category that did not exist before: the expertise scales past the expert's calendar.*
+
+![Three-panel comic strip on cream paper titled DIGITAL EMPLOYEE. Panel one, labeled "1. THE CALENDAR CAP": the hyperagent (matte-navy plate armor with orange seam accents, wire glasses, cyan wrist glow) sits at his real-world office desk beside a MIDAS HYPERAGENT desk plate and a mug reading JUDGMENT IS MY PRODUCT; behind him a wall calendar with every slot stamped BOOKED in red, a clock reading late, and a queue of four visibly distinct clients waiting at the door. Paper-tape caption: "The judgment is world-class. It is sold one hour at a time." Panel two, labeled "2. PACKAGE THE JUDGMENT": the hyperagent at his workstation, gauntleted hand extended, glowing gold token cards labeled RULES, CHECKLISTS, CRITERIA, TASTE flowing from him into a luminous translucent cyan-and-gold holographic worker taking shape inside a floating virtual frame labeled DIGITAL EMPLOYEE v1.0. Paper-tape caption: "The hyperagent encodes the judgment once." Panel three, labeled "3. RENTED, NOT HIRED": three stacked customer vignettes (HEALTH CLINIC, REAL ESTATE OFFICE, CUSTOM WORKSHOP), each run by a visibly distinct owner, each paired with its own floating virtual panel where a copy of the same holographic digital employee works through a RULES / CHECKLISTS / CRITERIA / TASTE checklist; a rising gold bar meter labeled CONSUMPTION climbs, while the hyperagent calmly reviews a single card labeled EDGE CASE, stamped REVIEWED. Paper-tape caption: "Customers rent the employee. The expertise outruns the calendar." Chunky inked footer bar: PACKAGE THE JUDGMENT. RENT THE EMPLOYEE. SCALE PAST THE CALENDAR.](/img/comics/digital-employee.png)
 
 ---
 
