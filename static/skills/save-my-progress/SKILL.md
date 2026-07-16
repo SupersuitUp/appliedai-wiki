@@ -1,6 +1,6 @@
 ---
 name: save-my-progress
-description: Save my progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, PROPOSES a checklist of durable changes (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back), waits for the user to confirm, then applies only what was approved. The save mechanic for a playable harness experience — a reviewed sweep, never autopilot. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
+description: Save my progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, then APPLIES the durable changes autonomously by default (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back) using best judgment. Pass "ask" as an argument to get the interactive checklist gate instead. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
 ---
 
 # Save My Progress
@@ -10,9 +10,18 @@ A reviewed sweep that rescues the value of a work session before the chat clears
 **Canonical concept:** https://www.appliedai.wiki/concepts/save-your-progress
 This file is hosted at https://www.appliedai.wiki/skills/save-my-progress/SKILL.md — link it, fork it, or copy it into your workspace's skills folder.
 
-## Hard rule: propose, then confirm. Never autopilot.
+## Default: autonomous. Ask only when invoked with "ask".
 
-A save touches load-bearing surfaces (skills, docs, git history). You MUST present a checklist of proposed changes and get explicit user confirmation BEFORE writing anything. The user can approve all, edit, or deselect items. Apply only what they confirm.
+*(Gary's local override, 2026-07-03. The hosted canonical at appliedai.wiki still defaults to propose-then-confirm.)*
+
+**Default mode (no argument):** survey, decide, and apply the durable changes using best judgment — no checklist, no confirmation gate. Commit with clear messages so everything is reviewable and reversible in git history. Then report back what was saved and where.
+
+**Interactive mode (argument `ask`, `interactive`, or "ask me"):** present the AskUserQuestion checklist from Step 2 and apply only what Gary confirms.
+
+Guardrails that hold in BOTH modes:
+- Never touch files another session left dirty (uncommitted changes you did not make); mention them in the report instead.
+- Never push to repos outside the session's workspaces, never publish to public surfaces (wikis, hosted docs) as part of a default save — public promotion is always an explicit ask.
+- When genuinely uncertain whether an item belongs (e.g. a PRM edit built on a secondhand claim), skip it and flag it in the report rather than guessing.
 
 ## Step 0 — Find the last checkpoint (so re-runs are incremental)
 
@@ -30,12 +39,15 @@ Without changing anything, build a picture of the session (scoped to the delta f
 - What was actually produced or changed this session? (Run `git status` / `git diff --stat` if in a repo.)
 - What decisions were made, and the *why* behind them?
 - What was figured out that is repeatable — a technique, prompt shape, sequence, or gotcha? (Candidate tribal knowledge.)
+- Did the session change any versioned artifact — a spec/standard, or an instance carrying `version:` / `last_updated:` metadata or a `conforms_to:` declaration — without bumping its numbers? (Candidate for the version-bump item in Step 3.)
 - What durable surfaces already exist in this workspace? Look for: a work log / changelog, a `skills/` or `.agents/skills/` folder, a wiki or `docs/`, `README`(s), memory/context files (e.g. `people/`, project files, `USER.md`).
 - What is unfinished — open threads and the next obvious move?
 
-## Step 2 — Propose a checklist (the gate)
+## Step 2 — Decide the item list (checklist gate only in interactive mode)
 
-Use the `AskUserQuestion` tool with `multiSelect: true` to present proposed changes as native checkboxes — never plain markdown `[ ]` lists. Each question takes 2–4 options; if you have more than 4 items, split into multiple questions (max 4 questions total) grouped by theme.
+**Default mode:** build the same item list internally, decide inclusion by best judgment, and go straight to Step 3. Do not ask.
+
+**Interactive mode only:** use the `AskUserQuestion` tool with `multiSelect: true` to present proposed changes as native checkboxes — never plain markdown `[ ]` lists. Each question takes 2–4 options; if you have more than 4 items, split into multiple questions (max 4 questions total) grouped by theme.
 
 Typical grouping when there are many items:
 - **Q1 "Durable artifacts"** — work log, skill refinement, wiki/docs update, README update (up to 4)
@@ -63,17 +75,18 @@ AskUserQuestion({
 })
 ```
 
-The user's selections are the confirmed items. Apply only those. If nothing durable applies, say so plainly rather than inventing work.
+In interactive mode, the user's selections are the confirmed items; apply only those. In either mode, if nothing durable applies, say so plainly rather than inventing work.
 
-## Step 3 — Apply only what was confirmed
+## Step 3 — Apply the items
 
-For each confirmed item:
+For each item (self-decided in default mode, confirmed in interactive mode):
 
 - **Work log** — append a dated entry: what got done, key decisions, what changed and why. Do NOT create a work log if none exists unless the user asked for one.
 - **Skill files** — refine the existing skill or scaffold a new `SKILL.md` that captures the repeatable value, so it can be re-invoked later. This is the highest-leverage item; prioritize it.
 - **Wiki / docs** — update the specific pages identified, in the wiki's own voice/conventions.
 - **README / state docs** — reflect the new project state.
 - **Memory / context files** — update the relationship/project/memory files the session touched.
+- **Version bumps** — if the session changed a spec/standard or a versioned instance, bump the numbers as part of the save: update the instance's `version` and `last_updated`; bump the standard's own version when its normative content changed (title, metadata comment, Version Note, and any example version strings inside it); and refresh the `conforms_to` declaration on any instance that was updated against the new standard version. Leave untouched instances at their old `conforms_to` — that lag is the signal the format intends. A content change with a stale version number lies to the next reader.
 - **Commit** — stage and commit with the approved message. Push only if the user asked.
 - **Resume-here note** — record open threads + the next obvious move where the next session will look.
 
