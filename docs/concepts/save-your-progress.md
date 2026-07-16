@@ -68,7 +68,10 @@ This is the payoff. Once the sweep is done, the conversation holds nothing that 
 
 ## How to do it
 
-Use the hosted, model-agnostic **[save-your-progress skill](/skills)** — a `SKILL.md` you can invoke, link, or fork. It encodes the propose-then-confirm sweep above: survey → present the checklist → wait for your confirmation → apply only what you approved → report what was saved. Point your harness at it (or copy it into your workspace's skills folder) and "save" becomes a one-word command.
+Two paths, same destination:
+
+- **Copy the template.** Use the hosted, model-agnostic **[save-my-progress skill](/skills)** — a `SKILL.md` you can invoke, link, or fork. It encodes the propose-then-confirm sweep above: survey → present the checklist → wait for your confirmation → apply only what you approved → report what was saved. Point your harness at it (or copy it into your workspace's skills folder) and "save" becomes a one-word command.
+- **Generate your own.** Hand your agent the paired [GENERATE.md factory](pathname:///skills/save-my-progress/GENERATE.md) instead. It surveys your workspace, interviews you for the gaps (where your skills live, which durable surfaces exist, propose-then-confirm or autonomous, what a save must never touch), and installs a personalized copy with your surfaces baked in, plus a first checkpoint, so your very first save is already incremental. The generic template rediscovers your workspace every save; the generated one already knows it.
 
 It's **incremental**, too. Each save records a small checkpoint (a timestamp and the commit it just made), so running save again in the same session only sweeps what changed *since* — it doesn't re-read the whole chat or re-propose what it already saved. That makes saves cheap enough to hit every hour, not just at the end.
 

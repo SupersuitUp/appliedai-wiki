@@ -1,14 +1,14 @@
 ---
-name: save-your-progress
-description: Save your progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, PROPOSES a checklist of durable changes (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back), waits for the user to confirm, then applies only what was approved. The save mechanic for a playable harness experience — a reviewed sweep, never autopilot. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
+name: save-my-progress
+description: Save my progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, PROPOSES a checklist of durable changes (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back), waits for the user to confirm, then applies only what was approved. The save mechanic for a playable harness experience — a reviewed sweep, never autopilot. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
 ---
 
-# Save Your Progress
+# Save My Progress
 
 A reviewed sweep that rescues the value of a work session before the chat clears or the context window fills. The artifacts are already on disk; this captures everything *around* them — decisions, rationale, newly-earned tribal knowledge — and leaves the workspace resumable.
 
 **Canonical concept:** https://www.appliedai.wiki/concepts/save-your-progress
-This file is hosted at https://www.appliedai.wiki/skills/save-your-progress/SKILL.md — link it, fork it, or copy it into your workspace's skills folder.
+This file is hosted at https://www.appliedai.wiki/skills/save-my-progress/SKILL.md — link it, fork it, or copy it into your workspace's skills folder.
 
 ## Hard rule: propose, then confirm. Never autopilot.
 

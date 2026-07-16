@@ -8,6 +8,11 @@
       "source": "/skills/generate-a-spec/boomerang-prompt.md",
       "destination": "/skills/generate-a-spec/BOOMERANG.md",
       "permanent": true
+    },
+    {
+      "source": "/skills/save-your-progress/SKILL.md",
+      "destination": "/skills/save-my-progress/SKILL.md",
+      "permanent": true
     }
   ]
 }
