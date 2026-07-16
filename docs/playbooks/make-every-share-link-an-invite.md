@@ -39,6 +39,8 @@ The permanence is the point. The graph is not a growth metric to be gamed; it is
 
 Resist the public leaderboard. The reference implementation gives each member a private impact view: "You have brought 3 people. Your branch is 11 strong," with the tree rendered underneath. Members compare themselves to their own past, not to each other. The framing is harvest language (who you brought, how your branch grows), not competition language (rank, points, streaks). For a community product, being shown your legacy is a stronger motivator than being shown your rank, and it never humiliates the member with zero referrals.
 
+Scope this guidance to member communities. Inside an enterprise adoption push, colleagues share a goal and a paycheck, and the [AI Enablement Architect](/roles/ai-enablement-architect) is right to launch a public leaderboard as an adoption mechanic. A community product's members owe you nothing; rank reads as judgment there, so show them their branch instead.
+
 ## Architecture: the whole thing is five collections and a token check
 
 The pattern needs one auth provider, one database, and server-verified API routes. The reference implementation uses Google sign-in via Firebase Auth and Firestore, but any equivalent stack works.
@@ -82,7 +84,7 @@ The guestbook does double duty: it rewards completion with authorship, and it se
 - **Whitelist as root set.** The founders and hand-picked members become the roots of the forest. Everyone else hangs off a branch, so the graph is connected by construction.
 - **Revoke, never delete.** A revoked member's code stops working and their access ends, but their node and edges stay. The history is the asset.
 - **Server-side everything.** Deny-all database rules plus token-verified API routes cost one afternoon and remove the entire class of client-side data leaks, including gated content hiding in static page props.
-- **No charging while the graph is young.** Attribution-gated free access builds the graph; monetization can arrive later with the graph intact.
+- **No charging while the graph is young.** Attribution-gated free access builds the graph; monetization can arrive later with the graph intact. This governs product membership, not client work: a [pilot still gets sold as paid](/playbooks/pilot-to-engagement), because a buyer who pays nothing values nothing, while a member who was personally invited values the invitation itself.
 
 ## Further Reading
 

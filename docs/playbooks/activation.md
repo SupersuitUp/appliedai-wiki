@@ -145,6 +145,7 @@ Activation is not a part of the job. It is the job. Everything else is support i
 - [Personal Agentic OS](/paos/what-it-is): The core thing practitioners are building.
 - [Liberation Architecture](https://supersuit.wiki/concepts/liberation-architecture): The design philosophy for experiences that free rather than trap.
 - [Context Engineering](https://appliedai.wiki/disciplines/context-engineering): Why knowing who the person is matters more than the tool you hand them.
+- [Make Every Share Link an Invite](/playbooks/make-every-share-link-an-invite): The invite-wall pattern that creates the pre-activation moment for anyone who receives a shared link.
 
 ---
 
