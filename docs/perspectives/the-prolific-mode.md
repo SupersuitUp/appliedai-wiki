@@ -78,6 +78,8 @@ Prolific without narrow is tinkering. You keep generating. You never commit. You
 
 The prolific mode only works when both sides hold: you generate with abandon, and you cut with discipline. Loose on the expand. Strict on the narrow.
 
+The narrow is a gate, and it has a budget. Curating by feel is legitimate when a human picks the winner and nothing ships without them; anything that ships autonomously needs the observable checks of [Don't Scale Slop](/playbooks/dont-scale-slop). And taste depletes: [judgment burnout](/perspectives/judgment-burnout) puts a daily ceiling on how many candidates you can honestly judge, so size your rounds to the judgment you actually have left.
+
 ## The Permission
 
 A lot of creatives and operators need to hear this directly: you are allowed to work this way now.

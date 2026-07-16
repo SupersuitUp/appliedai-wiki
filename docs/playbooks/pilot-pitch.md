@@ -30,7 +30,7 @@ This playbook does not apply when you already have a multi-year retainer relatio
 
 3. **Set the clock.** 2 to 4 weeks. Long enough to ship something real. Short enough that the client does not have to commit to a relationship before seeing whether it works.
 
-4. **Price for low friction.** Keep the price accessible for a first engagement. The math should be obvious. If the deliverable saves the client 8 hours a week at a $100/hour loaded cost, that is $40,000 a year. A $4,000 pilot is a 10x payback in the first year. The math sells itself.
+4. **Price for low friction.** Keep the price accessible for a first engagement. The math should be obvious. If the deliverable saves the client 8 hours a week at a $100/hour loaded cost, that is $40,000 a year. A $4,000 pilot is a 10x payback in the first year. The math sells itself. This number is for the trust-based opener with a warm SMB relationship; a budget-holding mid-market or PE buyer runs through [Pilot to Engagement](/playbooks/pilot-to-engagement) instead, where POC floors sit an order of magnitude higher.
 
 5. **Write the pitch in five lines.** See the template below. Send it in an email or a text message. Do not over-produce this. The trust is already there. You are making it easy for them to say yes.
 

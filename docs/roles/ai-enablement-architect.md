@@ -88,6 +88,8 @@ In large organizations, the centralized platform AI Enablement Architect and the
 
 This is high-value, high-leverage work. A single AI Enablement Architect can transform a 200-person company in 90 days. The productivity gains from getting an entire workforce building with AI compound rapidly: Ramp's non-engineers automated workflows worth 16 hours a month, replaced multi-org spreadsheet models in 48 hours, and built training simulators in 15 minutes.
 
+Hours saved and usage leaderboards are leading indicators that the rollout is working, not the engagement's proof. The proof bar stays the same as everywhere else on this wiki: a [load-bearing measurable moves](/perspectives/move-a-load-bearing-measurable). Adoption mechanics are rollout instruments, retired once the numbers the business runs on start moving.
+
 Engagement models vary, but the principles are consistent:
 
 **Full build (3 to 6 months):** deploy the entire platform from scratch: integrations, skill marketplace, adoption mechanics, and coaching. The most comprehensive engagement and commands the highest fees because the architect is building permanent infrastructure that the company will use for years.

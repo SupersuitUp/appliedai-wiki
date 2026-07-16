@@ -47,6 +47,8 @@ Your `user/USER.md` tells the agent who you are. Your `artifacts/` tell it what 
 
 Always-on agents are the mechanism by which a self-improving operation actually runs. Not a human checking dashboards every morning and making adjustments. Agents that continuously monitor, detect, propose, and (with appropriate guardrails) implement improvements.
 
+Autonomy here means volume of background work, not surrender of the decision points. The operator still sets the tempo and holds the judgment calls; an always-on fleet that reduces you to an approval queue is a [reverse centaur](/concepts/reverse-centaur), and the [discriminating use](/perspectives/knowing-ai-changes-how-you-use-it) experts converge on governs what you delegate, not whether you delegate.
+
 Your website goes down at 3am. The agent detects it, restarts the server, and sends you a notification. By the time you see it, it is already resolved.
 
 A skill file has a step that consistently fails. The agent notices the pattern, proposes a fix, logs the change.

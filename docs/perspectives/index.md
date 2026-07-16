@@ -1,7 +1,7 @@
 ---
 title: Perspectives
 slug: /perspectives
-description: "Argument essays. Stances the applied AI engineer can adopt or push back on. Not disciplines, not foundations — perspectives the field is still debating, with a thesis worth defending."
+description: "Argument essays. Stances the applied AI engineer can adopt or push back on. Not disciplines, not foundations: perspectives the field is still debating, with a thesis worth defending."
 ---
 
 # Perspectives

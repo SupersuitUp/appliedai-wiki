@@ -30,7 +30,7 @@ Both are craft an implementer can wire into an agent loop, not just talking poin
 
 A dated log of what was lifted from each Nadella piece this wiki has processed. Most recent first.
 
-### 2026-06-05 — "Satya Nadella on making human and token capital compound" (YouTube, Reid Hoffman)
+### 2026-06-05: "Satya Nadella on making human and token capital compound" (YouTube, Reid Hoffman)
 
 A long-form conversation with Reid Hoffman on what compounds when both human capital and token capital are in play. The lifted idea is cognitive coverage. Nadella relays a GitHub Copilot skill one of his colleagues built: whenever an agent does work, the skill generates a quiz so the human learns what the agent did, the same way test coverage tracks how much of the code the tests exercise. He frames the human's ability to deductively reconstruct what an agent did as one of the more important skills to develop, and pairs cognitive coverage with token intelligence (spending tokens efficiently against a rubric or eval) as the blended skill of the modern knowledge worker.
 

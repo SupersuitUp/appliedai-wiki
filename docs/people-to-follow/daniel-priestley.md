@@ -22,11 +22,11 @@ His content is the principal-side mirror of what the disciplines and playbooks o
 
 ## Contributions
 
-- **[The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for)**: the perspective page distilling his framing of post-AI work — conviction, judgment, taste, commercial outcomes, improving the system.
+- **[The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for)**: the perspective page distilling his framing of post-AI work: conviction, judgment, taste, commercial outcomes, improving the system.
 
 ## Field Notes
 
-### 2026-05-23 — "Why You Must Stop Selling Your Time for Money" (YouTube)
+### 2026-05-23: "Why You Must Stop Selling Your Time for Money" (YouTube)
 
 The video that seeded the contribution above. Three structural moves:
 

@@ -1,12 +1,12 @@
 ---
 title: "Golden Atomic Brand References (GABRs)"
 slug: /concepts/golden-atomic-brand-references
-description: "A curated set of reference images that carry a brand's recurring visual identity — character looks, style anchors, palette, motifs — into every image-generation request. Passed alongside the prompt, they solve the drift problem: identity rides in image data, not text description."
+description: "A curated set of reference images that carry a brand's recurring visual identity (character looks, style anchors, palette, motifs) into every image-generation request. Passed alongside the prompt, they solve the drift problem: identity rides in image data, not text description."
 ---
 
 # Golden Atomic Brand References (GABRs)
 
-*A curated set of reference images that carry a brand's recurring visual identity — character looks, style anchors, palette, motifs — into every image-generation request. Passed alongside the prompt, they solve the drift problem: identity rides in image data, not text description.*
+*A curated set of reference images that carry a brand's recurring visual identity (character looks, style anchors, palette, motifs) into every image-generation request. Passed alongside the prompt, they solve the drift problem: identity rides in image data, not text description.*
 
 ---
 
@@ -14,9 +14,9 @@ description: "A curated set of reference images that carry a brand's recurring v
 
 Each word in the name does load-bearing work:
 
-**Golden** means best-in-class. Not every generated image qualifies — only the ones that best represent what the brand should look like. A GABR is curated, not just collected. If an image doesn't represent the brand at its best, it doesn't enter the canon.
+**Golden** means best-in-class. Not every generated image qualifies; only the ones that best represent what the brand should look like. A GABR is curated, not just collected. If an image doesn't represent the brand at its best, it doesn't enter the canon.
 
-**Atomic** means a single self-contained unit. Each GABR covers one thing: a specific character, a style reference, a motif exemplar, or a brand identity anchor. Not a collage, not a mood board — one thing, done well, reused everywhere.
+**Atomic** means a single self-contained unit. Each GABR covers one thing: a specific character, a style reference, a motif exemplar, or a brand identity anchor. Not a collage, not a mood board: one thing, done well, reused everywhere.
 
 **Brand Reference** names the purpose: it gets fed back to an image model. Not a hero shot for a website, not a mood board for a designer. A reference image that gets passed as input on generation calls to anchor what comes back.
 
@@ -34,25 +34,25 @@ Reference images also provide an IP-safety win. Most frontier image models rejec
 
 The design principle behind GABRs is a clean split:
 
-**Reference images carry the recurring anchors** — character implementation (faces, hair, gear, expressions), exact palette values, line weight, panel-composition family, recurring locations, motif art. These are the things that should look the same across every render. Put them in image data once; pass them every time.
+**Reference images carry the recurring anchors**: character implementation (faces, hair, gear, expressions), exact palette values, line weight, panel-composition family, recurring locations, motif art. These are the things that should look the same across every render. Put them in image data once; pass them every time.
 
-**The prompt carries the per-render variable content** — what is happening in the scene, what the captions read, what banned-term substitutions apply, what panel-count and beat structure this render uses. The part that legitimately varies render to render is the only thing that goes in the prompt.
+**The prompt carries the per-render variable content**: what is happening in the scene, what the captions read, what banned-term substitutions apply, what panel-count and beat structure this render uses. The part that legitimately varies render to render is the only thing that goes in the prompt.
 
-This division collapses the cost of generating a coherent corpus. Prompts stay short for the recurring identity; references do the visual heavy lifting; the per-render language stays focused on what actually changes. With this split in place, adding a new asset doesn't require re-describing the whole brand — just describe the scene and pass the references.
+This division collapses the cost of generating a coherent corpus. Prompts stay short for the recurring identity; references do the visual heavy lifting; the per-render language stays focused on what actually changes. With this split in place, adding a new asset doesn't require re-describing the whole brand: just describe the scene and pass the references.
 
 ## Structure and Annotation
 
 Every GABR in a brand OS has:
 
-- **A file** in `static/brand/generation-layer/golden-atomic-brand-references/` — a PNG, named with a sequential number and descriptive slug: `gabr-01-style-anchor.png`, `gabr-07-russ.png`.
-- **A prompt and alt text** stored alongside it in the brand OS repo — the prompt that generated it, stored so it can be reproduced or iterated.
-- **A registration entry** in `brand.json`'s `golden_atomic_brand_references.references` array — an object with:
+- **A file** in `static/brand/generation-layer/golden-atomic-brand-references/`, a PNG, named with a sequential number and descriptive slug: `gabr-01-style-anchor.png`, `gabr-07-russ.png`.
+- **A prompt and alt text** stored alongside it in the brand OS repo: the prompt that generated it, stored so it can be reproduced or iterated.
+- **A registration entry** in `brand.json`'s `golden_atomic_brand_references.references` array, an object with:
   - `file`: the filename (`gabr-07-russ.png`)
   - `description`: what it depicts
-  - `when`: the routing rule — when should this GABR be passed?
+  - `when`: the routing rule (when should this GABR be passed?)
 - **An entry in `brand.txt`** at build time, formatted as: `- **gabr-07-russ.png** — description | pass when: routing rule → https://absolute-url`
 
-The routing rule (`when`) is what distinguishes a GABR registry from a flat URL list. "Pass for every comic" vs. "pass whenever Russ appears" vs. "pass for any layout with a human figure" — this is the decision logic that tells an agent which image to reach for. Without the routing annotation, an agent sees fourteen files and guesses. With it, the agent has a decision tree.
+The routing rule (`when`) is what distinguishes a GABR registry from a flat URL list. "Pass for every comic" vs. "pass whenever Russ appears" vs. "pass for any layout with a human figure": this is the decision logic that tells an agent which image to reach for. Without the routing annotation, an agent sees fourteen files and guesses. With it, the agent has a decision tree.
 
 ## Characters vs. Style GABRs
 
@@ -66,8 +66,8 @@ GABRs fall into two categories:
 
 A GABR is generated (or captured), validated, registered, and then used on every applicable generation call. The `create-gabr` skill in the brand OS guides this:
 
-1. **Generate a candidate** — or identify an existing on-brand output that's best-in-class.
-2. **Validate against the brand canon** — does it represent the brand's visual identity at its best? Does it cohere with the existing GABR set?
+1. **Generate a candidate**, or identify an existing on-brand output that's best-in-class.
+2. **Validate against the brand canon**: does it represent the brand's visual identity at its best? Does it cohere with the existing GABR set?
 3. **Register it in `brand.json`** with a `file`, `description`, and `when` routing rule.
 4. **Regenerate `brand.txt`** so the annotation appears at the served absolute URL.
 5. **Update `preamble.md`'s GABR routing table** to include the new routing rule.
@@ -76,7 +76,7 @@ A GABR that hasn't been validated and registered is just an image. Registration 
 
 ## Relationship to brand.txt
 
-`brand.txt` is the served interface over the Agentic Brand OS — one link that primes any agent. GABRs appear in the `## Golden Atomic Brand References` section of `brand.txt`, each annotated with description and routing rule. An agent reading `brand.txt` gets the complete routing decision tree: not "here are 14 image files" but "here is which file to reach for, and when."
+`brand.txt` is the served interface over the Agentic Brand OS: one link that primes any agent. GABRs appear in the `## Golden Atomic Brand References` section of `brand.txt`, each annotated with description and routing rule. An agent reading `brand.txt` gets the complete routing decision tree: not "here are 14 image files" but "here is which file to reach for, and when."
 
 This is how the brand stays coherent as the agent roster grows. Every new agent that reads `brand.txt` inherits the same GABR routing logic. The routing table lives in the brand OS, not in any individual agent. A new prompt for a new asset finds the same routing guidance the first prompt used.
 
