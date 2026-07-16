@@ -4,14 +4,14 @@ slug: /reference/standards/boomerang-md
 description: "An agent-readable file format for a prompt you hand to another person. An AI interviews them on their own time and returns build-ready material to you. The family's first consumer-facing format."
 ---
 
-# BOOMERANG.md Specification v0.1
+# BOOMERANG.md Specification v0.2
 
 *A file format for a prompt you hand to another person. They paste it into their own AI, it interviews them on their own time, and it writes their answers back in a structure you can build from. The prompt went out, did the extraction, and came back to you full.*
 
 ---
 
-{/* last_updated: 2026-07-15 */}
-{/* version: 0.1 */}
+{/* last_updated: 2026-07-16 */}
+{/* version: 0.2 */}
 
 BOOMERANG.md is a file format for teaching a consumer AI how to interview a person and return build-ready material. You write it, hand it to the subject, and they paste it into ChatGPT, Claude, or Grok. The AI conducts the interview, then writes a structured artifact the subject sends back to you. It is the codified form of the [Boomerang Prompt](/concepts/boomerang-prompt) pattern.
 
@@ -70,14 +70,14 @@ conforms_to: <this standard's URL> v<version>
 - **`name`**: kebab-case, matches the folder name and any paired SKILL.md or GENERATE.md `name:` field.
 - **`description`**: one line. State what the boomerang extracts and who runs it, then the trailing marker so a harness does not mistake it for a recipe it should execute itself.
 - **`returns`**: one line naming the artifact the subject sends back (for example "a nine-section build-ready spec" or "narrated life-story chapters").
-- **`conforms_to`**: the URL of this standard plus the version this file targets (for example `https://appliedai.wiki/reference/standards/boomerang-md v0.1`). The machine-readable half of the conformance declaration; see Conformance.
+- **`conforms_to`**: the URL of this standard plus the version this file targets (for example `https://appliedai.wiki/reference/standards/boomerang-md v0.2`). The machine-readable half of the conformance declaration; see Conformance.
 
 ### Conformance
 
 Every boomerang declares which version of this standard it conforms to, in two places: the `conforms_to` frontmatter field above (machine-readable), and a visible line beside the Canonical source (human-readable):
 
 ```markdown
-**Conforms to:** [BOOMERANG.md](/reference/standards/boomerang-md) v0.1
+**Conforms to:** [BOOMERANG.md](/reference/standards/boomerang-md) v0.2
 ```
 
 This is non-negotiable. A boomerang with no version reference cannot be checked against the contract it claims to follow, and a reader cannot tell whether it predates a breaking change to the standard. When this standard bumps, an instance keeps its old `conforms_to` version until someone updates it against the new one, which is exactly the signal you want.
@@ -169,7 +169,7 @@ Copy this as a starting point.
 name: <kebab-case-name>
 description: <what it extracts and from whom, ending in "Consumer-facing boomerang prompt; hand to a person, not routed by the harness.">
 returns: <one-line artifact description>
-conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
+conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.2
 ---
 
 <!-- last_updated: YYYY-MM-DD -->
@@ -178,7 +178,7 @@ conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
 # <Return Name> Boomerang
 
 **Canonical source:** [<wiki>/<page-slug>](https://<wiki>/<page-slug>): the rendered page this boomerang ships in.
-**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.1
+**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.2
 
 [Orientation: what this extracts, who you hand it to, that the return is
 build-ready, one run per subject.]
@@ -242,7 +242,10 @@ All three are conforming instances of this spec: the same two-part contract, the
 
 ## Version Note
 
-This is v0.1. The spec documents what works in practice rather than designing comprehensively up front. As more boomerangs ship, the spec evolves based on real usage.
+This is v0.2. The spec documents what works in practice rather than designing comprehensively up front. As more boomerangs ship, the spec evolves based on real usage.
+
+- **v0.2 (2026-07-16):** the send-back is explicitly optional when the return serves the subject directly; Delivery must state which way the artifact goes.
+- **v0.1 (2026-07-15):** initial version.
 
 ## Further Reading
 

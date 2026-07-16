@@ -2,16 +2,16 @@
 name: job-fit-brief
 description: Interview someone figuring out what work suits them (history, strengths, constraints, tastes) and return a job fit brief with concrete role directions, entry paths, and real local openings. Consumer-facing boomerang prompt; hand to a person, not routed by the harness.
 returns: A job fit brief; a profile snapshot, five to seven evidence-backed role directions with entry paths, ready-to-use search terms, and a list of real local openings
-conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
+conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.2
 ---
 
 <!-- last_updated: 2026-07-16 -->
-<!-- version: 0.1 -->
+<!-- version: 0.2 -->
 
 # Job Fit Brief Boomerang
 
 **Canonical source:** [appliedai.wiki/skills/job-fit-brief/BOOMERANG.md](https://appliedai.wiki/skills/job-fit-brief/BOOMERANG.md): the statically served copy of this boomerang.
-**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.1
+**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.2
 
 Hand this to someone who is trying to figure out what jobs would actually suit them: they are between jobs, stuck in the wrong one, re-entering the workforce, or starting out. Their AI interviews them about their history, strengths, constraints, and tastes, then writes a brief with concrete role directions and (when the AI can search the web) real openings near them. The return is decision-ready: you read the brief, sanity-check the directions, and help them pick two or three to pursue. One run per subject.
 
