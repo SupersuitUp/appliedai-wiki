@@ -236,8 +236,9 @@ Start now with Part 1. Ask me only the first question, then wait.
 
 - **[Generate a Build-Ready Spec](/playbooks/generate-a-spec).** A boomerang that interviews someone who wants something built and returns a nine-section spec led by a triage-ready TL;DR. Ships as the front half of a SKILL; the raw paste-in prompt is served statically.
 - **[Generate a Microautobiography](/playbooks/generate-a-microautobiography).** A boomerang that interviews someone across seven areas of their life and returns narrated chapters. Ships as the front half of a GENERATE, whose build phase turns the return into a deployed site.
+- **[Job Fit Brief Boomerang](pathname:///skills/job-fit-brief/BOOMERANG.md).** A boomerang that interviews someone figuring out what work suits them and returns evidence-backed role directions plus real local openings. Stands alone (no build phase) and extends the contract with a Part 3 web-search step after the write.
 
-Both are conforming instances of this spec: the same two-part contract, the same two levers, different areas and different return schemas.
+All three are conforming instances of this spec: the same two-part contract, the same two levers, different areas and different return schemas.
 
 ## Version Note
 

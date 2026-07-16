@@ -61,6 +61,8 @@ Two details that consistently raise quality:
 
 **The build-ready spec.** The same shape, retargeted from a person's story to a person's project. A friend asks you to help build something but hands over a vibe, not a spec. The Boomerang Prompt interviews them across nine areas (the ask, current reality, the dream, features, data, constraints, open questions, success) and returns a build-ready spec led by a triage-ready TL;DR, which they paste into a Google Doc and send you. Now you can tell whether you can help, whether an off-the-shelf tool already does it, or who to forward it to. The full paste-in prompt lives in the [Generate a Build-Ready Spec](/playbooks/generate-a-spec) playbook.
 
+**The job fit brief.** The same shape, retargeted at a person's working life. Someone is between jobs, stuck in the wrong one, or re-entering the workforce, and cannot name what would suit them. The Boomerang Prompt interviews them across nine areas, from work history and proud moments to hard constraints and appetite for retooling, then returns a job fit brief: evidence-backed role directions with local pay ranges and entry paths, plus real openings near them when the AI can search the web. The full paste-in prompt ships as a conforming [BOOMERANG.md instance](pathname:///skills/job-fit-brief/BOOMERANG.md).
+
 The pattern generalizes: change the areas covered and the shape of Part 2, and the same technique produces founder profiles, memorial pages, portfolio narratives, or onboarding dossiers.
 
 ## When to use it, and when not to
