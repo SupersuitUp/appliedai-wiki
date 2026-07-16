@@ -51,6 +51,7 @@ Use this when you want to skim the surface area of the wiki without committing t
 
 ## Business and strategy
 
+- **[Digital Employee](/concepts/digital-employee)**: a domain expert's packaged judgment, rentable as a product. The category agent SDKs unlocked, where expertise scales past the expert's calendar. Secondary name: SMEaaS, subject-matter expertise as a service.
 - **[The Roles-to-Workflows Shift](/concepts/roles-to-workflows)**: stop thinking about your business in terms of roles. Start thinking in terms of workflows. The single biggest mental model shift for the AI era.
 - **[Slop Factory](/perspectives/slop-factory)**: a business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
 - **[Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution)**: execution is being commoditized. The highest-leverage skill in the AI economy is the ability to define reality, set objectives, and evaluate whether the system is working.
