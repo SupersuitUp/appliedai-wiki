@@ -86,14 +86,14 @@ Up to ten real, current openings. For each: employer, job title, location, pay i
 
 If you cannot search the web, say so plainly and skip this section; the Search Terms section above is what I will use instead.
 
-FINALLY: tell me to copy the whole brief into a new Google Doc, set it to "anyone with the link can view," and send that link to the person who gave me this prompt. The Google Doc is the thing I share, not this chat.
+FINALLY: tell me to copy the whole brief into a new Google Doc. The brief is mine. If someone handed me this prompt and is helping me with the search, I should set the doc to "anyone with the link can view" and send them the link so they can pressure-test the directions with me; the Google Doc is the thing I share, not this chat. If I am running this on my own, I just keep the doc and work from it.
 
 Start now with Part 1. Ask me only the first question, then wait.
 ```
 
 ## Delivery
 
-The subject pastes the finished brief into a Google Doc, link-shares it, and sends you the URL. Read the Role Directions first: each one should trace to a story from the interview, not generic reasoning. Sanity-check the pay ranges and entry paths against your own knowledge of their market, then help them pick two or three directions to pursue. If the Openings Near Me section came back, spot-check that the links are live before they apply. If their AI could not search the web, run the Search Terms yourself (or in your own harness with web search) and send back what you find.
+The brief belongs to the subject; the send-back is optional. This boomerang is one whose return serves the subject directly, so if they want to run with it alone, that is a success, not a broken loop. When you handed it over as a helper, the subject pastes the finished brief into a Google Doc, link-shares it, and sends you the URL. Read the Role Directions first: each one should trace to a story from the interview, not generic reasoning. Sanity-check the pay ranges and entry paths against your own knowledge of their market, then help them pick two or three directions to pursue. If the Openings Near Me section came back, spot-check that the links are live before they apply. If their AI could not search the web, run the Search Terms yourself (or in your own harness with web search) and send back what you find.
 
 ## Common scenarios
 

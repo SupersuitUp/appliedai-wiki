@@ -113,7 +113,7 @@ The payload, clearly delimited (a fenced block) so the operator knows exactly wh
 
 ### 6. Delivery
 
-Operator-facing. What comes back, in what form (a Google Doc by default), and what you do with it once it lands.
+Operator-facing. What comes back, in what form (a Google Doc by default), and what you do with it once it lands. The send-back is the default, not a requirement: when the return serves the subject directly (a job fit brief, a personal plan), say so here and make sharing back optional, reserved for the case where the operator is helping them act on it. A subject who keeps the doc and runs with it is a success, not a broken loop.
 
 ## Optional Sections
 
@@ -137,7 +137,7 @@ A boomerang is a primitive, not always a whole deliverable. It is frequently the
 - A **SKILL** that produces a document ships the boomerang as the gathering step and keeps the building step for the operator. See [Generate a Build-Ready Spec](/playbooks/generate-a-spec).
 - A **GENERATE** that scaffolds an artifact embeds the boomerang as its interview phase, then runs the build phase in a harness. See [Generate a Microautobiography](/playbooks/generate-a-microautobiography).
 
-When a boomerang stands alone (no build phase, the return is the deliverable), it ships as its own file with nothing wrapped around it.
+When a boomerang stands alone (no build phase, the return is the deliverable), it ships as its own file with nothing wrapped around it. Standalone returns often serve the subject rather than the operator, which makes the send-back optional (see Delivery above): the boomerang shape still earns its keep through the interview contract and the typed return, even when nothing needs to come back to you.
 
 ## Filing Convention
 

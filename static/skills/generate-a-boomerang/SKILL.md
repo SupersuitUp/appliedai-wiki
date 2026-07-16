@@ -30,7 +30,7 @@ Four questions decide everything. Ask whichever the operator has not already ans
 1. **What comes back?** Name the return artifact in one line (a build-ready spec, a job fit brief, narrated life-story chapters). This becomes the `returns:` field and the H1.
 2. **Who is the subject?** Their relationship to the operator, their comfort with chat tools, and anything that shapes tone (a parent, a client, a friend who hates forms).
 3. **What must the interview surface?** The facts, stories, numbers, and constraints the return cannot be built without.
-4. **What happens to the return?** What the operator does when the doc lands. This shapes what "build-ready" means and writes the Delivery section.
+4. **What happens to the return?** What the operator does when the doc lands, and whether it needs to come back to the operator at all. When the return serves the subject directly (a plan, a brief they act on themselves), make the send-back optional in both the Delivery section and the paste-in prompt's final instruction. This shapes what "build-ready" means and writes the Delivery section.
 
 ### 3. Design the return schema first
 
