@@ -1,0 +1,62 @@
+---
+title: "You Can't Distill Your Way to the Frontier"
+slug: /perspectives/you-cant-distill-your-way-to-the-frontier
+description: "Distilling a model from another model's outputs reproduces the teacher's surface answers while inheriting its errors. You can copy the frontier cheaply, but you cannot lead from a copy: the durable edge belongs to the models trained closest to reality."
+image: "/img/comics/you-cant-distill-your-way-to-the-frontier.png"
+---
+
+# You Can't Distill Your Way to the Frontier
+
+*Distilling a model from another model's outputs reproduces the teacher's surface answers while inheriting its errors. You can copy the frontier cheaply, but you cannot lead from a copy: the durable edge belongs to the models trained closest to reality.*
+
+![Three-panel cream-paper comic strip. Chunky inked title bar reads "YOU CAN'T DISTILL YOUR WAY TO THE FRONTIER"; footer bar reads "A COPY OF A COPY DRIFTS FROM REALITY". Panel 1: Midas the hyperagent in a bulky matte-navy Supersuit with orange seams and a cyan visor stands on a ridge studying a real rugged coastline and mountains directly; corner stamp "HYPERCONTEXT LOADED"; paper-tape caption "TRAINED ON REALITY: HUMANS' BEST MAPS OF THE WORLD". Panel 2: an industrial copier feeds a terrain map into itself in a loop, each copy fainter and more warped than the last, while a small holographic cyan model-figure traces from a faded copy without looking at the real world; caption "DISTILLED FROM A MODEL: A MAP OF A MAP". Panel 3: a small aircraft flies a dotted flight-path that starts a few degrees off and fans wide with red drift marks past a runway it can no longer reach, beside a tall tower leaning at its top floors like a castle in the sky; corner stamp "MISSION INTACT"; caption "SMALL OFFNESS COMPOUNDS - YOU CAN COPY THE FRONTIER, NOT LEAD FROM A COPY".](/img/comics/you-cant-distill-your-way-to-the-frontier.png)
+
+---
+
+## Two different training targets
+
+There are two ways to point a model at what it should learn.
+
+- **Train against reality.** The corpus is human output: text, code, images, the accumulated record of people trying to describe and operate on the world. It is not reality itself. It is billions of humans' best attempts to map reality, with all the error that implies.
+- **Train against another model.** The corpus is the outputs of a stronger model. You prompt the teacher, collect its answers, and fit a cheaper student to reproduce them. This is distillation, and it is a real strategy: it is fast, it is cheap, and it produces a model that sounds a lot like the teacher.
+
+The two look similar from the outside. Both produce a capable assistant. The difference is what each one is a map of, and that difference compounds.
+
+## The map of a map
+
+A model trained on human data is a map of the territory, drawn by people who were themselves working from partial maps. That is already lossy. The same distortion is named one level down in [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): the published record skews toward what someone wanted the world to see, not toward what is true. So even the best case is offset from reality.
+
+A model distilled from another model is a map of that map. It never touches the territory. Its ground truth is a second system's rendering of a rendering. Whatever the teacher got subtly wrong, the student now takes as the target to hit exactly. The error is no longer a bug the student can correct against the world, because the student is not looking at the world. It is looking at the teacher.
+
+That is the whole claim: a simulator trained on someone else's simulator is one more step removed from the thing being simulated, and each step is a place for error to enter and stay.
+
+## The surface copies well; the depth does not
+
+Distillation is genuinely good at the surface. On common questions, standard formats, and the well-trodden middle of a domain, the teacher's answers are strong and the student reproduces them faithfully. For most real-world use that is enough. Most work does not go deep enough for the gap to show.
+
+The gap shows where the teacher was already near the edge of its own competence: novel reasoning, high-stakes judgment, the long philosophical or technical chains where being slightly off at step one becomes being wrong at step twelve. There, the teacher's own small errors are not noise the student averages out. They are the signal the student was trained to match. The copy cannot exceed the original on exactly the questions where the original was already straining, because those are the questions where it has nothing but the original to go on.
+
+This is why a distilled model can benchmark well and still feel thin under pressure. It has the teacher's answers. It does not have the teacher's contact with reality that produced them.
+
+## Small offness compounds
+
+Compounding error is not linear. An aircraft a few degrees off heading loses the runway not because the error is large but because it accumulates over distance. A structure built plumb-to-a-plumb-line-that-was-itself-leaning is a castle in the sky: fine near the ground, catastrophically off by the top floor.
+
+Reasoning is the same shape. Each inference step inherits the offset of the step before it. A model whose ground truth is one remove from reality starts every chain slightly off, and the longer the chain, the further it drifts. This is the same failure the operator courts in [LLM Psychosis](/perspectives/llm-psychosis): trusting fluent output that has quietly diverged from the world, with the divergence invisible until it is expensive. A model built on other models has that divergence baked into its foundations rather than introduced at use time.
+
+## What it means for operators
+
+The practical read is two-sided, and both sides matter.
+
+- **For surface work, use the cheap copy.** Any competent open or distilled model will handle the common middle of most tasks, and it will do it at a price the frontier cannot match. This is the real force behind [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling): the copy is good enough often enough to discipline what the frontier can charge. Do not overpay for depth you are not using.
+- **For depth, buy contact with reality.** When the task is the kind where a small early error compounds into a wrong answer nobody catches until it ships, reach for the model trained closest to reality, not the cheapest reproduction of it. The premium you are paying is not for eloquence. It is for fewer accumulated removes between the answer and the world.
+
+The same discipline governs your own work, not only your model choice. Building your system on another model's outputs, or on AI-generated context you never checked against ground truth, is distillation by another name: you are fitting your work to a rendering instead of the territory. Pull toward reality wherever the stakes justify it. That pull, applied by the operator, is what [Propaganda-Weighted Average](/concepts/propaganda-weighted-average) and [Wisdom Is the Only Durable AI Defense](/perspectives/wisdom-is-the-only-durable-ai-defense) both come back to: the durable edge is proximity to what is actually true, and a copy of a copy has traded that away for cheapness.
+
+## Further Reading
+
+- [Propaganda-Weighted Average](/concepts/propaganda-weighted-average) why even reality-trained models are offset from the truth, and how the operator pulls them back
+- [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling) why the cheap copy still reshapes the market even if it cannot lead it
+- [LLM Psychosis](/perspectives/llm-psychosis) the use-time version of the same drift: trusting output that has diverged from reality
+- [Wisdom Is the Only Durable AI Defense](/perspectives/wisdom-is-the-only-durable-ai-defense) proximity to truth as the edge that does not commoditize
+- [The Jagged Frontier](/perspectives/the-jagged-frontier) why capability is uneven, and why the depth gap hides behind a strong surface
