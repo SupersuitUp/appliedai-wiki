@@ -66,6 +66,12 @@ The same sweep that protects future-you produces the artifact present-you needs 
 
 This is the payoff. Once the sweep is done, the conversation holds nothing that isn't also somewhere durable. You can compact it, archive it, or delete it with zero loss. Treat your work like a video game: you played hard, you hit **save**, and now you can power down knowing the next session resumes exactly where this one earned its place.
 
+## An optional flourish: text future-you a breadcrumb
+
+Once the sweep is done and the checkpoint recorded, here is a delightful add-on that costs nothing: fire yourself a short, cheeky message (an iMessage, a Slack note-to-self, whatever you actually scroll back through) that says in plain and slightly funny terms what you were up to at this exact point in your week. Not a changelog. A breadcrumb. The full account already went to the report-back and the work log; this is the one line that, three weeks later, makes you go "oh right, *that* is what Thursday was."
+
+It is pure personal flavor, and entirely optional. The canonical save is the durable sweep above, which still proposes before it writes; this rides on top of it. But it turns your message history into a running, self-narrated trail through the work, which is its own kind of [memory file](/concepts/memory-files). Keep it cheeky, keep it to a couple of lines, and let it match the mood of the actual session (grind, breakthrough, cleanup, rabbit hole won).
+
 ## How to do it
 
 Two paths, same destination:

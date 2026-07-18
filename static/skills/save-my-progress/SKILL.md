@@ -1,6 +1,6 @@
 ---
 name: save-my-progress
-description: Save my progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, then APPLIES the durable changes autonomously by default (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back) using best judgment. Pass "ask" as an argument to get the interactive checklist gate instead. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
+description: Save my progress at the end of (or partway through) a heavy agentic work session. Surveys the session and workspace, then APPLIES the durable changes autonomously by default (work log, skill files, wiki/docs, README, memory/context, commit, resume note, report-back) using best judgment, and fires Gary a cheeky text-to-self recap so future-Gary remembers wtf he did. Pass "ask" as an argument to get the interactive checklist gate instead. Use when the user says "save", "save my progress", "/save", "checkpoint", "wrap up this session", or before clearing/compacting a rich chat.
 ---
 
 # Save My Progress
@@ -94,6 +94,34 @@ For each item (self-decided in default mode, confirmed in interactive mode):
 
 - **Record a save checkpoint** so the next save is incremental: append a one-line entry — `<ISO timestamp> · <commit SHA you just made> · <one-line summary>` — to the work log if one exists, otherwise to a `SAVE-LOG.md` at the workspace root. This is the anchor Step 0 reads next time.
 - **Report back:** output the report-back summary (what was saved, where) and state plainly that the chat is now safe to clear/compact — nothing of value lives only in the conversation anymore.
+
+## Step 5 — Cheeky text-to-self (default-on breadcrumb)
+
+*(Gary's local addition, 2026-07-18. Not in the hosted canonical — see the appliedai.wiki concept for the "fun optional" framing.)*
+
+After the checkpoint is recorded, fire Gary a **short, cheeky iMessage to himself** — a breadcrumb dropped in his Messages so that weeks or months from now, scrolling back, he can remember wtf he was doing at this exact point in his week and life. This is the whole point: a running, self-narrated trail through the work.
+
+Send it via the `send-imsg` skill to himself:
+
+```bash
+printf '<the cheeky recap>' | python3 ~/.agents/skills/send-imsg/scripts/send.py gary-sheng --stdin
+```
+
+(`gary-sheng` resolves to his own `phone:` in PRM. Fall back to the literal number if the slug lookup fails.)
+
+How to write the text — it has ONE job: jog memory + make him smirk.
+- **Cheeky, not corporate.** First-person or narrator voice, dry humor, a little self-aware. Talk to future-Gary like a friend who was in the room. No "Session complete. Artifacts saved." energy — ever.
+- **Lead with a timestamp hook** so the scroll-back lands: `📍 Fri afternoon —` or `🗓️ 7/18, deep in it —`.
+- **Say what actually happened in plain terms** (the 1–2 things that mattered), then **where it lives** (repo / wiki / doc), so it's a real breadcrumb not just a vibe.
+- **Keep it to 2–4 lines.** A text, not a changelog. The full account already went to the report-back and the work log.
+- **Vary it** — no fill-in-the-blank template every time. Match the mood of the actual work (grind, breakthrough, cleanup, rabbit hole).
+
+Example shapes (don't copy verbatim — riff):
+- `📍 7/18 ~3pm — past-you finally taught /save-my-progress to text future-you (this is that text 👋). lives in ~/.agents/skills. you're welcome.`
+- `🗓️ Fri, elbow-deep in the appliedai wiki — shipped the save-your-progress concept + 2 cross-links. if you're reading this wondering why the wiki looks different: that was you.`
+- `📍 late Thurs — went down a 90-min rabbit hole on the imsg attachment bug, WON. clipboard-paste path is the move. don't re-litigate this, you already suffered.`
+
+If nothing meaningful happened this run (a no-op save), skip the text rather than sending noise.
 
 ## Notes
 
