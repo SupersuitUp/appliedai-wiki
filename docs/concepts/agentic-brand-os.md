@@ -1,15 +1,15 @@
 ---
 title: "Agentic Brand OS"
 slug: /concepts/agentic-brand-os
-description: "An Agentic Brand OS is the full machine-consumable package of a brand: every logo conversion, color and type tokens as code, a motif and template library, a generation layer (preamble, Golden Atomic Brand References, example prompts, banned terms) for what gets rendered, and coded Golden Atomic Brand Templates for what must be exact, so an agent produces new sites, decks, and assets that all land in the same brand universe."
+description: "An Agentic Brand OS is the runtime that loads a brand's version-controlled cartridge (its canon and blessed goldens) and renders any on-brand asset from it, so an agent produces new sites, decks, and assets that all land in the same brand universe."
 image: "/img/comics/agentic-brand-os.png"
 ---
 
 # Agentic Brand OS
 
-*An Agentic Brand OS is the full machine-consumable package of a brand. Every logo conversion, color and type tokens as code, a motif and template library, a generation layer (preamble, Golden Atomic Brand References, example prompts, banned terms) for what gets rendered, and coded Golden Atomic Brand Templates for what must be exact, so an agent produces new sites, decks, and assets that all land in the same brand universe.*
+*An Agentic Brand OS is the runtime, the console, that loads a brand's version-controlled cartridge (its canon plus blessed goldens) and renders any on-brand asset from it, so an agent produces new sites, decks, and assets that all land in the same brand universe.*
 
-![4-panel comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "AGENTIC BRAND OS". Footer bar: "THE OPERATING SYSTEM FOR YOUR BRAND". PANEL 1, label "THE DRIFT": Midas in matte-navy Supersuit with orange seams stands amid scattered brand books, style guides, and color swatches flying everywhere. Caption: "A brand book rots the moment it ships." PANEL 2, label "THE OS": Midas holds up a glowing data card labeled "brand.json"; behind him, a clean organized system showing Tokens, Voice, and Generation Layer nodes connected by glowing lines. Caption: "Not a book. An OS." PANEL 3, label "THE PRIME": Close-up of a terminal or holographic display showing a single glowing URL "brand.txt" against dark background. Caption: "One link primes any agent." PANEL 4, label "ON-BRAND AT SCALE": Midas stands confidently as multiple holographic asset previews materialize — a social card and a reel cover — all labeled "HYPERCONTEXT LOADED." Caption: "Every output. Same universe."](/img/comics/agentic-brand-os.png)
+![4-panel comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "AGENTIC BRAND OS". Footer bar: "THE OPERATING SYSTEM FOR YOUR BRAND". PANEL 1, label "THE DRIFT": Midas in matte-navy Supersuit with orange seams stands amid scattered brand books, style guides, and color swatches flying everywhere. Caption: "A brand book rots the moment it ships." PANEL 2, label "THE OS": Midas holds up a glowing data card labeled "brand.json"; behind him, a clean organized system showing Tokens, Voice, and Generation Layer nodes connected by glowing lines. Caption: "Not a book. An OS." PANEL 3, label "THE PRIME": Close-up of a terminal or holographic display showing a single glowing URL "brand.txt" against dark background. Caption: "One link primes any agent." PANEL 4, label "ON-BRAND AT SCALE": Midas stands confidently as multiple holographic asset previews materialize (a social card and a reel cover), all labeled "HYPERCONTEXT LOADED." Caption: "Every output. Same universe."](/img/comics/agentic-brand-os.png)
 
 ---
 
