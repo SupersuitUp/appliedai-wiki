@@ -2,11 +2,14 @@
 title: "The Three Actors of Value Creation"
 slug: /concepts/three-actors-of-value-creation
 description: "Engineering value now comes from three actors: engineers, agents, and code. The craft is placing each in the right node. Ranked by reliability it goes code, then engineers, then agents, and code is the one everyone forgets."
+image: "/img/comics/three-actors-of-value-creation.png"
 ---
 
 # The Three Actors of Value Creation
 
 *Engineering value now comes from three actors: engineers, agents, and code. The craft of agentic engineering is knowing when and where to place each.*
+
+![Four-panel cream-paper comic titled "THE THREE ACTORS OF VALUE CREATION" with a footer bar reading "ENGINEERS, AGENTS, CODE: THE CRAFT IS KNOWING WHERE TO PLACE EACH." Panel 1, "MEET THE THREE ACTORS": three actors stand shoulder to shoulder, labeled ENGINEER (a flesh hyperagent in bulky matte-navy plate armor with orange seams), AGENTS (two luminous translucent cyan-and-gold holographic figures), and CODE (a solid crimson-and-gold machine part of interlocking gears with CODE stamped into the metal); caption "ENGINEERS. AGENTS. CODE." Panel 2, "EVERYONE FIXATES ON THE FLASHY ONES": a crowd with cameras and spotlights points at the dazzling holographic agents while the CODE machine spins fast and unnoticed; caption "CODE NEVER HALLUCINATES. COSTS ZERO TOKENS. RUNS AT THE SPEED OF LIGHT."; stamp "READY." Panel 3, "THE RELIABILITY RANKING": a three-tier podium with CODE on the 1st step, the ENGINEER on the 2nd, and the AGENTS on the 3rd; caption "MOST RELIABLE FIRST: CODE, THEN ENGINEERS, THEN AGENTS." Panel 4, "THE CRAFT IS PLACEMENT": the flesh hyperagent places each actor into a left-to-right workflow pipeline, with CODE machine parts in the deterministic foundation and delivery nodes, one holographic AGENT in the unpredictable-creation middle node, and the engineer at the taste-and-validation edges; caption "THE HYPERAGENT PLACES EACH ACTOR WHERE IT BELONGS."; stamp "MISSION INTACT."](/img/comics/three-actors-of-value-creation.png)
 
 ---
 
