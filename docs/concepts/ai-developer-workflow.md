@@ -2,11 +2,14 @@
 title: "AI Developer Workflow"
 slug: /concepts/ai-developer-workflow
 description: "The real unit of agentic engineering: a repeatable composition of engineers, agents, and code that runs a piece of work end to end. The loop is one node inside it. Composed up behind a router, many of them become a software factory."
+image: "/img/comics/ai-developer-workflow.png"
 ---
 
 # AI Developer Workflow
 
 *The real unit of agentic engineering is not the loop. It is the workflow: a repeatable composition of engineers, agents, and code that carries a piece of work from prompt to shipped result.*
+
+![Four-panel cream-paper comic titled "AI DEVELOPER WORKFLOW" with the footer bar "THE UNIT ISN'T THE LOOP. IT'S THE WORKFLOW." Panel 1, "THE LOOP TRAP": the matte-navy-armored hyperagent Midas hunches over his desk peering through a magnifying glass at one small glowing cyan gear stamped "LOOP" beside a red "FAILED" chip; caption "Midas obsessed over one retry loop." Panel 2, "HE DESIGNS THE LINE": Midas steps back with arms wide as a glowing conveyor-belt assembly line of five labeled stations lights up — PLAN, BUILD, TEST, REVIEW, SHIP — with the tiny "LOOP" gear now tucked inside the TEST station; caption "So he designed the whole workflow. The loop was one small gear." Panel 3, "HE HOLDS THE ENDS": flesh Midas stands at both ends of the line, hand on the PLAN intake at left and the REVIEW gate at right, while bare-headed holographic cyan sub-agents and blocky mechanical "CODE" machines run the middle stations; caption "He holds the two ends. Agents and code hold the middle." Panel 4, "THE SOFTWARE FACTORY": a glowing "ROUTER" hub feeds tickets into many parallel copies of the same PLAN-BUILD-TEST-REVIEW-SHIP line, output cards stamped "READY" roll off the ends, and a crimson "MISSION INTACT" stamp sits in the corner; caption "Behind a router, many lines become a software factory."](/img/comics/ai-developer-workflow.png)
 
 ---
 
