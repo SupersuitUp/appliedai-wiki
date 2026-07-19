@@ -21,6 +21,8 @@ An **Agentic Brand OS** is the same identity rebuilt as a machine-consumable pac
 
 The test is concrete. Hand the OS to an agent with no designer in the loop and ask for a new landing page, a pitch deck, and a set of social cards. If what comes back is unmistakably the same brand, the OS is real. If the agent has to guess, you have a brand book, not a brand OS.
 
+A sharper way to name the parts is a three-layer ontology. The version-controlled package of brand data (the canon plus the blessed goldens) is the cartridge, its own concept: the [Agentic Brand Universe](/concepts/agentic-brand-universe). The engine that loads that cartridge and renders from it is the console, the runtime. A finished asset is the projection. Everything catalogued below is what rides in the cartridge; the OS is the runtime that consumes it. The cartridge is the settled, spec'd part; the OS as a deployed general runtime is the emerging part still being figured out.
+
 ## Why Agentic Changes the Job
 
 The old brand book optimized for a designer reading it once and internalizing the rules. The brand OS optimizes for an agent consuming it on every render. That flips what each asset has to be.
@@ -121,6 +123,7 @@ One on-brand asset is a deliverable. The brand OS is the asset that makes every 
 
 ## Further Reading
 
+- [Agentic Brand Universe](/concepts/agentic-brand-universe): the cartridge the OS loads, and the cartridge-console-projection ontology this page sits inside.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the curated reference images that carry identity into every render.
 - [Golden Atomic Brand Templates](/concepts/golden-atomic-brand-templates): the coded twin, templates that render exact-text assets to exact pixels.
 - [brand.txt](/reference/standards/brand-txt): the single served file that primes any agent to generate from the OS in one link.
