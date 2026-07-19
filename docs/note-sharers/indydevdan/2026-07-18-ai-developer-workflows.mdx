@@ -1,0 +1,106 @@
+---
+title: "IndyDevDan: forget loop engineering, build AI developer workflows"
+description: "Field notes from IndyDevDan's case against 'loop engineering.' The loop is one node. The real unit is the AI developer workflow: the right combination of engineers, agents, and code, composed up into a software factory."
+date: 2026-07-18
+source_url: https://youtu.be/VQy50fuxI34
+source_firm: indydevdan
+source_type: webinar
+tags: [agentic-engineering, workflows, harness, orchestration, control-flow]
+---
+
+# IndyDevDan: forget loop engineering, build AI developer workflows
+
+*Field notes from IndyDevDan's case against "loop engineering." The loop is one node. The real unit is the AI developer workflow: the right combination of engineers, agents, and code, composed up into a software factory.*
+
+---
+
+## Source
+
+- **Firm:** IndyDevDan (Dan Eisler), solo agentic-engineering channel, agenticengineer.com.
+- **Format:** YouTube video, 34:18.
+- **Date published:** 2026-07-13.
+- **URL:** https://youtu.be/VQy50fuxI34
+- **What it covers:** A visual argument that "loop engineering" is a poor rebrand of the software development life cycle, and that the real construct is the AI developer workflow (ADW): a composition of code, agents, and engineers that scales up into a software factory. Builds the picture from one prompt-and-review node up to org-scale ticket routing.
+- **Endorsement disclaimer:** His framings and claims are relayed here as his. We have not validated the specific workflow patterns across our own engagements.
+
+## What we lifted
+
+### 1. Forget loop engineering; the workflow is the unit
+[→ new concept: [/concepts/ai-developer-workflow](/concepts/ai-developer-workflow)] · [→ reinforces: [/playbooks/designing-an-ai-loop](/playbooks/designing-an-ai-loop)] · [→ reinforces: [/concepts/roles-to-workflows](/concepts/roles-to-workflows)]
+
+The whole video is a naming argument, and naming is half the value. IndyDevDan's claim: "loop engineering" is a hype-filled rebrand of the SDLC, and a loop is only one node inside something larger. Once you have a loop, you would also need condition engineering, function engineering, exception engineering, a new "-engineering" for every control-flow primitive, forever. The honest name is the AI developer workflow: plan, build, test, review, merge, ship, with agents and code standing in for the steps engineers used to run by hand. This bumps directly against our own [designing an AI loop](/playbooks/designing-an-ai-loop) framing, which calls the loop the unit of construction. Both are right at different altitudes: a self-improving loop is one kind of workflow, and the workflow is the bigger container. Worth holding the tension rather than collapsing it.
+
+### 2. Three actors of value creation: engineers, agents, code
+[→ new concept: [/concepts/three-actors-of-value-creation](/concepts/three-actors-of-value-creation)]
+
+The cleanest primitive in the talk. All engineering value now comes from three actors: engineers, agents, and code. The game is knowing when and where to place each. His reliability ranking, most reliable first: code, then engineers, then agents. Code is the unsung hero everyone forgets in their "AI psychosis." It runs the same way every time, it never hallucinates, it costs zero tokens, and it moves at the speed of light. Agents get all the attention and are the least reliable of the three. The operator lesson is to stop reaching for an agent by default and put deterministic code wherever the work is genuinely fixed.
+
+### 3. You show up at the two ends: planning and reviewing
+[→ reinforces: [/perspectives/humans-at-the-edges](/perspectives/humans-at-the-edges)] · [→ reinforces: [/concepts/in-on-out-of-the-loop](/concepts/in-on-out-of-the-loop)]
+
+Across every diagram, the engineer appears in the same two places: the beginning and the end. Prompting (also called planning) and reviewing (also called validation) are the two constraints of agentic engineering at scale. The system does everything in the middle. This is the same shape as [humans at the edges](/perspectives/humans-at-the-edges) seen from inside the workflow: the human holds the highest-leverage entry and exit points, and the interior is absorbed by the composed system.
+
+### 4. Build the system that builds the system
+[field-note bullet] · [→ reinforces: [/perspectives/strategy-is-the-new-execution](/perspectives/strategy-is-the-new-execution)]
+
+His recurring line: the most value-accretive thing an engineer can do is design the AI developer workflow, not do the work inside it. There is an app layer (the product, which is for your agents to operate) and an agentic layer (the agents, prompts, skills, and system prompts that wrap it). The best teams do meta-work on the agentic layer, because that layer compounds across the whole organization. Controversial version: the best engineering teams rarely touch the product themselves. This is the harness view of [strategy is the new execution](/perspectives/strategy-is-the-new-execution).
+
+### 5. The software factory
+[→ new concept: [/concepts/ai-developer-workflow](/concepts/ai-developer-workflow)]
+
+Compose enough specialized workflows behind a router and you get a software factory: a ticket lands (feature, bug, chore, hot fix), a factory router agent reads the codebase and picks the right workflow, a sandbox spins up, and the work ships. Different tickets get different workflows at different price and performance: a chore gets one lightweight agent, a feature gets your best planners and scouts. Done right, the factory operates the product better than the team could by hand. This is folded into the AI developer workflow concept page as its org-scale form.
+
+### 6. Scale compute to scale impact: sandboxes over worktrees
+[field-note bullet] · [→ reinforces: [/concepts/remote-harness-control](/concepts/remote-harness-control)]
+
+To do more work in parallel, give each agent its own isolated environment so they do not trip over each other. Worktrees are "a great place to start, not a great place to end." The better move is a full agent sandbox per agent: its own computer you can jump into to inspect the running app, the tests, the web page. On a production hot fix, race three to five to ten sandboxes toward a solution and take the first correct one. His forecast: agent sandboxes will be the majority of computers in the world, while humans use fewer and fewer devices directly.
+
+### 7. Agent experts: specialization beats out-of-the-box
+[field-note bullet]
+
+He has been pushing against out-of-the-box agents for a long time. A product or company is a specialization by definition: specific people and technology solving a specific problem for a specific user. So your expertise is the most valuable thing you have, and you template it into custom specialized agents ("agent experts"). His worked example is a surgical hot fix agent: not doing things the fancy way, not optimizing anything, prioritized to get the fix out ASAP and nothing else.
+
+### 8. Separate code from agents
+[→ reinforces: [/perspectives/sometimes-the-workflow-step-should-be-an-agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent)] · [→ reinforces: [/disciplines/harness-engineering](/disciplines/harness-engineering)]
+
+His sharpest operational rule. Do not bury the linter at the bottom of a skill, because that is still your agent running it. Instead: run a build agent, then run the linter as a separate piece of code, and when it fails, feed the result back into the build agent with the same session ID. Keep code and agents as distinct nodes with clean interfaces. This is not only about token cost. It is about performance, reliability, speed, and being able to test each transition. Agents plus code beats either alone.
+
+### 9. Design the workflow by doing the work yourself first
+[field-note bullet] · [→ reinforces: [/playbooks/workflow-decomposition](/playbooks/workflow-decomposition)]
+
+His build advice. Keep it simple, stupid: start with the simplest workflow you can, usually one agent you babysit. Then run the whole thing end to end yourself, stepping into each node (you can still use your agent in the terminal), before you encode it. Write it out as a mermaid diagram, pencil and paper if needed, and only then build it as a composition of agents, engineers, and code. A pure skill-based workflow is a fine start, but once you productionize, pull the code out of the skills so you can set real guardrails.
+
+### 10. Agentic engineering is not vibe coding
+[field-note bullet]
+
+His closing distinction. Vibe coding is not knowing how the system works, and not looking. Agentic engineering is knowing your system so well you do not have to look, because you have moved up a layer to meta-engineering. Once the workflow is right, you have a repeatable system you can run tens, hundreds, or thousands of times for consistent results, because you templated your engineering into the fabric of it.
+
+## Best quotes
+
+> "There are no token costs associated with code, the thing that truly moves at light speed. Code is the unsung hero of all of this."
+
+> "You want to be building the system that builds the system."
+
+> "Work trees are a great place to start, not a great place to end."
+
+> "Agentic engineering is knowing your system works so well you don't have to look."
+
+> "Everyone in their AI psychosis has forgotten that speed costs zero tokens. There's no hallucination. It does the exact same thing every time."
+
+## Cross-references
+
+Pages created in this run:
+
+- [AI Developer Workflow](/concepts/ai-developer-workflow)
+- [The Three Actors of Value Creation](/concepts/three-actors-of-value-creation)
+
+Pages extended in this run:
+
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop): IndyDevDan's loop-is-one-node counterpoint cited as a supporting voice.
+- [Humans at the Edges](/perspectives/humans-at-the-edges): planning and reviewing as the two ends cited as a supporting voice.
+- [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the separate-code-from-agents rule cited as a supporting voice.
+
+## Further Reading
+
+- [IndyDevDan profile](/note-sharers/indydevdan) for the channel's stance and other notes.
+- [Note Sharers](/note-sharers) for the full directory.

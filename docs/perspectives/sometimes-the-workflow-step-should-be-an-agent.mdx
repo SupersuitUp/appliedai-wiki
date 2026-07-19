@@ -71,6 +71,12 @@ The choice is not agent versus LLM call as a matter of taste. It is a design dec
 
 > A call answers. An agent works. Spend the overhead only where the work earns it, and let the SDK carry the parts you should not be rebuilding.
 
+## Supporting voices
+
+- **IndyDevDan (2026-07-18):** sharpens the separation into an operational rule. Do not bury the linter at the bottom of a skill, because that is still your agent running code, which forfeits the reliability the deterministic node was there to give you. Instead, run a build agent, then run the linter as a separate node, and feed a failure back into the build agent with the same session ID. Keep code and agents as distinct nodes with clean interfaces so each transition is testable. His summary: agents plus code beats either alone, and the point is not only token cost but performance, reliability, and speed. [Field note](/note-sharers/indydevdan/2026-07-18-ai-developer-workflows).
+
+---
+
 ## Sources
 
 Distilled in part from the workshop "[Claude Agent SDK (Full Workshop)](https://www.youtube.com/watch?v=TqC1qOfiVcQ)" by Thariq Shihipar of Anthropic, presented at the AI Engineer conference, 2026. The workshop is the primary source for the three-shape framing (call, workflow, agent), the gather-context / take-action / verify loop, the tools-versus-bash-versus-code-generation tradeoff, and the issue-triage example. Everything here is a practitioner reading of that material, not an endorsement tested in every engagement.
