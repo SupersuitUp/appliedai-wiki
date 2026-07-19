@@ -42,6 +42,8 @@ The fix is layer separation. Code does what code is good at: reliable, repeatabl
 
 **Research.** Code fetches RSS feeds, scrapes pages, downloads PDFs, extracts text. The LLM reads the content and decides what is relevant, what is noise, and how it connects to what you are working on. Code handles collection. The LLM handles curation.
 
+**Generation pipelines.** Code assembles every render prompt from locked parts (the preamble, the style rules, the reference list) with only the per-item variables changing, and fans out the independent generations in parallel. The LLM writes the one-off scene descriptions and judges the outputs. Code handles prompt assembly and scheduling. The LLM handles the parts that are new each time. The full pattern is [The Prompt Factory](/concepts/the-prompt-factory).
+
 The pattern is always the same: code assembles the inputs, the LLM applies judgment, code executes the output.
 
 ---
