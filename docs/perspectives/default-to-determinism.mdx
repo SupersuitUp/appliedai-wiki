@@ -1,0 +1,77 @@
+---
+title: "Default to Determinism"
+slug: /perspectives/default-to-determinism
+description: "For any recurring process, deterministic code is near-free to run and consistent by construction. Make it the default, and treat live model generation as the metered exception you escalate to on purpose."
+image: "/img/comics/default-to-determinism.png"
+---
+
+# Default to Determinism
+
+*Deterministic code is nearly free to run and consistent by construction. Make it the default for recurring work, and treat live model generation as the exception you pay for, not the baseline.*
+
+![Four-panel neo-comic action strip on warm cream paper with heavy black inks, matte-navy Supersuit with orange seams, and arc-reactor-cyan holographics. Title bar: DEFAULT TO DETERMINISM. Panel 1 THE INVERSION: Midas, the Blasian hyperagent in bulky matte-navy plate armor, seated at his physical workstation reaching a gauntleted hand toward a glowing holographic fork of two paths beside a spinning LIVE GENERATION meter whose token counter reads 1,248 and climbing. Caption: "The instinct got inverted: the model re-reasons what was settled long ago." Panel 2 THE CADENCE: a cyan recurring-loop clock over two stacked paths, a gold DETERMINISM arrow stamped NEAR-ZERO COST approximately 0 and a crimson LIVE GENERATION arrow with a TOKENS meter ticking up; Midas stands arms crossed judging the two. Caption: "On a cadence, near-free code beats a meter that fires every run." Panel 3 THE ASSEMBLER: a glowing CANON data file feeds a solid ASSEMBLER box that emits one clean EXACT-PROMPT card, with a crimson DRIFT BUG icon crossed out by a bold X; Midas points at the assembler. Caption: "The assembler reads the canon and emits the exact prompt. Drift removed by construction." Panel 4 THE RATCHET: a large cyan gear turns while small RECURRING CASE tiles fold from the red MODEL side into a growing glowing CODE block, and a single gold NOVELTY spark escalates upward; Midas watches the code block grow. Caption: "Fold every recurring case back into code. Escalate only genuine novelty." Footer bar: CODE FOR THE RECURRING. THE METER FOR THE NOVEL.](/img/comics/default-to-determinism.png)
+
+---
+
+## The pre-AI instinct got inverted
+
+Anyone who built systems before the model era carries an instinct in their bones: once a rule is settled, you write it down as code, and from then on it runs for free. A function you shipped last year costs nothing meaningful to call today. It returns the same answer every time. That reliability was never a feature you asked for; it came bundled with the medium.
+
+The model era quietly inverted that instinct. When a system can reason through anything on the fly, the tempting move is to have it reason through everything on the fly, including the parts that were decided long ago. Teams "spoiled" by live generation forget that running deterministic code is close to free, and that determinism hands them the consistency they were about to spend tokens trying to recover. The inversion feels like progress because generation is genuinely capable. It is a regression in economics.
+
+This page is the counterweight to [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent). That page argues for the times you should escalate a step into a live, judging agent. This one argues for where you should start: with code, every time the work recurs. Both are the same design decision seen from opposite ends. Default down, escalate up on evidence.
+
+## The economics of running the regular business
+
+The clearest way to see it is per-run cost on a cadence.
+
+Deterministic code has near-zero marginal cost per execution. You paid to write it once. Every run after that is compute noise. A live-generation path is metered on every single run: tokens in, tokens out, latency, and a bill that scales linearly with usage. For a one-off, that meter is fine. For a process that fires on a schedule or on every user action, the two paths diverge and keep diverging.
+
+You cannot build a business that expects a user to spend millions of tokens per use to run its recurring operations. That is not a rounding error you optimize away later; it is the operating model. The demand side compounds the problem: as generation gets cheaper and easier, people reach for it more, so total spend can climb even as unit cost falls. See [Jevons Paradox](/concepts/jevons-paradox) for why "it got cheap" is not the same as "it got safe to run everywhere." Cheap-per-token invites you to meter things that never needed metering.
+
+The rule that falls out: put the recurring path in code, and reserve the meter for the moments that genuinely earn it.
+
+## Consistency you want anyway
+
+Recurring processes want the same output every time. That is the whole point of a process. A deterministic function is testable, reviewable, versionable, and diff-able: you can pin its behavior, review a change to it, and roll it back. When it breaks, it breaks the same way twice, which is what makes it debuggable.
+
+Live generation reintroduces variance precisely where you were trying to remove it. Now the output drifts run to run, and you are writing guards, retries, and validators to claw back the stability that a plain function gave you for free. You pay tokens to create the variance, then pay again in engineering to suppress it. Determinism is not the boring choice here; it is the choice that already has the property you were about to reconstruct at a premium.
+
+## The productization line
+
+There is a clean line running through this, and it is a productization line.
+
+The recurring 80% belongs in code. It is the same for every user on every run, so it should be settled once, tested, and executed for free. Deep, bespoke, judgment-heavy customization is the other kind of work: rarely productizable, genuinely different each time, and correctly a rare and cheap long-tail cost. The mistake is to serve the recurring 80% the way you serve the bespoke tail, re-deriving settled facts live for every user on every run. That is how a productizable process quietly turns into a per-run consulting bill. Naming the pattern is half the fix: most of what a business does is [business logic waiting to be converted into a system](/concepts/convert-business-logic-to-ai-system), and settled logic converts into code, not into a standing invitation for the model to re-decide it.
+
+## The escalation rule and the ratchet
+
+Two rules keep the default honest.
+
+**The escalation rule.** Default to determinism. Escalate a step to live generation or an agent only when the middle of that step genuinely needs judgment and can check its own work. Judgment and verifiability together are the bar; a step that needs neither is a step that wanted code all along. [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent) is the full treatment of when that bar is cleared, and [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop) covers where human attention goes once a step can verify itself.
+
+**The ratchet.** When a "recurring pathway" keeps showing up inside the generated path, fold it back into the deterministic code. The code is the accumulator of settled cases. Each time the model handles something the same way twice, that case has stopped being novel, and it should graduate into a function. Over time the code ratchets toward covering every recurring case, leaving only genuine novelty for the model to work on. This is [progressive automation as the actual job](/perspectives/progressive-automation-is-the-job): the deterministic core grows, the metered surface shrinks, and the system gets cheaper and more consistent the longer it runs. It is also why the [software the model writes can be ephemeral while the context it accumulates is precious](/perspectives/ephemeral-software-precious-context): the settled cases are the asset, and they live in code.
+
+## A worked example
+
+A team building an illustrated-book pipeline had each book hand-roll its own script, and each script made the model re-derive, on every render, character and setting descriptions that already lived in a canonical data file. The canon was right there. The model was asked to reason its way back to it anyway, once per render.
+
+Two things went wrong at once. First, the hand-written copy silently contradicted the canon: a description drifted, nobody noticed, and the render came out subtly off-canon. That is a whole class of drift bug, born entirely from re-deriving facts that were already decided. Second, every render paid tokens to reconstruct settled facts that a file lookup would have returned for free.
+
+The fix was a small deterministic assembler. It reads the canon and emits the exact prompt: the settled character and setting facts come straight from the data file, verbatim, no re-derivation. That removed the drift bug by construction (the assembler cannot contradict the source it is reading) and removed the per-render token cost of re-deriving what was already known. The judgment that actually remained, the genuinely novel composition of each scene, still went to the model. Everything already decided came from code. That is the escalation rule and the ratchet in one move: fold the settled facts into the assembler, escalate only the novel composition. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a loop like this is composed, and [Workflow Decomposition](/playbooks/workflow-decomposition) for finding which stage is the settled part and which is the novel one.
+
+The failure mode this avoids is the one from [Don't Scale Slop](/playbooks/dont-scale-slop): scaling a live-generation path before you have folded its recurring cases into code multiplies both the cost and the drift.
+
+## Supporting voices
+
+- **IndyDevDan (2026-07-18):** makes the same call at the level of workflow topology. Do not bury the deterministic node (his example is the linter) inside the agent, because a linter run from inside a skill is still your agent running code, which forfeits the reliability the separate deterministic node was there to provide. Keep code and agents as distinct nodes with clean interfaces, so each transition is testable and the deterministic parts stay deterministic. [Field note](/note-sharers/indydevdan/2026-07-18-ai-developer-workflows).
+
+> Live generation is the meter you turn on for genuine novelty. Everything the business does twice belongs in code, where it runs for free and returns the same answer every time. Default there, and escalate only when the middle needs judgment it can check.
+
+## Further Reading
+
+- [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the dual of this page. When the middle of a step needs judgment and can verify itself, escalate it to a real agent.
+- [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job): the ratchet as an ongoing discipline. Fold each newly-settled case back into the deterministic core.
+- [Jevons Paradox](/concepts/jevons-paradox): why cheaper generation drives more total generation, and why per-run cost still governs the business.
+- [Convert Business Logic to AI System](/concepts/convert-business-logic-to-ai-system): the meta-pattern. Settled business logic converts into code; only the bespoke tail stays live.
+- [Designing an AI Loop](/playbooks/designing-an-ai-loop): how to compose a loop whose deterministic edges frame a metered, judging middle.
+- [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): what the deterministic substrate around a model is actually made of, and why you build on a proven one.
