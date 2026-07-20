@@ -1,0 +1,75 @@
+---
+title: "You Can't Touch the Weights, So Everything Is Context"
+slug: /note-sharers/anthropic/2026-05-22-beyond-the-basics-with-claude-code
+description: "Field notes from a May 2026 Anthropic talk on customizing an agentic harness at scale. The lever is in-context learning, the constraint is a fixed context budget, and every plugin primitive gets judged by what happens when you have a hundred thousand of them."
+date: 2026-05-22
+source_url: https://youtu.be/tuY2ChJIx48
+source_firm: anthropic
+source_type: talk
+tags: [in-context-learning, context-engineering, hooks, plugins, harness-engineering, scale]
+---
+
+# You Can't Touch the Weights, So Everything Is Context
+
+*Field notes from a May 2026 Anthropic talk on customizing an agentic harness at scale. The lever is in-context learning, the constraint is a fixed context budget, and every plugin primitive gets judged by what happens when you have a hundred thousand of them.*
+
+---
+
+## Source
+
+- **Firm:** Anthropic.
+- **Speaker:** Daisy Holman, engineer on the Claude Code team (formerly a chair on the C++ committee; involved early in plugins and agent teams).
+- **Format:** Conference talk, "Beyond the Basics with Claude Code," Claude channel, 47:19.
+- **Date:** 2026-05-22.
+- **URL:** https://youtu.be/tuY2ChJIx48
+- **Endorsement disclaimer:** Anthropic builds the harness described here, so the specific "reach for this feature" prescriptions are partly downstream of what it ships. The reasoning about the underlying constraints (in-context learning, the fixed context window, KV-cache economics, scale) is vendor-independent and is what we lifted. We have not re-validated the token-cost figures cited in the talk.
+
+## What we lifted
+
+### 1. In-context learning is the only customization lever
+[→ New page: [/concepts/in-context-learning](/concepts/in-context-learning)]
+
+The spine of the talk. You cannot change a frontier model's weights, so every customization, your codebase's conventions, institutional memory, internal vocabulary and APIs, enters as text in the context window. Fine-tuning is a dead end at the frontier for three reasons: the bitter lesson (general beats specialized over time), frontier churn (the tuned model is obsolete before the run finishes), and hallucination (tuning on specialized facts can increase confabulation, per late-2025 research). This is the concept Gary flagged with the note "ICL." The memorable line, kept verbatim on the concept page:
+
+> ICL is a fancy word for when you want people to think you're smart, but you're actually just talking about text files.
+
+### 2. The context window is a fixed budget that isn't growing
+[→ Reinforces: [/disciplines/context-engineering](/disciplines/context-engineering), [/concepts/context-overflow](/concepts/context-overflow)]
+
+Frontier context has hovered around a million tokens while the models got far better, so context engineering has a roughly fixed target. Holman's analogy: it is like running a package manager on an Arduino. Pick the smallest sufficient version of the most important things and leave room to do real work. Landed as the "fixed budget" section of the in-context-learning page, cross-linked into the existing context-engineering discipline.
+
+### 3. Don't pay for what you don't use; the KV cache changes the rules
+[→ New material on: [/concepts/in-context-learning](/concepts/in-context-learning)]
+
+The zero-overhead abstraction principle (a C++ inheritance) applied to context. The window cannot be treated as an ordinary LRU cache because of the KV cache: changing something early in the prompt makes every token after it uncached, and uncached tokens can cost around ten times as much. The design consequence: stable, shared material at the front (stays cached), volatile per-task material near the end (evictable without re-billing upstream). Some tokens are cheap, some expensive; a good layout keeps the expensive ones from moving.
+
+### 4. Judge every abstraction by "what if I have 100,000 of them?"
+[→ Reinforces: [/concepts/plugins](/concepts/plugins); new material on [/concepts/in-context-learning](/concepts/in-context-learning)]
+
+The scaling test applied across the four plugin primitives (MCP, skills, hooks, agents). MCP puts every tool's name, description, and schema in the system prompt, so it does not scale without help (tool search lazy-loads but is not a free lunch). A skill's body is pay-per-use but its description is always loaded, so it is *nearly* zero-overhead, not fully. Hooks are the actual zero-overhead abstraction: they run outside the window, so 99,995 that do not fire cost zero tokens. The lesson generalizes: an abstraction is only worth adopting if its cost stays flat as the count grows.
+
+### 5. The plugin CLAUDE.md trap: cheap-looking is not cheap
+[→ Reinforces: [/concepts/agent-rule-files](/concepts/agent-rule-files), [/concepts/in-context-learning](/concepts/in-context-learning)]
+
+Holman's most-requested and most-refused feature: letting a plugin ship its own standing rule file that unconditionally injects into the user's context. It looks like the cheapest thing possible (one small file), but every plugin would ship one and the sum does not scale. The honest version is a session-start hook, which forces the cost into the open so the user can see they pay for it on every turn. A clean worked example of an abstraction that looks free and isn't.
+
+### 6. Tools that scale with intelligence vs. tools that compensate for its lack
+[→ Reinforces: [/disciplines/harness-engineering](/disciplines/harness-engineering); new material on [/concepts/in-context-learning](/concepts/in-context-learning)]
+
+Two kinds of tooling. A hard block (forbid the agent from ever using an undefined symbol) yields fewer mistakes in theory but forces a rigid order and gets *less* useful as the model improves. An overwritable nudge, the "red squigglies for your agent" delivered by a post-tool-use hook running a linter or type check, gets *more* useful as the model improves, because a smarter model reasons past a bad nudge and heeds a good one. Build the nudge, not the block. Compressed in the verbatim line kept on the concept page:
+
+> The fastest way to make your agent better at your code base isn't a smarter model, it's a tighter feedback loop.
+
+### 7. Give the agent access to everything you can access
+[→ Bullet here; candidate future page]
+
+The opening thesis: your job is to make little clones of yourself, and if the agent cannot reach what you can reach (Slack threads, CI, dashboards, design docs, meeting transcripts, other agents), it cannot do the job with you. The "why" of a task usually lives outside the source code. Holman's practical tip: try a full workday without leaving the terminal; every time you alt-tab and copy-paste, write it down, then connect the agent to that source. The gap between "connected" and "not" is bigger than it looks. Held as a bullet for now; if it recurs across notes it graduates to its own page.
+
+### 8. Asynchrony and parallelism reshape the workday
+[→ Bullet here; relates to [/concepts/always-on-agents](/concepts/always-on-agents), [/concepts/remote-harness-control](/concepts/remote-harness-control)]
+
+Two forward-looking themes: asynchrony (walk away, let it work, come back) and parallelism (run many at once), which together force context-switching skill on engineers who used to live in eight-hour flow states. Concrete practices: long-lived git worktrees each with their own agent that tracks upstream main; renaming and recoloring sessions as "syntax highlighting for humans in the agentic era"; agents that message each other; a loop that reruns a prompt on an interval (babysitting PRs); and remote control for a 30-second after-dinner check that overnight agents are not stuck. Reinforces existing always-on / remote-control canon rather than opening a new page.
+
+## Editorial note
+
+The talk is broader than any one wiki page. We led with the concept Gary flagged (in-context learning) and folded the mechanics that serve it (fixed budget, KV cache, scale test, the two abstraction traps) into that page and the existing context-engineering discipline. The access thesis and the asynchrony/parallelism practices are held as bullets here; they reinforce pages that already exist and will graduate only if a second source corroborates them.

@@ -1,0 +1,41 @@
+---
+title: Anthropic
+slug: /note-sharers/anthropic
+description: "The lab that builds Claude and Claude Code. Their engineers publish applied-agentic-engineering fieldwork from inside the harness: how customization actually scales, where the context budget binds, and which abstractions survive a hundred-thousand-skill monorepo."
+---
+
+# Anthropic
+
+*The lab that builds Claude and Claude Code. Their engineers publish applied-agentic-engineering fieldwork from inside the harness: how customization actually scales, where the context budget binds, and which abstractions survive a hundred-thousand-skill monorepo.*
+
+---
+
+## Worth tracking because
+
+Anthropic ships the harness, so its engineers hit the scaling walls of agentic software engineering before the rest of the field does. When a Claude Code engineer explains why a plugin cannot carry its own standing context file, or why fine-tuning is a dead end at the frontier, they are reporting from inside the constraint, not theorizing about it. Their talks and docs are the cleanest available source on the mechanics of in-context learning under a fixed budget: KV-cache economics, zero-overhead abstractions, and the difference between tools that scale with intelligence and tools that fight it.
+
+## Voice and stance
+
+Engineer-to-engineer. Grounded in the actual internals (context windows, KV cache, the plugin spec) rather than in vibes. Comfortable admitting where the current design does not yet scale ("we had hoped it would scale better") instead of overselling. Fond of analogies that make an abstract constraint concrete: running a package manager on an Arduino, red squigglies for your agent, ED versus Vim for the edit tool.
+
+We track the mechanism and discount the product placement. Anthropic designs the abstractions it describes, so its framing of which primitive to reach for is partly downstream of what it built. The reasoning about the constraint (fixed context, cache economics, scale) holds regardless of vendor. The specific "use this feature" prescription is theirs to make and ours to field-test.
+
+## Recurring themes
+
+(Edit by hand as patterns surface across multiple notes.)
+
+- In-context learning is the only customization lever; the weights are off the table at the frontier.
+- Judge every abstraction by what happens when you have 100,000 of them.
+- Give the agent access to everything you can access, or it cannot do the job with you.
+
+## Field notes log
+
+| Date | Topic | Note |
+|------|-------|------|
+| 2026-05-22 | Customizing an agentic harness at scale: access/knowledge/tooling, in-context learning, the fixed context budget, plugin primitives (MCP/skills/hooks/agents) | [link](./2026-05-22-beyond-the-basics-with-claude-code) |
+
+## Further Reading
+
+- [Note Sharers](/note-sharers) for the full directory of firms we track.
+- [In-Context Learning](/concepts/in-context-learning) for the core concept this field note landed.
+- [Context Engineering](/disciplines/context-engineering) for the discipline it feeds.
