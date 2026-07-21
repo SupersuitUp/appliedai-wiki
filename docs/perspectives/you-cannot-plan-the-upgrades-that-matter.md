@@ -17,7 +17,7 @@ image: "/img/comics/you-cannot-plan-the-upgrades-that-matter.png"
 
 Anyone building a pipeline that keeps growing hears the same charge: you are over-engineering. Ship the thing and stop polishing the machine.
 
-The charge is worth taking seriously, because over-engineering is real and it looks identical from the outside. Both cases produce a system with more parts this month than last. The difference is not size or velocity. It is **provenance**: where the requirement came from.
+The charge is worth taking seriously, because over-engineering is real and it looks identical from the outside. Both cases produce a system with more parts this month than last. The difference is not size or velocity. It is **provenance**: where the requirement came from. Call the healthy version **disciplined compounding**, growing a system only where real use has already demanded it ([canonical treatment](https://compounding.wiki/concepts/disciplined-compounding)).
 
 Over-engineering builds for a user who has not shown up yet. It is speculative generality, features designed against an imagined future load. The discipline described here builds only for a delivery that already happened and went badly, or went well and revealed the next constraint. Every part traces to a specific artifact that went to a specific person and taught you something.
 
@@ -75,3 +75,4 @@ The bet fails in one specific way, and it is worth naming. If the deliveries are
 - [Golden Chain](/concepts/golden-chain): a worked example of an upgrade that only became visible after a real batch failed in a way no plan anticipated.
 - [Compounding Docs](/concepts/compounding-docs): the externalized-context flywheel that keeps the marginal upgrade cheap enough for one operator.
 - [Default to Determinism](/perspectives/default-to-determinism): where to spend the engine upgrades, since the parts worth hardening are the ones that should never have been improvised.
+- [compounding.wiki: Disciplined Compounding](https://compounding.wiki/concepts/disciplined-compounding): the canonical home for the discipline, including the one-question provenance test and the failure mode that voids it.
