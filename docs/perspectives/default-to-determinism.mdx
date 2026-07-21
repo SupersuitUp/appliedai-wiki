@@ -64,6 +64,7 @@ The failure mode this avoids is the one from [Don't Scale Slop](/playbooks/dont-
 ## Supporting voices
 
 - **IndyDevDan (2026-07-18):** makes the same call at the level of workflow topology. Do not bury the deterministic node (his example is the linter) inside the agent, because a linter run from inside a skill is still your agent running code, which forfeits the reliability the separate deterministic node was there to provide. Keep code and agents as distinct nodes with clean interfaces, so each transition is testable and the deterministic parts stay deterministic. [Field note](/note-sharers/indydevdan/2026-07-18-ai-developer-workflows).
+- **Voss / Veric Agents (2026-07-20):** frames it as the deployed shape most companies should want. "The best solution of AI for most companies is a very good combination of deterministic software, probably the majority of it, then the judgment that API calls to an LLM can provide, and then finally a human in the loop." Of a 10-step workflow, perhaps three steps need genuine judgment; the rest is if-then-else and API calls. [Field note](/note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer).
 
 > Live generation is the meter you turn on for genuine novelty. Everything the business does twice belongs in code, where it runs for free and returns the same answer every time. Default there, and escalate only when the middle needs judgment it can check.
 

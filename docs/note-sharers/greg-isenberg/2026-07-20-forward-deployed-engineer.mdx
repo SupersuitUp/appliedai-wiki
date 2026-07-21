@@ -1,0 +1,108 @@
+---
+title: "The $1M AI job: the Forward Deployed Engineer, explained"
+description: "Field notes from Greg Isenberg's interview with Voss (Veric Agents). Intelligence is commoditized; the edge is deployment. The FDE is the person who bridges general intelligence and one company's specific reality, plus a 30-day plan to become one."
+date: 2026-07-20
+source_url: https://www.youtube.com/watch?v=zXysLUTLjw4
+source_firm: greg-isenberg
+source_type: podcast
+private_summary: garyinparadise/docs/misc-collections/content-summaries/2026-07-20-greg-isenberg-fde-million-dollar-job.md
+tags: [forward-deployed-engineer, deployment, roles, audit, evals, consulting]
+---
+
+# The $1M AI job: the Forward Deployed Engineer, explained
+
+*Intelligence is commoditized; the edge is deployment. The Forward Deployed Engineer bridges general intelligence and one company's specific reality, and it is one of the best-paid seats in tech.*
+
+---
+
+## Source
+
+- **Channel:** Greg Isenberg (host, runs the LCA / Late Checkout agency), interviewing **Voss of Veric Agents**, an AI deployment firm working with large enterprises. Voss is a former Meta software engineer who learned the business side by doing the work.
+- **Format:** YouTube podcast episode, 51:34.
+- **Date published:** 2026-07-20.
+- **URL:** https://www.youtube.com/watch?v=zXysLUTLjw4
+- **What it covers:** The clearest master class available on the Forward Deployed Engineer (FDE): why the role exists now, its three stages, the rare combination it demands, the engagement loop, and a 30-day plan to become one.
+- **Transcript note:** the auto-captions render "FDE" as "FTE", "FTEE", and "Ford deploy engineer" throughout. The title and the Palantir reference confirm the term is Forward Deployed Engineer.
+- **Endorsement disclaimer:** claims are relayed as Voss's. We have not validated the specific compensation figures or the 30-day plan against our own engagements.
+
+## What we lifted
+
+### 1. Intelligence is commoditized; the edge is deployment
+[→ new perspective: [/perspectives/intelligence-is-commoditized-deployment-is-the-moat](/perspectives/intelligence-is-commoditized-deployment-is-the-moat)]
+
+The founding claim, and the reframe worth keeping. Every company can now buy the same frontier intelligence; fifty enterprises run the same stack. If everyone taps the same tap, intelligence is not the moat. The advantage moved to where, how, and why intelligence gets applied to one company's specific processes, politics, and exceptions. Palantir proved this shape in the data age: its platform won on customizability plus engineers who went on site, not on being the most tech-forward. The AI age demands the same at greater scale. This sharpens the wiki's own founding definition of applied AI into an argument you can hand a skeptic.
+
+### 2. The Forward Deployed Engineer is a distinct, top-paid seat
+[→ new role: [/roles/forward-deployed-engineer](/roles/forward-deployed-engineer)]
+
+Palantir coined the term; it is now called the hottest role in technology, with reported comp from a $150K base with heavy equity up to a reported $1M a year. Three stages: understand the business reality (how the work actually happens, almost never the documented process), FDE judgment (where does intelligence belong and where does it not), and build the deployed system end to end. The bar is the rare combination in the next bullet. We already document the generic [Applied AI Consultant](/roles/applied-ai-consultant); the FDE is the sharpest, most demanding, industry-named version of that seat, and it earned its own page.
+
+### 3. The million-dollar hire is the best of both sides, not the average
+[field-note bullet] · [→ reinforces: [/perspectives/comparative-human-edge](/perspectives/comparative-human-edge)]
+
+The FDE is genuinely excellent at both communication and engineering, "not an average combination, not the worst combination." Consultants (McKinsey, BCG, Bain engagement managers) own the business side: workflows, cost, incentives, risk, adoption, internal politics. Software engineers own the technical side: models, systems, APIs, evals, guardrails, harnesses, fine-tuning. The rare person excellent at both, who can turn business understanding into working software end to end, is the $1M hire. Voss's shorthand: understand art and science, and speak both. The scarcity is real because people strong on one side are usually only passable on the other.
+
+### 4. The audit is the wedge, and it outsells McKinsey
+[→ new playbook: [/playbooks/audit-to-sprint-to-deployment](/playbooks/audit-to-sprint-to-deployment)]
+
+Every engagement opens with an audit: map the real workflows, the exceptions, and an ROI matrix of what is worth automating versus what is not. Clients have said the audit alone was worth ten times what they paid, "better than McKinsey because it's so telling," because AI is new enough that almost nobody has mapped their operations against it. Two tactics worth keeping: people have an allergic reaction to the word "audit" (they hear "tax audit"), so one team rebranded the same deliverable a **design sprint** and it sold better; and early on you do the audit free to get in the door, then get paid only on measured value, because your first customers teach you more than you deliver them.
+
+### 5. The documented process is never the real process
+[field-note bullet] · [→ reinforces: [/perspectives/document-and-streamline-load-bearing-workflows](/perspectives/document-and-streamline-load-bearing-workflows)]
+
+"An email arrives" sounds like a clean trigger. The reality is 40-plus senders, no two formatted alike, data in PDFs and screenshots and forwarded threads, half of them exceptions, and the true routing logic living in one person's head that they will not think to mention unless you sit with them. This is why FDEs embed on site: an hour-long meeting gets the sanitized version of a job, while a full day beside someone surfaces the exceptions nobody wrote down. Voss's own tell: as a Meta engineer, he would have described his job as "I code all day," when the reality was meetings, prod fires, and interruptions.
+
+### 6. Build for the unhappy path
+[field-note bullet] · [→ reinforces: [/perspectives/variance-is-the-existential-problem](/perspectives/variance-is-the-existential-problem)]
+
+"There's only one way something goes right, but a thousand different ways it goes wrong. If you're only building for the way it goes right, you're worth nothing. If you're solving for all the exceptions, that's where you are worth something." Week two of the 30-day plan is entirely this: schema validation, failure modes, exception handling. Deep client understanding pays off here, because knowing how things go wrong is what lets you build the agent around the failure modes instead of the happy path.
+
+### 7. The three buckets of business value
+[field-note bullet]
+
+There are only three measurements that matter to a business: revenue uplift, risk mitigation, and cost savings. Measure every agent against all three. A working system that cannot be tied to one of those buckets does not survive a performance review, and neither does the person who built it.
+
+### 8. Integrate with what exists, do not force a migration
+[field-note bullet] · [→ reinforces: [/perspectives/progressive-automation-is-the-job](/perspectives/progressive-automation-is-the-job)]
+
+A client who spent years and millions moving to a new ERP will tell you to get lost if your pitch starts with "move off it." Build on top instead, integrate with their existing stack, and scale from shadow mode to increasing autonomy to production. Voss's phrasing: pitch something that feels like "fishing with dynamite," a no-brainer improvement on what they already have, not a rip-and-replace. And remember you are pitching a person who does not want to get fired and does want to get promoted, so help them get promoted by driving value cost-effectively.
+
+### 9. Observability equals trust
+[field-note bullet] · [→ reinforces: [/disciplines/observable-behavior-engineering](/disciplines/observable-behavior-engineering)]
+
+"If you can't show the client what the agent is doing, they will never trust you." Logged traces and a full audit trail are a software engineering problem, and solving it well is a competitive edge given the fear around autonomous agents. This is a stage-three deployment requirement, not a nice-to-have.
+
+### 10. Master one model before you go agnostic
+[field-note bullet] · [→ reinforces: [/perspectives/learn-the-harness-not-the-wrapper](/perspectives/learn-the-harness-not-the-wrapper)]
+
+As a firm, stay model agnostic so accuracy rises and cost falls and you avoid monopolizing your inference layer. But as someone becoming an FDE, master one model and one agent-building platform first, because your value is understanding both sides of the aisle, which transfers to any model. The sommelier analogy landed: a good restaurant's sommelier learns your palate before pouring, or most guests send the wine back. Handing everyone the same pinot noir is the same mistake as token maxing, and it is why most AI pilots fail.
+
+### 11. The 30-day plan: do the job before you have the title
+[field-note bullet] · [→ reinforces: [/perspectives/build-dont-buy-your-way-in](/perspectives/build-dont-buy-your-way-in)]
+
+Voss condenses a year of learning into 30 days. Week 1: build an agent that completes one real back-office loop (his agent definition: "I can prompt like an idiot and it will still happen," because it runs in the background with a repeatable motion). Week 2: make it recover (schema validation, failure modes). Week 3: make it measurable and economical (retry logic, golden data set, cheaper models for subtasks, the three buckets). Week 4: defend it twice, once as an engineer and once as a VP, and pitch it to real businesses so they tell you where you are wrong. On day 30 you understand the work and hold evidence you can do it, which is what earns the first engagement.
+
+## Best quotes
+
+> "Every company can now buy intelligence. Intelligence is becoming commoditized. So where does the advantage go? It goes into deployment. The edge is no longer who has the intelligence. It's where, how, and why they use it."
+
+> "There's only one way that something can go right, but there's a thousand different ways something can go wrong. If you're only building for the way it goes right, you're worth nothing."
+
+> "The audit was worth 10 times what they paid for. It's better than McKinsey because it's so telling."
+
+> "If you can't show the client what the agent is doing, they will never trust you."
+
+> "It's doing the job before you have the title. On day 30 you understand forward deployed engineering, but you also have evidence that you can do it."
+
+## Cross-references
+
+Pages created or reinforced in this run:
+
+- New role: [Forward Deployed Engineer](/roles/forward-deployed-engineer).
+- New perspective: [Intelligence Is Commoditized, Deployment Is the Moat](/perspectives/intelligence-is-commoditized-deployment-is-the-moat).
+- New playbook: [Audit to Sprint to Deployment](/playbooks/audit-to-sprint-to-deployment).
+- Reinforced: [The Judgment Line](/perspectives/the-judgment-line), [Default to Determinism](/perspectives/default-to-determinism).
+
+## Startup-factory application (editorial)
+
+Read the FDE playbook one level up and it becomes a startup-factory blueprint. The move for a capable person with a real network and deep domain expertise is not to make them a better employee. It is to move them up a level of abstraction and stand up a net-new company from their own network plus expertise plus managed agent infrastructure, a company that would be impossible to build solo without agents running as full-time-equivalent workers. The FDE's three stages are the same three stages of standing up that company: understand the real work in the domain, decide where intelligence belongs, build the deployed system. The audit-as-design-sprint wedge, the do-it-free-then-charge-on-value de-risking, and the three-buckets measurement all lift cleanly into that engagement.

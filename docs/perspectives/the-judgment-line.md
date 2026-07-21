@@ -80,6 +80,12 @@ The design rule extends naturally: code handles determinism, the LLM handles rou
 
 ---
 
+## Supporting voices
+
+- **Voss / Veric Agents (2026-07-20):** calls drawing this line the scarce skill of the [Forward Deployed Engineer](/roles/forward-deployed-engineer), and draws it at the altitude of a whole business rather than a single workflow. His version: "Where does intelligence belong and where does it not." Of a 10-step workflow, maybe three steps are non-deterministic enough to route to a model; the rest is deterministic. And some workflows should not be touched by AI at all, because they are too risky, too low ROI, or already automated. Getting that judgment right is what commands the pay. [Field note](/note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer).
+
+---
+
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The broader architecture that the judgment line operates within
