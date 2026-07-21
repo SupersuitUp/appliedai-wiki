@@ -2,11 +2,14 @@
 title: "Forward Deployed Engineer"
 slug: /roles/forward-deployed-engineer
 description: "The Palantir-coined seat that turns commoditized intelligence into working systems inside one company's messy reality. The rare person who is genuinely excellent at both the business and the code, not the average of the two."
+image: "/img/comics/forward-deployed-engineer.png"
 ---
 
 # Forward Deployed Engineer
 
 *The seat that turns commoditized intelligence into working systems inside one company's specific reality. Genuinely excellent at both the business and the code, not the average of the two.*
+
+![Four-panel action-comic strip in high-tech power-armor Marvel-zine style on warm cream paper. Title bar: "THE FORWARD DEPLOYED ENGINEER". Footer bar: "EXCELLENT AT BOTH THE BUSINESS AND THE CODE, NOT THE AVERAGE OF THE TWO." PANEL 1, caption "THE DOCUMENTED PROCESS IS NEVER THE REAL PROCESS": Midas the FDE in his bulky matte-navy Supersuit with orange seams sits on site beside an older woman worker at her cluttered desk, a tidy flowchart labeled "DOCUMENTED PROCESS" on the wall behind them while the real desk overflows with mismatched papers, sticky notes and red "EXCEPTION" tags. PANEL 2, caption "DECIDE WHERE INTELLIGENCE BELONGS": Midas stands over a numbered chain of ten mechanical workflow boxes and tags them, three getting a glowing cyan "AI" tag, most getting an orange "CODE" tag, one stamped crimson "LEAVE IT", his gauntlet pointing at the judgment steps. PANEL 3, caption "BUILD IT, DEPLOY IT, OWN IT IN PRODUCTION": Midas at a forge-like workbench assembles the finished deployed engine with orange seams and three glowing cyan judgment cores, beside a rising gold "KPI RESULTS" chart and a healthy "SLA" gauge, stamp "READY". PANEL 4, caption "EXCELLENT AT BOTH, NOT THE AVERAGE": Midas stands in the center clasping hands with two distinct people he bridges, a business consultant in a suit with a "BUSINESS" briefcase on the left and a hooded software engineer with a "CODE" laptop on the right, a gold "$1M" coin-stamp floating beside him.](/img/comics/forward-deployed-engineer.png)
 
 ---
 
