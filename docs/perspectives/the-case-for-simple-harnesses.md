@@ -151,6 +151,8 @@ The industry is going to sort itself out over the next few years. Some products 
 - [Harness Engineering](https://appliedai.wiki/disciplines/harness-engineering): The discipline this concept sits inside.
 - [Anatomy of a Harness](https://appliedai.wiki/disciplines/anatomy-of-a-harness): The components every harness shares.
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): Why we teach primitives over opinionated desktop layers.
+- [The Harness and the Deployment](/concepts/the-harness-and-the-deployment): A simple harness still leaves the deployment question open. Answer it separately.
+- [The Portability Tax](/concepts/the-portability-tax): What a keep-everything-swappable posture costs once the agent is stateful.
 - [Progressive Sovereignty](https://supersuit.wiki/concepts/progressive-sovereignty): Simple harnesses are the tool-layer expression of this principle.
 - [Liberation Architecture](https://supersuit.wiki/concepts/liberation-architecture): The design philosophy minimal harnesses embody.
 - [The Spec Is the Product](https://appliedai.wiki/disciplines/spec-writing): When the spec is the product, the harness should get out of the way.

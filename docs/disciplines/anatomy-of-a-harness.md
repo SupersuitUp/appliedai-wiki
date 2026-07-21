@@ -280,6 +280,7 @@ All software will be self-evolving software. We just got to see the source code 
 ## Further Reading
 
 - [Harness Engineering](/disciplines/harness-engineering): The conceptual foundation this article builds on
+- [The Harness and the Deployment](/concepts/the-harness-and-the-deployment): every subsystem above still has to run somewhere, and that is a separate ownership decision
 - [Context Engineering](/disciplines/context-engineering): The discipline behind Layer 2-5 of context assembly
 - [Intent Engineering](/disciplines/intent-engineering): What the permission system is really encoding
 - [Spec Writing](/disciplines/spec-writing): Why skill files as markdown specs matter

@@ -77,6 +77,7 @@ All software will be self-evolving software. The question is not whether this ha
 ## Further Reading
 
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): Deep technical analysis of a real-world harness, with patterns mapped to every concept in this article
+- [The Harness and the Deployment](/concepts/the-harness-and-the-deployment): the second question this discipline does not answer, and the one that carries most of the bill
 - [Fat Skills](/concepts/fat-skills): Thin harness, fat skills. The architectural rule for where intelligence actually lives.
 - [Agent Rule Files](/concepts/agent-rule-files): the standing-orders layer (CLAUDE.md and AGENTS.md)
 - [Skill Files](/concepts/skill-files): the on-demand workflow layer

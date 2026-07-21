@@ -35,3 +35,4 @@ Outside of that, building is almost always better than buying. Build the machine
 
 - [The AI-Native Services Company](/concepts/ai-native-services-company) for what you are building instead of buying.
 - [AI Operating Leverage](/concepts/ai-operating-leverage) for the economics a bought legacy firm cannot deliver.
+- [Your Edge Is Not Your Infrastructure](/perspectives/your-edge-is-not-your-infrastructure) for where "build" stops: build the operation, and build a harness once to learn, but do not run undifferentiated infrastructure forever.
