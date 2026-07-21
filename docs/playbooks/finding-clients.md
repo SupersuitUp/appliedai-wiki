@@ -118,3 +118,4 @@ Scale comes later. Trust comes first.
 - [Pilot pitch](/playbooks/pilot-pitch). The shape of the first real proposal.
 - [Pricing](/playbooks/pricing). How to price the engagement once trust is established.
 - [PE fund cascade](/engagement-patterns/pe-fund-cascade). The buyer pattern that multiplies one fund-level retainer across many portcos.
+- [Your First Touch Should Sell the Next Step](/perspectives/your-first-touch-should-sell-the-next-step). How to shape any opening message, warm or cold, so it earns a click instead of a decision.

@@ -89,3 +89,5 @@ Keep it short. Do not over-produce it. The trust is already there. You are just 
 - [Pilot scope](/playbooks/pilot-scope). The business-owner side of the same conversation.
 - [Pricing](/playbooks/pricing). How to price pilots and the work that follows.
 - [ICP clarity](/playbooks/icp-clarity). Get clear on who you serve before you pitch.
+- [Your First Touch Should Sell the Next Step](/perspectives/your-first-touch-should-sell-the-next-step). The staging discipline that gets you to the point where a pilot pitch is welcome.
+- [Name the Best Argument Against You First](/perspectives/name-the-best-argument-against-you-first). Handle the objection inside the proposal rather than in the reply after it.
