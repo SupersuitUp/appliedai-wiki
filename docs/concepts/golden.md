@@ -52,6 +52,14 @@ The naming has to stay honest. A `goldens/` folder that contains anything a huma
 
 Golden is the mechanism by which taste enters an [Agentic Brand Universe](/concepts/agentic-brand-universe) and stays there. The universe holds two kinds of data: the canon (the atoms, from the mark to the recurring characters to the rules) and the blessed goldens (the molecules already proven right). A golden is the taste you keep, promoted into the cartridge so every future render can reference it. This is why the direction of pull matters: because each new asset is composed by passing goldens back in as references, a well-blessed library drags the brand toward its own best work instead of the statistical average an unguided model would produce. The golden gate is where a person decides what the universe learns to want.
 
+## Goldens build goldens
+
+Blessing is not only a gate on the way into the library. It is also the mechanism for producing the next asset, and that turns the gate into a build order.
+
+When a set of assets has to agree with each other, no amount of descriptive prose will hold them still: generate five views of one room concurrently from the same paragraph and five different rooms come back, each defensibly on-brief. The fix is to make an approved asset do the work the prose cannot. Bless one seed, then generate the second asset against it, the third against both, the fourth against all three. Each blessing extends the specification the next generation is built on. This is the [golden chain](/concepts/golden-chain), and it is why the gate has a sequencing consequence: you cannot bless in bulk at the end, because later assets need the earlier blessings to exist before they can be made.
+
+The scope matters. Work that merely *consumes* canon can be parallelized freely. Work that *creates* canon has to be chained, because it has nothing to lean on yet.
+
 ## Why this is the asset class
 
 The library of goldens is the thing an AI-native operation actually owns. Models are rented and swapped; prompts get rewritten; the curated library of blessed, on-canon, reusable artifacts is what compounds and what a competitor cannot copy. That is precisely why the gate is worth defending. The value of the whole library rests on the promise that every item in it was held to the bar. One self-minted gold does not just add a weak asset. It devalues the guarantee the word golden is supposed to carry.
@@ -61,6 +69,7 @@ Guard the gate, and the library becomes a moat that deepens with every blessing.
 ## Further Reading
 
 - [Agentic Brand Universe](/concepts/agentic-brand-universe): the version-controlled cartridge whose blessed layer the golden library is.
+- [Golden Chain](/concepts/golden-chain): how a blessed seed becomes the specification for the next asset, and why sets that must agree cannot be generated in parallel.
 - [Golden Examples](/concepts/golden-examples): the curation discipline behind the quality half of the bar, and the compounding that makes the gate matter.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the visual assets that most literally ride as references on every future render, so a bad blessing propagates fastest here.
 - [Golden Atomic Brand Templates](/concepts/golden-atomic-brand-templates): the coded twin, for assets whose text, numbers, or logo must be exact.

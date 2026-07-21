@@ -26,6 +26,27 @@ Without evals, an implementation is faith. With evals, every prompt change, mode
 
 **Score the LLM-judge against the human-judge.** Run the LLM judge against five outputs hand-scored by the operator. If they agree on the top dimension, the rubric is operational. If they diverge, iterate the rubric until they agree on the easy cases. This is the only check that keeps evals honest.
 
+## Evals measure. Verifiers gate.
+
+Two different instruments get called "evals," and conflating them costs real work. An **eval** scores output against a rubric, usually offline, to answer "is the system better than it was." A **verifier** is a check wired into the production loop that decides whether one specific output is allowed to proceed. Evals produce a number a leader can defend. Verifiers produce a pass or a fail that the pipeline obeys.
+
+The verifier is what turns generation into a loop instead of a gamble. Once acceptance is machine-checkable, the system stops hoping for a good output and starts regenerating until it gets one. That pattern has a name in the literature: **rejection sampling against a verifier**. In operator terms: define the musts and nevers precisely enough that a machine can check them, then keep rolling until every condition is satisfied.
+
+This is why the sharpest teams write the constraints before the prompt. The constraints are not documentation of the prompt. They are half of it.
+
+## The spec is the prompt and the test
+
+The highest-leverage version of this insight: **one artifact serves both ends of the loop.** The same list of musts and nevers is the instruction the generator is steered by and the checklist the verifier grades against. Writing them once improves the prompt and enables the loop. Those are not two benefits. They are one artifact read from two directions.
+
+Wire only one end and the loop leaks, in one of two ways:
+
+- **Stated but not checked.** The constraint reaches the generator and nothing confirms it landed. Output drifts silently, and the drift is found late by a human noticing, which is exactly the labor the system was supposed to remove.
+- **Checked but not stated.** The verifier knows the rule and the generator was never told it. Every attempt fails for a reason the generator has no way to act on, so the loop burns attempts converging by luck. A constraint that exists only in the checker is an expensive way to be right.
+
+The practical test for any constraint you write down: can the generator see it, and can the checker measure it? If the answer to either is no, the constraint is decorative.
+
+A corollary worth stating plainly: constraints have to be specific enough to be mechanically checkable. "On brand" fails both ends. "Every garment is unbranded, with no logo, wordmark, or maker's mark" steers the generator and gives the checker something to look for.
+
 ## Bottom-of-the-barrel mistakes
 
 - **"Quality" or "helpfulness" as the rubric.** Too generic to catch anything. The rubric needs dimensions specific to the task: tone matches brand voice, all named entities spelled correctly, an actionable next step is present.
@@ -60,3 +81,4 @@ If those four are true, evals are real in the leader's organization. If they are
 - [Disciplines](/disciplines)
 - [The Judgment Line](/perspectives/the-judgment-line)
 - [First eval harness in week one](/playbooks/first-eval-harness)
+- [Golden Chain](/concepts/golden-chain): a set-building loop whose verifier decides which asset is accepted before it conditions the next one.
