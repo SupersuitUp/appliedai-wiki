@@ -77,3 +77,4 @@ If the second sentence is shorter than the first, the estimate is wrong.
 - [The Portability Tax](/concepts/the-portability-tax) for what it costs to keep both axes in-house on purpose.
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) for the participation floor beneath all of this.
 - [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses) for why a small core beats a kitchen-sink default on the harness axis.
+- [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for the cloud precedent on the deployment axis, and where that precedent stops applying.

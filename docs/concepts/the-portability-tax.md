@@ -93,3 +93,4 @@ Run it once. If the answer is pay the tax, pay it deliberately and stop apologiz
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) for the floor beneath any of this.
 - [Your Edge Is Not Your Infrastructure](/perspectives/your-edge-is-not-your-infrastructure) for the case against owning the undifferentiated half.
 - [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper) for the skill-portability argument, which is a different question from system portability.
+- [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for which layer the cloud era proved was worth keeping portable, which is not the one most teams are paying for.
