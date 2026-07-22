@@ -93,3 +93,4 @@ The 2008 argument had a right answer, and it was never that the objections were 
 - [The Harness and the Deployment](/concepts/the-harness-and-the-deployment) for the two axes, since the cloud parallel applies cleanly to one of them and not the other.
 - [Intelligence Is Commoditized, Deployment Is the Moat](/perspectives/intelligence-is-commoditized-deployment-is-the-moat) for the same commoditization pattern read at the model layer instead of the infrastructure layer.
 - [Evals](/disciplines/evals) for the discipline that turns migration from an act of faith into an act of measurement.
+- [The Moat Layer](/concepts/the-moat-layer) for the cheap portability named as an asset, and what happens to a company that finds it would carry almost nothing out.
