@@ -49,6 +49,16 @@ For an implementer, this is the rule that keeps a build honest. Do not try to au
 
 That is the job of a [Seat Wrapper](/concepts/seat-wrapper): it runs the roles that fell inside the frontier so the person spends their hours on the roles that fell outside, the narrow band where they are the reason the seat wins. Point the automation at the in-frontier roles and point the human at the out-of-frontier ones. A build that aims the model at the edge itself produces the premium role's cheap impersonation, which is the one thing the premium buyer is paying not to get.
 
+## Supporting voices
+
+- **[Claire Vo](/people-to-follow/claire-vo) (2026-07-15):** asked what is left once AI comes for the PRDs, the code, the tickets, and the stand-ups, she names three things: finding where a product problem meets the commercial appetite of a market, generating genuinely novel ideas from first principles (her assessment after heavy use is that models are competent building partners and weak brainstorming partners), and inspiring fellowship. The third is the sharpest, and she compresses it to "rizz is the only moat."
+
+  > "A human's ability to inspire movement in other humans, I still think is a differentiating value in this AI world. I would love to see more people develop that skill of influence, charisma, market-facing communication, because the robots can do the rest."
+  >
+  > Claire Vo, ["She Staffed Her Profitable Startup With AI Agents"](https://www.youtube.com/watch?v=r5kF6RH3dKM), Solo Founders, 2026-07-15
+
+  Her framing extends the section above rather than restating it. High-ticket sales and presence-as-the-point service are the seats where the edge shows up as a line item. Inspiring fellowship is the same capacity pointed at people who are not buyers: getting a team to build the thing, getting investors to fund it, getting a market to believe you are the answer. She is a live test of the claim, since a business with one human and an [agent constellation](/concepts/agent-constellation) doing the execution leaves its founder with almost nothing but the edge.
+
 ## Further Reading
 
 - [The Jagged Frontier](/perspectives/the-jagged-frontier), the other half of the map: where AI is strong, uneven, and moving outward.

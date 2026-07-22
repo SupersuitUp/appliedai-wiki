@@ -26,6 +26,7 @@ Her second contribution is the framing that the skill underneath running agents 
 
 - **[Agent Constellation](/concepts/agent-constellation)**: the concept page distilling her staffing model, many narrowly scoped named agents instead of one all-knowing assistant.
 - **[The Roles-to-Workflows Shift](/concepts/roles-to-workflows)**: a supporting voice on why the role reappears as a container once the decomposition is done.
+- **[Comparative Human Edge](/perspectives/comparative-human-edge)**: a supporting voice on inspiring fellowship as the capacity that survives, which she compresses to "rizz is the only moat."
 
 ## Field Notes
 
@@ -45,9 +46,11 @@ A sixty-five-minute interview covering the shape of the business and the mechani
 >
 > Claire Vo, ["She Staffed Her Profitable Startup With AI Agents"](https://www.youtube.com/watch?v=r5kF6RH3dKM), Solo Founders, 2026-07-15
 
-Adjacent material worth noting but not lifted into a page: her argument that the remaining human work is finding where a product problem meets commercial appetite, generating genuinely novel ideas from first principles, and inspiring fellowship, which she compresses to "rizz is the only moat." Also her position that a thin application layer over a frontier model is defensible exactly when the founder's earned insight is the product, which is a first-person version of what [The Moat Layer](/concepts/the-moat-layer) argues.
+8. **Rizz is the only moat.** Asked what is left once AI takes the PRDs, the code, the tickets, and the stand-ups, she names three things: finding where a product problem meets the commercial appetite of a market, generating novel ideas from first principles (she rates models as good building partners and weak brainstorming partners), and inspiring fellowship in teams, investors, and markets.
 
-Where it landed on this wiki: [Agent Constellation](/concepts/agent-constellation) as a concept page, with a supporting-voices bullet on [The Roles-to-Workflows Shift](/concepts/roles-to-workflows).
+Adjacent material noted but not lifted into a page: her position that a thin application layer over a frontier model is defensible exactly when the founder's earned insight is the product, which is a first-person version of what [The Moat Layer](/concepts/the-moat-layer) argues.
+
+Where it landed on this wiki: [Agent Constellation](/concepts/agent-constellation) as a concept page, with supporting-voices sections on [The Roles-to-Workflows Shift](/concepts/roles-to-workflows) and [Comparative Human Edge](/perspectives/comparative-human-edge).
 
 ## How to cite her
 
