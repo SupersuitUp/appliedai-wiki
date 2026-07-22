@@ -53,7 +53,7 @@ For a single builder on one machine, a plugin's day-to-day gain over loose files
 - **On and off as a set.** Disable a whole domain when you are not using it, to cut menu and context clutter, and bring it back in one command.
 - **More than skills.** A domain that needs a custom hook or a bundled MCP server carries them along, not as separate setup.
 
-Package by domain. Keep the portable cargo (MCP servers, AGENTS.md) portable, and let the plugin be the crate. The moment you need to move a toolkit, share it, or toggle it, the crate earns its keep. Until then, its main gift is that you learned the mechanism before you needed it.
+Package by domain. Keep the portable cargo (MCP servers, AGENTS.md) portable, and let the plugin be the crate. The moment you need to move a toolkit, share it, or toggle it, the crate earns its keep. Until then, its main gift is that you learned the mechanism before you needed it. One domain shape deserves its own page: a goal-directed, time-bounded effort packaged as a [campaign plugin](/concepts/campaign-plugins), where the bundle's skills are the campaign's atomic actions and versioned files carry its state.
 
 ## Further Reading
 
