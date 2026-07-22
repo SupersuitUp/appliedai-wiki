@@ -23,6 +23,7 @@ Each entry is one short page: a one-line who-they-are, two or three sentences on
 
 ## The people
 
+- **[Claire Vo](/people-to-follow/claire-vo)** *(practitioner)*: founder of ChatPRD, host of *How I AI*, three-time chief product and technology officer. The clearest working example of a profitable business staffed by an [agent constellation](/concepts/agent-constellation), and the source of the framing that running agents is a management skill rather than a prompting one.
 - **[Cory Doctorow](/people-to-follow/cory-doctorow)** *(public-teaching source)*: author, journalist, and technology-and-labor critic. Source on the deployment anti-pattern an implementer must refuse to build, the [reverse centaur](/concepts/reverse-centaur), and on why reverse-centaur strategies fail to return capital.
 - **[Daniel Priestley](/people-to-follow/daniel-priestley)** *(public-teaching source)*: founder of Dent Global and ScoreApp, author of *Key Person of Influence*. Principal-facing mentor whose framework on repricing post-AI work is required reading for any consultant advising entrepreneurs through the substitution frontier.
 - **[Satya Nadella](/people-to-follow/satya-nadella)** *(public-teaching source)*: chairman and CEO of Microsoft. Public-teaching source on what becomes valuable in the age of token abundance, including cognitive coverage and token intelligence as the human skills that compound alongside agents.
