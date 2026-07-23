@@ -21,6 +21,7 @@ Before drafting, read these two files. They are the source of truth for page typ
 | **A reflection** (Gary's own take, framework, claim, lesson from his work). **This is the default.** | Stay in this skill. Create or update a page directly. | Step 2 onward. |
 | **An outside resource** (a URL, YouTube video, PDF, article, or the published material of a named firm or person) | The intake pipeline | Invoke `applied-ai-field-notes` (the canonical note-sharers pipeline for this wiki) or `intake-field-note-into-garys-wikis` (cross-wiki router). Then stop. |
 | **A real question someone asked** (screenshot, paste, "field this question") | The Q&A pipeline | Invoke `add-appliedai-wiki-qa`. Then stop. |
+| **A boomerang prompt** (a paste-in Gary hands a person so their AI interviews them and returns build-ready material) | The hosted-skill pipeline | Invoke `publish-boomerang-to-appliedai` (authoring first via `generate-boomerang-prompt` if the file does not exist). It ships under `static/skills/`, not `docs/`. Then stop. |
 
 If unsure whether something is a reflection or an outside resource: if Gary is the one making the claim and there is no single external source being summarized, it is a reflection. Treat it as the default and stay here.
 
@@ -30,8 +31,19 @@ Creating a near-duplicate page is the most common failure mode. Before writing a
 
 ```bash
 cd ~/Documents/github-repos/supersuit-repos/appliedai-wiki
-rg -il "<key terms of the idea>" docs/
+find docs -name "*.md*" | sed 's|docs/||' | sort          # read ALL ~290 titles once
+for t in <term1> <term2> <term3>; do echo "--- $t ---"; rg -il "$t" docs/; done
 ```
+
+Do both, in that order. The wiki is large enough that a single `rg` on the idea's own
+vocabulary reliably misses the page that already owns the idea under different words,
+which is exactly the "near-duplicate under a slightly different name" failure in the
+wiki CLAUDE.md. Scanning the full title list is what catches it. Then sweep several
+keyword angles, not one: the idea's terms, its metaphor, its opposite, and the audience
+it serves.
+
+Expect to kill candidates. On a batch of six ideas, two being already covered is a
+normal, healthy result, and reporting what you dropped and why is part of the output.
 
 - If a page already covers this idea, **update it**: add a section, sharpen the italic definition line, or add a bullet to a "Supporting voices" / body section. Enrich, do not fork.
 - **Default bias (from the wiki CLAUDE.md): a bullet or section on an existing page beats a new page.** A new page is warranted only when the idea is genuinely standalone and will be cross-linked from several places.
