@@ -127,6 +127,7 @@ const sidebars: SidebarsConfig = {
             'reference/standards/generate-md',
             'reference/standards/boomerang-md',
             'reference/standards/brand-txt',
+            'reference/standards/projection-json',
           ],
         },
         'reference/voice-rules',

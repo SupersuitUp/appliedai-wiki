@@ -1,7 +1,7 @@
 ---
 title: "Standards"
 slug: /reference/standards
-description: "Open agent-readable file formats: ALIGN.md for partnership alignment, INTEGRATE.md for wiring systems together, GENERATE.md for one-time scaffolding recipes, BOOMERANG.md for extracting build-ready material from a person."
+description: "Open agent-readable file formats: ALIGN.md for partnership alignment, INTEGRATE.md for wiring systems together, GENERATE.md for one-time scaffolding recipes, BOOMERANG.md for extracting build-ready material from a person, PROJECTION.json for declaring a kind of deliverable."
 ---
 
 # Standards
@@ -12,12 +12,13 @@ description: "Open agent-readable file formats: ALIGN.md for partnership alignme
 
 ## What lives here
 
-Five specs sit in this section. All are AI-readable file formats. All are versioned, dated, and meant to be copied into your own repos.
+Six specs sit in this section. All are AI-readable file formats. All are versioned, dated, and meant to be copied into your own repos.
 
 - **[ALIGN.md](/reference/standards/align-md)**. A relational format. Describes who you are, what you value, what you bring, what you look for, and what makes you walk away. Agents on both sides cross-reference the two files to surface alignment or dealbreakers before anyone takes a call.
 - **[INTEGRATE.md](/reference/standards/integrate-md)**. A technical format. Teaches an agent how to wire one system into another, either a library into a codebase (Flavor A) or a service into your agent harness (Flavor B). The agent reads the file and executes the integration steps autonomously.
 - **[GENERATE.md](/reference/standards/generate-md)**. A scaffolding format. Teaches an agent how to run a one-time generation: interview the operator, execute the scaffold, verify the artifact, then step aside. Distinct from SKILL.md (ongoing capability). Distinct from INTEGRATE.md (wiring two existing systems). The artifact has a terminal state: after the GENERATE runs, the wiki exists, the project is scaffolded, the workspace is bootstrapped.
 - **[BOOMERANG.md](/reference/standards/boomerang-md)**. An extraction format, and the family's first consumer-facing one. A prompt you hand to another person: they paste it into their own AI, it interviews them on their own time, and it writes their answers back in a structure you can build from. Every other format is read by your agent; a boomerang is a payload you give away. It often composes as the front half of a SKILL or GENERATE.
+- **[PROJECTION.json](/reference/standards/projection-json)**. An output format. Declares a KIND of deliverable: the surface it occupies, the canon it requires by kind, the slots it composes, the generator capabilities it invokes, and the invariants it is held to. Where GENERATE.md scaffolds an artifact once and SKILL.md describes a repeatable capability, a projection describes the SHAPE of an output and how to know it came out right. Its useful trick: complexity becomes a number, the count of invariants spanning more than one slot.
 - **[brand.txt](/reference/standards/brand-txt)**. A priming format. One statically-served file that makes a brand agent-ready in a single link: identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms inlined, plus absolute URLs to every brand asset. Like `llms.txt` for a website, but for generating in a brand's voice and look. Generated at build time from an [Agentic Brand OS](/concepts/agentic-brand-os).
 
 Every format targets an AI reader. Four are read by your agent; BOOMERANG.md is pasted by another person into theirs. All are intentionally minimal at v0.x. All evolve based on real usage patterns rather than upfront design.
