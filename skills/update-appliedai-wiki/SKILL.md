@@ -14,6 +14,10 @@ Before drafting, read these two files. They are the source of truth for page typ
 1. `~/Documents/github-repos/supersuit-repos/appliedai-wiki/CLAUDE.md` (page types, "When to add what" table, page anatomy, voice rules, common mistakes).
 2. `~/Documents/github-repos/supersuit-repos/CLAUDE.md` (cross-wiki posture, routing, sidebar conventions, build/deploy, comic heroes).
 
+## Step 0: Work in a git worktree (authoring path)
+
+If this input routes to a specialist skill (outside resource, question, boomerang), that skill owns its own worktree. If you stay in this skill to author or edit a page (the default reflection path), do the work in a throwaway git worktree off `main`, per the canonical mechanism in `~/Documents/github-repos/supersuit-repos/CLAUDE.md` ("Isolation: wiki authoring skills work in a git worktree"). Create the worktree for `appliedai-wiki` with the page slug, make every edit and generate the hero inside it, run `pnpm run build` there as the gate, then merge to `main` and push (which deploys). Read-only checks (the create-vs-update dedup search below) can run in the primary checkout.
+
 ## Step 1: Classify the input (the routing fork)
 
 | The input is... | Route to | How |
