@@ -9,7 +9,7 @@ image: "/img/comics/the-doctor-pattern.png"
 
 *Write down the rubric that IS your definition of "good and complete," then loop an agent against it: grade, fix the highest-impact gap, re-grade, repeat, until you say stop.*
 
-![Three-panel cream-paper comic titled "THE DOCTOR PATTERN". Panel 1, caption "The doctor grades the work.": a hyperagent in bulky navy-and-orange plate armor reads a "PERFORMANCE SCORECARD" easel showing a large crimson grade "D" over a numbered punch-list (1 Clarity through 10 Taste). Panel 2, caption "Fix the top gap. Re-grade. Repeat.": the hyperagent treats the top item with a glowing gold tool while an orange arrow sweeps the grade up to a gold "A". Panel 3, caption "The human keeps the score honest.": an ordinary flesh human woman in a cardigan stamps a red "VETO" over the "Taste" row of the scorecard while the hyperagent looks to her. Footer bar: "THE RUBRIC IS THE REWARD. THE HUMAN IS THE CHECK."](/img/comics/the-doctor-pattern.png)
+![A warm ink-and-wash plate on cream paper: a glowing amber translucent laptop sits on a desk with coffee and plants. Inside its screen the Chief of Agents, a rounded character in a gold military cap, points at a chart where a grade sweeps from "F" up to a bright "A+" beside a numbered punch-list; a human hand reaches in from the real world pressing a stamp to check one punch-list row. The agent grades and improves inside the glowing laptop; the human supplies the taste check.](/img/comics/the-doctor-pattern.png)
 
 ---
 
