@@ -81,8 +81,13 @@ When you build a domain-specific applied AI tool, you are building two things: t
 
 A shared vocabulary across an entire field of practitioners is itself an ontology. Without it, every practitioner invents their own vocabulary, and no insight compounds across the network. With it, every new practitioner inherits a working map of the territory.
 
+## Supporting voices
+
+- **Frank Coyle, UC Berkeley (2026-07-23):** two additions to the build method above. First, do not start from a blank file. Substantial vocabularies already exist and are free after fifteen to twenty years of work: schema.org for general entities and relationships, FOAF for social graphs, Dublin Core for documents and publications, DBpedia for the structured extract behind Wikipedia. Second, build from both ends. The top-down method (experts in a room enumerating entities, properties, and relationships) is exactly what failed to scale in the 1980s expert-systems era, so pair it with a bottom-up pass that watches what actually shows up in real customer interactions and attaches the entities and relationships you observe. He also supplies the argument for a graph rather than tables: adding to a relational model means adding a column and restructuring around it, while attaching a property or relationship to a graph is just attaching it, which is the right property for a domain model you are still learning. [Field note](/note-sharers/frank-coyle/2026-07-23-neurosymbolic-ai).
+
 ## Further Reading
 
+- [Neurosymbolic AI](/concepts/neurosymbolic-ai): The name for the full architecture this substrate is half of, and what a formal reasoner over it catches that a prompt cannot.
 - [Ontology-Driven Development](/disciplines/ontology-driven-development): The development methodology that turns this substrate into compounding software, with the lineage back to Domain-Driven Design and the Palantir framing.
 - [Harness Engineering](/disciplines/harness-engineering): The runtime that operates on the ontology.
 - [Spec Writing](/disciplines/spec-writing): The discipline that turns ontology decisions into shippable specifications.
