@@ -1,0 +1,23 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, soft muted blue-grey fills, dark warm ink line.\n\nSubject: one quiet editorial plate, a single wide desk in a warm room. On the RIGHT sits the glowing translucent amber laptop from the LAST reference image, open and lit from within. INSIDE its screen, small rounded agent figures work busily along a long lit bench, and mounted on the wall behind them is a large round brass gauge whose single needle rests LOW and calm in its lower arc, plainly untroubled. OUTSIDE the laptop, in the warm real room, an ordinary person is seen from behind and slightly to the side, unhurried, one hand resting open on a thick closed cloth-bound ledger on the desk. On the wall of the real room behind that person hangs a SECOND round brass gauge of the same size and make, but its face is entirely BLANK and it has NO needle at all, so nothing about it can be read or measured. The two gauges are the visual rhyme of the plate: the one inside the machine is measurable and calm, the one out here in the human's room cannot be measured at all. Quiet, warm, unhurried, editorial.\n\nNEGATIVES: no comic-book, no cartoon mascot, no flat vector, no neon, no 3D, no CGI, no Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nABSOLUTELY NO text, no letters, no numbers, no labels, no tick-mark numerals, no lettering on either gauge face, no signage anywhere.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-26T18:52:42.899641+00:00",
+  "sha256": "63b38005cb59cd26b134ff9adb976ae6cf03506cb60af072e3bbc96e910b88e5",
+  "stylePack": "warm-editorial-neutral"
+}
