@@ -1,0 +1,17 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Warm editorial ink-and-wash illustration on a warm cream ground: soft painterly line, gentle shading, muted natural palette, grounded and human, a picture-book register for adults.\n\nONE single image divided into THREE CLEAR PANELS of equal size, arranged left to right in a horizontal row, separated by generous clean cream gutters with NO drawn borders and NO frame lines. Each panel is one beat of the same argument, read in order. ONE consistent world, ONE consistent woman and ONE consistent glowing amber laptop across all three, so it reads as a progression.\n\nCOMPOSITION LAW: the agents live INSIDE the glowing translucent amber laptop where the work happens, and the human stays OUTSIDE it in the warm real world. MAYA is the main character, rendered exactly from the character reference: a sage-olive single-button notch-lapel blazer with sleeves pushed to the elbow, a plain white crew-neck tee, STONE KHAKI chinos and never blue jeans, white sneakers.\n\nThe scene, beat by beat. BEAT ONE, THE RULE ON THE WALL: Maya stands beside the glowing laptop, and pinned on the warm wall behind her is a single sheet of paper with a rule written on it as soft illegible marks. She gestures at the sheet, telling the small rounded agent inside the laptop about it, and the agent is looking away and not at the sheet. BEAT TWO, THE MISS: the agent inside proudly holds up a finished piece of work that is visibly WRONG, one element on it flipped backwards and facing the wrong way, while the sheet of paper still hangs untouched on the wall behind Maya, who presses a hand to her forehead. BEAT THREE, THE GUARD: the sheet of paper is GONE from the wall, and in its place a small glowing amber seal or stamp now sits INSIDE the laptop at its doorway, and every piece of work passing out through that doorway is stamped by it in passing; the agent hands Maya a finished piece that is now correct, and she takes it with an open hand and a calm nod, no longer watching the wall.\n\nABSOLUTELY NO TEXT ANYWHERE: no words, no letters, no numbers, no captions, no speech bubbles, no labels, no UI chrome, no menus, no icons. Every beat must be legible from image alone. Never comic-book styling, never cartoon mascot, never flat vector, never neon, never 3D or CGI, never photoreal, never anime.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "universe/reference/maya/master.png"
+    },
+    {
+      "path": "universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-26T23:16:43.012438+00:00",
+  "sha256": "9c681a2b64f9e4d204b8209897accd18f8ca37caa41b8a45800f1968885d1110",
+  "stylePack": "universe/reference/style/warm-editorial-neutral"
+}
