@@ -1,89 +1,54 @@
 import type { Plugin, LoadContext, PluginOptions } from '@docusaurus/types';
 import * as path from 'path';
 import * as fs from 'fs';
-import { execSync } from 'child_process';
-
-// Every change to a doc is its own event, derived from git history:
-// a "new" event when the file is first added, an "updated" event for every
-// later commit that touches it, and a "removed" event when it is deleted.
-// Both the Changelog page and the ChangelogWidget home-page widget render this
-// same stream, so the widget is always exactly the top N of the changelog.
-type ChangeType = 'new' | 'updated' | 'removed';
-
-interface ChangeEvent {
-  id: string; // unique React key: docKey@commitHash
-  type: ChangeType;
-  date: string; // ISO8601 commit date
-  docKey: string; // path-based key without extension, e.g. "learning/mentors"
-  routePath: string; // public URL with leading slash; empty for removed pages
-  section: string; // top-level folder, e.g. "learning"
-  title: string;
-  description?: string;
-}
+import {
+  collectChangeEvents,
+  isShallowClone,
+  sortNewestFirst,
+  type ChangeEvent,
+} from './collect';
 
 interface CreationDatePluginContent {
   changeEvents: ChangeEvent[];
 }
 
-// Meta pages and section indexes are not content entries; keep them out of
-// the changelog so it does not list itself or the how-to page.
-const EXCLUDED_LEAF_KEYS = new Set([
-  'index',
-  'intro',
-  'changelog',
-  'how-to-update',
-]);
-function isExcluded(docKey: string): boolean {
-  if (EXCLUDED_LEAF_KEYS.has(docKey)) return true;
-  if (docKey.endsWith('/index')) return true;
-  return false;
+// Vercel's build container clones the repo SHALLOW and with NO git remote, so
+// `git remote -v` is empty there, any fetch dies with "'origin' does not appear
+// to be a git repository", and `git fetch --unshallow` exits 0 having done
+// nothing. (Verified on way-of-fire-wiki, 2026-07-26. Earlier versions of this
+// recipe told you to unshallow in the build command; that never worked.)
+// History older than the clone's window is unreachable at build time.
+//
+// So history rides along in the repo. On a full clone (a laptop) the plugin
+// writes what git shows into the snapshot below; on a shallow clone it leaves
+// the snapshot alone and merges it with whatever recent git it can see, live
+// git winning on collision so titles track the working tree. Commit the
+// snapshot when it changes: it is what makes /changelog show more than the
+// last few weeks in production.
+const SNAPSHOT_RELATIVE_PATH = 'src/data/changelog-events.json';
+
+function readSnapshot(siteDir: string): ChangeEvent[] {
+  const file = path.join(siteDir, SNAPSHOT_RELATIVE_PATH);
+  if (!fs.existsSync(file)) return [];
+  try {
+    const parsed = JSON.parse(fs.readFileSync(file, 'utf-8'));
+    return Array.isArray(parsed?.changeEvents) ? parsed.changeEvents : [];
+  } catch {
+    return [];
+  }
 }
 
-function parseFrontmatter(content: string): {
-  title?: string;
-  description?: string;
-  slug?: string;
-  draft?: boolean;
-} {
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return {};
-  const fm = match[1];
-  const titleMatch = fm.match(/title:\s*"?([^"\n]+?)"?\s*$/m);
-  const descMatch = fm.match(/description:\s*"((?:[^"\\]|\\.)*)"/);
-  const slugMatch = fm.match(/slug:\s*"?([^"\n]+?)"?\s*$/m);
-  const draftMatch = fm.match(/^draft:\s*true\s*$/m);
-  return {
-    title: titleMatch
-      ? titleMatch[1].trim().replace(/^"/, '').replace(/"$/, '')
-      : undefined,
-    description: descMatch ? descMatch[1].trim().replace(/\\"/g, '"') : undefined,
-    slug: slugMatch
-      ? slugMatch[1].trim().replace(/^"/, '').replace(/"$/, '')
-      : undefined,
-    draft: draftMatch ? true : undefined,
-  };
-}
-
-function titleize(docKey: string): string {
-  return (docKey.split('/').pop() || docKey)
-    .split('-')
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
-}
-
-const stripNumberPrefix = (s: string) => s.replace(/^\d+-(?!\d)/, '');
-
-function docKeyFromRepoPath(repoRelPath: string): string | null {
-  if (!repoRelPath.startsWith('docs/')) return null;
-  const rel = repoRelPath.slice('docs/'.length);
-  if (!/\.mdx?$/.test(rel)) return null;
-  return rel.replace(/\.mdx?$/, '');
-}
-
-function routePathFor(slug: string | undefined, docKey: string): string {
-  if (slug) return slug.startsWith('/') ? slug : `/${slug}`;
-  const cleaned = docKey.split('/').map(stripNumberPrefix).join('/');
-  return `/${cleaned}`;
+function writeSnapshot(siteDir: string, events: ChangeEvent[]): void {
+  if (events.length === 0) return;
+  const file = path.join(siteDir, SNAPSHOT_RELATIVE_PATH);
+  const next = `${JSON.stringify({ changeEvents: events }, null, 2)}\n`;
+  const previous = fs.existsSync(file) ? fs.readFileSync(file, 'utf-8') : '';
+  if (previous === next) return;
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, next);
+  console.log(
+    `[changelog] snapshot refreshed with ${events.length} events, commit ${SNAPSHOT_RELATIVE_PATH}`,
+  );
 }
 
 export default function creationDatePlugin(
@@ -95,174 +60,17 @@ export default function creationDatePlugin(
 
     async loadContent() {
       const siteDir = context.siteDir;
-      const docsDir = path.join(siteDir, 'docs');
-      if (!fs.existsSync(docsDir)) return { changeEvents: [] };
+      const fromGit = collectChangeEvents(siteDir);
 
-      // Metadata for files that still exist, read from the working tree.
-      const currentMeta = new Map<
-        string,
-        { title: string; description?: string; routePath: string }
-      >();
-      // Draft pages are excluded from the production build, so they must be
-      // excluded from the changelog too. Every event for a drafted docKey is
-      // skipped below, including its historical "new"/"updated" rows, so
-      // flipping a page to draft removes it from the changelog entirely rather
-      // than surfacing an "updated" (or, if deleted, "removed") event.
-      const draftKeys = new Set<string>();
-      // A page that moved folders (e.g. foundations/ -> perspectives/) has
-      // history under its OLD docKey too. The filename basename is stable
-      // across such moves, so also skip events whose leaf matches a drafted
-      // page's leaf. ('index' is already excluded above, so never key on it.)
-      const draftLeafKeys = new Set<string>();
-      const walk = (dir: string, base = '') => {
-        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-          const full = path.join(dir, entry.name);
-          const rel = base ? `${base}/${entry.name}` : entry.name;
-          if (entry.isDirectory()) {
-            walk(full, rel);
-          } else if (entry.isFile() && /\.mdx?$/.test(entry.name)) {
-            const docKey = rel.replace(/\.mdx?$/, '');
-            const fm = parseFrontmatter(fs.readFileSync(full, 'utf-8'));
-            if (fm.draft) {
-              draftKeys.add(docKey);
-              // Strip a leading "_": a hidden page is often also renamed with
-              // an underscore prefix (Docusaurus ignores `_*` files), while its
-              // git history sits under the un-prefixed name. Key on the bare
-              // basename so both resolve to the same leaf.
-              const leaf = docKey.split('/').pop()?.replace(/^_/, '');
-              if (leaf && leaf !== 'index') draftLeafKeys.add(leaf);
-              continue;
-            }
-            currentMeta.set(docKey, {
-              title: fm.title || titleize(docKey),
-              description: fm.description,
-              routePath: routePathFor(fm.slug, docKey),
-            });
-          }
-        }
-      };
-      walk(docsDir);
+      // Only a full clone may rewrite the snapshot. A shallow one would
+      // replace deep history with its own truncated window.
+      if (!isShallowClone(siteDir)) writeSnapshot(siteDir, fromGit);
 
-      // Full git history of docs/ as a status stream. -M detects renames so a
-      // move shows as one "updated" row instead of a spurious remove + add.
-      let raw = '';
-      try {
-        raw = execSync(
-          `git log -M --diff-filter=ADMR --name-status --format='__C__%x09%aI%x09%H' -- docs/`,
-          { cwd: siteDir, encoding: 'utf-8', maxBuffer: 128 * 1024 * 1024 },
-        );
-      } catch {
-        return { changeEvents: [] };
-      }
+      const byId = new Map<string, ChangeEvent>();
+      for (const event of readSnapshot(siteDir)) byId.set(event.id, event);
+      for (const event of fromGit) byId.set(event.id, event);
 
-      // Recover frontmatter for a path that no longer exists in the tree from
-      // a specific commit (the deletion's parent, or the add/edit commit).
-      const recoveredCache = new Map<string, { title: string; description?: string }>();
-      const recoverAt = (
-        repoRelPath: string,
-        ref: string,
-        docKey: string,
-      ): { title: string; description?: string } => {
-        const cacheKey = `${docKey}@${ref}`;
-        const hit = recoveredCache.get(cacheKey);
-        if (hit) return hit;
-        let meta: { title: string; description?: string } = {
-          title: titleize(docKey),
-          description: undefined,
-        };
-        try {
-          const content = execSync(`git show ${ref}:"${repoRelPath}"`, {
-            cwd: siteDir,
-            encoding: 'utf-8',
-            maxBuffer: 32 * 1024 * 1024,
-          });
-          const fm = parseFrontmatter(content);
-          meta = { title: fm.title || titleize(docKey), description: fm.description };
-        } catch {
-          // keep fallback
-        }
-        recoveredCache.set(cacheKey, meta);
-        return meta;
-      };
-
-      const events: ChangeEvent[] = [];
-      let curDate = '';
-      let curHash = '';
-      for (const line of raw.split('\n')) {
-        if (line.startsWith('__C__\t')) {
-          const parts = line.split('\t');
-          curDate = parts[1] || '';
-          curHash = parts[2] || '';
-          continue;
-        }
-        if (!line.trim() || !curDate) continue;
-
-        const cols = line.split('\t');
-        const status = cols[0];
-        let repoRelPath: string;
-        let type: ChangeType;
-        if (status.startsWith('R')) {
-          repoRelPath = cols[2]; // new path
-          type = 'updated';
-        } else if (status === 'A') {
-          repoRelPath = cols[1];
-          type = 'new';
-        } else if (status === 'M') {
-          repoRelPath = cols[1];
-          type = 'updated';
-        } else if (status === 'D') {
-          repoRelPath = cols[1];
-          type = 'removed';
-        } else {
-          continue;
-        }
-
-        const docKey = docKeyFromRepoPath(repoRelPath);
-        if (!docKey || isExcluded(docKey)) continue;
-        // A page currently marked draft is invisible everywhere, including
-        // here: drop all of its history from the changelog stream, including
-        // events recorded under an older path it has since moved away from.
-        if (draftKeys.has(docKey)) continue;
-        const leaf = docKey.split('/').pop()?.replace(/^_/, '');
-        if (leaf && draftLeafKeys.has(leaf)) continue;
-        const section = docKey.split('/')[0];
-
-        if (type === 'removed') {
-          // A move shows D(old)+A(new) only without -M; with -M real deletes are
-          // D. Guard anyway: skip if a live file still owns this docKey.
-          if (currentMeta.has(docKey)) continue;
-          const meta = recoverAt(repoRelPath, `${curHash}^`, docKey);
-          events.push({
-            id: `${docKey}@${curHash}`,
-            type,
-            date: curDate,
-            docKey,
-            routePath: '',
-            section,
-            title: meta.title,
-            description: meta.description,
-          });
-        } else {
-          const live = currentMeta.get(docKey);
-          const meta = live ?? recoverAt(repoRelPath, curHash, docKey);
-          events.push({
-            id: `${docKey}@${curHash}`,
-            type,
-            date: curDate,
-            docKey,
-            routePath: live ? live.routePath : '',
-            section,
-            title: meta.title,
-            description: meta.description,
-          });
-        }
-      }
-
-      events.sort(
-        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-      );
-
-      return { changeEvents: events };
+      return { changeEvents: sortNewestFirst([...byId.values()]) };
     },
 
     async contentLoaded({ content, actions }) {

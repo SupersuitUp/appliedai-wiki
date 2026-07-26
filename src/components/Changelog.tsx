@@ -1,12 +1,21 @@
 import React from 'react';
 import { ChangeRow, useChangeEvents } from './ChangelogWidget';
 
-function monthHeading(d: Date): string {
-  return d.toLocaleDateString('en-US', {
-    month: 'long',
-    year: 'numeric',
-    timeZone: 'UTC',
-  });
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+// Group and label by the date in the commit's own timezone (the leading
+// YYYY-MM of the ISO string), so an evening commit does not land in the next
+// day, or the next month, the way a UTC conversion would.
+function monthKey(iso: string): string {
+  return iso.slice(0, 7);
+}
+
+function monthHeading(key: string): string {
+  const [year, month] = key.split('-');
+  return `${MONTHS[Number(month) - 1]} ${year}`;
 }
 
 // The full event log. Every git change to a doc is a row (New / Updated /
@@ -26,8 +35,7 @@ export default function Changelog() {
 
   const groups: Record<string, typeof events> = {};
   for (const e of events) {
-    const d = new Date(e.date);
-    const key = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+    const key = monthKey(e.date);
     if (!groups[key]) groups[key] = [];
     groups[key].push(e);
   }
@@ -38,7 +46,7 @@ export default function Changelog() {
     <div>
       {sortedKeys.map((key) => {
         const eventsInGroup = groups[key];
-        const heading = monthHeading(new Date(eventsInGroup[0].date));
+        const heading = monthHeading(key);
         return (
           <section key={key} style={{ marginBottom: '2.25rem' }}>
             <h2 style={{ marginBottom: '0.75rem' }}>{heading}</h2>

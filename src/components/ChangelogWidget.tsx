@@ -46,8 +46,12 @@ function sectionLabel(section: string): string {
   return words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
+// The commit date already carries the committer's own offset (e.g.
+// 2026-07-25T19:30-05:00), so its leading YYYY-MM-DD is the day the edit was
+// actually made. Converting to UTC first would push evening commits onto the
+// next day.
 function isoDay(iso: string): string {
-  return new Date(iso).toISOString().slice(0, 10);
+  return iso.slice(0, 10);
 }
 
 // Renders inline markdown link syntax `[text](url)` in description strings.
