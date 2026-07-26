@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/tokens-are-cheap-your-future-attention-is-not@3b65ac7741168b31e96092aad56c83e2954f579d",
+      "type": "new",
+      "date": "2026-07-26T13:53:30-05:00",
+      "docKey": "perspectives/tokens-are-cheap-your-future-attention-is-not",
+      "routePath": "/perspectives/tokens-are-cheap-your-future-attention-is-not",
+      "section": "perspectives",
+      "title": "Tokens Are Cheap, Your Future Attention Is Not",
+      "description": "An agent left to optimize for the cheapest completion of this turn will quietly spend your scarcest resource: the attention it costs you to review work that came back wrong, and the attention it costs future you to rediscover a lesson nobody wrote down."
+    },
+    {
       "id": "disciplines/ontology-as-substrate@5162cf86cf4096eede8dd2dba8989fa4f1e337c9",
       "type": "updated",
       "date": "2026-07-25T21:47:06-05:00",
