@@ -75,6 +75,8 @@ The practical move is iterative.
 
 Tools like RDFOX and other graph-database systems can hold the ontology once you have one. The format matters less than the discipline of agreeing on the canonical object and its attributes before any business logic gets written.
 
+How the effort gets budgeted across those six steps is its own decision, and most teams get it wrong by spending the bulk of it on the objects every business shares. [Steal the Nouns](https://agenticbusiness.wiki/principles/steal-the-nouns) is the allocation rule.
+
 ## Why The Ontology Is The Moat
 
 When you build a domain-specific applied AI tool, you are building two things: the agent that does the work, and the ontology the agent operates on. The agent is replicable. The ontology is the moat. It is what you learned about the domain that competitors will spend years discovering.
@@ -92,3 +94,4 @@ A shared vocabulary across an entire field of practitioners is itself an ontolog
 - [Harness Engineering](/disciplines/harness-engineering): The runtime that operates on the ontology.
 - [Spec Writing](/disciplines/spec-writing): The discipline that turns ontology decisions into shippable specifications.
 - [Context Engineering](/disciplines/context-engineering): The discipline that populates the ontology with the right information state.
+- [Steal the Nouns](https://agenticbusiness.wiki/principles/steal-the-nouns): Where the modeling hours should go. Adopt the published vocabularies for the generic layer, and spend the rest on the part no standard covers.
