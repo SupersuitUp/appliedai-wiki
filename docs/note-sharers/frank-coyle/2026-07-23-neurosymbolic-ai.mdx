@@ -1,0 +1,77 @@
+---
+title: "Frank Coyle: hallucination is the feature, so build the rails around it"
+description: "Field notes from a talk on why agentic systems need ontologies. The neural half imagines and the symbolic half refuses, and the architecture that wires them together already has a name and a fifty-year history."
+date: 2026-07-23
+source_url: https://www.youtube.com/watch?v=Sir59K8ZDPU
+source_firm: frank-coyle
+source_type: webinar
+tags: [neurosymbolic, ontology, knowledge-graphs, guardrails, validation, agent-loops]
+---
+
+# Frank Coyle: hallucination is the feature, so build the rails around it
+
+*Field notes from a talk on why agentic systems need ontologies. The neural half imagines and the symbolic half refuses, and the architecture that wires them together already has a name and a fifty-year history.*
+
+---
+
+## Source
+
+- **Source:** Frank Coyle, computer-science educator at UC Berkeley, speaking at the AI Engineer conference.
+- **Format:** Conference talk, 21:18.
+- **Date published:** 2026-07-23.
+- **URL:** https://www.youtube.com/watch?v=Sir59K8ZDPU
+- **What it covers:** The two intellectual lineages behind agentic AI (agents from Dartmouth 1956, ontologies from Aristotle through Quine to Gruber), why the 1980s expert-systems boom collapsed, and how the neural and symbolic halves now fit together. Ends on a concrete placement rule for where validation belongs in an agent loop.
+- **Endorsement disclaimer:** His framings and claims are relayed here as his. We have not validated the specific tooling recommendations across our own engagements.
+
+## What we lifted
+
+### 1. Neurosymbolic AI is the name for the architecture you are already building
+[→ new concept: [/concepts/neurosymbolic-ai](/concepts/neurosymbolic-ai)]
+
+The term worth taking away. Neural networks tied into symbolic AI, which covers rule-based systems, type systems, reasoners, and the knowledge graphs teams are assembling right now. The convergence is recent because both halves were blocked on scale for decades: symbolic AI boomed in the 1980s on hand-authored expert systems and collapsed into the AI winter when the rule bases would not scale, and neural networks published in the 1960s sat idle until GPUs built for video games turned out to be the missing hardware. Both scale now. The interesting engineering is the join. If you have an agent plus a schema plus a validator, this is the thing you have built, and naming it gives you access to thirty years of mature prior work on the symbolic half.
+
+### 2. Hallucination is the feature, not the defect
+[field-note bullet] · [→ reinforces: [/perspectives/capable-agents-need-more-guardrails](/perspectives/capable-agents-need-more-guardrails)]
+
+The sharpest reframe in the talk, and the one that determines the architecture. His line: "People worry about hallucinations, but that's the feature. That's actually a feature of large language models. It's who we are. We hallucinate in a way. We imagine things that may not exist, and then we turn them into reality." The design consequence is that you stop trying to make the probabilistic component deterministic and start surrounding it. Keep the imagination where imagination is the job. Put something that cannot imagine anything in front of every claim that has to be exact.
+
+### 3. Pydantic at the door, ontology at the ledger
+[→ new concept: [/concepts/neurosymbolic-ai](/concepts/neurosymbolic-ai)] · [→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)]
+
+The most portable line in the talk, and a genuinely useful placement rule. Two validation checks, two different jobs, two different points in the loop. Types at the door: before anything enters, check the shape, the field presence, the enum membership. Semantics at the ledger: before anything commits, check the meaning against the domain model. Shape-valid and business-invalid are separate failures and only the second check catches the second one. The rule that makes both worth having is the third part he tacks on: agents should have no side effects until validation passes. An agent that writes to the database and then gets validated has already done the damage.
+
+### 4. Formal constraints catch what a prompt waves through
+[→ new concept: [/concepts/neurosymbolic-ai](/concepts/neurosymbolic-ai)]
+
+The concrete payoff for encoding rules in RDFS and OWL rather than in a well-written system prompt. A second refund on an already-refunded order is caught by a functional property (at most one value permitted). A payout routed to the support desk instead of the buyer is caught by disjoint classes (a customer and a support rep can never be the same entity). A status field that comes back as "probably shipped" is caught by an enumerated value set. Each is trivial to express formally and genuinely hard to enforce in prose, because prose has no mechanism for refusing. The inference side is the other half: declaring `teaches` with a domain of Teacher and a range of Student means "Bob teaches Scooter" now yields that Bob is a teacher, Bob is a person, and Scooter is a student, none of which you wrote down.
+
+### 5. Loops are what made agents Turing-complete
+[field-note bullet]
+
+Good historical framing for why agentic systems feel like a capability change rather than a chat upgrade. Böhm and Jacopini established in 1966 that sequence, conditionals, and iteration together are enough to compute anything computable. Agents had the first two for a while. Loops completed the set. His three failure modes of the loop are the operator's version of the same point: a loop can spin forever, a loop can drift as agents talk to each other, and a loop meters tokens the whole time it is going wrong.
+
+### 6. Do not author the ontology from scratch
+[→ reinforces: [/disciplines/ontology-as-substrate](/disciplines/ontology-as-substrate)]
+
+Practical and easy to miss. Substantial vocabularies already exist and are free: schema.org for general entities and relationships, FOAF for social graphs, Dublin Core for documents and publications, DBpedia for the structured extract behind Wikipedia. Fifteen to twenty years of work sits in these. Starting from one and extending it beats a blank file. His complementary point on method: build top-down (experts in a room enumerating entities and relationships) and bottom-up (watching what actually shows up in real customer interactions and attaching what you observe) rather than relying on top-down alone, which is exactly what failed to scale in the expert-systems era.
+
+### 7. Graphs take a new property without a migration
+[field-note bullet]
+
+The reason knowledge graphs rather than tables, stated plainly. Adding something to a relational model means adding a column and restructuring around it. Attaching a property or a relationship to a graph is one attachment and you are done. That flexibility is why a graph is the right home for a domain model you are still learning, which is every domain model in an active engagement.
+
+## Best quotes
+
+> "Nothing is a mistake. There is no win. There's no fail. There's only make."
+
+> "People worry about hallucinations, but that's the feature. That's actually a feature of large language models."
+
+> "Pydantic at the door, ontology at the ledger."
+
+> "LLMs can't do anything. All they can do is give us the next word with a high probability."
+
+## Cross-references
+
+- [Neurosymbolic AI](/concepts/neurosymbolic-ai) (new concept page created from this source)
+- [Ontology as Substrate](/disciplines/ontology-as-substrate) (Supporting voices added)
+- [Default to Determinism](/perspectives/default-to-determinism) (Supporting voices added)
