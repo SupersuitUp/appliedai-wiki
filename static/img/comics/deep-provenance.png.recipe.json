@@ -1,23 +1,23 @@
 {
   "provider": "gpt-image-2",
   "model": "gpt-image-2",
-  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fills (#8FB0CE), soft dark ink line (#3B382F). Soft amber glow only from the laptop screen.\nSubject: A horizontal triptych, three equal panels in a row separated by plain cream gutters. The SAME ordinary person and the SAME glowing laptop appear in all three, seen from behind at the same angle, so it reads as one story progressing. Small floating artifacts always live INSIDE the laptop screen, never outside it.\nLeft panel: inside the screen, a neat row of six small pale rectangles floats, completely bare, nothing attached. The person's hand rests still on the desk.\nMiddle panel: the same row, but a fine glowing amber thread now runs from each rectangle down to a small amber tag hanging beside it, like a luggage tag on a parcel. The person watches, hands at rest.\nRight panel: the person holds one small pale card in the room outside the laptop. A single amber thread runs from that card into the screen and forks. Exactly two rectangles glow warm and bright with their tags lit; the other four stay pale and quiet.\nTEXT, rendered EXACTLY as written, in clean small-caps serif lettering, dark ink on the cream margin, never over the artwork:\nA title bar centered in the cream margin ABOVE the three panels reading: DEEP PROVENANCE\nA short caption centered in the cream gutter BELOW each panel, left to right: NO RECORD / TAGGED AT BIRTH / ONLY THE AFFECTED LIGHT UP\nA footer bar centered in the cream margin BELOW the captions reading: CHANGE ONE INPUT. KNOW WHAT BROKE.\nNo other text anywhere. Do not invent any words. Spell every string exactly as given.\nNo comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing, no uniforms, no military caps.",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fills (#8FB0CE), soft dark ink line (#3B382F). Soft warm amber light.\nSubject: A horizontal triptych, three equal panels in a row separated by plain cream gutters. The SAME modest home kitchen in all three, same angle, the SAME cook, one ordinary woman in a blue smock and apron, always with exactly two arms, no second figure and no extra hands anywhere. In front of her on the wooden counter sits ONE wide cooking pot. Behind her is a shelf of preserve jars and small ingredient bowls.\nLeft panel: she tastes from a wooden spoon held to her lips, brow slightly furrowed, considering. The pot is plain. There is nothing written down anywhere: no card, no paper, no notes. She is guessing.\nMiddle panel: a single pale card now lies on the counter beside the pot, ruled with faint lines and small tally marks, clearly a record of what went into the pot. She sets the last mark down. The pot is unchanged; only the record is new.\nRight panel: she holds the card in one hand and reads it. With her other hand she reaches up toward EXACTLY ONE jar on the shelf, and that one jar glows warm amber while every other jar stays plain. One small bowl has been pushed away to the far edge of the counter, clearly set aside and removed. The pot itself now glows gently, on its way to right. Her posture is decisive, no longer uncertain.\nTEXT, rendered EXACTLY as written, in clean small-caps serif lettering, dark ink on the cream margin, never over the artwork:\nA title bar centered in the cream margin ABOVE the three panels reading: DEEP PROVENANCE\nA short caption centered in the cream gutter BELOW each panel, left to right: NOT QUITE RIGHT / EVERY INPUT RECORDED / NOW YOU KNOW WHICH TO CHANGE\nA footer bar centered in the cream margin BELOW the captions reading: GUESSING IS NOT ITERATING.\nNo other text anywhere. Do not invent any words. Do not write legible words on the card. Spell every string exactly as given.\nNo comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.",
   "specVersion": "0.6",
   "refs": [
     {
       "path": "hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
     },
     {
+      "path": "hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
       "path": "hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
     },
     {
       "path": "hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
-    },
-    {
-      "path": "hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
     }
   ],
-  "timestamp": "2026-07-27T03:46:29.884974+00:00",
-  "sha256": "64e109e1dd1895c813bd4068e0643182a3b7992db33d8e6248c26b72bd2e433e",
+  "timestamp": "2026-07-27T04:11:51.278376+00:00",
+  "sha256": "7584880b6a6c11b066c26057dd97ea40bb9791bc1274d139a331853a1cdf436e",
   "stylePack": "warm-editorial-titled"
 }

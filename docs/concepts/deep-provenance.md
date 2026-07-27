@@ -1,17 +1,35 @@
 ---
 title: "Deep Provenance"
 slug: /concepts/deep-provenance
-description: "Recording what produced every artifact, in enough detail that changing an input tells you exactly which outputs are now suspect. Software solved this decades ago. Prose and judgment never could, because knowing what went stale is worthless if you cannot afford to act on it."
+description: "Recording what produced every artifact, in enough detail that you can tell which input to change. Without it you re-roll and hope. With it you steer, and you also learn which finished work a changed input made suspect."
 image: "/img/comics/deep-provenance.png"
 ---
 
 # Deep Provenance
 
-*Recording what produced every artifact, in enough detail that changing an input tells you exactly which outputs are now suspect. Software solved this decades ago. Prose, argument, and judgment never could, because a staleness signal is worthless if acting on it costs more than ignoring it.*
+*Recording what produced every artifact, in enough detail that you can tell which input to change. The output is close but not right, and you are sure it can get there. Provenance is what lets you steer toward it instead of re-rolling and hoping.*
 
-![Three warm editorial panels on cream under a title bar reading DEEP PROVENANCE, the same person at the same glowing amber laptop in the same quiet room. Panel one, captioned NO RECORD: six pale rectangles float bare inside the screen with nothing attached to them, and the person's hand rests still on the desk. Panel two, captioned TAGGED AT BIRTH: a fine amber thread now runs from each rectangle down to a small tag hanging beside it, so the row reads as documented rather than bare, and the person watches without intervening. Panel three, captioned ONLY THE AFFECTED LIGHT UP: the person holds one pale card in the room outside the laptop, a single amber thread runs from that card into the screen and forks, and exactly two of the six rectangles flare bright with their tags lit while the other four stay pale and quiet. A footer bar reads CHANGE ONE INPUT. KNOW WHAT BROKE.](/img/comics/deep-provenance.png)
+![Three warm editorial panels on cream under a title bar reading DEEP PROVENANCE, the same cook in the same modest kitchen in all three, a single wide pot on a wooden counter and shelves of preserve jars behind. Panel one, captioned NOT QUITE RIGHT: she tastes from a wooden spoon with her brow furrowed, and nothing anywhere is written down. Panel two, captioned EVERY INPUT RECORDED: she writes on a small card laid beside the pot, recording what went in. The pot is unchanged; only the record is new. Panel three, captioned NOW YOU KNOW WHICH TO CHANGE: she reads the card in one hand and reaches up with the other to exactly one jar on the shelf, which glows warm while every other jar stays plain, and the pot itself now glows. A footer bar reads GUESSING IS NOT ITERATING.](/img/comics/deep-provenance.png)
 
 ---
+
+## The case that actually bites: you cannot steer
+
+You generate something and it is close. Eighty percent there. You are confident it can get the rest of the way with the right input added or the wrong one removed.
+
+Which input?
+
+Without a record, you cannot say. So you change something, re-run, and read the result to see whether it got better. That is not iteration. It is a slot machine with a long lever, and it is how most people spend most of their time with a capable model.
+
+With a record, the question is answerable. This section came from that source. This passage leans on that concept. This framing exists because a parameter said the audience was one kind of reader rather than another. Change the input actually responsible and the output moves the way you meant.
+
+**The difference is between editing and re-rolling.** Editing requires knowing what produced what. Re-rolling is what you do when you do not, and it feels like progress because something changes every time.
+
+## The second case: knowing what went stale
+
+Read the same mechanism backwards and you get the other reason people want this. An input changes, and you need to know which finished work now rests on something you no longer believe.
+
+This is real, and it is the reason most people eventually reach for provenance. It is second because it only bites once you have a body of work old enough to have drifted, while the steering problem bites on your first afternoon.
 
 ## The mistake is thinking this is new
 
@@ -20,8 +38,7 @@ Content-addressed build systems have tracked inputs to outputs since the 2000s. 
 What never had it: prose, strategy, arguments, brand decisions, illustrations, business models, and every other artifact produced by judgment rather than by a compiler.
 
 The usual explanation is that tracking those was too expensive. That explanation is wrong, and getting it right is what makes the idea useful.
-
-## The real reason: invalidation without cheap recompute is only anxiety
+## Why the rest of us never got it: invalidation without cheap recompute is only anxiety
 
 Nothing stopped anyone from hashing the six sources behind a strategy memo. The tooling was trivial.
 
