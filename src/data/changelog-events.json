@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/prompt-guards@e4858d2001a1f4fe4eda2efdb2708b44ec212580",
+      "type": "new",
+      "date": "2026-07-26T18:18:01-05:00",
+      "docKey": "concepts/prompt-guards",
+      "routePath": "/concepts/prompt-guards",
+      "section": "concepts",
+      "title": "Prompt Guards",
+      "description": "Standing rules a generator appends to every prompt itself, conditional on what the prompt contains. A rule written as an instruction to the caller is a suggestion; a rule enforced at the chokepoint every caller passes through is a guarantee."
+    },
+    {
       "id": "perspectives/tokens-are-cheap-your-future-attention-is-not@3b65ac7741168b31e96092aad56c83e2954f579d",
       "type": "new",
       "date": "2026-07-26T13:53:30-05:00",

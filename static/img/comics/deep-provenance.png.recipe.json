@@ -1,0 +1,23 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fills (#8FB0CE), soft dark ink line (#3B382F). Soft amber glow only from the laptop screen.\nSubject: A horizontal triptych, three equal panels in a row separated by plain cream gutters with no drawn borders or frames. The SAME ordinary person and the SAME glowing laptop appear in all three panels, seen from the same angle, so it reads as one story progressing. The person sits in a warm room; the small floating artifacts always live INSIDE the laptop screen, never outside it.\nLeft panel: inside the screen, a neat row of small pale rectangular artifacts floats, completely bare, nothing attached to them. The person rests a hand near the laptop, still, uncertain.\nMiddle panel: the same row, but now a fine glowing amber thread runs from each artifact to a small amber tag hanging beside it, like a luggage tag on a parcel. The row now looks documented. The person watches, hands at rest.\nRight panel: the person holds one small pale card in the warm room outside the laptop. A single amber thread runs from that card into the screen and forks. Exactly two artifacts in the row glow warm and bright with their tags lit; the remaining artifacts stay pale, dim and quiet.\nNo comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing. No uniforms, no military caps, no armor.\nABSOLUTELY NO text, no letters, no numbers, no captions, no footer bar.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/ref-make.png"
+    },
+    {
+      "path": "hyperagentic-age/universe/reference/style/warm-editorial-neutral/refs/ref-object.png"
+    },
+    {
+      "path": "hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-27T03:21:00.171805+00:00",
+  "sha256": "a49634292dfeba40392bb52ad8c3debe481dd49747018e68546bc79fe2e4c484",
+  "stylePack": "warm-editorial-neutral"
+}
