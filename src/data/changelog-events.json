@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/deep-provenance@314a1398af700fd72bd70cfab37b3c0e064184bb",
+      "type": "new",
+      "date": "2026-07-26T22:22:17-05:00",
+      "docKey": "concepts/deep-provenance",
+      "routePath": "/concepts/deep-provenance",
+      "section": "concepts",
+      "title": "Deep Provenance",
+      "description": "Recording what produced every artifact, in enough detail that changing an input tells you exactly which outputs are now suspect. Software solved this decades ago. Prose and judgment never could, because knowing what went stale is worthless if you cannot afford to act on it."
+    },
+    {
       "id": "concepts/prompt-guards@e4858d2001a1f4fe4eda2efdb2708b44ec212580",
       "type": "new",
       "date": "2026-07-26T18:18:01-05:00",
