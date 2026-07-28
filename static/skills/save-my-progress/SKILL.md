@@ -95,7 +95,8 @@ For each item (self-decided in default mode, confirmed in interactive mode):
 
 ## Step 4 — Record the checkpoint, then report
 
-- **Record a save checkpoint** so the next save is incremental: append a one-line entry — `<ISO timestamp> · <commit SHA you just made> · <one-line summary>` — to the work log if one exists, otherwise to a `SAVE-LOG.md` at the workspace root. This is the anchor Step 0 reads next time.
+- **Record a save checkpoint** so the next save is incremental: append a one-line entry — `<ISO timestamp> · <commit SHA> · <one-line summary>` — to the work log if one exists, otherwise to a `SAVE-LOG.md` at the workspace root. This is the anchor Step 0 reads next time.
+- **A checkpoint cannot name its own commit, so use two commits.** Write the entry with a placeholder SHA and commit it. Then rewrite the placeholder to that commit's hash and make a SECOND, tiny commit. **Do not `--amend`**: amending mints a new hash, so the SHA you just wrote in is stale again, and the loop is silent because the file looks right. Verify with `git log --oneline -1 <the-sha-in-the-file>` before reporting. A checkpoint whose SHA does not resolve is worse than none: the next save diffs from nothing and re-chews the whole history.
 - **Report back:** output the report-back summary (what was saved, where) and state plainly that the chat is now safe to clear/compact — nothing of value lives only in the conversation anymore.
 
 ## Step 5 — Cheeky text-to-self (default-on breadcrumb)
