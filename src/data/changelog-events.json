@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/deep-provenance@9e68c007d91a0b89b9b1441f6a9d5756b2ed9c1b",
+      "type": "updated",
+      "date": "2026-07-26T23:26:09-05:00",
+      "docKey": "concepts/deep-provenance",
+      "routePath": "/concepts/deep-provenance",
+      "section": "concepts",
+      "title": "Deep Provenance",
+      "description": "Recording what produced every artifact, in enough detail that you can tell which input to change. Without it you re-roll and hope. With it you steer, and you also learn which finished work a changed input made suspect."
+    },
+    {
       "id": "concepts/deep-provenance@4688829f83fed9e61a27d9d25fb4375c55c0a5c7",
       "type": "updated",
       "date": "2026-07-26T22:50:30-05:00",
