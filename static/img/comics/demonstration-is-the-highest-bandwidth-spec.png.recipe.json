@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted slate-blue fill, dark warm-grey line. Quiet and editorial throughout.\n\nLAYOUT: THREE panels of equal size in ONE horizontal row, separated by clean cream gutters, with NO drawn borders and NO frame lines. ONE consistent room, ONE consistent person, ONE consistent laptop across all three panels, so the three read as one progression.\n\nPHYSICAL RELATIONSHIPS, which must read this way in every panel: the laptop sits open on a wooden desk, turned so its glowing amber screen faces the viewer; the person sits behind and beside the desk in three-quarter view, so both the person's hands on the desk and the whole screen are visible at once. Everything the small round agent character in a gold cap does happens INSIDE the glowing screen. Everything the person does happens OUTSIDE it, on the desk, in the warm real room.\n\nBEAT ONE, left panel: The person sits holding a pen, looking down at a sheet of paper on the desk that is mostly blank, with only a few short written lines near its top. Inside the glowing screen, the small round agent in the gold cap holds an identical mostly-blank sheet and looks up, waiting, with nothing else to work from.\n\nBEAT TWO, middle panel: The pen and the blank sheet have been pushed aside. The person's hands are now working on the desk, sorting a small stack of paper slips into two separate piles, and the person is speaking. A soft amber ribbon of speech curves from the person into the edge of the screen. Inside the screen, the agent watches those hands and writes rapidly on a page that is now dense with many lines.\n\nBEAT THREE, right panel: The person leans in toward the screen and points at it. Inside the screen, the agent holds the finished dense page up toward the person, and one single line near the bottom of that page is underlined and glowing amber. The person's expression is recognition, as if seeing something they had forgotten they do.\n\nTEXT. Render each of these strings EXACTLY as written, in capitals, in the cream margin, never over the artwork:\nTitle bar, centered in the cream margin ABOVE the three panels: DEMONSTRATION AS SPEC\nCaption in the cream gutter directly BELOW the left panel: A HALF-EMPTY PAGE\nCaption in the cream gutter directly BELOW the middle panel: SHOW IT AND SAY IT\nCaption in the cream gutter directly BELOW the right panel: THE RULE NOBODY SAID\nFooter bar, centered in the cream margin BELOW the three captions: WRITING LOSES WHAT THE HANDS KNOW. SHOWING KEEPS IT.\nNo other text anywhere. No lettering on the paper, no lettering on the page inside the screen, no lettering on the desk. The written lines on the sheets are indicated as abstract ink strokes, not readable words.\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/master.png"
+    }
+  ],
+  "timestamp": "2026-07-28T14:01:58.293132+00:00",
+  "sha256": "9210b8ac1457102f804493fb0f945daeaa3a2e41fc4ecc18eeca7c0f24ac4ac3",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}
