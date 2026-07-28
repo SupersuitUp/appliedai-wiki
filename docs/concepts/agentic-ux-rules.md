@@ -48,12 +48,12 @@ A short list of products that currently fail one or more rules. Grows over time.
 
 ## The Meta Rule
 
-**Humans are not the only users of your product anymore.** Agents are. If the only path to a feature is a human moving a mouse through a menu tree, that feature is invisible to the world that is actually running now. The products that age well in the agentic era are the ones where every action has a machine-legible surface and every surface has a natural-language entry point.
+**Humans are not the only users of your product anymore.** Agents are. If the only path to a feature is a human moving a mouse through a menu tree, that feature is invisible to the world that is actually running now. The products that age well in the agentic era are the ones where every action has a machine-drivable surface and every surface has a natural-language entry point.
 
 ---
 
 ## Further Reading
 
 - [Agent-Accessible Products](/concepts/agent-accessible-products): The positive version of this. If agents cannot use your product, agents will replace your product.
-- [llms.txt and llms-full.txt](/concepts/llms-txt): The simplest machine-legible surface a product can ship.
+- [llms.txt and llms-full.txt](/concepts/llms-txt): The simplest machine-drivable surface a product can ship.
 - [The Permission Surface](/perspectives/the-permission-surface): The right answer for the destructive edge of Rule 4.
