@@ -25,6 +25,7 @@ No dependencies, no network.
 """
 import re, sys, json, datetime, pathlib
 
+TEMPLATE_VERSION = "2026-07-29.4"   # bump on any change to this template
 ROOT = pathlib.Path(__file__).parent
 DATE = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
 MIN_ANNOTATION = 200          # bytes; below this it is a placeholder, not a thought
@@ -102,6 +103,11 @@ def problems():
                         "Out of scope", "Milestones", "People"]:
             if _unfilled(section, txt, pristine_pj):
                 out.append(f"PROJECT.md '{section}' is UNFILLED: still the shipped boilerplate.")
+
+        rows = [l for l in _section(txt, "People").splitlines()
+                if l.strip().startswith("|") and not set(l.strip()) <= set("|- ")]
+        if len(rows) <= 1:
+            out.append("PROJECT.md 'People' has a header and no rows. The agent is told to chase blocked items and has nobody to chase.")
 
     # ---- sources: a directory is not a source
     src = ROOT / "sources"
@@ -239,7 +245,9 @@ def main():
             if size >= MIN_DRAFT:
                 ndel += 1
 
-    L = ["DERIVED STATE (asserted against content, not counted from filenames)", "",
+    L = [f"agentic-project-template {TEMPLATE_VERSION}",
+         "  (if this is older than the copy you were given, you are reviewing a stale template)", "",
+         "DERIVED STATE (asserted against content, not counted from filenames)", "",
          f"  usable sources (raw present): {nsrc} of {len(folders)} folders",
          f"  real annotations (>{MIN_ANNOTATION}b):  {nann}",
          f"  claims:                       {nclaims}",
