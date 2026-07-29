@@ -124,14 +124,15 @@ The `applied-ai-field-notes` skill handles the full intake pipeline. Key convent
 
 ## Voice rules
 
-See `~/Documents/github-repos/garyinparadise/docs/command-center/VOICE.md` for the full spec. Hard rules that catch most violations:
+**Canonical spec: https://garysheng.com/voice.md.** Read it before drafting. It is the one source of
+truth for how Gary writes and it is more nuanced than any summary of it, so this
+file no longer restates the hard rules. If a local rule below ever contradicts
+the canonical spec, the canonical spec wins.
 
-- **No em dashes.** Colons, periods, parentheses, or separate sentences instead.
-- **No filler** ("really", "truly", "very", "just").
-- **No recapping** — do not restate the previous section.
-- **Bold named frameworks** when you introduce them.
-- **Cross-links replace re-explanation.** If a concept has a page, link it and move on. Do not re-explain it inline.
+Only what is SPECIFIC to this wiki lives here:
+
 - **Operator audience.** Write for someone running real AI work on a real business. Not for a researcher. Not for a builder at a lab. Concrete over abstract.
+- **Cross-links replace re-explanation.** If a concept has a page, link it and move on. This wiki is dense enough that re-explaining is always the wrong call.
 
 ---
 
