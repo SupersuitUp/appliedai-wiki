@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A three-panel horizontal editorial strip on a warm cream ground, three equal panels separated by clean cream gutters with NO drawn borders or frame lines. Warm editorial ink-and-wash, soft brushwork, muted natural palette, amber glow. One consistent world and one consistent glowing amber laptop across all three panels.\n\nTHE PERSON, consistent in all three panels: a woman in her fifties with grey-streaked hair tied back, wearing a plain dark green canvas work apron over a simple grey shirt. She is ordinary and specific. She wears NO denim jacket, NO badges, NO patches of any kind, and NO logos.\n\nBEAT ONE, left panel: she crouches on a workshop floor looking at FIVE folded paper planes laid out in front of her. Exactly five, and all five are visibly different from each other in shape and size: one long and narrow, one wide and blunt, one lopsided, one crumpled at the nose, one small and stubby. Her expression is puzzled rather than pleased. The glowing amber laptop sits closed on the bench behind her.\n\nBEAT TWO, centre panel: she stands at the open glowing amber laptop on a workbench. INSIDE the laptop screen, drawn in warm amber line-art, a spring-loaded mechanical throwing arm has just launched a paper plane, and the plane it is testing is a STRANGE one, fat and short with a folded-over nose, clearly unlike any ordinary dart. A clean amber arc traces its long successful flight across the screen, and a simple amber tick mark sits at the end of the arc. On the bench outside the laptop, in the warm real world, three more visibly different paper planes wait their turn. She is watching the arc, not the plane's shape.\n\nBEAT THREE, right panel: open sky over a field. Many paper planes fly at once and NO TWO ARE THE SAME SHAPE: darts, wide gliders, stubby ones, one folded from printed newspaper, one with a blunt folded nose. They are at different attitudes but all clearly flying well. Below, several people of different ages throw more planes upward. The glowing amber laptop sits open and quiet in the grass.\n\nTEXT FURNITURE, hand-lettered plain editorial capitals, set ONLY in the cream margins and NEVER over the artwork:\nTitle bar centred above the panels, exactly: THE PERSONALIZING FACTORY\nCaption in the cream gutter under the left panel, exactly: FIVE BY HAND. NONE FLY THE SAME.\nCaption in the cream gutter under the centre panel, exactly: IT TESTS. IT DOES NOT MATCH.\nCaption in the cream gutter under the right panel, exactly: NOTHING ALIKE. ALL FLYING.\nFooter bar centred below the panels, exactly: HOLD THE PRINCIPLE. LET THE THING BE NEW.\n\nNo other text anywhere. No invented words, no labels on machines, no signatures.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-29T14:19:08.662622+00:00",
+  "sha256": "89b168d0902e4796814db89065027dee802f11ba33fd29975dfe7130e6217475",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}

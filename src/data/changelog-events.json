@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agentic-ux-rules@a6f880bc1d2e514cdbc2790dd155686f8bfe4dd6",
+      "type": "updated",
+      "date": "2026-07-28T09:16:59-05:00",
+      "docKey": "concepts/agentic-ux-rules",
+      "routePath": "/concepts/agentic-ux-rules",
+      "section": "concepts",
+      "title": "Agentic UX Rules",
+      "description": "A growing list of UX rules for the agentic age. The bar for product UX has moved because AI moved it."
+    },
+    {
+      "id": "perspectives/demonstration-is-the-highest-bandwidth-spec@6c4fb44ba2fd614c0dba9fe44a16ab83f67fce27",
+      "type": "new",
+      "date": "2026-07-28T09:03:26-05:00",
+      "docKey": "perspectives/demonstration-is-the-highest-bandwidth-spec",
+      "routePath": "/perspectives/demonstration-is-the-highest-bandwidth-spec",
+      "section": "perspectives",
+      "title": "Demonstration Is the Highest-Bandwidth Spec",
+      "description": "Three minutes of doing a workflow while narrating it carries more usable specification than an hour of writing the procedure down. The binding constraint on automating a process was never model capability. It was asking an operator to describe something their hands run without conscious observation."
+    },
+    {
       "id": "concepts/deep-provenance@9e68c007d91a0b89b9b1441f6a9d5756b2ed9c1b",
       "type": "updated",
       "date": "2026-07-26T23:26:09-05:00",
