@@ -89,7 +89,11 @@ The tax case is the clearest demonstration that this is not a knowledge-work tri
 
 ## How to start one
 
-`start-agentic-project` scaffolds the shape and, more importantly, runs the interview first. The template is not the valuable part. The interview that produces the ontology is.
+[`start-agentic-project`](pathname:///skills/start-agentic-project/SKILL.md) scaffolds the shape and, more importantly, runs the interview first. The template is not the valuable part. The interview that produces the ontology is.
+
+The [template itself](pathname:///skills/start-agentic-project/template/README.md) ships a `check.py` that asserts the project is actually in the state it claims: a directory is not a source, a touched file is not an annotation, a section still holding its own authoring instructions is not filled in, and a date that has already passed cannot be the thing that binds. It exits non-zero until those are true.
+
+That check exists because the first three versions of it did not work. One counted filenames and reported a healthy project over an empty repo. One tested for exactly the bugs the previous review had found, which is a regression test wearing a health check's clothes. One could be defeated by deleting ten comment lines. **A checker you have not attacked is a checker you have not tested.**
 
 Do not scaffold before you can state the deliverable, the deadline, and what would make it a failure. A repo built before those exist is a folder with extra steps.
 

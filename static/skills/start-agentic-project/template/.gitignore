@@ -1,0 +1,10 @@
+# Raw source material, if any of it is licensed, personal, or under NDA.
+# Uncomment to keep the ANNOTATIONS (which are yours) and exclude the originals.
+# Decide this on day one. An accidental push of a licensed corpus is not
+# undoable by deleting the file later.
+#
+# sources/**/raw.*
+
+.DS_Store
+__pycache__/
+*.pyc
