@@ -89,6 +89,18 @@ The tax case is the clearest demonstration that this is not a knowledge-work tri
 
 ## How to start one
 
+Give an agent the [generator](https://www.appliedai.wiki/generators/start-agentic-project/GENERATE.md) and answer its questions:
+
+```
+https://www.appliedai.wiki/generators/start-agentic-project/GENERATE.md
+```
+
+It interviews you for about ten minutes, then clones the [template](https://github.com/SupersuitUp/agentic-project-template), writes the ontology and the state file from your answers, runs the checker until it passes, and proves the project resumes cold. You do not clone anything and you do not fill anything in. It follows the [GENERATE.md spec](/reference/standards/generate-md): a one-time scaffold whose output is a persistent artifact.
+
+If the person who can answer the questions is not the person at the keyboard, the [boomerang](https://github.com/SupersuitUp/agentic-project-template/blob/master/BOOMERANG.md) runs the identical interview through their own AI and returns the two files.
+
+Three doors, one interview behind all of them, and that is deliberate. **The template is not the valuable part.** A blank ontology is the most common place this gets abandoned, and it is abandoned on day one, before anything has been gained. Whatever removes the blank page is the product.
+
 The [template](https://github.com/SupersuitUp/agentic-project-template) ships the interview as a verb. Clone it, open it in Claude Code, run `interview`, and it asks questions for ten minutes and writes the ontology and the state file for you. The [`start-agentic-project`](https://github.com/SupersuitUp/agentic-project-template/blob/master/SKILL.md) skill does the same thing one level up, standing up the whole repo around the answers. For someone who does not use Claude Code, the [boomerang](https://github.com/SupersuitUp/agentic-project-template/blob/master/BOOMERANG.md) runs the identical interview against whatever AI they already have open and hands the two files back.
 
 Three doors, one interview behind all of them, and that is deliberate. **The template is not the valuable part.** A blank `PROJECT.md` is the most common place this gets abandoned, and it is abandoned on day one, before anything has been gained. Whatever removes the blank page is the product.
