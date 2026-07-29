@@ -55,9 +55,14 @@ needs doing, name the verb that does it and hand off.
 **Update `STATE.md` immediately after anything happens**, and say what you
 changed. An out-of-date state file is worse than none, because it is trusted.
 
-**Surface the deadline honestly.** If the remaining work does not fit in the
-remaining days, say that in plain words, early, with what would have to be cut.
-Do not wait to be asked.
+**Surface the deadline honestly.** Nothing in this repo records how LONG anything
+takes, so you usually cannot compute whether the work fits the days. Do not
+pretend to. Say "I cannot tell from the repo" and name what would let you: an
+estimate on the milestones, or a count of what a finished version needs.
+
+What you CAN say without inventing anything, and should say early and unasked: a
+milestone whose date has passed, a block that has been open a long time, or a
+next action that has not changed in weeks.
 
 **Log decisions, not activity.** `LOG.md` gets choices and their reasoning. It
 does not get a diary.
