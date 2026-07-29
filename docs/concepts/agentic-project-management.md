@@ -89,7 +89,7 @@ The tax case is the clearest demonstration that this is not a knowledge-work tri
 
 ## How to start one
 
-[`start-agentic-project`](pathname:///skills/start-agentic-project/SKILL.md) scaffolds the shape and, more importantly, runs the interview first. The template is not the valuable part. The interview that produces the ontology is.
+[`start-agentic-project`](pathname:///skills/start-agentic-project/SKILL.md) scaffolds the shape and, more importantly, runs the interview first. For someone who is not going to run a skill, the [boomerang](pathname:///skills/start-agentic-project/BOOMERANG.md) is a paste-in that conducts the same interview against whatever AI they already use and hands back a filled ontology and state file, so they start populated rather than staring at a folder of placeholders. The template is not the valuable part. The interview that produces the ontology is.
 
 The [template itself](pathname:///skills/start-agentic-project/template/README.md) ships a `check.py` that asserts the project is actually in the state it claims: a directory is not a source, a touched file is not an annotation, a section still holding its own authoring instructions is not filled in, and a date that has already passed cannot be the thing that binds. It exits non-zero until those are true.
 
