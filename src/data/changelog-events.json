@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agentic-project-management@7037cb4bbd6cf8cb17d94ac6b21aa6f52e32b81e",
+      "type": "new",
+      "date": "2026-07-29T14:39:45-05:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "/concepts/agentic-project-management",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
       "id": "perspectives/you-build-what-is-easy-to-check@bf404a573648599d84cd720c511b219ccc39f963",
       "type": "removed",
       "date": "2026-07-29T14:20:56-05:00",
