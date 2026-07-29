@@ -89,9 +89,12 @@ The tax case is the clearest demonstration that this is not a knowledge-work tri
 
 ## How to start one
 
-[`start-agentic-project`](pathname:///skills/start-agentic-project/SKILL.md) scaffolds the shape and, more importantly, runs the interview first. For someone who is not going to run a skill, the [boomerang](pathname:///skills/start-agentic-project/BOOMERANG.md) is a paste-in that conducts the same interview against whatever AI they already use and hands back a filled ontology and state file, so they start populated rather than staring at a folder of placeholders. The template is not the valuable part. The interview that produces the ontology is.
+The [template](https://github.com/SupersuitUp/agentic-project-template) ships the interview as a verb. Clone it, open it in Claude Code, run `interview`, and it asks questions for ten minutes and writes the ontology and the state file for you. The [`start-agentic-project`](https://github.com/SupersuitUp/agentic-project-template/blob/master/SKILL.md) skill does the same thing one level up, standing up the whole repo around the answers. For someone who does not use Claude Code, the [boomerang](https://github.com/SupersuitUp/agentic-project-template/blob/master/BOOMERANG.md) runs the identical interview against whatever AI they already have open and hands the two files back.
 
-The [template itself](pathname:///skills/start-agentic-project/template/README.md) ships a `check.py` that asserts the project is actually in the state it claims: a directory is not a source, a touched file is not an annotation, a section still holding its own authoring instructions is not filled in, and a date that has already passed cannot be the thing that binds. It exits non-zero until those are true.
+Three doors, one interview behind all of them, and that is deliberate. **The template is not the valuable part.** A blank `PROJECT.md` is the most common place this gets abandoned, and it is abandoned on day one, before anything has been gained. Whatever removes the blank page is the product.
+
+
+The [template itself](https://github.com/SupersuitUp/agentic-project-template/blob/master/template/README.md) ships a `check.py` that asserts the project is actually in the state it claims: a directory is not a source, a touched file is not an annotation, a section still holding its own authoring instructions is not filled in, and a date that has already passed cannot be the thing that binds. It exits non-zero until those are true.
 
 That check exists because the first three versions of it did not work. One counted filenames and reported a healthy project over an empty repo. One tested for exactly the bugs the previous review had found, which is a regression test wearing a health check's clothes. One could be defeated by deleting ten comment lines. **A checker you have not attacked is a checker you have not tested.**
 
