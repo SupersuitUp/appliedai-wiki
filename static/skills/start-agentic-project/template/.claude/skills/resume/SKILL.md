@@ -33,3 +33,9 @@ keeps one copy of a rule.
 Judgment about WHICH action is next belongs to the `project-manager` agent, whose
 rules are in `.claude/agents/project-manager.md`. This skill is the entry point;
 that file is the reasoning. If they ever disagree, the agent file wins.
+
+## If the project has not been set up yet
+
+If `check.py` reports that sections are still unfilled, there is no state to
+resume. Do not improvise a plan from an empty ontology, and do not ask them to
+fill the files in. Run the `interview` skill instead, then come back.

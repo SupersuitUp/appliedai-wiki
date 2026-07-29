@@ -12,14 +12,18 @@ Nothing in this repo is example data pretending to be your project, on purpose:
 a seeded example drifts out of sync with itself and then teaches you to distrust
 the one file the pattern depends on.
 
-Fill in, in this order:
+Do this in order:
 
-1. `PROJECT.md` — what this is, the deliverable, the milestones, the people.
-   Do this before anything else. A repo built before you can state the
-   deliverable and the real deadline is a folder with extra steps.
-2. `STATE.md` — where you are now. Keep it thin; anything countable is counted
-   by `check.py`, not typed here.
-3. Everything you already have, into `sources/`, before starting any work.
+1. **Open this folder in Claude Code and run `interview`.** It asks you questions
+   for about ten minutes and writes `PROJECT.md` and `STATE.md` for you, so you
+   never sit in front of a blank ontology. That blank page is the single most
+   common reason this gets abandoned on day one.
+   *No Claude Code?* Use `BOOMERANG.md` from the template repo instead. Same
+   interview, run through whatever AI you already have open, and it hands the two
+   files back to you.
+2. **Run `python3 check.py`** and keep going until it is quiet. It names every
+   section still unwritten, so it is the to-do list.
+3. **Everything you already have, into `sources/`**, before starting any work.
 
 ## Using it
 
@@ -29,6 +33,7 @@ In your terminal:
 
 In Claude Code (these are agent skills, not shell commands):
 
+    interview               FIRST, on a fresh copy: fills PROJECT.md and STATE.md
     resume                  pick the project up cold and get one next action
     resume --full           the fuller picture: everything blocked, all open questions
     add-source              ingest and annotate something

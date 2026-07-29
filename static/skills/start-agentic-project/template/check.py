@@ -25,7 +25,7 @@ No dependencies, no network.
 """
 import re, sys, json, datetime, pathlib
 
-TEMPLATE_VERSION = "2026-07-29.4"   # bump on any change to this template
+TEMPLATE_VERSION = "2026-07-29.5"   # bump on any change to this template
 ROOT = pathlib.Path(__file__).parent
 DATE = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
 MIN_ANNOTATION = 200          # bytes; below this it is a placeholder, not a thought

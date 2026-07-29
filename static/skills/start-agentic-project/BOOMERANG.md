@@ -114,5 +114,31 @@ where you did not get a real answer, never a plausible guess.
 <what nobody has established, and what would resolve it>
 ```
 
-**Finally, tell them in one line:** drop these two files into the project
-template's root, run `python3 check.py`, and fix whatever it names.
+## Finally: set the project up, do not just hand over two files
+
+Two files in a chat window is a nice summary and nothing else. Finish the job.
+
+**If you can run commands** (Claude Code, Cursor, a terminal-capable harness), do
+this yourself and report back with the output of the last line:
+
+```bash
+git clone --depth 1 https://github.com/SupersuitUp/agentic-project-template.git /tmp/apt
+cp -R /tmp/apt/template ~/projects/<project-slug>
+cd ~/projects/<project-slug> && git init && git add -A && git commit -qm "init"
+# write the two files you just produced over PROJECT.md and STATE.md, then:
+python3 check.py
+```
+
+`check.py` will name whatever is still missing. Fix what you can from the
+interview, and tell them plainly what only they can answer.
+
+**If you cannot run commands**, output the two files as downloads or code blocks
+and give them exactly this, nothing longer:
+
+> 1. Go to **github.com/SupersuitUp/agentic-project-template** and press **Use
+>    this template** (or download the ZIP).
+> 2. Replace `PROJECT.md` and `STATE.md` with the two files above.
+> 3. Run `python3 check.py` and do what it says.
+
+Either way, close by telling them the one next action from `STATE.md` and the
+date that binds, in two lines. That is what they actually came for.

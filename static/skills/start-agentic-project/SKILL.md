@@ -50,6 +50,21 @@ Do not scaffold first. Ask, and keep asking until you can write `PROJECT.md` wit
 
 **Ask about the constraint that embarrasses them.** It is usually the load-bearing one, and it is usually unsaid.
 
+**The template ships this interview as a skill** (`template/.claude/skills/interview/`),
+so a person who clones it and opens Claude Code can run `interview` and get the
+same thing without you. Prefer that when they are technical: it fills the files
+in place instead of handing them two blobs to paste.
+
+**If the person is not in the room, or does not use Claude Code, send them this link instead:**
+https://github.com/SupersuitUp/agentic-project-template/blob/master/BOOMERANG.md
+(GitHub gives them a one-click copy button; they paste it into whatever AI they
+use). It runs this
+same interview through their own AI and hands back a finished `PROJECT.md` and
+`STATE.md`. Use it whenever the project owner is someone else, in another
+timezone, or busy: the alternative is you guessing at their deliverable, and a
+scaffold built on a guess is worse than no scaffold. They come back populated
+rather than staring at `<PROJECT NAME>`.
+
 ### Step 2: Choose the verbs
 
 Derive them from how this specific project actually advances. Do not ship a generic set.
@@ -68,14 +83,34 @@ A verb is worth adding when you have done the same thing twice by hand.
 
 ### Step 3: Scaffold from the template
 
+**The template is NOT carried in this skill.** It lives in exactly one place, and
+this skill clones a pinned tag of it. A second copy is how a reviewer once spent
+an hour on a stale one.
+
 ```bash
-TEMPLATE=the template/ folder you downloaded
-cp -R "$TEMPLATE" ~/projects/<project-slug>
+TAG=v2026-07-29.5    # pinned deliberately; see "Bumping the pin" below
+git clone --depth 1 --branch "$TAG" \
+  https://github.com/SupersuitUp/agentic-project-template.git /tmp/apt
+cp -R /tmp/apt/template ~/projects/<project-slug>
 cd ~/projects/<project-slug> && git init && git add -A && git commit -m "init: <project> as an agentic project"
 python3 check.py     # should report zero of everything, and no dates yet
 ```
 
 Then fill `PROJECT.md` (including the milestones table) and `STATE.md` from the interview, and write one skill per verb into `.claude/skills/`. Re-run `check.py`: it should now name your real runway.
+
+**`check.py` prints its template version on the first line.** If someone hands you a project repo to review, check that line against this template before you trust anything you conclude. A cold review once spent an hour producing a confident, thorough, wrong report against a two-generations-stale copy that had no way to announce itself.
+
+**Bumping the pin.** Template changes happen in the repo, never here. To adopt one:
+
+```bash
+gh repo clone SupersuitUp/agentic-project-template && cd agentic-project-template
+# make the change, then:
+bash run-tests.sh                      # must be ALL GREEN
+# bump TEMPLATE_VERSION in template/check.py, commit, then:
+git tag -a v<new-version> -m "..." && git push origin v<new-version>
+```
+
+Then update `TAG` in the block above to match. Six cases run: five attacks that must exit 1 (pristine, deleted markers, the copied `_example` source, touched empty files, filled-but-dateless) and one good-faith fill that must exit 0. Every one is a defect a cold review actually found. Add a case whenever a new one is found; a checker you have not attacked is a checker you have not tested.
 
 ### Step 4: Ingest everything that already exists
 
