@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "THE PERSON IN ALL THREE PANELS IS THE SAME MAN IN HIS THIRTIES with SHORT DARK HAIR and a plain CHARCOAL-GREY CREWNECK SWEATER over a collared shirt. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nA THREE-PANEL HORIZONTAL STRIP, three panels of equal size in a row, separated by clean cream gutters with no drawn borders or frame lines. ONE consistent room and ONE consistent desk across all three panels.\n\nBEAT ONE. The man sits at a desk with his head in both hands, overwhelmed. The air around him is FULL OF LOOSE PAPER: scraps, sticky notes, open folders, printed pages, all floating and drifting in a disordered cloud with nowhere to settle. On the wall behind him a paper wall-calendar has ONE DATE CIRCLED heavily in red. The laptop on his desk is closed and dark.\n\nBEAT TWO. The same desk. The drifting scraps are now being drawn down in an orderly stream INTO ONE LARGE OPEN LEDGER BOOK lying flat on the desk, each page ruled and labelled, the papers filing themselves into it. Beside the ledger the laptop is now open and the WHOLE machine is a translucent glowing amber holographic object. His hands are open and empty on the desk, no longer holding his head. The air is nearly clear.\n\nBEAT THREE. The man is walking away toward a doorway with his coat over his arm, seen from behind, relaxed. On the desk the laptop stands open and still glowing amber, with the large ledger open beside it. INSIDE the laptop screen a SMALL ROUNDED GLOWING FIGURE holds up ONE SINGLE SMALL CARD toward the viewer, with a short handwritten squiggle on it standing for one task. Everything else on the desk is tidy and still.\n\nTEXT FURNITURE, in the cream margins and NEVER over the artwork. Render these strings EXACTLY and spell every letter correctly:\nTITLE BAR above the panels, in caps: 'AGENTIC PROJECT MANAGEMENT'\nCAPTION under panel one, in caps: 'THE CONTEXT IS IN YOUR HEAD'\nCAPTION under panel two, in caps: 'PUT IT IN THE REPO'\nCAPTION under panel three, in caps: 'COME BACK TO ONE NEXT ACTION'\nFOOTER BAR below the panels, in caps: 'STOPPING COSTS NOTHING. RESUMING COSTS ONE COMMAND.'\nNO other text anywhere. No invented words, no numbers, no signature.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-29T19:37:36.166691+00:00",
+  "sha256": "f85817ed6fdb27d899598de5526a2b41cce18cec436a50ed71d6ad5e413df9f0",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}
