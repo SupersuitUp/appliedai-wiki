@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/you-build-what-is-easy-to-check@bf404a573648599d84cd720c511b219ccc39f963",
+      "type": "removed",
+      "date": "2026-07-29T14:20:56-05:00",
+      "docKey": "perspectives/you-build-what-is-easy-to-check",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "You Build What Is Easy to Check",
+      "description": "Verification does not only grade the work, it quietly authors it. Whatever form is cheapest for you to check becomes the form you produce, and you will not notice you chose it."
+    },
+    {
       "id": "perspectives/you-build-what-is-easy-to-check@ee846cbdac1de898a88599cd6637f676e6efd281",
       "type": "new",
       "date": "2026-07-29T13:41:29-05:00",
