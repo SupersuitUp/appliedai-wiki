@@ -1,13 +1,13 @@
 ---
 title: "Paving the Desire Path"
 slug: /concepts/paving-the-desire-path
-description: "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and promotes the ones that will certainly recur into the system itself. You do not plan a desire path, you discover it by looking at the worn grass."
+description: "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died."
 image: "/img/comics/paving-the-desire-path.png"
 ---
 
 # Paving the Desire Path
 
-*The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and promotes the ones that will certainly recur into the system itself. You do not plan a desire path, you discover it by looking at the worn grass.*
+*The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died.*
 
 ![Three panels in a warm workroom, title bar reading PAVING THE DESIRE PATH. One, captioned THE RUN SHIPS: a woman in an olive sweater walks away from her desk toward the open door, her back to us, while the glowing amber laptop sits finished behind her and a scatter of small pale paper cards lies across the floorboards she is not looking at. Two, captioned SEE THE WORN LINE: she has come back and stands still in the middle of the room, head bowed, looking down for the first time, and from her angle the scattered cards resolve into one single worn line across the floor with the boards rubbed pale along that line and untouched everywhere else. Three, captioned PAVE ONLY THAT LINE: she kneels and lays smooth pale paving stones along exactly that one line and nowhere else, the rest of the floor left plain, while inside the laptop screen the same line now runs as one clean continuous amber rail. Footer bar reading DISCOVER THE PATH, THEN PAVE IT.](/img/comics/paving-the-desire-path.png)
 
@@ -31,15 +31,35 @@ The metaphor carries two constraints that matter.
 
 **Paving before the path exists is speculative abstraction**, which is worse than hand-rolling twice. A hand-roll costs one session. A bad abstraction calcifies into every session after it. The whole point of waiting is that the ground has already told you where people walk.
 
-## The bar: name the next invocation
+## What counts as worn
 
-One test decides everything. Complete this sentence with a specific, named case:
+Not every hand-roll leaves a path, and the metaphor is useless until you say which ones do.
+
+A one-off calculation, a bespoke script for a case that will never come back, a manual fix for something genuinely unique: those are footprints. The grass springs back. Paving them is precisely the speculative abstraction described above, and the fact that they were hand-rolled does not save them, because **hand-rolled and reusable are different properties**. Most improvisation is both hand-rolled and correctly disposable.
+
+So wear is not the existence of a mark. **Wear is the same line walked repeatedly.** That makes it a count, and the count is the thing you are actually looking for.
+
+Nine separate scripts that draw the same kind of schematic are not nine one-offs. They are one route walked nine times, by nine people who each believed they were solving a fresh problem, which is why nobody noticed. That is dead grass. A single script for one strange case is a footprint in dew.
+
+Read this way, the sweep is concretely a **component hunt**: you are not collecting scraps, you are asking which improvisation is a reusable part wearing a one-off's clothes, so it can be cast once and depended on. The output is not tidiness. It is a component that now exists.
+
+## The bar: count backward before you predict forward
+
+Two tests, and they are not equally good.
+
+The forward test is the familiar one. Complete this sentence with a specific, named case:
 
 > I hand-rolled **X**, and the next thing that will need **X** is **Y**.
 
-If you cannot name Y, do not pave. Write it down and move on.
+If you cannot name Y, do not pave.
 
-The bar is genuinely strict, and **declining is the common outcome**. Most improvisation is one-off and should stay that way. But once a candidate clears the bar, "proposed" is not a state it is allowed to rest in.
+The backward test is stronger, and it is the one to reach for first:
+
+> I have now hand-rolled **X** this many times: **N**.
+
+Prefer the backward test, because a prediction is where speculative abstraction gets in. "Something will surely need this" is exactly what a person says while building an abstraction nobody asks for. A count of prior traversals is evidence rather than forecast, it is already sitting in the repository history, and it cannot be talked up. When N is one and you can only reach the forward test, the honest move is usually to wait for the second traversal.
+
+The bar is genuinely strict, and **declining is the common outcome**. But once a candidate clears it, "proposed" is not a state it is allowed to rest in.
 
 ## Read the evidence, do not recall it
 
