@@ -63,6 +63,22 @@ The leverage comes from the workspace. The richer your [command center](/concept
 
 It is also a [harness engineering](/disciplines/harness-engineering) decision. Choosing local versus cloud per task, keeping the workspace refactorable, and writing the approvals and guardrails that make it safe to say yes to a file change from a phone is craft, not a setting.
 
+## What a locked screen does and does not stop
+
+Steering from your phone assumes the machine keeps working while you are away, and mostly it does. Files, terminals, builds, git, and API calls all run normally with the screen locked. The lock is a display and input boundary, not a compute one.
+
+The exception is anything that drives the GUI by pretending to be a human at the keyboard. macOS drops synthetic keyboard and mouse events while the screen is locked, so an AppleScript keystroke, a scripted paste into a chat window, or an editor shortcut sent to spawn a terminal tab all stop working the moment the Mac locks.
+
+What makes this expensive is that it fails in silence. The automation call returns success, `osascript` exits 0, and Accessibility reads keep answering so the machine looks responsive. Nothing anywhere in the chain reports an error. Your agent then tells you it did the thing, because from inside the transcript it has no way to know otherwise. Confirm the state directly:
+
+```bash
+ioreg -n Root -d1 | grep -a 'CGSSessionScreenIsLocked'
+```
+
+Two consequences for harness design. Prefer an API or a CLI over UI automation for anything that must run while you are away, since only the UI path depends on the screen. And when a step genuinely has to drive an interface, make it verify the effect rather than the return code, because an exit code is evidence that a call was made and not that anything happened.
+
+The honest tradeoff: the only workaround is leaving the machine unlocked, which is weaker security than the lock it removes. That is worth naming rather than designing around quietly.
+
 ## What to do now
 
 1. Turn on the phone-as-window mode in your harness and use it once on a real task. The session link in your pocket changes how it feels to own the work.
@@ -78,4 +94,5 @@ The desk was never the point. The work is. Remote harness control is how you sto
 - [Always-On Agents](/concepts/always-on-agents): the agent acting without you, the complement to you acting without the desk.
 - [Command Centers](/concepts/command-centers): the workspace that makes remote work worth launching.
 - [Harness Engineering](/disciplines/harness-engineering): the craft of configuring the harness, including local versus cloud and approvals.
+- [Remote Control Is Incomplete Without Remote Boot](/perspectives/remote-control-is-incomplete-without-remote-boot): steering a running session still leaves you unable to start a fresh one, which is where the locked-screen boundary bites hardest.
 - [Context Engineering](/disciplines/context-engineering): the discipline that makes any remote agent useful.
