@@ -1,6 +1,6 @@
 ---
 name: update-appliedai-wiki
-description: Create or update a page on appliedai.wiki (the Applied AI Engineer's craft wiki at ~/Documents/github-repos/supersuit-repos/appliedai-wiki). Default mode is a reflection: Gary's own take, framework, or claim drafted straight into the right page type (concept, perspective, playbook, discipline, role, engagement-pattern). It also detects create-vs-update (enrich an existing page instead of duplicating) and routes outside material elsewhere: a published external source (URL, video, PDF, a named firm's or person's material) hands off to the intake skill, and a real question someone asked hands off to the Q&A skill. Use when Gary says "update the applied ai wiki", "add this to appliedai.wiki", "create an appliedai wiki page", "reflection for the applied ai wiki", "wiki this up for appliedai", "I have a take for the applied ai wiki", or describes a concept/claim/playbook that belongs in the applied-AI craft canon. NOT for the other four SupersuitUp wikis (use intake-field-note-into-garys-wikis), NOT for personal-site or FaithWalk content.
+description: Create or update a page on appliedai.wiki (the Applied AI Engineer's craft wiki at ~/Documents/github-repos/supersuit-repos/appliedai-wiki). Default mode is a reflection: Gary's own take, framework, or claim drafted straight into the right page type (concept, perspective, playbook, discipline, role, engagement-pattern). It also detects create-vs-update (enrich an existing page instead of duplicating) and routes outside material elsewhere: a published external source (URL, video, PDF, a named firm's or person's material) hands off to the intake skill, and a real question someone asked hands off to the Q&A skill. It also HOSTS agent-runnable files: "publish this skill on the wiki" means shipping the actual SKILL.md (and any script) under static/skills/ so any agent can fetch it at a URL, not writing a prose page about it. Use when Gary says "update the applied ai wiki", "add this to appliedai.wiki", "create an appliedai wiki page", "reflection for the applied ai wiki", "wiki this up for appliedai", "I have a take for the applied ai wiki", "publish this skill on appliedai", "host this skill on the wiki", or describes a concept/claim/playbook that belongs in the applied-AI craft canon. NOT for the other four SupersuitUp wikis (use intake-field-note-into-garys-wikis), NOT for personal-site or FaithWalk content.
 ---
 
 # Update appliedai.wiki
@@ -26,8 +26,55 @@ If this input routes to a specialist skill (outside resource, question, boomeran
 | **An outside resource** (a URL, YouTube video, PDF, article, or the published material of a named firm or person) | The intake pipeline | Invoke `applied-ai-field-notes` (the canonical note-sharers pipeline for this wiki) or `intake-field-note-into-garys-wikis` (cross-wiki router). Then stop. |
 | **A real question someone asked** (screenshot, paste, "field this question") | The Q&A pipeline | Invoke `add-appliedai-wiki-qa`. Then stop. |
 | **A boomerang prompt** (a paste-in Gary hands a person so their AI interviews them and returns build-ready material) | The hosted-skill pipeline | Invoke `publish-boomerang-to-appliedai` (authoring first via `generate-boomerang-prompt` if the file does not exist). It ships under `static/skills/`, not `docs/`. Then stop. |
+| **A skill or other agent-runnable file to host** (an existing `SKILL.md`, `GENERATE.md`, or the script one needs, that Gary wants fetchable at a URL) | The hosted-file pipeline | Step 1b below. It ships under `static/skills/`, not `docs/`. |
 
 If unsure whether something is a reflection or an outside resource: if Gary is the one making the claim and there is no single external source being summarized, it is a reflection. Treat it as the default and stay here.
+
+**"Publish this skill on the wiki" means HOST THE ARTIFACT, not write a page about it.** Gary
+says "publish X on appliedai" when he wants the runnable file reachable at a URL. Drafting a
+prose page about the idea instead is the wrong output, and it is the failure this row exists
+to prevent (2026-07-30: the request was read as a reflection and a perspective was drafted
+before Gary corrected it by hand). He may ALSO want an article, but that is a second,
+separately-stated job. When both are wanted, host first, then return to Step 2.
+
+## Step 1b: Hosting an agent-runnable file (skills, generators)
+
+Only for the hosted-file row above. A hosted file is not a docs page: no page type, no
+italic definition line, no hero comic. The only `docs/` edit is one row in the library.
+
+1. **Check it should be hosted at all.** Do NOT host a copy of something that already has
+   its own public repo (parent `CLAUDE.md`, "Hosting agent-readable files"). Link the repo
+   instead. Hosting is for artifacts whose only public home is the wiki, which is the usual
+   case for a skill living in a private `~/.agents/skills/`.
+2. **File the payload** at `static/skills/<name>/SKILL.md`, plus any script it needs
+   alongside it (`static/skills/<name>/<script>`). Multi-file is fine and already in use.
+   Prefer one source per file over inlining a script into the SKILL.md, since two copies in
+   one folder still drift.
+3. **Genericize for a public, unbranded audience.** This is the step that is always missed,
+   because the local original is written for one machine:
+   - No absolute personal paths (`/Users/<name>/...`). Use `~/` paths.
+   - No personal names. Address the reader as "you" or "the operator".
+   - A personal shell alias or command must be overridable (a `--command` flag, an env var)
+     and explained where it first appears, since it means nothing to a stranger.
+   - State platform constraints honestly (OS, editor, permissions). The library claims to be
+     harness-agnostic; a skill that is not must say so in its own row.
+4. **Wire the library**: add one row to `docs/skills/index.md` with the raw-file link(s).
+5. **Cross-link it both ways.** If any article argues for what this file does, the article's
+   body links the hosted file by its raw URL, and the row links the article. A hosted skill
+   nobody can find from the prose it belongs to is shipped but not published.
+6. **Build, commit, push** (Steps 7 and 8).
+7. **Verify with a BLOCKED bot UA, never a plain curl.** A default `curl` returns 200 while
+   every agent the file exists for gets 403. See `publish-boomerang-to-appliedai` for the
+   full lesson and the `middleware.ts` fix if it fails:
+
+   ```bash
+   curl -sL -A "ClaudeBot/1.0" -o /tmp/hosted.md -w "%{http_code}\n" \
+     https://appliedai.wiki/skills/<name>/SKILL.md
+   head -3 /tmp/hosted.md    # a 200 that served an error page is still a failure
+   ```
+
+   Then re-fetch any hosted script from its live URL and confirm it still parses
+   (`bash -n`). Shipping a script that 200s but is truncated or mangled is the silent case.
 
 ## Step 2: Create vs update (always check before creating)
 
