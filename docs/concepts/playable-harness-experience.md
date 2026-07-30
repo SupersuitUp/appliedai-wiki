@@ -31,6 +31,24 @@ The playable harness experience is the **cartridge**. It contains the substance:
 
 This metaphor was structurally unavailable before the harness landscape consolidated. Pre-2026, "AI workflows" lived inside SaaS apps, each one a vertical silo. The cartridge model arrived the moment harnesses became substitutable.
 
+The metaphor has since been taken literally by a published standard. The [Agentic Brand
+Universe](https://agenticbranduniverse.com) defines a brand as a **cartridge**: a typed,
+git-versioned canon plus its locked golden assets, portable enough to fork or rent. Its
+**console** is Claude Code with the ABU plugin installed, and the plugin reads universes the
+way a PDF reader reads PDFs. Install it and the harness you already use becomes the runtime:
+
+```
+/plugin marketplace add garysheng/agentic-brand-universe
+/plugin install abu@agentic-brand-universe
+```
+
+What makes it a useful worked example rather than a restatement is that the cartridge carries
+**data and gates, not just prompts**. A universe declares invariants its renders must satisfy,
+and the console refuses to draw a character whose reference art is not on disk, because a
+plausible picture of the wrong person passes review and is more expensive than a hard stop.
+That is the cartridge doing what a skill-file bundle alone cannot: shipping the standard of
+correctness along with the instructions.
+
 ## What's inside the bundle
 
 A complete playable harness experience usually contains:
