@@ -48,6 +48,7 @@ You are not only making the thing. You are making the thing that makes the thing
 ## Further Reading
 
 - [Hand-Rolling](/concepts/hand-rolling): the failure mode this principle replaces, and its hidden cost of never exercising the real system.
+- [Paving the Desire Path](/concepts/paving-the-desire-path): the retrospective companion. This principle fires when you notice; that sweep catches everything you did not.
 - [Default to Determinism](/perspectives/default-to-determinism): once the generator is right, the deterministic path is cheaper and steadier than doing it live by hand.
 - [Frameworks Are Proven by Variety, Not Volume](/perspectives/frameworks-are-proven-by-variety-not-volume): fixing the generator against each new kind of case is how a framework earns the claim that it generalizes.
 - [A Startup Is an Outcome Generator](/perspectives/a-startup-is-an-outcome-generator): the same move at company scale. The product is the generator, so you improve the generator, not the individual deliverables.

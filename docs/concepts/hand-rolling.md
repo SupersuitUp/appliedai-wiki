@@ -32,7 +32,7 @@ The common thread: the correction lands on the **artifact** and never reaches th
 
 Hand-rolling always looks faster in the moment, and for the single artifact in front of you it usually is. Fixing the generator costs more now and pays later; hand-rolling costs less now and pays never. Under deadline the trade feels obvious, which is exactly why it compounds against you: the deadline is always there, so the generator is never fixed, so every run needs the same manual rescue.
 
-It also hides. A hand-rolled fix produces a correct artifact, so nothing looks wrong. Only the aggregate reveals it: a process you have run twenty times that is no more capable than the first time, because all twenty improvements went into the outputs and none into the system.
+It also hides. A hand-rolled fix produces a correct artifact, so nothing looks wrong. Only the aggregate reveals it: a process you have run twenty times that is no more capable than the first time, because all twenty improvements went into the outputs and none into the system. Seeing it therefore takes a deliberate backward pass over finished work, which is [Paving the Desire Path](/concepts/paving-the-desire-path).
 
 ## The hidden cost: a hand-roll cannot find the bug the system would
 
@@ -48,6 +48,7 @@ When your own generator produces the wrong thing, the fix is upstream, in the ge
 
 ## Further Reading
 
+- [Paving the Desire Path](/concepts/paving-the-desire-path): the retrospective sweep that finds the hand-rolls you could not notice while making them.
 - [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output): the principle that replaces hand-rolling. When a rule blocks the outcome, change the rule.
 - [Default to Determinism](/perspectives/default-to-determinism): the standardized path is cheaper and more consistent than the hand-rolled one, which is why routing around it is a loss.
 - [Frameworks Are Proven by Variety, Not Volume](/perspectives/frameworks-are-proven-by-variety-not-volume): each new kind of thing run through the real system is what exposes its holes; a hand-roll runs nothing through it.
