@@ -129,3 +129,4 @@ Do not scaffold before you can state the deliverable, the deadline, and what wou
 - [Knowledge Repo Design](/playbooks/knowledge-repo-design) on the monorepo shape for shared raw material.
 - [Save Your Progress](/concepts/save-your-progress) on routing a session's value into durable homes.
 - [Memory Files](/concepts/memory-files) on what an agent should carry between sessions.
+- [Project Resumability](/concepts/project-resumability) on the property this pattern produces, stated independently of the repo shape.

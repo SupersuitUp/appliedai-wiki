@@ -92,4 +92,5 @@ If you've ever ended a great session with a vague dread that you were about to l
 - [Memory Files](/concepts/memory-files): the context files a save keeps current.
 - [Compounding Docs](/concepts/compounding-docs) and [Self-Improving Systems](/concepts/self-improving-systems): why each save makes the next session stronger.
 - [Context Overflow](/concepts/context-overflow): the window pressure that makes saving urgent.
+- [Project Resumability](/concepts/project-resumability): the property a good save is trying to produce, and how to test for it.
 - [Context Gardening](https://supersuit.wiki/concepts/context-gardening) and [Externalize Your Brain](https://supersuit.wiki/concepts/externalize-your-brain): the broader practice of tending what you've externalized.
