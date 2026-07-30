@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL HORIZONTAL STRIP, three equal panels in a row separated by clean cream gutters with no drawn borders or frame lines. ONE consistent world, ONE consistent person, ONE consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE PERSON, same in every panel: a woman in her fifties with short grey hair, wearing a plain dark grey crew-neck sweater, sitting at a warm wooden desk in the real world outside the laptop. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nBEAT ONE, left panel: Inside the glowing laptop screen, a small workshop bench where a row of identical clay lamps is being made. Some lamps on the bench are FINISHED and lit with a steady warm glow; the remaining places on the bench are EMPTY. The screen is going dark mid-work, the light draining out of it. The woman outside has her hand lifted from the keyboard, caught mid-motion.\n\nBEAT TWO, middle panel: The screen is lit again. Inside, the same bench, and a small rounded holographic figure in a gold military cap walks along it. The lamps that were already finished sit UNTOUCHED and still steadily lit; the figure reaches past them toward the empty places only. The woman outside watches, relaxed, one hand resting on the desk. The consequence is visible: the finished work was not disturbed.\n\nBEAT THREE, right panel: The bench is complete, every place on it now holding a lamp lit with the same steady warm glow, indistinguishable from the ones that survived. The woman outside is leaning back, unhurried.\n\nTEXT FURNITURE, in the cream margins only, never over the artwork, spelled exactly as given: a TITLE BAR above the panels reading exactly IDEMPOTENT STEPS. A caption in the cream gutter under panel one reading exactly THE RUN IS INTERRUPTED. Under panel two exactly IT SKIPS WHAT IS DONE. Under panel three exactly ONLY THE MISSING WORK IS PAID FOR. A FOOTER BAR below the panels reading exactly RUN IT AGAIN. NOTHING GOOD IS REDONE. No other text anywhere, no invented words, no numbers.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-30T21:39:37.001628+00:00",
+  "sha256": "a61b2932f570551c26237b29bc843a22eb05280ac15e3c56b0299f0e9ee63745",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}
