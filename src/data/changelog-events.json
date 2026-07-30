@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/idempotent-steps@a5a7cac83894e7ad2a90f9d098bd96c8f6087d01",
+      "type": "new",
+      "date": "2026-07-30T16:40:17-05:00",
+      "docKey": "concepts/idempotent-steps",
+      "routePath": "/concepts/idempotent-steps",
+      "section": "concepts",
+      "title": "Idempotent Steps",
+      "description": "A step is idempotent when running it a second time is safe and changes nothing. In agentic work, where sessions crash, run out of context, and get interrupted constantly, idempotency converts crash recovery from a design problem into a non-problem: the recovery procedure is just run it again."
+    },
+    {
+      "id": "perspectives/remote-control-is-incomplete-without-remote-boot@16214e8fbea7b3e656df260a2dd05adba140afcf",
+      "type": "updated",
+      "date": "2026-07-30T16:18:46-05:00",
+      "docKey": "perspectives/remote-control-is-incomplete-without-remote-boot",
+      "routePath": "/perspectives/remote-control-is-incomplete-without-remote-boot",
+      "section": "perspectives",
+      "title": "Remote Control Is Incomplete Without Remote Boot",
+      "description": "Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart updates it. Being able to start a fresh session remotely is what lets you stay away for days."
+    },
+    {
       "id": "perspectives/remote-control-is-incomplete-without-remote-boot@73d452254d2db61df5b7fac9162a477ce08b768b",
       "type": "new",
       "date": "2026-07-30T16:12:40-05:00",

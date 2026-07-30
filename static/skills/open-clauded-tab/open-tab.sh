@@ -53,6 +53,21 @@ if ! osascript -e 'tell application "System Events" to get name of first applica
   exit 1
 fi
 
+# A LOCKED SCREEN EATS EVERY SYNTHETIC KEYSTROKE, SILENTLY. Accessibility reads
+# keep working while the screen is locked (the menu bar still enumerates and
+# osascript still exits 0), and only the keystrokes vanish, so nothing upstream
+# of here notices. Check it explicitly.
+#
+# Read into a variable rather than piping. Under `set -o pipefail`, `ioreg |
+# grep -q` returns 141, because grep exits at the first match and ioreg dies of
+# SIGPIPE. The test then reads FALSE precisely when the screen IS locked.
+CONSOLE_STATE="$(ioreg -n Root -d1 2>/dev/null || true)"
+if LC_ALL=C grep -aq 'CGSSessionScreenIsLocked"=Yes' <<<"$CONSOLE_STATE"; then
+  echo "open-tab.sh: the screen is LOCKED, so keystrokes would go nowhere." >&2
+  echo "  Unlock the Mac and run this again. Nothing was opened." >&2
+  exit 1
+fi
+
 if [[ -n "$DIR" && ! -d "$DIR" ]]; then
   echo "open-tab.sh: --dir is not a directory: $DIR" >&2
   exit 1
@@ -86,7 +101,16 @@ fi
 
 # --- Drive VS Code ---------------------------------------------------------
 
-osascript <<EOF
+# Interactive shells are what a VS Code terminal tab actually spawns, so their
+# count is the honest before/after signal that a tab appeared.
+count_shells() {
+  ps -eo command 2>/dev/null | LC_ALL=C grep -cE '^(/[^ ]*/)?(zsh|bash|fish) -[a-z]*i' || true
+}
+SHELLS_BEFORE="$(count_shells)"
+
+# Watchdog: an Apple Event can block forever when the editor is stuck with a
+# menu open, and a script that hangs with no output is worse than one that fails.
+osascript <<EOF &
 tell application "Visual Studio Code" to activate
 delay 0.4
 tell application "System Events"
@@ -100,5 +124,28 @@ tell application "System Events"
 	key code 36
 end tell
 EOF
+AS_PID=$!
+( sleep 25; kill "$AS_PID" 2>/dev/null || true ) &
+WATCHDOG_PID=$!
+wait "$AS_PID" || echo "open-tab.sh: the AppleScript did not finish cleanly." >&2
+kill "$WATCHDOG_PID" 2>/dev/null || true
+
+# --- Verify, do not assume -------------------------------------------------
+#
+# osascript exits 0 whether or not the keystrokes landed, so an unconditional
+# success message here is a lie waiting to happen. Prove the tab exists first.
+
+for _ in 1 2 3 4 5 6 7 8; do
+  [[ "$(count_shells)" -gt "$SHELLS_BEFORE" ]] && break
+  sleep 0.5
+done
+
+if [[ "$(count_shells)" -le "$SHELLS_BEFORE" ]]; then
+  echo "open-tab.sh: NO new terminal tab appeared. Nothing is running." >&2
+  echo "  The keystrokes were accepted but had no effect. Usual causes: the" >&2
+  echo "  screen locked between preflight and now, another app grabbed focus," >&2
+  echo "  or Secure Input is held (check: ioreg -l -w 0 | grep -i secureinput)." >&2
+  exit 7
+fi
 
 echo "Opened a new VS Code terminal tab running: $LINE"

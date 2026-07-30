@@ -46,7 +46,7 @@ Being able to boot a session remotely is what breaks the coupling. Ask the runni
 This is a real constraint removed, not a machine that runs itself.
 
 - **It is a workaround, not a feature.** The harness has an update path. That path assumes a human at the machine, and this routes around the assumption rather than removing it. If the assumption is ever relaxed, the workaround should be retired rather than defended.
-- **The computer has to be awake and unlocked.** Nothing here survives a closed laptop or a locked screen.
+- **The computer has to be awake and unlocked.** Nothing here survives a closed laptop or a locked screen, and this is the limit most likely to bite, because a locked Mac drops synthetic keystrokes without reporting anything. The spawn call returns success and no tab exists. See [the locked-screen boundary](/concepts/remote-harness-control) for what does and does not keep running while the screen is locked, and treat any UI-driving step as unproven until it has verified its own effect.
 - **The mechanism drives a real interface.** Spawning a tab by sending the editor's own keyboard shortcut means keystrokes follow focus for a second or two. It is dependable when the machine is idle, which is exactly the case that matters here, and it is the wrong tool on a machine someone else is using.
 - **Restart is not free.** A new session starts with no memory of the conversation that spawned it. It needs the same context handoff any fresh session needs, which is an argument for writing durable state down rather than holding it in a chat.
 - **More sessions is not more progress.** Spawning is cheap enough to overuse. The reason to start one is a stale harness or genuinely parallel work, not the feeling of activity.
