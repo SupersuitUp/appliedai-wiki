@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/remote-control-is-incomplete-without-remote-boot@73d452254d2db61df5b7fac9162a477ce08b768b",
+      "type": "new",
+      "date": "2026-07-30T16:12:40-05:00",
+      "docKey": "perspectives/remote-control-is-incomplete-without-remote-boot",
+      "routePath": "/perspectives/remote-control-is-incomplete-without-remote-boot",
+      "section": "perspectives",
+      "title": "Remote Control Is Incomplete Without Remote Boot",
+      "description": "Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart updates it. Being able to start a fresh session remotely is what lets you stay away for days."
+    },
+    {
       "id": "concepts/playable-harness-experience@ca45105a0159884d786c04f24a9c59b1e03bf84f",
       "type": "updated",
       "date": "2026-07-30T16:04:52-05:00",

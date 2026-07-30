@@ -39,7 +39,7 @@ Put those two facts together and the constraint appears:
 
 For an operator whose main work *is* building the [command center](/concepts/command-centers), that is the binding limit. You can be away and keep a session grinding. You cannot be away and keep getting better, because every improvement you make sits unused until you come home to trigger it.
 
-Being able to boot a session remotely is what breaks the coupling. Ask the running session to open a new tab and start a fresh sibling, and that sibling comes up on the current harness with the current plugins, including the edits the previous session just made. Give it a name at launch and it is reachable from the phone too, so the new session is steerable the moment it exists. The chain continues with no human in the room, and the days-long absence stops costing anything.
+Being able to boot a session remotely is what breaks the coupling. Ask the running session to open a new tab and start a fresh sibling, and that sibling comes up on the current harness with the current plugins, including the edits the previous session just made. The [`open-clauded-tab`](https://www.appliedai.wiki/skills/open-clauded-tab/SKILL.md) skill is one implementation: it drives the editor's own new-terminal shortcut, so one instruction to the session you are already steering produces a second one you can steer. Give it a name at launch and it is reachable from the phone too, so the new session is steerable the moment it exists. The chain continues with no human in the room, and the days-long absence stops costing anything.
 
 ## The honest limits
 
@@ -57,4 +57,4 @@ This is a real constraint removed, not a machine that runs itself.
 - [Always-On Agents](/concepts/always-on-agents): the agent acting without you, where remote boot is acting without the desk.
 - [Self-Improving Systems](/concepts/self-improving-systems): why the restart step is load-bearing rather than incidental.
 - [Skill Files](/concepts/skill-files): the unit that goes stale in a long-running session.
-- [Skills library](/skills): the hosted `open-clauded-tab` skill that spawns the sibling session.
+- [`open-clauded-tab`](https://www.appliedai.wiki/skills/open-clauded-tab/SKILL.md): the hosted skill that spawns the sibling session, in the [skills library](/skills).
