@@ -1,6 +1,96 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/playable-harness-experience@ca45105a0159884d786c04f24a9c59b1e03bf84f",
+      "type": "updated",
+      "date": "2026-07-30T16:04:52-05:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
+      "id": "concepts/paving-the-desire-path@7ca258c599760266c188f2673994cd3d94f9ffc3",
+      "type": "updated",
+      "date": "2026-07-30T09:35:04-05:00",
+      "docKey": "concepts/paving-the-desire-path",
+      "routePath": "/concepts/paving-the-desire-path",
+      "section": "concepts",
+      "title": "Paving the Desire Path",
+      "description": "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died."
+    },
+    {
+      "id": "concepts/hand-rolling@61a2a3f8908968c194421d0f4fc5beb314daa3a5",
+      "type": "updated",
+      "date": "2026-07-30T09:24:18-05:00",
+      "docKey": "concepts/hand-rolling",
+      "routePath": "/concepts/hand-rolling",
+      "section": "concepts",
+      "title": "Hand-Rolling",
+      "description": "Producing a one-off result by hand to get around your own system, instead of improving the system so it produces the result. Every hand-roll is a fix that helps once and teaches the generator nothing."
+    },
+    {
+      "id": "concepts/paving-the-desire-path@61a2a3f8908968c194421d0f4fc5beb314daa3a5",
+      "type": "new",
+      "date": "2026-07-30T09:24:18-05:00",
+      "docKey": "concepts/paving-the-desire-path",
+      "routePath": "/concepts/paving-the-desire-path",
+      "section": "concepts",
+      "title": "Paving the Desire Path",
+      "description": "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died."
+    },
+    {
+      "id": "perspectives/fix-the-generator-not-the-output@61a2a3f8908968c194421d0f4fc5beb314daa3a5",
+      "type": "updated",
+      "date": "2026-07-30T09:24:18-05:00",
+      "docKey": "perspectives/fix-the-generator-not-the-output",
+      "routePath": "/perspectives/fix-the-generator-not-the-output",
+      "section": "perspectives",
+      "title": "Fix the Generator, Not the Output",
+      "description": "When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around."
+    },
+    {
+      "id": "concepts/agentic-project-management@b2deb4d3db7676c9466ed2e1e9ccea3c0a78d798",
+      "type": "updated",
+      "date": "2026-07-29T19:56:26-05:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "/concepts/agentic-project-management",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
+      "id": "concepts/project-resumability@b2deb4d3db7676c9466ed2e1e9ccea3c0a78d798",
+      "type": "new",
+      "date": "2026-07-29T19:56:26-05:00",
+      "docKey": "concepts/project-resumability",
+      "routePath": "/concepts/project-resumability",
+      "section": "concepts",
+      "title": "Project Resumability",
+      "description": "The property that lets a reader who was not there reach a project's true state in minutes, from the files alone, and be right about it. Saving is the act, agentic project management is one implementation, resumability is the quality both are trying to produce."
+    },
+    {
+      "id": "concepts/save-your-progress@b2deb4d3db7676c9466ed2e1e9ccea3c0a78d798",
+      "type": "updated",
+      "date": "2026-07-29T19:56:26-05:00",
+      "docKey": "concepts/save-your-progress",
+      "routePath": "/concepts/save-your-progress",
+      "section": "concepts",
+      "title": "Save Your Progress",
+      "description": "The deliberate act of routing a work session's hard-won value (decisions, rationale, and newly-earned tribal knowledge) into durable homes (work logs, skill files, wiki pages, memory, commits) before the chat clears or the context window fills. The save mechanic for the playable harness experience: a reviewed sweep, never autopilot."
+    },
+    {
+      "id": "concepts/agentic-project-management@96b3ecd0d1a7f6f601f9c47be011d529f9cbf267",
+      "type": "updated",
+      "date": "2026-07-29T18:22:54-05:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "/concepts/agentic-project-management",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
       "id": "concepts/agentic-project-management@af2f1b0943a27fe76906e3473460fa6595a2ea27",
       "type": "updated",
       "date": "2026-07-29T18:11:03-05:00",

@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted slate-blue fills (#8FB0CE), soft dark-umber line (#3B382F).\n\nSubject: a horizontal hero strip of THREE equal panels in a row, reading left to right, separated by clean cream gutters with NO drawn borders and NO frame lines. ONE consistent world across all three: the same small wooden home desk, the same glowing translucent amber laptop, the same woman.\n\nBEAT ONE (left panel): The wooden desk indoors, seen from the side. The empty chair is pushed back and nobody is in the room. The amber laptop is open on the desk and glowing softly. Inside its screen, small translucent agent figures work at a tiny propped-open booklet whose pages are visibly faded, dog-eared and curling. The screen light is dim.\n\nBEAT TWO (middle panel): Outdoors on a sunlit garden path, far from the desk. A woman in her fifties with short silver-grey hair and a plain olive knit sweater stands holding a phone. The phone's screen faces her, so from our viewpoint we see the flat BACK of the phone, not its screen. A single clean amber line of light travels from her phone off toward the right. In the same panel, smaller and behind her, the desk is visible through a window: the laptop now glows brighter and a CRISP NEW booklet, the same shape as the faded one but clean and flat, sits open on the same little stand where the faded one was.\n\nBEAT THREE (right panel): The same desk indoors. The chair is still empty and no person is at it. The laptop glows warmly and the light falls upward onto the desk surface from the screen. Beside the laptop, a neat stack of finished pages has grown. Through the window behind the desk, the same woman is a small distant figure walking away along the path, her back to us.\n\nPHYSICAL RELATIONSHIPS THAT MUST READ CORRECTLY: the laptop stays on the desk in every panel and is never carried or held; the woman is in a different place from the desk in every panel; the glow originates at the laptop screen and lights the desk surface from below the screen upward; the faded booklet and the crisp booklet are the same kind of bound object resting on the same stand, so the second clearly replaces the first.\n\nKeep the composition quiet, uncluttered and editorial. At most six distinct elements per panel.\n\nNo comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The woman is ordinary and unglamorous.\n\nRender each of these strings EXACTLY, in this placement, and render NO other text anywhere in the image:\n- In the cream margin ABOVE the three panels, centered, in caps: REMOTE BOOT\n- In the cream gutter directly BELOW the left panel, in caps: THE SESSION GOES STALE\n- In the cream gutter directly BELOW the middle panel, in caps: ONE TAP STARTS A NEW ONE\n- In the cream gutter directly BELOW the right panel, in caps: THE DESK STAYS EMPTY\n- In the cream margin BELOW everything, centered, in caps: STEERING IS NOT ENOUGH. YOU MUST BE ABLE TO BOOT.\n\nAll text sits in the cream margins and gutters, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-07-30T21:11:43.740883+00:00",
+  "sha256": "20da418fba862709d4caefc0017a0801256a27618f3680ae04b7276e53965619",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}
