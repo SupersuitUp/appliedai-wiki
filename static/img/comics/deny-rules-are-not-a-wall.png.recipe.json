@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted slate-blue fill, soft dark-umber line.\n\nSubject: A THREE-PANEL HORIZONTAL STRIP. Three equal panels in a row, separated by clean cream gutters, with NO drawn borders and NO frame lines around the panels. One continuous world: the same desk, the same person and the same laptop appear in all three panels, and they read left to right as one progression.\n\nIn every panel: a glowing translucent amber laptop sits on a warm wooden desk. The action happens INSIDE the laptop screen, where one small rounded agent figure walks. The human is OUTSIDE the laptop in the warm real world, and only their hands and forearms enter the frame.\n\nBEAT ONE (left panel): Inside the laptop screen, a small painted signpost stands alone on open ground. The rounded agent walks up to the front of the sign, stops, and turns aside. Further behind the sign, a ring of keys hangs on a low hook.\n\nBEAT TWO (middle panel): The same signpost, standing in the same open ground. The agent has simply WALKED AROUND the side of the post, through the open ground beside it, because the post stands alone and is attached to no fence and no wall. The agent is now at the low hook, taking hold of the ring of keys.\n\nBEAT THREE (right panel): The signpost is gone and the low hook is EMPTY. Outside the laptop, the human's hand has set that same ring of keys down on the warm wooden desk, plainly outside the glowing screen. Inside the screen, the agent stands on the same open ground with nothing left to reach for.\n\nPhysical relationships, stated explicitly: the signpost is a single post planted in open ground, attached to no fence and no wall, so there is walkable open ground on both sides of it. The keys are one single object that appears once per panel. In beat three the keys rest on the wooden desk OUTSIDE the laptop, not inside the screen.\n\nThe human is an ordinary adult in a plain olive work shirt with rolled sleeves and no logos of any kind. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nRender each of these strings EXACTLY, in this placement, and no others. Title bar: \"DENY RULES ARE NOT A WALL\" in caps, centered in the cream margin ABOVE the three panels. Caption in the cream gutter directly BELOW the left panel: \"A SIGN STEERS\" in caps. Caption in the cream gutter directly BELOW the middle panel: \"A SIGN IS WALKED AROUND\" in caps. Caption in the cream gutter directly BELOW the right panel: \"TAKE THE KEYS OUT\" in caps. Footer bar: \"RULES FOR DEFAULTS. ISOLATION FOR LIMITS.\" in caps, centered in the cream margin BELOW the captions. All text sits in the cream margins, never over the artwork. No other text anywhere.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-01T01:39:46.663983+00:00",
+  "sha256": "5e7ddb324c89da141765b26b04977853910cd0a437184a4692b15a446a0ade45",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}

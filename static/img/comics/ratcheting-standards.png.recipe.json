@@ -1,0 +1,29 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted slate-blue fill, soft dark-umber line.\n\nSubject: A THREE-PANEL HORIZONTAL STRIP. Three equal panels in a row, separated by clean cream gutters, with NO drawn borders and NO frame lines around the panels. One continuous world: the same desk, the same person and the same laptop appear in all three panels, and they read left to right as one progression.\n\nIn every panel: a glowing translucent amber laptop sits on a warm wooden desk. The action happens INSIDE the laptop screen, where one small rounded agent figure works. The human is OUTSIDE the laptop in the warm real world, and only their hands and forearms enter the frame.\n\nBEAT ONE (left panel): Inside the laptop screen, a tall untidy stack of loose papers rests on the ground, and the rounded agent stands beside it. The human's hand reaches in and clamps a slim brass marker bar horizontally against the stack, at exactly the height of the stack's current top edge.\n\nBEAT TWO (middle panel): The same stack, with the same brass marker bar still fixed at the same height. A single new sheet of paper drifts down toward the top of the stack and STOPS DEAD against the underside of the brass bar, held in the air, unable to land. The stack below the bar is completely undisturbed. The agent holds the blocked sheet at arm's length.\n\nBEAT THREE (right panel): The same stack is now visibly SHORTER, because the human's hand outside has drawn a small sheaf of papers out of the laptop and set them on the wooden desk. The brass marker bar has slid DOWN and now rests against the new, lower top edge of the shorter stack. The agent stands calmly beside the shorter stack.\n\nPhysical relationships, stated explicitly: the brass marker is a horizontal bar fixed at one height across the stack. Paper already below the bar is undisturbed and stays. Paper arriving from above touches the bar's underside and cannot pass it. The bar moves down only, never up.\n\nThe human is an ordinary adult in a plain knit sweater with rolled sleeves and no logos of any kind. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nRender each of these strings EXACTLY, in this placement, and no others. Title bar: \"RATCHETING STANDARDS\" in caps, centered in the cream margin ABOVE the three panels. Caption in the cream gutter directly BELOW the left panel: \"MARK THE CURRENT HEIGHT\" in caps. Caption in the cream gutter directly BELOW the middle panel: \"NEW WORK CANNOT EXCEED IT\" in caps. Caption in the cream gutter directly BELOW the right panel: \"THE MARK ONLY MOVES DOWN\" in caps. Footer bar: \"GRANDFATHER THE DEBT. BLOCK THE NEXT ONE.\" in caps, centered in the cream margin BELOW the captions. All text sits in the cream margins, never over the artwork. No other text anywhere.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-01T01:38:49.185874+00:00",
+  "sha256": "2294659cd3411c379095bafeabe9dcce4ee0873e83dac6b1a7cb63b85b02531b",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+}

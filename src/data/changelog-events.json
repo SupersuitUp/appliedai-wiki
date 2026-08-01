@@ -1,6 +1,96 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agent-rule-files@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "updated",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "concepts/agent-rule-files",
+      "routePath": "/concepts/agent-rule-files",
+      "section": "concepts",
+      "title": "Agent Rule Files",
+      "description": "Standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. Imperative, persistent, always-on. The version-controlled spine of how an agent behaves inside your workspace."
+    },
+    {
+      "id": "concepts/prompt-guards@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "updated",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "concepts/prompt-guards",
+      "routePath": "/concepts/prompt-guards",
+      "section": "concepts",
+      "title": "Prompt Guards",
+      "description": "Standing rules a generator appends to every prompt itself, conditional on what the prompt contains. A rule written as an instruction to the caller is a suggestion; a rule enforced at the chokepoint every caller passes through is a guarantee."
+    },
+    {
+      "id": "concepts/ratcheting-standards@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "new",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "concepts/ratcheting-standards",
+      "routePath": "/concepts/ratcheting-standards",
+      "section": "concepts",
+      "title": "Ratcheting Standards",
+      "description": "A check that records how many violations a codebase already has and fails only when the number goes up. Lets you adopt a standard today on a codebase that does not meet it, without blocking on a cleanup you will keep postponing."
+    },
+    {
+      "id": "note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "new",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates",
+      "routePath": "/note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates",
+      "section": "note-sharers",
+      "title": "Caleb Curry: stop instructing the agent, start gating it",
+      "description": "Field notes from Caleb Curry's six months building a multi-tenant SaaS with Claude Code. His breakthrough was converting written rules into deterministic gates: linting, types, database adapters, and hooks the agent cannot interpret its way past."
+    },
+    {
+      "id": "perspectives/capable-agents-need-more-guardrails@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "updated",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "perspectives/capable-agents-need-more-guardrails",
+      "routePath": "/perspectives/capable-agents-need-more-guardrails",
+      "section": "perspectives",
+      "title": "The More Capable the Agent, the More Guardrails It Needs",
+      "description": "A capable agent's failure mode is not stupidity, it is confident, plausible shortcutting. The smarter it is, the more convincing the wrong thing it ships. Guardrails are how you get quality out of it, and the need for them rises with capability."
+    },
+    {
+      "id": "perspectives/default-to-determinism@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "updated",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "perspectives/default-to-determinism",
+      "routePath": "/perspectives/default-to-determinism",
+      "section": "perspectives",
+      "title": "Default to Determinism",
+      "description": "For any recurring process, deterministic code is near-free to run and consistent by construction. Make it the default, and treat live model generation as the metered exception you escalate to on purpose."
+    },
+    {
+      "id": "perspectives/deny-rules-are-not-a-wall@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
+      "type": "new",
+      "date": "2026-07-31T20:35:54-05:00",
+      "docKey": "perspectives/deny-rules-are-not-a-wall",
+      "routePath": "/perspectives/deny-rules-are-not-a-wall",
+      "section": "perspectives",
+      "title": "Deny Rules Are Not a Wall",
+      "description": "Permission rules steer an agent toward the right default and persist across sessions, which is worth having. They cannot contain an agent, because the same action has many spellings. If an outcome is unacceptable, remove the capability rather than writing a rule against it."
+    },
+    {
+      "id": "concepts/remote-harness-control@bf74b8b08368cbc8a67faeae9c31116fef186c88",
+      "type": "updated",
+      "date": "2026-07-30T18:35:06-05:00",
+      "docKey": "concepts/remote-harness-control",
+      "routePath": "/concepts/remote-harness-control",
+      "section": "concepts",
+      "title": "Remote Harness Control",
+      "description": "Steering your agentic harness from your phone, so heavy work on your real files keeps moving while you are away from the desk."
+    },
+    {
+      "id": "perspectives/remote-control-is-incomplete-without-remote-boot@bf74b8b08368cbc8a67faeae9c31116fef186c88",
+      "type": "updated",
+      "date": "2026-07-30T18:35:06-05:00",
+      "docKey": "perspectives/remote-control-is-incomplete-without-remote-boot",
+      "routePath": "/perspectives/remote-control-is-incomplete-without-remote-boot",
+      "section": "perspectives",
+      "title": "Remote Control Is Incomplete Without Remote Boot",
+      "description": "Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart updates it. Being able to start a fresh session remotely is what lets you stay away for days."
+    },
+    {
       "id": "concepts/idempotent-steps@a5a7cac83894e7ad2a90f9d098bd96c8f6087d01",
       "type": "new",
       "date": "2026-07-30T16:40:17-05:00",
