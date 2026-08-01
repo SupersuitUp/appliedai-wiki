@@ -58,6 +58,10 @@ Guardrails are quality infrastructure. They belong wherever an agent produces so
 
 None of this is about a dangerous model. It is about an ordinary capable one doing ordinary work, and the difference between output that looks done and output that is done. Guardrails are how you tell them apart, and a capable agent needs more of them, not fewer.
 
+## Supporting voices
+
+- **Caleb Curry (2026-07-15):** states the inversion in a form worth borrowing, and knows it sounds wrong: "we're actually trying to make it more difficult for code to reach production." His stack of layers runs stack choice, rule file, linting, a verifier subagent, hooks, tests, then AI review in CI. Two details sharpen this page. He has a *different* Claude instance review pull requests into main, because a fresh context reading for defects is not defending choices it made an hour ago, which is the producer-and-judge separation enforced by process. And he strips every mechanically-checkable rule out of the verifier, on the grounds that a verifier still carrying checks a script could run is distracted from the judgment it was there for. [Field note](/note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates).
+
 ## Further Reading
 
 - [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) the discipline a guardrail enforces: repair the pipeline, never the artifact

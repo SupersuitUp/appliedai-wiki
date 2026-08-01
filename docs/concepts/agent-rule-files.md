@@ -83,6 +83,10 @@ Your job is to write these well. Not the client's job. Most clients have never w
 
 This is [context engineering](/disciplines/context-engineering) at its most practical: curating the exact information state that makes the agent useful for this specific person, in this specific context, with these specific constraints.
 
+## Supporting voices
+
+- **Caleb Curry (2026-07-15):** supplies both a structure and a limit. The structure is keeping `CLAUDE.md` as a table of contents that points into a folder of scoped documents (a component catalog, services, security, one file per major feature area), on the grounds that a large rule file dilutes its own instructions the same way a large source file does. His component catalog is the payoff: the agent kept inventing variations, up to four versions of the same button, and telling it to reuse them did not hold, while a catalog it checks before creating a new component did. The limit is the one this wiki should hold alongside the page: a rule file is interpreted, so anything you cannot afford to have ignored belongs in a check rather than a line. See [Ratcheting Standards](/concepts/ratcheting-standards) and [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall) for where that leads. [Field note](/note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates).
+
 ---
 
 ## Further Reading

@@ -63,6 +63,10 @@ They are not for judgment. Whether a composition is any good, whether this is th
 
 The honest split is that guards eliminate the class of defect where **you already knew the rule**. That class is larger than most teams expect, and removing it is what frees attention for the judgment calls that need it.
 
+## Supporting voices
+
+- **Caleb Curry (2026-07-15):** runs the same move one layer out, from documentation into the toolchain rather than into the generator. His smallest example is the clearest: he wrote "do not use alerts" into `CLAUDE.md` several times, the agent kept using alerts, and one lint rule ended it permanently. His larger one is a database adapter that attaches the tenant to every query before it reaches the database, replacing a written instruction to respect tenant scoping. He also supplies the sourcing shortcut, which is that you do not have to author the checks: ask the agent to read the codebase and propose which rules can become checks that always run. [Field note](/note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates).
+
 ## Further Reading
 
 - [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) is the parent principle: the fix belongs in the system, not the artifact.

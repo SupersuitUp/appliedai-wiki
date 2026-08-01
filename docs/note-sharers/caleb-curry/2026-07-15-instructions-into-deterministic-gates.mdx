@@ -1,0 +1,167 @@
+---
+title: "Caleb Curry: stop instructing the agent, start gating it"
+description: "Field notes from Caleb Curry's six months building a multi-tenant SaaS with Claude Code. His breakthrough was converting written rules into deterministic gates: linting, types, database adapters, and hooks the agent cannot interpret its way past."
+date: 2026-07-15
+source_url: https://www.youtube.com/watch?v=vLWSIGxpfYA
+source_firm: caleb-curry
+source_type: video
+tags: [determinism, guardrails, harness, linting, permissions, isolation, orchestration]
+---
+
+# Caleb Curry: stop instructing the agent, start gating it
+
+*Field notes from Caleb Curry's six months building a multi-tenant SaaS with Claude Code. His breakthrough was converting written rules into deterministic gates: linting, types, database adapters, and hooks the agent cannot interpret its way past.*
+
+---
+
+## Source
+
+- **Firm:** Caleb Curry, solo software engineer and programming educator, YouTube channel of the same name.
+- **Format:** YouTube video, 1:28:42.
+- **Date published:** 2026-07-15.
+- **URL:** https://www.youtube.com/watch?v=vLWSIGxpfYA
+- **What it covers:** A single-take whiteboard lesson drawn from six months of building a multi-tenant product-hosting and email-marketing platform with Claude Code. Starts from the deterministic versus non-deterministic distinction and applies it in turn to rule files, linting, verifier subagents, documentation structure, orchestration, MCP, permissions, isolation, hooks, and debugging.
+- **Endorsement disclaimer:** His framings and claims are relayed here as his. We have not validated the specific setups across our own engagements. He sells an agentic AI course and references it throughout.
+- **Transcript note:** Quotes are drawn from auto-generated captions. Bracketed corrections fix caption mistranscriptions of proper nouns; wording is otherwise as spoken.
+
+## What we lifted
+
+### 1. Instructions get interpreted; gates get enforced
+[→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)] · [→ reinforces: [/concepts/prompt-guards](/concepts/prompt-guards)] · [→ reinforces: [/concepts/agent-rule-files](/concepts/agent-rule-files)]
+
+The claim the rest of the talk hangs on. He spent months writing rules into `CLAUDE.md` and getting inconsistent compliance, and he names the diagnosis precisely: a rule file is read and interpreted, so it can never be a guarantee. His instruction to himself became to convert instructions and explanations into deterministic gates, meaning checks the result has to pass before it counts as successful.
+
+His worked example is tenant scoping in a multi-tenant database. The instruction version was "respect tenant scoping," which is a rule the agent can forget on any single query, and forgetting it once leaks one customer's data to another. The gate version was a database adapter that attaches the tenant to every query before it reaches the database. The rule stopped being something the agent had to remember and became something the code did on its behalf. His smaller version of the same move: he wrote "do not use alerts" into `CLAUDE.md` several times, the agent kept using alerts, and one lint rule ended it permanently.
+
+This is the same argument as [prompt guards](/concepts/prompt-guards) made one layer out. Guards move a rule from documentation into the generator; Curry moves a rule from documentation into the toolchain.
+
+### 2. Have the agent find its own gates, and prefer scripts to scans
+[→ reinforces: [/concepts/self-improving-systems](/concepts/self-improving-systems)] · [→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)]
+
+Two practical points that make the first one affordable. You do not have to author the checks yourself: ask the agent to read the codebase and propose which of your rules can be converted into checks that always run, and it will write the scripts. He notes he did not write his own drift checks; he described the drift he kept seeing and had the agent build the detection.
+
+The economic argument is the one operators should carry. A script costs almost nothing per run, and an agent scanning the project for issues is metered every time. That gap only matters because of cadence: if the check runs on every change, every commit, or on a schedule, the metered version is the wrong shape. This is [default to determinism](/perspectives/default-to-determinism) reasoned from per-run cost.
+
+### 3. Ratchet the standard instead of blocking on the cleanup
+[→ new concept: [/concepts/ratcheting-standards](/concepts/ratcheting-standards)]
+
+The most portable mechanism in the talk, and one this wiki had no page for. When you adopt a standard on a codebase that already violates it, the honest options look like fixing everything first or letting the standard be advisory. He takes a third: record the current violation count and fail only when the count goes up.
+
+His live example is a per-file line-count limit set at 1,000 lines. He has roughly twenty files over it, several past 4,000, and the ratchet means none of them block him while no new file can join them. He describes the effect as acknowledging a bad past without continuing down it. He runs the check on a stop hook so it fires after every agent response.
+
+His reasoning for the limit itself is worth keeping separate from the ratchet. Large files made every agent change produce side effects and regressions, and smaller files are easier to test, isolate, and hold in view at once. He puts the sweet spot near 1,000 and thinks 500 fragments too much.
+
+### 4. Move everything deterministic out of the verifier
+[→ reinforces: [/perspectives/capable-agents-need-more-guardrails](/perspectives/capable-agents-need-more-guardrails)] · [→ reinforces: [/disciplines/evals](/disciplines/evals)]
+
+He pairs the deterministic gates with a verifier subagent for the opinionated checks that resist being written as rules: code smells, antipatterns, N+1 query shapes, house standards. The design rule is the useful part. Strip out everything a script could have caught, because a verifier still carrying mechanical checks is a verifier distracted from the judgment it was there for.
+
+He runs it as a subagent specifically so the verification has its own context and returns only findings. Scope is a dial: checking pending changes is fast, scanning the project is not.
+
+### 5. Make it harder for code to reach production
+[→ reinforces: [/perspectives/capable-agents-need-more-guardrails](/perspectives/capable-agents-need-more-guardrails)] · [→ reinforces: [/playbooks/dont-scale-slop](/playbooks/dont-scale-slop)]
+
+He states the inversion plainly and knows it sounds wrong. Everyone adopts AI to ship faster, and his stack of layers exists to slow the path to production: stack choice first (TypeScript over JavaScript, no implicit or explicit `any`), then the rule file, then linting, then the verifier, then hooks in the agent or in git, then tests, then AI code review in CI.
+
+The sharpest detail is at the end of that chain. He has Claude review pull requests into main, and he values it because it is a *different* instance from the one that wrote the code. A fresh context reading for defects is not defending choices it made an hour ago. That is the producer-and-judge separation from [the more capable the agent, the more guardrails it needs](/perspectives/capable-agents-need-more-guardrails), enforced by process rather than by instruction.
+
+### 6. Deny rules guide the agent; they do not contain it
+[→ new perspective: [/perspectives/deny-rules-are-not-a-wall](/perspectives/deny-rules-are-not-a-wall)]
+
+The other page this wiki was missing. He is careful to describe permission rules as guidance and to refuse the security framing. His examples are good guidance: denying bare `psql` while allowing `docker exec psql` kept the agent pointed at the containerized database instead of the Postgres installed on his host, and denying schema pushes kept it going through migrations so the database and the migration history could not drift apart. Denials persist across sessions, unlike session approvals, which is most of their practical value.
+
+Then he names the limit. There are many ways to express the same action, a script with a connection string routes around a command denial, and a prompt injection can mask intent. So the real move is removing the capability. He runs Claude in a Docker container with the repo mounted in, and keeps credentials, cloud CLI configs, and production connection strings outside that mount. The container can change code and cannot push it. Long-running autonomous work happens inside; anything touching production or version control happens outside with permissions on, where he sees every command.
+
+### 7. The vault: a rule file that is a table of contents
+[→ reinforces: [/concepts/memory-files](/concepts/memory-files)] · [→ reinforces: [/concepts/compounding-docs](/concepts/compounding-docs)] · [→ reinforces: [/disciplines/context-engineering](/disciplines/context-engineering)]
+
+A large rule file dilutes its own instructions, which is the same failure as a large source file. His structure keeps `CLAUDE.md` as a table of contents pointing into a `vault/` folder of scoped documents: a component catalog, services, security, and a file per major feature area. He edits them in Obsidian to get a Notion-like experience over plain markdown that still lives in the repo.
+
+The component catalog is the clearest payoff. The agent kept inventing variations instead of reusing components, up to four versions of the same button, and telling it to reuse them did not hold. Cataloging the components in a file the agent checks before creating a new one did. He notes you could go further and lint against raw HTML so every element has to resolve to a catalogued component.
+
+He instructs the agent to update these documents as it works, and he is explicit that the audience is future sessions rather than himself. His reason lands beyond coding: a single developer can now build a full software suite, so the binding constraint has moved from writing the code to remembering the architecture decisions behind it.
+
+### 8. Skills load into your context; subagents keep theirs separate
+[field-note bullet] · [→ reinforces: [/concepts/skill-files](/concepts/skill-files)] · [→ reinforces: [/disciplines/context-engineering](/disciplines/context-engineering)]
+
+The cleanest one-line distinction in the talk. A skill brings its information into the main conversation; a subagent manages its own context and returns only its result. So repeated work you want to be inside your session becomes a skill (his are design, diagrams, content planning, opening a PR), and isolatable work whose intermediate steps would only pollute your context becomes a subagent (research, test writing, verification).
+
+### 9. Orchestrator and background bundles
+[field-note bullet] · [→ reinforces: [/concepts/agent-constellation](/concepts/agent-constellation)] · [→ reinforces: [/concepts/ai-developer-workflow](/concepts/ai-developer-workflow)]
+
+His heavier pattern, which he flags as overkill for most people and worth it only on a plan with credits to spare. A main chat launches "bundles" into the background, each with a sub-orchestrator that owns one feature end to end by delegating to a planner that writes the spec, an implementer, a tester, and a verifier or challenger that asks whether the thing built is even what was wanted.
+
+Three details make it more than an org chart. The spec is the authority, so questions are frontloaded into the planning step and the later agents only implement, test, and verify against it. Models are tiered, with the expensive model on planning and cheaper ones on implementation that is following a spec. And agents bubble up questions with a triage threshold, so only the ones that change the design reach him. The value he names is that the main loop stays free while bundles run for an hour or two.
+
+He is equally clear on the failure mode: done poorly this adds credit usage and bureaucracy, with agents revising each other and never converging. He wrote the challenger role specifically to keep the output thin and guard against overarchitecting.
+
+### 10. Collapse AI features into an MCP where the user will connect one
+[field-note bullet] · [→ reinforces: [/concepts/agent-accessible-products](/concepts/agent-accessible-products)]
+
+He mapped his API endpoints one-to-one onto MCP tools rather than designing bespoke tools, which got the layer built fast, and he expects to add more purpose-driven tools later. Each tool carries a description, which is the part a raw API key does not give you: the connected model gets told how to use the endpoint correctly instead of guessing.
+
+Two reasons he chose MCP over sprinkling AI buttons through the app. He wanted one entry point for everything the product can do, and the token cost sits with the user's own model rather than with him, which removes a whole class of pricing and abuse questions from an early product.
+
+He then names where the reasoning stops. His customers will happily connect a model; *their* end users will not. So a course player still gets an in-app button to ask questions about the lesson, because nobody connects an MCP client to ask one question about a video. His fallback ladder for services you do not control: check for an MCP server, then an API, and only then browser cookies, which he flags as the risky option.
+
+### 11. Anchor every request to an example
+[field-note bullet] · [→ reinforces: [/concepts/golden-examples](/concepts/golden-examples)] · [→ reinforces: [/concepts/references-first-illustration](/concepts/references-first-illustration)]
+
+He keeps roughly a hundred static HTML and CSS pages of themes, landing pages, widgets, and graphics as a browsable inspiration library, then points at one when asking for new design work. He credits this with a large share of his recovery from the frustrated phase, and connects it to the period when he was hand-coding: doing the work himself produced one page good enough to become the reference for everything after.
+
+The related habit is prototyping flows front-end only, with a button for every state that affects the view. His payment-flow example gives buttons for logged-out, logged-in-and-owns-it, and logged-in-and-has-not-bought-it, so he can walk every path without an account, a card, and a refund between each run. Once the flow is right, it becomes the spec.
+
+### 12. Hooks, and the layer that survives bypassed permissions
+[field-note bullet] · [→ reinforces: [/disciplines/anatomy-of-a-harness](/disciplines/anatomy-of-a-harness)]
+
+He treats hooks as middleware on the agent's lifecycle and uses two. A pre-tool-use hook blocks dangerous execution before it happens, and a stop hook runs his ratchet check once after the agent finishes responding rather than after every tool call.
+
+The structural point is easy to miss: hooks still fire when permissions are bypassed, and allow and deny rules do not. So the hook is the enforcement layer that survives the mode that erases the rules, which is what makes running an agent unattended defensible at all.
+
+### 13. Build it by hand once when you do not understand it
+[field-note bullet] · [→ reinforces: [/perspectives/knowing-ai-changes-how-you-use-it](/perspectives/knowing-ai-changes-how-you-use-it)]
+
+He still takes days where he writes code himself, and gives a concrete reason rather than a nostalgic one. Asking for an implementation of something he had never built, in his case summarizing notes into a chat system over vectorized data, produced code he could not evaluate. He spent a couple of days building it by hand, and after that the agent extending it was reasonable, because he understood the structure well enough to review the changes.
+
+He pairs this with an honest account of where he does not read the code at all. His page builder renders from a JSON structure with backward compatibility guaranteed, so changes there are low stakes and fully delegated. The rule he states is proportional: the more important the code, the more attention it gets.
+
+## Best quotes
+
+> "The [CLAUDE.md] is great for instruction, but it's not ideal for enforcing things."
+
+> "You want to instruct the LLM to convert instructions and any kind of explanations into deterministic gates."
+
+> "Running a script is cheap. Asking an AI to scan your project for any issues, expensive."
+
+> "It's basically a way to acknowledge, hey, we have a bad past. We definitely don't want to continue down that path."
+
+> "The whole idea here is that we're actually trying to make it more difficult for code to reach production, which seems counterintuitive, right?"
+
+> "I like to think of these permissions as guidance to the LLM. But I would be cautious to treat them like security measures."
+
+> "We don't just want to instruct the LLM to choose carefully. We want to actually make it impossible to screw things up by removing these things altogether."
+
+> "Their limitation is no longer the ability to code. The limitation is now the ability to create good software that people actually want."
+
+> "Anytime you can anchor an instruction to examples, you're going to have much better results."
+
+> "If it's done poorly, then it can just add a lot of credit usage and still get you a bad result, because now you have bureaucracy in your AI agents."
+
+## Cross-references
+
+Pages created in this run:
+
+- [Ratcheting Standards](/concepts/ratcheting-standards)
+- [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall)
+
+Pages extended in this run:
+
+- [Default to Determinism](/perspectives/default-to-determinism): the instructions-into-gates conversion cited as a supporting voice.
+- [Prompt Guards](/concepts/prompt-guards): the toolchain-level version of the same move cited as a supporting voice.
+- [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): the separate-reviewer rule cited as a supporting voice.
+- [Agent Rule Files](/concepts/agent-rule-files): the table-of-contents structure and the limit of an interpreted rule cited as a supporting voice.
+
+## Further Reading
+
+- [Caleb Curry profile](/note-sharers/caleb-curry) for the channel's stance and other notes.
+- [Note Sharers](/note-sharers) for the full directory.

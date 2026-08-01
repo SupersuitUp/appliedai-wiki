@@ -1,0 +1,68 @@
+---
+title: "Deny Rules Are Not a Wall"
+slug: /perspectives/deny-rules-are-not-a-wall
+description: "Permission rules steer an agent toward the right default and persist across sessions, which is worth having. They cannot contain an agent, because the same action has many spellings. If an outcome is unacceptable, remove the capability rather than writing a rule against it."
+---
+
+# Deny Rules Are Not a Wall
+
+*Permission rules steer an agent toward the right default, which is worth having. They cannot contain one, because the same action has many spellings. If an outcome is unacceptable, take the capability away.*
+
+---
+
+## What they are genuinely good at
+
+Permission rules earn their place, and the case for them should be made before the case against.
+
+Their first job is steering. An agent that keeps reaching for the wrong resource can be pointed at the right one by denying the general form of a command and allowing the specific form. Deny the bare database client and allow the containerized one, and the agent stops guessing at connection strings and lands on the right database every time. Deny the command that pushes a schema straight to the database, and the agent goes through migrations instead, which keeps the database and its migration history from drifting apart.
+
+Their second job is persistence. Approving something in a session lasts until you close the session, so common commands you have already blessed come back and ask again tomorrow. A rule in the configuration survives. Most of the friction people feel with permissions is the cost of never writing the recurring answers down.
+
+Both jobs are real, and neither is security.
+
+## Why they cannot contain
+
+A deny rule matches a command. The thing you actually want to prevent is an outcome, and outcomes have many spellings.
+
+Deny a database client and the same connection happens inside a script. Deny a command name and it arrives through a different tool, an alias, or a language runtime. Every rule you write covers the phrasings you thought of, and the space of phrasings is not enumerable. This is the ordinary case, with no adversary in it, and it is already enough to sink the containment story.
+
+Then add an adversary. Content the agent reads can carry instructions, and an injected instruction is written by someone who knows a filter is there and can phrase around it. A rule that assumes the command means what it looks like is exactly the assumption an injection is built to exploit.
+
+Finally, the modes people actually run in erase the rules. Running an agent unattended for hours means turning off the prompts, and turning off the prompts turns off allow and deny. Treating those rules as your safety layer means your safety layer is absent precisely when the agent is least supervised.
+
+## Take the capability away
+
+The move is to stop asking the agent to choose correctly among things it should not be able to reach.
+
+Put the agent in a container. Mount the repository in, so it can read and change code. Leave the credentials outside: version-control tokens, cloud CLI configurations, production connection strings, API keys for services that cost money or touch customers. Now the agent can write code and cannot push it, cannot reach production, and cannot spend anything. Not because it was told not to. Because the credentials are not in the filesystem it can see.
+
+The difference is what has to hold for you to be safe. With a deny rule, safety depends on the rule anticipating the phrasing. With isolation, safety depends on the boundary, and the boundary does not care how the request is phrased. There is nothing left to interpret, which is the same reason [prompt guards](/concepts/prompt-guards) beat a documented instruction and the same reason [deterministic code](/perspectives/default-to-determinism) beats a rule the model reads.
+
+This is [the more capable the agent, the more guardrails it needs](/perspectives/capable-agents-need-more-guardrails) at the level of blast radius. That page argues a capable agent's confident wrong answer needs an external check. This one argues its confident wrong *action* needs an external boundary, for the same reason: the truth about intent lives in the agent's context, where nothing can verify it.
+
+## Run two lanes on purpose
+
+Isolation is not a reason to stop watching. It is a reason to sort work by whether watching is required.
+
+Long-running, autonomous, high-volume work goes inside the container, where the agent can run for hours and the worst outcome is bad code in a branch. Work that touches production, moves money, or rewrites history happens outside, in a session where permissions are on and every command is visible before it runs.
+
+That split is what makes unattended operation defensible. Most people who feel they must choose between approving every command and letting the agent run free are missing the container, so both halves of the work are stuck in one lane.
+
+## The layer that survives
+
+There is one enforcement point that keeps working after permissions are bypassed: lifecycle hooks.
+
+A hook fires on the agent's events whether or not the permission prompts are on. So the checks you genuinely cannot lose belong there rather than in an allow list. Block the specific dangerous execution in a pre-tool hook. Run the standards check after the agent finishes responding, so nothing lands that violates them. The permission rules are then free to be what they are good at, which is guidance, and the hooks carry the part that has to hold.
+
+The general shape repeats across this wiki. Rules the agent reads shape behavior most of the time, and mechanisms it runs inside decide what is possible. Use the first for defaults, and the second for anything you cannot afford to lose once.
+
+> Permission rules are how you tell an agent what you would prefer. Isolation is how you decide what it can do. Write the rules for the ordinary case, and take away every capability whose misuse you could not absorb.
+
+## Further Reading
+
+- [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): why external checks scale with capability.
+- [Default to Determinism](/perspectives/default-to-determinism): the same preference for mechanism over instruction, applied to cost and consistency.
+- [Prompt Guards](/concepts/prompt-guards): a rule moved from documentation into the chokepoint every caller passes through.
+- [Ratcheting Standards](/concepts/ratcheting-standards): enforcement for the standards you can express as a check.
+- [Agent Rule Files](/concepts/agent-rule-files): the layer this page marks the limits of.
+- [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): where permissions, hooks, and isolation actually sit.
