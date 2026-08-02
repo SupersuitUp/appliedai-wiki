@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/ratcheting-standards@2cb02d7f5bc6d317f6d556d963c5d98067d3ed62",
+      "type": "updated",
+      "date": "2026-07-31T20:41:16-05:00",
+      "docKey": "concepts/ratcheting-standards",
+      "routePath": "/concepts/ratcheting-standards",
+      "section": "concepts",
+      "title": "Ratcheting Standards",
+      "description": "A check that records how many violations a codebase already has and fails only when the number goes up. Lets you adopt a standard today on a codebase that does not meet it, without blocking on a cleanup you will keep postponing."
+    },
+    {
+      "id": "perspectives/deny-rules-are-not-a-wall@2cb02d7f5bc6d317f6d556d963c5d98067d3ed62",
+      "type": "updated",
+      "date": "2026-07-31T20:41:16-05:00",
+      "docKey": "perspectives/deny-rules-are-not-a-wall",
+      "routePath": "/perspectives/deny-rules-are-not-a-wall",
+      "section": "perspectives",
+      "title": "Deny Rules Are Not a Wall",
+      "description": "Permission rules steer an agent toward the right default and persist across sessions, which is worth having. They cannot contain an agent, because the same action has many spellings. If an outcome is unacceptable, remove the capability rather than writing a rule against it."
+    },
+    {
       "id": "concepts/agent-rule-files@4247121e8dfd316e5b57469a3edcc26f9ce3ab1f",
       "type": "updated",
       "date": "2026-07-31T20:35:54-05:00",
