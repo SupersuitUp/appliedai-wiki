@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/discoverability-is-a-just-in-time-problem@a5b621354c3776c2187ddfc2d354f21939954bc1",
+      "type": "new",
+      "date": "2026-08-01T22:32:57-05:00",
+      "docKey": "perspectives/discoverability-is-a-just-in-time-problem",
+      "routePath": "/perspectives/discoverability-is-a-just-in-time-problem",
+      "section": "perspectives",
+      "title": "Discoverability Is a Just-in-Time Problem",
+      "description": "An agent does not fail to use your tool because it never knew the tool existed. It fails because nothing put the tool in front of it at the moment it was about to hand-roll one. Anything that depends on having read something earlier and remembered it loses on a long session."
+    },
+    {
       "id": "concepts/ratcheting-standards@2cb02d7f5bc6d317f6d556d963c5d98067d3ed62",
       "type": "updated",
       "date": "2026-07-31T20:41:16-05:00",

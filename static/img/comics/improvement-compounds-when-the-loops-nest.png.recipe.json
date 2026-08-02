@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A MULTIPANEL STRIP of exactly THREE equal panels in one horizontal row, separated by clean cream gutters with no drawn borders or frame lines. ONE consistent world, ONE consistent glowing translucent amber laptop, ONE consistent human across all three panels, reading left to right as a progression.\n\nTEXT FURNITURE, character-exact, in the cream margins and never over the artwork:\nTitle bar above the panels, in caps: NESTED IMPROVEMENT LOOPS\nCaption under panel one, in caps: LOOP ONE: THE ARTIFACT\nCaption under panel two, in caps: LOOP TWO: THE PIPELINE\nCaption under panel three, in caps: LOOP THREE: THE GRADER\nFooter bar below the panels, in caps: LESSONS FLOW UP. WORK FLOWS DOWN.\nNo other words anywhere. Exactly three loop arrows total, one per panel.\n\nTHE HUMAN, same in every panel, seated in the warm real world OUTSIDE the laptop: a middle-aged woman with short grey-streaked hair, a rust-colored cardigan over a plain cream blouse, reading glasses pushed up. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nBEAT ONE: Inside the glowing laptop screen, one small rounded sub-agent repaints a single framed picture standing on a tiny easel. A single small amber LOOP ARROW circles just that one easel, tight and local. The woman outside watches, chin on hand.\n\nBEAT TWO: The same screen zoomed out: the easel is now the first of a short assembly line of little work stations inside the screen, and the Chief of Agents, a rounded character in a gold military cap, pins a new final station card onto the end of the line. One LARGER amber LOOP ARROW circles the WHOLE assembly line, visibly enclosing the small easel loop inside it. The woman outside leans in.\n\nBEAT THREE: The Chief of Agents stands at the end of the line holding a clipboard, grading the work, and a third amber LOOP ARROW circles THE CLIPBOARD ITSELF, the loop pointed at the grader. The woman outside points with one finger, making the call, her other hand resting on a warm mug. The nesting is visible: small loop inside big loop inside the world the clipboard grades.\n\nWarm cream ground, soft amber glowing line-art, quiet and editorial throughout. The concept lives inside the glowing laptop where the agents work; the human's taste and veto stay in the warm real world outside it.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-02T17:02:35.500977+00:00",
+  "sha256": "58b45c985e70f64c4676baf278b808173acea2d1836df5fad634f78e7cb0ca3b",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
