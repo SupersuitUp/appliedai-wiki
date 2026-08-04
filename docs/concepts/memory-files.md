@@ -109,6 +109,30 @@ The test: if you can articulate why a memory entry does not belong in `AGENTS.md
 
 In practice, the test fails most of the time. Most things the harness wants to remember are exactly the things `AGENTS.md` exists for.
 
+## Dreaming: the version that answers the objection
+
+The complaint on this page was never that agents should not have memory. It was narrower and it is worth restating exactly: the memory file is agent-written, undiffable, unauditable in a PR, and the question that matters is who put it there and whether you can audit what changed.
+
+**Dreaming** is a design that answers all four. Lamis Mukta of Anthropic's applied AI team described it in [Learning While You Sleep: Beyond Memory to Dreaming](https://www.youtube.com/watch?v=tQ41RxfZZVg) (AI Native DevCon London, 2026). It runs as a separate batch pass with its own budget, reads a period of session transcripts alongside the current memory store, looks for the failures that repeat across many sessions rather than the ones that happened once, and emits a **proposed** revised store.
+
+Every property this page objects to gets inverted:
+
+|  | Auto-memory | Dreaming |
+|---|---|---|
+| When it runs | Mid-task, inside the work | Out of band, on its own budget |
+| Evidence base | The one session it is in | A period of sessions, across the fleet |
+| What it produces | A silent write | A proposed diff |
+| Reviewable | No | Yes, that is the output |
+| Sees repeated failure | No, it has one sample | Yes, that is what it looks for |
+
+The mid-task detail is the one that gets missed. An agent editing memory while working is spending attention and context on housekeeping instead of the task, and it can only see its own run. Nobody is looking across the fleet, so the failure that shows up in forty transcripts is invisible to all forty agents.
+
+Mukta's analogy explains the resourcing rather than decorating it. Students submit work, teachers mark it, a head teacher reviews across everything. It works because someone has dedicated capacity for helping others learn, and because someone with visibility across the whole cohort spots a pattern no individual teacher sees. Her example is a head teacher noticing that every geography student botched the same question and concluding the curriculum is wrong, not the students. A tutor marking papers between their own lessons will always deprioritise it.
+
+**The line that generalises past agent memory:** a curation pass that edits in place is auto-memory with more steps. A curation pass that proposes is a system you can still audit. That is the same distinction this page draws between a memory file and an [agent rule file](/concepts/agent-rule-files), arriving from the other direction.
+
+Structurally this is [self-improving artifacts](/concepts/self-improving-artifacts) applied to agent memory instead of to human-facing documents: regeneration from raw context on a cadence, with a human-legible diff as the unit of change. It is worth building only where there is a fleet, because a single agent with a small store can be curated by reading it.
+
 ## Hermes specifically
 
 Hermes makes the boldest auto-memory pitch of any harness. The technical design is sharp: 2,200-character cap on `MEMORY.md` and 1,375 on `USER.md` force the agent to actively curate rather than accumulate, and the frozen-snapshot read pattern optimizes for prefix-cache hits.
