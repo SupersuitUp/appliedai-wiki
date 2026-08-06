@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted slate-blue fill (#8FB0CE), soft dark-umber line (#3B382F).\n\nLAYOUT: a horizontal strip of EXACTLY THREE equal-width panels in one row, separated by clean cream gutters. No drawn borders, no frame lines, no outlines around the panels. One consistent room, one consistent woman, one consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE WOMAN (the same person in every panel): a woman in her forties with warm brown skin and short dark curly hair, wearing a plain olive-green knit sweater and simple dark trousers. Ordinary and unglamorous.\n\nTHE ROOM: one warm wooden home-office desk against a cream wall, the same desk in all three panels.\n\nBEAT ONE (left panel): The woman sits at the desk. On the desk beside her, arranged in a casual row, sit four ordinary everyday objects she plainly already uses and does not think about: a mobile phone, a plain cardboard delivery parcel, a coffee mug, and a paper wall-calendar. Facing her at the far end of the desk is ONE glowing translucent amber laptop, open, its screen turned toward her so we see the front of the screen at a three-quarter angle; inside the glowing screen two small rounded agent figures are waiting patiently, one of them wearing a small gold military cap. The woman's near hand is raised palm-out toward the glowing laptop in a clear \"wait, hold on\" gesture. Her body language is objecting to the laptop and completely at ease with the four everyday objects.\n\nBEAT TWO (middle panel): The consequence. The woman has swivelled in her chair to face the four everyday objects instead, and she is now looking straight at them for the first time. She holds a small handwritten paper list in both hands, reading it, and her expression is caught out and thoughtful. Her raised objecting hand has dropped into her lap. The glowing amber laptop still sits at the end of the desk, still glowing, its two agent figures still waiting inside, but she is no longer objecting to it.\n\nBEAT THREE (right panel): The resolution. The woman has turned back and is working comfortably at the glowing amber laptop, one hand resting on it, the two agent figures inside the screen now busy and moving. On the desk right beside her sits a sturdy wooden file box of her own with a lifting handle on top and plain labelled paper folders standing up inside it, clearly hers and clearly portable. Behind her in the cream wall an ordinary wooden door stands open onto soft daylight, so a way out of the room is plainly visible. She is calm and unbothered.\n\nPHYSICAL RELATIONSHIPS, state and obey exactly: the laptop screen faces the woman, so from our viewpoint we see the front face of the screen at a three-quarter angle and the agents inside it are legible. The file box rests flat ON the desk surface with its handle upward, so it could be lifted and carried. The open door is set into the wall BEHIND her and swings inward, showing daylight beyond it. The four everyday objects rest ON the desk surface, casting soft contact shadows on the desk.\n\nEXACTLY ONE woman in the whole image, the same person in each panel, never duplicated within a panel. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No company logos, no brand marks, no product branding on any object.\n\nNo comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nRender each of these strings EXACTLY, in this placement, and render NO other text anywhere in the image:\n- In the cream margin ABOVE the three panels, centered, in bold caps: REVEALED PREFERENCE\n- In the cream gutter directly BELOW the left panel, in caps: OBJECTING TO ONE\n- In the cream gutter directly BELOW the middle panel, in caps: ALREADY USING THE REST\n- In the cream gutter directly BELOW the right panel, in caps: BUILD THE EXIT\n- In the cream margin BELOW everything, centered, in bold caps: YOU ALREADY DEPEND. CAN YOU LEAVE?\n\nAll text sits in the cream margins and gutters, never over the artwork. No other lettering, no labels on objects, no words on the laptop screen, no writing legible on the paper list.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-06T02:56:24.303219+00:00",
+  "sha256": "803e71328630dc43db3dbf7224fc78a081744c5279afa1eb333e3bbcea292b18",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
