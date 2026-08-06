@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/memory-files@3dc142724e127e3563c5552d2e721a82518d8730",
+      "type": "updated",
+      "date": "2026-08-04T15:06:27-05:00",
+      "docKey": "concepts/memory-files",
+      "routePath": "/concepts/memory-files",
+      "section": "concepts",
+      "title": "Memory Files",
+      "description": "Harness-managed notes the agent writes to itself between sessions. Opaque, agent-curated, vendor-specific. A worse-engineered version of what AGENTS.md already does. Off by default in this framework."
+    },
+    {
+      "id": "concepts/self-improving-artifacts@3dc142724e127e3563c5552d2e721a82518d8730",
+      "type": "updated",
+      "date": "2026-08-04T15:06:27-05:00",
+      "docKey": "concepts/self-improving-artifacts",
+      "routePath": "/concepts/self-improving-artifacts",
+      "section": "concepts",
+      "title": "Self-Improving Artifacts",
+      "description": "Documents that regenerate from raw organizational context on a cadence, rather than being maintained by hand. The static user manual is replaced by a living one fed by every new conversation, decision, and recording in the company brain."
+    },
+    {
+      "id": "perspectives/improvement-compounds-when-the-loops-nest@6beac5fa6d363590875d4d4627b34ce8a925b1c7",
+      "type": "new",
+      "date": "2026-08-02T12:03:30-05:00",
+      "docKey": "perspectives/improvement-compounds-when-the-loops-nest",
+      "routePath": "/perspectives/improvement-compounds-when-the-loops-nest",
+      "section": "perspectives",
+      "title": "Improvement Compounds When the Loops Nest",
+      "description": "One improvement loop is table stakes. The compounding move is a loop at every level of abstraction, nested, with lessons flowing up and work flowing down. Each level catches what the level below cannot see, including the loop that grades the grader."
+    },
+    {
       "id": "perspectives/discoverability-is-a-just-in-time-problem@a5b621354c3776c2187ddfc2d354f21939954bc1",
       "type": "new",
       "date": "2026-08-01T22:32:57-05:00",
