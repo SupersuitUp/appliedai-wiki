@@ -1,15 +1,15 @@
 ---
-title: "The Agent UX Problem Is a Packaging Problem"
-slug: /perspectives/the-agent-ux-problem-is-a-packaging-problem
-description: "The capability layer of a personal agentic OS is already good enough for normal people. What they are missing is a door shaped like the software they already understand: an app. Thin app-shaped surfaces over a proven skill library dissolve most of the agent UX problem."
-image: "/img/comics/the-agent-ux-problem-is-a-packaging-problem.png"
+title: "The Agentic OS UX Problem Is a Packaging Problem"
+slug: /perspectives/the-agentic-os-ux-problem-is-a-packaging-problem
+description: "The capability layer of a personal agentic OS is already good enough for normal people. What they are missing is a door shaped like the software they already understand: an app. Thin app-shaped surfaces over a proven skill library dissolve most of the agentic OS UX problem."
+image: "/img/comics/the-agentic-os-ux-problem-is-a-packaging-problem.png"
 ---
 
-# The Agent UX Problem Is a Packaging Problem
+# The Agentic OS UX Problem Is a Packaging Problem
 
-*Most people will never open a terminal, and they do not have to. Put a proven skill behind a text box or a button on a dedicated website, and the agent UX problem mostly dissolves. The capability was never the gap. The door was.*
+*Most people will never open a terminal, and they do not have to. Put a proven skill behind a text box or a button on a dedicated website, and the agentic OS UX problem mostly dissolves. The capability was never the gap. The door was.*
 
-![Three panels in warm editorial ink-and-wash on cream paper. Title bar: A PACKAGING PROBLEM. One: at a warm wooden desk, a silver-haired woman in a knitted cardigan leans back with hands raised, overwhelmed, facing a glowing translucent amber laptop whose screen teems with the Chief of Agents in a gold cap directing many small rounded sub-agents among dense panels. Caption: TOO MANY LEVERS. Two: a second pair of hands sets a small ivory tablet in front of her showing one large text box and one round button, a single amber line running from the tablet across the desk into the glowing laptop where the agents turn toward it. Caption: ONE BOX, ONE JOB. Three: she smiles, holding the tablet which now shows a finished answer page of tidy text lines, while behind it the same laptop glows quietly and the Chief of Agents tips his cap. Caption: SHE GETS THE ANSWER. Footer bar: PEOPLE THINK IN APPS. THE OS IS THE BACKEND.](/img/comics/the-agent-ux-problem-is-a-packaging-problem.png)
+![Three panels in warm editorial ink-and-wash on cream paper. Title bar: A PACKAGING PROBLEM. One: at a warm wooden desk, a silver-haired woman in a knitted cardigan leans back with hands raised, overwhelmed, facing a glowing translucent amber laptop whose screen teems with the Chief of Agents in a gold cap directing many small rounded sub-agents among dense panels. Caption: TOO MANY LEVERS. Two: a second pair of hands sets a small ivory tablet in front of her showing one large text box and one round button, a single amber line running from the tablet across the desk into the glowing laptop where the agents turn toward it. Caption: ONE BOX, ONE JOB. Three: she smiles, holding the tablet which now shows a finished answer page of tidy text lines, while behind it the same laptop glows quietly and the Chief of Agents tips his cap. Caption: SHE GETS THE ANSWER. Footer bar: PEOPLE THINK IN APPS. THE OS IS THE BACKEND.](/img/comics/the-agentic-os-ux-problem-is-a-packaging-problem.png)
 
 ---
 
@@ -50,9 +50,9 @@ Naming the best argument against the claim: the app layer dissolves the interfac
 - **The serving path.** A subscription covers you. The moment the door serves other people at volume, the economics and the terms both push the backend onto the API, which is a config change if you built the interface for it and a rewrite if you did not.
 - **Availability.** A backend that is your laptop is a backend that sleeps when your laptop does.
 
-These are the actual remaining problems, and they are ordinary engineering. None of them is the mystical "agent UX problem" the complaint imagined.
+These are the actual remaining problems, and they are ordinary engineering. None of them is the mystical "agentic OS UX problem" the complaint imagined.
 
-> **The agent UX problem was never about making normal people comfortable with agents. It is about putting a door they already understand in front of a capability you already proved.**
+> **The agentic OS UX problem was never about making normal people comfortable with agents. It is about putting a door they already understand in front of a capability you already proved.**
 
 ## Further Reading
 
