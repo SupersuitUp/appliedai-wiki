@@ -82,6 +82,10 @@ The two are opposite motions and easy to confuse. A constellation points inward:
 
 Full source profile at [Claire Vo](/people-to-follow/claire-vo), including a field-note log of what was lifted from each piece.
 
+## A name is an invocation token
+
+An underrated reason naming works: a distinctive name is a retrieval key for everyone involved, including you. Saying "hand this to Marlowe" pulls that agent's whole charter (its goals, tools, standards, current threads) into play in one word, the way a colleague's name does. For an operator juggling many goals and sub-projects, the roster of names becomes a working-memory extension: you do not hold every project's state in your head, you hold the names, and each name pages in what matters when spoken. Generic labels ("the research agent") blur into each other; distinctive names stay addressable. Name agents the way you would name anything you intend to call across a room.
+
 ## Further Reading
 
 - [The Roles-to-Workflows Shift](/concepts/roles-to-workflows): the decomposition that has to happen before you name the agents.

@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/mission-harness@d81dfaf3826988cfa68adeb08512a76e6b5750ae",
+      "type": "updated",
+      "date": "2026-08-07T13:39:30-05:00",
+      "docKey": "concepts/mission-harness",
+      "routePath": "/concepts/mission-harness",
+      "section": "concepts",
+      "title": "The Mission Harness",
+      "description": "Everyone talks about AI alignment. Aligned to what? A mission harness makes it concrete: a system that keeps humans and agents aligned with a shared purpose."
+    },
+    {
+      "id": "perspectives/pick-a-stack-that-can-be-faithful-to-your-mission@d81dfaf3826988cfa68adeb08512a76e6b5750ae",
+      "type": "new",
+      "date": "2026-08-07T13:39:30-05:00",
+      "docKey": "perspectives/pick-a-stack-that-can-be-faithful-to-your-mission",
+      "routePath": "/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission",
+      "section": "perspectives",
+      "title": "Pick a Stack That Can Be Faithful to Your Mission",
+      "description": "The bar for choosing an agentic stack is faithfulness: acting in the spirit of your mission when your instructions run out, and sometimes holding you to a higher standard than you asked for."
+    },
+    {
       "id": "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem@e0695874224f101ab719848b72c9ed4dc76e5d22",
       "type": "updated",
       "date": "2026-08-07T13:25:19-05:00",
