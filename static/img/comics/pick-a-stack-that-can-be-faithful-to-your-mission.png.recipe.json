@@ -1,0 +1,34 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fills, soft dark ink line.\nSubject: a THREE-PANEL horizontal strip, three equal panels in a row separated by clean cream gutters with NO drawn borders or frame lines, one consistent world across all three panels: the same warm wooden desk, the same woman, the same glowing translucent amber clamshell laptop with a hinged glowing screen and visible physical keyboard, seen in a high three-quarter view so the FACE of the screen is genuinely visible in every panel. The woman is in her 50s with short silver hair, wearing a rust-colored cardigan; she never looks at the viewer. Inside the laptop screen lives the Chief of Agents: a SMALL blocky clay-coral orange holographic mascot with a grand ornate gold admiral hat, gold epaulettes, warm rounded dot eyes with tiny catchlights, two stubby legs, short stubby nub arms ending in rounded mitten stubs (never fingers), translucent and glowing, casting light not shadow, always contained INSIDE the lit screen rectangle, never in the real room.\nPANEL ONE: the woman slides a single small thin handwritten note toward the laptop; inside the screen, the Chief of Agents listens, and behind him stands a tall well-stocked shelf of softly glowing files and records filling the screen.\nPANEL TWO: inside the screen the Chief of Agents commands the work: several files pulled off that shelf float open and glowing around him while a rich, careful, many-part piece of work assembles below them, visibly far fuller than the tiny thin note pinned small beside it; the physical relationship must read as the shelf feeding the work, files flowing from shelf into the assembling piece.\nPANEL THREE: the lit screen holds up ONE glowing page from the shelf facing OUT toward the woman like a gentle mirror (the page faces her, so the viewer sees it at an angle), while her hand hovers over a crumpled note on the desk; she pauses mid-reach and nods, warm and conceded.\nRender each of these strings EXACTLY, in this placement: title bar in the cream margin above the panels: \"FAITHFUL TO THE MISSION\". Caption in the cream gutter under panel one: \"A THIN INSTRUCTION\". Caption under panel two: \"THE CORPUS FILLS THE GAP\". Caption under panel three: \"HELD TO THE STANDARD\". Footer bar in the cream margin below the panels: \"IT KNOWS YOUR SPIRIT. IT HOLDS YOUR STANDARD.\" No other text anywhere.\nno comic-book, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/canon/entities/../../reference/chief-of-agents/master.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-07T18:38:53.479844+00:00",
+  "sha256": "ae6080c5cc30e0c87da0eeb7926be0eeb7e0e423cadb40875e473f0b66fac32b",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
