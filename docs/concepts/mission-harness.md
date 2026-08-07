@@ -90,3 +90,4 @@ The mission is too important to leave to chance. Harness it.
 - [Harness Engineering](/disciplines/harness-engineering): The technical architecture of agent harnesses
 - [Compounding Docs](/concepts/compounding-docs): How mission harnesses get better over time
 - [The Permission Surface](/perspectives/the-permission-surface): Bounding what agents can do on the mission's behalf
+- [Pick a Stack That Can Be Faithful to Your Mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission): The selection criterion for the components a mission harness runs on

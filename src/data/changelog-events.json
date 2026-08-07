@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem@e0695874224f101ab719848b72c9ed4dc76e5d22",
+      "type": "updated",
+      "date": "2026-08-07T13:25:19-05:00",
+      "docKey": "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem",
+      "routePath": "/perspectives/the-agentic-os-ux-problem-is-a-packaging-problem",
+      "section": "perspectives",
+      "title": "The Agentic OS UX Problem Is a Packaging Problem",
+      "description": "The capability layer of a personal agentic OS is already good enough for normal people. What they are missing is a door shaped like the software they already understand: an app. Thin app-shaped surfaces over a proven skill library dissolve most of the agentic OS UX problem."
+    },
+    {
       "id": "perspectives/the-agent-ux-problem-is-a-packaging-problem@5e07af6135ab626a6c14fe53bbb52ead6763b26e",
       "type": "new",
       "date": "2026-08-07T13:22:32-05:00",
