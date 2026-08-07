@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "LAYOUT: a horizontal strip of EXACTLY THREE equal-width panels in one row, separated by clean cream gutters. No drawn borders, no frame lines. One consistent room, one consistent person, one consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE PERSON (the same in every panel): a man in his late fifties with pale skin and short gray hair, wearing a rust-colored corduroy shirt and dark trousers. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nTHE SETTING: a warm wooden study desk against a cream wall, a window with soft daylight, the same desk in all three panels.\n\nBEAT ONE (left panel): The man speaks a task toward ONE glowing translucent amber laptop, open on the desk, screen at a three-quarter angle. Inside the glowing screen, one small rounded agent figure stands facing an enormous chaotic heap of unlabeled paper files that fills its half of the screen, pages overlapping every direction. The agent's posture is dismayed, hands slightly raised at the heap.\n\nBEAT TWO (middle panel): The consequence. Inside the glow the same small agent is waist-deep in the heap, holding one wrong page up to look at it, discarded pages scattered around it. Outside, the man waits, leaning his chin on his hand, eyes on a small clock on the desk. The mood outside is patient but time is visibly passing.\n\nBEAT THREE (right panel): The resolution. Inside the glow the heap is gone: a short tidy shelf of upright, evenly spaced files, each with a small visible date tab, and the same small agent has pulled exactly ONE file and is already working on it at a tiny bench, posture confident. Outside, the man is relaxed back in his chair, a finished page already emerging from the side of the laptop.\n\nTEXT FURNITURE, character-exact, in the cream margins only, never over the artwork:\nTitle bar above the panels, in caps: AGENT EXPERIENCE\nCaption under left panel: THE COLD ARRIVAL\nCaption under middle panel: SEARCHING IS THE TAX\nCaption under right panel: STRUCTURE IS THE REBATE\nFooter bar below the panels, in caps: THE AGENT IS A USER. DESIGN FOR IT.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-07T13:48:06.649100+00:00",
+  "sha256": "299a9cabe1b85d03ee36b87b7f928b48d4177cede21e0265b7be46991e3691ff",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}

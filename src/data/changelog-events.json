@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/vendor-resistance-is-a-revealed-preference-problem@8fd754afd92f8ba8d2c3282bd4cff217ba61f2d1",
+      "type": "new",
+      "date": "2026-08-05T21:58:06-05:00",
+      "docKey": "perspectives/vendor-resistance-is-a-revealed-preference-problem",
+      "routePath": "/perspectives/vendor-resistance-is-a-revealed-preference-problem",
+      "section": "perspectives",
+      "title": "Vendor Resistance Is a Revealed-Preference Problem",
+      "description": "What you already use is the real statement of your values. Every device, service, and account you run says you accepted big-tech dependence long ago. The AI stack is where you noticed."
+    },
+    {
       "id": "concepts/memory-files@3dc142724e127e3563c5552d2e721a82518d8730",
       "type": "updated",
       "date": "2026-08-04T15:06:27-05:00",
