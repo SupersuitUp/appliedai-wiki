@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agent-experience@770f94464a6bf38d49665a1af2f1b8207f1ea871",
+      "type": "new",
+      "date": "2026-08-07T08:49:34-05:00",
+      "docKey": "concepts/agent-experience",
+      "routePath": "/concepts/agent-experience",
+      "section": "concepts",
+      "title": "Agent Experience",
+      "description": "Designing the environment an agent works in, its files, names, folders, and frontmatter, so it spends its budget producing instead of searching. Most of the work in the world is about to be done by agents, which makes this most of experience design."
+    },
+    {
       "id": "perspectives/vendor-resistance-is-a-revealed-preference-problem@8fd754afd92f8ba8d2c3282bd4cff217ba61f2d1",
       "type": "new",
       "date": "2026-08-05T21:58:06-05:00",

@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip: three equal panels in a row separated by clean cream gutters with no drawn borders or frame lines, one consistent world, one consistent woman, and one consistent glowing translucent amber laptop across all three panels, reading left to right as one argument.\n\nBEAT ONE (left panel): in a warm real-world study, a woman in her fifties with short grey hair and a rust-colored cardigan feeds one whole cream page into a small office paper shredder on the desk; thin paper strips fall from the shredder into a glass bowl beneath it. The shredder faces her, and the strips fall DOWNWARD out of its underside into the bowl.\n\nBEAT TWO (middle panel): the same bowl of paper strips is tipped toward the same glowing translucent amber laptop; INSIDE the laptop screen, one small rounded software agent struggles to tape the strips into a single crooked patchwork page with visible seams and gaps between mismatched strips. The patchwork page carries NO readable letters, only faint suggestion of lines.\n\nBEAT THREE (right panel): the same woman instead sets the intact stack of whole cream pages on the desk beside the same laptop; INSIDE the laptop screen, the Chief of Agents, a small rounded software figure wearing a gold military cap, calmly reads one whole page held open, and passes one clean small cream answer card outward through the amber glow toward the woman's waiting hand. The card carries NO readable letters.\n\nTEXT FURNITURE, render each string EXACTLY, character for character, in this placement, and no other text anywhere:\n- Title bar, centered in the cream margin ABOVE the three panels: RAG IS THE WRONG DEFAULT\n- Caption centered in the cream gutter BELOW the left panel: SHRED THE CORPUS\n- Caption centered in the cream gutter BELOW the middle panel: GUESS FROM SCRAPS\n- Caption centered in the cream gutter BELOW the right panel: READ IT WHOLE\n- Footer bar, centered in the cream margin BELOW the captions: STOP RETRIEVING FRAGMENTS. LET THE AGENT READ.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The woman is ordinary and specific to this strip only.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-07T15:04:02.678968+00:00",
+  "sha256": "bceacf6aa1c3bf4a70d5712eaa4b1add9eaae0ad32ee7ef6dca342890d9eb9cd",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
