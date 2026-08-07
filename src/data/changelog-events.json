@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/rag-is-the-wrong-default-for-knowledge-bases@2c9b891daced694c3ba6e0b81fc1b17c8bf8aeca",
+      "type": "new",
+      "date": "2026-08-07T10:32:50-05:00",
+      "docKey": "perspectives/rag-is-the-wrong-default-for-knowledge-bases",
+      "routePath": "/perspectives/rag-is-the-wrong-default-for-knowledge-bases",
+      "section": "perspectives",
+      "title": "RAG Is the Wrong Default for Knowledge Bases",
+      "description": "For a corpus an agent can hold or navigate whole, a chunk-embed-retrieve pipeline is lossy, extra infrastructure, and a hallucination mechanism. Give the agent the corpus and the tools an engineer would use."
+    },
+    {
       "id": "concepts/agent-experience@770f94464a6bf38d49665a1af2f1b8207f1ea871",
       "type": "new",
       "date": "2026-08-07T08:49:34-05:00",
