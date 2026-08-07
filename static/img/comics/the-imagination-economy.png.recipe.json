@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "LAYOUT: a horizontal strip of EXACTLY THREE equal-width panels in one row, separated by clean cream gutters. No drawn borders. One consistent room, one consistent person, one consistent glowing amber laptop across all three panels, reading left to right.\n\nTHE PERSON (same in every panel): a woman in her thirties with olive skin and a low dark bun, wearing a mustard-yellow cardigan over a white tee and dark trousers. ABSOLUTELY NOT: a denim jacket, any chest patch, any smiley-face badge, any enamel pin. No recurring branded character, no identifiable real individual.\n\nSETTING: a warm study desk against a cream wall with a pinboard of sketches, same desk all three panels.\n\nBEAT ONE (left): The woman sits with a large paper page dense with sketched ideas (little drawings, arrows, diagrams, no legible words). Inside the glowing amber laptop screen, ONE small rounded agent figure strains under a single heavy block, barely moving it. Most of her sketch page visibly remains untouched. Her chin rests on her hand: full of vision, bottlenecked.\n\nBEAT TWO (middle): The flip. Inside the glow, MANY small agent figures now work in parallel, each building from one of her sketches; finished pages stream out of the laptop's side into a neat stack. She is mid-gesture adding yet another sketch to the page, energized.\n\nBEAT THREE (right): The gate. Beside the laptop stands a small solid wooden gate with a tiny calm gatekeeper figure. A warm, bright sketch-page passes through the gate outward into the world. A jagged, scribbled DARK sketch-page is stopped flat at the gate, held back. The woman nods approvingly at the gate.\n\nTEXT FURNITURE, character-exact, cream margins only, never over artwork:\nTitle bar above, caps: THE IMAGINATION ECONOMY\nCaption under left panel: EXECUTION WAS THE LIMIT\nCaption under middle panel: NOW WILL EXECUTES\nCaption under right panel: ALIGNMENT IS THE GATE\nFooter bar below, caps: WILL EXECUTES NOW. ALIGNMENT DECIDES WHOSE.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-07T21:15:18.474548+00:00",
+  "sha256": "bb55de487e0c87f9f6e26825891f07aeafaa4ed3063b3effc014939d9db2d689",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
