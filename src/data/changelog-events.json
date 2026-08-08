@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agent-constellation@23b8624eec5d7ff56193a60835cfb12a028b1d39",
+      "type": "updated",
+      "date": "2026-08-07T16:17:21-05:00",
+      "docKey": "concepts/agent-constellation",
+      "routePath": "/concepts/agent-constellation",
+      "section": "concepts",
+      "title": "Agent Constellation",
+      "description": "Staffing an operation with many narrowly scoped, persistently named agents instead of one all-knowing assistant. Each one gets a job, its own tools, and its own workspace."
+    },
+    {
+      "id": "concepts/the-imagination-economy@23b8624eec5d7ff56193a60835cfb12a028b1d39",
+      "type": "new",
+      "date": "2026-08-07T16:17:21-05:00",
+      "docKey": "concepts/the-imagination-economy",
+      "routePath": "/concepts/the-imagination-economy",
+      "section": "concepts",
+      "title": "The Imagination Economy",
+      "description": "The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark."
+    },
+    {
       "id": "concepts/mission-harness@d81dfaf3826988cfa68adeb08512a76e6b5750ae",
       "type": "updated",
       "date": "2026-08-07T13:39:30-05:00",
