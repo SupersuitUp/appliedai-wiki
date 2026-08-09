@@ -21,7 +21,7 @@ Hard-wire it to the operator's API key and every new user is a liability: growth
 
 The billing adapter names the third option: treat *who pays* as a runtime decision behind an interface, the way a payment processor treats *how* a customer pays. The product logic calls one planning interface. Behind it sit interchangeable backends:
 
-- **The user's own subscription.** The user signs in and connects the model subscription they already pay for, and their requests bill to it. Marginal inference cost to the operator: zero.
+- **The user's own wallet.** The user connects the model subscription they already pay for (where the provider's policy permits it) or their own API key, and their requests bill to it. Marginal inference cost to the operator: zero.
 - **The house key.** The operator's metered API key, as the fallback for users with nothing connected, guarded by quotas.
 - **Sponsored credits.** The operator (or a patron) donates a specific expensive step, such as image renders, as a deliberate gift with a cap.
 
@@ -38,6 +38,8 @@ This split also fixes the incentive geometry. The operator stops being a reselle
 Most serious users already pay for a frontier-model subscription, and it sits idle most of every day, the same shape of waste described in [Your Computer Was Always Underused](/perspectives/your-computer-was-always-underused). Sign-in flows that let a product borrow that subscription turn it into portable purchasing power: the user brings their own intelligence budget to any product that installs the seam.
 
 For the operator this changes what scale means. A community product wired only to a house key gets more expensive with every signup. The same product with a subscription backend gets cheaper per user as it grows, because the marginal user increasingly arrives carrying their own meter.
+
+One honest caveat, and it is the strongest argument for the seam itself: **not every provider permits this backend.** Some model providers offer sanctioned sign-in flows that bill a third-party product's requests to the user's subscription; others restrict subscription credentials to their own first-party apps and require API keys for anything a developer ships. Where subscriptions are off the table, the user-side backend becomes **bring-your-own API key**: the same zero-marginal-cost effect for the operator, with more friction for the user. A product with the adapter installed survives either policy, because a provider decision demotes one backend instead of rewriting the product. A product that hard-wired the subscription path rewrites.
 
 ## Operational rules
 
