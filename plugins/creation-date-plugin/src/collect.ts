@@ -196,6 +196,35 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     return [];
   }
 
+  // A page hidden with a leading "_" (on the file or on a parent folder) is
+  // excluded from the build by Docusaurus, so its history must stay out of the
+  // changelog. The draft-frontmatter pass above cannot do that job alone,
+  // because it reads the WORKING TREE: once a hidden page is deleted outright
+  // there is no `draft: true` left to find, and every historical row for it
+  // resurfaces, plus a fresh "removed" event. Deleting a hidden page would then
+  // publish the very titles the underscore was hiding.
+  //
+  // So derive the suppression from the PATHS in history instead, which survive
+  // the file. Any path that ever carried a "_" segment is hidden forever, under
+  // its underscored key, its bare key, and its leaf (for folder moves).
+  const hiddenDocKeys = new Set<string>();
+  const bareKey = (docKey: string) =>
+    docKey
+      .split('/')
+      .map((seg) => seg.replace(/^_/, ''))
+      .join('/');
+  for (const line of raw.split('\n')) {
+    if (line.startsWith('__C__\t') || !line.trim()) continue;
+    for (const col of line.split('\t').slice(1)) {
+      if (!/\.mdx?$/.test(col) || !col.split('/').some((s) => s.startsWith('_'))) continue;
+      const docKey = docKeyFromRepoPath(col, sitePrefix);
+      if (!docKey) continue;
+      hiddenDocKeys.add(bareKey(docKey));
+      const leaf = draftLeaf(docKey);
+      if (leaf && leaf !== 'index') draftLeafKeys.add(leaf);
+    }
+  }
+
   // Recover frontmatter for a path that no longer exists in the tree from
   // a specific commit (the deletion's parent, or the add/edit commit).
   const recoveredCache = new Map<string, { title: string; description?: string }>();
@@ -267,6 +296,9 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     // drop all of its history, including events recorded under an older path
     // it has since moved away from.
     if (draftKeys.has(docKey)) continue;
+    // Hidden by a "_" on the file or a parent folder, at any point in history.
+    // Keyed on the path, so it still holds after the page is deleted.
+    if (hiddenDocKeys.has(bareKey(docKey))) continue;
     const movedLeaf = draftLeaf(docKey);
     if (movedLeaf && draftLeafKeys.has(movedLeaf)) continue;
     const section = docKey.split('/')[0];
