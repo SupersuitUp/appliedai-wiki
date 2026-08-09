@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fills (#8FB0CE), soft dark umber line (#3B382F).\n\nSubject: a THREE-PANEL horizontal strip, three equal panels in one row separated by clean cream gutters with NO drawn borders or frame lines. One consistent world and cast across all three panels: a middle-aged woman real-estate agent with short curly dark hair streaked grey, wearing a rust-colored cardigan, in a small warm home office. The glowing translucent amber laptop is the same laptop in panels two and three.\n\nPANEL ONE (setup): the woman sits at her desk, shoulders tense, arms folded, turned AWAY from her laptop, which is CLOSED and dim on the desk. Above and behind her, a drift of grey newspaper pages with heavy dark headline bars looms like a cloud. Her face is worried. Nothing glows.\n\nPANEL TWO (consequence): outside on the street in the same neighborhood. A client (a tall man in a long charcoal coat) is walking AWAY from the woman, who stands small in the background at her office doorway. The client walks TOWARD a rival agent, an older man in an olive sweater, who holds an OPEN glowing translucent amber laptop; the screen faces the RIVAL, so we see the laptop's warm glow spilling around its lid. The rival hands the client a beautiful bound presentation booklet with a house pictured on its cover; the client reaches for it. The exchange happens between rival and client only; the woman touches nothing in this panel.\n\nPANEL THREE (resolution): back at her desk, the same woman now leans IN toward the SAME amber laptop, now OPEN and facing HER, its glow warm on her face. INSIDE the screen, two small rounded software agents assemble a tidy presentation of houses. Her hand points at one house card on the screen in a correcting gesture, mid-judgment. Beside the desk stands a happy client (a young woman with box braids, mustard scarf) holding the finished bound presentation booklet against her chest. The booklet in her hands matches the presentation on the screen.\n\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\n- Title bar, in caps, centered in the cream margin ABOVE the three panels: LEARN TO WIELD AI\n- Caption under panel one, in the cream gutter: FEAR FREEZES HER\n- Caption under panel two, in the cream gutter: CLIENTS LEAVE FOR BETTER SERVICE\n- Caption under panel three, in the cream gutter: HER CARE, MULTIPLIED\n- Footer bar, in caps, centered in the cream margin BELOW the panels: AI WILL NOT TAKE YOUR CLIENTS. A PERSON WIELDING IT WILL.\nAll text sits in the cream margins and gutters, never over the artwork. The grey newspaper headline bars in panel one are illegible smudges, not letters.\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-09T15:50:11.023116+00:00",
+  "sha256": "9e0ec4dcc247ed29adbece50c15990e7b268bee79b94a56cb27f50a282f13935",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}

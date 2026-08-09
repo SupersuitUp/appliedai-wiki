@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-imagination-economy@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "updated",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "concepts/the-imagination-economy",
+      "routePath": "/concepts/the-imagination-economy",
+      "section": "concepts",
+      "title": "The Imagination Economy",
+      "description": "The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark."
+    },
+    {
       "id": "concepts/minimum-viable-infrastructure@e75a3499447c8f01c1a912eb6a61ba7e7e7913a5",
       "type": "updated",
       "date": "2026-08-09T05:54:59-05:00",

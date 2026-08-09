@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
       link: { type: 'doc', id: 'start-here/index' },
       items: [
         'start-here/what-is-applied-ai',
+        'start-here/why-learn-to-wield-ai',
       ],
     },
     {
