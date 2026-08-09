@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-goldilocks-pace@24a89946a1b869fb5657772c679da565d17fc2a4",
+      "type": "new",
+      "date": "2026-08-09T15:53:09-05:00",
+      "docKey": "concepts/the-goldilocks-pace",
+      "routePath": "/concepts/the-goldilocks-pace",
+      "section": "concepts",
+      "title": "The Goldilocks Pace",
+      "description": "The operating pace that maximizes returns while keeping risk bounded, held predictably week after week."
+    },
+    {
       "id": "perspectives/a-corpus-plus-a-form-is-most-of-the-book@be215851c85d9abb14cb3d9a1b4782afbfb051ff",
       "type": "new",
       "date": "2026-08-09T11:42:44-05:00",
