@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/a-corpus-plus-a-form-is-most-of-the-book@be215851c85d9abb14cb3d9a1b4782afbfb051ff",
+      "type": "new",
+      "date": "2026-08-09T11:42:44-05:00",
+      "docKey": "perspectives/a-corpus-plus-a-form-is-most-of-the-book",
+      "routePath": "/perspectives/a-corpus-plus-a-form-is-most-of-the-book",
+      "section": "perspectives",
+      "title": "A Corpus Plus a Form Is Most of the Book",
+      "description": "When a life is captured as an annotated corpus and a story form is specified as a buildable artifact, an agentic production process can carry a book to 80 to 90 percent done. The human's remaining job is detailed editing and judgment."
+    },
+    {
       "id": "perspectives/daily-use-is-the-benchmark-that-cant-be-gamed@48d76ceddd3742677a659695fd05a510ca3940bb",
       "type": "new",
       "date": "2026-08-09T11:30:48-05:00",

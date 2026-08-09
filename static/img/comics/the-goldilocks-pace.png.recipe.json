@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fill (#8FB0CE), soft dark ink line (#3B382F).\nSubject: A THREE-PANEL HORIZONTAL STRIP, three equal panels in one row, separated by clean cream gutters with no drawn borders and no frame lines. One consistent warm workshop world across all three panels, and the same glowing translucent amber laptop (from the last reference image) appears in each panel.\nBEAT ONE (left panel): a young woman with short dark curly hair in a plain olive sweater leans over the glowing amber laptop as a torrent of crooked, smudged pages pours out of its screen and spills off the desk edge onto the floor; behind her, at the door, a single customer quietly turns and walks away.\nBEAT TWO (middle panel): an older man with grey hair, round glasses and a plain brown cardigan sits in a chair far from the desk with his arms crossed; the amber laptop sits closed and dim on the desk; through the window behind him a small train is pulling away into the distance.\nBEAT THREE (right panel): a middle-aged woman with grey-streaked hair tied back, wearing a plain rust-colored work apron, stands calmly at the open glowing amber laptop; INSIDE its screen, small rounded agents lay deep stone foundations in a dug pit beneath a small rising tower; on the desk beside her sits one short, neat stack of well-made pages.\nPHYSICS: each open laptop screen faces its human, so we see the laptop's back or side, never a readable screen turned toward us except in beat three where the screen is angled enough to show the agents inside. In beat one the pages fall from the desk edge DOWN to the floor. In beat two the train is OUTSIDE the window, seen through the glass, moving away. In beat three the foundation pit and the agents exist only inside the laptop screen, not in the room.\nRender each of these strings EXACTLY, in this placement:\nTitle bar, in the cream margin ABOVE the three panels, in caps: \"THE GOLDILOCKS PACE\"\nCaption under the left panel, in the cream gutter, in caps: \"TOO HOT: SLOP SHIPS\"\nCaption under the middle panel, in the cream gutter, in caps: \"TOO COLD: THE WINDOW PASSES\"\nCaption under the right panel, in the cream gutter, in caps: \"JUST RIGHT: FOUNDATIONS FIRST\"\nFooter bar, in the cream margin BELOW the panels, in caps: \"PICK THE PACE YOU CAN HOLD. DIG DEEP BEFORE YOU BUILD.\"\nNo other text anywhere. All text sits in the cream margins and gutters, never over the artwork.\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-09T20:29:53.446978+00:00",
+  "sha256": "b756b1e04c1c5e627c37181dd97f91673674ac5eda6e2c5a8d894e65d7b71170",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
