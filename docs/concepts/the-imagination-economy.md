@@ -30,6 +30,21 @@ Here is the sentence that has to be said plainly: a lot of people have dark imag
 
 This is why AI alignment is not a compliance line item or a philosopher's hobby. **Alignment is the gate between imagination and execution.** A refusal, a values-laden model, a permission boundary, an audited action: these are the mechanisms by which the imagination economy multiplies wonderful wills at scale without doing the same for dark ones. An operator who finds safety talk abstract should re-derive it from this frame: the more powerfully your systems execute articulated will, the more the entire enterprise depends on which wills they will refuse. The labs that treat that gate as core engineering rather than public relations are the only ones on whose infrastructure the imagination economy is safe to build.
 
+## The extractive twin, and the test that separates them
+
+The imagination economy has a twin that runs on identical instruments. The same AI-plus-imagination stack that produces something people are glad exists also produces funnels, dark patterns, engineered dependency, and attention traps, faster and cheaper than before. Nothing in the tooling distinguishes them. The tooling is the same tooling.
+
+So the frame needs an operational criterion, or it is just optimism. The criterion is **applied AI that centers humans at the highest possible level**: the human sits at the center of the design, the incentives, the pricing, and the outcome, and the business routes value to the people who made and used the thing instead of extracting from them.
+
+Four checks, and a build has to pass all of them:
+
+- People pay for it **willingly and gladly, because it serves their lives**, rather than because they are hooked or cornered.
+- Value routes **back** to the creators, contributors, and community.
+- It **could not have existed before**, because the tooling was not there. If the old cost structure could have produced it, imagination was not the binding input.
+- It **lifts everyone at the table** when it works.
+
+Miss one and you are doing something else with similar instruments. This is the same ordering that governs the platform underneath: a stack that will execute any articulated will is the extractive twin's infrastructure, which is why [sovereignty cannot be sold at the expense of safety](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety) and why the gate is worth more than the control.
+
 ## What this asks of the operator
 
 - **Practice articulation like a craft.** Specs, standards, [rule files](/concepts/agent-rule-files), rubrics: the imagination economy pays out in proportion to how well you can say what you want.

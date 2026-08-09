@@ -161,6 +161,8 @@ Two build-time generators are wired to honor `draft: true` so hidden pages leave
 - `plugins/creation-date-plugin/` skips draft pages (and their pre-rename git history, matched by basename) so the changelog never shows a new/updated/removed event for them.
 - `scripts/generate-llms-txt.sh` skips draft pages so they stay out of `llms.txt` / `llms-full.txt`.
 
+**Deleting a hidden page is safe, and it was not always.** The changelog collector used to derive its suppression from `draft: true` in the working tree, so deleting a hidden page removed the only flag telling the collector to stay quiet: every historical row resurfaced, plus a fresh "removed" event, and the build published the exact titles the underscore was hiding. Verified live on 2026-08-09, when removing nine hidden drafts put all nine slugs and titles back into `main.*.js`. `plugins/creation-date-plugin/src/collect.ts` now derives suppression from the PATHS in git history instead: any path that ever carried a `_` segment stays suppressed under its underscored key, its bare key, and its leaf. Paths survive the file, so the rule holds after deletion. Do not revert this to a working-tree check.
+
 Before hiding, remove or neutralize every inbound link from pages that stay (the build's `onBrokenLinks: throw` will catch any you miss), and drop any `redirects` entry in `docusaurus.config.ts` that points at the page. Verify by grepping `build/` for the page's title and slug after `pnpm run build`; expect zero hits and `draftIds":[]`. Reverse by dropping the `_` prefix and the `draft` flag.
 
 ---

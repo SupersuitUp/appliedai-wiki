@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/minimum-viable-infrastructure@e75a3499447c8f01c1a912eb6a61ba7e7e7913a5",
+      "type": "updated",
+      "date": "2026-08-09T05:54:59-05:00",
+      "docKey": "concepts/minimum-viable-infrastructure",
+      "routePath": "/concepts/minimum-viable-infrastructure",
+      "section": "concepts",
+      "title": "Minimum Viable Infrastructure",
+      "description": "The baseline requirements to participate in the applied AI economy. They are higher than most people realize, and almost nobody is talking about it."
+    },
+    {
+      "id": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety@e75a3499447c8f01c1a912eb6a61ba7e7e7913a5",
+      "type": "new",
+      "date": "2026-08-09T05:54:59-05:00",
+      "docKey": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "routePath": "/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "section": "perspectives",
+      "title": "Sovereignty Cannot Be Sold at the Expense of Safety",
+      "description": "Understanding your stack is worth a lot, and it is not the top value. When sovereignty and safety conflict, safety wins, which is why picking a vendor whose priority order puts safety first can be a sovereign decision rather than a surrender of one."
+    },
+    {
       "id": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now@e09a1d65833de0a136235d6c80d744395abce97e",
       "type": "new",
       "date": "2026-08-08T12:11:03-05:00",
