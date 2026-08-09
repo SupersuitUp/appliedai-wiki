@@ -1,0 +1,72 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nLAYOUT: a horizontal strip of THREE equal panels in one row, separated by clean cream gutters, with NO drawn borders and NO frame lines. One consistent room, one consistent woman, one consistent glowing laptop across all three panels, so it reads as a progression.\n\nTHE WOMAN (identical in all three panels): a woman in her fifties, close-cropped grey hair, a plain rust-coloured work apron over a dark green shirt, sitting at a warm wooden desk.\n\nPHYSICAL RELATIONSHIPS, state them so they read correctly: the laptop screen FACES the viewer in every panel, so we see the screen face and never the back of the lid at the same time. The small agents and everything that happens to the work happen INSIDE the screen. The padlock and the ring of keys sit OUTSIDE, on the desk and on the room's door behind her, so they secure the ROOM and never the screen.\n\nBEAT ONE: the woman sits at the desk, satisfied, holding up a full ring of iron keys; a heavy padlock hangs on the bolted wooden door of the room behind her. Inside the glowing amber laptop, two small agents calmly build a warm bright object.\n\nBEAT TWO: the consequence. A jagged, scribbled dark shape has arrived inside the screen and the same two small agents are already building it into a jagged dark object. The woman has half-risen and thrust her ring of keys out toward the screen; the keys reach nothing, because every lock in the picture is on the room and none of it is on the work. Her face is alarmed.\n\nBEAT THREE: the same desk, the same laptop. Inside the screen, at the inner doorway, stands THE DOORKEEPER: the small warm cream robot from the reference, waist-height, two calm dot eyes, holding its small glowing principle-book open in one hand and READING FROM IT, its other hand a single raised open palm. The jagged dark shape is halted in the air just short of that palm, whole and untouched. On the desk OUTSIDE the screen, a fat stack of gold coins sits untaken, pushed back and refused. The woman sits again, still holding her ring of keys, watching the coins.\n\nTEXT (render each string EXACTLY as written, in caps, in the cream margin, NEVER over the artwork):\n- Title bar above the panels: SOVEREIGNTY AND SAFETY\n- Caption in the cream gutter under panel one: EVERY KEY IS MINE\n- Caption in the cream gutter under panel two: LOCKS DO NOT REFUSE\n- Caption in the cream gutter under panel three: IT TURNED THE MONEY DOWN\n- Footer bar below the panels: SOVEREIGNTY PROTECTS. IT DOES NOT REFUSE.\nNo other text anywhere. No lettering on the book pages, on the coins, on the door, or on any object.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The doorkeeper is never large, never uniformed, never stern, never armed, and never touches the work.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.\n\nThese are LOCKED canonical traits of the subject(s). They are not stylistic suggestions and must survive the render exactly: clamshell-laptop-form-with-a-visible-physical-keyboard-NEVER-a-tablet; the-WHOLE-laptop-glows-as-a-translucent-holographic-object-not-just-the-screen; glow-colour-is-the-colour-of-the-agent-supercharging-it; screen-FACE-is-visible-to-the-viewer; never-show-the-back-of-the-lid-and-the-screen-face-at-the-same-time; casts-light-not-shadow; warm-editorial-register; it-is-a-14-INCH-NOTEBOOK-33cm-wide-23cm-deep-21cm-of-screen-when-open; the-open-screen-is-about-TWO-AND-A-QUARTER-TIMES-the-height-of-a-mug-beside-it; it-occupies-about-ONE-QUARTER-of-the-width-of-a-120cm-desk-NEVER-half-NEVER-more; the-lid-is-about-ONE-AND-THREE-QUARTER-SPREAD-HANDS-wide; A SMALL warm cream robot, unmistakably a machine and never a person: simple rounded body, no face beyond two calm dot eyes, waist-height at most; It holds the small glowing principle-book and visibly READS FROM IT while deciding, so it is checking the work against a written standard rather than judging anyone; Its refusal is ONE raised open palm, calm and unhurried. Never a fist, never crossed arms, never its body used as a barrier; It never touches the work. The hand stops short, and the work stays whole, uncreased, and paused in the air; Nothing that says PERMISSION: no uniform, no badge, no cap, no rope, no velvet, no clipboard list, no club door, no queue; It is warm and slightly friendly, never menacing, never armed, never large. It protects the work rather than punishing anyone; Warm editorial register: cream ground, soft painterly line, muted natural palette; Absolutely no text, letters, numbers, or readable marks, including on the book pages and on the work.\n\nColour is meaning: orange means Claude Code / the Chief of Agents is running on it; sage-green means Grantwell is; deep indigo means Storywell is. Never mix two agent colours on one machine. The ordinary, un-supercharged laptop stays a plain grey object; the glow is what marks the turn.\n\nAlways small, always calm, always reading. Its power is that it cannot be argued with, not that it is imposing, so it must never look strong. If a render makes it large, uniformed, or stern, the motif has become about permission and the chapter's claim is lost. Show it letting work THROUGH at least as often as stopping it: a gate that only ever refuses is a wall. Its SIGNATURE POSE is the refusal: one raised open palm, work halted just short of it. The `passing` plate is its counterweight and must be rendered alongside it, because a gate that only ever refuses is a wall.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/green.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/scale.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/the-doorkeeper/forward-fullbody.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/the-doorkeeper/passing.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/the-doorkeeper/signature-pose.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-09T10:54:00.930598+00:00",
+  "sha256": "cfb09214a3cc056e718130b8b2e7785d02bda5737a61dd286648f2655eeaadf5",
+  "entities": [
+    {
+      "universe": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe",
+      "id": "supercharged-laptop",
+      "look": null,
+      "photoStackDeclared": [],
+      "photoStackPassed": [],
+      "sheets": {
+        "green": "reference/supercharged-laptop/green.png",
+        "orange": "reference/supercharged-laptop/orange.png",
+        "scale": "reference/supercharged-laptop/scale.png"
+      }
+    },
+    {
+      "universe": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe",
+      "id": "the-doorkeeper",
+      "look": null,
+      "photoStackDeclared": [],
+      "photoStackPassed": [],
+      "sheets": {
+        "forward-fullbody": "reference/the-doorkeeper/forward-fullbody.png",
+        "passing": "reference/the-doorkeeper/passing.png",
+        "signature-pose": "reference/the-doorkeeper/signature-pose.png"
+      }
+    }
+  ],
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
