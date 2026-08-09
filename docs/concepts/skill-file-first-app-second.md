@@ -84,3 +84,4 @@ The skill file moment is the unlock. Most clients have never seen a working AI c
 - [Agent Rule Files](/concepts/agent-rule-files): The standing-orders layer (CLAUDE.md, AGENTS.md) that points at the skill file library.
 - [Spec Writing](/disciplines/spec-writing): The discipline that turns a fuzzy idea into a skill file the model can run
 - [Harness Engineering](/disciplines/harness-engineering): The runtime your skill file operates inside
+- [Harness Apps](/concepts/harness-apps): what you build when the skill is real and chat is still the wrong surface.
