@@ -15,7 +15,7 @@ Every SOP Execution App is custom-built, but the structure beneath the system is
 
 ## A page per SOP, with a form per page
 
-The recurring SOPs the [hyperagent](/concepts/hyperagent) runs every week, each one given its own page in the app with a structured form for the inputs that SOP needs.
+The recurring SOPs the [hyperagent](https://supersuit.wiki/concepts/hyperagent) runs every week, each one given its own page in the app with a structured form for the inputs that SOP needs.
 
 Before the app exists, those workflows live across tabs: the hyperagent opens a blank document in one tab, copies context from a CRM in another, pastes it into a chat window in a third, reformats the output manually, and pastes it into a destination app in a fourth. The total time is not the time spent thinking. The total time includes every click, every paste, every context switch, every moment of orientation cost. That overhead is the target.
 
@@ -47,7 +47,7 @@ When multiple users share the same function (several people in the same role at 
 
 The SOP pages and their forms are what the user sees. The agents are what runs when the form is submitted.
 
-Each SOP page wires its form to the underlying skill file from the hyperagent's [Supersuit](/concepts/supersuit). When the user presses Run, an agent loads the relevant PAOS context (the relevant person file, the relevant artifacts, recent meeting transcripts), reads the form inputs, executes the skill file workflow against them, and lands the output on the same page. The user never sees the agent work directly. They see the form, they fill it in, they press Run, and the output appears.
+Each SOP page wires its form to the underlying skill file from the hyperagent's [Supersuit](https://supersuit.wiki/concepts/supersuit). When the user presses Run, an agent loads the relevant PAOS context (the relevant person file, the relevant artifacts, recent meeting transcripts), reads the form inputs, executes the skill file workflow against them, and lands the output on the same page. The user never sees the agent work directly. They see the form, they fill it in, they press Run, and the output appears.
 
 The agent backend is what makes an SOP Execution App different from a form linked to a template. A form linked to a template produces the same output every time regardless of context. An agent backend reads the hyperagent's actual situation (the named person's prior interaction history, the named property's prior underwrites, the hyperagent's current strategic priorities) and produces output calibrated to that situation. The skill file is the spec for that behavior; the PAOS is the context the skill file gets to read.
 
@@ -57,7 +57,7 @@ The backend also handles tool calls: reading a calendar, fetching a document, se
 
 The same anatomy stamps cleanly across multiple users. A hyperagent's chief of staff, associate, and partner each get their own SOP Execution App, each with the SOP pages that fit their role. The four components above are the same in every one: a page per SOP, role-scoped memory, role-scoped views, an agent backend.
 
-What makes the apps powerful collectively is that the memory they each read is sourced from a **[team shared context layer](/concepts/company-context-layer)**: a separate big-data substrate, distinct from the hyperagent's personal PAOS. The team layer holds what the company is allowed to share with itself: the live deal pipeline, the company [PRM](/concepts/prm), team-visible artifacts and transcripts, canonical playbooks. Each employee's app reads the layer scoped by their access rights. The chief of staff captures a meeting note in her app; it lands in the team layer; the hyperagent's daily-briefing SOP page picks it up the next morning. The associate runs an underwrite in his app; the artifact lands in the team layer's `artifacts/` namespace.
+What makes the apps powerful collectively is that the memory they each read is sourced from a **[team shared context layer](https://supersuit.wiki/concepts/company-context-layer)**: a separate big-data substrate, distinct from the hyperagent's personal PAOS. The team layer holds what the company is allowed to share with itself: the live deal pipeline, the company [PRM](https://supersuit.wiki/concepts/prm), team-visible artifacts and transcripts, canonical playbooks. Each employee's app reads the layer scoped by their access rights. The chief of staff captures a meeting note in her app; it lands in the team layer; the hyperagent's daily-briefing SOP page picks it up the next morning. The associate runs an underwrite in his app; the artifact lands in the team layer's `artifacts/` namespace.
 
 The hyperagent's personal PAOS stays personal. Their raw thinking, half-formed strategy memos, private people notes, and rough drafts live there and stay there. What the hyperagent chooses to make team-visible: a finalized playbook, a battle-tested skill file, a clean deal memo: flows into the team layer on his terms. Nothing flows automatically. The wiki does not prescribe a specific sharing posture; the principle is that the personal-PAOS / team-layer boundary exists and the hyperagent is the one who draws it.
 
@@ -70,13 +70,13 @@ The corporate-scale validation of this pattern is Ramp's Glass + Dojo architectu
 **Inside the wiki**
 
 - [What it is](/disciplines/sop-execution-app/what-it-is): the overview page for the SOP Execution App.
-- [The Supersuit (PAOS)](/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. The [Supersuit](/concepts/supersuit) is where the skill files behind every button get developed and battle-tested first.
+- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. The [Supersuit](https://supersuit.wiki/concepts/supersuit) is where the skill files behind every button get developed and battle-tested first.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order. Every button in an SOP Execution App must be backed by a proven skill file in the hyperagent's PAOS.
 - [When to get one built](/disciplines/sop-execution-app/when-to-get-one): the conditions that justify commissioning one.
 - [How to get one built](/disciplines/sop-execution-app/how-to-get-one-built): finding an engineer and running the engagement.
-- [Context Gardening](/concepts/context-gardening): the discipline that keeps the PAOS substrate the role-scoped memory is drawn from alive and current.
+- [Context Gardening](https://supersuit.wiki/concepts/context-gardening): the discipline that keeps the PAOS substrate the role-scoped memory is drawn from alive and current.
 - [Compounding Docs](https://appliedai.wiki/concepts/compounding-docs): the documentation discipline that makes the memory layer sharper over time.
-- [Personal Software](/concepts/personal-software): the broader category the SOP Execution App belongs to. Software built for one person's exact workflow, not learn-to-code.
+- [Personal Software](https://supersuit.wiki/concepts/personal-software): the broader category the SOP Execution App belongs to. Software built for one person's exact workflow, not learn-to-code.
 - [Role Wrapper](/concepts/role-wrapper): the per-role design template extracted from a skilled practitioner's app. The pattern every other person in the same role inherits.
 
 **Outside the wiki**

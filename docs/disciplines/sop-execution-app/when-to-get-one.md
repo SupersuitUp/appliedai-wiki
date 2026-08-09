@@ -7,13 +7,13 @@ description: "The signs that a hyperagent running a PAOS should commission an SO
 
 # When to Get One Built
 
-*The signs that a hyperagent running a [Supersuit](/paos/what-it-is) should commission an SOP Execution App. The default is to keep working in the terminal; the app is worth the engineering only when specific conditions hold.*
+*The signs that a hyperagent running a [Supersuit](https://supersuit.wiki/paos/what-it-is) should commission an SOP Execution App. The default is to keep working in the terminal; the app is worth the engineering only when specific conditions hold.*
 
 ---
 
 ## The default is the terminal
 
-If you are running your [Personal Agentic OS](/paos/what-it-is), the terminal is already your most-leveraged interface. You type a sentence in the [agentic harness chatbox](/concepts/agentic-harness-chatbox), the [Chief of Agents](/concepts/chief-of-agents) fires the right [skill file](https://appliedai.wiki/concepts/skill-files), and the work ships. Adding a custom web app on top adds a build cost and a maintenance cost. That cost is worth paying when the conditions below hold; otherwise, the terminal is fine.
+If you are running your [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is), the terminal is already your most-leveraged interface. You type a sentence in the [agentic harness chatbox](https://supersuit.wiki/concepts/agentic-harness-chatbox), the [Chief of Agents](https://supersuit.wiki/concepts/chief-of-agents) fires the right [skill file](https://appliedai.wiki/concepts/skill-files), and the work ships. Adding a custom web app on top adds a build cost and a maintenance cost. That cost is worth paying when the conditions below hold; otherwise, the terminal is fine.
 
 ## When it is worth getting one built
 
@@ -47,9 +47,9 @@ This is the [Skill File First, App Second](https://appliedai.wiki/concepts/skill
 
 ## Further Reading
 
-- [The Supersuit (your PAOS)](/paos/what-it-is): the canonical capability. The PAOS is where SOPs are developed before they become app buttons.
+- [The Supersuit (your PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical capability. The PAOS is where SOPs are developed before they become app buttons.
 - [SOP Execution App: what it is](/disciplines/sop-execution-app/what-it-is): definition and form factor.
 - [How to get one built](/disciplines/sop-execution-app/how-to-get-one-built): the process of commissioning one once you have decided it is time.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order. Prove it as a skill file before packaging.
-- [Digital SOPs](/concepts/digital-sops): the [hyperagent](/concepts/hyperagent)-register name for the workflows the app fires.
-- [Don't Put The App On A Pedestal](/concepts/dont-put-the-app-on-a-pedestal): the category error that mistakes an interface for the system underneath. Helps you decide whether you need an app or just the rail behind it.
+- [Digital SOPs](https://supersuit.wiki/concepts/digital-sops): the [hyperagent](https://supersuit.wiki/concepts/hyperagent)-register name for the workflows the app fires.
+- [Don't Put The App On A Pedestal](https://supersuit.wiki/concepts/dont-put-the-app-on-a-pedestal): the category error that mistakes an interface for the system underneath. Helps you decide whether you need an app or just the rail behind it.

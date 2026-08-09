@@ -8,7 +8,7 @@ image: "/img/comics/sop-execution-app.png"
 
 # What it is
 
-*A custom web app that exposes a hyperagent's battle-tested [digital SOPs](/concepts/digital-sops) as form-driven pages, one tab per SOP. A deployment artifact downstream of the [Supersuit](/paos/what-it-is), not a replacement for it.*
+*A custom web app that exposes a hyperagent's battle-tested [digital SOPs](https://supersuit.wiki/concepts/digital-sops) as form-driven pages, one tab per SOP. A deployment artifact downstream of the [Supersuit](https://supersuit.wiki/paos/what-it-is), not a replacement for it.*
 
 ![Single-panel splash comic. A large glowing inked web-browser window dominates the panel, banner-headed WESTSIDE CAPITAL · SOP EXECUTION APP. The window has a LEFT-HAND SIDEBAR nav with tabs for each SOP (analyze-property, underwrite-deal currently selected and highlighted, draft-loi, prep-broker-meeting, market-pulse, weekly-pipeline-review, draft-investor-update, property-tour-recap, lease-redline). The MAIN CONTENT area on the right shows the UNDERWRITE-DEAL tab open with a structured FORM: PROPERTY ADDRESS (typed), BROKER from people/ (dropdown showing Mary Jones), TARGET CAP RATE 6.25%, DEAL SHEET (file upload), NARRATIVE CONTEXT (voice-to-text button), and a RUN UNDERWRITE-DEAL button. Below the form, an OUTPUT PANEL titled DEAL UNDERWRITE · WESTSIDE TOWER · DRAFT shows section checkmarks (Cap Rate Analysis, Sensitivity Table, IRR Ranges, Memo Draft). The canonical Blasian supersuited hyperagent sits at the laptop, gauntleted hands mid-filling-the-form. Top banner: NOT A SINGLE BUTTON DASHBOARD: A MULTI-TAB WEB APP. EVERY SOP GETS ITS OWN PAGE WITH A STRUCTURED FORM FOR INPUTS. HUD callouts: A TAB FOR EVERY SOP, A FORM FOR EVERY TAB, TYPED OR SPOKEN INPUTS, ONE APP PER EMPLOYEE · CONNECTED. Background insets show two more browser windows labeled CHIEF OF STAFF · SOP APP and ASSOCIATE · SOP APP with the tag ONE APP PER EMPLOYEE, all three windows feeding into and reading from a SHARED CONTEXT GRAPH diagram tagged CONNECTED LIKE RAMP'S GLASS + DOJO. Another inset shows the PAOS file tree with .agents/skills/ visible, dashed-line connection to the active tab with tag SPEC'D INSIDE HIS SUPERSUIT. Top-right corner tag: SOMETHING TO SUPPLEMENT A SUPERSUIT · NOT A REPLACEMENT FOR IT. Title bar: SOP EXECUTION APP. Footer bar: A FORM-DRIVEN PAGE FOR EVERY SOP. ONE APP PER EMPLOYEE.](/img/comics/sop-execution-app.png)
 
@@ -16,15 +16,15 @@ image: "/img/comics/sop-execution-app.png"
 
 ## What it is
 
-A **SOP Execution App** is a custom web application built around the [hyperagent](/concepts/hyperagent)'s curated [digital SOPs](/concepts/digital-sops). The shape is not a single button dashboard: it is a multi-tab app where **every SOP has its own page and its own form**. The user opens the tab for the SOP they want to run, fills in the form (typed inputs, voice-to-text, file uploads, dropdowns that read from their PAOS context like `people/` or `artifacts/`), and presses run. The agent executes the [skill file](https://appliedai.wiki/concepts/skill-files) behind that tab against the form inputs and lands the output on the same page.
+A **SOP Execution App** is a custom web application built around the [hyperagent](https://supersuit.wiki/concepts/hyperagent)'s curated [digital SOPs](https://supersuit.wiki/concepts/digital-sops). The shape is not a single button dashboard: it is a multi-tab app where **every SOP has its own page and its own form**. The user opens the tab for the SOP they want to run, fills in the form (typed inputs, voice-to-text, file uploads, dropdowns that read from their PAOS context like `people/` or `artifacts/`), and presses run. The agent executes the [skill file](https://appliedai.wiki/concepts/skill-files) behind that tab against the form inputs and lands the output on the same page.
 
-The relationship to the [Supersuit](/concepts/supersuit) is structural: the SOP Execution App is a **deployment artifact for skill files that were developed and proven inside the hyperagent's Personal Agentic OS first**. The PAOS is the source. The app is one of several places those proven skills get fired from. See [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second) for the development order this depends on.
+The relationship to the [Supersuit](https://supersuit.wiki/concepts/supersuit) is structural: the SOP Execution App is a **deployment artifact for skill files that were developed and proven inside the hyperagent's Personal Agentic OS first**. The PAOS is the source. The app is one of several places those proven skills get fired from. See [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second) for the development order this depends on.
 
 ## One app per employee, connected through a team shared context layer
 
 The pattern scales sideways. A hyperagent who has commissioned an SOP Execution App for themselves can commission one for each of their employees (chief of staff, associate, partner): each app scoped to that employee's role.
 
-These apps do not read from the hyperagent's personal PAOS directly. They read from a **[team shared context layer](/concepts/company-context-layer)**: a separate big-data substrate that holds the company-wide context the team is allowed to share: the live deal pipeline, the company [PRM](/concepts/prm), shared artifacts, meeting transcripts marked team-visible, the canonical playbooks. Each employee accesses the layer through their own SOP Execution App, scoped by their access rights. The associate sees the deals he is staffed on; the chief of staff sees the hyperagent's calendar and inbox-routing context; the partner sees the partner-level governance threads.
+These apps do not read from the hyperagent's personal PAOS directly. They read from a **[team shared context layer](https://supersuit.wiki/concepts/company-context-layer)**: a separate big-data substrate that holds the company-wide context the team is allowed to share: the live deal pipeline, the company [PRM](https://supersuit.wiki/concepts/prm), shared artifacts, meeting transcripts marked team-visible, the canonical playbooks. Each employee accesses the layer through their own SOP Execution App, scoped by their access rights. The associate sees the deals he is staffed on; the chief of staff sees the hyperagent's calendar and inbox-routing context; the partner sees the partner-level governance threads.
 
 The hyperagent's personal PAOS stays personal. The Supersuit on the hyperagent's own machine holds the raw thinking, the half-formed strategy memos, the private people notes, the rough drafts. What the hyperagent chooses to make team-visible: a finalized playbook, a battle-tested skill file, a clean deal memo: flows into the shared layer on his terms. Nothing flows automatically. The wiki is not prescriptive about how this boundary is set; what matters is that the boundary exists and the hyperagent is the one who draws it.
 
@@ -32,7 +32,7 @@ The corporate-scale validation of the personal-apps-plus-team-substrate pattern 
 
 ## Why an SOP Execution App exists at all
 
-Inside the [Supersuit](/paos/what-it-is), the hyperagent already has the fastest possible interface for firing their SOPs: a typed sentence in the [agentic harness chatbox](/concepts/agentic-harness-chatbox). For most of the hyperagent's own work, that interface is enough. The SOP Execution App exists for the cases where typing is not the right interface:
+Inside the [Supersuit](https://supersuit.wiki/paos/what-it-is), the hyperagent already has the fastest possible interface for firing their SOPs: a typed sentence in the [agentic harness chatbox](https://supersuit.wiki/concepts/agentic-harness-chatbox). For most of the hyperagent's own work, that interface is enough. The SOP Execution App exists for the cases where typing is not the right interface:
 
 - **For other people.** A chief of staff, an associate, a partner, a client who needs the workflow but will not learn the terminal. The web app is the door they open.
 - **For high-frequency moves.** Even for the hyperagent herself, a labeled button can be faster than re-typing a prompt fifteen times a day for the same SOP.
@@ -77,7 +77,7 @@ The engagement is durable. The first button wraps the most painful repeated work
 
 A SOP Execution App is a real engagement: forward-deployed engineering hours, iteration cycles, ongoing maintenance. The cost is justified when the conditions in [When to get one built](/disciplines/sop-execution-app/when-to-get-one) hold: most often when the hyperagent has already built their PAOS and now wants to extend its leverage to people who will not open a terminal.
 
-The Supersuit, built on open primitives and continually tailored by an [Embedded Applied AI Partner](/concepts/embedded-applied-ai-partner), is what every serious hyperagent builds first. The SOP Execution App is the deployment layer on top of it for the use cases that justify the extra engineering.
+The Supersuit, built on open primitives and continually tailored by an [Embedded Applied AI Partner](https://supersuit.wiki/concepts/embedded-applied-ai-partner), is what every serious hyperagent builds first. The SOP Execution App is the deployment layer on top of it for the use cases that justify the extra engineering.
 
 ---
 
@@ -85,15 +85,15 @@ The Supersuit, built on open primitives and continually tailored by an [Embedded
 
 **Inside the wiki**
 
-- [The Supersuit (PAOS)](/paos/what-it-is): the canonical system. The app is downstream of this.
+- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical system. The app is downstream of this.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order the app depends on.
-- [Digital SOPs](/concepts/digital-sops): the hyperagent-register name for the workflows the buttons fire.
+- [Digital SOPs](https://supersuit.wiki/concepts/digital-sops): the hyperagent-register name for the workflows the buttons fire.
 - [Anatomy](/disciplines/sop-execution-app/anatomy): the four load-bearing components of an SOP Execution App.
 - [When to get one built](/disciplines/sop-execution-app/when-to-get-one): the conditions that justify commissioning one.
 - [How to get one built](/disciplines/sop-execution-app/how-to-get-one-built): the engagement process.
 - [The hyperagent](https://hyperagency.wiki/the-hyperagent): the role the Supersuit produces.
-- [Build What Big AI Won't](/concepts/build-what-big-ai-wont): why the structurally opinionated SOP Execution App is the work the frontier labs cannot do.
-- [Sovereign Agentic Business OS](/concepts/sovereign-agentic-business-os): the business-scale version of the same architecture. Where the SOP Execution App pattern goes when it generalizes across a whole company.
+- [Build What Big AI Won't](https://supersuit.wiki/concepts/build-what-big-ai-wont): why the structurally opinionated SOP Execution App is the work the frontier labs cannot do.
+- [Sovereign Agentic Business OS](https://supersuit.wiki/concepts/sovereign-agentic-business-os): the business-scale version of the same architecture. Where the SOP Execution App pattern goes when it generalizes across a whole company.
 
 **Outside the wiki**
 

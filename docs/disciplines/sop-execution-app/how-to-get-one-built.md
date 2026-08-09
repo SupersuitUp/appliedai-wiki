@@ -13,19 +13,19 @@ description: "Five stages: find the right engineer, brief them well, ship v0.1 i
 
 ## Find your embedded applied AI partner (who will also build the app)
 
-The canonical move is to commission your SOP Execution App from your [**Embedded Applied AI Partner**](/concepts/embedded-applied-ai-partner): the same person who continually evolves your [Supersuit](/concepts/supersuit). The build engagement and the durable engagement should not be two different hires. The partner already knows your [skill files](https://appliedai.wiki/concepts/skill-files), your voice rules, your workflow, your relationship context, and the rails of your suit; they are the right person to package a proven workflow as a deployed app, and they are the right person to keep it tailored after launch. If you do not yet have an embedded partner, the SOP Execution App engagement is often how that relationship begins.
+The canonical move is to commission your SOP Execution App from your [**Embedded Applied AI Partner**](https://supersuit.wiki/concepts/embedded-applied-ai-partner): the same person who continually evolves your [Supersuit](https://supersuit.wiki/concepts/supersuit). The build engagement and the durable engagement should not be two different hires. The partner already knows your [skill files](https://appliedai.wiki/concepts/skill-files), your voice rules, your workflow, your relationship context, and the rails of your suit; they are the right person to package a proven workflow as a deployed app, and they are the right person to keep it tailored after launch. If you do not yet have an embedded partner, the SOP Execution App engagement is often how that relationship begins.
 
 The profile is specific.
 
 **They should be able to ship the same week.** This rules out most agency engagements and most software engineers whose default cadence is sprint-based. You want someone who can sit down on Monday, hear your workflow, and deploy something usable by Friday. If the first conversation involves architecture diagrams and a multi-month roadmap, you are talking to the wrong person.
 
-**They should be comfortable with the harness and markdown-files stack.** The SOP Execution App sits on top of an [agentic harness](/concepts/agentic-harness) (Claude Code, Hermes, Codex, or similar). The engineer should have shipped tools in this environment before. An engineer who has only built traditional SaaS applications will underestimate how much the harness changes what is possible and how it should be built.
+**They should be comfortable with the harness and markdown-files stack.** The SOP Execution App sits on top of an [agentic harness](https://supersuit.wiki/concepts/agentic-harness) (Claude Code, Hermes, Codex, or similar). The engineer should have shipped tools in this environment before. An engineer who has only built traditional SaaS applications will underestimate how much the harness changes what is possible and how it should be built.
 
 **They should be willing to be in the room with you.** The first session is not a requirements document phase. The engineer should be in the room, physical or virtual, while you walk through your actual work. They should be asking questions, watching how you operate, and building while you are still talking. The best SOP Execution App engineers are forward-deployed: they stay close to the user and extend the system in response to observed usage, not in response to written requirements.
 
 **They should be durable.** The system they ship has to keep evolving as your operation evolves. An engineer who builds the v0.1 and hands it off to a maintenance team is the wrong engineer. The right engineer is the one who can stay as your embedded partner past launch and keep tailoring the app (and the suit underneath it) as your needs shift.
 
-Where to find them: [applied AI](/concepts/applied-ai) communities, referrals from other [hyperagents](/concepts/hyperagent) who already work with an embedded partner, and practitioners who have publicly documented their agentic work. Ask to see something they have shipped, not something they have designed.
+Where to find them: [applied AI](https://supersuit.wiki/concepts/applied-ai) communities, referrals from other [hyperagents](https://supersuit.wiki/concepts/hyperagent) who already work with an embedded partner, and practitioners who have publicly documented their agentic work. Ask to see something they have shipped, not something they have designed.
 
 ## Brief the engineer
 
@@ -81,6 +81,6 @@ Two things accelerate the iteration loop. First, the user documenting their obse
 - [Anatomy](/disciplines/sop-execution-app/anatomy): the four components that make a SOP Execution App function.
 - [Case studies](/disciplines/sop-execution-app/case-studies/video-strategy-workflow): a real example of the v0.1 to full-app arc.
 - [When to get one built](/disciplines/sop-execution-app/when-to-get-one): the conditions that justify commissioning an SOP Execution App.
-- [The Supersuit (PAOS)](/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. Build this first.
+- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. Build this first.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order. Every button needs a proven skill file behind it.
-- [Embedded Applied AI Partner](/concepts/embedded-applied-ai-partner): the tailor-on-call role the SOP Execution App engineer should ideally evolve into (or already be).
+- [Embedded Applied AI Partner](https://supersuit.wiki/concepts/embedded-applied-ai-partner): the tailor-on-call role the SOP Execution App engineer should ideally evolve into (or already be).

@@ -12,7 +12,7 @@ description: "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Ven
 
 ## The Question I Get Most
 
-Somewhere in almost every [Supersuit Up workshop](/paos/supersuit-up-workshop), an attendee asks some version of this:
+Somewhere in almost every [Supersuit Up workshop](https://supersuit.wiki/paos/supersuit-up-workshop), an attendee asks some version of this:
 
 > “I'm having a hard time with this whole VS Code plus terminal thing. Claude Cowork is friendlier. Isn't that the same thing, basically?”
 
@@ -26,7 +26,7 @@ You are not being asked to become a developer. You are being asked to take **one
 
 Two terms to keep straight.
 
-**An agentic harness** is the actual engine that reads your files, runs skills, calls models, and executes tool calls. [Claude Code](/reference/tools/claude-code) is a harness. [Hermes](/reference/tools/hermes) is a harness. [Codex](/reference/tools/codex) is a harness. Cursor's agent is a harness. These run in the terminal (or an IDE) and give you direct access to the full agentic loop: context, files, skills, commands, tools.
+**An agentic harness** is the actual engine that reads your files, runs skills, calls models, and executes tool calls. [Claude Code](/reference/tools/claude-code) is a harness. [Hermes](https://supersuit.wiki/reference/tools/hermes) is a harness. [Codex](/reference/tools/codex) is a harness. Cursor's agent is a harness. These run in the terminal (or an IDE) and give you direct access to the full agentic loop: context, files, skills, commands, tools.
 
 **A wrapper** is a friendlier UI built on top of a specific harness, usually by the vendor that makes the harness. Claude Cowork is a wrapper: it is [Anthropic's Desktop-app layer over Claude Code](https://claude.com/product/cowork), billed as “Claude Code without the code.” You point it at a folder, it reads and writes files in that folder, and you interact through a chat window. It is the same underlying harness, with the primitives hidden behind an opinionated interface.
 
@@ -60,7 +60,7 @@ VS Code is not a harness. It is a file viewer that happens to be beloved by deve
 
 Reasons we use it:
 
-1. **You are going to have a lot of files.** Your [Personal Agentic OS](/paos/what-it-is) is a workspace full of markdown: your user profile, relationship dossiers, meeting transcripts, strategic documents, skills. You need something that makes browsing, opening, and editing many files fast.
+1. **You are going to have a lot of files.** Your [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is) is a workspace full of markdown: your user profile, relationship dossiers, meeting transcripts, strategic documents, skills. You need something that makes browsing, opening, and editing many files fast.
 2. **It is harness-agnostic.** Claude Code, Hermes, Codex, Cursor, OpenCode: they all plug into a VS Code workspace natively. The moment you swap harnesses, you do not change environments.
 3. **It is infinitely customizable.** Plugins for PDFs, web views, database browsers, diagrams, anything. Theme it however you like.
 4. **It makes your files first-class citizens.** The left sidebar is a living directory of your [operational reality](https://supersuit.wiki/concepts/operational-reality). Seeing your files at a glance trains the habit of trusting the system.
@@ -128,7 +128,7 @@ If you run your entire workflow inside a single vendor's wrapper, you can be rat
 
 ## Sovereignty Is the Point
 
-The goal of the [Supersuit Up Workshop](/paos/supersuit-up-workshop) is to build on sovereign foundations. Workshops are a means to that end. VS Code is a means. Claude Code is a means.
+The goal of the [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop) is to build on sovereign foundations. Workshops are a means to that end. VS Code is a means. Claude Code is a means.
 
 What the workshop is actually teaching: **how to own your operational reality in a format that outlives any single vendor, any single harness, and any single wrapper.**
 
@@ -148,14 +148,14 @@ The friction is real. The upside is uncapped.
 
 ## Further Reading
 
-- [Personal Agentic OS](/paos/what-it-is): The workspace a harness reads
+- [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): The workspace a harness reads
 - [Harness Engineering](https://appliedai.wiki/disciplines/harness-engineering): What a harness actually is and why the code around the model matters as much as the model
 - [The Chat Is Not the Product](https://appliedai.wiki/perspectives/the-chat-is-not-the-product): Chat windows versus persistent files
 - [Personal Software](https://supersuit.wiki/concepts/personal-software): Custom UIs over shared files and agents
 - [Operational Reality](https://supersuit.wiki/concepts/operational-reality): What your files should contain
 - Ramp: Glass: A custom agent viewer at scale
-- [Supersuit Up Workshop](/paos/supersuit-up-workshop): Where we walk you through setting this up
+- [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop): Where we walk you through setting this up
 - [Claude Code Setup](/reference/tools/claude-code): The default harness we teach
-- [Hermes Setup](/reference/tools/hermes): A second harness to prove your skills transfer
+- [Hermes Setup](https://supersuit.wiki/reference/tools/hermes): A second harness to prove your skills transfer
 - [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): Why minimal harnesses keep winning and kitchen-sink defaults are the failure mode
 - [Seat Wrapper](/concepts/seat-wrapper): The good kind of wrapper. Specializes the primitive for one seat instead of hiding it from a general user

@@ -95,7 +95,7 @@ Simple is not "stripped." Simple is "small core + sharp edges + clear extension 
 - **YOLO by default, with enough rope.** Every user's security posture is different. A pop-up that asks "do you approve running bash?" every ten seconds is not a security model. It is friction theater. Give the user enough hooks to wire the exact guardrails their situation requires.
 - **Legible internals.** You should be able to see the system prompt. The full tool definitions. Every event the harness emits. Every byte in the context. Opacity is the anti-pattern.
 
-This is the pattern Terminus 2 expresses in the benchmark setting. It is the pattern [Pi](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/) expresses in a general-purpose setting. And it is the same pattern that makes a plain terminal plus [Claude Code](/reference/tools/claude-code), [Hermes](/reference/tools/hermes), or [Codex](/reference/tools/codex) more powerful in expert hands than a kitchen-sink IDE wrapper in novice hands.
+This is the pattern Terminus 2 expresses in the benchmark setting. It is the pattern [Pi](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/) expresses in a general-purpose setting. And it is the same pattern that makes a plain terminal plus [Claude Code](/reference/tools/claude-code), [Hermes](https://supersuit.wiki/reference/tools/hermes), or [Codex](/reference/tools/codex) more powerful in expert hands than a kitchen-sink IDE wrapper in novice hands.
 
 ---
 
@@ -113,7 +113,7 @@ Here, the posture is pragmatic. We recommend proprietary harnesses (Claude Code 
 
 ## What to Do
 
-If you are a practitioner building your [Personal Agentic OS](/paos/what-it-is):
+If you are a practitioner building your [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is):
 
 - Know what is in your context at any given moment. If you cannot answer that question, you do not actually own your harness.
 - Resist adding complexity to your setup before it has earned its way in. Every tool, every skill file, every MCP server is a new thing that can go subtly wrong.

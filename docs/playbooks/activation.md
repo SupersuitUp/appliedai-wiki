@@ -92,7 +92,7 @@ Another Amole frame, pulled from his work at Mercury:
 
 > “We looked at the onboarding flow and we were like, okay, we've invested so much in quality in the rest of the product but we haven't really done it here. And this is the first experience people have. So we said forget metrics, forget growth, forget everything else as the growth team. We're going to spend a whole quarter fixing quality in this flow. And it ended up being the single most impactful quarter that I've ever had as a growth PM in terms of the impact that it had.”
 
-Translated: **the quality of the first experience is the growth strategy.** Not a stepping stone to the growth strategy. It is the thing itself. Fixing the first hour is higher leverage than any ad campaign, any landing page, any referral program. This is as true for a solo consultant setting up a client's [Personal Agentic OS](/paos/what-it-is) as it is for a company shipping a product.
+Translated: **the quality of the first experience is the growth strategy.** Not a stepping stone to the growth strategy. It is the thing itself. Fixing the first hour is higher leverage than any ad campaign, any landing page, any referral program. This is as true for a solo consultant setting up a client's [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is) as it is for a company shipping a product.
 
 ---
 
@@ -142,7 +142,7 @@ Activation is not a part of the job. It is the job. Everything else is support i
 
 - [The Encounter](https://supersuit.wiki/concepts/the-encounter): The foundational frame for the first time a person meets your work.
 - [Minimum Viable Infrastructure](https://appliedai.wiki/concepts/minimum-viable-infrastructure): The two-hour protocol for getting a person activated on their Personal Agentic OS.
-- [Personal Agentic OS](/paos/what-it-is): The core thing practitioners are building.
+- [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): The core thing practitioners are building.
 - [Liberation Architecture](https://supersuit.wiki/concepts/liberation-architecture): The design philosophy for experiences that free rather than trap.
 - [Context Engineering](https://appliedai.wiki/disciplines/context-engineering): Why knowing who the person is matters more than the tool you hand them.
 - [Make Every Share Link an Invite](/playbooks/make-every-share-link-an-invite): The invite-wall pattern that creates the pre-activation moment for anyone who receives a shared link.

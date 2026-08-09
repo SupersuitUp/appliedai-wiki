@@ -6,17 +6,17 @@ description: "A custom web app that exposes a hyperagent's battle-tested digital
 
 # SOP Execution App
 
-*A custom web app that exposes a hyperagent's battle-tested [digital SOPs](/concepts/digital-sops) as form-driven pages, one tab per SOP. A deployment artifact downstream of the [Supersuit](/paos/what-it-is). Built by an applied AI engineer.*
+*A custom web app that exposes a hyperagent's battle-tested [digital SOPs](https://supersuit.wiki/concepts/digital-sops) as form-driven pages, one tab per SOP. A deployment artifact downstream of the [Supersuit](https://supersuit.wiki/paos/what-it-is). Built by an applied AI engineer.*
 
 ---
 
-An **SOP Execution App** is a custom web application built around the [hyperagent](/concepts/hyperagent)'s curated [digital SOPs](/concepts/digital-sops). It is not a single button dashboard. It is a multi-tab web app where every SOP gets its own page, with a structured form for the inputs the skill needs (typed fields, voice-to-text capture, file uploads, dropdowns that read from PAOS context like `people/` or `artifacts/`). The agents run on the backend. The user opens the tab they want, fills in the form, hits Run, and the output lands on the same page.
+An **SOP Execution App** is a custom web application built around the [hyperagent](https://supersuit.wiki/concepts/hyperagent)'s curated [digital SOPs](https://supersuit.wiki/concepts/digital-sops). It is not a single button dashboard. It is a multi-tab web app where every SOP gets its own page, with a structured form for the inputs the skill needs (typed fields, voice-to-text capture, file uploads, dropdowns that read from PAOS context like `people/` or `artifacts/`). The agents run on the backend. The user opens the tab they want, fills in the form, hits Run, and the output lands on the same page.
 
-The app is built by an [applied AI engineer](/disciplines/sop-execution-app/how-to-get-one-built) for a specific principal. The principal's voice and the relevant slice of their team's shared context get loaded in. The SOPs are scoped to the work the principal actually does. There is no terminal, no markdown to maintain, no harness to install. The SOPs the app fires, however, must have been developed and battle-tested first, inside the hyperagent's [Supersuit](/concepts/supersuit).
+The app is built by an [applied AI engineer](/disciplines/sop-execution-app/how-to-get-one-built) for a specific principal. The principal's voice and the relevant slice of their team's shared context get loaded in. The SOPs are scoped to the work the principal actually does. There is no terminal, no markdown to maintain, no harness to install. The SOPs the app fires, however, must have been developed and battle-tested first, inside the hyperagent's [Supersuit](https://supersuit.wiki/concepts/supersuit).
 
 ## What it is not
 
-An SOP Execution App is **not** a [Supersuit](/paos/what-it-is). The Supersuit is the [Personal Agentic OS](/paos/what-it-is): the full personal agentic system on the hyperagent's own machine, with the context substrate, the skill library, and the harness. The SOP Execution App is a downstream deployment artifact that exposes proven SOPs as form-driven pages for the people who will use them. The Supersuit is the building. The SOP Execution App is one door into it.
+An SOP Execution App is **not** a [Supersuit](https://supersuit.wiki/paos/what-it-is). The Supersuit is the [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): the full personal agentic system on the hyperagent's own machine, with the context substrate, the skill library, and the harness. The SOP Execution App is a downstream deployment artifact that exposes proven SOPs as form-driven pages for the people who will use them. The Supersuit is the building. The SOP Execution App is one door into it.
 
 ## How the two relate
 
@@ -38,8 +38,8 @@ This is the [Skill File First, App Second](https://appliedai.wiki/concepts/skill
 
 ## Further Reading
 
-- [The Supersuit (PAOS)](/paos/what-it-is): the full personal agentic system. The canonical capability. An SOP Execution App is one deployment artifact for skill files developed inside it.
-- [Digital SOPs](/concepts/digital-sops): the hyperagent-register name for the workflows each tab fires.
+- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the full personal agentic system. The canonical capability. An SOP Execution App is one deployment artifact for skill files developed inside it.
+- [Digital SOPs](https://supersuit.wiki/concepts/digital-sops): the hyperagent-register name for the workflows each tab fires.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order. Prove the capability in a skill file inside your PAOS before you package it as an app tab.
-- [Embedded Applied AI Partner](/concepts/embedded-applied-ai-partner): the tailor on call who keeps the Supersuit (and the SOP Execution App on top of it) fitted as the operation grows.
+- [Embedded Applied AI Partner](https://supersuit.wiki/concepts/embedded-applied-ai-partner): the tailor on call who keeps the Supersuit (and the SOP Execution App on top of it) fitted as the operation grows.
 - [The hyperagent](https://hyperagency.wiki/the-hyperagent): the role the Supersuit produces.
