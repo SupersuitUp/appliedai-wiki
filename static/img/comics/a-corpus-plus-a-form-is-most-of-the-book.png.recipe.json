@@ -1,0 +1,66 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fill accents, soft dark ink line.\nSubject: A three-panel hero strip, three equal panels in one horizontal row, separated by clean cream gutters with no drawn borders or frame lines. One consistent world across all panels: a warm lamplit study, one glowing translucent amber laptop on a wooden desk, and one consistent human: a woman in her mid-fifties with silver-streaked dark hair tied back, wearing a rust-colored cardigan. The laptop screen always faces her.\nBEAT ONE (left panel): the woman sets down beside the laptop a heavy open archive box overflowing with dated note cards, old photographs and journal pages; leaning against the box stands a single thin stencil card shaped like a small open book, with slotted openings. Box and stencil sit on the desk in the real world, outside the laptop.\nBEAT TWO (middle panel): inside the glowing laptop screen, the small rounded holographic Chief of Agents figure in his gold military cap directs tiny rounded sub-agent figures; they lift the archive's cards up through the book-shaped stencil, and each card that passes through comes out as a clean typeset page settling into a nearly complete book taking shape on the screen; one card that does not fit the stencil is set aside in a small rejected pile by one sub-agent. Same laptop, same desk, seen from the same side; the woman watches from outside.\nBEAT THREE (right panel): the near-finished manuscript lies printed on the desk outside the laptop; the same woman sits marking one page with a red pen; a small tray holds the few loose pages still awaiting her marks while most of the manuscript rests in a clean approved stack beside her.\nEXACTLY ONE woman, appearing once per panel, never duplicated within a panel.\nPhysical relationships: the archive box, the stencil card, the printed manuscript and the woman are in the real world OUTSIDE the laptop; the agents and the forming book are INSIDE the laptop screen; the stencil inside beat two is the same book-shaped stencil seen leaning against the box in beat one.\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\n- Title bar, in the cream margin above the panels, in caps: \"A CORPUS PLUS A FORM\"\n- Caption under the left panel, in the cream gutter, in caps: \"THE CORPUS AND THE FORM\"\n- Caption under the middle panel, in the cream gutter, in caps: \"AGENTS DRAFT TO FORM\"\n- Caption under the right panel, in the cream gutter, in caps: \"ONLY THE RED PEN REMAINS\"\n- Footer bar, in the cream margin below the panels, in caps: \"CAPTURE FIRST. EDIT LAST.\"\nText sits in the cream margins and gutters, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.\n\nThese are LOCKED canonical traits of the subject(s). They are not stylistic suggestions and must survive the render exactly: small-blocky-clay-coral-orange-mascot; translucent-holographic-digital-being; casts-light-not-shadow; grand-ornate-gold-admiral-hat; gold-epaulettes; warm-rounded-dot-eyes-with-tiny-catchlights; two-stubby-legs; short-stubby-nub-arms-end-in-rounded-MITTEN-stubs-NEVER-fingers-hands-tubes-or-bars; never-LIVES-in-the-real-world-soft-crossing-allowed-only-at-delivery-leaning-through-the-screen-body-mostly-inside; never-over-anthropomorphized; never-does-task-work-only-listens-commands-delivers; warm-editorial-register-not-comic.\n\nIdentity of record is reference/chief-of-agents/master.png. Derive EVERY new pose from it (pass master as the FIRST input image), one pose per render; NEVER a multi-pose sheet in a single generation (that drifts the body composition). Keep it a SMALL blocky mascot: clay-coral Anthropic orange (~#D97757), two dot-eyes, two stubby legs, a grand ornate GOLD admiral hat + gold epaulettes (this is what makes it the Chief; sub-agents wear plain white sailor caps, no gold). It is a DIGITAL being: translucent, holographic, glowing, casts LIGHT not shadow, lives inside the computer / the agentverse. Do NOT over-anthropomorphize \u2014 no big arms, no human proportions (that was the rejected creepy variant). It never does task work; it only listens, commands, and delivers. CROSSING LAW (Gary 2026-07-16, clarified same day): the Chief never LIVES in the real world; it never stands on a real desk, sits in a real chair, or walks a real room as a free-standing body. The one permitted SOFT CROSSING is delivery: leaning through the screen plane, body mostly inside, to hand an artifact to the human or receive one; artifacts themselves may pass through the glass. Delivery may equally be drawn as work materializing on the screen. emerging.png and delivering.png depict the soft-crossing grammar and remain canon references. LONE-AGENT LAW (Gary 2026-07-16): when a scene shows exactly ONE agent, it is the Chief.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/commanding.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/delivering.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/emerging.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/listening.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/master.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/sheet.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-09T16:41:46.871342+00:00",
+  "sha256": "604a61fa9718b7ee3f78c9826f26cdfc744ae3e32a182f6102a8676b3ed96576",
+  "entities": [
+    {
+      "universe": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe",
+      "id": "chief-of-agents",
+      "look": null,
+      "photoStackDeclared": [],
+      "photoStackPassed": [],
+      "sheets": {
+        "commanding": "reference/chief-of-agents/commanding.png",
+        "delivering": "reference/chief-of-agents/delivering.png",
+        "emerging": "reference/chief-of-agents/emerging.png",
+        "listening": "reference/chief-of-agents/listening.png",
+        "master": "reference/chief-of-agents/master.png",
+        "sheet": "reference/chief-of-agents/sheet.png"
+      }
+    }
+  ],
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
