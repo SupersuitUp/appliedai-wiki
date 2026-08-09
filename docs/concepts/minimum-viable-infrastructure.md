@@ -77,6 +77,14 @@ The tutorial paths are designed to be self-paced. Every machine is different. Yo
 
 A human guide who has done this before, who can look at your screen and say "oh, just run this command," is worth more than any tutorial. There are not enough of these people. Training more of them, building a bench of practitioners who can teach others, is one of the highest-leverage things the practitioner community can do. Every person who gets activated becomes a potential guide for the next person. The flywheel only works if we invest in the humans, not just the tools.
 
+## Democratization Is Not Distribution
+
+The word choice here is deliberate. Distribution means pushing the technology at everyone, and it fails on its own terms, because you cannot force demand. Plenty of people have no use for an agent harness this year and should not be sold one.
+
+Democratization is a weaker claim and a better one. If someone has a good reason to use a technology, getting access should not be the hard part. That is the test to run: not how many people are on the platform, but whether a person with a real reason to build hits a wall made of hardware, bandwidth, money, or the absence of anyone to ask.
+
+"Good reason" is carrying weight in that sentence, and it is carrying it on purpose. Access is not owed unconditionally, because [what this technology multiplies is whatever will gets articulated into it](/concepts/the-imagination-economy). Lowering the floor and keeping a gate are both required, they pull against each other permanently, and an initiative that only does the first one is [selling capability rather than democratizing it](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety).
+
 ## What "Democratizing AI" Actually Requires
 
 Most "democratize AI" initiatives focus on making AI tools cheaper or more accessible. That is necessary but insufficient. The real democratization requires:
@@ -101,3 +109,4 @@ The applied AI economy does not need to be a rich person's game. Right now, the 
 
 - [What is Applied AI](/start-here/what-is-applied-ai): the working definition this infrastructure exists to serve.
 - [Disciplines](/disciplines): what becomes possible once the floor is in place.
+- [Sovereignty Cannot Be Sold at the Expense of Safety](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety): why the sovereign stack is not the top value, and what to buy instead.

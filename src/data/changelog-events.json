@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now@e09a1d65833de0a136235d6c80d744395abce97e",
+      "type": "new",
+      "date": "2026-08-08T12:11:03-05:00",
+      "docKey": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now",
+      "routePath": "/perspectives/a-bias-for-iteration-is-the-price-of-admission-now",
+      "section": "perspectives",
+      "title": "A Bias for Iteration Is the Price of Admission Now",
+      "description": "Comfort with rapid, real-time iteration used to be a temperament. It is now the entry requirement for building products at all. The people who win iterate fast, learn quickly, and build systems that learn, on a substrate that is itself improving underneath them."
+    },
+    {
       "id": "concepts/agent-constellation@23b8624eec5d7ff56193a60835cfb12a028b1d39",
       "type": "updated",
       "date": "2026-08-07T16:17:21-05:00",
