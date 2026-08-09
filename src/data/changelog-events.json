@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-billing-adapter@e0300d3420526b6c85035c02b22544082531039c",
+      "type": "updated",
+      "date": "2026-08-09T11:03:09-05:00",
+      "docKey": "concepts/the-billing-adapter",
+      "routePath": "/concepts/the-billing-adapter",
+      "section": "concepts",
+      "title": "The Billing Adapter",
+      "description": "A seam that separates what AI work costs from who pays for it, so one product can bill each request to the right wallet."
+    },
+    {
+      "id": "concepts/the-billing-adapter@9cddb88d687b92970ae1f83207bdecc196b234ae",
+      "type": "new",
+      "date": "2026-08-09T11:01:02-05:00",
+      "docKey": "concepts/the-billing-adapter",
+      "routePath": "/concepts/the-billing-adapter",
+      "section": "concepts",
+      "title": "The Billing Adapter",
+      "description": "A seam that separates what AI work costs from who pays for it, so one product can bill each request to the right wallet."
+    },
+    {
+      "id": "start-here/why-learn-to-wield-ai@e8a584cb4f0f78adcfbea8c3e79e67010be88466",
+      "type": "new",
+      "date": "2026-08-09T10:51:16-05:00",
+      "docKey": "start-here/why-learn-to-wield-ai",
+      "routePath": "/start-here/why-learn-to-wield-ai",
+      "section": "start-here",
+      "title": "Why You Should Learn to Wield AI",
+      "description": "The foundational both/and for anyone who found this wiki while worried: AI is a way for people who care about their work to do a better job, and the honest risk to your livelihood is a person in your field who wields it."
+    },
+    {
       "id": "concepts/the-imagination-economy@fc765ba5bafdf76f30ac506eba631b444909c862",
       "type": "updated",
       "date": "2026-08-09T06:22:44-05:00",

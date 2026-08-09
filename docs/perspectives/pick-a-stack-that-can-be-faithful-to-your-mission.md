@@ -62,3 +62,4 @@ Capability is table stakes and every vendor demos it. Faithfulness is the proper
 - [Demonstration Is the Highest-Bandwidth Spec](/perspectives/demonstration-is-the-highest-bandwidth-spec) on why instructions alone cannot carry intent
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails) on why the pushback property scales with capability
 - [Commercial Success Selects for Truthful Models](/perspectives/commercial-success-selects-for-truthful-models) on why anti-sycophancy is a market force, not just a preference
+- [Daily Use Is the Benchmark That Can't Be Gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed) on why living with a stack is the test that reveals these properties
