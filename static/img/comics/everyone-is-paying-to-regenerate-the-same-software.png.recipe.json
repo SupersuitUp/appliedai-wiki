@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fill accents, soft dark ink line.\nSubject: A three-panel hero strip, three equal panels in one horizontal row, separated by clean cream gutters with no drawn borders or frame lines. A consistent world of small warm workshops, each with a glowing translucent amber laptop.\nBEAT ONE: interior of one warm workshop. A maker, a woman in her thirties with a short dark bob wearing a mustard cardigan, sits at a workbench in front of a glowing translucent amber laptop; INSIDE the laptop screen small rounded agent figures are assembling a neat wooden cabinet from raw planks. Sawdust, tools, a mug. Cozy and focused.\nBEAT TWO: the camera pulls WAY back to reveal a long row of at least seven identical little workshops receding into the distance, each one walled off from the next, each with its own different maker at its own glowing amber laptop, and inside every single screen the agents are building THE SAME wooden cabinet. The makers are all different people (different ages, different builds, different hair) and none of them can see any of the others through the walls. Repetition is the point.\nBEAT THREE: a bright shared courtyard. One maker carries their finished wooden cabinet out of a workshop door and sets it on a long public shelf where three similar cabinets already stand. Two other makers are lifting cabinets off that shelf and carrying them back toward their own doors, while inside their laptops the agents have started building something completely different and new. Open sky, warm light, no walls between them.\nPhysical relationships: the cabinets are built INSIDE the laptop screens in beats one and two, and exist as real objects OUTSIDE in the courtyard in beat three; the public shelf is in shared open air, not inside any workshop.\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\n- Title bar, in the cream margin above the panels, in caps: \"THE SAME MODULE, TEN THOUSAND TIMES\"\n- Caption under the left panel, in the cream gutter, in caps: \"GENERATE IT FROM NOTHING\"\n- Caption under the middle panel, in the cream gutter, in caps: \"SO DOES EVERYONE ELSE\"\n- Caption under the right panel, in the cream gutter, in caps: \"PUBLISH ONCE, SKIP THE REBUILD\"\n- Footer bar, in the cream margin below the panels, in caps: \"THE SECOND BUILD OF A SOLVED THING IS WASTE.\"\nText sits in the cream margins and gutters, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-09T22:36:16.552239+00:00",
+  "sha256": "1a92d034759b97cd2de4f71c30c4b343b6b9edd6b46f98a81fbd2ff3c48d0558",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
