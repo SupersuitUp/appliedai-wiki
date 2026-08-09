@@ -1,0 +1,28 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fill accents, soft dark ink line.\nSubject: A single wide illustration of an unbalanced two-pan scale standing on a workshop bench in a warm lamplit room, seen from the side. The LEFT pan is heaped high and sinking heavily under gleaming precision machinery, stacked server blocks, and fine polished instruments, all rendered with obvious craftsmanship and expense. The RIGHT pan rides high and nearly empty, holding only a small flimsy paper rubber-stamp and a thin stack of loose checklist slips. Balanced across the very top beam of the scale, resting precariously, is a beautifully made garment on a hanger, tilting toward the light side, about to slide off. An older man in a grey cardigan stands beside the scale with his arms folded, studying the light pan with concern. EXACTLY ONE person in the frame. Behind him on the bench sits a glowing translucent amber laptop, closed and quiet.\nPhysical relationships: the heavy pan is clearly lower than the light pan and the beam tilts accordingly; the garment sits ON TOP of the beam, not in either pan, and its tilt follows the beam's tilt so it is sliding toward the high side.\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\n- Title bar, in the cream margin above the artwork, in caps: \"WHERE THE MONEY GOES\"\n- Footer bar, in the cream margin below the artwork, in caps: \"FRONTIER COMPUTE. COMMODITY JUDGMENT.\"\nText sits in the cream margins, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-09T21:16:50.328294+00:00",
+  "sha256": "36a8cf95e22a02cfcb99ba7aebede59e2ad15260931c7bd750a2c25e4b72f714",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
