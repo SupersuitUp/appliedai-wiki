@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground (#EFE6D2), muted blue fill (#8FB0CE), soft dark line (#3B382F). The glowing translucent amber laptop from the final reference image is the one consistent device in every panel.\nSubject: a THREE-PANEL horizontal strip, three equal panels in one row separated by clean cream gutters with NO drawn borders or frame lines, one consistent world and cast across all three panels, read left to right.\nBEAT ONE: a woman in her fifties with short gray hair, in a plain rust-colored sweater, sits at a wooden desk beside the glowing amber laptop; inside its screen a small rounded agent figure works; a single visible cord runs OUT of the laptop and plugs INTO one open leather wallet on the desk in front of her, and a small round meter dial on the cord spins; her hand hovers protectively over that one wallet, her face worried. The cord physically connects laptop to wallet: money flows FROM the wallet TO the laptop.\nBEAT TWO: the same desk, same woman, same laptop; the same cord from the laptop now enters a small wooden adapter block on the desk, and exactly THREE short cords leave the other side of the block, each ending at one of exactly THREE distinct items in a row: a slim blue bank card, a brass key on a ring, and a small cloth pouch tied with a gift ribbon; only the cord to the blue card glows warmly, the other two cords lie slack; the woman's posture eases as she watches the adapter choose.\nBEAT THREE: a wider view of three small tables, at each table a DIFFERENT ordinary person (a young Black man in a green shirt, an older South Asian woman in a mustard cardigan, a heavyset white man with a beard in a plain blue shirt) works at their own glowing amber laptop, and from each laptop a cord plugs into that person's OWN slim card lying beside them; the gray-haired woman stands relaxed at the side holding only the one small ribboned pouch. Each cord connects only its own laptop to its own card, never crossing to another table.\nEXACTLY ONE of each person in frame, never duplicated. Hands may be loose and painterly.\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\n- \"THE BILLING ADAPTER\" as a title bar in the cream margin ABOVE the three panels, in caps.\n- \"ONE WALLET PAYS FOR ALL\" in the cream gutter directly UNDER panel one.\n- \"A SEAM PICKS THE WALLET\" in the cream gutter directly UNDER panel two.\n- \"USERS BRING THEIR OWN METER\" in the cream gutter directly UNDER panel three.\n- \"SEPARATE THE COST FROM THE PAYER, AND GROWTH STOPS BEING A BILL\" as a footer bar in the cream margin BELOW the panels, in caps.\nText sits only in the cream margins and gutters, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-09T15:59:59.520584+00:00",
+  "sha256": "578c0e107953e64bc0c821779c8a5b1d99ef60a6b3a5ed57f8f8abddff9573f6",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
