@@ -1,6 +1,325 @@
 {
   "changeEvents": [
     {
+      "id": "disciplines/sop-execution-app/anatomy@0ea0b511d47f2d1ece2ceeba69fddd6137c6cca4",
+      "type": "updated",
+      "date": "2026-08-09T20:13:41-05:00",
+      "docKey": "disciplines/sop-execution-app/anatomy",
+      "routePath": "/disciplines/sop-execution-app/anatomy",
+      "section": "disciplines",
+      "title": "Anatomy",
+      "description": "The four load-bearing components inside every SOP Execution App: a page per SOP with a form per page, role-scoped memory drawn from the team layer, role-scoped views, and a backend of agents."
+    },
+    {
+      "id": "engagement-patterns/pe-fund-cascade@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "engagement-patterns/pe-fund-cascade",
+      "routePath": "/engagement-patterns/pe-fund-cascade",
+      "section": "engagement-patterns",
+      "title": "PE fund cascade",
+      "description": "One retainer at the PE-fund level becomes many AI transformation engagements across the portfolio. The buyer pattern that multiplies the three-month POC wedge."
+    },
+    {
+      "id": "note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade",
+      "routePath": "/note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade",
+      "section": "note-sharers",
+      "title": "Three-month POC as the PE-fund cascade wedge",
+      "description": "The MBB playbook is now open-source. A boutique AI consultancy operator walks through the structure he runs against PE funds: $9K-$30K retainers, three-month proof of concept, year-long engagement after."
+    },
+    {
+      "id": "note-sharers/board-of-innovation/2024-11-08-three-waves@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/board-of-innovation/2024-11-08-three-waves",
+      "routePath": "/note-sharers/board-of-innovation/2024-11-08-three-waves",
+      "section": "note-sharers",
+      "title": "BOI on AI strategy: blueprint, not backlog",
+      "description": "Field notes from a November 2024 BOI webinar with Philippe De Ridder and Vincent Pirenne. Three Waves of AI adoption, outside-in plus future-back, the AI Opportunity Radar, and why AI alone is not a moat."
+    },
+    {
+      "id": "note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse",
+      "routePath": "/note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse",
+      "section": "note-sharers",
+      "title": "bycloud on DeepSeek V4: efficiency is the whole strategy",
+      "description": "Field notes from bycloud's breakdown of the DeepSeek V4 technical report. Cheap million-token context, cost-performance over benchmark-maxing, the bottleneck that just keeps moving, and serving reliability as the real constraint at scale."
+    },
+    {
+      "id": "note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates",
+      "routePath": "/note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates",
+      "section": "note-sharers",
+      "title": "Caleb Curry: stop instructing the agent, start gating it",
+      "description": "Field notes from Caleb Curry's six months building a multi-tenant SaaS with Claude Code. His breakthrough was converting written rules into deterministic gates: linting, types, database adapters, and hooks the agent cannot interpret its way past."
+    },
+    {
+      "id": "note-sharers/custom-ai-studio/2026-05-25-playbook-for-100m-ai-agency@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/custom-ai-studio/2026-05-25-playbook-for-100m-ai-agency",
+      "routePath": "/note-sharers/custom-ai-studio/2026-05-25-playbook-for-100m-ai-agency",
+      "section": "note-sharers",
+      "title": "The Playbook for a $100M AI Agency",
+      "description": "Devin Karns of Custom AI Studio on why mid-market is the AI era's sweet spot, why services firms re-rate from 1x to 5x EBITDA at the $5M threshold, and the four-step engagement ladder that takes contracts from $5k to $1M+."
+    },
+    {
+      "id": "note-sharers/frank-coyle/2026-07-23-neurosymbolic-ai@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/frank-coyle/2026-07-23-neurosymbolic-ai",
+      "routePath": "/note-sharers/frank-coyle/2026-07-23-neurosymbolic-ai",
+      "section": "note-sharers",
+      "title": "Frank Coyle: hallucination is the feature, so build the rails around it",
+      "description": "Field notes from a talk on why agentic systems need ontologies. The neural half imagines and the symbolic half refuses, and the architecture that wires them together already has a name and a fifty-year history."
+    },
+    {
+      "id": "note-sharers/goldratt/2026-06-29-management-attention-ultimate-constraint@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/goldratt/2026-06-29-management-attention-ultimate-constraint",
+      "routePath": "/note-sharers/goldratt/2026-06-29-management-attention-ultimate-constraint",
+      "section": "note-sharers",
+      "title": "Goldratt: management attention is the ultimate constraint",
+      "description": "Field notes from Rami Goldratt's webinar carrying his father's final-years thesis. Management attention is the binding constraint of every organization, and three killers waste it: chasing symptoms, living in a compromise, and chasing targets instead of enablers."
+    },
+    {
+      "id": "note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer",
+      "routePath": "/note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer",
+      "section": "note-sharers",
+      "title": "The $1M AI job: the Forward Deployed Engineer, explained",
+      "description": "Field notes from Greg Isenberg's interview with Voss (Veric Agents). Intelligence is commoditized; the edge is deployment. The FDE is the person who bridges general intelligence and one company's specific reality, plus a 30-day plan to become one."
+    },
+    {
+      "id": "note-sharers/indydevdan/2026-07-18-ai-developer-workflows@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/indydevdan/2026-07-18-ai-developer-workflows",
+      "routePath": "/note-sharers/indydevdan/2026-07-18-ai-developer-workflows",
+      "section": "note-sharers",
+      "title": "IndyDevDan: forget loop engineering, build AI developer workflows",
+      "description": "Field notes from IndyDevDan's case against 'loop engineering.' The loop is one node. The real unit is the AI developer workflow: the right combination of engineers, agents, and code, composed up into a software factory."
+    },
+    {
+      "id": "note-sharers/the-chairman/2026-06-19-idolizing-the-build@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/the-chairman/2026-06-19-idolizing-the-build",
+      "routePath": "/note-sharers/the-chairman/2026-06-19-idolizing-the-build",
+      "section": "note-sharers",
+      "title": "The arrogance of developers, and the token-max compulsion",
+      "description": "First-person fieldwork on why developers over-build solved infrastructure, why spending tokens feels like progress when it is not, and the identity shift from vibe coder to operator who buys what is already solved."
+    },
+    {
+      "id": "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense",
+      "routePath": "/note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense",
+      "section": "note-sharers",
+      "title": "The Wisdom Crisis: What LLMs Are Actually Doing to Us",
+      "description": "John Vervaeke and Jonathan Pageau on AI's civilizational stakes: model collapse, the Moloch trap, the ontological mismatch, and why wisdom education is the only durable response."
+    },
+    {
+      "id": "note-sharers/y-combinator/2026-05-19-self-improving-company@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/y-combinator/2026-05-19-self-improving-company",
+      "routePath": "/note-sharers/y-combinator/2026-05-19-self-improving-company",
+      "section": "note-sharers",
+      "title": "YC on the self-improving company",
+      "description": "Field notes from a May 2026 YC Root Access talk. The Roman-legion company is over. Reimagine the company as recursive self-improving AI loops. ICs and DRIs only. Burn tokens, not headcount. Right for net-new orgs, far-fetched for legacy dinosaurs."
+    },
+    {
+      "id": "note-sharers/y-combinator/2026-06-03-ai-native-services-company@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "note-sharers/y-combinator/2026-06-03-ai-native-services-company",
+      "routePath": "/note-sharers/y-combinator/2026-06-03-ai-native-services-company",
+      "section": "note-sharers",
+      "title": "YC on building an AI-native services company",
+      "description": "Field notes from a June 2026 YC founder playbook. Rebuild services firms (law, tax, insurance) so AI does most of the work and you sell the finished outcome, not a copilot. The human is the interface; the operation is the product. Right for net-new orgs, a thought experiment for incumbents."
+    },
+    {
+      "id": "onboarding/curriculum@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "onboarding/curriculum",
+      "routePath": "/onboarding/curriculum",
+      "section": "onboarding",
+      "title": "Curriculum"
+    },
+    {
+      "id": "people-to-follow/claire-vo@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "people-to-follow/claire-vo",
+      "routePath": "/people-to-follow/claire-vo",
+      "section": "people-to-follow",
+      "title": "Claire Vo",
+      "description": "Founder of ChatPRD, host of How I AI, three-time chief product officer. The clearest working example of a profitable business staffed by a constellation of scoped agents."
+    },
+    {
+      "id": "people-to-follow/cory-doctorow@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "people-to-follow/cory-doctorow",
+      "routePath": "/people-to-follow/cory-doctorow",
+      "section": "people-to-follow",
+      "title": "Cory Doctorow",
+      "description": "Author and activist who coined the popular usage of 'reverse centaur' for AI deployments that subordinate the human to the machine. Public-teaching source on the labor and capital failure modes of the AI bubble."
+    },
+    {
+      "id": "people-to-follow/daniel-priestley@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "people-to-follow/daniel-priestley",
+      "routePath": "/people-to-follow/daniel-priestley",
+      "section": "people-to-follow",
+      "title": "Daniel Priestley",
+      "description": "Founder of Dent Global and ScoreApp. Author of Key Person of Influence and Oversubscribed. Public-teaching source on how entrepreneurs reprice their work in the post-AI economy."
+    },
+    {
+      "id": "people-to-follow/satya-nadella@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "people-to-follow/satya-nadella",
+      "routePath": "/people-to-follow/satya-nadella",
+      "section": "people-to-follow",
+      "title": "Satya Nadella",
+      "description": "Chairman and CEO of Microsoft. Public-teaching source on what becomes valuable in the age of token abundance: cognitive coverage, token intelligence, and the human skills that compound alongside agents."
+    },
+    {
+      "id": "questions/my-assistant-cant-see-its-own-memory@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "questions/my-assistant-cant-see-its-own-memory",
+      "routePath": "/questions/my-assistant-cant-see-its-own-memory",
+      "section": "questions",
+      "title": "My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?",
+      "description": "The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer."
+    },
+    {
+      "id": "reference/glossary@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "reference/glossary",
+      "routePath": "/reference/glossary",
+      "section": "reference",
+      "title": "Glossary",
+      "description": "One-line-per-term summary across the whole wiki. The lexicon, flattened."
+    },
+    {
+      "id": "roles/ai-advisor-to-the-ceo@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/ai-advisor-to-the-ceo",
+      "routePath": "/roles/ai-advisor-to-the-ceo",
+      "section": "roles",
+      "title": "AI Advisor to the CEO",
+      "description": "The cross-organizational pattern-recognizer the CEO retains personally. Wide context across many companies, deep experience inside several, and direct counsel at the moments when the wrong AI decision would cost the entire business."
+    },
+    {
+      "id": "roles/ai-enablement-architect@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/ai-enablement-architect",
+      "routePath": "/roles/ai-enablement-architect",
+      "section": "roles",
+      "title": "AI Enablement Architect",
+      "description": "The person who deploys company-wide AI upskilling infrastructure: platform, skill marketplace, integrations, and adoption mechanics."
+    },
+    {
+      "id": "roles/ai-guide@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/ai-guide",
+      "routePath": "/roles/ai-guide",
+      "section": "roles",
+      "title": "The AI Guide",
+      "description": "The trusted person people go to when they want to know what to do about AI. Advisory at large scale, to anyone. The load-bearing pillar of the AI economy, because trust is the real bottleneck."
+    },
+    {
+      "id": "roles/ai-services-founder@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/ai-services-founder",
+      "routePath": "/roles/ai-services-founder",
+      "section": "roles",
+      "title": "The AI-Services Founder",
+      "description": "The founder profile for an AI-native services company: domain fluency, model fluency, and operational rigor. The unglamorous third trait is the differentiator, because the product is an operation."
+    },
+    {
+      "id": "roles/applied-ai-streamliner@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/applied-ai-streamliner",
+      "routePath": "/roles/applied-ai-streamliner",
+      "section": "roles",
+      "title": "Applied AI Streamliner",
+      "description": "The implementer who builds hyper-personalized software for individual professionals. They sit with the person, decompose their daily workflows, and build custom apps that wrap agentic capabilities around exactly how that person works."
+    },
+    {
+      "id": "roles/forward-deployed-engineer@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/forward-deployed-engineer",
+      "routePath": "/roles/forward-deployed-engineer",
+      "section": "roles",
+      "title": "Forward Deployed Engineer",
+      "description": "The Palantir-coined seat that turns commoditized intelligence into working systems inside one company's messy reality. The rare person who is genuinely excellent at both the business and the code, not the average of the two."
+    },
+    {
+      "id": "roles/generative-experience-architect@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/generative-experience-architect",
+      "routePath": "/roles/generative-experience-architect",
+      "section": "roles",
+      "title": "Generative Experience Architect",
+      "description": "The seat a subject-matter expert steps into when they stop delivering their expertise one client at a time and start designing the system that generates it. They are accountable for the felt quality of every outcome the system produces."
+    },
+    {
+      "id": "roles/leader-as-workflow-pm@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "roles/leader-as-workflow-pm",
+      "routePath": "/roles/leader-as-workflow-pm",
+      "section": "roles",
+      "title": "Leader As Workflow PM",
+      "description": "When the workforce becomes a collective of humans plus agents plus robots, leadership starts to look like product management. Leaders manage workflows and products, not people and processes."
+    },
+    {
+      "id": "start-here/executive-summary@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "start-here/executive-summary",
+      "routePath": "/start-here/executive-summary",
+      "section": "start-here",
+      "title": "Executive Summary",
+      "description": "The applied-AI worldview this wiki encodes, in one page. The load-bearing claims about the economy, the interface, the strategy, and the operator that a practitioner should know cold."
+    },
+    {
+      "id": "start-here/why-learn-to-wield-ai@59fe293e75ea47d49f0b355af0bda307d3adee87",
+      "type": "updated",
+      "date": "2026-08-09T20:12:39-05:00",
+      "docKey": "start-here/why-learn-to-wield-ai",
+      "routePath": "/start-here/why-learn-to-wield-ai",
+      "section": "start-here",
+      "title": "Why You Should Learn to Wield AI",
+      "description": "The foundational both/and for anyone who found this wiki while worried: AI is a way for people who care about their work to do a better job, and the honest risk to your livelihood is a person in your field who wields it."
+    },
+    {
       "id": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now@7c9e04c313a55fb0be35d3cdac5dfb53fdda845b",
       "type": "updated",
       "date": "2026-08-09T20:11:45-05:00",
