@@ -77,7 +77,7 @@ The corporate-scale validation of this pattern is Ramp's Glass + Dojo architectu
 - [Context Gardening](https://supersuit.wiki/concepts/context-gardening): the discipline that keeps the PAOS substrate the role-scoped memory is drawn from alive and current.
 - [Compounding Docs](https://appliedai.wiki/concepts/compounding-docs): the documentation discipline that makes the memory layer sharper over time.
 - [Personal Software](https://supersuit.wiki/concepts/personal-software): the broader category the SOP Execution App belongs to. Software built for one person's exact workflow, not learn-to-code.
-- [Role Wrapper](/concepts/role-wrapper): the per-role design template extracted from a skilled practitioner's app. The pattern every other person in the same role inherits.
+- [Seat Wrapper](/concepts/seat-wrapper): the per-role design template extracted from a skilled practitioner's app. The pattern every other person in the same role inherits.
 
 **Outside the wiki**
 
