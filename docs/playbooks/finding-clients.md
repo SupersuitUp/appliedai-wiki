@@ -84,7 +84,7 @@ The most effective "pitch" is not a pitch at all. It sounds like this:
 
 That's it. No deck. No case study. No pricing sheet. Just a human being offering to help someone they care about with a skill they have.
 
-If the answer is yes, move to the [pilot pitch](/playbooks/pilot-pitch).
+If the answer is yes, move to the [Pitch the Pilot](/playbooks/pitch-the-pilot).
 
 ---
 
@@ -114,8 +114,8 @@ Scale comes later. Trust comes first.
 
 ## Further Reading
 
-- [ICP clarity](/playbooks/icp-clarity). Once you have a few clients, sharpen who you serve.
-- [Pilot pitch](/playbooks/pilot-pitch). The shape of the first real proposal.
+- [Nail Your ICP First](/playbooks/nail-your-icp-first). Once you have a few clients, sharpen who you serve.
+- [Pitch the Pilot](/playbooks/pitch-the-pilot). The shape of the first real proposal.
 - [Pricing](/playbooks/pricing). How to price the engagement once trust is established.
 - [PE fund cascade](/engagement-patterns/pe-fund-cascade). The buyer pattern that multiplies one fund-level retainer across many portcos.
 - [Your First Touch Should Sell the Next Step](/perspectives/your-first-touch-should-sell-the-next-step). How to shape any opening message, warm or cold, so it earns a click instead of a decision.

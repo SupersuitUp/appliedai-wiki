@@ -1,10 +1,14 @@
 ---
-title: Website-Deployed Slide Decks
-slug: /playbooks/website-deployed-slide-decks
+title: "Deploy a Slide Deck as a Website"
+slug: /playbooks/deploy-a-slide-deck-as-a-website
 description: "How to build a slide deck as a page on your own website: one fixed-proportion canvas that scales to fit any screen (so a phone shows a perfect miniature of the projector view, never a reflowed mess), click left and right to navigate like presenter view, exports to a crisp PDF from the same code, and is built by applying the brand OS."
 ---
 
-# Website-Deployed Slide Decks
+# Deploy a Slide Deck as a Website
+
+*Build the deck as a page on your own site: one fixed-proportion canvas that scales to fit any screen, left and right to navigate like presenter view, a crisp PDF exported from the same code.*
+
+---
 
 {/* last_updated: 2026-06-23 */}
 {/* version: 0.1 */}

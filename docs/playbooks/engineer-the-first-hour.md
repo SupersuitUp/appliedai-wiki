@@ -1,10 +1,10 @@
 ---
-title: "Activation"
-slug: /playbooks/activation
+title: "Engineer the First Hour"
+slug: /playbooks/engineer-the-first-hour
 description: "Engineering the first hour with a visionary entrepreneur so they cross from 'this exists' to 'this is the lever I have been missing.' Without that crossing, nothing downstream compounds."
 ---
 
-# Activation
+# Engineer the First Hour
 
 *Engineering the first hour with a visionary entrepreneur so they cross from "this exists" to "this is the lever I have been missing." Without that crossing, nothing downstream compounds.*
 

@@ -28,9 +28,9 @@ The audit's core discovery: **the documented process is never the real process.*
 
 Before anything ships, prove the system behaves. Build a golden data set from the client's own history (past emails, past presentations, past decisions), define what "correct" means, and run the system against it. Produce an evaluation report: of 50 runs, 41 passed; of the 9 that failed, 5 had missing data and 4 pulled the wrong record. Then use that breakdown to improve the system.
 
-For non-deterministic tasks (a presentation, a creative output) you will never reach a perfect eval, so you bake in a human-in-the-loop feedback mechanism that keeps improving the harness over time. See [First Eval Harness](/playbooks/first-eval-harness) and [Evals](/disciplines/evals) for the craft.
+For non-deterministic tasks (a presentation, a creative output) you will never reach a perfect eval, so you bake in a human-in-the-loop feedback mechanism that keeps improving the harness over time. See [Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one) and [Evals](/disciplines/evals) for the craft.
 
-Route by safety: wherever the system is not safe to act autonomously, send it to a human. Most companies are best served by majority deterministic software, model judgment where it earns its place, and a human approval gate ([default to determinism](/perspectives/default-to-determinism)).
+Route by safety: wherever the system is not safe to act autonomously, send it to a human. Most companies are best served by majority deterministic software, model judgment where it earns its place, and a human approval gate ([Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code)).
 
 ## Stage 3: Deployment (integrate, do not migrate)
 
@@ -48,5 +48,5 @@ Measure every deployed system against the only three buckets that matter to a bu
 ## Further Reading
 
 - [Forward Deployed Engineer](/roles/forward-deployed-engineer) for the seat that runs this loop.
-- [Pilot Scope](/playbooks/pilot-scope) and [Pilot to Engagement](/playbooks/pilot-to-engagement) for the adjacent pilot-shaped entry patterns.
+- [Scope the Pilot](/playbooks/scope-the-pilot) and [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement) for the adjacent pilot-shaped entry patterns.
 - [AI Opportunity Radar](/playbooks/ai-opportunity-radar) for a complementary way to find the workflow worth rebuilding.

@@ -1,10 +1,10 @@
 ---
-title: "Pilot scope"
-slug: /playbooks/pilot-scope
+title: "Scope the Pilot"
+slug: /playbooks/scope-the-pilot
 description: "Define the concrete bounded experiment that proves or disproves whether AI delivers real value for a specific part of the business."
 ---
 
-# Pilot scope
+# Scope the Pilot
 
 *A pilot is not a proposal and not a wishlist. It is a concrete, bounded experiment that proves (or disproves) whether AI can deliver real value for a specific part of the business.*
 
@@ -12,7 +12,7 @@ description: "Define the concrete bounded experiment that proves or disproves wh
 
 ## When to run this
 
-You have done [workflow decomposition](/playbooks/workflow-decomposition) and identified a candidate workflow or action where AI looks like it could move a real number. Now you need to scope a focused first engagement that ships in 8 to 12 weeks and produces evidence you can decide on. Run this before any contract, statement of work, or build.
+You have done [Decompose the Workflow](/playbooks/decompose-the-workflow) and identified a candidate workflow or action where AI looks like it could move a real number. Now you need to scope a focused first engagement that ships in 8 to 12 weeks and produces evidence you can decide on. Run this before any contract, statement of work, or build.
 
 This playbook does not apply if the engagement is exploratory strategy, training, or culture work without a build component. It applies to pilots that produce a working AI system tied to a measurable outcome.
 
@@ -94,7 +94,7 @@ If it succeeds, the next move. If it fails, what changes.
 
 ## Further Reading
 
-- [Workflow decomposition](/playbooks/workflow-decomposition). The upstream playbook that produces the candidate problems.
-- [Pilot pitch](/playbooks/pilot-pitch). The practitioner side of the same conversation.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow). The upstream playbook that produces the candidate problems.
+- [Pitch the Pilot](/playbooks/pitch-the-pilot). The practitioner side of the same conversation.
 - [Pricing](/playbooks/pricing). How to price the engagement once the scope is set.
-- [Pilot to engagement](/playbooks/pilot-to-engagement). The conversion playbook for turning a paid POC into a year-long engagement.
+- [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement). The conversion playbook for turning a paid POC into a year-long engagement.

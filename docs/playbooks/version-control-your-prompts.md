@@ -1,6 +1,6 @@
 ---
 title: "Version-Control Your Prompts"
-slug: /disciplines/version-control-your-prompts
+slug: /playbooks/version-control-your-prompts
 description: "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
 image: "/img/comics/version-control-your-prompts.png"
 ---
@@ -46,7 +46,7 @@ The reason this matters more than it looks: image and language models keep getti
 
 Stored prompts compound the same way [compounding docs](/concepts/compounding-docs) do. Each prompt you save makes the next regeneration cheaper. After a year you have a library of generative recipes you can lift, fork, and re-aim at whatever model is currently best. Without that library, every new model is a fresh start.
 
-This is the same logic as [learn the harness, not the wrapper](/perspectives/learn-the-harness-not-the-wrapper). The prompt is the primitive. The model is the wrapper of the week. You want your work portable across the wrappers, anchored to artifacts you own.
+This is the same logic as [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning). The prompt is the primitive. The model is the wrapper of the week. You want your work portable across the wrappers, anchored to artifacts you own.
 
 A working corollary: don't try to nail the prompt on the first try. Ship the imperfect version, store it, regenerate with the next iteration. The prompt improves like code does. It's never "done." Treating it as precious because you finally got one good output is the trap.
 
@@ -79,6 +79,6 @@ The bar is simple: if you might want to reproduce or improve this output later, 
 
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): when you go from regenerating one image to running a coherent visual corpus
 - [Compounding Docs](/concepts/compounding-docs): why every file you keep makes the next AI run sharper
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): the prompt is the primitive
-- [Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context): the artifacts worth keeping outlive the tools that made them
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): the prompt is the primitive
+- [Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset): the artifacts worth keeping outlive the tools that made them
 - [Graphic Style](/reference/graphic-style): the wiki's own image-prompt policy, including the reproducible alt-text spec

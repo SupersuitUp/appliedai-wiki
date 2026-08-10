@@ -84,7 +84,7 @@ Before you automate a workflow, it should pass these checks:
 
 **1. Can you draw it?**
 
-If you can't draw the workflow as a linear sequence of steps (see [workflow decomposition](/playbooks/workflow-decomposition)), you don't understand it well enough to automate it. Automating something you can't draw means encoding confusion.
+If you can't draw the workflow as a linear sequence of steps (see [Decompose the Workflow](/playbooks/decompose-the-workflow)), you don't understand it well enough to automate it. Automating something you can't draw means encoding confusion.
 
 **2. Has a human done it successfully, repeatedly?**
 
@@ -139,7 +139,7 @@ AI is the most powerful scaling tool ever created. That's exactly why you need t
 
 ## Further Reading
 
-- [Workflow decomposition](/playbooks/workflow-decomposition). The discipline of drawing your business as a workflow before you automate any of it.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow). The discipline of drawing your business as a workflow before you automate any of it.
 
 {/* TODO: restore links once these playbooks exist:
   - /playbooks/business-owner-quick-check (Quick check: are you actually ready?)

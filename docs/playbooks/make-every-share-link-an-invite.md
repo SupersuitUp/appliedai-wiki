@@ -84,12 +84,12 @@ The guestbook does double duty: it rewards completion with authorship, and it se
 - **Whitelist as root set.** The founders and hand-picked members become the roots of the forest. Everyone else hangs off a branch, so the graph is connected by construction.
 - **Revoke, never delete.** A revoked member's code stops working and their access ends, but their node and edges stay. The history is the asset.
 - **Server-side everything.** Deny-all database rules plus token-verified API routes cost one afternoon and remove the entire class of client-side data leaks, including gated content hiding in static page props.
-- **No charging while the graph is young.** Attribution-gated free access builds the graph; monetization can arrive later with the graph intact. This governs product membership, not client work: a [pilot still gets sold as paid](/playbooks/pilot-to-engagement), because a buyer who pays nothing values nothing, while a member who was personally invited values the invitation itself.
+- **No charging while the graph is young.** Attribution-gated free access builds the graph; monetization can arrive later with the graph intact. This governs product membership, not client work: a [pilot still gets sold as paid](/playbooks/convert-the-pilot-to-an-engagement), because a buyer who pays nothing values nothing, while a member who was personally invited values the invitation itself.
 
 ## Further Reading
 
-- [The Product Is an Operation](/concepts/the-product-is-an-operation) the operations mindset behind building distribution into the product itself
-- [Activation](/playbooks/activation) engineering the first hour; the invite wall is the pre-activation moment for whoever receives a shared link
+- [The Product as Operation](/concepts/the-product-as-operation) the operations mindset behind building distribution into the product itself
+- [Engineer the First Hour](/playbooks/engineer-the-first-hour) engineering the first hour; the invite wall is the pre-activation moment for whoever receives a shared link
 - [The Cheaper Code Gets, the Simpler You Should Build](/perspectives/the-cheaper-code-gets-the-simpler-you-should-build) why five collections and token-checked routes beat a referral SaaS
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop) the loop framing; the invite chain is a growth loop with the graph as its sensor layer
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) the baseline stack assumptions this pattern sits on

@@ -27,7 +27,7 @@ If your situation does not match the "when to run this," the playbook will not w
 
 ## Catalog
 
-- **[First eval harness in week one](/playbooks/first-eval-harness)**: set up the minimum viable eval loop on a new engagement so quality is measured from day one.
+- **[Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one)**: set up the minimum viable eval loop on a new engagement so quality is measured from day one.
 
 ## Further Reading
 

@@ -1,10 +1,10 @@
 ---
-title: "Pilot pitch"
-slug: /playbooks/pilot-pitch
+title: "Pitch the Pilot"
+slug: /playbooks/pitch-the-pilot
 description: "Propose your first engagement as a small, well-scoped pilot that is almost impossible for the client to say no to."
 ---
 
-# Pilot pitch
+# Pitch the Pilot
 
 *How to propose your first engagement so it is almost impossible to say no. One problem, one deliverable, a short clock, a price that makes the risk feel trivial against the upside.*
 
@@ -12,7 +12,7 @@ description: "Propose your first engagement as a small, well-scoped pilot that i
 
 ## When to run this
 
-You have identified a real problem in a client's business (often through [workflow decomposition](/playbooks/workflow-decomposition)) and you are ready to propose your first engagement. The instinct will be to swing big. Resist it. Run this playbook to scope the proposal down to something that almost has to happen.
+You have identified a real problem in a client's business (often through [Decompose the Workflow](/playbooks/decompose-the-workflow)) and you are ready to propose your first engagement. The instinct will be to swing big. Resist it. Run this playbook to scope the proposal down to something that almost has to happen.
 
 This playbook does not apply when you already have a multi-year retainer relationship with a client and they are asking you to scope a new phase. It applies to the opening move, the first engagement that builds the trust everything else compounds on.
 
@@ -30,7 +30,7 @@ This playbook does not apply when you already have a multi-year retainer relatio
 
 3. **Set the clock.** 2 to 4 weeks. Long enough to ship something real. Short enough that the client does not have to commit to a relationship before seeing whether it works.
 
-4. **Price for low friction.** Keep the price accessible for a first engagement. The math should be obvious. If the deliverable saves the client 8 hours a week at a $100/hour loaded cost, that is $40,000 a year. A $4,000 pilot is a 10x payback in the first year. The math sells itself. This number is for the trust-based opener with a warm SMB relationship; a budget-holding mid-market or PE buyer runs through [Pilot to Engagement](/playbooks/pilot-to-engagement) instead, where POC floors sit an order of magnitude higher.
+4. **Price for low friction.** Keep the price accessible for a first engagement. The math should be obvious. If the deliverable saves the client 8 hours a week at a $100/hour loaded cost, that is $40,000 a year. A $4,000 pilot is a 10x payback in the first year. The math sells itself. This number is for the trust-based opener with a warm SMB relationship; a budget-holding mid-market or PE buyer runs through [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement) instead, where POC floors sit an order of magnitude higher.
 
 5. **Write the pitch in five lines.** See the template below. Send it in an email or a text message. Do not over-produce this. The trust is already there. You are making it easy for them to say yes.
 
@@ -86,8 +86,8 @@ Keep it short. Do not over-produce it. The trust is already there. You are just 
 
 ## Further Reading
 
-- [Pilot scope](/playbooks/pilot-scope). The business-owner side of the same conversation.
+- [Scope the Pilot](/playbooks/scope-the-pilot). The business-owner side of the same conversation.
 - [Pricing](/playbooks/pricing). How to price pilots and the work that follows.
-- [ICP clarity](/playbooks/icp-clarity). Get clear on who you serve before you pitch.
+- [Nail Your ICP First](/playbooks/nail-your-icp-first). Get clear on who you serve before you pitch.
 - [Your First Touch Should Sell the Next Step](/perspectives/your-first-touch-should-sell-the-next-step). The staging discipline that gets you to the point where a pilot pitch is welcome.
-- [Name the Best Argument Against You First](/perspectives/name-the-best-argument-against-you-first). Handle the objection inside the proposal rather than in the reply after it.
+- [Your Reader Already Has the Objection](/perspectives/your-reader-already-has-the-objection). Handle the objection inside the proposal rather than in the reply after it.

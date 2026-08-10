@@ -108,8 +108,8 @@ That's the bar worth aiming for.
 
 ## Further Reading
 
-- [ICP clarity](/playbooks/icp-clarity). Get clear on who you're serving before you optimize anything.
-- [First eval harness](/playbooks/first-eval-harness). The technical scaffolding for systematic improvement.
+- [Nail Your ICP First](/playbooks/nail-your-icp-first). Get clear on who you're serving before you optimize anything.
+- [Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one). The technical scaffolding for systematic improvement.
 
 {/* TODO: restore link once this playbook exists:
   - /playbooks/beyond-automation (the business-owner-side framing of this same principle)

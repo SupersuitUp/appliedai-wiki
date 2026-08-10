@@ -67,18 +67,18 @@ If those four are true, evals are real in the leader's organization. If they are
 
 ## Pages in this discipline
 
-- **[The Judgment Line](/perspectives/the-judgment-line)**: where AI ends and human judgment begins. The most important boundary in any AI system.
-- **[The Overconfidence Trap](/perspectives/the-overconfidence-trap)**: the failure mode where the model is wrong with conviction and the operator believes it.
-- **[LLM Psychosis](/perspectives/llm-psychosis)**: the failure mode where the model loses the plot mid-conversation. How to detect and prevent.
+- **[LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else)**: where AI ends and human judgment begins. The most important boundary in any AI system.
+- **[AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence)**: the failure mode where the model is wrong with conviction and the operator believes it.
+- **[Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job)**: the failure mode where the model loses the plot mid-conversation. How to detect and prevent.
 - **[Observable Behavior Engineering](/disciplines/observable-behavior-engineering)**: instrumenting AI systems so failures are visible before they reach the customer.
 
 ## Playbooks downstream
 
-- **[First eval harness in week one](/playbooks/first-eval-harness)**: the procedure for standing up the minimum viable eval loop on a new engagement.
+- **[Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one)**: the procedure for standing up the minimum viable eval loop on a new engagement.
 
 ## Further Reading
 
 - [Disciplines](/disciplines)
-- [The Judgment Line](/perspectives/the-judgment-line)
-- [First eval harness in week one](/playbooks/first-eval-harness)
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else)
+- [Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one)
 - [Golden Chain](/concepts/golden-chain): a set-building loop whose verifier decides which asset is accepted before it conditions the next one.

@@ -21,7 +21,7 @@ By the time a client has moved through all four steps:
 - The consultant has been embedded in the client's strategic AI thinking for 6-18 months.
 - The client has paid the consultant six to seven figures over the course of the ladder.
 - The consultant has visibility into the client's full operations and can spot the next opportunity before any competitor.
-- The engagement structure is contracted and recurring, which produces the kind of revenue that re-rates the firm's valuation (see [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold)).
+- The engagement structure is contracted and recurring, which produces the kind of revenue that re-rates the firm's valuation (see [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm)).
 
 A client who completes all four steps is structurally hard for another firm to win.
 
@@ -119,8 +119,8 @@ The engagement contract for each step lives in the consulting firm's repository 
 ## Further Reading
 
 - [The AI Tech Partnership Revenue Model](/playbooks/ai-tech-partnership-revenue-model): the pricing structure for step 4.
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai): why the workshop deliverable matters as much as the build deliverable.
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative): why the workshop deliverable matters as much as the build deliverable.
 - [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): the client profile the ladder is calibrated to.
-- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold): why the partnership step matters for the firm's valuation.
+- [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm): why the partnership step matters for the firm's valuation.
 - [Pricing](/playbooks/pricing): broader pricing playbook this ladder sits inside.
-- [Pilot to Engagement](/playbooks/pilot-to-engagement): the related transition playbook.
+- [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement): the related transition playbook.

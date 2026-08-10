@@ -63,7 +63,7 @@ my-life/
     grandmother-rose.md   # one file per recurring person, grown over time
 ```
 
-This is the personal version of [knowledge repo design](/playbooks/knowledge-repo-design): raw material in one pantry, future products assembled from it. If you already run a broader personal workspace, the life folder lives inside it.
+This is the personal version of [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo): raw material in one pantry, future products assembled from it. If you already run a broader personal workspace, the life folder lives inside it.
 
 Existing journals are intake, not homework. Scan or photograph them into `journals/` first; transcribe opportunistically, starting with the volumes the rule file marks as most important. The interview will pull from them ("your 2011 journal mentions a move you have never told me about").
 
@@ -113,5 +113,5 @@ At the end of each session, say "wrap up", copy the transcript, and save it as a
 - [Generate a Microautobiography](/playbooks/generate-a-microautobiography): the ready-made transformation for one format, run after the corpus exists
 - [Local-First Software](/concepts/local-first-software): why the files must be yours
 - [Agent Rule Files](/concepts/agent-rule-files): the mechanism behind the self-directing interview
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design): the pantry-and-products pattern this personalizes
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo): the pantry-and-products pattern this personalizes
 - [AI-Led Brand Interview](/playbooks/ai-led-brand-interview): the same interview craft pointed at a venture instead of a life

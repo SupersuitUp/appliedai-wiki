@@ -1,10 +1,10 @@
 ---
-title: "ICP clarity"
-slug: /playbooks/icp-clarity
+title: "Nail Your ICP First"
+slug: /playbooks/nail-your-icp-first
 description: "Get rigorously honest about who you serve before you build anything. Most AI adoption problems are clarity problems wearing a tooling costume."
 ---
 
-# ICP clarity
+# Nail Your ICP First
 
 *Before you optimize workflows, build agents, or automate operations, answer one question with rigorous honesty: who are you serving? Your ICP is the foundation everything else builds on. If it is wrong, every AI workflow you build on top of it is optimizing in the wrong direction.*
 
@@ -84,6 +84,6 @@ The bottleneck is almost never the model or the tooling. It is clarity and conte
 
 ## Further Reading
 
-- [Workflow decomposition](/playbooks/workflow-decomposition). The next step once the ICP is clear.
-- [Pilot scope](/playbooks/pilot-scope). Scoping pilots around real ICP pain.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow). The next step once the ICP is clear.
+- [Scope the Pilot](/playbooks/scope-the-pilot). Scoping pilots around real ICP pain.
 - [Pricing](/playbooks/pricing). How clarity on who you serve sharpens your pricing.

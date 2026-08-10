@@ -1,11 +1,11 @@
 ---
-title: "First eval harness in week one"
-slug: /playbooks/first-eval-harness
+title: "Stand Up an Eval Harness in Week One"
+slug: /playbooks/stand-up-an-eval-harness-in-week-one
 sidebar_position: 1
 description: "Stand up the minimum viable eval loop on a new engagement so quality is measured from day one, not discovered three months in."
 ---
 
-# First eval harness in week one
+# Stand Up an Eval Harness in Week One
 
 *Stand up the minimum viable eval loop on a new engagement so quality is measured from day one, not discovered three months in.*
 

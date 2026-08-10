@@ -1,10 +1,10 @@
 ---
-title: Knowledge Repo Design
-slug: /playbooks/knowledge-repo-design
+title: "Design a Knowledge Repo"
+slug: /playbooks/design-a-knowledge-repo
 description: A monorepo pattern for knowledge work. Shared raw material in one pantry, product folders that assemble that material into outputs. Forager first, chef second.
 ---
 
-# Knowledge Repo Design
+# Design a Knowledge Repo
 
 *A monorepo pattern for knowledge work. Shared raw material in one pantry, product folders that assemble that material into outputs. Forager first, chef second.*
 

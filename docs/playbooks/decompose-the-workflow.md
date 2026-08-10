@@ -1,10 +1,10 @@
 ---
-title: "Workflow decomposition"
-slug: /playbooks/workflow-decomposition
+title: "Decompose the Workflow"
+slug: /playbooks/decompose-the-workflow
 description: "Draw the entire business as one linear workflow, decompose to irreducible actions, then classify each one as automatable, augmentable, or human-only."
 ---
 
-# Workflow decomposition
+# Decompose the Workflow
 
 *Draw the entire business as one linear workflow, then decompose each stage to irreducible actions. What you cannot draw, you cannot automate, improve, or hand to an agent and expect consistent results.*
 
@@ -54,7 +54,7 @@ If those four are true, you can scope a pilot against this map. The pilot's "wha
 Classification tells you which steps to attack. It does not tell you how. Before building anything, run each "automate now" or "automate soon" step through a solution menu and pick the cheapest option that works:
 
 - **Nothing (legibility was the fix).** Writing the step down often reveals it was dumb, redundant, or a workaround for a problem you can delete outright. The best automation is a step you no longer perform. Check this first, on every step.
-- **An existing tool.** Search for a product that already does this, integrated and maintained. Reinventing it in an agent is a worse use of your time (the discipline in [Idolizing the Build](/perspectives/idolizing-the-build)).
+- **An existing tool.** Search for a product that already does this, integrated and maintained. Reinventing it in an agent is a worse use of your time (the discipline in [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build)).
 - **A skill file.** A reusable prompt-plus-instructions the agent runs on demand. The right answer for repeatable judgment work the model can already do with the right context.
 - **A custom app.** Worth it when the step recurs constantly, needs a clean interface for a non-technical operator, or wraps enough context that a skill file gets unwieldy.
 - **A developer.** Some steps are worth paying a human to build once, correctly, especially anything touching money, compliance, or brittle integrations.
@@ -112,5 +112,5 @@ That is one business function fully decomposed. Repeat for every function: sales
 ## Further Reading
 
 - [Playbooks](/playbooks). Other engagement playbooks.
-- [Pilot scope](/playbooks/pilot-scope). The natural next step after decomposition.
+- [Scope the Pilot](/playbooks/scope-the-pilot). The natural next step after decomposition.
 - [Disciplines](/disciplines). The craft pillars an applied AI engineer reaches for once the map is drawn.

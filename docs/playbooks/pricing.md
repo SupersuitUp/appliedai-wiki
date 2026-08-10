@@ -18,7 +18,7 @@ This playbook does not apply when the price is fixed by an external rate card (a
 
 ## Prerequisites
 
-- A defined scope (a [pilot scope](/playbooks/pilot-scope) document is ideal, even a draft).
+- A defined scope (a [Scope the Pilot](/playbooks/scope-the-pilot) document is ideal, even a draft).
 - Enough discovery to estimate the annual business impact in dollars.
 - Honest answers about the client's revenue, decision-maker access, urgency, and complexity.
 - Honest answers about your own opportunity cost, excitement, and cash needs.
@@ -158,7 +158,7 @@ You take an agreed percentage of the gain itself: the savings you uncover or the
 
 ## The discovery conversation
 
-You do not lead with the price. You lead with the diagnosis. If the client has already completed a [pilot scope](/playbooks/pilot-scope), you can move faster. If they have not, the discovery conversation IS the scoping, and it should be a paid engagement.
+You do not lead with the price. You lead with the diagnosis. If the client has already completed a [Scope the Pilot](/playbooks/scope-the-pilot), you can move faster. If they have not, the discovery conversation IS the scoping, and it should be a paid engagement.
 
 ### Step 1: diagnose the pain
 
@@ -350,7 +350,7 @@ Once you start retainers, send monthly impact reports. Show the numbers. You are
 
 ## Further Reading
 
-- [ICP clarity](/playbooks/icp-clarity). Get clear on who you serve before you price.
-- [Pilot scope](/playbooks/pilot-scope). The upstream scoping doc that makes pricing easier.
-- [Pilot pitch](/playbooks/pilot-pitch). The proposal format that pairs with these prices.
-- [Pilot to engagement](/playbooks/pilot-to-engagement). The conversion pattern from a paid POC into a year-long engagement.
+- [Nail Your ICP First](/playbooks/nail-your-icp-first). Get clear on who you serve before you price.
+- [Scope the Pilot](/playbooks/scope-the-pilot). The upstream scoping doc that makes pricing easier.
+- [Pitch the Pilot](/playbooks/pitch-the-pilot). The proposal format that pairs with these prices.
+- [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement). The conversion pattern from a paid POC into a year-long engagement.

@@ -56,5 +56,5 @@ The move is not "never repeat yourself." It is "when a pattern has proven itself
 
 - [Fat Skills](/concepts/fat-skills): the same instinct applied to capability instead of code. Package a proven workflow so it is invoked, not re-explained.
 - [Generate a Microautobiography](/playbooks/generate-a-microautobiography) and [Generate an Agentic Brand OS](/playbooks/generate-agentic-brand-os): build pipelines whose shared player and generation layer are prime packaging candidates once copied.
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design): the content counterpart, structuring what you reuse so it stays one source of truth.
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo): the content counterpart, structuring what you reuse so it stays one source of truth.
 - [Don't Scale Slop](/playbooks/dont-scale-slop): scaling multiplies whatever you copy, quality and defects alike.

@@ -19,7 +19,7 @@ The resolution is to stop treating "clean" and "deleted" as the same operation. 
 
 ## Your loose files are a context corpus
 
-An applied-AI operator's advantage is the accumulated material an agent can search: prior artifacts, the screenshot of the dashboard you were debugging, the export you generated for a client three weeks ago. This is the same logic behind the [Capture-First Autobiography](/playbooks/capture-first-autobiography) and [Knowledge Repo Design](/playbooks/knowledge-repo-design): the corpus is the asset, and every output you produce is a projection of it. Deleting to tidy up is deleting the corpus to clean the desk.
+An applied-AI operator's advantage is the accumulated material an agent can search: prior artifacts, the screenshot of the dashboard you were debugging, the export you generated for a client three weeks ago. This is the same logic behind the [Capture-First Autobiography](/playbooks/capture-first-autobiography) and [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo): the corpus is the asset, and every output you produce is a projection of it. Deleting to tidy up is deleting the corpus to clean the desk.
 
 Storage is the cheapest thing you own. A terabyte external drive costs less than an hour of your time. There is no economic reason to destroy a file you might want to hand an agent later. The only real cost of keeping everything is disorder, and disorder is solved by structure, not by deletion.
 
@@ -60,6 +60,6 @@ Once the corpus lives in dated archives, pruning becomes a calm, occasional revi
 ## Further Reading
 
 - [The Capture-First Autobiography](/playbooks/capture-first-autobiography) the same corpus-is-the-asset logic applied to a life story.
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design) structuring the material you keep so it stays retrievable.
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo) structuring the material you keep so it stays retrievable.
 - [Context Searching](/concepts/context-searching) why an accumulated file corpus is worth keeping in the first place.
 - [Why Truth Management Matters](/disciplines/truth-management/why-it-matters) keeping the context your agentic system runs on accurate and intact.

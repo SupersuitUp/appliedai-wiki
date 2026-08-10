@@ -19,7 +19,7 @@ The dominant pricing model in AI consulting is time-and-materials or fixed-scope
 - Recurring annual contract values in the $200k-$2M+ range.
 - Revenue that scales with the client's growth, not with the consultant's hours.
 - Strategic alignment between consultant and client (when the client wins, the consultant wins).
-- The kind of contracted, performance-linked revenue that re-rates the firm's valuation at exit (see [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold)).
+- The kind of contracted, performance-linked revenue that re-rates the firm's valuation at exit (see [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm)).
 - Defensibility: a partnership-shaped engagement is structurally harder for a competitor to displace than a fixed-scope project.
 
 ## When it works
@@ -105,6 +105,6 @@ The reason this model produces dramatically more revenue than time-and-materials
 
 - [Workshop → Blueprint → Project → Partnership Engagement Ladder](/playbooks/workshop-blueprint-project-partnership-ladder): the engagement structure this revenue model lives inside.
 - [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation): the structural reason this model works.
-- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold): what partnership-shaped revenue compounds toward.
+- [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm): what partnership-shaped revenue compounds toward.
 - [Pricing](/playbooks/pricing): broader pricing playbook this model sits inside.
-- [Lifestyle or Enterprise-Value Posture](/perspectives/lifestyle-or-enterprise-value-posture): the strategic context that makes the partnership model worth pursuing.
+- [Lifestyle or Enterprise Value Is a Day-One Decision](/perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision): the strategic context that makes the partnership model worth pursuing.

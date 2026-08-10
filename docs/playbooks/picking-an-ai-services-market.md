@@ -19,7 +19,7 @@ For an [AI-native services company](/concepts/ai-native-services-company), marke
 
 **1. Low trust.** The work is already outsourced, and the customer cares about the final product, not how it got made. You are displacing a vendor, not asking the customer to do something new. This matters enormously: you are not changing behavior, you are showing up where the budget already lives and doing the work. Markets where the customer insists on owning the process internally are a much harder sell.
 
-**2. Low judgment at the task level.** Break the work into pieces. If every piece needs a human exercising real judgment, you cannot scale. You need most steps automatable, with judgment concentrated in a few places where humans stay in the loop. This is the same architecture as [the judgment line](/perspectives/the-judgment-line), applied to a whole market instead of a single system: the LLM and code carry the volume, humans carry the few decisions that genuinely need them.
+**2. Low judgment at the task level.** Break the work into pieces. If every piece needs a human exercising real judgment, you cannot scale. You need most steps automatable, with judgment concentrated in a few places where humans stay in the loop. This is the same architecture as [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else), applied to a whole market instead of a single system: the LLM and code carry the volume, humans carry the few decisions that genuinely need them.
 
 **3. A high intelligence threshold.** This sounds like it contradicts trait two, but it does not. The overall work has to be genuinely hard, hard enough that models plus humans are required to deliver an outcome the customer accepts. Easy work gets commoditized by anyone, including the customer. The sweet spot is work that decomposes into mostly-automatable steps but is hard in aggregate.
 
@@ -44,5 +44,5 @@ Per YC: tax, audit, insurance, mortgages, parts of healthcare, parts of logistic
 ## Further Reading
 
 - [The AI-Native Services Company](/concepts/ai-native-services-company) for the model this filter feeds.
-- [The Judgment Line](/perspectives/the-judgment-line) for the trait-two architecture in system design.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else) for the trait-two architecture in system design.
 - [The AI-Services Founder](/roles/ai-services-founder) for who runs the resulting operation.

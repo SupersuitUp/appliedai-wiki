@@ -1,10 +1,10 @@
 ---
-title: "Pilot to engagement"
-slug: /playbooks/pilot-to-engagement
+title: "Convert the Pilot to an Engagement"
+slug: /playbooks/convert-the-pilot-to-an-engagement
 description: "Structure a paid three-month POC so the year-long engagement is almost automatic. The MBB wedge, copyable by any boutique that can execute the shape."
 ---
 
-# Pilot to engagement
+# Convert the Pilot to an Engagement
 
 *The MBB firms built their long contracts on a three-month proof of concept followed by a year-long roll-out. The structure is now open-source. Any boutique AI consultancy that can execute it can capture MBB-shaped revenue without the MBB brand.*
 
@@ -24,9 +24,9 @@ This playbook does not apply when the buyer is asking for a one-off project, adv
 
 ## Steps
 
-1. **Sell the POC as paid, not free.** A free POC trains the buyer to undervalue the work. The POC pricing should sit between $9K/month at the floor and $30K+/month for fund-level retainers (the floor echoes the practitioner quoted in [pricing](/playbooks/pricing)'s Supporting voices; these numbers govern budget-holding mid-market and PE buyers, not the warm-SMB opener in [Pilot Pitch](/playbooks/pilot-pitch)). The buyer is paying for evidence, not for a demo.
+1. **Sell the POC as paid, not free.** A free POC trains the buyer to undervalue the work. The POC pricing should sit between $9K/month at the floor and $30K+/month for fund-level retainers (the floor echoes the practitioner quoted in [pricing](/playbooks/pricing)'s Supporting voices; these numbers govern budget-holding mid-market and PE buyers, not the warm-SMB opener in [Pitch the Pilot](/playbooks/pitch-the-pilot)). The buyer is paying for evidence, not for a demo.
 
-2. **Interview every person who touches the function.** This is the foundational month. Not a sample. Not the team leads only. Every single person whose work flows through the function. The output is a workflow map and a universe map (see [pilot scope](/playbooks/pilot-scope)).
+2. **Interview every person who touches the function.** This is the foundational month. Not a sample. Not the team leads only. Every single person whose work flows through the function. The output is a workflow map and a universe map (see [Scope the Pilot](/playbooks/scope-the-pilot)).
 
 3. **Scope the transformation, then deploy inside a subset of the team.** Pick one squad, one geography, one product line. Deploy the AI workflow there. Let them use it for the back half of the POC. The point is generating evidence the buyer can point at, not boiling the ocean.
 
@@ -44,7 +44,7 @@ The structure is copyable. The execution is the moat.
 
 ## Related
 
-- [Pilot scope](/playbooks/pilot-scope) for the inner-loop "how to actually scope a pilot" mechanics.
+- [Scope the Pilot](/playbooks/scope-the-pilot) for the inner-loop "how to actually scope a pilot" mechanics.
 - [Pricing AI engagements](/playbooks/pricing) for the dollar anchors.
 - [PE fund cascade](/engagement-patterns/pe-fund-cascade) for the buyer pattern that multiplies this wedge across portcos.
 
