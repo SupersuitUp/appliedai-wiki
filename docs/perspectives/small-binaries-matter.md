@@ -31,7 +31,7 @@ The lesson is not "keep binaries out of version control." Two distinctions do th
 
 **Size and count.** A cover image, a social share card, a logo: kilobytes to low megabytes, dozens of files, changing rarely. These belong in the repo. They version with the code that references them, they make the repo self-contained, and their history cost rounds to zero. Small binaries matter, and git handles them fine.
 
-**Master versus derivative.** The masters (source art, original renders, session logs) are precious substrate in the sense of [Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context): irrecoverable if lost, so they get version control in their own source repos. The platform-ready WebP/MP3 set is a derivative: regenerable from the masters by a pipeline. Derivatives at scale belong in object storage, behind whatever access control the product needs.
+**Master versus derivative.** The masters (source art, original renders, session logs) are precious substrate in the sense of [Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset): irrecoverable if lost, so they get version control in their own source repos. The platform-ready WebP/MP3 set is a derivative: regenerable from the masters by a pipeline. Derivatives at scale belong in object storage, behind whatever access control the product needs.
 
 The failure mode is the cross-product: a large derivative set inside the app repo. It inflates every clone, bloats every push, couples asset access to static hosting, and buys nothing, because the derivative was never the thing worth protecting.
 
@@ -63,8 +63,8 @@ Agents also fix it faster: the entire repair (bucket, signed-URL gate, upload pi
 
 ## Further Reading
 
-- [Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context) the master/derivative distinction is the same inversion: protect the substrate, treat the regenerable layer as disposable
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design) deciding what lives in which repo is the same design act for prose that this page argues for binaries
+- [Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset) the master/derivative distinction is the same inversion: protect the substrate, treat the regenerable layer as disposable
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo) deciding what lives in which repo is the same design act for prose that this page argues for binaries
 - [Protect Your Truth](/disciplines/truth-management/protect-your-truth) matching access controls to sensitivity, which a `public/` folder cannot do
 - [Make Every Share Link an Invite](/playbooks/make-every-share-link-an-invite) the gated-product pattern this platform uses on top of the private asset store
 - [Git](/reference/tools/git) the tool whose strengths (text, history, small files) define exactly where it stops being the right store

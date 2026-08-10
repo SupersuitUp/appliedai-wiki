@@ -39,13 +39,13 @@ The order of construction still matters, and it is the order [Skill File First, 
 
 A button makes a promise a chat box does not: press me and the same thing happens every time. An agent cannot fully keep that promise, so the packaging has to handle the gap in one of two ways.
 
-Constrain the skill until the promise is nearly true, per [Default to Determinism](/perspectives/default-to-determinism). Or show the work: stream the agent's steps into the page so the user watches the investigation instead of a spinner. The visible trace turns variance from a betrayal into a feature. A button over an unconstrained agent with a hidden trace is the worst of both: app-shaped confidence over chat-shaped behavior.
+Constrain the skill until the promise is nearly true, per [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code). Or show the work: stream the agent's steps into the page so the user watches the investigation instead of a spinner. The visible trace turns variance from a betrayal into a feature. A button over an unconstrained agent with a hidden trace is the worst of both: app-shaped confidence over chat-shaped behavior.
 
 ## What packaging does not solve
 
 Naming the best argument against the claim: the app layer dissolves the interface problem and none of the others.
 
-- **The permission surface.** A public door invites strangers, and strangers will ask the agent to widen its own access. The agent will cheerfully explain how. The wall has to live in the spawn configuration, outside the conversation, per [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall) and [The Permission Surface](/perspectives/the-permission-surface).
+- **The permission surface.** A public door invites strangers, and strangers will ask the agent to widen its own access. The agent will cheerfully explain how. The wall has to live in the spawn configuration, outside the conversation, per [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall) and [Permissions Are the Load-Bearing Layer of a Harness](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness).
 - **Identity and tenancy.** One person's agentic OS serving that person is simple. Serving many people, each with their own context and secrets, is a real product engineering problem the thin surface does nothing to address.
 - **The serving path.** A subscription covers you. The moment the door serves other people at volume, the economics and the terms both push the backend onto the API, which is a config change if you built the interface for it and a rewrite if you did not.
 - **Availability.** A backend that is your laptop is a backend that sleeps when your laptop does.
@@ -60,4 +60,4 @@ These are the actual remaining problems, and they are ordinary engineering. None
 - [SOP Execution App](/disciplines/sop-execution-app/) the commissioned, team-scoped form of the app layer
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product) why the surface is a control layer, never the value
 - [The GUI Is Becoming Legacy](/perspectives/the-gui-is-becoming-legacy) the operator-layer half of the same shift
-- [Default to Determinism](/perspectives/default-to-determinism) how to make a button's promise nearly true
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) how to make a button's promise nearly true

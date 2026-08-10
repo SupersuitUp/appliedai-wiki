@@ -21,7 +21,7 @@ This is because consistency is the actual thing they are buying. The customer ou
 
 If variance is the existential threat, then the operator's whole game is consistency engineering, and the product priorities follow. Evals stop being a nice-to-have and become the core instrument: you cannot manage variance you do not measure. Harness discipline, golden examples, and human-in-the-loop review gates exist primarily to compress the distribution of outputs, not just to lift the average. A service that is excellent on its best day and unacceptable on its worst is worse, commercially, than one that is merely good every single time.
 
-This is why [the product is an operation](/concepts/the-product-is-an-operation): an operation is precisely a machine for producing the same result repeatedly, and that is what the customer is paying for. Speed and cost are optimizations you earn the right to chase after you have made the output boringly reliable.
+This is why [The Product as Operation](/concepts/the-product-as-operation): an operation is precisely a machine for producing the same result repeatedly, and that is what the customer is paying for. Speed and cost are optimizations you earn the right to chase after you have made the output boringly reliable.
 
 ## The uncomfortable implication
 
@@ -33,5 +33,5 @@ It means you should resist the temptation to take on work you cannot deliver con
 
 ## Further Reading
 
-- [The Product Is an Operation](/concepts/the-product-is-an-operation) for the operations mindset variance demands.
+- [The Product as Operation](/concepts/the-product-as-operation) for the operations mindset variance demands.
 - [Evals](/disciplines/evals) for the instrument that measures the distribution you are trying to tighten.

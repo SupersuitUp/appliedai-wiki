@@ -13,7 +13,7 @@ For most business owners, the return on AI transformation is abstract. You promi
 
 ## Why the abstract pitch fails everyone else
 
-A regular owner deciding whether to invest in transformation is being asked to trade certain money now for uncertain benefit later. Time back, less drudgery, a more scalable operation. Real, but unpriced and undated. Loss aversion does the rest. This is the same reason the technology is never the thing that closes a deal: executives buy a coherent narrative they can act on, and the technology is downstream of it (see [Buying Relief, Not AI](/perspectives/buying-relief-not-ai)). Without a forcing event, the narrative has no deadline and no scoreboard.
+A regular owner deciding whether to invest in transformation is being asked to trade certain money now for uncertain benefit later. Time back, less drudgery, a more scalable operation. Real, but unpriced and undated. Loss aversion does the rest. This is the same reason the technology is never the thing that closes a deal: executives buy a coherent narrative they can act on, and the technology is downstream of it (see [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative)). Without a forcing event, the narrative has no deadline and no scoreboard.
 
 The exit supplies both. It puts a date on the decision and a dollar figure on the outcome.
 
@@ -22,7 +22,7 @@ The exit supplies both. It puts a date on the decision and a dollar figure on th
 An exit reframes every operating improvement as a valuation improvement, because a buyer pays a multiple on the earnings. Two levers, and they compound:
 
 - **Earnings.** Cut recurring cost and recover leaked revenue, and the trailing-twelve number a buyer underwrites goes up.
-- **The multiple.** De-risk the business, by removing founder-dependency, lifting recurring revenue, and making operations legible and AI-native, and a buyer pays more per dollar of those earnings (see [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold)).
+- **The multiple.** De-risk the business, by removing founder-dependency, lifting recurring revenue, and making operations legible and AI-native, and a buyer pays more per dollar of those earnings (see [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm)).
 
 The compounding is the whole pitch. Cut $100k of annual cost in a business exiting at a 4x multiple, and you did not save the owner $100k. You added roughly $400k to the sale price. A five-figure engagement that returns a multiple of itself at closing is an obvious yes in a way that "you will save time" never is. The owner can see the light at the end of the tunnel, so they will pay to renovate before the sale.
 
@@ -45,7 +45,7 @@ This is not only a seller's intuition. A boutique M&A advisor who brokers digita
 
 ## Further Reading
 
-- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold): the multiples math that makes the exit framing pay off.
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai): why the narrative, not the technology, is what an executive actually buys.
-- [Lifestyle or Enterprise-Value Posture](/perspectives/lifestyle-or-enterprise-value-posture): the consultant's own version of the same exit-value choice.
+- [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm): the multiples math that makes the exit framing pay off.
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative): why the narrative, not the technology, is what an executive actually buys.
+- [Lifestyle or Enterprise Value Is a Day-One Decision](/perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision): the consultant's own version of the same exit-value choice.
 - [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): the client profile where this engagement lands best.

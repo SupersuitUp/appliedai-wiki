@@ -1,10 +1,10 @@
 ---
-title: Effective AGI
-slug: /perspectives/effective-agi
+title: "AGI Is Already Here for People Who Can Wield It"
+slug: /perspectives/agi-is-already-here-for-people-who-can-wield-it
 description: AGI is already effective for anyone who knows how to harness it. Not perfect, not sentient, but functionally capable of executing whatever you can clearly specify.
 ---
 
-# Effective AGI
+# AGI Is Already Here for People Who Can Wield It
 
 *AGI is not coming. It is here. Not for everyone. For the people who know how to wield it.*
 
@@ -37,7 +37,7 @@ The bottleneck is not the AI. The bottleneck is you.
 
 If you believe AGI is five or ten years away, you plan accordingly. You wait. You watch. You hedge. You treat AI adoption as something you will get to eventually.
 
-If you understand that effective AGI is here now, the calculus changes completely. Every month you wait is a month where someone else is compounding their advantage with tools that already work. The [elevator economy](/perspectives/the-elevator-economy) is not a future scenario. It is the current reality. The divergence between people who have harnessed effective AGI and people who have not is already dramatic, and it is accelerating.
+If you understand that effective AGI is here now, the calculus changes completely. Every month you wait is a month where someone else is compounding their advantage with tools that already work. The [elevator economy](/perspectives/there-is-no-standing-still-anymore) is not a future scenario. It is the current reality. The divergence between people who have harnessed effective AGI and people who have not is already dramatic, and it is accelerating.
 
 This is what makes [hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency) urgent. A hyperagent is not waiting for better tools. They have taken what exists today and built a system around themselves that executes on their articulated will at scale. They are operating at a level that looks like magic to people who are still debating whether AI is "ready."
 
@@ -68,4 +68,4 @@ The tools are ready. Suit up.
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach when you harness effective AGI
 - [Context Engineering](/disciplines/context-engineering): The discipline that makes AGI effective for your specific situation
 - [Harness Engineering](/disciplines/harness-engineering): Building the persistent system around the model
-- [The Survivor Economy](/perspectives/the-survivor-economy): The economic reality created by effective AGI
+- [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people): The economic reality created by effective AGI

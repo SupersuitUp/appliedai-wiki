@@ -49,13 +49,13 @@ Held as a PDF, a brand is a cost that depreciates. Held as a version-controlled 
 
 Two things about this are not equally mature, and pretending otherwise would be dishonest.
 
-The cartridge is the settled part. The format of a brand universe (canon plus goldens plus [provenance](/disciplines/version-control-your-prompts)) is well understood and buildable today. The console, the [Agentic Brand OS](/concepts/agentic-brand-os) as a deployed general runtime, is early: an emerging pattern still being figured out, not a shrink-wrapped product. The claim here is not that the finished engine exists. It is that the brand should be *held* as a version-controlled universe now, because the data is useful the moment it exists and only gets more valuable as the engines that read it improve. Build the cartridge. The console is coming to meet it.
+The cartridge is the settled part. The format of a brand universe (canon plus goldens plus [provenance](/playbooks/version-control-your-prompts)) is well understood and buildable today. The console, the [Agentic Brand OS](/concepts/agentic-brand-os) as a deployed general runtime, is early: an emerging pattern still being figured out, not a shrink-wrapped product. The claim here is not that the finished engine exists. It is that the brand should be *held* as a version-controlled universe now, because the data is useful the moment it exists and only gets more valuable as the engines that read it improve. Build the cartridge. The console is coming to meet it.
 
 ## Further Reading
 
 - [Agentic Brand Universe](/concepts/agentic-brand-universe): the cartridge-console-projection ontology this argument rests on.
 - [Agentic Brand OS](/concepts/agentic-brand-os): the console that loads a universe and renders deliverables from it.
 - [Golden](/concepts/golden): why a human blessing, not a model, decides what enters the canon.
-- [The Judgment Line](/perspectives/the-judgment-line): the call a human makes that the machine cannot be trusted to make.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the provenance discipline that makes the universe reproducible.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the call a human makes that the machine cannot be trusted to make.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): the provenance discipline that makes the universe reproducible.
 - [Compounding Docs](/concepts/compounding-docs): the flywheel by which a well-held brand appreciates instead of depreciating.

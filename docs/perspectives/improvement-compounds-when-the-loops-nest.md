@@ -29,7 +29,7 @@ Then the operator added a fifth, and it is the one most systems never build: **t
 
 The levels are not redundant. They are different failure classes:
 
-- **A loop at one level converges to a local optimum.** The artifact loop makes renders match the rules. Only the level above can notice the rules are wrong, which is the whole argument of [fix the generator, not the output](/perspectives/fix-the-generator-not-the-output).
+- **A loop at one level converges to a local optimum.** The artifact loop makes renders match the rules. Only the level above can notice the rules are wrong, which is the whole argument of [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing).
 - **Lessons flow up.** A defect caught at the artifact level becomes a rule at the highest level that can enforce it: a re-rolled image becomes an entity invariant, a repeated invariant becomes a schema feature, a schema feature becomes a new sub-score in the rubric. Each promotion means that failure class is now caught structurally instead of heroically.
 - **Work flows down.** The doctor's punch-list becomes the pipeline's next tasks; the pipeline's paved steps become the gates the next artifact passes through. The system feeds itself in both directions, which is what "compounding" means mechanically rather than aspirationally.
 
@@ -47,7 +47,7 @@ Do not design five loops on a whiteboard. Build the artifact loop first, run rea
 
 - [The Doctor Pattern](/concepts/the-doctor-pattern)
 - [Paving the Desire Path](/concepts/paving-the-desire-path)
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output)
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing)
 - [Golden Processes](/concepts/golden-processes)
 - [Ratcheting Standards](/concepts/ratcheting-standards)
 - [Self-Improving Systems](/concepts/self-improving-systems)

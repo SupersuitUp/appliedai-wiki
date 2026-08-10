@@ -77,5 +77,5 @@ An interview or brainstorm is different. Conversation for the sake of exploring 
 
 ## Further Reading
 
-- [The Chatbot Trap](/perspectives/the-chatbot-trap): The upstream mental-model trap that this workflow problem lives inside
+- [You Cannot Reason About AI You Have Not Felt](/perspectives/you-cannot-reason-about-ai-you-have-not-felt): The upstream mental-model trap that this workflow problem lives inside
 - [Compounding Docs](/concepts/compounding-docs): Your document library is the persistent layer

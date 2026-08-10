@@ -1,10 +1,10 @@
 ---
-title: "Learn the Harness, Not the Wrapper"
-slug: /perspectives/learn-the-harness-not-the-wrapper
+title: "The Harness Is the Thing Worth Learning"
+slug: /perspectives/the-harness-is-the-thing-worth-learning
 description: "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Vendor wrappers over them (Claude Cowork, opinionated desktop apps) hide those primitives to look friendlier. We teach the primitives,..."
 ---
 
-# Learn the Harness, Not the Wrapper
+# The Harness Is the Thing Worth Learning
 
 *Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Vendor wrappers over them (Claude Cowork, opinionated desktop apps) hide those primitives to look friendlier. We teach the primitives, so your skills transfer across every harness you will ever use.*
 
@@ -157,5 +157,5 @@ The friction is real. The upside is uncapped.
 - [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop): Where we walk you through setting this up
 - [Claude Code Setup](/reference/tools/claude-code): The default harness we teach
 - [Hermes Setup](https://supersuit.wiki/reference/tools/hermes): A second harness to prove your skills transfer
-- [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): Why minimal harnesses keep winning and kitchen-sink defaults are the failure mode
+- [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): Why minimal harnesses keep winning and kitchen-sink defaults are the failure mode
 - [Seat Wrapper](/concepts/seat-wrapper): The good kind of wrapper. Specializes the primitive for one seat instead of hiding it from a general user

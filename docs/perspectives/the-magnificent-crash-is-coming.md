@@ -30,7 +30,7 @@ Inside an elitist bubble it looks obvious: if a company could cheaply transform,
 Two things puncture the permanent-super-cycle story:
 
 - **Most adoption does not even make sense.** Most companies do not need AI at the center of how they operate. AI is the soul of almost no company. A great deal of what a business actually needs is not AI at all: better positioning, better documentation, better structure, a cheaper tool that already exists.
-- **The "humans at the edges" fantasy is a generational project, not a quarterly one.** The vision of every company becoming an AI machine with humans pushed to the margins will play out over something closer to a generation. See [Humans at the Edges](/perspectives/humans-at-the-edges) for why the edge is where the irreplaceable human work concentrates, not where humans disappear.
+- **The "humans at the edges" fantasy is a generational project, not a quarterly one.** The vision of every company becoming an AI machine with humans pushed to the margins will play out over something closer to a generation. See [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges) for why the edge is where the irreplaceable human work concentrates, not where humans disappear.
 
 ## The binding bottleneck is human, not material
 
@@ -40,11 +40,11 @@ People point to chip shortages, storage shortages, and power constraints. Those 
 
 A correction is not bad news for everyone. It is going to be very fruitful for people who are genuinely good. If you are savvy with AI, good with people, carry general business sense, have a network, think fast on your feet, have run a business before, and have spent hundreds or thousands of hours actually working with these tools, the gap between hype and capability is your opening. That is the work of the [AI Guide](/roles/ai-guide), delivered best hyper-locally where trust is earned face to face and word of mouth compounds across a single city.
 
-The opportunity comes with a discipline. The guide holds real power over the decision and often profits from the most invasive recommendation, so the honest ones qualify hard before they cut. See [Transformation as Surgery](/concepts/transformation-as-surgery). Clearing a real bottleneck inside a business that already works beats chasing the bubble every time. See [Clear the Bottleneck, Don't Chase the Bubble](/perspectives/clear-the-bottleneck-dont-chase-the-bubble).
+The opportunity comes with a discipline. The guide holds real power over the decision and often profits from the most invasive recommendation, so the honest ones qualify hard before they cut. See [Transformation as Surgery](/concepts/transformation-as-surgery). Clearing a real bottleneck inside a business that already works beats chasing the bubble every time. See [Applied AI Pays Off Where Fit Is Already Proven](/perspectives/applied-ai-pays-off-where-fit-is-already-proven).
 
 ## Further Reading
 
 - [The AI Guidance Gap](/concepts/ai-guidance-gap). The mechanism underneath the crash: capability ships fast, guidance forms slowly.
 - [The AI Guide](/roles/ai-guide). The role that profits from standing in the gap a correction widens.
 - [Transformation as Surgery](/concepts/transformation-as-surgery). The honesty the opportunity demands.
-- [Clear the Bottleneck, Don't Chase the Bubble](/perspectives/clear-the-bottleneck-dont-chase-the-bubble). Where to point applied AI once the hype clears.
+- [Applied AI Pays Off Where Fit Is Already Proven](/perspectives/applied-ai-pays-off-where-fit-is-already-proven). Where to point applied AI once the hype clears.

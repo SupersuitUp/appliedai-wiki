@@ -27,9 +27,9 @@ The move earns "default" status because it is a no-regret bet under every future
 
 **It survives tool and model churn.** The shiny layer ages fast: this quarter's model, this month's app, the weekend rebuild. A written, proven workflow is durable truth. When the tools change underneath you, the map still holds, and you re-point automation at the same well-understood process instead of rediscovering it.
 
-**It de-risks the shiny stuff.** The customer-facing bets are the ones most likely to be wrong ([The Chatbot Trap](/perspectives/the-chatbot-trap)). Documenting and streamlining the operation pays whether or not any of those bets land, so it lowers the variance of the whole program. The floor is guaranteed value; the ceiling is a gamble you take on top of it.
+**It de-risks the shiny stuff.** The customer-facing bets are the ones most likely to be wrong ([You Cannot Reason About AI You Have Not Felt](/perspectives/you-cannot-reason-about-ai-you-have-not-felt)). Documenting and streamlining the operation pays whether or not any of those bets land, so it lowers the variance of the whole program. The floor is guaranteed value; the ceiling is a gamble you take on top of it.
 
-**It buys back the sacred thing immediately.** Every streamlined workflow returns human attention, week after week, one unglamorous increment at a time ([Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job)). You stop glorifying the drudgery and start deleting it ([Stop Glorifying Your Pain Tolerance for Drudgery](/perspectives/stop-glorifying-pain-tolerance-for-drudgery)). What the owner is really buying is relief ([Buying Relief, Not AI](/perspectives/buying-relief-not-ai)), and this is the shortest path to it.
+**It buys back the sacred thing immediately.** Every streamlined workflow returns human attention, week after week, one unglamorous increment at a time ([Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job)). You stop glorifying the drudgery and start deleting it ([Pain Tolerance for Drudgery Is a Bug](/perspectives/pain-tolerance-for-drudgery-is-a-bug)). What the owner is really buying is relief ([Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative)), and this is the shortest path to it.
 
 There is a fifth benefit that shows up later: a business whose load-bearing processes live in documents instead of one person's head is transferable, and a transferable business is worth more.
 
@@ -41,7 +41,7 @@ The two verbs are a sequence, and each has a canonical home in the craft.
 
 **Document** means writing each load-bearing workflow as a **hyperdocumented SOP (HDSOP)**: one document a human can follow and an agent can execute, branch-explicit and structured so its repeatable stretches can later be crystallized into skills. Steps say what happens; the flowchart says who, color-coding each node as irreducibly human or agent-executed. The canonical standard (the five axes, the page anatomy, the writing recipe) lives on the truth-management wiki: [Documenting a Hyperdocumented SOP](https://truthmanagement.wiki/playbooks/documenting-a-hyperdocumented-sop), with a full [worked example](https://truthmanagement.wiki/playbooks/example-hdsop-the-conversation-pipeline). Start there for the how.
 
-**Streamline** means decomposing each documented workflow into its smallest steps ([Workflow decomposition](/playbooks/workflow-decomposition)), removing the toil, handing the agent-executable stretches to the machine, and keeping the judgment steps with the human. Do it progressively, one workflow at a time, not in a big-bang rewrite. The map comes first, then the machine gets quarried out of the proven parts.
+**Streamline** means decomposing each documented workflow into its smallest steps ([Decompose the Workflow](/playbooks/decompose-the-workflow)), removing the toil, handing the agent-executable stretches to the machine, and keeping the judgment steps with the human. Do it progressively, one workflow at a time, not in a big-bang rewrite. The map comes first, then the machine gets quarried out of the proven parts.
 
 Together the two verbs turn a fog of "how we do things around here" into an inventory: a visible list of load-bearing processes, each one mapped, each one showing at a glance how much is machine and how little is judgment.
 
@@ -54,8 +54,8 @@ So the order is fixed even when the ambition is large. Document and streamline t
 ## Further Reading
 
 - [Hyperdocumented SOP](/concepts/hyperdocumented-sop) the unit of workflow documentation this move produces, with the canonical standard on the truth-management wiki.
-- [Workflow decomposition](/playbooks/workflow-decomposition) how to break a load-bearing workflow into the steps you streamline.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow) how to break a load-bearing workflow into the steps you streamline.
 - [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) the ongoing cadence this baseline turns into.
-- [The Transformation Arc](/perspectives/the-transformation-arc) how this baseline fits the larger engagement shape.
-- [The Chatbot Trap](/perspectives/the-chatbot-trap) the shiny bet this default de-risks.
+- [The Best Transformations Follow the Same Arc](/perspectives/the-best-transformations-follow-the-same-arc) how this baseline fits the larger engagement shape.
+- [You Cannot Reason About AI You Have Not Felt](/perspectives/you-cannot-reason-about-ai-you-have-not-felt) the shiny bet this default de-risks.
 - [Applied AI Streamliner](/roles/applied-ai-streamliner) the seat that owns the work.

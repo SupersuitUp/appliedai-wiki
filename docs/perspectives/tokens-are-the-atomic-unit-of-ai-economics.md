@@ -1,10 +1,10 @@
 ---
-title: The Token Economy
-slug: /perspectives/the-token-economy
+title: "Tokens Are the Atomic Unit of AI Economics"
+slug: /perspectives/tokens-are-the-atomic-unit-of-ai-economics
 description: Tokens are the atomic unit of AI output and the atomic unit of AI economics. Understanding the economics is no longer optional.
 ---
 
-# The Token Economy
+# Tokens Are the Atomic Unit of AI Economics
 
 *Every time an AI thinks, reasons, writes, or acts, it produces tokens. Tokens are the atomic unit of AI output, and the atomic unit of AI economics.*
 
@@ -62,5 +62,5 @@ The token economy is not a future abstraction. It's the pricing layer of every A
 
 - [Context Engineering](/disciplines/context-engineering): The discipline of curating the right information state for AI systems. Better context means fewer wasted tokens.
 - [Jevons Paradox](/concepts/jevons-paradox): The economic mechanism behind why cheaper tokens expand total demand.
-- [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for): Daniel Priestley's framing of what survives the substitution: conviction, judgment, taste, commercial outcomes, and improving the system.
+- [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for): Daniel Priestley's framing of what survives the substitution: conviction, judgment, taste, commercial outcomes, and improving the system.
 - [Cognitive Coverage](/concepts/cognitive-coverage): when expertise becomes abundant and cheap, your coverage of it is the premium. Pairs with token intelligence as the blended skill of the modern knowledge worker.

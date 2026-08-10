@@ -54,7 +54,7 @@ The incoherence is not that the person uses big tech. Nearly everyone does. The 
 
 ## The consistent version of the objection is real
 
-There is an honest form of this argument and it is worth naming, because assuming there is not is how a piece like this stops being useful ([Name the Best Argument Against You First](/perspectives/name-the-best-argument-against-you-first)).
+There is an honest form of this argument and it is worth naming, because assuming there is not is how a piece like this stops being useful ([Your Reader Already Has the Objection](/perspectives/your-reader-already-has-the-objection)).
 
 Someone could look at the inventory and conclude the answer is to object everywhere, not to stop objecting. That path exists. It means de-Googling, self-hosting mail and files, moving off the app store, running open weights locally, and paying the [portability tax](/concepts/the-portability-tax) in full and on purpose. People do it. It is coherent, it is expensive, and the ones who do it rarely make the argument selectively, because they have already priced it.
 
@@ -103,5 +103,5 @@ Run the inventory. Where the objection turns out to be inconsistent, drop it. Wh
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again): the last time these objections were made, why they were correct, and why they lost anyway.
 - [The Portability Tax](/concepts/the-portability-tax): what maximal vendor independence actually costs, priced honestly.
 - [Your Edge Is Not Your Infrastructure](/perspectives/your-edge-is-not-your-infrastructure): what to own when you have decided what to rent.
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): how to make skills transfer across vendors, which is what a cheap exit is made of.
-- [The Flaming Red Elephant in the Room](/perspectives/the-flaming-red-elephant): the political temperature around big tech that this argument is being made inside of.
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): how to make skills transfer across vendors, which is what a cheap exit is made of.
+- [AI Discourse Refuses to Name Its Political Reality](/perspectives/ai-discourse-refuses-to-name-its-political-reality): the political temperature around big tech that this argument is being made inside of.

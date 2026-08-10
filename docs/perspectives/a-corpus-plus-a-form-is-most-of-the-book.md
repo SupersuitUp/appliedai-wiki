@@ -32,7 +32,7 @@ What makes this workable now is a capability that keeps surprising people who ha
 
 ## The remaining 10 to 20 percent is a different job
 
-An 80 to 90 percent done book is not a finished book, and the gap is not slack in the claim. The remaining work is the part that was always the human's: line-level taste, factual and emotional truth-checking against the life actually lived, the call on what stays private, and the judgment about whether a chapter that passes the form's gates also deserves to exist. That is editing, not drafting, and the economics of the two are entirely different. The blank page consumed years; the red pen takes weeks. This is the ordinary division of labor in agentic production: [humans as instigators and editors](/perspectives/humans-as-instigators-and-editors), with the machine carrying the middle.
+An 80 to 90 percent done book is not a finished book, and the gap is not slack in the claim. The remaining work is the part that was always the human's: line-level taste, factual and emotional truth-checking against the life actually lived, the call on what stays private, and the judgment about whether a chapter that passes the form's gates also deserves to exist. That is editing, not drafting, and the economics of the two are entirely different. The blank page consumed years; the red pen takes weeks. This is the ordinary division of labor in agentic production: [The Human Role Splits Into Instigator and Editor](/perspectives/the-human-role-splits-into-instigator-and-editor), with the machine carrying the middle.
 
 ## What an operator should do with this
 
@@ -45,5 +45,5 @@ An 80 to 90 percent done book is not a finished book, and the gap is not slack i
 - [The Corpus and the Projection](/concepts/the-corpus-and-the-projection) explains the split this perspective builds on: durable corpus, cheap re-rollable projections.
 - [The Capture-First Autobiography](/playbooks/capture-first-autobiography) is the capture discipline that builds the life corpus this claim depends on.
 - [Agentic Brand Universe](/concepts/agentic-brand-universe) shows forms-as-specs proven in the brand medium.
-- [Humans as Instigators and Editors](/perspectives/humans-as-instigators-and-editors) locates the human's remaining 10 to 20 percent.
+- [The Human Role Splits Into Instigator and Editor](/perspectives/the-human-role-splits-into-instigator-and-editor) locates the human's remaining 10 to 20 percent.
 - [Golden Processes](/concepts/golden-processes) is the general shape of a repeatable process with human-blessed gates.

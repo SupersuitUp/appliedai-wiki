@@ -55,9 +55,9 @@ None of this retires the craft. **Sovereign adoption** is the version worth prac
 
 Three habits carry over intact.
 
-- **[Learn the harness, not the wrapper](/perspectives/learn-the-harness-not-the-wrapper).** Primitives transfer between vendors. Wrapper fluency does not, and it is what makes a switch feel impossible.
+- **[The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning).** Primitives transfer between vendors. Wrapper fluency does not, and it is what makes a switch feel impossible.
 - **Price the portability you are giving up.** Adoption is [a purchase, not a default](/concepts/the-portability-tax). Compute the bill, then decide.
-- **Keep your context yours.** Your corpus, your rule files, your specs. Those are what make a stack [faithful to your mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission), and they should move with you.
+- **Keep your context yours.** Your corpus, your rule files, your specs. Those are what make a stack [faithful to your mission](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice), and they should move with you.
 
 ## My disclosed position
 
@@ -79,7 +79,7 @@ That is the shape of the trust, and it is conditional. Watch whether the order h
 - [The Imagination Economy](/concepts/the-imagination-economy): why alignment is the load-bearing requirement once will executes itself
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure): the access floor, and what democratizing this actually requires
 - [The Portability Tax](/concepts/the-portability-tax): how to price the flexibility you give up when you commit
-- [Pick a Stack That Can Be Faithful to Your Mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission): the other half of the selection criterion
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): the literacy that survives any vendor decision
+- [Capability Is Table Stakes, Faithfulness Is the Choice](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice): the other half of the selection criterion
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): the literacy that survives any vendor decision
 
 > **Sovereignty is protection, and protection is not the top of the stack. Buy the priority order, then keep checking that it holds.**

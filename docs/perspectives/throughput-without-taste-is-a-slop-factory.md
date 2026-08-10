@@ -1,10 +1,10 @@
 ---
-title: Slop Factory
-slug: /perspectives/slop-factory
+title: "Throughput Without Taste Is a Slop Factory"
+slug: /perspectives/throughput-without-taste-is-a-slop-factory
 description: A business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
 ---
 
-# Slop Factory
+# Throughput Without Taste Is a Slop Factory
 
 *A business structure optimized for autonomous throughput where the throughput is slop. The trap the "self-running business" obsession leads to when nobody is watching what is actually shipping.*
 
@@ -72,7 +72,7 @@ Build the self-running business. Refuse to build the slop factory. The differenc
 
 ## Further Reading
 
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap): The operator-level failure mode that produces slop factories
-- [LLM Psychosis](/perspectives/llm-psychosis): The build-side failure that produces the slop a Slop Factory ships
-- [Judgment Burnout](/perspectives/judgment-burnout): The bodily reason burnt-out operators stop reviewing and the slop factory takes over
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence): The operator-level failure mode that produces slop factories
+- [Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job): The build-side failure that produces the slop a Slop Factory ships
+- [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment): The bodily reason burnt-out operators stop reviewing and the slop factory takes over
 - [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): What the slop converges to when no operator is applying ground-truth pull on the model

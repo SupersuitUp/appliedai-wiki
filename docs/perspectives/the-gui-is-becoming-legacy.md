@@ -90,7 +90,7 @@ The future for a non-developer is not learning to code. The future is learning t
 The argument above is strongest for the people building and customizing software, and it gets weaker the closer you get to the non-technical leader running a company. Spend real time with mainstream operators (CEOs, function heads, the people leading teams) and the GUI does not look like it is going anywhere. It looks load-bearing, for reasons the terminal does not replace.
 
 - **Legibility is the product.** A dashboard makes state visible at a glance. A leader delegating to a team needs to see what is happening, not reconstruct it from scrolling text output. The GUI is how an organization stays auditable.
-- **Approval and reversibility.** A button that says "approve" or "send" over a clear preview is a control surface. It is how a busy decision-maker stays in the loop without doing the work themselves. See [The Permission Surface](/perspectives/the-permission-surface).
+- **Approval and reversibility.** A button that says "approve" or "send" over a clear preview is a control surface. It is how a busy decision-maker stays in the loop without doing the work themselves. See [Permissions Are the Load-Bearing Layer of a Harness](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness).
 - **Muscle memory and trust.** Leaders run on tools they already know. The switching cost is real and trust is earned slowly. "Faster in principle" loses to "familiar and safe" for the person whose job is judgment, not operation.
 
 The deeper point: for these operators, AI arrives through the GUI, not instead of it. The approve-or-reject card, the "draft ready" widget, the dashboard that now writes its own summary. They never touch a terminal and they get more AI leverage every quarter anyway. The same instinct is why [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): a blank prompt is not what a leader wants, a structured surface is.
@@ -102,6 +102,6 @@ So scope the thesis. The GUI is becoming legacy as the **authoring** layer, and 
 ## Further Reading
 
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): why a structured surface beats a blank prompt
-- [The Permission Surface](/perspectives/the-permission-surface): the GUI as a control-and-approval surface
+- [Permissions Are the Load-Bearing Layer of a Harness](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness): the GUI as a control-and-approval surface
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach once you cross the line
 - [Harness Engineering](/disciplines/harness-engineering): The technical layer the terminal puts you closer to

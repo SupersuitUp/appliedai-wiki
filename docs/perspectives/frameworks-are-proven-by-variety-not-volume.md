@@ -81,5 +81,5 @@ If a framework has one worked example, the intellectually honest description is 
 
 - [Agentic Brand Universe](/concepts/agentic-brand-universe): the standard whose execution produced the evidence above.
 - [Golden](/concepts/golden): why a status conferred by a human, and not an artifact's own quality, is what makes a reference load-bearing.
-- [Default to Determinism](/perspectives/default-to-determinism): the related discipline of moving work out of the model wherever a mechanism will do.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the related discipline of moving work out of the model wherever a mechanism will do.
 - [You Cannot Plan the Upgrades That Matter](/perspectives/you-cannot-plan-the-upgrades-that-matter): the sibling claim about what only contact with the work reveals.

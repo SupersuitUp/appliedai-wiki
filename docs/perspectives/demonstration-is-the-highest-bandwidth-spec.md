@@ -23,7 +23,7 @@ Applied-AI work gets described as limited by model capability. On real engagemen
 
 Ask an accounts-payable clerk how she decides which invoices to hold. She gives you four rules. Watch her for twenty minutes and she holds one for a fifth reason she has never articulated, because nobody asked and because in the moment it does not feel like a rule. Her hands run a process her mouth has never had to describe.
 
-Every [workflow decomposition](/playbooks/workflow-decomposition) session hits this wall, and the standard remedy is to interview harder. Interviewing harder helps. It does not close the gap, because the gap is not a shortage of questions. Recall of procedural knowledge is lossy in a way that recall of facts is not, and the loss is invisible to the person doing the recalling. They finish the interview confident they told you everything.
+Every [Decompose the Workflow](/playbooks/decompose-the-workflow) session hits this wall, and the standard remedy is to interview harder. Interviewing harder helps. It does not close the gap, because the gap is not a shortage of questions. Recall of procedural knowledge is lossy in a way that recall of facts is not, and the loss is invisible to the person doing the recalling. They finish the interview confident they told you everything.
 
 ## A recording carries three tracks at once
 
@@ -35,7 +35,7 @@ A narrated screen recording is three artifacts captured in one pass, and each on
 
 **The negative space.** What the operator never touched. In the walkthrough, the generated skill included a constraint the operator had not stated and, by his own account, had not thought about: the workflow reads comments and never replies to, likes, or deletes one. Prose contains what the writer thought to include. An unbroken record also contains what they left alone.
 
-The third track is the one that carries the argument, because it is the only one you cannot reach by interviewing better. It also produces something valuable for free. A rule about what the process never touches is a [permission boundary](/perspectives/the-permission-surface), and permission boundaries are normally the thing nobody writes down until an agent crosses one.
+The third track is the one that carries the argument, because it is the only one you cannot reach by interviewing better. It also produces something valuable for free. A rule about what the process never touches is a [permission boundary](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness), and permission boundaries are normally the thing nobody writes down until an agent crosses one.
 
 ## Ambiguity resolves toward what actually happened
 
@@ -49,7 +49,7 @@ Two claims sit close together here, and only the first one holds.
 
 The first: a recording is the best available way to capture what a workflow *is*. That is the argument above.
 
-The second: the recording should therefore become the automation, with an agent replaying the clicks against the same UI forever. That one fails often enough to be a standing rule. [Default to Determinism](/perspectives/default-to-determinism) applies here with no modification. If the target system has an API, a connector, or an MCP server, the captured spec should compile down to that path, and the demonstration's job ends once it has told you what the path must do. Driving a UI is the fallback for systems with no other door, and it is the most fragile thing you can put into production.
+The second: the recording should therefore become the automation, with an agent replaying the clicks against the same UI forever. That one fails often enough to be a standing rule. [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) applies here with no modification. If the target system has an API, a connector, or an MCP server, the captured spec should compile down to that path, and the demonstration's job ends once it has told you what the path must do. Driving a UI is the fallback for systems with no other door, and it is the most fragile thing you can put into production.
 
 So the order of operations is: demonstrate once to capture the truth, read the generated [skill file](/concepts/skill-files) as a draft spec rather than a finished deliverable, then implement against the most deterministic interface available. A skill earns promotion to a [golden process](/concepts/golden-processes) after it has been proven, not because a model wrote it convincingly.
 
@@ -74,6 +74,6 @@ Demonstration does not remove the need for a written spec. It removes the need f
 - [Precise Procedures Are Written for the Agent](/perspectives/precise-procedures-are-written-for-the-agent) why the precision a demonstration captures is worth the density it produces.
 - [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) the posture that decides what to do with a workflow once it has been captured.
 - [Hyperdocumented SOP](/concepts/hyperdocumented-sop) the durable written form a demonstration should be turned into.
-- [Default to Determinism](/perspectives/default-to-determinism) why the captured spec should compile down to code and connectors wherever they exist.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) why the captured spec should compile down to code and connectors wherever they exist.
 - [Fat Skills](/concepts/fat-skills) what a recording-derived skill file grows into once it has run against reality a few times.
-- [See Your Own Thinking](/concepts/see-your-own-thinking) the adjacent case: externalizing a process makes visible what introspection alone will not surface.
+- [Visible Thinking](/concepts/visible-thinking) the adjacent case: externalizing a process makes visible what introspection alone will not surface.

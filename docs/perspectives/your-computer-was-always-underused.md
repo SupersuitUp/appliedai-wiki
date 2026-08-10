@@ -29,7 +29,7 @@ This is the human-side cost that [Intent Engineering](/disciplines/intent-engine
 
 An agent like [Claude Code](/reference/tools/claude-code) is, among other things, a master of the shell. You state intent in plain language and it emits the correct bash, runs it, reads the output, and corrects itself. The translation layer that used to require years of muscle memory is now on tap.
 
-The consequence is not a nicer chat window. It is that the underused half of your computer switches on. Work you would never have scripted by hand now runs, because the cost of turning intent into a working command collapsed toward zero. This is why learning [the harness, not the wrapper](/perspectives/learn-the-harness-not-the-wrapper) matters: the shell is the real surface of power, and the agent is how you finally reach it.
+The consequence is not a nicer chat window. It is that the underused half of your computer switches on. Work you would never have scripted by hand now runs, because the cost of turning intent into a working command collapsed toward zero. This is why learning [the harness, not the wrapper](/perspectives/the-harness-is-the-thing-worth-learning) matters: the shell is the real surface of power, and the agent is how you finally reach it.
 
 ## Utilization is a multiplier hiding in plain sight
 
@@ -43,14 +43,14 @@ Stop treating your machine as a place to run one program at a time. Treat it as 
 
 - Hand off the machine-able steps as bash: batch conversions, data munging, one-off migrations, log spelunking, scraping, parallel renders. If you can describe it, the agent can shell it.
 - Think in parallel. The reason to fire twenty jobs at once instead of one at a time is that the shell always supported it and now you can actually ask for it (see [AI Operating Leverage](/concepts/ai-operating-leverage) for what that does to unit cost).
-- Keep a human at the edges. The agent's fluency with destructive commands is exactly why permission rules and review belong around it, per [the anatomy of a harness](/disciplines/anatomy-of-a-harness) and [Humans at the Edges](/perspectives/humans-at-the-edges).
+- Keep a human at the edges. The agent's fluency with destructive commands is exactly why permission rules and review belong around it, per [the anatomy of a harness](/disciplines/anatomy-of-a-harness) and [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges).
 
 The upgrade was never a faster laptop. It was finally being able to speak to the one you have.
 
 ## Further Reading
 
 - [Intent Engineering](/disciplines/intent-engineering)
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper)
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness)
 - [AI Operating Leverage](/concepts/ai-operating-leverage)
-- [Humans at the Edges](/perspectives/humans-at-the-edges)
+- [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges)

@@ -45,7 +45,7 @@ The strongest case is the one that looks least like it needs an agent.
 
 Issue triage sounds like a pure workflow: an issue comes in, a label and a priority come out. Tightly defined edges. Yet the teams running this in production found the middle refuses to stay simple. To triage well, the thing has to clone the repository, sometimes spin up a container, and actually try to reproduce the bug before it can say anything useful. That middle is free-flowing and unpredictable. The ends are structured.
 
-This is the pattern to hold onto: **structured at the edges, agentic in the middle**. You still pin the input and the output. A workflow can call the agent and demand structured output back, so the rest of your pipeline stays deterministic. What you gain is an interior that can improvise when the task turns out to be messier than the schema suggested, which it usually does. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a single loop is composed, and [Workflow Decomposition](/playbooks/workflow-decomposition) for finding which stage actually needs one.
+This is the pattern to hold onto: **structured at the edges, agentic in the middle**. You still pin the input and the output. A workflow can call the agent and demand structured output back, so the rest of your pipeline stays deterministic. What you gain is an interior that can improvise when the task turns out to be messier than the schema suggested, which it usually does. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a single loop is composed, and [Decompose the Workflow](/playbooks/decompose-the-workflow) for finding which stage actually needs one.
 
 ## The test: can it check its own work?
 
@@ -83,9 +83,9 @@ Distilled in part from the workshop "[Claude Agent SDK (Full Workshop)](https://
 
 ## Further Reading
 
-- [Default to Determinism](/perspectives/default-to-determinism): the dual of this page. Start with code for every recurring step, and escalate to an agent only where the middle earns it.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the dual of this page. Start with code for every recurring step, and escalate to an agent only where the middle earns it.
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop): the five-component structure for building a single self-improving loop, the real unit of construction.
-- [Workflow Decomposition](/playbooks/workflow-decomposition): draw the business as a workflow, then find the stage that actually needs an agent.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow): draw the business as a workflow, then find the stage that actually needs an agent.
 - [The Roles-to-Workflows Shift](/concepts/roles-to-workflows): the mental-model change that makes "which step gets an agent" a live question at all.
 - [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop): where the human attention goes once a step can verify itself.
 - [Fat Skills](/concepts/fat-skills): why the harness stays thin and your judgment lives in the skills the agent loads.

@@ -67,6 +67,6 @@ The test for whether you have the split right: hand the repo to a competent deve
 - [Agent Rule Files](/concepts/agent-rule-files) the thin layer this argument keeps thin: standing orders and pointers, not substance.
 - [Compounding Docs](/concepts/compounding-docs) the flywheel a genuinely good README sits on.
 - [Memory Files](/concepts/memory-files) the related failure mode: state that should live in a file you wrote, scattered into an opaque store instead.
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design) how to structure a repo so the README and the rule file both have an obvious home.
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo) how to structure a repo so the README and the rule file both have an obvious home.
 - [Context Engineering](/disciplines/context-engineering) the discipline of curating the exact information state that orients the agent.
 - [Skill Files](/concepts/skill-files) where procedures go, so neither the rule file nor the README carries workflows it should not.

@@ -53,4 +53,4 @@ A good process is a simple idea with a precise procedure. Cutting the precision 
 - [Hyperdocumented SOP](/concepts/hyperdocumented-sop): mapping a real workflow to the level of precision an agent can act on, then proving it against reality.
 - [Agent Rule Files](/concepts/agent-rule-files): the always-on instructions where precision governs behavior across every task.
 - [Spec Writing](/disciplines/spec-writing): the craft of specifying intent so an executor, human or agent, cannot misread it.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): precise procedures belong in version control, where they are read the same way every run.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): precise procedures belong in version control, where they are read the same way every run.

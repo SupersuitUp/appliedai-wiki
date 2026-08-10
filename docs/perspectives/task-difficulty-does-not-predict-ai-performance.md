@@ -1,11 +1,11 @@
 ---
-title: "The Jagged Frontier"
-slug: /perspectives/the-jagged-frontier
+title: "Task Difficulty Does Not Predict AI Performance"
+slug: /perspectives/task-difficulty-does-not-predict-ai-performance
 description: "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
 image: "/img/comics/the-jagged-frontier.png"
 ---
 
-# The Jagged Frontier
+# Task Difficulty Does Not Predict AI Performance
 
 *AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and the border moves outward every week.*
 
@@ -29,7 +29,7 @@ What an implementer does differently on Monday: stop pre-deciding what is "an AI
 
 ## The border moves outward
 
-The frontier is not fixed. A task on the "AI is bad at this" side this month lands on the "AI is superhuman at this" side next month, because the models keep improving and the scaffolding around them keeps getting better. So the probing never stops. You are mapping a coastline that advances while you survey it. A capability you ruled out a quarter ago is worth re-testing now. (See [Three Waves of AI Adoption](/perspectives/three-waves-of-ai-adoption) for the longer arc, and [Self-Improving Systems](/concepts/self-improving-systems) for the compounding underneath it.)
+The frontier is not fixed. A task on the "AI is bad at this" side this month lands on the "AI is superhuman at this" side next month, because the models keep improving and the scaffolding around them keeps getting better. So the probing never stops. You are mapping a coastline that advances while you survey it. A capability you ruled out a quarter ago is worth re-testing now. (See [Efficiency Wins Do Not Predict New-Category Wins](/perspectives/efficiency-wins-do-not-predict-new-category-wins) for the longer arc, and [Self-Improving Systems](/concepts/self-improving-systems) for the compounding underneath it.)
 
 ## Complementarity: it fills your gaps
 
@@ -41,15 +41,15 @@ The downside stays limited only when the pairing is deliberate. Hand a task to t
 
 ## Why it takes a certain kind of operator
 
-Probing the frontier honestly requires the judgment to recognize when an output is slop on the wrong side of the border. An operator who knows what great looks like catches the model when it confidently produces something broken. An operator who does not cannot tell which side of the line they are on, so the same tool that fills a discerning person's gaps simply multiplies an undiscerning person's blind spots. (This is the [Slop Factory](/perspectives/slop-factory) failure mode, and the reason [evaluation](/disciplines/evals) is the skill that makes the frontier safe to work across.)
+Probing the frontier honestly requires the judgment to recognize when an output is slop on the wrong side of the border. An operator who knows what great looks like catches the model when it confidently produces something broken. An operator who does not cannot tell which side of the line they are on, so the same tool that fills a discerning person's gaps simply multiplies an undiscerning person's blind spots. (This is the [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory) failure mode, and the reason [evaluation](/disciplines/evals) is the skill that makes the frontier safe to work across.)
 
 So the frontier is not just a fact about models. It is a fact about the pairing. The capability is uneven, it moves, and the value you extract from it is gated by whether the human in the loop has the taste to know good from broken on a border that shifts under them.
 
 ## Further Reading
 
 - [Agentic Exploration](/concepts/agentic-exploration), the discipline of discovering capability by probing rather than predicting.
-- [Slop Factory](/perspectives/slop-factory), what happens when the frontier is worked without judgment.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory), what happens when the frontier is worked without judgment.
 - [Evals](/disciplines/evals), the skill that tells you which side of the border an output fell on.
 - [Self-Improving Systems](/concepts/self-improving-systems), the compounding that pushes the border outward.
-- [Three Waves of AI Adoption](/perspectives/three-waves-of-ai-adoption), the longer arc of the frontier advancing.
+- [Efficiency Wins Do Not Predict New-Category Wins](/perspectives/efficiency-wins-do-not-predict-new-category-wins), the longer arc of the frontier advancing.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck), why the human's judgment, not the model, sets the ceiling.

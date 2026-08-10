@@ -36,7 +36,7 @@ Two properties make it work:
 
 Every operator with a budget is now receiving a steady stream of AI pitches, and they have learned to pattern-match. A message that opens by explaining what a model or platform can do is indistinguishable from the last twenty, and the reader classifies it before finishing the first line. Explanation is the exact shape of the thing they have trained themselves to ignore.
 
-Leading with the technology also inverts what the reader is actually shopping for. They are [buying relief, not AI](/perspectives/buying-relief-not-ai): a way to get somewhere, not a capability to evaluate. Come at where they are going, not at the infrastructure that gets them there.
+Leading with the technology also inverts what the reader is actually shopping for. They are [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative): a way to get somewhere, not a capability to evaluate. Come at where they are going, not at the infrastructure that gets them there.
 
 ## Stage the ladder deliberately
 
@@ -69,7 +69,7 @@ The staging discipline is what makes a share link worth sending at all, which is
 ## Further Reading
 
 - [Finding clients through trust](/playbooks/finding-clients) for the channel that outperforms any cold first touch.
-- [Pilot pitch](/playbooks/pilot-pitch) for the proposal that comes after the ladder has done its work.
+- [Pitch the Pilot](/playbooks/pitch-the-pilot) for the proposal that comes after the ladder has done its work.
 - [The Generative Welcome](/concepts/generative-welcome) for the artifact rung, where the prospect experiences the outcome before buying.
-- [Name the Best Argument Against You First](/perspectives/name-the-best-argument-against-you-first) for what belongs on the page the message links to.
+- [Your Reader Already Has the Objection](/perspectives/your-reader-already-has-the-objection) for what belongs on the page the message links to.
 - [Signal Theory](/concepts/signal-theory) for why checkable proof outperforms assertion.

@@ -21,7 +21,7 @@ That judgment is the scarce thing. Nobody else has it. It took two decades to ac
 
 Inventing your own agent loop and your own execution infrastructure spends that scarce resource on the least differentiated part of the stack. Every hour on container lifecycle is an hour not spent on the thing only you can do. And the infrastructure hours do not compound the way the judgment hours do: your sandbox will never be better than a team that works on sandboxes full time, while your encoded judgment gets further ahead of everyone else's every month you feed it.
 
-The build is seductive because it is legible. Infrastructure has clean success criteria, visible progress, and the pleasant feeling of real engineering. Encoding judgment is ambiguous, slow, and hard to demo on a Tuesday. That is exactly why it is the moat. See [Idolizing the Build](/perspectives/idolizing-the-build) for the general form of this trap.
+The build is seductive because it is legible. Infrastructure has clean success criteria, visible progress, and the pleasant feeling of real engineering. Encoding judgment is ambiguous, slow, and hard to demo on a Tuesday. That is exactly why it is the moat. See [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) for the general form of this trap.
 
 ## What you do not want to become a master of
 
@@ -44,11 +44,11 @@ Read that list as a hiring plan. That is what owning it means: a platform team, 
 
 ## The honest counterpoint
 
-This wiki argues [Build, Don't Buy Your Way In](/perspectives/build-dont-buy-your-way-in), and it means it. That page is right and this one does not contradict it. They answer different questions, and the reconciliation matters.
+This wiki argues [You Cannot Acquire Product-Market Fit](/perspectives/you-cannot-acquire-product-market-fit), and it means it. That page is right and this one does not contradict it. They answer different questions, and the reconciliation matters.
 
 That argument is about the operation: you cannot acquire product-market fit, and bolting AI onto a legacy delivery model does not make it AI-native. Build the machine. That is still true.
 
-There is a second sense of "build" that this page addresses: build to learn. Writing your own agent loop once is how you develop real judgment about the stack. You learn what a tool schema does to model behavior, why context assembly order matters, what compaction actually loses, where retries create duplicate side effects. Nobody who has only read about this has that judgment, and you cannot evaluate a platform without it. [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper) makes the same case from the practitioner side: learn the primitives so your skills transfer.
+There is a second sense of "build" that this page addresses: build to learn. Writing your own agent loop once is how you develop real judgment about the stack. You learn what a tool schema does to model behavior, why context assembly order matters, what compaction actually loses, where retries create duplicate side effects. Nobody who has only read about this has that judgment, and you cannot evaluate a platform without it. [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning) makes the same case from the practitioner side: learn the primitives so your skills transfer.
 
 Owning production infrastructure forever is a third decision, and it does not follow from the first two.
 
@@ -81,10 +81,10 @@ Your edge compounds when every hour goes into the judgment only you have. Rent t
 ## Further Reading
 
 - [Generative Experience Architect](/roles/generative-experience-architect) for the highest-and-best-use framing and the seat this argument implies.
-- [Build, Don't Buy Your Way In](/perspectives/build-dont-buy-your-way-in) for the counterpoint this page reconciles with.
+- [You Cannot Acquire Product-Market Fit](/perspectives/you-cannot-acquire-product-market-fit) for the counterpoint this page reconciles with.
 - [The Harness and the Deployment](/concepts/the-harness-and-the-deployment) for the two axes you are deciding between.
 - [The Portability Tax](/concepts/the-portability-tax) for what insisting on owning both actually costs.
-- [Humans at the Edges](/perspectives/humans-at-the-edges) for where human judgment belongs once the machine runs.
+- [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges) for where human judgment belongs once the machine runs.
 - [The Outcome Economy](/concepts/the-outcome-economy) for what the customer is buying, which is never your infrastructure.
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for the historical precedent this argument is repeating, and why the objections to renting were correct and lost anyway.
 - [The Moat Layer](/concepts/the-moat-layer) for the other half of the split named as an asset you fund and thicken on purpose.

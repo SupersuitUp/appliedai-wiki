@@ -25,7 +25,7 @@ This reframes a worry that sounds like iron law: that commercial pressure and ho
 
 The claim is scoped, and the scope is the whole point. It holds where the product is bought **to complete a task**. It inverts where the product is bought **to hold attention**.
 
-When the success signal is time-on-app, clicks, or compulsion, the market selects for exactly the opposite: the model that hooks hardest, not the one that is most true. That is the selection described in [Vice Is Quantifiable](/perspectives/vice-is-quantifiable), and it is how you get a [Slop Factory](/perspectives/slop-factory). Same market, opposite reward function, because the thing being sold is a gaze rather than a job.
+When the success signal is time-on-app, clicks, or compulsion, the market selects for exactly the opposite: the model that hooks hardest, not the one that is most true. That is the selection described in [Vice Is Quantifiable](/perspectives/vice-is-quantifiable), and it is how you get a [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory). Same market, opposite reward function, because the thing being sold is a gaze rather than a job.
 
 So the perspective is not "markets produce truth." Markets produce whatever their success signal measures. The argument is narrower and sturdier: **when the success signal is task-completion, the market measures truth, and selection favors the honest model.** Confuse the two domains and you will either trust an attention product to be honest or distrust a work tool that has every incentive to be.
 

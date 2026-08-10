@@ -1,10 +1,10 @@
 ---
-title: LLM Psychosis
-slug: /perspectives/llm-psychosis
+title: "Generation Is Cheap, Discrimination Is the Job"
+slug: /perspectives/generation-is-cheap-discrimination-is-the-job
 description: Generation without discrimination. The default failure mode of agent-driven work. The reason most people who go all-in on multi-agent setups end up shipping confident slop.
 ---
 
-# LLM Psychosis
+# Generation Is Cheap, Discrimination Is the Job
 
 *Generation without discrimination. Believing the output because it sounds smart. The default failure mode of agent-driven work, and the reason most people who go all-in on multi-agent setups end up shipping confident slop.*
 
@@ -39,7 +39,7 @@ The model is a junior that sounds senior. It does not know it is wrong. It will 
 
 This is the rule. If you do not understand the meaning of the words or the code, and you cannot read it back to yourself with a working mental model, you will slip into psychosis 100% of the time. Being smart and credentialed in some other domain does not save you. The model is louder than your humility, and the output is too polished for you to feel its thinness.
 
-This is the same frontier [The Overconfidence Trap](/perspectives/the-overconfidence-trap) names from the operator-perception side: AI fluency manufactures confidence that has nothing to do with operator strength. Outside your competence, fluency is all there is, and fluency is not enough.
+This is the same frontier [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence) names from the operator-perception side: AI fluency manufactures confidence that has nothing to do with operator strength. Outside your competence, fluency is all there is, and fluency is not enough.
 
 ## The Discipline That Holds It Off
 
@@ -61,7 +61,7 @@ The UX will be ugly. Hand-fix the front. The point of the e2e run is verificatio
 
 Eight to ten agents is feasible during the day if most of them are running long discriminatory tasks: validation, refactor and dedup reports, lint and type strict passes, documentation, slop removal. It is not feasible if every one of them is generating new features. Two or three agents each adding features in parallel is a recipe for redundancy, duplicated types, and competing abstractions. The cleanup tax exceeds the throughput.
 
-Practical gate from operators who have lived through it: no more than three agents after 10pm. The discriminatory posture requires sharpness, and judgment fatigue degrades it long before code quality breaks. See [Judgment Burnout](/perspectives/judgment-burnout) for the body-level account of why this ceiling is real.
+Practical gate from operators who have lived through it: no more than three agents after 10pm. The discriminatory posture requires sharpness, and judgment fatigue degrades it long before code quality breaks. See [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment) for the body-level account of why this ceiling is real.
 
 ### Use your own product
 
@@ -102,7 +102,7 @@ If you find yourself in psychosis, the move is to slow down.
 - Step into the product. Use it the way a stranger would.
 - Name the domain you are operating outside of, and either learn it or stop generating in it.
 
-This is the same exit move named in [See Your Own Thinking](/concepts/see-your-own-thinking): get the work reflected back to you clearly enough that you can notice where it is thin. The agent cannot do that for you. Only you can.
+This is the same exit move named in [Visible Thinking](/concepts/visible-thinking): get the work reflected back to you clearly enough that you can notice where it is thin. The agent cannot do that for you. Only you can.
 
 ---
 
@@ -112,9 +112,9 @@ This is the same exit move named in [See Your Own Thinking](/concepts/see-your-o
 
 ## Further Reading
 
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap): The companion frame from the operator-self-perception angle.
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence): The companion frame from the operator-self-perception angle.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck): Multipliers cannot fix the operator. Agents are the latest multiplier, and the same rule holds.
-- [Slop Factory](/perspectives/slop-factory): The business-scale destination of unchecked psychosis.
-- [Judgment Burnout](/perspectives/judgment-burnout): Why running too many agents wrecks the discriminatory posture before it wrecks the code.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory): The business-scale destination of unchecked psychosis.
+- [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment): Why running too many agents wrecks the discriminatory posture before it wrecks the code.
 - [Spec Writing](/disciplines/spec-writing): The spec is where the value lives now. The plan your agent produces is a draft spec. Read it.
 - [Shaw on agent maxxing and psychosis](https://x.com/shawmakesmagic/status/2048177750847144274): The April 2026 thread that sharpened the verbatim framing of generate-vs-discriminate.

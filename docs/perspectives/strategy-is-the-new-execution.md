@@ -92,7 +92,7 @@ This loop, repeated daily, compounds. After 90 days your AI knows your prioritie
 ## Further reading
 
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck): The personal version. If strategy is the bottleneck, and strategy lives in you, then you are the bottleneck.
-- [Slop Factory](/perspectives/slop-factory): What happens when you automate a bad strategy.
-- [Judgment Burnout](/perspectives/judgment-burnout): The human cost when you skip the strategy layer and try to brute-force output by spinning up more agents.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory): What happens when you automate a bad strategy.
+- [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment): The human cost when you skip the strategy layer and try to brute-force output by spinning up more agents.
 - [Spec Writing](/disciplines/spec-writing): The parallel insight for builders. Implementation is commoditized; the spec is where the value lives.
 - Roger Martin, [*A Plan Is Not a Strategy*](https://www.youtube.com/watch?v=iuYlGRnC7J8) (HBR video) and *Playing to Win*: the canonical statement of the planning-vs-strategy distinction.

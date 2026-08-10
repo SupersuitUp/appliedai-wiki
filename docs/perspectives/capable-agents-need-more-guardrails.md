@@ -39,7 +39,7 @@ The pattern generalizes past any one domain. If you cannot check the work in one
 
 Here is the part that connects guardrails to the whole discipline of rendering a process legible. You make a process into a typed, versioned state machine (see [the AI-streamlineable process](https://compounding.wiki/concepts/the-ai-streamlineable-process)) not because typed graphs are elegant, and not so a human can admire the diagram. You do it **so a dumb checker has something to check.** An untyped blob is uncheckable. A typed graph, where every unit has a declared state and every artifact carries provenance, can be held to account by a script that knows nothing about the work except the contract.
 
-Legibility is not for humans. It is the precondition for the guardrail. This is why [default to determinism](/perspectives/default-to-determinism) and guardrails are the same argument from two directions: the deterministic state machine is what the guardrail reads, and the guardrail is what keeps the agent from quietly stepping outside it. Push the generative surface down to the irreducible minimum, and guard the seam where the agent still gets to be creative.
+Legibility is not for humans. It is the precondition for the guardrail. This is why [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) and guardrails are the same argument from two directions: the deterministic state machine is what the guardrail reads, and the guardrail is what keeps the agent from quietly stepping outside it. Push the generative surface down to the irreducible minimum, and guard the seam where the agent still gets to be creative.
 
 ## Worked example: an agent that cheated four times in a day
 
@@ -64,9 +64,9 @@ None of this is about a dangerous model. It is about an ordinary capable one doi
 
 ## Further Reading
 
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) the discipline a guardrail enforces: repair the pipeline, never the artifact
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) the discipline a guardrail enforces: repair the pipeline, never the artifact
 - [Hand-Rolling](/concepts/hand-rolling) the specific cheat guardrails exist to catch
 - [Spikes](/concepts/spikes) the throwaway probe whose output must never masquerade as the deliverable
 - [Golden Processes](/concepts/golden-processes) provenance and human-blessed references as the memory a checker reads
-- [Default to Determinism](/perspectives/default-to-determinism) the legible state machine a guardrail checks against
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) the legible state machine a guardrail checks against
 - [Variance Is the Existential Problem](/perspectives/variance-is-the-existential-problem) why consistency, which guardrails produce, is what customers actually buy

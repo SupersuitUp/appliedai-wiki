@@ -39,7 +39,7 @@ The move is to stop asking the agent to choose correctly among things it should 
 
 Put the agent in a container. Mount the repository in, so it can read and change code. Leave the credentials outside: version-control tokens, cloud CLI configurations, production connection strings, API keys for services that cost money or touch customers. Now the agent can write code and cannot push it, cannot reach production, and cannot spend anything. Not because it was told not to. Because the credentials are not in the filesystem it can see.
 
-The difference is what has to hold for you to be safe. With a deny rule, safety depends on the rule anticipating the phrasing. With isolation, safety depends on the boundary, and the boundary does not care how the request is phrased. There is nothing left to interpret, which is the same reason [prompt guards](/concepts/prompt-guards) beat a documented instruction and the same reason [deterministic code](/perspectives/default-to-determinism) beats a rule the model reads.
+The difference is what has to hold for you to be safe. With a deny rule, safety depends on the rule anticipating the phrasing. With isolation, safety depends on the boundary, and the boundary does not care how the request is phrased. There is nothing left to interpret, which is the same reason [prompt guards](/concepts/prompt-guards) beat a documented instruction and the same reason [deterministic code](/perspectives/recurring-work-belongs-in-code) beats a rule the model reads.
 
 This is [the more capable the agent, the more guardrails it needs](/perspectives/capable-agents-need-more-guardrails) at the level of blast radius. That page argues a capable agent's confident wrong answer needs an external check. This one argues its confident wrong *action* needs an external boundary, for the same reason: the truth about intent lives in the agent's context, where nothing can verify it.
 
@@ -64,7 +64,7 @@ The general shape repeats across this wiki. Rules the agent reads shape behavior
 ## Further Reading
 
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): why external checks scale with capability.
-- [Default to Determinism](/perspectives/default-to-determinism): the same preference for mechanism over instruction, applied to cost and consistency.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the same preference for mechanism over instruction, applied to cost and consistency.
 - [Prompt Guards](/concepts/prompt-guards): a rule moved from documentation into the chokepoint every caller passes through.
 - [Ratcheting Standards](/concepts/ratcheting-standards): enforcement for the standards you can express as a check.
 - [Agent Rule Files](/concepts/agent-rule-files): the layer this page marks the limits of.

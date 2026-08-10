@@ -1,11 +1,11 @@
 ---
-title: The Elevator Economy
-slug: /perspectives/the-elevator-economy
+title: "There Is No Standing Still Anymore"
+slug: /perspectives/there-is-no-standing-still-anymore
 description: Some people and companies are going up. Everyone else is going down. There is no standing still. The foundational economic observation of the AI era.
 image: "/img/comics/the-elevator-economy.png"
 ---
 
-# The Elevator Economy
+# There Is No Standing Still Anymore
 
 *Some people and companies are going up. Everyone else is going down. There is no standing still. This is the foundational economic observation of the moment, and everything else builds on it.*
 
@@ -46,7 +46,7 @@ Three compounding effects decide whether a person or company is ascending or fal
 
 **Execution is collapsing in price.** The market-clearing rate for tasks that used to require skilled execution (writing, research, code, design, analysis) is approaching the market-clearing rate for AI slop. A commercial actor whose offer is "unaugmented skilled execution" is competing directly with a flood of cheap output, and losing.
 
-**Imagination, taste, critical thinking, and trust become the scarce assets.** When execution approaches zero marginal cost, the bottleneck moves to the things only humans can still do at a high level: imagine what should be built in the first place, discern whether the output is actually any good ([the judgment line](/perspectives/the-judgment-line)), think independently instead of accepting AI's default answer, and hold trust relationships that cannot be synthesized. People who operate at a high level across those four (with AI handling everything downstream) are the ones riding the elevator up.
+**Imagination, taste, critical thinking, and trust become the scarce assets.** When execution approaches zero marginal cost, the bottleneck moves to the things only humans can still do at a high level: imagine what should be built in the first place, discern whether the output is actually any good ([LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else)), think independently instead of accepting AI's default answer, and hold trust relationships that cannot be synthesized. People who operate at a high level across those four (with AI handling everything downstream) are the ones riding the elevator up.
 
 ---
 
@@ -73,5 +73,5 @@ This is why activation is so important. Every month a person stays unactivated i
 ## Further Reading
 
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): what the ascending side of the elevator looks like at the individual level.
-- [The Survivor Economy](/perspectives/the-survivor-economy): the company-internal version of the same sorting, and who is quietly written out of the org chart.
+- [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people): the company-internal version of the same sorting, and who is quietly written out of the org chart.
 - [Jevons Paradox](/concepts/jevons-paradox): the economy-wide offset, as cheap execution expands demand for capable humans into new categories.

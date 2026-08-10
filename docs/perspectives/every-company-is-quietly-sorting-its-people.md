@@ -1,11 +1,11 @@
 ---
-title: The Survivor Economy
-slug: /perspectives/the-survivor-economy
+title: "Every Company Is Quietly Sorting Its People"
+slug: /perspectives/every-company-is-quietly-sorting-its-people
 description: A quiet sorting is underway inside every company. People who can harness AI are becoming dramatically more valuable. Those who cannot are becoming redundant in real time.
 image: "/img/comics/the-survivor-economy.png"
 ---
 
-# The Survivor Economy
+# Every Company Is Quietly Sorting Its People
 
 *Every person in an existing company is on a game show right now. Most of them do not know it yet.*
 

@@ -1,11 +1,11 @@
 ---
-title: Stop Glorifying Your Pain Tolerance for Drudgery
-slug: /perspectives/stop-glorifying-pain-tolerance-for-drudgery
+title: "Pain Tolerance for Drudgery Is a Bug"
+slug: /perspectives/pain-tolerance-for-drudgery-is-a-bug
 description: "Enduring brute-force drudgery is a cost you stopped questioning, not a virtue. Redesign the workflow so you stay in flow at the highest impact, and hire the drudgery away, for yourself and for your clients."
 image: "/img/comics/stop-glorifying-pain-tolerance-for-drudgery.png"
 ---
 
-# Stop Glorifying Your Pain Tolerance for Drudgery
+# Pain Tolerance for Drudgery Is a Bug
 
 *Enduring brute-force drudgery is a cost you stopped questioning, not a virtue. The work only you can do is the impact, the craft, and the judgment. Redesign the workflow so you stay in flow at the highest impact, and hire the drudgery away, for yourself and for your clients.*
 
@@ -51,8 +51,8 @@ Everyone in that trade comes out ahead. More impact, because the scarce human sk
 
 ## Further Reading
 
-- [Judgment Burnout](/perspectives/judgment-burnout): the other half of this. AI compresses work onto your judgment layer, so protect it instead of glorifying the grind.
-- [The Judgment Line](/perspectives/the-judgment-line): the design rule that keeps deterministic drudgery off your judgment layer in the first place.
-- [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for): what the work actually pays for once the drudgery is gone.
+- [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment): the other half of this. AI compresses work onto your judgment layer, so protect it instead of glorifying the grind.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the design rule that keeps deterministic drudgery off your judgment layer in the first place.
+- [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for): what the work actually pays for once the drudgery is gone.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck): why adding effort to an un-redesigned workflow makes it more expensive, not faster.
-- [The Token Economy](/perspectives/the-token-economy): the pricing layer that makes redesigning the drudgery away cheap now.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): the pricing layer that makes redesigning the drudgery away cheap now.

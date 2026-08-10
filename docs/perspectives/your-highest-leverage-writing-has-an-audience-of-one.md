@@ -41,14 +41,14 @@ For a practitioner used to thinking in models, the honest analogy is fine-tuning
 
 That argument used to be purely about self-knowledge. It is operationally different now, because the private corpus is also what your agents read.
 
-Every decision log, transcript, and half-formed observation you file is context an agent can load on your behalf later. See [Compounding Docs](/concepts/compounding-docs) for the flywheel and [Context Engineering](/disciplines/context-engineering) for the craft of feeding it. The practitioner who writes only for the crowd has a public archive that every competitor can point their own agents at, and nothing proprietary underneath it. The one who has been writing privately for years has a substrate nobody else can reconstruct. That asymmetry is the same one described in [Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context), applied to a single person instead of a company.
+Every decision log, transcript, and half-formed observation you file is context an agent can load on your behalf later. See [Compounding Docs](/concepts/compounding-docs) for the flywheel and [Context Engineering](/disciplines/context-engineering) for the craft of feeding it. The practitioner who writes only for the crowd has a public archive that every competitor can point their own agents at, and nothing proprietary underneath it. The one who has been writing privately for years has a substrate nobody else can reconstruct. That asymmetry is the same one described in [Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset), applied to a single person instead of a company.
 
 ## Learn the boring crafts
 
 Loose notes die. Turning scattered thinking into a durable corpus takes three unglamorous skills, none of which are taught anywhere:
 
 - **Keep a wiki.** One canonical home per idea, cross-linked, edited when your view changes instead of appended to forever.
-- **Put it in version control.** The diff history is the record of how your mind changed, which is the part you cannot reconstruct later. See [Version Control Your Prompts](/disciplines/version-control-your-prompts).
+- **Put it in version control.** The diff history is the record of how your mind changed, which is the part you cannot reconstruct later. See [Version-Control Your Prompts](/playbooks/version-control-your-prompts).
 - **Point your own models at your own corpus.** Local-first where it matters, so the substrate you spent years building does not become a vendor's asset. See [Local-First Software](/concepts/local-first-software).
 
 The barrier here is not difficulty. It is that the work produces nothing anyone claps for during the years when it matters most.
@@ -56,8 +56,8 @@ The barrier here is not difficulty. It is that the work produces nothing anyone 
 ## Further Reading
 
 - [Compounding Docs](/concepts/compounding-docs) the flywheel that turns private writing into agent capability.
-- [See Your Own Thinking](/concepts/see-your-own-thinking) what happens when the externalized corpus gets read back to you by a system that holds your full context.
+- [Visible Thinking](/concepts/visible-thinking) what happens when the externalized corpus gets read back to you by a system that holds your full context.
 - [Context Engineering](/disciplines/context-engineering) the craft of deciding what the agent should be reading.
-- [Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context) the same asymmetry at company scale.
+- [Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset) the same asymmetry at company scale.
 - [Truth Management](/disciplines/truth-management) keeping the corpus accurate once it is large enough to run your work.
 - [Capture-First Autobiography](/playbooks/capture-first-autobiography) the long-horizon version of writing for an audience of one.

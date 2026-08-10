@@ -26,7 +26,7 @@ The visible output of a company is its product. The people who win treat the pro
 
 Two boundaries keep this claim honest. First, a system that learns is built, deliberately, by people who hold the standard; it does not emerge from installing tools. The engineering pattern is [Self-Improving Systems](/concepts/self-improving-systems), and the mindset that runs it is the [applied AI scientist's](/playbooks/experimental-improvement): hypothesis, measurement, raw data, next experiment. Second, the human stays the improver. A workflow can tighten itself against a metric a person chose; the business does not improve itself, and pretending it does ships the wrong shape ([The Self-Improving Business Is a Bad Meme](/perspectives/the-self-improving-business-is-a-bad-meme)). The bias for iteration is a human posture that systems then amplify. It is not a property you can buy.
 
-The consequence for how you hold your own methods: loosely. A company that improves at every part of what it does will keep discovering that yesterday's process was a draft ([Don't Get Attached to Your Process](/perspectives/dont-get-attached-to-your-process)), and the standard only moves one direction ([Ratcheting Standards](/concepts/ratcheting-standards)).
+The consequence for how you hold your own methods: loosely. A company that improves at every part of what it does will keep discovering that yesterday's process was a draft ([Your Process Is Disposable, Your Judgment Is Not](/perspectives/your-process-is-disposable-your-judgment-is-not)), and the standard only moves one direction ([Ratcheting Standards](/concepts/ratcheting-standards)).
 
 ## The compounding is two-layer
 

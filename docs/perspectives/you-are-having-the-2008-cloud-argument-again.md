@@ -62,7 +62,7 @@ All four are text in a repository. Keeping them portable costs close to nothing,
 
 Force-fitting the parallel would be the same error as refusing it. Three ways this era is genuinely harder than 2008, in ascending order of how much they should worry you.
 
-**There are fewer credible providers, and they sell the models too.** In 2008 the cloud market was thin and got deep fast, with a plausible floor of smaller hosts underneath. The agent platform market is thinner today, and the leading platforms are run by the same companies that sell the frontier models. Renting a server never determined whose instruction set your business logic assumed. Renting an agent platform frequently does determine your model, which collapses two decisions into one and makes both worse. [The Tradeoff Era](/perspectives/the-tradeoff-era) argues why you want those decisions separable.
+**There are fewer credible providers, and they sell the models too.** In 2008 the cloud market was thin and got deep fast, with a plausible floor of smaller hosts underneath. The agent platform market is thinner today, and the leading platforms are run by the same companies that sell the frontier models. Renting a server never determined whose instruction set your business logic assumed. Renting an agent platform frequently does determine your model, which collapses two decisions into one and makes both worse. [Model Upgrades Are No Longer Strictly Upgrades](/perspectives/model-upgrades-are-no-longer-strictly-upgrades) argues why you want those decisions separable.
 
 **There is no shared interface to migrate against.** S3's API became a de facto standard that competitors implemented, which is why storage migration eventually became mechanical. Nothing in the agent layer has an equivalent. Session semantics, sandbox models, memory formats, and tool schemas are provider-specific and diverging rather than converging. Moving platforms is not a translation with a known answer. It is a rewrite.
 
@@ -74,7 +74,7 @@ That third objection is correct and it does not resolve to owning everything. It
 
 Every generation of infrastructure re-asks one question, and every generation a set of companies answers it wrong by defending the layer that was never their advantage.
 
-They do not do it out of stupidity. They do it out of competence. The layer a company defends is the layer it is good at, and a genuinely excellent platform team produces visible, legible, daily evidence of its excellence. The judgment that actually differentiates the company produces almost none. [Idolizing the Build](/perspectives/idolizing-the-build) is the same trap at the level of an individual engineer.
+They do not do it out of stupidity. They do it out of competence. The layer a company defends is the layer it is good at, and a genuinely excellent platform team produces visible, legible, daily evidence of its excellence. The judgment that actually differentiates the company produces almost none. [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) is the same trap at the level of an individual engineer.
 
 So the operator question is not whether to own your agent infrastructure. Ask three things instead:
 

@@ -1,11 +1,11 @@
 ---
-title: "Pick a Stack That Can Be Faithful to Your Mission"
-slug: /perspectives/pick-a-stack-that-can-be-faithful-to-your-mission
+title: "Capability Is Table Stakes, Faithfulness Is the Choice"
+slug: /perspectives/capability-is-table-stakes-faithfulness-is-the-choice
 description: "The bar for choosing an agentic stack is faithfulness: acting in the spirit of your mission when your instructions run out, and sometimes holding you to a higher standard than you asked for."
 image: "/img/comics/pick-a-stack-that-can-be-faithful-to-your-mission.png"
 ---
 
-# Pick a Stack That Can Be Faithful to Your Mission
+# Capability Is Table Stakes, Faithfulness Is the Choice
 
 *The bar for choosing an agentic stack is whether it can be faithful to your mission: filling the gaps in your instructions with the spirit of what you are trying to do, because it holds enough context to know that spirit, and sometimes holding you to a higher standard than you asked for.*
 

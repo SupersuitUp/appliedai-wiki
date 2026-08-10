@@ -1,10 +1,10 @@
 ---
-title: The Judgment Line
-slug: /perspectives/the-judgment-line
+title: "LLMs Handle Judgment, Code Handles Everything Else"
+slug: /perspectives/llms-handle-judgment-code-handles-everything-else
 description: LLMs handle judgment. Code handles everything else. The architectural rule that keeps agentic systems trustworthy.
 ---
 
-# The Judgment Line
+# LLMs Handle Judgment, Code Handles Everything Else
 
 *LLMs handle judgment. Code handles everything else.*
 
@@ -90,6 +90,6 @@ The design rule extends naturally: code handles determinism, the LLM handles rou
 
 - [Harness Engineering](/disciplines/harness-engineering): The broader architecture that the judgment line operates within
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): How Claude Code implements this separation in practice
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap): The operator-side mirror of routing too much through the LLM
-- [LLM Psychosis](/perspectives/llm-psychosis): The build-side failure that violating the judgment line produces
-- [Judgment Burnout](/perspectives/judgment-burnout): What happens to the operator when too much work crosses onto the human side of the line
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence): The operator-side mirror of routing too much through the LLM
+- [Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job): The build-side failure that violating the judgment line produces
+- [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment): What happens to the operator when too much work crosses onto the human side of the line

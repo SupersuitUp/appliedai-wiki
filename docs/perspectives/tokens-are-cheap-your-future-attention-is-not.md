@@ -40,7 +40,7 @@ The highest-return use of surplus tokens is almost never more output. It is dura
 - **Write the lesson where it will fire again.** A failure diagnosed and not recorded will be rediscovered at full price. Record it on the artifact that caused it, so the next run reads it without anyone remembering to look. This is the read side of [Compounding Docs](/concepts/compounding-docs).
 - **Record why, not only what.** Future you inherits the decision without the context that produced it. The reasoning is the part that cannot be reconstructed from the diff.
 - **Keep the superseded version beside the new one.** Rejected attempts are the cheapest possible documentation of a failure mode, and they are free: you already paid to generate them.
-- **Fix the generator.** A one-off patch buys this turn. [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) buys every turn after it.
+- **Fix the generator.** A one-off patch buys this turn. [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) buys every turn after it.
 
 Each of these trades a resource you have for one you do not.
 
@@ -62,8 +62,8 @@ Attach the reasoning, not only the directive. A rule with its arithmetic attache
 
 ## Further Reading
 
-- [The Token Economy](/perspectives/the-token-economy) prices the metered resource this page argues against over-optimizing.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) is the highest-return way to spend surplus capacity.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) prices the metered resource this page argues against over-optimizing.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the highest-return way to spend surplus capacity.
 - [Spare Cycles](/concepts/spare-cycles) is the standing backlog that turns surplus into compounding work instead of padding.
 - [Compounding Docs](/concepts/compounding-docs) is what "write the lesson down" produces over time.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck) covers the constraint this page treats as the thing worth conserving.

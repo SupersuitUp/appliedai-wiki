@@ -1,11 +1,11 @@
 ---
-title: "Default to Determinism"
-slug: /perspectives/default-to-determinism
+title: "Recurring Work Belongs in Code"
+slug: /perspectives/recurring-work-belongs-in-code
 description: "For any recurring process, deterministic code is near-free to run and consistent by construction. Make it the default, and treat live model generation as the metered exception you escalate to on purpose."
 image: "/img/comics/default-to-determinism.png"
 ---
 
-# Default to Determinism
+# Recurring Work Belongs in Code
 
 *Deterministic code is nearly free to run and consistent by construction. Make it the default for recurring work, and treat live model generation as the exception you pay for, not the baseline.*
 
@@ -41,7 +41,7 @@ Live generation reintroduces variance precisely where you were trying to remove 
 
 There is a clean line running through this, and it is a productization line.
 
-The recurring 80% belongs in code. It is the same for every user on every run, so it should be settled once, tested, and executed for free. Deep, bespoke, judgment-heavy customization is the other kind of work: rarely productizable, genuinely different each time, and correctly a rare and cheap long-tail cost. The mistake is to serve the recurring 80% the way you serve the bespoke tail, re-deriving settled facts live for every user on every run. That is how a productizable process quietly turns into a per-run consulting bill. Naming the pattern is half the fix: most of what a business does is [business logic waiting to be converted into a system](/concepts/convert-business-logic-to-ai-system), and settled logic converts into code, not into a standing invitation for the model to re-decide it.
+The recurring 80% belongs in code. It is the same for every user on every run, so it should be settled once, tested, and executed for free. Deep, bespoke, judgment-heavy customization is the other kind of work: rarely productizable, genuinely different each time, and correctly a rare and cheap long-tail cost. The mistake is to serve the recurring 80% the way you serve the bespoke tail, re-deriving settled facts live for every user on every run. That is how a productizable process quietly turns into a per-run consulting bill. Naming the pattern is half the fix: most of what a business does is [business logic waiting to be converted into a system](/concepts/business-logic-as-ai-system), and settled logic converts into code, not into a standing invitation for the model to re-decide it.
 
 ## The escalation rule and the ratchet
 
@@ -49,7 +49,7 @@ Two rules keep the default honest.
 
 **The escalation rule.** Default to determinism. Escalate a step to live generation or an agent only when the middle of that step genuinely needs judgment and can check its own work. Judgment and verifiability together are the bar; a step that needs neither is a step that wanted code all along. [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent) is the full treatment of when that bar is cleared, and [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop) covers where human attention goes once a step can verify itself.
 
-**The ratchet.** When a "recurring pathway" keeps showing up inside the generated path, fold it back into the deterministic code. The code is the accumulator of settled cases. Each time the model handles something the same way twice, that case has stopped being novel, and it should graduate into a function. Over time the code ratchets toward covering every recurring case, leaving only genuine novelty for the model to work on. This is [progressive automation as the actual job](/perspectives/progressive-automation-is-the-job): the deterministic core grows, the metered surface shrinks, and the system gets cheaper and more consistent the longer it runs. It is also why the [software the model writes can be ephemeral while the context it accumulates is precious](/perspectives/ephemeral-software-precious-context): the settled cases are the asset, and they live in code.
+**The ratchet.** When a "recurring pathway" keeps showing up inside the generated path, fold it back into the deterministic code. The code is the accumulator of settled cases. Each time the model handles something the same way twice, that case has stopped being novel, and it should graduate into a function. Over time the code ratchets toward covering every recurring case, leaving only genuine novelty for the model to work on. This is [progressive automation as the actual job](/perspectives/progressive-automation-is-the-job): the deterministic core grows, the metered surface shrinks, and the system gets cheaper and more consistent the longer it runs. It is also why the [software the model writes can be ephemeral while the context it accumulates is precious](/perspectives/software-is-disposable-context-is-the-asset): the settled cases are the asset, and they live in code.
 
 ## A worked example
 
@@ -57,7 +57,7 @@ A team building an illustrated-book pipeline had each book hand-roll its own scr
 
 Two things went wrong at once. First, the hand-written copy silently contradicted the canon: a description drifted, nobody noticed, and the render came out subtly off-canon. That is a whole class of drift bug, born entirely from re-deriving facts that were already decided. Second, every render paid tokens to reconstruct settled facts that a file lookup would have returned for free.
 
-The fix was a small deterministic assembler. It reads the canon and emits the exact prompt: the settled character and setting facts come straight from the data file, verbatim, no re-derivation. That removed the drift bug by construction (the assembler cannot contradict the source it is reading) and removed the per-render token cost of re-deriving what was already known. The judgment that actually remained, the genuinely novel composition of each scene, still went to the model. Everything already decided came from code. That is the escalation rule and the ratchet in one move: fold the settled facts into the assembler, escalate only the novel composition. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a loop like this is composed, and [Workflow Decomposition](/playbooks/workflow-decomposition) for finding which stage is the settled part and which is the novel one.
+The fix was a small deterministic assembler. It reads the canon and emits the exact prompt: the settled character and setting facts come straight from the data file, verbatim, no re-derivation. That removed the drift bug by construction (the assembler cannot contradict the source it is reading) and removed the per-render token cost of re-deriving what was already known. The judgment that actually remained, the genuinely novel composition of each scene, still went to the model. Everything already decided came from code. That is the escalation rule and the ratchet in one move: fold the settled facts into the assembler, escalate only the novel composition. See [Designing an AI Loop](/playbooks/designing-an-ai-loop) for how a loop like this is composed, and [Decompose the Workflow](/playbooks/decompose-the-workflow) for finding which stage is the settled part and which is the novel one.
 
 The failure mode this avoids is the one from [Don't Scale Slop](/playbooks/dont-scale-slop): scaling a live-generation path before you have folded its recurring cases into code multiplies both the cost and the drift.
 
@@ -75,6 +75,6 @@ The failure mode this avoids is the one from [Don't Scale Slop](/playbooks/dont-
 - [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the dual of this page. When the middle of a step needs judgment and can verify itself, escalate it to a real agent.
 - [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job): the ratchet as an ongoing discipline. Fold each newly-settled case back into the deterministic core.
 - [Jevons Paradox](/concepts/jevons-paradox): why cheaper generation drives more total generation, and why per-run cost still governs the business.
-- [Convert Business Logic to AI System](/concepts/convert-business-logic-to-ai-system): the meta-pattern. Settled business logic converts into code; only the bespoke tail stays live.
+- [Business Logic as AI System](/concepts/business-logic-as-ai-system): the meta-pattern. Settled business logic converts into code; only the bespoke tail stays live.
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop): how to compose a loop whose deterministic edges frame a metered, judging middle.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): what the deterministic substrate around a model is actually made of, and why you build on a proven one.

@@ -65,5 +65,5 @@ The people who are best in the world at knowing whether a made thing is any good
 - [Golden](/concepts/golden) is the status a human judge confers; this perspective argues about which human should be conferring it.
 - [Evals](/disciplines/evals) is how a judge's verdicts become a repeatable measurement instead of a standing meeting.
 - [Golden Examples](/concepts/golden-examples) are the artifacts a judge's blessing produces, and what the next generation conditions on.
-- [Comparative Human Edge](/perspectives/comparative-human-edge) maps the capacities where a human stays decisively better; validated taste is one of the sharpest.
-- [Humans as Instigators and Editors](/perspectives/humans-as-instigators-and-editors) locates the human at both ends of the pipeline, with judgment as the closing act.
+- [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated) maps the capacities where a human stays decisively better; validated taste is one of the sharpest.
+- [The Human Role Splits Into Instigator and Editor](/perspectives/the-human-role-splits-into-instigator-and-editor) locates the human at both ends of the pipeline, with judgment as the closing act.

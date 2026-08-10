@@ -35,7 +35,7 @@ Cheap distilled models sit near the top of public leaderboards at a fraction of 
 
 A long stretch of daily use tells you about more than the model. Values leak through a product's defaults: what it does when your instructions run out, whether it will tell you no for your own stated reasons, how it behaves when it fails. A tool built by people who care about the human on the other side feels different across a thousand small interactions, and no benchmark measures that either.
 
-This matters because you are not choosing a score, you are [choosing a stack to trust with your mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission), and the market helps you here: for tools bought to do real work, [commercial success itself selects for truthful models](/perspectives/commercial-success-selects-for-truthful-models), because the customer's "did I get what I wanted" is run every session. Your daily use is your seat in that selection process. The verdict you feel is the same verdict the market is aggregating.
+This matters because you are not choosing a score, you are [choosing a stack to trust with your mission](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice), and the market helps you here: for tools bought to do real work, [commercial success itself selects for truthful models](/perspectives/commercial-success-selects-for-truthful-models), because the customer's "did I get what I wanted" is run every session. Your daily use is your seat in that selection process. The verdict you feel is the same verdict the market is aggregating.
 
 ## What it means for operators
 
@@ -52,5 +52,5 @@ This matters because you are not choosing a score, you are [choosing a stack to 
 - [Evals](/disciplines/evals) the discipline of testing AI systems against your own tasks, which is what daily use does informally at scale
 - [You Can't Distill Your Way to the Frontier](/perspectives/you-cant-distill-your-way-to-the-frontier) why a model can score well and still feel thin under pressure
 - [Only Frontier Models Replace Skilled Labor](/perspectives/only-frontier-models-replace-skilled-labor) the capability asymmetry that daily use keeps rediscovering
-- [Pick a Stack That Can Be Faithful to Your Mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission) the selection criteria beyond capability, which daily use is uniquely positioned to test
+- [Capability Is Table Stakes, Faithfulness Is the Choice](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice) the selection criteria beyond capability, which daily use is uniquely positioned to test
 - [Commercial Success Selects for Truthful Models](/perspectives/commercial-success-selects-for-truthful-models) why the market's verdict and your felt verdict converge for work tools

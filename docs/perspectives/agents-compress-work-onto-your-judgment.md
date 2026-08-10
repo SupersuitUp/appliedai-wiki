@@ -1,10 +1,10 @@
 ---
-title: Judgment Burnout
-slug: /perspectives/judgment-burnout
+title: "Agents Compress Work Onto Your Judgment"
+slug: /perspectives/agents-compress-work-onto-your-judgment
 description: "AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment."
 ---
 
-# Judgment Burnout
+# Agents Compress Work Onto Your Judgment
 
 *AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment. The 22-year-old who thinks the answer is more agents, more code, less sleep is on track for a wall they cannot see yet.*
 
@@ -27,7 +27,7 @@ That is a different job than the one most knowledge workers trained for.
 
 ## Why this burns differently
 
-Typing fatigue and judgment fatigue are not the same currency.
+The failure mode has a name worth using: judgment burnout. Typing fatigue and judgment fatigue are not the same currency.
 
 Typing drains your hands and your eyes. You can recover from it inside a workday. Sit, stretch, walk, come back, keep going. Eight to ten productive hours is achievable on most days because the load is distributed across muscles and attention.
 
@@ -48,7 +48,7 @@ The pattern is predictable and worth naming directly:
 
 For a few weeks it feels incredible. Multiple agents running. Tasks flying. Outputs reviewed, mistakes fixed, decisions made, the whole loop moving. It looks like a 10x version of the old job.
 
-Then the wall arrives. The numbness sets in earlier each day. Decisions get sloppier. The thirteenth agent run of the morning gets approved without the same scrutiny as the third. Errors compound. Quality drops. The operator either keeps grinding (and ships [slop](/perspectives/slop-factory)) or burns out hard enough that they have to step away.
+Then the wall arrives. The numbness sets in earlier each day. Decisions get sloppier. The thirteenth agent run of the morning gets approved without the same scrutiny as the third. Errors compound. Quality drops. The operator either keeps grinding (and ships [slop](/perspectives/throughput-without-taste-is-a-slop-factory)) or burns out hard enough that they have to step away.
 
 We are already seeing this. A lot of practitioners in their early twenties do not say it out loud, but you can tell. Friends are quietly burnt out. Stretches of brilliance bracketed by stretches of fog.
 
@@ -68,7 +68,7 @@ Productivity theater shows up in patterns like these:
 
 The cost is not just the bill. The cost is the operator's judgment, spent on supervising work that did not need to happen. Every hour of judgment burned on theater is an hour of judgment not available for the strategic question that would have made the work unnecessary.
 
-This is the [token economy](/perspectives/the-token-economy) failure mode at the personal level: thinking the goal is more tokens through the system, when the goal is the right tokens applied to the right problem.
+This is the [token economy](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) failure mode at the personal level: thinking the goal is more tokens through the system, when the goal is the right tokens applied to the right problem.
 
 ## Strategy is the only real lever
 
@@ -82,7 +82,7 @@ The 4-5 intense judgment hours are not a problem to solve. They are a constraint
 
 - Pick fewer, bigger problems.
 - Spend the front of the day on strategy, before the judgment is depleted.
-- Use the [judgment line](/perspectives/the-judgment-line) discipline so deterministic work never touches your judgment layer in the first place.
+- Use the [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else) discipline so deterministic work never touches your judgment layer in the first place.
 - Treat the wall as a real signal, not a personal failing. Stop when you hit it. Do something restorative. Come back.
 
 ## What "high output" actually means now
@@ -100,10 +100,10 @@ For young ambitious operators: the goal is not to outwork everyone. The goal is 
 ## Further Reading
 
 - [Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution): The structural reason judgment is the new bottleneck.
-- [The Judgment Line](/perspectives/the-judgment-line): The design rule that keeps deterministic work out of your judgment layer.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): The design rule that keeps deterministic work out of your judgment layer.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck): Adding agents and tools to a judgment-bottlenecked operator makes the bottleneck more expensive, not faster.
-- [The Token Economy](/perspectives/the-token-economy): The pricing layer that makes productivity theater feel cheap until it is not.
-- [Slop Factory](/perspectives/slop-factory): What gets produced when burnt-out operators stop reviewing carefully.
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap): Why the early honeymoon of running many agents feels like proof you can keep going.
-- [LLM Psychosis](/perspectives/llm-psychosis): What burnt-out judgment actually ships. Generation without discrimination.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): The pricing layer that makes productivity theater feel cheap until it is not.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory): What gets produced when burnt-out operators stop reviewing carefully.
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence): Why the early honeymoon of running many agents feels like proof you can keep going.
+- [Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job): What burnt-out judgment actually ships. Generation without discrimination.
 - [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): What the model collapses to when burnt-out judgment stops applying the pull.

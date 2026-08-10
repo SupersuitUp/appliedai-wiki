@@ -1,10 +1,10 @@
 ---
-title: The Prolific Mode
-slug: /perspectives/the-prolific-mode
+title: "Great Work Is a Byproduct of Volume Plus Taste"
+slug: /perspectives/great-work-is-a-byproduct-of-volume-plus-taste
 description: Great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.
 ---
 
-# The Prolific Mode
+# Great Work Is a Byproduct of Volume Plus Taste
 
 *Great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.*
 
@@ -72,13 +72,13 @@ None of these alone produce the prolific mode. They compose into it.
 
 ## The Failure Modes
 
-Prolific without taste is [slop](/perspectives/slop-factory). You can run 50 candidates and ship the wrong one. You can run 500 candidates and not notice they are all the same thing with different hats. Volume without judgment is just expensive noise.
+Prolific without taste is [slop](/perspectives/throughput-without-taste-is-a-slop-factory). You can run 50 candidates and ship the wrong one. You can run 500 candidates and not notice they are all the same thing with different hats. Volume without judgment is just expensive noise.
 
 Prolific without narrow is tinkering. You keep generating. You never commit. You mistake exploration for progress. The practitioner who cannot kill drafts never ships.
 
 The prolific mode only works when both sides hold: you generate with abandon, and you cut with discipline. Loose on the expand. Strict on the narrow.
 
-The narrow is a gate, and it has a budget. Curating by feel is legitimate when a human picks the winner and nothing ships without them; anything that ships autonomously needs the observable checks of [Don't Scale Slop](/playbooks/dont-scale-slop). And taste depletes: [judgment burnout](/perspectives/judgment-burnout) puts a daily ceiling on how many candidates you can honestly judge, so size your rounds to the judgment you actually have left.
+The narrow is a gate, and it has a budget. Curating by feel is legitimate when a human picks the winner and nothing ships without them; anything that ships autonomously needs the observable checks of [Don't Scale Slop](/playbooks/dont-scale-slop). And taste depletes: [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment) puts a daily ceiling on how many candidates you can honestly judge, so size your rounds to the judgment you actually have left.
 
 ## The Permission
 
@@ -95,5 +95,5 @@ Start making too much. Get comfortable with the waste. Train your eye on the sta
 - [Fat Skills](/concepts/fat-skills): The leverage layer that makes every candidate start at a respectable floor.
 - [Harness Engineering](/disciplines/harness-engineering): The substrate that makes the cost per candidate trivial.
 - [Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution): Why taste applied across candidates is the scarce resource, not the candidates themselves.
-- [Slop Factory](/perspectives/slop-factory): Prolific without taste. The other way the mode fails.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory): Prolific without taste. The other way the mode fails.
 - [Jevons Paradox](/concepts/jevons-paradox): The economic engine. Cheaper execution expands total demand for taste.

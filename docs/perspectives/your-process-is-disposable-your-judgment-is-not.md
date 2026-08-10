@@ -1,11 +1,11 @@
 ---
-title: Don't Get Attached to Your Process
-slug: /perspectives/dont-get-attached-to-your-process
+title: "Your Process Is Disposable, Your Judgment Is Not"
+slug: /perspectives/your-process-is-disposable-your-judgment-is-not
 description: "The value was never the process. It was the outcome. The process was only the cheapest known path to it, and clinging to it blinds you when a cheaper or better way to generate the outcome appears."
 image: "/img/comics/dont-get-attached-to-your-process.png"
 ---
 
-# Don't Get Attached to Your Process
+# Your Process Is Disposable, Your Judgment Is Not
 
 *The value was never the process. It was the outcome. The process was only the cheapest known path to it, and clinging to it blinds you when a cheaper or better way to generate the outcome appears.*
 
@@ -29,7 +29,7 @@ The two frames answer different questions. Progressive automation asks: given a 
 
 There is a reason "don't get attached to your process" lands as an insult to an expert. To someone who has spent years building a craft, the process is not a set of steps. It is their identity, their reputation, and their moat. Telling them to drop it sounds like telling them they are obsolete. Skipping past that is how this idea turns glib.
 
-The honest reframe: your value was never the process. It is your judgment, your taste, and your accountability for the outcome. The process was the vehicle those things rode in, chosen because it was the cheapest path you knew. When a cheaper path appears, the judgment and taste and accountability transfer to it. The rule is **reinvent the process, keep the judgment**. The expert who internalizes this stops defending the ten steps and starts directing a new generator toward the same outcome they were always accountable for, applying the same taste to a faster path. This is why human value concentrates at the edges of an automated operation rather than in its middle ([Humans at the Edges](/perspectives/humans-at-the-edges)): the middle is the process, and the process is the part that gets reinvented.
+The honest reframe: your value was never the process. It is your judgment, your taste, and your accountability for the outcome. The process was the vehicle those things rode in, chosen because it was the cheapest path you knew. When a cheaper path appears, the judgment and taste and accountability transfer to it. The rule is **reinvent the process, keep the judgment**. The expert who internalizes this stops defending the ten steps and starts directing a new generator toward the same outcome they were always accountable for, applying the same taste to a faster path. This is why human value concentrates at the edges of an automated operation rather than in its middle ([AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges)): the middle is the process, and the process is the part that gets reinvented.
 
 ## Outcome-Back Design
 
@@ -86,6 +86,6 @@ The through-line is the same in every group. A parent does not want to learn InD
 
 - [The Outcome Economy](/concepts/the-outcome-economy) the economy this posture is built for, where the sellable unit is an outcome generator
 - [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) the incremental counterweight to reinvention
-- [Humans at the Edges](/perspectives/humans-at-the-edges) where the judgment goes once the process is reinvented
-- [What Won't Change as Strategy](/perspectives/what-wont-change-as-strategy) anchor on the durable outcome, not the perishable method
-- [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for) what survives when the process is automated away
+- [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges) where the judgment goes once the process is reinvented
+- [Strategy Starts From What Will Not Change](/perspectives/strategy-starts-from-what-will-not-change) anchor on the durable outcome, not the perishable method
+- [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for) what survives when the process is automated away

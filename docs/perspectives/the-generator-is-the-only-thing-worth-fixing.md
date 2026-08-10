@@ -1,11 +1,11 @@
 ---
-title: "Fix the Generator, Not the Output"
-slug: /perspectives/fix-the-generator-not-the-output
+title: "The Generator Is the Only Thing Worth Fixing"
+slug: /perspectives/the-generator-is-the-only-thing-worth-fixing
 description: "When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around."
 image: "/img/comics/fix-the-generator-not-the-output.png"
 ---
 
-# Fix the Generator, Not the Output
+# The Generator Is the Only Thing Worth Fixing
 
 *When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around.*
 
@@ -49,7 +49,7 @@ You are not only making the thing. You are making the thing that makes the thing
 
 - [Hand-Rolling](/concepts/hand-rolling): the failure mode this principle replaces, and its hidden cost of never exercising the real system.
 - [Paving the Desire Path](/concepts/paving-the-desire-path): the retrospective companion. This principle fires when you notice; that sweep catches everything you did not.
-- [Default to Determinism](/perspectives/default-to-determinism): once the generator is right, the deterministic path is cheaper and steadier than doing it live by hand.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): once the generator is right, the deterministic path is cheaper and steadier than doing it live by hand.
 - [Frameworks Are Proven by Variety, Not Volume](/perspectives/frameworks-are-proven-by-variety-not-volume): fixing the generator against each new kind of case is how a framework earns the claim that it generalizes.
 - [A Startup Is an Outcome Generator](/perspectives/a-startup-is-an-outcome-generator): the same move at company scale. The product is the generator, so you improve the generator, not the individual deliverables.
 - [Masturbatory Programming](/concepts/masturbatory-programming): the opposite error, and the shared test that tells them apart.

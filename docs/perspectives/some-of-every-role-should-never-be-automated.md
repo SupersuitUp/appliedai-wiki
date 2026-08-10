@@ -1,13 +1,13 @@
 ---
-title: "Comparative Human Edge"
-slug: /perspectives/comparative-human-edge
-description: "The capacities where a human stays decisively better than AI and where that advantage is load-bearing for a specific seat. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate."
+title: "Some of Every Role Should Never Be Automated"
+slug: /perspectives/some-of-every-role-should-never-be-automated
+description: "Some capacities stay decisively human, and in every seat a few of them are load-bearing. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate."
 image: "/img/comics/comparative-human-edge.png"
 ---
 
-# Comparative Human Edge
+# Some of Every Role Should Never Be Automated
 
-*The capacities where a human stays decisively better than AI, and where that advantage is load-bearing for a specific seat. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate.*
+*Some capacities stay decisively human, and in every seat a few of them are load-bearing. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate.*
 
 ![Four-panel neo-comic action-zine on cream paper, crimson + cobalt + gold + cyan, title bar COMPARATIVE HUMAN EDGE. Panel 1 A SEAT IS MANY ROLES: a labeled chair-console reading ONE SEAT MANY ROLES with glowing role tokens SALES CALL, PROPOSALS, FOLLOW-UP, THE CLOSE, CRM lifting off it. Caption: 'A seat is not one job. It is several roles.' Panel 2 PLOT THE ROLES ON THE FRONTIER: a map split by a jagged glowing cyan border, gold AI BRILLIANT territory and crimson AI BREAKS territory, the role tokens scattered across both sides, the supersuited leader studying the line. Caption: 'Map each role onto the jagged frontier.' Panel 3 THE EDGE IS WHAT FALLS OUTSIDE: the tokens on the crimson outside side glow cobalt and are tagged COMPARATIVE HUMAN EDGE, the supersuited leader standing on the cobalt band. Caption: 'The roles outside the frontier are the comparative human edge.' Panel 4 AUTOMATE INSIDE, HUMAN OUTSIDE: first-person POV through an armored helmet visor, a cyan lasso labeled SEAT WRAPPER around the inside gold-zone tokens, a navy-and-orange gauntleted hand on the outside cobalt tokens, HUD HYPERCONTEXT LOADED. Caption: 'Wrapper takes the roles inside. The human takes the roles outside.' Footer bar: MAP THE ROLES. HUMAN HOLDS THE OUTSIDE.](/img/comics/comparative-human-edge.png)
 
@@ -15,13 +15,13 @@ image: "/img/comics/comparative-human-edge.png"
 
 ## The claim
 
-[The Jagged Frontier](/perspectives/the-jagged-frontier) maps AI's side of the line: an uneven, moving border between what models do brilliantly and what they botch. The comparative human edge is the sibling map on the other side. It marks the capacities where a person stays decisively better than the model, and where that gap actually decides whether a role succeeds.
+[Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance) maps AI's side of the line: an uneven, moving border between what models do brilliantly and what they botch. The comparative human edge is the sibling map on the other side. It marks the capacities where a person stays decisively better than the model, and where that gap actually decides whether a role succeeds.
 
 Both halves are needed to design a seat that AI cannot fill. The frontier tells you what to hand the model. The comparative human edge tells you what to protect for the human, and therefore who the seat needs. Where the jagged frontier names the region where AI is irreplaceable, this names the region where the person is.
 
 ## It is the roles in a seat that fall outside the frontier
 
-The ontology here is [EOS](https://traction.wiki), the Entrepreneurial Operating System from Gino Wickman's *Traction*, documented in full at traction.wiki. In EOS a [seat](https://traction.wiki/concepts/seat) is not a single role. A seat is one position with a clear success purpose, made up of several [roles](https://traction.wiki/concepts/five-major-roles): the major responsibilities the person in it owns. So you do not score the comparative human edge for a person in general, or even for a whole seat as one blob. You break the seat into its roles and plot each role onto [the jagged frontier](/perspectives/the-jagged-frontier).
+The ontology here is [EOS](https://traction.wiki), the Entrepreneurial Operating System from Gino Wickman's *Traction*, documented in full at traction.wiki. In EOS a [seat](https://traction.wiki/concepts/seat) is not a single role. A seat is one position with a clear success purpose, made up of several [roles](https://traction.wiki/concepts/five-major-roles): the major responsibilities the person in it owns. So you do not score the comparative human edge for a person in general, or even for a whole seat as one blob. You break the seat into its roles and plot each role onto [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance).
 
 Some roles land inside the frontier, where the model is already strong. Some land outside it, where a person stays decisively better and the gap is load-bearing for the seat's purpose. The comparative human edge is that second set: the roles in this seat that sit outside the frontier. Reading a room is one role inside a high-ticket-closing seat and barely present in a data-reconciliation seat, which is why you map per seat and per role, against what the seat is measured on.
 
@@ -61,7 +61,7 @@ That is the job of a [Seat Wrapper](/concepts/seat-wrapper): it runs the roles t
 
 ## Further Reading
 
-- [The Jagged Frontier](/perspectives/the-jagged-frontier), the other half of the map: where AI is strong, uneven, and moving outward.
+- [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance), the other half of the map: where AI is strong, uneven, and moving outward.
 - [Seat Wrapper](/concepts/seat-wrapper), the AI system you build around the edge so the human stays in it.
 - [You Are the Bottleneck](/perspectives/you-are-the-bottleneck), why the human's judgment, not the model, sets the ceiling.
 - [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation), the larger shift in what work gets pointed at people versus models.

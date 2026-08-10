@@ -1,10 +1,10 @@
 ---
-title: The Tradeoff Era
-slug: /perspectives/the-tradeoff-era
+title: "Model Upgrades Are No Longer Strictly Upgrades"
+slug: /perspectives/model-upgrades-are-no-longer-strictly-upgrades
 description: Frontier model improvements are no longer monotonic. The architecture that wins this era treats models as swappable dependencies.
 ---
 
-# The Tradeoff Era
+# Model Upgrades Are No Longer Strictly Upgrades
 
 *Frontier model improvements are no longer monotonic. Each new flagship beats the previous on some axes and loses on others. Hallucinations and overconfidence rise even as raw benchmark scores rise. The architecture that wins this era treats models as swappable dependencies.*
 
@@ -51,7 +51,7 @@ Three implications:
 
 **Test models on your actual workflow.** Top-line index scores tell you which model wins on average. Your stack is not average. Run the same task across two or three frontier models monthly. Compare outputs. Watch for the regressions the marketing pages do not advertise.
 
-**Hold confident outputs to a higher bar.** GPT-5.5 confidently produces incorrect work more often than its predecessor. The output looks right. It is wrong more often. Verify before shipping. See [The Overconfidence Trap](/perspectives/the-overconfidence-trap) for the operator-side mirror of this same pattern.
+**Hold confident outputs to a higher bar.** GPT-5.5 confidently produces incorrect work more often than its predecessor. The output looks right. It is wrong more often. Verify before shipping. See [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence) for the operator-side mirror of this same pattern.
 
 ## The Diagnostic
 
@@ -81,6 +81,6 @@ Treat models like ingredients. Pick the best one for the dish on the day you coo
 
 ## Further Reading
 
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap)
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence)
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness)
-- [LLM Psychosis](/perspectives/llm-psychosis)
+- [Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job)

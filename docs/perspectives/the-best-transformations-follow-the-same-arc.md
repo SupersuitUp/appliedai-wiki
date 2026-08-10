@@ -1,11 +1,11 @@
 ---
-title: "The Transformation Arc"
-slug: /perspectives/the-transformation-arc
+title: "The Best Transformations Follow the Same Arc"
+slug: /perspectives/the-best-transformations-follow-the-same-arc
 description: "The common process the best AI transformation engagements converge on. Refuse the one-tool instinct, lead with a ROI-ranked strategy blueprint, ship quick wins that pay back fast, then sequence the rollout so each solution compounds the last. Derived from a library of mid-market case studies."
 image: "/img/comics/the-transformation-arc.png"
 ---
 
-# The Transformation Arc
+# The Best Transformations Follow the Same Arc
 
 *The common process the best AI transformation engagements converge on, derived from a published library of mid-market case studies. Refuse the one-tool instinct. Lead with a ROI-ranked strategy blueprint. Ship a quick win that pays back fast. Then roll the rest out in an order where each solution compounds the last. The order is the value.*
 
@@ -21,15 +21,15 @@ Read a stack of AI transformation case studies from a mid-market-focused firm an
 
 Every engagement opens with the client believing they need one point tool. The case studies state it almost identically each time: *"we just need a property management app," "an outage app and a billing chatbot," "a better dispatch app," "a compliance tool," "sensors to monitor equipment," "a better forecasting tool," "an AI writing assistant."*
 
-The instinct fails for the same reasons every time. A standalone tool does not integrate with the systems already in place, it creates duplicate data entry, it solves a surface symptom rather than the real constraint, and it often adds work instead of removing it. Buying one tool is the most common and most expensive way to start. This is adjacent to [the chatbot trap](/perspectives/the-chatbot-trap): a model of AI shrunk to a single gadget.
+The instinct fails for the same reasons every time. A standalone tool does not integrate with the systems already in place, it creates duplicate data entry, it solves a surface symptom rather than the real constraint, and it often adds work instead of removing it. Buying one tool is the most common and most expensive way to start. This is adjacent to [You Cannot Reason About AI You Have Not Felt](/perspectives/you-cannot-reason-about-ai-you-have-not-felt): a model of AI shrunk to a single gadget.
 
 ### Stage 1: the strategy blueprint (the first day)
 
-The firm does not sell the tool. It runs a strategy-first mapping engagement first, compressed into roughly a day of intensive work. It maps every process across the divisions, ranks candidate solutions by ROI, and sequences them into a roadmap. The deliverable is a ranked playbook plus a quantified upside number, not a product license. The blueprint is the wedge: it reframes the buyer from "which tool" to "which order," and it puts a dollar figure on the whole opportunity before anything is built. See [the AI opportunity radar](/playbooks/ai-opportunity-radar) and the [workshop-to-blueprint ladder](/playbooks/workshop-blueprint-project-partnership-ladder) for the mechanics, and [workflow decomposition](/playbooks/workflow-decomposition) for how the mapping is done.
+The firm does not sell the tool. It runs a strategy-first mapping engagement first, compressed into roughly a day of intensive work. It maps every process across the divisions, ranks candidate solutions by ROI, and sequences them into a roadmap. The deliverable is a ranked playbook plus a quantified upside number, not a product license. The blueprint is the wedge: it reframes the buyer from "which tool" to "which order," and it puts a dollar figure on the whole opportunity before anything is built. See [the AI opportunity radar](/playbooks/ai-opportunity-radar) and the [workshop-to-blueprint ladder](/playbooks/workshop-blueprint-project-partnership-ladder) for the mechanics, and [Decompose the Workflow](/playbooks/decompose-the-workflow) for how the mapping is done.
 
 ### Stage 2: the quick win (the first quarter)
 
-The firm deploys the highest-ranked, fastest-payback solution first. Across the cases this is a dashboard, an internal assistant, a routing engine, or a forecasting model. The recurring proof point is a fast, large multiple on a small spend: a five-times return inside ninety days shows up in case after case. The quick win is not the goal. It funds trust and pays for the rest of the rollout. See [pilot scope](/playbooks/pilot-scope) for how to size this first slice.
+The firm deploys the highest-ranked, fastest-payback solution first. Across the cases this is a dashboard, an internal assistant, a routing engine, or a forecasting model. The recurring proof point is a fast, large multiple on a small spend: a five-times return inside ninety days shows up in case after case. The quick win is not the goal. It funds trust and pays for the rest of the rollout. See [Scope the Pilot](/playbooks/scope-the-pilot) for how to size this first slice.
 
 ### Stage 3: the compounding rollout (the first year)
 
@@ -57,7 +57,7 @@ Two things are striking. First, the buyer's wrong starting thought is always a s
 
 ## Why the arc works
 
-The arc is really one idea applied at three time scales: **sequence beats assembly.** A business is a system, and dropping a tool into a system without designing the order of operations produces conflict, double-entry, and abandoned software. Designing the order first, proving it with a fast win, then rolling out so each piece compounds the last, is what turns a pile of AI tools into a re-rated company. The financial version of that re-rating is covered in [the services-firm re-rating threshold](/perspectives/services-firm-re-rating-threshold).
+The arc is really one idea applied at three time scales: **sequence beats assembly.** A business is a system, and dropping a tool into a system without designing the order of operations produces conflict, double-entry, and abandoned software. Designing the order first, proving it with a fast win, then rolling out so each piece compounds the last, is what turns a pile of AI tools into a re-rated company. The financial version of that re-rating is covered in [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm).
 
 This is also why the blueprint is sold before the build. The order of operations is the scarce expertise. Any vendor can sell a chatbot. Knowing which three solutions to install, in which sequence, so the third is worth more because the first two already shipped, is the part the client cannot do alone.
 

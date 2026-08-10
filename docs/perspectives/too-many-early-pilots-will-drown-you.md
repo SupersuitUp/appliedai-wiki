@@ -1,11 +1,11 @@
 ---
-title: "The Early Demand Trap"
-slug: /perspectives/the-early-demand-trap
+title: "Too Many Early Pilots Will Drown You"
+slug: /perspectives/too-many-early-pilots-will-drown-you
 description: "Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful."
 image: "/img/comics/the-early-demand-trap.png"
 ---
 
-# The Early Demand Trap
+# Too Many Early Pilots Will Drown You
 
 *Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful.*
 
@@ -19,7 +19,7 @@ It is a literal trap because the failure mode is invisible while it is happening
 
 ## The counterintuitive fix
 
-Cap your first pilots to a small handful. Resist the temptation to sign too many too quickly. The constraint you are managing is not demand, it is your own capacity to serve while building, and a small number of pilots is what protects the build. This sharpens [pilot scope](/playbooks/pilot-scope): the limit is set by your serving bandwidth, not by how many logos you can close.
+Cap your first pilots to a small handful. Resist the temptation to sign too many too quickly. The constraint you are managing is not demand, it is your own capacity to serve while building, and a small number of pilots is what protects the build. This sharpens [Scope the Pilot](/playbooks/scope-the-pilot): the limit is set by your serving bandwidth, not by how many logos you can close.
 
 The handful you do take on are not just revenue, they are the instrument you learn on. Do not standardize too early. Use the pilots to find the spots where AI gives you unique leverage versus the spots where you are just automating something obvious, then build the product accordingly, and build it fast. The pilot is the product in this phase, and a few deep pilots teach you more than many shallow ones.
 
@@ -33,5 +33,5 @@ Founders with an operating background are the most exposed, because they know ho
 
 ## Further Reading
 
-- [Pilot Scope](/playbooks/pilot-scope) for how to bound the pilots you do take.
+- [Scope the Pilot](/playbooks/scope-the-pilot) for how to bound the pilots you do take.
 - [AI Operating Leverage](/concepts/ai-operating-leverage) for the economics the trap prevents you from reaching.

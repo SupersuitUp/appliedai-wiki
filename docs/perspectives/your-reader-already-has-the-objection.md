@@ -1,11 +1,11 @@
 ---
-title: "Name the Best Argument Against You First"
-slug: /perspectives/name-the-best-argument-against-you-first
+title: "Your Reader Already Has the Objection"
+slug: /perspectives/your-reader-already-has-the-objection
 description: "Anyone technical enough to matter already knows the counterargument to what you are recommending. Stating it in its strongest form, before they raise it, is what earns you the right to answer it."
 image: "/img/comics/name-the-best-argument-against-you-first.png"
 ---
 
-# Name the Best Argument Against You First
+# Your Reader Already Has the Objection
 
 *Anyone technical enough to matter already knows the counterargument. Stating it in its strongest form, before they raise it, is what earns you the right to answer it.*
 
@@ -31,7 +31,7 @@ Three things a genuine steel-man does that a straw man does not:
 
 - **It uses their strongest evidence, not their weakest.** Cite the most favorable numbers for the other side, not the ones that flatter you.
 - **It concedes what is true.** Most serious objections are partly correct. Naming the correct part is what makes your answer to the rest believable.
-- **It leaves something unresolved.** If your steel-man collapses completely under your response, you softened it. Real trade-offs survive the argument, which is why [the tradeoff era](/perspectives/the-tradeoff-era) rewards honest accounting over clean stories.
+- **It leaves something unresolved.** If your steel-man collapses completely under your response, you softened it. Real trade-offs survive the argument, which is why [Model Upgrades Are No Longer Strictly Upgrades](/perspectives/model-upgrades-are-no-longer-strictly-upgrades) rewards honest accounting over clean stories.
 
 ## Most objections run on two clocks
 
@@ -40,7 +40,7 @@ The single most useful move is to split the objection by time horizon, because t
 Take the objection that shows up in every platform decision right now: cheap open-weight models are close enough, cost an order of magnitude less, and give you more control.
 
 - **The near-term version** is often already settled in your favor by the reader's own behavior. They are using the frontier model. The reason is that [only frontier models replace skilled labor](/perspectives/only-frontier-models-replace-skilled-labor), and the gap shows up exactly on the long-horizon agentic work they care about.
-- **The long-term version** is genuinely open. Whether frontier economics hold, whether the capability gap narrows, whether [open weights function as a price ceiling](/perspectives/open-weights-as-price-ceiling): these are live questions and pretending otherwise is the fastest way to lose a reader you had.
+- **The long-term version** is genuinely open. Whether frontier economics hold, whether the capability gap narrows, whether [open weights function as a price ceiling](/perspectives/open-weights-cap-what-closed-labs-can-charge): these are live questions and pretending otherwise is the fastest way to lose a reader you had.
 
 Answer the near-term question with evidence and the long-term question with a structural argument about where your durable advantage actually sits. If the honest long-term answer is "this is a real risk and here is what it costs you to hedge," say that and price the hedge ([the portability tax](/concepts/the-portability-tax) is what that hedge costs).
 
@@ -50,7 +50,7 @@ The practical technique: before you publish the argument, hand the case to a fro
 
 This works because the failure mode is not that you cannot answer the objection, it is that you cannot see it. You are inside your own frame and your model of the skeptic is a caricature of a real person. A model asked to argue the other side at full strength produces a sharper adversary than the one in your head, and it does it before a prospect does it in a live conversation.
 
-Ask it for the objection an intelligent, well-informed engineer would raise who has no incentive to be nice, and take seriously what survives. This is the same discipline that guards against [the overconfidence trap](/perspectives/the-overconfidence-trap) in any other technical judgment.
+Ask it for the objection an intelligent, well-informed engineer would raise who has no incentive to be nice, and take seriously what survives. This is the same discipline that guards against [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence) in any other technical judgment.
 
 ## Where this belongs
 
@@ -63,7 +63,7 @@ On the page you are asking people to read, not in the reply you send after they 
 ## Further Reading
 
 - [Your First Touch Should Sell the Next Step](/perspectives/your-first-touch-should-sell-the-next-step) for the surface this argument belongs on.
-- [Open Weights as Price Ceiling](/perspectives/open-weights-as-price-ceiling) for the worked example of the objection used throughout this page.
+- [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge) for the worked example of the objection used throughout this page.
 - [Only Frontier Models Replace Skilled Labor](/perspectives/only-frontier-models-replace-skilled-labor) for the near-term half of that answer.
 - [The Portability Tax](/concepts/the-portability-tax) for pricing the hedge honestly instead of waving at it.
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap) for the same discipline applied to technical judgment.
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence) for the same discipline applied to technical judgment.

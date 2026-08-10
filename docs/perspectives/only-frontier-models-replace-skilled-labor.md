@@ -23,7 +23,7 @@ So the honest version of the claim is narrower and sharper: the economically mea
 
 Two reasons, and they compound.
 
-**Small models are less general by definition.** A distilled or specialized model is tuned to do a narrow, repetitive thing well. Skilled work is the opposite shape: its value is the judgment that generalizes across the cases nobody wrote down. A model built to be narrow cannot be the thing whose whole point is breadth. This is the same border described in [the jagged frontier](/perspectives/the-jagged-frontier) and the same split enforced by [the judgment line](/perspectives/the-judgment-line): the judgment is exactly the part you do not hand to a smaller, cheaper component.
+**Small models are less general by definition.** A distilled or specialized model is tuned to do a narrow, repetitive thing well. Skilled work is the opposite shape: its value is the judgment that generalizes across the cases nobody wrote down. A model built to be narrow cannot be the thing whose whole point is breadth. This is the same border described in [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance) and the same split enforced by [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the judgment is exactly the part you do not hand to a smaller, cheaper component.
 
 **Churn kills the payback.** Even where a small model could be trained to approximate a skilled task, the frontier moves too fast for the investment to earn out. By the time a team finishes distilling or fine-tuning for a specific job, a stronger general model has shipped and the specialized artifact is behind. This is the [in-context learning](/concepts/in-context-learning) argument seen from the labor side, and the leadership version of it is [you can't distill your way to the frontier](/perspectives/you-cant-distill-your-way-to-the-frontier): a copy inherits the teacher's ceiling and its errors, and skilled work is where those errors cost the most.
 
@@ -39,19 +39,19 @@ The confusion is a naming error: calling every automation "labor replacement" an
 
 The useful move is not to ask "will AI replace this job." It is to decompose the role into its actual tasks and workflows and ask, of each one, whether doing it well requires general intelligence. Public efforts to break the economy down this way, like the Anthropic Economic Index, are a good template: skill by skill, workflow by workflow, rather than occupation by occupation.
 
-Run that decomposition and the tasks sort themselves. The repetitive, low-judgment ones resolve to small models or deterministic code. The skilled ones, the judgment that carries the role, resolve to the frontier. Substitution happens task by task inside a role, not wholesale, which is also why [the comparative human edge](/perspectives/comparative-human-edge) survives: the residual after you subtract the automatable tasks is the part of the seat you should never try to automate.
+Run that decomposition and the tasks sort themselves. The repetitive, low-judgment ones resolve to small models or deterministic code. The skilled ones, the judgment that carries the role, resolve to the frontier. Substitution happens task by task inside a role, not wholesale, which is also why [the comparative human edge](/perspectives/some-of-every-role-should-never-be-automated) survives: the residual after you subtract the automatable tasks is the part of the seat you should never try to automate.
 
 ## What it means for operators
 
 - **Automating a client's skilled work is a frontier-model bet.** Wire the strongest general model into the workflow. Do not try to distill or fine-tune a small model to fake judgment; you will pay to build something that is behind before it ships.
-- **The moat is the harness, not the fine-tune.** Since you cannot own the weights and would not want to freeze them, the durable work is the context and the loop around the frontier model. See [context engineering](/disciplines/context-engineering) and [the case for simple harnesses](/perspectives/the-case-for-simple-harnesses).
+- **The moat is the harness, not the fine-tune.** Since you cannot own the weights and would not want to freeze them, the durable work is the context and the loop around the frontier model. See [context engineering](/disciplines/context-engineering) and [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning).
 - **Watch the frontier as your leading indicator.** How much of a client's skilled work becomes substitutable this year is a function of frontier progress, not of how cheap inference gets. Cheaper small models widen the drudgery you can automate; they do not move the skilled line. Only the frontier does.
 
 ## Further Reading
 
 - [You Can't Distill Your Way to the Frontier](/perspectives/you-cant-distill-your-way-to-the-frontier): the model-leadership version of the same asymmetry. A copy cannot lead; a small model cannot carry skill.
 - [In-Context Learning](/concepts/in-context-learning): why the frontier moves too fast to bake anything specialized into weights, seen from the customization side.
-- [The Judgment Line](/perspectives/the-judgment-line): the architectural rule that isolates judgment as the part only the model should hold.
-- [The Jagged Frontier](/perspectives/the-jagged-frontier): the uneven border of what AI does well, which is the border this claim is drawn along.
-- [Comparative Human Edge](/perspectives/comparative-human-edge): the residual skilled work that stays human after the automatable tasks are subtracted.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the architectural rule that isolates judgment as the part only the model should hold.
+- [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance): the uneven border of what AI does well, which is the border this claim is drawn along.
+- [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated): the residual skilled work that stays human after the automatable tasks are subtracted.
 - [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation): why replacing labor, not software, is the budget AI is actually competing for.

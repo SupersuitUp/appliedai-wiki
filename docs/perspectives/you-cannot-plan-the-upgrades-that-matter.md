@@ -74,5 +74,5 @@ The bet fails in one specific way, and it is worth naming. If the deliveries are
 - [Golden Processes](/concepts/golden-processes): what a repaired procedure becomes once it is blessed and checked in, so the fix stops being re-improvised.
 - [Golden Chain](/concepts/golden-chain): a worked example of an upgrade that only became visible after a real batch failed in a way no plan anticipated.
 - [Compounding Docs](/concepts/compounding-docs): the externalized-context flywheel that keeps the marginal upgrade cheap enough for one operator.
-- [Default to Determinism](/perspectives/default-to-determinism): where to spend the engine upgrades, since the parts worth hardening are the ones that should never have been improvised.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): where to spend the engine upgrades, since the parts worth hardening are the ones that should never have been improvised.
 - [compounding.wiki: Disciplined Compounding](https://compounding.wiki/concepts/disciplined-compounding): the canonical home for the discipline, including the one-question provenance test and the failure mode that voids it.

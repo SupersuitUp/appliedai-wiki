@@ -21,7 +21,7 @@ Agentic coding removed the filter. You describe an elaborate system and watch it
 
 ## Easy production feels like value, and it is not
 
-Generating code now delivers a fast physical reward. Something appears, it compiles, the diff is large, and your body reports progress. That reward is the same one described in [Idolizing the Build](/perspectives/idolizing-the-build) and quantified in [Vice Is Quantifiable](/perspectives/vice-is-quantifiable): the spend itself becomes the hit. The difference here is subtler than build-versus-buy. You can be building the exact right thing, the part that is genuinely yours, and still over-build it, because producing more of it feels good.
+Generating code now delivers a fast physical reward. Something appears, it compiles, the diff is large, and your body reports progress. That reward is the same one described in [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) and quantified in [Vice Is Quantifiable](/perspectives/vice-is-quantifiable): the spend itself becomes the hit. The difference here is subtler than build-versus-buy. You can be building the exact right thing, the part that is genuinely yours, and still over-build it, because producing more of it feels good.
 
 That is the masturbatory failure. The extra layer of indirection, the speculative config surface, the second and third code path for cases nobody has hit, the framework you reached for when a function would do. None of it was demanded by the problem. It was demanded by the pleasure of producing, and the agent is a bottomless supply. You end up admiring the machinery instead of shipping the outcome, and every part you added is now a part you own forever.
 
@@ -58,7 +58,7 @@ Holding the line, in practice:
 
 ## Simple is not sloppy
 
-Functional means it actually works: it meets the requirement, handles the real cases, and stays legible to the next person who opens it. That is a higher bar than a pile of clever machinery, not a lower one, and it is a different failure from [Slop Factory](/perspectives/slop-factory), where the output is high-volume and low-quality. Here the output can be genuinely well-made and still wrong, because it is well-made in service of complexity the problem never asked for. The same restraint runs through [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses) at the tooling layer: a small core beats a kitchen sink because someone has to own every default you ship.
+Functional means it actually works: it meets the requirement, handles the real cases, and stays legible to the next person who opens it. That is a higher bar than a pile of clever machinery, not a lower one, and it is a different failure from [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory), where the output is high-volume and low-quality. Here the output can be genuinely well-made and still wrong, because it is well-made in service of complexity the problem never asked for. The same restraint runs through [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning) at the tooling layer: a small core beats a kitchen sink because someone has to own every default you ship.
 
 The skill the industry is quietly selecting for is not the ability to produce. That is free now. It is the judgment to produce as little as the outcome requires and to feel no smaller for it.
 
@@ -66,8 +66,8 @@ The skill the industry is quietly selecting for is not the ability to produce. T
 
 ## Further Reading
 
-- [Idolizing the Build](/perspectives/idolizing-the-build): the sibling failure, worshipping the act of building over the outcome it serves.
-- [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): the same restraint applied to the harness and tooling layer.
+- [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build): the sibling failure, worshipping the act of building over the outcome it serves.
+- [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): the same restraint applied to the harness and tooling layer.
 - [Acceleration Is Not Completion](/perspectives/acceleration-is-not-completion): why speed of production is not the same as a finished outcome.
 - [Vice Is Quantifiable](/perspectives/vice-is-quantifiable): why the production rush behaves like every other addiction.
-- [Slop Factory](/perspectives/slop-factory): the adjacent failure of high-volume, low-quality output.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory): the adjacent failure of high-volume, low-quality output.

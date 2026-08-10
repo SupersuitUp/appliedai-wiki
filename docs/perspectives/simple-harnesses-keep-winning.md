@@ -1,10 +1,10 @@
 ---
-title: "The Case for Simple Harnesses"
-slug: /perspectives/the-case-for-simple-harnesses
+title: "Simple Harnesses Keep Winning"
+slug: /perspectives/simple-harnesses-keep-winning
 description: "A small core. Extensible edges. Your context under your control. The harness architecture that keeps winning as the field matures."
 ---
 
-# The Case for Simple Harnesses
+# Simple Harnesses Keep Winning
 
 *A small core. Extensible edges. Your context under your control. The harness architecture that keeps winning as the field matures.*
 
@@ -150,7 +150,7 @@ The industry is going to sort itself out over the next few years. Some products 
 
 - [Harness Engineering](https://appliedai.wiki/disciplines/harness-engineering): The discipline this concept sits inside.
 - [Anatomy of a Harness](https://appliedai.wiki/disciplines/anatomy-of-a-harness): The components every harness shares.
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): Why we teach primitives over opinionated desktop layers.
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): Why we teach primitives over opinionated desktop layers.
 - [The Harness and the Deployment](/concepts/the-harness-and-the-deployment): A simple harness still leaves the deployment question open. Answer it separately.
 - [The Portability Tax](/concepts/the-portability-tax): What a keep-everything-swappable posture costs once the agent is stateful.
 - [Progressive Sovereignty](https://supersuit.wiki/concepts/progressive-sovereignty): Simple harnesses are the tool-layer expression of this principle.

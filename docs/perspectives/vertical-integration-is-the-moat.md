@@ -15,13 +15,13 @@ image: "/img/comics/vertical-integration-is-the-moat.png"
 
 ## The moat is not the model
 
-Frontier models leapfrog each other every few months, and open weights cap what any closed lab can charge (see [Open Weights as Price Ceiling](/perspectives/open-weights-as-price-ceiling)). Any single model lead is temporary and expensive to defend. You also cannot copy your way to the front: distillation reproduces yesterday's answers while inheriting yesterday's errors (see [You Can't Distill Your Way to the Frontier](/perspectives/you-cant-distill-your-way-to-the-frontier)).
+Frontier models leapfrog each other every few months, and open weights cap what any closed lab can charge (see [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge)). Any single model lead is temporary and expensive to defend. You also cannot copy your way to the front: distillation reproduces yesterday's answers while inheriting yesterday's errors (see [You Can't Distill Your Way to the Frontier](/perspectives/you-cant-distill-your-way-to-the-frontier)).
 
 What does not converge is the loop wrapped around the model. That loop is the harness.
 
 ## The harness is a data-collection engine
 
-A harness is where a human turns a thought into action ([Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper), [Harness Engineering](/disciplines/harness-engineering)). Every session inside it is a labeled example: the intent a person came in with, the sequence of steps they took, the corrections they made along the way, and the one signal that matters most, whether they accepted the output or threw it away.
+A harness is where a human turns a thought into action ([The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning), [Harness Engineering](/disciplines/harness-engineering)). Every session inside it is a labeled example: the intent a person came in with, the sequence of steps they took, the corrections they made along the way, and the one signal that matters most, whether they accepted the output or threw it away.
 
 That trio, intent then action then satisfaction, is the exact data you need to make a model more useful at real work. It exists nowhere else. No public benchmark contains it. No amount of scraped text captures whether a specific human got what they actually wanted. It is generated only when real people do real work inside your harness, and it belongs to whoever runs that harness.
 
@@ -54,16 +54,16 @@ That is why the fully verticalized owner is so hard to beat. They capture the da
 
 Which specific lab survives, and for how long, is genuinely uncertain. The structural point holds no matter who wins: you will not out-model the full-stack labs, and you should stop trying. Their edge is not a better prompt you can match. It is a loop you are not inside. Three moves follow.
 
-- **Ride the harness, do not rebuild it.** Learn the primitives that transfer, and prefer a small core with extensible edges over a bespoke stack you now have to maintain ([The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses)).
-- **Keep your own context and taste under your control.** Your accumulated context is the one asset the flywheel wants and the one you can actually withhold or carry between harnesses ([Ephemeral Software, Precious Context](/perspectives/ephemeral-software-precious-context), [Command Centers](/concepts/command-centers)).
+- **Ride the harness, do not rebuild it.** Learn the primitives that transfer, and prefer a small core with extensible edges over a bespoke stack you now have to maintain ([Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning)).
+- **Keep your own context and taste under your control.** Your accumulated context is the one asset the flywheel wants and the one you can actually withhold or carry between harnesses ([Software Is Disposable, Context Is the Asset](/perspectives/software-is-disposable-context-is-the-asset), [Command Centers](/concepts/command-centers)).
 - **Price in the lock-in.** The same loop that makes a harness useful makes leaving it expensive. Assume the switching cost will rise, and keep an exit that does not depend on any one vendor's goodwill.
 
 The competitive question in applied AI is moving off the model and onto the loop. Build where the loop cannot reach: your judgment, your context, and the specific business you understand better than any harness ever will.
 
 ## Further Reading
 
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): why the harness, not the vendor wrapper, is where durable skill lives.
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): why the harness, not the vendor wrapper, is where durable skill lives.
 - [Only Frontier Models Replace Skilled Labor](/perspectives/only-frontier-models-replace-skilled-labor): the companion claim about where model capability actually bites.
 - [You Can't Distill Your Way to the Frontier](/perspectives/you-cant-distill-your-way-to-the-frontier): why copying the model is not a path to leading it.
-- [Open Weights as Price Ceiling](/perspectives/open-weights-as-price-ceiling): how the moat moves off the technique and onto distribution and trust.
+- [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge): how the moat moves off the technique and onto distribution and trust.
 - [Harness Engineering](/disciplines/harness-engineering): the craft of building the loop this perspective is about.

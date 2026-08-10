@@ -1,10 +1,10 @@
 ---
-title: "The Permission Surface"
-slug: /perspectives/the-permission-surface
+title: "Permissions Are the Load-Bearing Layer of a Harness"
+slug: /perspectives/permissions-are-the-load-bearing-layer-of-a-harness
 description: "The most powerful thing you can do for an AI agent is tell it what it cannot do. Permission design as the load-bearing layer of a working harness."
 ---
 
-# The Permission Surface
+# Permissions Are the Load-Bearing Layer of a Harness
 
 *The most powerful thing you can do for an AI agent is tell it what it cannot do.*
 

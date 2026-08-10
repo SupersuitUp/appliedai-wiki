@@ -1,11 +1,11 @@
 ---
-title: "The Fumble-Then-Hire Curve"
-slug: /perspectives/the-fumble-then-hire-curve
+title: "Buyers Fumble Alone Before They Hire You"
+slug: /perspectives/buyers-fumble-alone-before-they-hire-you
 description: "People try to figure out AI alone on minimal spend, fumble for months, then hire a coach. The lag between starting solo and reaching out is the consultant's sales-timing signal."
 image: "/img/comics/the-fumble-then-hire-curve.png"
 ---
 
-# The Fumble-Then-Hire Curve
+# Buyers Fumble Alone Before They Hire You
 
 *People believe they can figure out AI alone, so they spend months on minimal credits getting results they do not want, then reach out for help. The lag between starting solo and reaching out is a predictable curve, and the trough is when they are finally ready to buy.*
 
@@ -25,7 +25,7 @@ That gap is what finally moves them. Only after fumbling on their own for long e
 
 Two forces hold people in the solo phase, and both feel like good sense from the inside.
 
-The first is confidence. AI fluency manufactures the feeling of competence whether or not the competence is there, which is the whole argument of [the overconfidence trap](/perspectives/the-overconfidence-trap). Someone who can produce a polished output on demand does not feel like someone who needs a coach. They feel like someone who is already most of the way there. The better the tool gets at making them look capable, the longer they wait before admitting they are stuck.
+The first is confidence. AI fluency manufactures the feeling of competence whether or not the competence is there, which is the whole argument of [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence). Someone who can produce a polished output on demand does not feel like someone who needs a coach. They feel like someone who is already most of the way there. The better the tool gets at making them look capable, the longer they wait before admitting they are stuck.
 
 The second is spend discipline, and it is genuinely rational. Keeping cost low while you learn is correct. The right move early is to extract everything you can from a subscription or a thin tier of API credits before paying anyone for guidance. The trap is not the frugality. The trap is mistaking low spend for low need: running the cheap experiment for months past the point where it stopped teaching you anything, because spending nothing feels like winning even when the outcome is still missing.
 
@@ -41,7 +41,7 @@ For the consultant or coach, this curve is a sales-timing signal, and it is the 
 
 A prospect who has not fumbled yet cannot be sold to. They do not believe they need help, because the confidence is still intact and the bill is still cheap. Pitching them is pushing on a door that opens the other way. The window opens at the trough: after they have tried, after the spend stayed low and the results stayed flat, after the gap between the tool's obvious power and their flat outcomes has become their own problem instead of your claim about their problem.
 
-This reframes prospecting. You are not trying to convince people AI matters. They already believe that, which is why they have been fumbling. You are trying to find the ones who have fumbled long enough to be ready, and to be the obvious call when they finally make it. That is a different motion from cold persuasion, and it tracks the same readiness logic as [buying relief, not AI](/perspectives/buying-relief-not-ai): the buyer reaches out when the pain of staying stuck exceeds the discomfort of asking for help. Meet them there. See [finding clients](/playbooks/finding-clients) for how to be positioned at the trough rather than upstream of it.
+This reframes prospecting. You are not trying to convince people AI matters. They already believe that, which is why they have been fumbling. You are trying to find the ones who have fumbled long enough to be ready, and to be the obvious call when they finally make it. That is a different motion from cold persuasion, and it tracks the same readiness logic as [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative): the buyer reaches out when the pain of staying stuck exceeds the discomfort of asking for help. Meet them there. See [finding clients](/playbooks/finding-clients) for how to be positioned at the trough rather than upstream of it.
 
 ## Where the market is now
 
@@ -49,8 +49,8 @@ As of mid-2026, a large cohort is hitting the trough at once. The early-adopter 
 
 ## Further Reading
 
-- [The Overconfidence Trap](/perspectives/the-overconfidence-trap)
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai)
-- [Eleven Ways to Monetize AI Expertise](/perspectives/eleven-ways-to-monetize-ai-expertise)
+- [AI Fluency Manufactures False Confidence](/perspectives/ai-fluency-manufactures-false-confidence)
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative)
+- [Every AI Business Model Has a Different Ceiling](/perspectives/every-ai-business-model-has-a-different-ceiling)
 - [Finding Clients](/playbooks/finding-clients)
 - [AI Operating Leverage](/concepts/ai-operating-leverage)

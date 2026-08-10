@@ -1,11 +1,11 @@
 ---
-title: The Chatbot Trap
-slug: /perspectives/the-chatbot-trap
+title: "You Cannot Reason About AI You Have Not Felt"
+slug: /perspectives/you-cannot-reason-about-ai-you-have-not-felt
 description: Most people formed their model of AI from free-tier ChatGPT and viral failure clips. Until you have felt your AI do real creative work, you cannot reason accurately about what is now possible.
 image: "/img/comics/the-chatbot-trap.png"
 ---
 
-# The Chatbot Trap
+# You Cannot Reason About AI You Have Not Felt
 
 *Most people formed their model of AI from free-tier ChatGPT and viral failure clips, and that model has not updated. Until a person has felt their AI do real creative work in their actual life, they cannot reason accurately about what is now possible.*
 
@@ -102,5 +102,5 @@ Once a person has their own environment running and has watched it do one substa
 ## Further Reading
 
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): The downstream workflow trap that lives inside the same mental-model trap.
-- [Effective AGI](/perspectives/effective-agi): The capability claim that the chatbot trap obscures.
+- [AGI Is Already Here for People Who Can Wield It](/perspectives/agi-is-already-here-for-people-who-can-wield-it): The capability claim that the chatbot trap obscures.
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach once the trap is broken and you build the persistent system around your work.
