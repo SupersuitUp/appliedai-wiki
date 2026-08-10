@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { useChangeEvents, type ChangeEvent } from './ChangelogWidget';
+import useGlobalData from '@docusaurus/useGlobalData';
 
 // Created / Updated for the article being read, from the same git-derived
 // event stream that feeds /changelog. Docusaurus ships `showLastUpdateTime`,
@@ -10,12 +10,34 @@ import { useChangeEvents, type ChangeEvent } from './ChangelogWidget';
 // changelog plugin already solved that (full-clone snapshot committed to the
 // repo, merged with whatever live git the build can see), so the dates here
 // ride on a source that is correct in production.
+//
+// Deliberately self-contained: it reads the plugin's global data itself rather
+// than importing from ChangelogWidget, so it drops into a wiki that has the
+// creation-date plugin but no changelog widget, and renders nothing at all in
+// a wiki that has neither.
+
+type ChangeType = 'new' | 'updated' | 'removed';
+
+interface ChangeEvent {
+  type: ChangeType;
+  date: string; // ISO8601 commit date
+  routePath: string; // public URL with leading slash; empty for removed pages
+}
+
+function useChangeEvents(): ChangeEvent[] {
+  const globalData = useGlobalData() as
+    | Record<string, Record<string, unknown>>
+    | undefined;
+  const data = globalData?.['creation-date-plugin']?.default as
+    | { changeEvents?: ChangeEvent[] }
+    | undefined;
+  return data?.changeEvents ?? [];
+}
 
 // Matching is by ROUTE, not by doc id. This component is injected into a DOM
-// slot via a portal, and reading the doc id would mean useDoc() — which throws
-// "Hook is called outside the <DocProvider>" here. The plugin already stores
-// each event's public route, so the pathname is the natural key and the
-// component stays usable from anywhere on the page.
+// slot via a portal, and reading the doc id would mean useDoc(), which throws
+// "Hook is called outside the <DocProvider>" from here. The plugin already
+// stores each event's public route, so the pathname is the natural key.
 function normalizeRoute(pathname: string, baseUrl: string): string {
   let route = pathname;
   if (baseUrl !== '/' && route.startsWith(baseUrl)) {
@@ -49,7 +71,7 @@ export function usePageDates(): Dates {
   const baseUrl = useBaseUrl('/');
   const route = normalizeRoute(pathname, baseUrl);
 
-  const mine: ChangeEvent[] = events.filter(
+  const mine = events.filter(
     (e) =>
       e.type !== 'removed' &&
       e.routePath &&
