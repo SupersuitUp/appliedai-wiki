@@ -54,9 +54,17 @@ One page, scannable in a minute, readable in five.
 
 Keep the visual language quiet. This is a thank-you note, not a product launch. Their words should be the most prominent thing on the page.
 
+## Getting the "before" when you already shipped the change
+
+The obvious problem with a receipt is that you write it after the work, so the before state is gone from the screen. It is not gone from version control.
+
+Recover it rather than describing it from memory. Check out the pre-feedback commit of the changed file, render it exactly the way the live one renders (serve the built site locally and swap the one file, so images and styles resolve identically), capture the same views in both states, then restore. Two captures of the same view under identical conditions is a real before and after; a fresh screenshot beside a remembered description is not.
+
+This matters most for anything visual. A reviewer who marked up a deck, a page, or a screen wants to see the thing, and a text diff of a headline reads as an evasion when the artifact under review was a picture.
+
 ## Publishing and sending
 
-Publish it as a standalone page at a stable URL and send the link with a short personal message. Do not paste the contents into a chat thread; the artifact is doing the work, and a wall of text in a message undoes the courtesy.
+Publish it as a standalone page at a stable URL and send the link with a short personal message. **Confirm the link opens for someone who is not you before you send it.** A page that is private by default reads to the recipient as a permission wall, which converts a thank-you into a small chore, so open it in a logged-out window or have the sharing turned on first. Do not paste the contents into a chat thread; the artifact is doing the work, and a wall of text in a message undoes the courtesy.
 
 The message itself is three lines at most: thanks, here is what your notes did, what should I look at next. Their name, not "hey team."
 
