@@ -74,7 +74,7 @@ The Streamliner combines building skills with consulting instincts.
 
 **Full-stack development.** You need to ship complete apps: frontend, backend, deployment. The typical stack is Next.js, React, and a hosting platform like Vercel. The professional sees a polished interface, not a prototype.
 
-**Workflow decomposition.** The consulting skill of sitting with someone, understanding their daily work at a granular level, and identifying where time, quality, or sanity is being lost. This is the same skill the [Applied AI Consultant](/roles/applied-ai-consultant) uses, applied at the individual level. See also the [workflow decomposition](/playbooks/workflow-decomposition) playbook for the framework.
+**Workflow decomposition.** The consulting skill of sitting with someone, understanding their daily work at a granular level, and identifying where time, quality, or sanity is being lost. This is the same skill the [Applied AI Consultant](/roles/applied-ai-consultant) uses, applied at the individual level. See also the [Decompose the Workflow](/playbooks/decompose-the-workflow) playbook for the framework.
 
 **UX design sense.** The app has to be simpler than what it replaces. If you build something that requires training to use, you have failed. The professional should open it and immediately understand what to do. Buttons, not menus. Actions, not options.
 
@@ -98,7 +98,7 @@ The Streamliner combines building skills with consulting instincts.
 
 ## Further Reading
 
-- [Workflow Decomposition](/playbooks/workflow-decomposition): the framework for breaking down professional workflows into automatable components.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow): the framework for breaking down professional workflows into automatable components.
 - [Pricing](/playbooks/pricing): principles-based pricing for high-value AI engagements.
 - [Context Engineering](/disciplines/context-engineering): building apps that have the right context to be useful on the first try.
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): why wrapping AI in a real interface matters more than exposing a chat box.

@@ -24,7 +24,7 @@ Use this when you want to skim the surface area of the wiki without committing t
 - **[Agent-Accessible Products](/concepts/agent-accessible-products)**: if agents cannot use your product, agents will replace your product. The CLI, API, and MCP shift in product design.
 - **[Agentic UX Rules](/concepts/agentic-ux-rules)**: a growing list of UX rules for the agentic age. The bar for product UX has moved because AI moved it.
 - **[Always-On Agents](/concepts/always-on-agents)**: the shift from AI that answers when asked to AI that works for you while you sleep.
-- **[Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper)**: agentic harnesses like Claude Code, Hermes, and Codex are primitives. Vendor wrappers hide them to look friendlier. Learn the harness so your skills transfer.
+- **[The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)**: agentic harnesses like Claude Code, Hermes, and Codex are primitives. Vendor wrappers hide them to look friendlier. Learn the harness so your skills transfer.
 - **[The Mission Harness](/concepts/mission-harness)**: everyone talks about AI alignment. Aligned to what? A mission harness makes it concrete: a system that keeps humans and agents aligned with a shared purpose.
 
 ## Context and truth
@@ -48,9 +48,9 @@ Use this when you want to skim the surface area of the wiki without committing t
 ## Craft, taste, and the human side
 
 - **[Agentic Exploration](/concepts/agentic-exploration)**: execution is cheap now and taste is the whole game. Explore wide, narrow by taste, explore again, repeat until the work is great.
-- **[Judgment Burnout](/perspectives/judgment-burnout)**: AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment.
-- **[The Prolific Mode](/perspectives/the-prolific-mode)**: great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.
-- **[See Your Own Thinking](/concepts/see-your-own-thinking)**: most people have never seen their own thinking laid out in front of them. When they do, everything changes.
+- **[Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment)**: AI agents do not reduce work. They compress it. The compression lands on the one layer that does not scale: human judgment.
+- **[Great Work Is a Byproduct of Volume Plus Taste](/perspectives/great-work-is-a-byproduct-of-volume-plus-taste)**: great work has always been a byproduct of volume plus taste. The industrial economy could only afford that mode for programmers. The AI economy offers it to everyone.
+- **[Visible Thinking](/concepts/visible-thinking)**: most people have never seen their own thinking laid out in front of them. When they do, everything changes.
 - **[Vibe Curation](/concepts/vibe-curation)**: the most valuable engineers in the world will only work in environments where they feel safe. Someone has to foster those environments.
 - **[You Are the Bottleneck](/perspectives/you-are-the-bottleneck)**: money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
 
@@ -58,7 +58,7 @@ Use this when you want to skim the surface area of the wiki without committing t
 
 - **[Digital Employee](/concepts/digital-employee)**: a domain expert's packaged judgment, rentable as a product. The category agent SDKs unlocked, where expertise scales past the expert's calendar. Secondary name: SMEaaS, subject-matter expertise as a service.
 - **[The Roles-to-Workflows Shift](/concepts/roles-to-workflows)**: stop thinking about your business in terms of roles. Start thinking in terms of workflows. The single biggest mental model shift for the AI era.
-- **[Slop Factory](/perspectives/slop-factory)**: a business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
+- **[Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory)**: a business structure optimized for autonomous throughput where the throughput is slop. The trap the self-running business obsession leads to when nobody is watching what is actually shipping.
 - **[Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution)**: execution is being commoditized. The highest-leverage skill in the AI economy is the ability to define reality, set objectives, and evaluate whether the system is working.
 
 ## Further Reading

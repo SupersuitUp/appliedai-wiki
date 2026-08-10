@@ -46,7 +46,7 @@ So the work moves upstream, into the things that shape every generation at once:
 
 Frontier models made the generation itself cheap. What stayed scarce is the judgment about what should be generated and what good looks like in a specific domain, which is precisely what a subject-matter expert spent decades accumulating and could previously only spend one client at a time.
 
-That makes this the natural seat for an expert moving into [the outcome economy](/concepts/the-outcome-economy), where the sellable unit is a generator rather than an engagement. It is a distinct hat from [The AI-Services Founder](/roles/ai-services-founder), who runs a company where [the product is an operation](/concepts/the-product-is-an-operation). Here the product is the generated experience, and the architect is the person answerable for how it feels.
+That makes this the natural seat for an expert moving into [the outcome economy](/concepts/the-outcome-economy), where the sellable unit is a generator rather than an engagement. It is a distinct hat from [The AI-Services Founder](/roles/ai-services-founder), who runs a company where [The Product as Operation](/concepts/the-product-as-operation). Here the product is the generated experience, and the architect is the person answerable for how it feels.
 
 ## The honest parts
 
@@ -54,14 +54,14 @@ Three things keep this from being a fantasy of passive income.
 
 **The energy does not go to zero. It changes shape.** Delivery labor becomes system stewardship: triage, edge cases, drift, trust, support. In a healthy system that load is small and recurring, a few hours every several days rather than a full calendar. The honest promise is that your work is decoupled from headcount served, not that the work disappears.
 
-**The quality burden concentrates rather than disappears.** A weak engagement disappoints one client, in a room, where you can fix it. A weak generator disappoints everyone at once, quietly, without telling you. Adoption is the real bar, and nobody adopts a generator that is not good. The judgment demand goes up, not down. See [Judgment Burnout](/perspectives/judgment-burnout) for the failure mode on the other side of that.
+**The quality burden concentrates rather than disappears.** A weak engagement disappoints one client, in a room, where you can fix it. A weak generator disappoints everyone at once, quietly, without telling you. Adoption is the real bar, and nobody adopts a generator that is not good. The judgment demand goes up, not down. See [Agents Compress Work Onto Your Judgment](/perspectives/agents-compress-work-onto-your-judgment) for the failure mode on the other side of that.
 
-**Not every expertise is generator-shaped, and this is one hat among several.** There is no single correct package, and the best practices for marketing and pricing these systems are still forming. Work that is irreducibly relational, or that carries accountability someone has to be able to look in the eye, stays with humans. See [Humans at the Edges](/perspectives/humans-at-the-edges).
+**Not every expertise is generator-shaped, and this is one hat among several.** There is no single correct package, and the best practices for marketing and pricing these systems are still forming. Work that is irreducibly relational, or that carries accountability someone has to be able to look in the eye, stays with humans. See [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges).
 
 ## Further Reading
 
 - [The Outcome Economy](/concepts/the-outcome-economy) the market this seat sells into
 - [Applied AI Streamliner](/roles/applied-ai-streamliner) the one-at-a-time seat this role inverts
-- [Don't Get Attached to Your Process](/perspectives/dont-get-attached-to-your-process) why the old delivery process is not the thing worth protecting
+- [Your Process Is Disposable, Your Judgment Is Not](/perspectives/your-process-is-disposable-your-judgment-is-not) why the old delivery process is not the thing worth protecting
 - [In, On, or Out of the Loop](/concepts/in-on-out-of-the-loop) the line this role is responsible for drawing
 - [The Generative Welcome](/concepts/generative-welcome) one worked instance of a generated experience

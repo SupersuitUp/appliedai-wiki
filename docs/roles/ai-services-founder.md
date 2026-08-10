@@ -25,7 +25,7 @@ You need to know what frontier models can actually do today, and design the prod
 
 ## Operational rigor
 
-The differentiator, and the one most founders flinch from. Variance, throughput, cycle times, SOPs: an unexciting set of words, but you are fundamentally running an operation. You have to learn that skill set and enjoy it, or at minimum respect it. [The product is an operation](/concepts/the-product-is-an-operation), and the operator who treats throughput and [output variance](/perspectives/variance-is-the-existential-problem) as first-class product metrics beats the one who treats them as someone else's problem.
+The differentiator, and the one most founders flinch from. Variance, throughput, cycle times, SOPs: an unexciting set of words, but you are fundamentally running an operation. You have to learn that skill set and enjoy it, or at minimum respect it. [The Product as Operation](/concepts/the-product-as-operation), and the operator who treats throughput and [output variance](/perspectives/variance-is-the-existential-problem) as first-class product metrics beats the one who treats them as someone else's problem.
 
 ## The exemplar
 
@@ -37,5 +37,5 @@ YC's General Legal is the model: an AI-native law firm whose founders combine re
 
 ## Further Reading
 
-- [The Product Is an Operation](/concepts/the-product-is-an-operation) for why operational rigor is the load-bearing trait.
+- [The Product as Operation](/concepts/the-product-as-operation) for why operational rigor is the load-bearing trait.
 - [Picking an AI-Services Market](/playbooks/picking-an-ai-services-market) for the first decision this founder makes.

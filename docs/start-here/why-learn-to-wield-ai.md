@@ -21,7 +21,7 @@ If you found this wiki while anxious about what AI means for your work, this pag
 1. **The AI unemployment fear, as commonly told, is overblown.** AI does not replace a person who cares about their work. It multiplies them.
 2. **Your economic future is still at risk.** Clients do not leave you for AI. They leave you for a competitor who uses it.
 
-Most public messaging picks one of the two. The doom half puts people into fear, and fear freezes people at exactly the moment they need to be learning. The hype half pretends there is no risk at all, which nobody believes, so it changes no behavior. The honest position is both at once: you have less to fear from the technology than the headlines say, and more urgency to learn it than the reassurances say. The industry's own messaging failures on this point are covered in [The Flaming Red Elephant in the Room](/perspectives/the-flaming-red-elephant).
+Most public messaging picks one of the two. The doom half puts people into fear, and fear freezes people at exactly the moment they need to be learning. The hype half pretends there is no risk at all, which nobody believes, so it changes no behavior. The honest position is both at once: you have less to fear from the technology than the headlines say, and more urgency to learn it than the reassurances say. The industry's own messaging failures on this point are covered in [AI Discourse Refuses to Name Its Political Reality](/perspectives/ai-discourse-refuses-to-name-its-political-reality).
 
 ## AI alone is stupid
 
@@ -43,7 +43,7 @@ A second shape of the same thing: a service provider whose English is their seco
 
 The core skill is smaller than people fear. You look at what the AI produced and say: this part is wrong, this part is weak, and here is why. Remember that. The next round comes back better. Do it again. That loop, applied by someone with a high bar for quality, compounds into work that neither the human nor the model could produce alone. The systematic version of that loop is [Ratcheting Standards](/concepts/ratcheting-standards).
 
-That is why this moment favors people who care. The person with high standards for the service they give other humans has never had more leverage: the drudgery gets absorbed by the machine, the judgment and the relationship stay with them, and each round of feedback raises the floor. If you take pride in your work, this is the best time in history to be good at it. If you have been grinding through drudgery as proof of dedication, read [Stop Glorifying Pain Tolerance for Drudgery](/perspectives/stop-glorifying-pain-tolerance-for-drudgery).
+That is why this moment favors people who care. The person with high standards for the service they give other humans has never had more leverage: the drudgery gets absorbed by the machine, the judgment and the relationship stay with them, and each round of feedback raises the floor. If you take pride in your work, this is the best time in history to be good at it. If you have been grinding through drudgery as proof of dedication, read [Pain Tolerance for Drudgery Is a Bug](/perspectives/pain-tolerance-for-drudgery-is-a-bug).
 
 ## The honest warning
 
@@ -51,7 +51,7 @@ Here is the part the reassurances leave out. A model cannot take your clients. I
 
 Your clients will not experience that as choosing AI. They will experience it as choosing better service. That is the risk worth telling people the truth about, and it is a risk you address by learning, not by hoping the wave misses your industry.
 
-If you are an employee rather than an owner, the same sorting is running inside your company: [The Survivor Economy](/perspectives/the-survivor-economy). And in either case, part of your role stays durably human; [Comparative Human Edge](/perspectives/comparative-human-edge) maps which part.
+If you are an employee rather than an owner, the same sorting is running inside your company: [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people). And in either case, part of your role stays durably human; [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated) maps which part.
 
 ## Where to start
 
@@ -63,8 +63,8 @@ You do not need to become a technologist. You need to bring your standards to a 
 
 ## Further Reading
 
-- [The Survivor Economy](/perspectives/the-survivor-economy) the same sorting, seen from inside a company
+- [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people) the same sorting, seen from inside a company
 - [AI Is Your Smartest, Most Coachable Friend](/perspectives/ai-is-your-smartest-most-coachable-friend) the fastest accurate mental model of what you are working with
-- [Comparative Human Edge](/perspectives/comparative-human-edge) mapping the parts of a role that stay human
-- [The Flaming Red Elephant in the Room](/perspectives/the-flaming-red-elephant) why the fear is this loud in the first place
-- [Stop Glorifying Pain Tolerance for Drudgery](/perspectives/stop-glorifying-pain-tolerance-for-drudgery) what to do with the hours the machine gives back
+- [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated) mapping the parts of a role that stay human
+- [AI Discourse Refuses to Name Its Political Reality](/perspectives/ai-discourse-refuses-to-name-its-political-reality) why the fear is this loud in the first place
+- [Pain Tolerance for Drudgery Is a Bug](/perspectives/pain-tolerance-for-drudgery-is-a-bug) what to do with the hours the machine gives back

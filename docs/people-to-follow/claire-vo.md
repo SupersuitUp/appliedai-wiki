@@ -26,7 +26,7 @@ Her second contribution is the framing that the skill underneath running agents 
 
 - **[Agent Constellation](/concepts/agent-constellation)**: the concept page distilling her staffing model, many narrowly scoped named agents instead of one all-knowing assistant.
 - **[The Roles-to-Workflows Shift](/concepts/roles-to-workflows)**: a supporting voice on why the role reappears as a container once the decomposition is done.
-- **[Comparative Human Edge](/perspectives/comparative-human-edge)**: a supporting voice on inspiring fellowship as the capacity that survives, which she compresses to "rizz is the only moat."
+- **[Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated)**: a supporting voice on inspiring fellowship as the capacity that survives, which she compresses to "rizz is the only moat."
 
 ## Field Notes
 
@@ -50,7 +50,7 @@ A sixty-five-minute interview covering the shape of the business and the mechani
 
 Adjacent material noted but not lifted into a page: her position that a thin application layer over a frontier model is defensible exactly when the founder's earned insight is the product, which is a first-person version of what [The Moat Layer](/concepts/the-moat-layer) argues.
 
-Where it landed on this wiki: [Agent Constellation](/concepts/agent-constellation) as a concept page, with supporting-voices sections on [The Roles-to-Workflows Shift](/concepts/roles-to-workflows) and [Comparative Human Edge](/perspectives/comparative-human-edge).
+Where it landed on this wiki: [Agent Constellation](/concepts/agent-constellation) as a concept page, with supporting-voices sections on [The Roles-to-Workflows Shift](/concepts/roles-to-workflows) and [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated).
 
 ## How to cite her
 

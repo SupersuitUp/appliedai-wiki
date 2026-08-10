@@ -38,7 +38,7 @@ The interview that seeded the contribution above. Three moves worth lifting:
 >
 > Cory Doctorow, ["There Are Reasons to Be Optimistic About the A.I. Bubble Bursting"](https://youtu.be/r03DPWGIxfY), Slate, 2026-06-26
 
-Where it landed on this wiki: [Reverse Centaur](/concepts/reverse-centaur) as a concept page; cross-linked from [The Jagged Frontier](/perspectives/the-jagged-frontier) as the inversion of Mollick's centaur pattern.
+Where it landed on this wiki: [Reverse Centaur](/concepts/reverse-centaur) as a concept page; cross-linked from [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance) as the inversion of Mollick's centaur pattern.
 
 ## How to cite him
 
@@ -53,5 +53,5 @@ When a wiki page is distilled rather than quoted verbatim, note the source at th
 ## Further Reading
 
 - [Reverse Centaur](/concepts/reverse-centaur): the concept distilled from his framing.
-- [The Jagged Frontier](/perspectives/the-jagged-frontier): the centaur pattern the reverse centaur inverts.
+- [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance): the centaur pattern the reverse centaur inverts.
 - [People to Follow](/people-to-follow): other practitioners worth tracking.

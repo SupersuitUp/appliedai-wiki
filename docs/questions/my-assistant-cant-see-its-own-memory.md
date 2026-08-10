@@ -60,7 +60,7 @@ Your specific frustrations (no general memory across the app, no clean access to
 
 This is the chasm. Most people will not cross it, because the consumer path is good enough for most uses and the owned path takes real work: structuring, pruning, tooling, discipline. But if you are building something that needs to get better over time rather than hit a ceiling, the consumer side eventually becomes the limiting factor. Your question is the canary. Once you feel the friction of "my assistant cannot reach its own history or project context," you are standing at the edge.
 
-This is the same jump argued in [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper) and [Build, Don't Buy Your Way In](/perspectives/build-dont-buy-your-way-in): the goal is to own a substrate that outlives any single vendor.
+This is the same jump argued in [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning) and [You Cannot Acquire Product-Market Fit](/perspectives/you-cannot-acquire-product-market-fit): the goal is to own a substrate that outlives any single vendor.
 
 ---
 
@@ -99,9 +99,9 @@ If the friction you are feeling is annoying, good. It means you are ready to cro
 
 ## Further Reading
 
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper): Why owning the primitive beats renting a vendor's interface
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): Why owning the primitive beats renting a vendor's interface
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product): Why the chat window hides the memory layer you actually want
-- [Build, Don't Buy Your Way In](/perspectives/build-dont-buy-your-way-in): The case for owning the substrate
+- [You Cannot Acquire Product-Market Fit](/perspectives/you-cannot-acquire-product-market-fit): The case for owning the substrate
 - [Local-First Software](/concepts/local-first-software): Files you own, model-agnostic and portable
 - [Memory Files](/concepts/memory-files): The unit of an owned context layer
 - [Compounding Docs](/concepts/compounding-docs): Why owned context gets better over time

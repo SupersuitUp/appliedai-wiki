@@ -9,7 +9,7 @@ generates: A personalized save-your-progress SKILL.md installed in the operator'
 
 # Generating Your Save-My-Progress Skill
 
-**Canonical source:** [appliedai.wiki/concepts/save-your-progress](https://appliedai.wiki/concepts/save-your-progress): the concept this factory installs, with the doctrine behind every default below.
+**Canonical source:** [appliedai.wiki/concepts/the-session-save](https://appliedai.wiki/concepts/the-session-save): the concept this factory installs, with the doctrine behind every default below.
 
 You are running a ONE-TIME GENERATION. After this completes, the operator has a working `save-my-progress` skill installed in their own workspace and the recipe is done. Do not re-run unless the operator explicitly says they want to generate the skill for a different workspace.
 
@@ -88,7 +88,7 @@ To actually save a session, invoke the generated skill, not this recipe. To adju
 ## Pairs with
 
 - [save-your-progress SKILL.md](https://appliedai.wiki/skills/save-my-progress/SKILL.md): the canonical template this factory specializes.
-- [Save Your Progress](https://appliedai.wiki/concepts/save-your-progress): the concept and doctrine.
+- [Save Your Progress](https://appliedai.wiki/concepts/the-session-save): the concept and doctrine.
 - [Skill Files](https://appliedai.wiki/concepts/skill-files): the unit this installs.
 
 ## Pitfalls

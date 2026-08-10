@@ -18,7 +18,7 @@ Operators, consultants, and founders running AI transformations on real business
 
 Definitions of terms used across the wiki. Named frameworks, mechanisms, failure modes worth naming. Think "the thing itself."
 
-Examples: `Command Centers`, `Fat Skills`, `Pharmakeia of AI`, `AI Is Neither Tool Nor Agent`
+Examples: `Command Centers`, `Fat Skills`, `Pharmakeia of AI`, `The Tool-Agent Category Error`
 
 **Naming rule:** noun phrase. Not a sentence. Not an imperative.
 
@@ -26,7 +26,7 @@ Examples: `Command Centers`, `Fat Skills`, `Pharmakeia of AI`, `AI Is Neither To
 
 Opinionated takes. A claim the reader might push back on. Evidence-backed but assertive. Think "the argument."
 
-Examples: `Acceleration Is Not Completion`, `AI Labs Speak to Investors, Not Operators`, `Knowing AI Changes How You Use It`, `Beware of Serving AI (Instead of It Serving You)`
+Examples: `Acceleration Is Not Completion`, `AI Labs Speak to Investors, Not Operators`, `Knowing AI Changes How You Use It`, `AI Is Becoming the Thing We Serve`
 
 **Naming rule:** short sentence or sentence fragment with a clear claim. Not a noun label. This is the most common mistake — do not write a perspectives title as a concept name.
 
@@ -44,7 +44,7 @@ Deep craft areas that span many playbooks and concepts. Think "the practice."
 
 Examples: `Harness Engineering`, `Context Engineering`, `Evals`, `Spec Writing`
 
-**Naming rule:** noun phrase naming the craft area.
+**Naming rule:** noun phrase naming the craft area. This governs the *discipline* page itself, which is `disciplines/<name>.md` or `disciplines/<name>/index.md`. A discipline large enough to have chapters (`disciplines/truth-management/`, `disciplines/sop-execution-app/`) names those chapters by what they are: a principle chapter reads as a claim or an instruction (`Don't Assume Common Sense`, `Protect Your Truth`), a process chapter reads as an imperative (`Start Your Company Handbook`), and a definition chapter reads as a noun phrase (`Truth as Context`). Do not force a chapter into a craft-area noun phrase; the craft area is the folder.
 
 ### `roles/` — role title noun phrase
 

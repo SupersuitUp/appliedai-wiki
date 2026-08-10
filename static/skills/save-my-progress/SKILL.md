@@ -7,7 +7,7 @@ description: Save my progress at the end of (or partway through) a heavy agentic
 
 A reviewed sweep that rescues the value of a work session before the chat clears or the context window fills. The artifacts are already on disk; this captures everything *around* them — decisions, rationale, newly-earned tribal knowledge — and leaves the workspace resumable.
 
-**Canonical concept:** https://www.appliedai.wiki/concepts/save-your-progress
+**Canonical concept:** https://www.appliedai.wiki/concepts/the-session-save
 This file is hosted at https://www.appliedai.wiki/skills/save-my-progress/SKILL.md — link it, fork it, or copy it into your workspace's skills folder.
 
 ## Default: autonomous. Ask only when invoked with "ask".

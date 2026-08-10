@@ -118,4 +118,4 @@ This is a role most practitioners grow into rather than enter from outside. The 
 
 - [Roles](/roles). The broader landscape of emerging applied AI implementer roles.
 - [Disciplines](/disciplines). The craft pillars the advisor draws on when calibrating strategy.
-- [The Elevator Economy](/perspectives/the-elevator-economy). The macro context that makes this role urgent.
+- [There Is No Standing Still Anymore](/perspectives/there-is-no-standing-still-anymore). The macro context that makes this role urgent.

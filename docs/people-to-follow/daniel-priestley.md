@@ -22,7 +22,7 @@ His content is the principal-side mirror of what the disciplines and playbooks o
 
 ## Contributions
 
-- **[The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for)**: the perspective page distilling his framing of post-AI work: conviction, judgment, taste, commercial outcomes, improving the system.
+- **[Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for)**: the perspective page distilling his framing of post-AI work: conviction, judgment, taste, commercial outcomes, improving the system.
 
 ## Field Notes
 
@@ -40,7 +40,7 @@ The synthesis is the "digital soil" metaphor. In the agricultural age the farmer
 >
 > Daniel Priestley, ["Why You Must Stop Selling Your Time for Money"](https://www.youtube.com/watch?v=wkPatBreE9w), YouTube, 2026-05-23
 
-Where it landed on this wiki: [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for) as a perspective page; cross-linked from [The Token Economy](/perspectives/the-token-economy) as the economic substrate.
+Where it landed on this wiki: [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for) as a perspective page; cross-linked from [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) as the economic substrate.
 
 ## How to cite him
 
@@ -54,6 +54,6 @@ When a wiki page is distilled rather than quoted verbatim, note the source at th
 
 ## Further Reading
 
-- [The Five Things You Get Paid For](/perspectives/the-five-things-you-get-paid-for): the perspective distilled from his teaching.
-- [The Token Economy](/perspectives/the-token-economy): the economic substrate his frame sits on.
+- [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for): the perspective distilled from his teaching.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): the economic substrate his frame sits on.
 - [People to Follow](/people-to-follow): other practitioners worth tracking.

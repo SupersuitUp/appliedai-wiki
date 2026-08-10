@@ -19,7 +19,7 @@ The structure looks like this:
 1. The consultancy contracts a retainer with the PE fund directly. Pricing is fund-shaped, often $30K+/month, sometimes much higher (see [pricing](/playbooks/pricing)).
 2. The fund creates a structured request flow for its portcos. Each portco can draw on the consultancy's capacity for a defined number of "units" or engagements per year.
 3. Portcos opt into specific transformations (sales team augmentation, finance automation, customer-support deflection) through that flow.
-4. The consultancy runs each portco transformation as a [pilot to engagement](/playbooks/pilot-to-engagement) shape on top of the fund-level relationship.
+4. The consultancy runs each portco transformation as a [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement) shape on top of the fund-level relationship.
 
 ## Why this is the sweet-spot ICP
 
@@ -42,7 +42,7 @@ This does not mean portco-first is wrong. It works when the portco CEO is unusua
 
 ## Related
 
-- [Pilot to engagement](/playbooks/pilot-to-engagement) for the engagement shape that runs inside each portco.
+- [Convert the Pilot to an Engagement](/playbooks/convert-the-pilot-to-an-engagement) for the engagement shape that runs inside each portco.
 - [Pricing AI engagements](/playbooks/pricing) for the dollar anchors.
 - [Finding clients through trust](/playbooks/finding-clients) for the broader channel landscape.
 

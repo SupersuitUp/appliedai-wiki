@@ -36,9 +36,9 @@ The whole video is a naming argument, and naming is half the value. IndyDevDan's
 The cleanest primitive in the talk. All engineering value now comes from three actors: engineers, agents, and code. The game is knowing when and where to place each. His reliability ranking, most reliable first: code, then engineers, then agents. Code is the unsung hero everyone forgets in their "AI psychosis." It runs the same way every time, it never hallucinates, it costs zero tokens, and it moves at the speed of light. Agents get all the attention and are the least reliable of the three. The operator lesson is to stop reaching for an agent by default and put deterministic code wherever the work is genuinely fixed.
 
 ### 3. You show up at the two ends: planning and reviewing
-[→ reinforces: [/perspectives/humans-at-the-edges](/perspectives/humans-at-the-edges)] · [→ reinforces: [/concepts/in-on-out-of-the-loop](/concepts/in-on-out-of-the-loop)]
+[→ reinforces: [/perspectives/ai-native-org-charts-put-humans-at-the-edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges)] · [→ reinforces: [/concepts/in-on-out-of-the-loop](/concepts/in-on-out-of-the-loop)]
 
-Across every diagram, the engineer appears in the same two places: the beginning and the end. Prompting (also called planning) and reviewing (also called validation) are the two constraints of agentic engineering at scale. The system does everything in the middle. This is the same shape as [humans at the edges](/perspectives/humans-at-the-edges) seen from inside the workflow: the human holds the highest-leverage entry and exit points, and the interior is absorbed by the composed system.
+Across every diagram, the engineer appears in the same two places: the beginning and the end. Prompting (also called planning) and reviewing (also called validation) are the two constraints of agentic engineering at scale. The system does everything in the middle. This is the same shape as [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges) seen from inside the workflow: the human holds the highest-leverage entry and exit points, and the interior is absorbed by the composed system.
 
 ### 4. Build the system that builds the system
 [field-note bullet] · [→ reinforces: [/perspectives/strategy-is-the-new-execution](/perspectives/strategy-is-the-new-execution)]
@@ -66,7 +66,7 @@ He has been pushing against out-of-the-box agents for a long time. A product or 
 His sharpest operational rule. Do not bury the linter at the bottom of a skill, because that is still your agent running it. Instead: run a build agent, then run the linter as a separate piece of code, and when it fails, feed the result back into the build agent with the same session ID. Keep code and agents as distinct nodes with clean interfaces. This is not only about token cost. It is about performance, reliability, speed, and being able to test each transition. Agents plus code beats either alone.
 
 ### 9. Design the workflow by doing the work yourself first
-[field-note bullet] · [→ reinforces: [/playbooks/workflow-decomposition](/playbooks/workflow-decomposition)]
+[field-note bullet] · [→ reinforces: [/playbooks/decompose-the-workflow](/playbooks/decompose-the-workflow)]
 
 His build advice. Keep it simple, stupid: start with the simplest workflow you can, usually one agent you babysit. Then run the whole thing end to end yourself, stepping into each node (you can still use your agent in the terminal), before you encode it. Write it out as a mermaid diagram, pencil and paper if needed, and only then build it as a composition of agents, engineers, and code. A pure skill-based workflow is a fine start, but once you productionize, pull the code out of the skills so you can set real guardrails.
 
@@ -97,7 +97,7 @@ Pages created in this run:
 Pages extended in this run:
 
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop): IndyDevDan's loop-is-one-node counterpoint cited as a supporting voice.
-- [Humans at the Edges](/perspectives/humans-at-the-edges): planning and reviewing as the two ends cited as a supporting voice.
+- [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges): planning and reviewing as the two ends cited as a supporting voice.
 - [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the separate-code-from-agents rule cited as a supporting voice.
 
 ## Further Reading

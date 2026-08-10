@@ -27,7 +27,7 @@ tags: [determinism, guardrails, harness, linting, permissions, isolation, orches
 ## What we lifted
 
 ### 1. Instructions get interpreted; gates get enforced
-[→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)] · [→ reinforces: [/concepts/prompt-guards](/concepts/prompt-guards)] · [→ reinforces: [/concepts/agent-rule-files](/concepts/agent-rule-files)]
+[→ reinforces: [/perspectives/recurring-work-belongs-in-code](/perspectives/recurring-work-belongs-in-code)] · [→ reinforces: [/concepts/prompt-guards](/concepts/prompt-guards)] · [→ reinforces: [/concepts/agent-rule-files](/concepts/agent-rule-files)]
 
 The claim the rest of the talk hangs on. He spent months writing rules into `CLAUDE.md` and getting inconsistent compliance, and he names the diagnosis precisely: a rule file is read and interpreted, so it can never be a guarantee. His instruction to himself became to convert instructions and explanations into deterministic gates, meaning checks the result has to pass before it counts as successful.
 
@@ -36,11 +36,11 @@ His worked example is tenant scoping in a multi-tenant database. The instruction
 This is the same argument as [prompt guards](/concepts/prompt-guards) made one layer out. Guards move a rule from documentation into the generator; Curry moves a rule from documentation into the toolchain.
 
 ### 2. Have the agent find its own gates, and prefer scripts to scans
-[→ reinforces: [/concepts/self-improving-systems](/concepts/self-improving-systems)] · [→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)]
+[→ reinforces: [/concepts/self-improving-systems](/concepts/self-improving-systems)] · [→ reinforces: [/perspectives/recurring-work-belongs-in-code](/perspectives/recurring-work-belongs-in-code)]
 
 Two practical points that make the first one affordable. You do not have to author the checks yourself: ask the agent to read the codebase and propose which of your rules can be converted into checks that always run, and it will write the scripts. He notes he did not write his own drift checks; he described the drift he kept seeing and had the agent build the detection.
 
-The economic argument is the one operators should carry. A script costs almost nothing per run, and an agent scanning the project for issues is metered every time. That gap only matters because of cadence: if the check runs on every change, every commit, or on a schedule, the metered version is the wrong shape. This is [default to determinism](/perspectives/default-to-determinism) reasoned from per-run cost.
+The economic argument is the one operators should carry. A script costs almost nothing per run, and an agent scanning the project for issues is metered every time. That gap only matters because of cadence: if the check runs on every change, every commit, or on a schedule, the metered version is the wrong shape. This is [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) reasoned from per-run cost.
 
 ### 3. Ratchet the standard instead of blocking on the cleanup
 [→ new concept: [/concepts/ratcheting-standards](/concepts/ratcheting-standards)]
@@ -156,7 +156,7 @@ Pages created in this run:
 
 Pages extended in this run:
 
-- [Default to Determinism](/perspectives/default-to-determinism): the instructions-into-gates conversion cited as a supporting voice.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the instructions-into-gates conversion cited as a supporting voice.
 - [Prompt Guards](/concepts/prompt-guards): the toolchain-level version of the same move cited as a supporting voice.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): the separate-reviewer rule cited as a supporting voice.
 - [Agent Rule Files](/concepts/agent-rule-files): the table-of-contents structure and the limit of an interpreted rule cited as a supporting voice.

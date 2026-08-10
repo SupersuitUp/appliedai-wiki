@@ -42,7 +42,7 @@ A long-form conversation with Reid Hoffman on what compounds when both human cap
 >
 > — Satya Nadella, [Satya Nadella on making human and token capital compound](https://youtu.be/BKx0Dp8y-6g), YouTube, 2026-06-05
 
-Where it landed on this wiki: [Cognitive Coverage](/concepts/cognitive-coverage) as a concept page; cross-linked from [The Token Economy](/perspectives/the-token-economy) as the abundance backdrop.
+Where it landed on this wiki: [Cognitive Coverage](/concepts/cognitive-coverage) as a concept page; cross-linked from [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) as the abundance backdrop.
 
 ## How to cite him
 
@@ -57,5 +57,5 @@ When a wiki page is distilled rather than quoted verbatim, note the source at th
 ## Further Reading
 
 - [Cognitive Coverage](/concepts/cognitive-coverage): the concept distilled from his teaching on understanding agent output.
-- [The Token Economy](/perspectives/the-token-economy): the token-abundance backdrop his frame sits on.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): the token-abundance backdrop his frame sits on.
 - [People to Follow](/people-to-follow): other practitioners worth tracking.

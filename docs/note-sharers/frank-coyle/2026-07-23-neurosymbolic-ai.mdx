@@ -36,7 +36,7 @@ The term worth taking away. Neural networks tied into symbolic AI, which covers 
 The sharpest reframe in the talk, and the one that determines the architecture. His line: "People worry about hallucinations, but that's the feature. That's actually a feature of large language models. It's who we are. We hallucinate in a way. We imagine things that may not exist, and then we turn them into reality." The design consequence is that you stop trying to make the probabilistic component deterministic and start surrounding it. Keep the imagination where imagination is the job. Put something that cannot imagine anything in front of every claim that has to be exact.
 
 ### 3. Pydantic at the door, ontology at the ledger
-[→ new concept: [/concepts/neurosymbolic-ai](/concepts/neurosymbolic-ai)] · [→ reinforces: [/perspectives/default-to-determinism](/perspectives/default-to-determinism)]
+[→ new concept: [/concepts/neurosymbolic-ai](/concepts/neurosymbolic-ai)] · [→ reinforces: [/perspectives/recurring-work-belongs-in-code](/perspectives/recurring-work-belongs-in-code)]
 
 The most portable line in the talk, and a genuinely useful placement rule. Two validation checks, two different jobs, two different points in the loop. Types at the door: before anything enters, check the shape, the field presence, the enum membership. Semantics at the ledger: before anything commits, check the meaning against the domain model. Shape-valid and business-invalid are separate failures and only the second check catches the second one. The rule that makes both worth having is the third part he tacks on: agents should have no side effects until validation passes. An agent that writes to the database and then gets validated has already done the damage.
 
@@ -74,4 +74,4 @@ The reason knowledge graphs rather than tables, stated plainly. Adding something
 
 - [Neurosymbolic AI](/concepts/neurosymbolic-ai) (new concept page created from this source)
 - [Ontology as Substrate](/disciplines/ontology-as-substrate) (Supporting voices added)
-- [Default to Determinism](/perspectives/default-to-determinism) (Supporting voices added)
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) (Supporting voices added)
