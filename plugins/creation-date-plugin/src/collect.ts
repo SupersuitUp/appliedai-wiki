@@ -257,6 +257,27 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
 
   const boundaryCommits = shallowBoundaryCommits(siteDir);
 
+  // A renamed page keeps its history, but git reports that history under
+  // whatever path the file had AT THE TIME. Left alone, a page renamed today
+  // has its "new" event filed under the OLD docKey and its new docKey looks
+  // like it was born on the rename commit — which is exactly wrong for the
+  // per-page "Created" date, and it also orphans every historical changelog
+  // row (no live file owns the old key, so the row loses its link and title).
+  //
+  // The log is newest-first, so an `R old new` line means every OLDER line
+  // calls this page `old`. Record the alias as it goes by and resolve every
+  // docKey forward to the name the page has TODAY.
+  const renameAlias = new Map<string, string>();
+  const canonicalKey = (docKey: string): string => {
+    let key = docKey;
+    const seen = new Set<string>();
+    while (renameAlias.has(key) && !seen.has(key)) {
+      seen.add(key);
+      key = renameAlias.get(key)!;
+    }
+    return key;
+  };
+
   const events: ChangeEvent[] = [];
   let curDate = '';
   let curHash = '';
@@ -274,8 +295,10 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     const status = cols[0];
     let repoRelPath: string;
     let type: ChangeType;
+    let renamedFrom: string | null = null;
     if (status.startsWith('R')) {
       repoRelPath = cols[2]; // new path
+      renamedFrom = cols[1]; // old path, used by every older commit
       type = 'updated';
     } else if (status === 'A') {
       repoRelPath = cols[1];
@@ -290,8 +313,19 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
       continue;
     }
 
-    const docKey = docKeyFromRepoPath(repoRelPath, sitePrefix);
-    if (!docKey || isExcluded(docKey)) continue;
+    const rawKey = docKeyFromRepoPath(repoRelPath, sitePrefix);
+    if (!rawKey) continue;
+    const docKey = canonicalKey(rawKey);
+
+    // Register the alias before any `continue` below, so that a page whose
+    // rename commit is itself skipped (excluded, drafted, hidden) still has
+    // its older history resolved to — and suppressed under — the same key.
+    if (renamedFrom) {
+      const fromKey = docKeyFromRepoPath(renamedFrom, sitePrefix);
+      if (fromKey && fromKey !== docKey) renameAlias.set(fromKey, docKey);
+    }
+
+    if (isExcluded(docKey)) continue;
     // A page currently marked draft is invisible everywhere, including here:
     // drop all of its history, including events recorded under an older path
     // it has since moved away from.

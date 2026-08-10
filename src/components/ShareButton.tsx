@@ -21,8 +21,6 @@ export default function ShareButton(): JSX.Element {
         alignItems: 'center',
         gap: '0.5rem',
         padding: '0.35rem 0.7rem',
-        marginTop: '0.5rem',
-        marginBottom: '1.5rem',
         fontFamily: 'var(--ifm-font-family-monospace)',
         fontSize: '0.8rem',
         background: 'transparent',

@@ -4,12 +4,14 @@ import Content from '@theme-original/DocItem/Content';
 import type ContentType from '@theme/DocItem/Content';
 import type { WrapperProps } from '@docusaurus/types';
 import ShareButton from '@site/src/components/ShareButton';
+import PageDates from '@site/src/components/PageDates';
 
 type Props = WrapperProps<typeof ContentType>;
 
-// Injects a Share button under the article's H1 via a portal slot.
+// Injects the article meta row — Created / Updated dates and a Share button —
+// under the article's H1 via a portal slot.
 export default function ContentWrapper(props: Props): ReactNode {
-  const [shareSlot, setShareSlot] = useState<HTMLElement | null>(null);
+  const [metaSlot, setMetaSlot] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
     const h1 =
@@ -18,26 +20,45 @@ export default function ContentWrapper(props: Props): ReactNode {
       document.querySelector('.markdown h1');
     if (!h1) return;
 
-    const existing = h1.parentElement?.querySelector('.share-link-slot');
-    if (existing) existing.remove();
+    // `.share-link-slot` is the slot's old name; clear either so a hot reload
+    // or a client-side nav never leaves two rows stacked under the title.
+    for (const stale of h1.parentElement?.querySelectorAll(
+      '.doc-meta-slot, .share-link-slot',
+    ) ?? []) {
+      stale.remove();
+    }
 
     const slot = document.createElement('div');
-    slot.className = 'share-link-slot';
+    slot.className = 'doc-meta-slot';
     slot.style.cssText = 'margin-top: 0.5rem; margin-bottom: 1rem;';
 
     h1.insertAdjacentElement('afterend', slot);
-    setShareSlot(slot);
+    setMetaSlot(slot);
 
     return () => {
       slot.remove();
-      setShareSlot(null);
+      setMetaSlot(null);
     };
   }, []);
+
+  const metaRow = (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+        gap: '0.75rem',
+      }}
+    >
+      <PageDates />
+      <ShareButton />
+    </div>
+  );
 
   return (
     <>
       <Content {...props} />
-      {shareSlot ? createPortal(<ShareButton />, shareSlot) : null}
+      {metaSlot ? createPortal(metaRow, metaSlot) : null}
     </>
   );
 }
