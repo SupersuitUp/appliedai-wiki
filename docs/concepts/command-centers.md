@@ -10,6 +10,8 @@ description: "The meta-concept. Personal workspaces, business operating environm
 
 ---
 
+> **The canonical treatment lives on [supersuit.wiki](https://supersuit.wiki/paos/what-it-is).** Command centers, the Personal Agentic OS, and harness concepts are that wiki's territory. This page covers what an applied AI engineer needs to know to build one for a client.
+
 ## What Is a Command Center?
 
 A command center is a persistent, context-rich system that someone uses to run their operation. It knows the history. It holds the relationships. It routes information intelligently. It compounds over time as more context is added and more patterns are learned. It does not ask you to navigate menus, fill out forms, or remember where you put things. It works from your context and acts on your behalf.

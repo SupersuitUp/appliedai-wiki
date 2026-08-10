@@ -1,6 +1,55 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-goldilocks-pace@9fe5b575afcedc240c2ca8ca35171a5b755f2df9",
+      "type": "updated",
+      "date": "2026-08-09T19:56:58-05:00",
+      "docKey": "concepts/the-goldilocks-pace",
+      "routePath": "/concepts/the-goldilocks-pace",
+      "section": "concepts",
+      "title": "The Goldilocks Pace",
+      "description": "The operating pace that maximizes returns while keeping risk bounded, held predictably week after week."
+    },
+    {
+      "id": "perspectives/the-elevator-economy@9fe5b575afcedc240c2ca8ca35171a5b755f2df9",
+      "type": "updated",
+      "date": "2026-08-09T19:56:58-05:00",
+      "docKey": "perspectives/the-elevator-economy",
+      "routePath": "/perspectives/the-elevator-economy",
+      "section": "perspectives",
+      "title": "The Elevator Economy"
+    },
+    {
+      "id": "reference/glossary@9fe5b575afcedc240c2ca8ca35171a5b755f2df9",
+      "type": "updated",
+      "date": "2026-08-09T19:56:58-05:00",
+      "docKey": "reference/glossary",
+      "routePath": "/reference/glossary",
+      "section": "reference",
+      "title": "Glossary",
+      "description": "One-line-per-term summary across the whole wiki. The lexicon, flattened."
+    },
+    {
+      "id": "reference/quality-rubric@9fe5b575afcedc240c2ca8ca35171a5b755f2df9",
+      "type": "updated",
+      "date": "2026-08-09T19:56:58-05:00",
+      "docKey": "reference/quality-rubric",
+      "routePath": "/reference/quality-rubric",
+      "section": "reference",
+      "title": "Quality Rubric",
+      "description": "How we hold this wiki to a bar. Seven dimensions, mechanical checks, auto-fail conditions, and the gut test."
+    },
+    {
+      "id": "start-here/what-is-applied-ai@9fe5b575afcedc240c2ca8ca35171a5b755f2df9",
+      "type": "updated",
+      "date": "2026-08-09T19:56:58-05:00",
+      "docKey": "start-here/what-is-applied-ai",
+      "routePath": "/start-here/what-is-applied-ai",
+      "section": "start-here",
+      "title": "What is Applied AI",
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
+    },
+    {
       "id": "concepts/clips@8b1da6c922504e9802d9165d465162235c1e0a9a",
       "type": "updated",
       "date": "2026-08-09T18:54:49-05:00",

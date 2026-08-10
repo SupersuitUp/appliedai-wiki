@@ -10,6 +10,8 @@ description: "The code wrapped around an AI model is just as important as the mo
 
 ---
 
+> **The canonical treatment lives on [supersuit.wiki](https://supersuit.wiki/concepts/agentic-harness).** The harness as a concept belongs to that wiki. This page is the engineering discipline: how an applied AI engineer builds, tunes, and maintains one.
+
 ## What Is a Harness?
 
 When you hear "Claude Opus 4.6" or "GPT-5.4," you are hearing about model weights: the raw intelligence that comes out of a massive pre-training run. Model weights are very good at predicting the next word in a sequence. That is really all they do.
