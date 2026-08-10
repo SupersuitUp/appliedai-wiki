@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state@3fa09c2d0ae3bd12c76b8f946886c9fdfacbca13",
+      "type": "new",
+      "date": "2026-08-09T20:14:41-05:00",
+      "docKey": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "routePath": "/perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "section": "perspectives",
+      "title": "Onboarding Belongs in a Repo That Holds Your State",
+      "description": "The friction in adopting new AI infrastructure is that nobody holds your state between sessions. Ship the onboarding as a project the developer clones, which tracks real integration instead of lessons read."
+    },
+    {
       "id": "disciplines/sop-execution-app/anatomy@0ea0b511d47f2d1ece2ceeba69fddd6137c6cca4",
       "type": "updated",
       "date": "2026-08-09T20:13:41-05:00",
