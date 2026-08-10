@@ -54,4 +54,4 @@ The three-actors framing and the code-as-unsung-hero point are his.
 - [AI Developer Workflow](/concepts/ai-developer-workflow): the composition these three actors get placed into.
 - [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the per-node call versus agent versus code decision.
 - [Harness Engineering](/disciplines/harness-engineering): the discipline of the code wrapped around the agent.
-- [Humans at the Edges](/perspectives/humans-at-the-edges): where the engineer actor sits in a mature workflow.
+- [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges): where the engineer actor sits in a mature workflow.

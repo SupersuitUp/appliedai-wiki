@@ -55,5 +55,5 @@ Gain sharing is not equity or revenue share. Equity bets on the whole company's 
 ## Further Reading
 
 - [Pricing AI engagements](/playbooks/pricing). The base models gain sharing sits on top of, and how to set the number.
-- [The five things you get paid for](/perspectives/the-five-things-you-get-paid-for). Commercial outcomes is one of the five. Gain sharing is how you charge for it directly.
-- [Eleven ways to monetize AI expertise](/perspectives/eleven-ways-to-monetize-ai-expertise). Where outcome-priced consulting sits in the business-model map.
+- [Execution Is No Longer What You Get Paid For](/perspectives/execution-is-no-longer-what-you-get-paid-for). Commercial outcomes is one of the five. Gain sharing is how you charge for it directly.
+- [Every AI Business Model Has a Different Ceiling](/perspectives/every-ai-business-model-has-a-different-ceiling). Where outcome-priced consulting sits in the business-model map.

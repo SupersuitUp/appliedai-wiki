@@ -39,7 +39,7 @@ The rhyme with [The Harness and the Deployment](/concepts/the-harness-and-the-de
 
 ## What the split buys
 
-**Token economy.** The marginal cost of an artifact drops to the cost of its content. On a generator that runs once, this is nothing. On one that runs for every founder in a batch, every client in a pipeline, or every visitor who finishes an interview, it is most of the bill. See [The Token Economy](/perspectives/the-token-economy).
+**Token economy.** The marginal cost of an artifact drops to the cost of its content. On a generator that runs once, this is nothing. On one that runs for every founder in a batch, every client in a pipeline, or every visitor who finishes an interview, it is most of the bill. See [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics).
 
 **Retroactive quality.** The renderer is a live URL, so a fix lands for every artifact that references it, including the ones already sent. This is the property that has no equivalent in the fused world, where an improvement can only ever apply to artifacts you have not made yet. It is a different mechanism from [Self-Improving Artifacts](/concepts/self-improving-artifacts): nothing regenerates, and no content changes. The words stay exactly as they were approved. Only the presentation moves.
 
@@ -70,7 +70,7 @@ The question to ask of any generated artifact is which parts of it are about thi
 ## Further Reading
 
 - [Hand-Rolling](/concepts/hand-rolling) the failure this pattern is a structural cure for.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) the discipline that gets you here.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) the discipline that gets you here.
 - [The Harness and the Deployment](/concepts/the-harness-and-the-deployment) the same two-questions-that-look-like-one shape, one layer down.
 - [Self-Improving Artifacts](/concepts/self-improving-artifacts) the adjacent mechanism, where the content regenerates instead of the presentation moving.
 - [HTML-First Artifacts](/concepts/html-first-artifacts) why the output format was worth upgrading in the first place.

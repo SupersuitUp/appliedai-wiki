@@ -32,7 +32,7 @@ Two layers are easy to conflate, and keeping them apart is the whole insight.
 - The **interoperable capability layer** is [MCP](https://modelcontextprotocol.io), the open tool-and-server protocol. Build a server against MCP once and it runs across Claude, ChatGPT and Codex, Gemini, Cursor, and Windsurf. Anthropic introduced MCP in November 2024, OpenAI adopted it in 2025 and Google committed the same year, and in December 2025 Anthropic donated it to the Agentic AI Foundation under the Linux Foundation. Alongside it, [AGENTS.md](https://agents.md) is the portable instruction file the same tools honor.
 - The **packaging and distribution layer** is the plugin: a per-vendor wrapper, a manifest plus a marketplace, that increasingly bundles MCP servers together with skills, commands, and hooks.
 
-Said plainly: **the plugin is the box; MCP is the cargo.** A server you build against MCP outlives whatever plugin format happens to ship it this year. So package for convenience, but keep your durable capability in MCP and your durable rules in AGENTS.md. This is [learn the harness, not the wrapper](/perspectives/learn-the-harness-not-the-wrapper) applied to distribution.
+Said plainly: **the plugin is the box; MCP is the cargo.** A server you build against MCP outlives whatever plugin format happens to ship it this year. So package for convenience, but keep your durable capability in MCP and your durable rules in AGENTS.md. This is [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning) applied to distribution.
 
 ## Is this a Claude-only idea? No, as of 2026
 
@@ -60,5 +60,5 @@ Package by domain. Keep the portable cargo (MCP servers, AGENTS.md) portable, an
 - [Skill Files](/concepts/skill-files)
 - [Agent Rule Files](/concepts/agent-rule-files)
 - [Hyperlocal Skills](/concepts/hyperlocal-skills)
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper)
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)
 - [Harness Engineering](/disciplines/harness-engineering)

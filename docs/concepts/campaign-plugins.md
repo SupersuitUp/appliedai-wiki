@@ -33,7 +33,7 @@ State lives in versioned files, not in anyone's head. The typical shape:
 - **A touch log**: every contact with every person, dated and appended.
 - **A save log** with checkpoint anchors, so any future session resumes from the exact state the last one left.
 
-An action is a state transition; the files are the state. When outreach goes out, a row moves from QUEUED to SENT. When a reply lands, SENT flips to RESPONDED and the touch log gains a line. Git history is the audit trail: every transition is a diff with a timestamp, which is [save your progress](/concepts/save-your-progress) applied continuously instead of at session end.
+An action is a state transition; the files are the state. When outreach goes out, a row moves from QUEUED to SENT. When a reply lands, SENT flips to RESPONDED and the touch log gains a line. Git history is the audit trail: every transition is a diff with a timestamp, which is [The Session Save](/concepts/the-session-save) applied continuously instead of at session end.
 
 ## A layer on top of the permanent record, never a replacement
 
@@ -65,6 +65,6 @@ The operator never says "run the track skill." They say "a founder-advisor repli
 
 - [Plugins](/concepts/plugins) the packaging layer a campaign plugin is built on
 - [Skill Files](/concepts/skill-files) the atomic-action unit inside the plugin
-- [Save Your Progress](/concepts/save-your-progress) the checkpoint mechanic the campaign runs continuously
+- [The Session Save](/concepts/the-session-save) the checkpoint mechanic the campaign runs continuously
 - [Command Centers](/concepts/command-centers) the environment a campaign plugin installs into
 - [Legible Organization](/disciplines/legible-organization) the capture discipline that makes the permanent record worth layering on

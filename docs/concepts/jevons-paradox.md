@@ -135,7 +135,7 @@ The train is already pulling away from the station. The question is whether you 
 
 ## Further Reading
 
-- [The Survivor Economy](/perspectives/the-survivor-economy): What the sorting looks like inside companies doing it well and poorly.
+- [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people): What the sorting looks like inside companies doing it well and poorly.
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The individual-level version. Humans wrapped in AI that executes on their articulated will.
 - [Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution): The skill that turns AI-era time savings into outputs worth expanding into.
 - [Spec Writing](/disciplines/spec-writing): The skill that turns intent into shippable work.

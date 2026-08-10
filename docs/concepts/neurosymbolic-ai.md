@@ -47,7 +47,7 @@ Two checks in two different places, doing two different jobs.
 
 **Semantics at the ledger.** Before anything commits, validate the meaning against the domain model. Shape-valid and business-invalid are entirely different failures, and only the ontology catches the second one. A refund can be a perfectly well-formed refund object and still be the second refund issued on the same order.
 
-Between them sits the rule that makes both checks worth having: **the agent stays free of side effects until validation passes.** An agent that writes to the database and then gets validated has already done the damage. Run the proposed action through the reasoner first, then commit. This is the same argument as [default to determinism](/perspectives/default-to-determinism), applied to the commit boundary rather than the cost curve.
+Between them sits the rule that makes both checks worth having: **the agent stays free of side effects until validation passes.** An agent that writes to the database and then gets validated has already done the damage. Run the proposed action through the reasoner first, then commit. This is the same argument as [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code), applied to the commit boundary rather than the cost curve.
 
 ## What a reasoner catches that a prompt cannot
 
@@ -81,6 +81,6 @@ The expert-systems era was not wrong about the value of formal knowledge. It was
 
 - [Ontology as Substrate](/disciplines/ontology-as-substrate): the discipline of building the symbolic half, and why an agent without one drifts.
 - [Ontology-Driven Development](/disciplines/ontology-driven-development): the methodology that turns the substrate into software, with the lineage back to Domain-Driven Design.
-- [Default to Determinism](/perspectives/default-to-determinism): the economic case for the same split, with code as the default and the model as the escalation.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the economic case for the same split, with code as the default and the model as the escalation.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): why the check has to be external to the thing being checked.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): where validators, tools, and rules physically sit in a running system.

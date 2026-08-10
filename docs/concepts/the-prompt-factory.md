@@ -27,7 +27,7 @@ Pipelines that generate at volume (a book of illustrations, a batch of briefs, a
 - **Drift.** The reconstruction is never verbatim. The parts of the prompt that were supposed to be constants (the style rules, the banned terms, the format contract) wobble run to run, and the output quality wobbles with them.
 - **Debuggability.** When a bad output arrives, you cannot tell whether the model failed the task or failed to rebuild the scaffolding. The factory removes the second suspect entirely.
 
-This is [the judgment line](/perspectives/the-judgment-line) applied to prompt construction: assembling a known scaffold is below-the-line work, and below-the-line work never goes through an LLM.
+This is [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else) applied to prompt construction: assembling a known scaffold is below-the-line work, and below-the-line work never goes through an LLM.
 
 ## Deterministic does not mean rigid
 
@@ -54,7 +54,7 @@ Each is the same root cause: judgment-priced machinery doing assembly-priced wor
 
 ## Further Reading
 
-- [The Judgment Line](/perspectives/the-judgment-line): the architectural rule this pattern instantiates
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the architectural rule this pattern instantiates
 - [Agentic Brand OS](/concepts/agentic-brand-os): the reference-carried identity system a factory attaches deterministically
 - [Harness Engineering](/disciplines/harness-engineering): the discipline the factory belongs to
 - [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the inverse call, for when a step earns real judgment

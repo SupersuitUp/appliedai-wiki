@@ -58,7 +58,7 @@ Three behaviors are worth encoding rather than trusting to discipline:
 
 - **Refuse to chain off an unblessed seed.** If the gate is only a convention, some run will skip it under time pressure, and the whole set inherits an unreviewed asset.
 - **Halt on failure.** A chain that keeps going after a bad asset silently promotes the defect into every downstream reference.
-- **Record what each asset was conditioned on.** Provenance for a chained set has to name the seed and the exact conditioning assets, or the set cannot be reproduced or audited later. See [version-control your prompts](/disciplines/version-control-your-prompts).
+- **Record what each asset was conditioned on.** Provenance for a chained set has to name the seed and the exact conditioning assets, or the set cannot be reproduced or audited later. See [Version-Control Your Prompts](/playbooks/version-control-your-prompts).
 
 ## Further Reading
 
@@ -66,5 +66,5 @@ Three behaviors are worth encoding rather than trusting to discipline:
 - [Golden Examples](/concepts/golden-examples): why a blessed asset compounds, which is the same mechanism a chain exploits deliberately.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the asset class most often built as a set, and the one where inconsistency is most visible.
 - [Golden Processes](/concepts/golden-processes): why the chain belongs in a committed script rather than being regenerated each run.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): recording the seed and conditioning set so a chained matrix stays reproducible.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): recording the seed and conditioning set so a chained matrix stays reproducible.
 - [Evals](/disciplines/evals): the verifier that decides whether each asset in the chain is accepted before it propagates.

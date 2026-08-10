@@ -92,6 +92,6 @@ Run it once. If the answer is pay the tax, pay it deliberately and stop apologiz
 - [Intelligence Is Commoditized, Deployment Is the Moat](/perspectives/intelligence-is-commoditized-deployment-is-the-moat) for why the model layer converges while the application layer does not.
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) for the floor beneath any of this.
 - [Your Edge Is Not Your Infrastructure](/perspectives/your-edge-is-not-your-infrastructure) for the case against owning the undifferentiated half.
-- [Learn the Harness, Not the Wrapper](/perspectives/learn-the-harness-not-the-wrapper) for the skill-portability argument, which is a different question from system portability.
+- [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning) for the skill-portability argument, which is a different question from system portability.
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for which layer the cloud era proved was worth keeping portable, which is not the one most teams are paying for.
 - [The Moat Layer](/concepts/the-moat-layer) for the portability that costs almost nothing, and is the one worth buying instead of this tax.

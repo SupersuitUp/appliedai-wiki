@@ -116,9 +116,9 @@ Do not scaffold before you can state the deliverable, the deadline, and what wou
 
 [Campaign Plugins](/concepts/campaign-plugins) is the same machinery pointed at relationships: skills as atomic actions, versioned files as state, layered on the permanent contact record. Reach for it when the project IS the outreach. Reach for this when the project produces an artifact.
 
-[Knowledge Repo Design](/playbooks/knowledge-repo-design) is the shape to use when several projects share raw material, with one pantry and many product folders. A single agentic project is one product folder that grew its own state machine and verbs.
+[Design a Knowledge Repo](/playbooks/design-a-knowledge-repo) is the shape to use when several projects share raw material, with one pantry and many product folders. A single agentic project is one product folder that grew its own state machine and verbs.
 
-[Save Your Progress](/concepts/save-your-progress) is the session-level version of the same instinct. This is the project-level version, and it is what makes saving cheap enough to do often.
+[The Session Save](/concepts/the-session-save) is the session-level version of the same instinct. This is the project-level version, and it is what makes saving cheap enough to do often.
 
 > A project does not fail because the work is hard. It fails because reloading the context costs more than the appetite you have that evening.
 
@@ -126,7 +126,7 @@ Do not scaffold before you can state the deliverable, the deadline, and what wou
 
 - [The Corpus and the Projection](/concepts/the-corpus-and-the-projection) on why the deliverable should be regenerable rather than precious.
 - [Campaign Plugins](/concepts/campaign-plugins) on the relationship-driven sibling of this pattern.
-- [Knowledge Repo Design](/playbooks/knowledge-repo-design) on the monorepo shape for shared raw material.
-- [Save Your Progress](/concepts/save-your-progress) on routing a session's value into durable homes.
+- [Design a Knowledge Repo](/playbooks/design-a-knowledge-repo) on the monorepo shape for shared raw material.
+- [The Session Save](/concepts/the-session-save) on routing a session's value into durable homes.
 - [Memory Files](/concepts/memory-files) on what an agent should carry between sessions.
 - [Project Resumability](/concepts/project-resumability) on the property this pattern produces, stated independently of the repo shape.

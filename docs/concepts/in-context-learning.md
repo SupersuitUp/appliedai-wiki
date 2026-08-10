@@ -78,7 +78,7 @@ Every knob you reach for, a rule file, a skill, a retrieval pipeline, a hook, is
 - [Context Engineering](/disciplines/context-engineering): the discipline of doing in-context learning well. This page is why the lever is text; that page is how to wield it.
 - [Context Overflow](/concepts/context-overflow): what happens when you spend the fixed budget badly.
 - [Golden Examples](/concepts/golden-examples): one slice of in-context evidence, curated so the reference the model reads is A+.
-- [The Token Economy](/perspectives/the-token-economy): the pricing reality underneath "don't pay for what you don't use."
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): the pricing reality underneath "don't pay for what you don't use."
 - [Plugins](/concepts/plugins): the packaging layer whose primitives (skills, hooks, agents) this page evaluates for scale.
-- [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): the harness-design corollary of a fixed context budget.
+- [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): the harness-design corollary of a fixed context budget.
 - Source: [Anthropic](/note-sharers/anthropic), specifically [Beyond the Basics with Claude Code](/note-sharers/anthropic/2026-05-22-beyond-the-basics-with-claude-code), the field-note log of what was lifted from Daisy Holman's talk.

@@ -25,7 +25,7 @@ An instruction that says "always append X" has an implicit precondition: the cal
 
 The tell is a defect whose fix already existed in prose. When you find yourself writing "the rule was already documented" in a postmortem, you have found a guard that should have been code.
 
-This is [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) applied to the prompt itself. The artifact is wrong, the rule was correct, and the thing that failed is the distance between them.
+This is [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) applied to the prompt itself. The artifact is wrong, the rule was correct, and the thing that failed is the distance between them.
 
 ## Find the chokepoint, put the rule there
 
@@ -69,8 +69,8 @@ The honest split is that guards eliminate the class of defect where **you alread
 
 ## Further Reading
 
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) is the parent principle: the fix belongs in the system, not the artifact.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the parent principle: the fix belongs in the system, not the artifact.
 - [The Prompt Factory](/concepts/the-prompt-factory) is where guards live: deterministic code assembling the final prompt from locked parts.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails) explains why the need for this rises rather than falls as models improve.
-- [Default to Determinism](/perspectives/default-to-determinism) is the general case: make code the default for recurring work.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) is the general case: make code the default for recurring work.
 - [Hand-Rolling](/concepts/hand-rolling) is what you are doing when you correct the output and leave the generator unchanged.

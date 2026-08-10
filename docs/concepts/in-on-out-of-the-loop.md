@@ -43,7 +43,7 @@ Graduating down the loop is how a person ends up spending their time only on the
 
 ## What this does not mean
 
-It is not the same as the [judgment line](/perspectives/the-judgment-line). The judgment line is about *what kind* of work goes to an LLM versus a script (judgment versus deterministic execution). Loop position is about *how much a human is involved* in the workflow as a whole. A single workflow has both: a judgment line inside it and a loop position around it.
+It is not the same as the [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else). The judgment line is about *what kind* of work goes to an LLM versus a script (judgment versus deterministic execution). Loop position is about *how much a human is involved* in the workflow as a whole. A single workflow has both: a judgment line inside it and a loop position around it.
 
 Out of the loop does not mean out of mind. An unowned automation that no one notices when it breaks is a liability, not a win. The owner moves from running the work to owning that the work runs.
 
@@ -51,9 +51,9 @@ Down is not always right. The goal is the correct position for the stakes, not t
 
 ## Related
 
-- [The Judgment Line](/perspectives/the-judgment-line), the orthogonal axis: LLM-judgment versus deterministic code inside a workflow.
-- [Comparative Human Edge](/perspectives/comparative-human-edge), the roles a human keeps; the in-the-loop and on-the-loop steps are where that edge lives.
-- [The Jagged Frontier](/perspectives/the-jagged-frontier), why capability advances unevenly, which is what lets workflows graduate down the loop at different rates.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else), the orthogonal axis: LLM-judgment versus deterministic code inside a workflow.
+- [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated), the roles a human keeps; the in-the-loop and on-the-loop steps are where that edge lives.
+- [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance), why capability advances unevenly, which is what lets workflows graduate down the loop at different rates.
 - [Seat Wrapper](/concepts/seat-wrapper), the per-seat surface that congregates a seat's in-the-loop and on-the-loop work.
 
 ## Sources

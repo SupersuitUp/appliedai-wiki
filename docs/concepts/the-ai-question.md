@@ -39,7 +39,7 @@ A disillusioned high-standards leader is not a lost cause. They are the most val
 
 Here is the operating rule. If you are selling medium or high-ticket engagements and you open above the question the leader is actually asking, you are out of order. You are answering a question they have not asked yet, in language they do not have.
 
-The move is to start at their question, in their words, and earn the right to reframe it. You meet "how can I use AI to be more successful?" exactly where it sits, show one concrete result against their real work, and only then widen the frame to what is actually possible. Leaders buy relief and a narrative they can carry, not a technology lecture. See [Buying Relief, Not AI](/perspectives/buying-relief-not-ai).
+The move is to start at their question, in their words, and earn the right to reframe it. You meet "how can I use AI to be more successful?" exactly where it sits, show one concrete result against their real work, and only then widen the frame to what is actually possible. Leaders buy relief and a narrative they can carry, not a technology lecture. See [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative).
 
 ## From their question to the real one
 
@@ -49,5 +49,5 @@ The guide's job is to walk the leader from "what I know about AI" to "what AI co
 
 - [The AI Guide](/roles/ai-guide). The person whose whole job is to answer this question well, for anyone who asks it.
 - [The AI Guidance Gap](/concepts/ai-guidance-gap). Why the question stays unanswered at scale even though the technology exists.
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai). What the leader is actually buying when they finally engage.
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative). What the leader is actually buying when they finally engage.
 - [The Chat Is Not the Product](/perspectives/the-chat-is-not-the-product). Why the chatbot surface is the smallest, least valuable slice of what AI can do for them.

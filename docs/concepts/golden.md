@@ -34,7 +34,7 @@ Two separate tests have to pass before an artifact is golden, and they are easy 
 - **Quality.** Does it represent the thing at its best? This is the A+-or-delete discipline: A-minus is the dangerous middle, and when in doubt you delete. The model cannot tell A-minus from A+; it treats both as reference quality, so mediocre dressed up as good is the slow poison.
 - **Correctness against the canon.** Does it obey the rules the canon is built on? An asset can be beautiful and still be disqualified. A co-branded image that combines two companies' logos can look A+ and still violate a hard brand rule, which makes it categorically not golden no matter how good it looks. Quality is necessary; conformance to canon is also necessary.
 
-Golden is the intersection, not either circle alone. The curator holds both tests. This is why the [judgment line](/perspectives/the-judgment-line) matters: the human is not doing the work the machine can do, they are making the call the machine cannot be trusted to make.
+Golden is the intersection, not either circle alone. The curator holds both tests. This is why the [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else) matters: the human is not doing the work the machine can do, they are making the call the machine cannot be trusted to make.
 
 ## The failure mode: self-minted gold
 
@@ -74,5 +74,5 @@ Guard the gate, and the library becomes a moat that deepens with every blessing.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the visual assets that most literally ride as references on every future render, so a bad blessing propagates fastest here.
 - [Golden Atomic Brand Templates](/concepts/golden-atomic-brand-templates): the coded twin, for assets whose text, numbers, or logo must be exact.
 - [In, On, or Out of the Loop](/concepts/in-on-out-of-the-loop): golden is where you deliberately stay in the loop, because it is the highest-leverage decision in the system.
-- [The Judgment Line](/perspectives/the-judgment-line): the call a human makes that the machine cannot be trusted to make. Blessing an artifact golden sits on that line.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): provenance is what lets a candidate get promoted to golden unchanged and reproducibly.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the call a human makes that the machine cannot be trusted to make. Blessing an artifact golden sits on that line.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): provenance is what lets a candidate get promoted to golden unchanged and reproducibly.

@@ -82,6 +82,6 @@ The answer is the same one that works everywhere else in this craft. Prefer fact
 
 - [The Corpus and the Projection](/concepts/the-corpus-and-the-projection) separates durable inputs from the cheap spec that renders them. Deep provenance is how you know which knob to turn.
 - [Golden Processes](/concepts/golden-processes) covers promoting a proven process into a repeatable one, which is where recipes start paying rent.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) is the discipline provenance enables: you cannot fix the generator if you cannot tell which outputs it produced.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the discipline provenance enables: you cannot fix the generator if you cannot tell which outputs it produced.
 - [Ontology-Driven Development](/disciplines/ontology-driven-development) builds on a canonical model of the domain. Provenance is an ontology of derivation, with its own entities and one relation that matters.
-- [Version Control Your Prompts](/disciplines/version-control-your-prompts) is the narrow case of this idea, applied to the one input most teams change most often.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts) is the narrow case of this idea, applied to the one input most teams change most often.

@@ -13,7 +13,7 @@ image: "/img/comics/reverse-centaur.png"
 
 ---
 
-A centaur, in automation theory, is a human in charge of a machine that extends them. You ride the bicycle. It moves faster than you can, and you still decide where to go. The model covers the gaps in your work while you keep your hand on the wheel. That pairing is the whole promise of applied AI. See [The Jagged Frontier](/perspectives/the-jagged-frontier) for Mollick's centaur and cyborg patterns, both of which keep human judgment on the right side of the line.
+A centaur, in automation theory, is a human in charge of a machine that extends them. You ride the bicycle. It moves faster than you can, and you still decide where to go. The model covers the gaps in your work while you keep your hand on the wheel. That pairing is the whole promise of applied AI. See [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance) for Mollick's centaur and cyborg patterns, both of which keep human judgment on the right side of the line.
 
 A **reverse centaur** flips the arrangement. The machine sets the pace and the human serves it. In Cory Doctorow's framing, the human is no longer the rider. The human is the thing being ridden.
 
@@ -25,7 +25,7 @@ This is the failure mode to design against. It earns a name because it can look 
 
 **Automation blindness.** When the human's job shrinks to clicking "approve" on the machine's output, and the machine is right most of the time, the human stops actually checking. Oversight decays into a rubber stamp. The TSA-checkpoint version: stare at enough bags and you stop seeing the knife. The signature at the bottom is human; the attention behind it is gone. This is the hollow opposite of [in, on, or out of the loop](/concepts/in-on-out-of-the-loop) oversight that means anything.
 
-**Pacing and deskilling.** The machine sets the tempo and the human keeps up rather than directs. Over time the human loses the skill to do the work unaided, and with it the ability to catch the machine when it drifts. The [judgment line](/perspectives/the-judgment-line) erodes from the human side.
+**Pacing and deskilling.** The machine sets the tempo and the human keeps up rather than directs. Over time the human loses the skill to do the work unaided, and with it the ability to catch the machine when it drifts. The [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else) erodes from the human side.
 
 ## Why it fails twice
 
@@ -52,7 +52,7 @@ Full source profile at [Cory Doctorow](/people-to-follow/cory-doctorow), includi
 
 ## Further Reading
 
-- [The Jagged Frontier](/perspectives/the-jagged-frontier): the centaur and cyborg patterns this concept inverts.
+- [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance): the centaur and cyborg patterns this concept inverts.
 - [In, On, or Out of the Loop](/concepts/in-on-out-of-the-loop): what real human oversight requires.
-- [The Judgment Line](/perspectives/the-judgment-line): the human judgment a reverse centaur erodes.
-- [The Comparative Human Edge](/perspectives/comparative-human-edge): what the human keeps when the pairing is built right.
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else): the human judgment a reverse centaur erodes.
+- [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated): what the human keeps when the pairing is built right.

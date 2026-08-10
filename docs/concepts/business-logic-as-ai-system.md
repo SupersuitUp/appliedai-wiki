@@ -1,10 +1,11 @@
 ---
-title: Convert Business Logic to AI System
+title: "Business Logic as AI System"
+slug: /concepts/business-logic-as-ai-system
 description: "The meta-pattern underneath almost every AI consulting engagement. Take the logic of the business, whether it's been written down or not, and convert it into an AI system. Naming the pattern changes how you scope, sell, price, and execute."
 image: "/img/comics/convert-business-logic-to-ai-system.png"
 ---
 
-# Convert Business Logic to AI System
+# Business Logic as AI System
 
 *The meta-pattern underneath almost every AI consulting engagement. Take the logic of the business and convert it into an AI system. Naming the pattern changes how you scope, sell, price, and execute.*
 
@@ -44,7 +45,7 @@ When you stop pitching "I'll build you an AI agent" and start pitching "I'll tak
 
 ## What this changes about how you build
 
-If the work is encoding documented logic, then the AI architecture pattern that follows is straightforward: deterministic workflows (the encoded logic) with LLM calls embedded where the logic genuinely requires judgment, reasoning, or unstructured-text handling. Most production AI systems are 70-90% deterministic plumbing wrapped around a few model calls. The temptation to build "agentic" systems with model-as-orchestrator is usually a misread of the engagement; the right architecture is harness-as-orchestrator with the model called as a specialized tool. This is the underlying logic of [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses).
+If the work is encoding documented logic, then the AI architecture pattern that follows is straightforward: deterministic workflows (the encoded logic) with LLM calls embedded where the logic genuinely requires judgment, reasoning, or unstructured-text handling. Most production AI systems are 70-90% deterministic plumbing wrapped around a few model calls. The temptation to build "agentic" systems with model-as-orchestrator is usually a misread of the engagement; the right architecture is harness-as-orchestrator with the model called as a specialized tool. This is the underlying logic of [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning).
 
 ## The worked case
 
@@ -67,4 +68,4 @@ A counterfactual SMB engagement (no documented SOP, founder makes refund calls c
 - [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot): the client profile that has the documented logic prerequisite.
 - [Workshop → Blueprint → Project → Partnership Engagement Ladder](/playbooks/workshop-blueprint-project-partnership-ladder): the engagement structure that separates discovery from build.
 - [Strategy Is the New Execution](/perspectives/strategy-is-the-new-execution): why the logic-defining work is now the high-value work.
-- [The Case for Simple Harnesses](/perspectives/the-case-for-simple-harnesses): the architectural correlate of treating AI engagements as encoding work.
+- [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): the architectural correlate of treating AI engagements as encoding work.

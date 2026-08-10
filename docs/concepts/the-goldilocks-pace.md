@@ -17,7 +17,7 @@ Frontier models removed the speed limit. They did not answer how fast a business
 
 ## Too hot: slop ships and trust leaves quietly
 
-Run at the model's speed and you ship whatever it produces. The banner it flies under is keeping up with competitors. What actually happens is the quality bar drops without anyone deciding to drop it, and the [slop factory](/perspectives/slop-factory) starts running in your name. If your product is an [outcome generator](/concepts/the-outcome-economy), every slop outcome it ships spends trust you cannot see on a dashboard. That is the dangerous part: nobody emails you that trust is gone. Word of mouth reverses without a sound. The referrals stop, and by the time the metrics show it, the reputation is already spent. [Don't scale slop](/playbooks/dont-scale-slop) is the operational rule; the Goldilocks pace is the operating posture behind it.
+Run at the model's speed and you ship whatever it produces. The banner it flies under is keeping up with competitors. What actually happens is the quality bar drops without anyone deciding to drop it, and the [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory) starts running in your name. If your product is an [outcome generator](/concepts/the-outcome-economy), every slop outcome it ships spends trust you cannot see on a dashboard. That is the dangerous part: nobody emails you that trust is gone. Word of mouth reverses without a sound. The referrals stop, and by the time the metrics show it, the reputation is already spent. [Don't scale slop](/playbooks/dont-scale-slop) is the operational rule; the Goldilocks pace is the operating posture behind it.
 
 ## Too cold: the window moves past while you evaluate
 
@@ -27,7 +27,7 @@ The opposite failure is circling the technology, waiting for it to get safer and
 
 A marathoner who sprints the first miles burns out before the last leg. A tall building needs a deep hole dug first, because the foundation decides how much load the structure can ever carry. Tokyo laid subway lines it can extend; New York laid lines it can barely repair. What you bury badly, you live over forever.
 
-For an AI-run operation, the foundations are the boring layer: [evals](/disciplines/evals), a [deterministic core](/perspectives/default-to-determinism), and the [minimum viable infrastructure](/concepts/minimum-viable-infrastructure) underneath the product. Foundations set the blast radius of every later change. Going deliberately slow on them is what makes you fastest a year from now, while competitors drown in the scaling issues they deferred. The same logic holds at the level of a single artifact: [hand-rolling](/concepts/hand-rolling) around your own system is a sprint that teaches the system nothing, which is why the standing rule is [fix the generator, not the output](/perspectives/fix-the-generator-not-the-output).
+For an AI-run operation, the foundations are the boring layer: [evals](/disciplines/evals), a [deterministic core](/perspectives/recurring-work-belongs-in-code), and the [minimum viable infrastructure](/concepts/minimum-viable-infrastructure) underneath the product. Foundations set the blast radius of every later change. Going deliberately slow on them is what makes you fastest a year from now, while competitors drown in the scaling issues they deferred. The same logic holds at the level of a single artifact: [hand-rolling](/concepts/hand-rolling) around your own system is a sprint that teaches the system nothing, which is why the standing rule is [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing).
 
 ## Every new model is a new car, so budget a deletion pass
 
@@ -51,5 +51,5 @@ Predictability is part of the definition, and it is the part that gets skipped. 
 - [Don't scale slop](/playbooks/dont-scale-slop) is the too-hot failure as an operational playbook.
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) is the too-cold failure in its historical costume.
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) names the foundation layer the deliberate-slow phase builds.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) applies the same discipline to a single artifact.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) applies the same discipline to a single artifact.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails) is the other half: the deletion pass retires bug-patches, and external-truth checks keep growing.

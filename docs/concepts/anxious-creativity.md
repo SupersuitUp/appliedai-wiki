@@ -23,7 +23,7 @@ The result is motion without a target. You open a new app, wire up a new experim
 
 AI has become the new social media, and Anxious Creativity is social media at its worst pointed inward. The old failure mode was the doom-scroll: passive, numbing, free. The new one is the doom-create: active, stimulating, and expensive. You are not consuming other people's noise. You are producing your own, burning tokens and hours to feel like you are keeping up.
 
-The doom-create is more dangerous precisely because it feels productive. Scrolling at least admits it is a vice. Building a fourth half-finished tool wears the costume of progress, so nobody stops you, least of all yourself. This is the same mechanism [Idolizing the Build](/perspectives/idolizing-the-build) describes on the developer's side. Anxious Creativity is the version that catches operators and owners who cannot even code: the object of the anxiety is not the craft of building, it is the fear of standing still.
+The doom-create is more dangerous precisely because it feels productive. Scrolling at least admits it is a vice. Building a fourth half-finished tool wears the costume of progress, so nobody stops you, least of all yourself. This is the same mechanism [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) describes on the developer's side. Anxious Creativity is the version that catches operators and owners who cannot even code: the object of the anxiety is not the craft of building, it is the fear of standing still.
 
 ## It is a trust problem
 
@@ -38,6 +38,6 @@ The exit from Anxious Creativity is not a better tool or a bigger token budget. 
 ## Further Reading
 
 - [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) the calm, compounding alternative
-- [Idolizing the Build](/perspectives/idolizing-the-build) the builder's version of the same anxiety
-- [Clear the Bottleneck, Don't Chase the Bubble](/perspectives/clear-the-bottleneck-dont-chase-the-bubble) where the leverage actually is
-- [Beware of Serving AI (Instead of It Serving You)](/perspectives/beware-of-serving-ai-instead-of-it-serving-you) the inversion Anxious Creativity leads to
+- [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) the builder's version of the same anxiety
+- [Applied AI Pays Off Where Fit Is Already Proven](/perspectives/applied-ai-pays-off-where-fit-is-already-proven) where the leverage actually is
+- [AI Is Becoming the Thing We Serve](/perspectives/ai-is-becoming-the-thing-we-serve) the inversion Anxious Creativity leads to

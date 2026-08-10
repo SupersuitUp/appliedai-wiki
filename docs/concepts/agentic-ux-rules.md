@@ -56,4 +56,4 @@ A short list of products that currently fail one or more rules. Grows over time.
 
 - [Agent-Accessible Products](/concepts/agent-accessible-products): The positive version of this. If agents cannot use your product, agents will replace your product.
 - [llms.txt and llms-full.txt](/concepts/llms-txt): The simplest machine-drivable surface a product can ship.
-- [The Permission Surface](/perspectives/the-permission-surface): The right answer for the destructive edge of Rule 4.
+- [Permissions Are the Load-Bearing Layer of a Harness](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness): The right answer for the destructive edge of Rule 4.

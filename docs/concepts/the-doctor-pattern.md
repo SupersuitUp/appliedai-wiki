@@ -44,7 +44,7 @@ Two structural defenses live inside the rubric itself. First, **check reality, n
 
 ## Humans keep the proxy honest
 
-The rubric is a proxy for quality, and no proxy is complete. The dimensions a rubric can score are exactly the ones already understood well enough to formalize; the taste that separates good from great is usually not on the list yet. So the human does not leave the loop. The human moves to [the edges](/perspectives/humans-at-the-edges): setting the rubric, and standing at the gates the rubric cannot judge.
+The rubric is a proxy for quality, and no proxy is complete. The dimensions a rubric can score are exactly the ones already understood well enough to formalize; the taste that separates good from great is usually not on the list yet. So the human does not leave the loop. The human moves to [the edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges): setting the rubric, and standing at the gates the rubric cannot judge.
 
 The practical mechanism is a split in the punch-list between what the loop may do alone and what it may only propose:
 
@@ -53,7 +53,7 @@ The practical mechanism is a split in the punch-list between what the loop may d
 
 Crucially, the human's feedback runs in **two directions**, not one. It corrects the outputs: golden-checking, the taste call on which candidate is the hero, the judgment that a thing is slop even though it scored well. And it corrects the rubric: the human edits the gradebook itself when a dimension is mis-weighted, missing, or measuring the wrong thing. This second loop is the real defense against gaming. A human who only vetoes outputs against a frozen rubric will eventually watch the agent optimize the proxy into slop; a human who also tunes the ruler keeps the proxy tracking real quality as their own understanding deepens. Taste is the one input you can never fully write down, so it has to stay live on both the work and the measure of the work.
 
-This is the same reason [humans stay the instigators and editors](/perspectives/humans-as-instigators-and-editors) of agentic work. The loop supplies velocity and never lets a gap hide; the human supplies the definition of good, the veto that keeps the score honest, and the edits that keep the gradebook true. Remove the human and the loop optimizes a proxy into the ground. Remove the loop and the human is back to hand-picking every task. The pattern is the pairing: an agent, an ontology-grounded gradebook, and a human who holds taste and tunes the ruler.
+This is the same reason [humans stay the instigators and editors](/perspectives/the-human-role-splits-into-instigator-and-editor) of agentic work. The loop supplies velocity and never lets a gap hide; the human supplies the definition of good, the veto that keeps the score honest, and the edits that keep the gradebook true. Remove the human and the loop optimizes a proxy into the ground. Remove the loop and the human is back to hand-picking every task. The pattern is the pairing: an agent, an ontology-grounded gradebook, and a human who holds taste and tunes the ruler.
 
 ## Building your own doctor
 
@@ -70,5 +70,5 @@ A worked instance: a brand-universe framework ships a `universe-doctor` grader t
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop) is the general loop this pattern specializes; the Doctor Pattern is that loop with the eval as the driver.
 - [Evals](/disciplines/evals) is the craft of building the rubric the loop optimizes.
 - [In, On, Out of the Loop](/concepts/in-on-out-of-the-loop) names where the human stands; the Doctor Pattern keeps them in and on it.
-- [Humans as Instigators and Editors](/perspectives/humans-as-instigators-and-editors) is why the taste gates stay human.
+- [The Human Role Splits Into Instigator and Editor](/perspectives/the-human-role-splits-into-instigator-and-editor) is why the taste gates stay human.
 - [The Self-Improving Business Is a Bad Meme](/perspectives/the-self-improving-business-is-a-bad-meme) is the caution: a loop without a human check optimizes a proxy, not the goal.

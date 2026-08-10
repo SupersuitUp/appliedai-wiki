@@ -23,7 +23,7 @@ In the second camp, the model *is* your product, thinly wrapped. When the next v
 
 The tell is where your durable value sits. If a capability jump erases your edge, your edge was the capability, and you are exposed. If a capability jump *amplifies* your edge, your edge was something else (a hard-won market, an operation, a compliance moat, a body of proprietary context) and the model is leverage on top of it.
 
-This is the same logic as [open weights as a price ceiling](/perspectives/open-weights-as-price-ceiling): anything a commodity model can do, a commodity model will eventually do at commodity prices. Build above that line.
+This is the same logic as [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge): anything a commodity model can do, a commodity model will eventually do at commodity prices. Build above that line.
 
 For an [AI-native services company](/concepts/ai-native-services-company), the test usually passes, because the value lives in the operation and the market position, not in the raw inference. But it is worth running deliberately on any market before you commit, and re-running it every time the frontier moves.
 
@@ -33,5 +33,5 @@ For an [AI-native services company](/concepts/ai-native-services-company), the t
 
 ## Further Reading
 
-- [Open Weights as a Price Ceiling](/perspectives/open-weights-as-price-ceiling) for the commoditization dynamic underneath the test.
+- [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge) for the commoditization dynamic underneath the test.
 - [Picking an AI-Services Market](/playbooks/picking-an-ai-services-market) where the test is one of the screening checks.

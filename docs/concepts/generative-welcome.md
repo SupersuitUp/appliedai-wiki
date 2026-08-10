@@ -29,7 +29,7 @@ Nobody wants to be audited. An [audit](/playbooks/audit-to-sprint-to-deployment)
 
 A generic funnel sends everyone the same landing page, the same demo, the same PDF. The prospect has to do the translation work themselves: read the generic promise, then imagine how it maps onto their business. Most never finish the translation, so the aha never lands. The Generative Welcome does the translation for them and shows the mapped result. The abstract claim "AI could transform your business" becomes a concrete artifact about their business.
 
-It also inverts who does the pitching. Instead of the practitioner pushing a narrative, the prospect generates the narrative about their own operation and reads it in their own words. That is the exact shift behind [Buying Relief, Not AI](/perspectives/buying-relief-not-ai): the prospect leaves holding a coherent story they can take to their board, and the practitioner is the guide who handed them the recipe that produced it.
+It also inverts who does the pitching. Instead of the practitioner pushing a narrative, the prospect generates the narrative about their own operation and reads it in their own words. That is the exact shift behind [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative): the prospect leaves holding a coherent story they can take to their board, and the practitioner is the guide who handed them the recipe that produced it.
 
 ## When to use it
 
@@ -40,7 +40,7 @@ Reach for the Generative Welcome at the top of a relationship, before any engage
 - A community, cohort, or list where a single shared recipe lets hundreds of people each self-serve a personalized result.
 - Any moment where the goal is a first aha, not a signed statement of work.
 
-It is a first touch, not a deliverable. Once the prospect is warm and wants the real thing, the engagement moves into the [Transformation Arc](/perspectives/the-transformation-arc): the ROI-ranked blueprint, the quick wins, the sequenced rollout. The Welcome earns the right to that conversation.
+It is a first touch, not a deliverable. Once the prospect is warm and wants the real thing, the engagement moves into the [The Best Transformations Follow the Same Arc](/perspectives/the-best-transformations-follow-the-same-arc): the ROI-ranked blueprint, the quick wins, the sequenced rollout. The Welcome earns the right to that conversation.
 
 ## The ingredients
 
@@ -59,4 +59,4 @@ Packaged together, the recipe is a [Playable Harness Experience](/concepts/playa
 - [Boomerang Prompt](/concepts/boomerang-prompt) the mirror mechanic that returns material to the builder instead of the prospect.
 - [Playable Harness Experience](/concepts/playable-harness-experience) the distributable form a shared recipe takes.
 - [HTML-First Artifacts](/concepts/html-first-artifacts) why the output is a clickable deck, not a report.
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai) why the prospect is buying a story they can carry, and how the Welcome hands them one.
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative) why the prospect is buying a story they can carry, and how the Welcome hands them one.

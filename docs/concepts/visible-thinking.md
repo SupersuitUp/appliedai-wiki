@@ -1,10 +1,10 @@
 ---
-title: See Your Own Thinking
-slug: /concepts/see-your-own-thinking
+title: "Visible Thinking"
+slug: /concepts/visible-thinking
 description: Most people have never seen their own thinking laid out in front of them. When they do, everything changes.
 ---
 
-# See Your Own Thinking
+# Visible Thinking
 
 *Most people have never seen their own thinking laid out in front of them. When they do, everything changes.*
 

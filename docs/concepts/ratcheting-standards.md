@@ -25,7 +25,7 @@ A ratchet is the third option. Count the violations that exist right now, commit
 
 Four properties separate a ratchet from a counter that annoys people.
 
-- **The count is cheap and deterministic.** A ratchet runs constantly, so it has to be a script, not a scan. This is [default to determinism](/perspectives/default-to-determinism) applied to your own quality checks: the thing that fires on every change belongs in code.
+- **The count is cheap and deterministic.** A ratchet runs constantly, so it has to be a script, not a scan. This is [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) applied to your own quality checks: the thing that fires on every change belongs in code.
 - **The baseline is committed.** The number lives in the repo and moves through review like any other change. A baseline held in someone's memory or a CI cache is not a baseline.
 - **It lowers itself automatically.** When a refactor drops the count, the ratchet writes the new number down and holds you to it. A ratchet that only ever blocks, and never records progress, lets the improvement you just made get spent again.
 - **It runs at a chokepoint.** A pre-commit hook, a CI step, or an agent stop hook that fires after every response. The same reasoning as [prompt guards](/concepts/prompt-guards): put the rule where every path converges, or you have protected one path.
@@ -50,13 +50,13 @@ The other failure is setting the standard by what the codebase can pass. A limit
 
 ## Not the same ratchet as the determinism ratchet
 
-[Default to Determinism](/perspectives/default-to-determinism) uses "the ratchet" for a related but distinct mechanism: folding each newly settled case out of the model's path and into deterministic code, so the metered surface shrinks over time. Both are one-way mechanisms that only tighten, which is why the word fits twice.
+[Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) uses "the ratchet" for a related but distinct mechanism: folding each newly settled case out of the model's path and into deterministic code, so the metered surface shrinks over time. Both are one-way mechanisms that only tighten, which is why the word fits twice.
 
 They differ in what is accumulating. The determinism ratchet accumulates settled behavior in code. A ratcheting standard accumulates enforcement against a debt you already carry. A codebase can run both, and the checks a ratcheting standard enforces are frequently the output of the determinism one.
 
 ## Further Reading
 
-- [Default to Determinism](/perspectives/default-to-determinism): the general case, and the other sense of the ratchet.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the general case, and the other sense of the ratchet.
 - [Prompt Guards](/concepts/prompt-guards): the same chokepoint reasoning applied to prompts instead of code.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): why enforcement has to scale with capability.
 - [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall): where enforcement has to stop being a rule and become a removed capability.

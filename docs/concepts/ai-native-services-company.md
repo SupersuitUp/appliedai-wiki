@@ -25,13 +25,13 @@ The bet that makes it a business and not a charity is [AI operating leverage](/c
 
 ## What makes it a different kind of startup
 
-The instinct from software is wrong here in a specific way: [the product is an operation](/concepts/the-product-is-an-operation). The human is the interface to the customer, and the software exists to let that human scale nonlinearly. Throughput, cycle time, and [output variance](/perspectives/variance-is-the-existential-problem) are the real product metrics. Founders who treat it as a SaaS build with a labor problem bolted on will lose to founders who treat it as an operation that software makes leverageable.
+The instinct from software is wrong here in a specific way: [The Product as Operation](/concepts/the-product-as-operation). The human is the interface to the customer, and the software exists to let that human scale nonlinearly. Throughput, cycle time, and [output variance](/perspectives/variance-is-the-existential-problem) are the real product metrics. Founders who treat it as a SaaS build with a labor problem bolted on will lose to founders who treat it as an operation that software makes leverageable.
 
 Picking the right market is the highest-leverage decision, and it has its own filter: see [Picking an AI-Services Market](/playbooks/picking-an-ai-services-market) and [The Sam Altman Test](/concepts/the-sam-altman-test).
 
 ## The greenfield caveat
 
-This is a from-scratch blueprint. It assumes no legacy systems, no installed customer expectations, and no compliance debt to retrofit. For a legacy services firm it reads as a target state to migrate toward, not a switch to flip, and the warning against [buying your way in](/perspectives/build-dont-buy-your-way-in) is exactly the friction between the two worlds: you cannot acquire product-market fit by purchasing a legacy operation and adding AI on top.
+This is a from-scratch blueprint. It assumes no legacy systems, no installed customer expectations, and no compliance debt to retrofit. For a legacy services firm it reads as a target state to migrate toward, not a switch to flip, and the warning against [buying your way in](/perspectives/you-cannot-acquire-product-market-fit) is exactly the friction between the two worlds: you cannot acquire product-market fit by purchasing a legacy operation and adding AI on top.
 
 ## Sources
 
@@ -40,5 +40,5 @@ This is a from-scratch blueprint. It assumes no legacy systems, no installed cus
 ## Further Reading
 
 - [AI Operating Leverage](/concepts/ai-operating-leverage) for the P&L bet underneath the model.
-- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold) for the same economics seen from the exit side.
+- [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm) for the same economics seen from the exit side.
 - [Picking an AI-Services Market](/playbooks/picking-an-ai-services-market) for the market filter.

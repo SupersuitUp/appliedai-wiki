@@ -1,11 +1,11 @@
 ---
-title: "Save Your Progress"
-slug: /concepts/save-your-progress
+title: "The Session Save"
+slug: /concepts/the-session-save
 description: "The deliberate act of routing a work session's hard-won value (decisions, rationale, and newly-earned tribal knowledge) into durable homes (work logs, skill files, wiki pages, memory, commits) before the chat clears or the context window fills. The save mechanic for the playable harness experience: a reviewed sweep, never autopilot."
 image: "/img/comics/save-your-progress.png"
 ---
 
-# Save Your Progress
+# The Session Save
 
 *The deliberate act of routing a work session's hard-won value (decisions, rationale, and newly-earned tribal knowledge) into durable homes before the chat clears or the context window fills. The save mechanic for the [playable harness experience](/concepts/playable-harness-experience): if the work is playable, you must be able to save.*
 

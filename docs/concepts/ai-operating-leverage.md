@@ -25,13 +25,13 @@ In these businesses, cost of goods sold is three lines, and you should obsess ov
 - **Hosting costs.** The infrastructure to run the system.
 - **Humans in the loop.** The people who carry the judgment the model cannot.
 
-Each of the three needs a number, a trend line, and someone who owns it. The whole thesis lives in those trend lines: model and hosting costs should fall with efficiency and scale, and the humans-in-the-loop line should flatten as the product absorbs more of the work, even as revenue climbs. That flattening is [the product as an operation](/concepts/the-product-is-an-operation) paying off.
+Each of the three needs a number, a trend line, and someone who owns it. The whole thesis lives in those trend lines: model and hosting costs should fall with efficiency and scale, and the humans-in-the-loop line should flatten as the product absorbs more of the work, even as revenue climbs. That flattening is [the product as an operation](/concepts/the-product-as-operation) paying off.
 
 Be deeply suspicious of zero-margin or negative-margin pilots. They are fine to learn from and dangerous to get hooked on, because a pilot that loses money at small scale rarely becomes the engine of a high-margin business by accident. The path to margin has to be designed in, not hoped for.
 
 ## The structural twin
 
-This is the same economic story as [the services-firm re-rating threshold](/perspectives/services-firm-re-rating-threshold), told from the greenfield side. The re-rating page describes what happens to a services firm's *valuation* when it crosses into portable, software-like operations; AI operating leverage describes the *mechanism* that gets a from-scratch firm there. One is the cause, the other is the market's repricing of the effect.
+This is the same economic story as [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm), told from the greenfield side. The re-rating page describes what happens to a services firm's *valuation* when it crosses into portable, software-like operations; AI operating leverage describes the *mechanism* that gets a from-scratch firm there. One is the cause, the other is the market's repricing of the effect.
 
 ## Sources
 
@@ -39,5 +39,5 @@ This is the same economic story as [the services-firm re-rating threshold](/pers
 
 ## Further Reading
 
-- [The Services-Firm Re-Rating Threshold](/perspectives/services-firm-re-rating-threshold) for how the market reprices the leverage.
-- [The Product Is an Operation](/concepts/the-product-is-an-operation) for the mechanism that flattens the human-labor line.
+- [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm) for how the market reprices the leverage.
+- [The Product as Operation](/concepts/the-product-as-operation) for the mechanism that flattens the human-labor line.

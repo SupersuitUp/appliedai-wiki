@@ -15,7 +15,7 @@ image: "/img/comics/project-resumability.png"
 
 ## Where this sits next to its two siblings
 
-Three pages in this wiki circle the same problem. [Save Your Progress](/concepts/save-your-progress) owns the act: what you do with a session's value before the chat clears. [Agentic Project Management](/concepts/agentic-project-management) owns one implementation: holding the project as a repo an agent reads, with an ontology file, a state machine, the project's verbs as skills, and a supervising subagent.
+Three pages in this wiki circle the same problem. [The Session Save](/concepts/the-session-save) owns the act: what you do with a session's value before the chat clears. [Agentic Project Management](/concepts/agentic-project-management) owns one implementation: holding the project as a repo an agent reads, with an ontology file, a state machine, the project's verbs as skills, and a supervising subagent.
 
 This page owns the property those two are aiming at. The distinction is worth keeping because the failures cross over. You can save diligently every session and still hand the next reader a pile they cannot get oriented in. You can skip the repo pattern entirely, on a plain folder of documents, and still be resumable. Saving is what you do. The repo pattern is one way to do it. Resumability is the thing you check for afterward.
 
@@ -78,7 +78,7 @@ So treat resumability as a property you maintain rather than a project you event
 
 ## Further Reading
 
-- [Save Your Progress](/concepts/save-your-progress) on the act that produces this property, session by session.
+- [The Session Save](/concepts/the-session-save) on the act that produces this property, session by session.
 - [Agentic Project Management](/concepts/agentic-project-management) on the repo pattern that makes it structural.
 - [Agents Read READMEs](/perspectives/agents-read-readmes) on what the one front door should contain.
 - [The Doctor Pattern](/concepts/the-doctor-pattern) on writing the check that reports true state instead of describing it.

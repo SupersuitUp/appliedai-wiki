@@ -90,7 +90,7 @@ A factory that produces one thing at scale flattens whatever it touches, which i
 
 - [The Prompt Factory](/concepts/the-prompt-factory)
 - [Golden Processes](/concepts/golden-processes)
-- [Default to Determinism](/perspectives/default-to-determinism)
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code)
 - [Variance Is the Existential Problem](/perspectives/variance-is-the-existential-problem)
 - [The Corpus and the Projection](/concepts/the-corpus-and-the-projection)
 - [Ontology as Substrate](/disciplines/ontology-as-substrate)

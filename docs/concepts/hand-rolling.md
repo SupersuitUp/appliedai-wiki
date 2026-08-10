@@ -44,13 +44,13 @@ This is the deepest reason to stop hand-rolling a process you own: the hand-roll
 
 ## The correct response
 
-When your own generator produces the wrong thing, the fix is upstream, in the generator, not sideways, in the artifact. If the generator's rules are what block the good result, the rules are wrong and you change them, because you own them. This is the discipline of [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output): the intended outcome is the authority, and any rule that fights it is a bug in the system rather than a constraint on the work.
+When your own generator produces the wrong thing, the fix is upstream, in the generator, not sideways, in the artifact. If the generator's rules are what block the good result, the rules are wrong and you change them, because you own them. This is the discipline of [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing): the intended outcome is the authority, and any rule that fights it is a bug in the system rather than a constraint on the work.
 
 ## Further Reading
 
 - [Paving the Desire Path](/concepts/paving-the-desire-path): the retrospective sweep that finds the hand-rolls you could not notice while making them.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output): the principle that replaces hand-rolling. When a rule blocks the outcome, change the rule.
-- [Default to Determinism](/perspectives/default-to-determinism): the standardized path is cheaper and more consistent than the hand-rolled one, which is why routing around it is a loss.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing): the principle that replaces hand-rolling. When a rule blocks the outcome, change the rule.
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the standardized path is cheaper and more consistent than the hand-rolled one, which is why routing around it is a loss.
 - [Frameworks Are Proven by Variety, Not Volume](/perspectives/frameworks-are-proven-by-variety-not-volume): each new kind of thing run through the real system is what exposes its holes; a hand-roll runs nothing through it.
 - [Masturbatory Programming](/concepts/masturbatory-programming): the opposite failure, over-investing in the system for its own sake. The line between them is whether the work serves a real outcome.
 - [A Startup Is an Outcome Generator](/perspectives/a-startup-is-an-outcome-generator): if the company is the generator, hand-rolling its outputs is refusing to build the company.

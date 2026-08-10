@@ -89,4 +89,4 @@ This is how the brand stays coherent as the agent roster grows. Every new agent 
 - [brand.txt](/reference/standards/brand-txt): the served format that includes annotated GABR entries.
 - [Generate an Agentic Brand OS](/playbooks/generate-agentic-brand-os): the recipe that generates the full brand OS and its GABR canon.
 - [Golden Examples](/concepts/golden-examples): the curation discipline that produces GABR-quality outputs.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): storing the prompts that generate GABRs, so they can be reproduced and iterated.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): storing the prompts that generate GABRs, so they can be reproduced and iterated.

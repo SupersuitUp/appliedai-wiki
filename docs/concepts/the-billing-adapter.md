@@ -29,7 +29,7 @@ A request tries the best backend available and degrades gracefully to the next. 
 
 ## Split the bill along the judgment line
 
-The adapter gets sharper when the split follows [the judgment line](/perspectives/the-judgment-line). Planning, taste, and conversation are token-heavy, personal to the user, and naturally billable to the user's own subscription. Deterministic execution (renders, storage, delivery) is predictable, cacheable, and cheap to meter, so it stays on the operator's side where it can be quota-capped and kill-switched. See [Default to Determinism](/perspectives/default-to-determinism) for why the executable half should be deterministic in the first place.
+The adapter gets sharper when the split follows [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else). Planning, taste, and conversation are token-heavy, personal to the user, and naturally billable to the user's own subscription. Deterministic execution (renders, storage, delivery) is predictable, cacheable, and cheap to meter, so it stays on the operator's side where it can be quota-capped and kill-switched. See [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) for why the executable half should be deterministic in the first place.
 
 This split also fixes the incentive geometry. The operator stops being a reseller of someone else's inference and becomes a host: they sponsor the finite, cappable step and let intelligence ride on wallets the users already own.
 
@@ -50,8 +50,8 @@ One honest caveat, and it is the strongest argument for the seam itself: **not e
 
 ## Further Reading
 
-- [The Token Economy](/perspectives/the-token-economy) the macro frame for tokens as a metered input
-- [The Judgment Line](/perspectives/the-judgment-line) where to split billable judgment from cappable execution
-- [Default to Determinism](/perspectives/default-to-determinism) why the operator-billed half should be deterministic
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) the macro frame for tokens as a metered input
+- [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else) where to split billable judgment from cappable execution
+- [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code) why the operator-billed half should be deterministic
 - [Your Computer Was Always Underused](/perspectives/your-computer-was-always-underused) the idle-capacity argument the subscription backend exploits
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure) how much plumbing a seam like this deserves on day one

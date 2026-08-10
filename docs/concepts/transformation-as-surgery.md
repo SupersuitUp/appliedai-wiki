@@ -44,4 +44,4 @@ This is not only ethics. It is the business model. The guide who turns down the 
 - [The AI Guide](/roles/ai-guide). The role this ethic belongs to, and the goodwill it compounds.
 - [The AI Guidance Gap](/concepts/ai-guidance-gap). Why trust is the scarce input that this honesty protects.
 - [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming). The macro backdrop of overpromised transformation this restraint guards against.
-- [Buying Relief, Not AI](/perspectives/buying-relief-not-ai). What the leader actually wants, which is rarely the most invasive option.
+- [Mid-Market Executives Are Buying a Narrative](/perspectives/mid-market-executives-are-buying-a-narrative). What the leader actually wants, which is rarely the most invasive option.

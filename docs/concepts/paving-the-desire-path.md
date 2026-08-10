@@ -15,7 +15,7 @@ image: "/img/comics/paving-the-desire-path.png"
 
 ## Why in-the-moment discipline is not enough
 
-[Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) is the right reflex, and it fires when you notice you are reaching for a one-off. The problem is the noticing. [Hand-Rolling](/concepts/hand-rolling) already concedes this about itself: a hand-rolled fix produces a correct artifact, so nothing looks wrong, and only the aggregate reveals it.
+[The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the right reflex, and it fires when you notice you are reaching for a one-off. The problem is the noticing. [Hand-Rolling](/concepts/hand-rolling) already concedes this about itself: a hand-rolled fix produces a correct artifact, so nothing looks wrong, and only the aggregate reveals it.
 
 That sentence names a gap the reflex cannot close. If the tell only appears in the aggregate, then something has to actually go and look at the aggregate. In the moment, a hand-roll does not feel like a hand-roll. It feels like getting unstuck, which is a good feeling, attached to real progress, on the way to a result you shipped. Nothing in the experience flags it.
 
@@ -96,7 +96,7 @@ The tell that this practice is missing entirely: a scratchpad full of one-off sc
 ## Further Reading
 
 - [Hand-Rolling](/concepts/hand-rolling): the failure mode this sweep hunts for. It states that only the aggregate reveals a hand-roll, which is the reason the sweep has to exist.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output): the in-the-moment reflex. This page is what you run for everything the reflex missed.
-- [Save Your Progress](/concepts/save-your-progress): the sibling end-of-session pass. That one routes a session's knowledge into durable homes; this one routes its improvisation into the system.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing): the in-the-moment reflex. This page is what you run for everything the reflex missed.
+- [The Session Save](/concepts/the-session-save): the sibling end-of-session pass. That one routes a session's knowledge into durable homes; this one routes its improvisation into the system.
 - [The Doctor Pattern](/concepts/the-doctor-pattern): a fixed rubric and punch-list applied to one artifact. A sweep that keeps finding the same defect should graduate into a doctor.
 - [Self-Improving Systems](/concepts/self-improving-systems): the compounding this practice buys. A system that absorbs its own desire paths gets better every run instead of every rewrite.

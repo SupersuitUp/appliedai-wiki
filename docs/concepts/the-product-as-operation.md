@@ -1,11 +1,11 @@
 ---
-title: "The Product Is an Operation"
-slug: /concepts/the-product-is-an-operation
+title: "The Product as Operation"
+slug: /concepts/the-product-as-operation
 description: "In AI services the human is the interface to the customer and the software exists to let that human scale nonlinearly. So you build with an operations mindset: find the bottleneck, build for the bottleneck, and track throughput and cycle time like DAU."
 image: "/img/comics/the-product-is-an-operation.png"
 ---
 
-# The Product Is an Operation
+# The Product as Operation
 
 *In AI services the human is the interface to the customer and the software exists to let that human scale nonlinearly. So you build with an operations mindset: find the bottleneck, build for the bottleneck, and track throughput and cycle time like DAU.*
 
@@ -19,7 +19,7 @@ That inversion changes everything about how you build.
 
 ## Build for the bottleneck
 
-You apply an operations mindset, not a feature mindset. Find the bottleneck in the delivery process and build for the bottleneck. The next feature is not the one that demos best; it is the one that widens the constriction currently capping throughput. As you relieve one constriction the binding constraint moves, so the discipline is continuous: see [the moving bottleneck](/perspectives/the-moving-bottleneck).
+You apply an operations mindset, not a feature mindset. Find the bottleneck in the delivery process and build for the bottleneck. The next feature is not the one that demos best; it is the one that widens the constriction currently capping throughput. As you relieve one constriction the binding constraint moves, so the discipline is continuous: see [Making One Layer Cheap Just Moves the Bottleneck](/perspectives/making-one-layer-cheap-just-moves-the-bottleneck).
 
 ## Throughput and cycle time are product metrics
 
@@ -29,7 +29,7 @@ Track throughput and cycle time the way a SaaS company tracks daily active users
 
 The existential constraint: if revenue scales in line with the number of humans you add, you do not have a business, you have a staffing agency with an AI logo. The whole bet is that software lets each human carry more volume over time, so the humans-in-the-loop line on your [COGS](/concepts/ai-operating-leverage) flattens while revenue climbs. The humans are also your users. They have to enjoy the software, because they are the ones living inside it all day.
 
-It is fine to do things that do not scale at the very beginning. But automating the process *is* the product, and eventually you really do have to scale, or [the early demand trap](/perspectives/the-early-demand-trap) closes on you.
+It is fine to do things that do not scale at the very beginning. But automating the process *is* the product, and eventually you really do have to scale, or [Too Many Early Pilots Will Drown You](/perspectives/too-many-early-pilots-will-drown-you) closes on you.
 
 ## Sources
 
@@ -38,5 +38,5 @@ It is fine to do things that do not scale at the very beginning. But automating 
 ## Further Reading
 
 - [Variance Is the Existential Problem](/perspectives/variance-is-the-existential-problem) for the output metric the operation lives or dies on.
-- [The Moving Bottleneck](/perspectives/the-moving-bottleneck) for why building-for-the-bottleneck is never finished.
+- [Making One Layer Cheap Just Moves the Bottleneck](/perspectives/making-one-layer-cheap-just-moves-the-bottleneck) for why building-for-the-bottleneck is never finished.
 - [AI Operating Leverage](/concepts/ai-operating-leverage) for the economics the operation is built to bend.

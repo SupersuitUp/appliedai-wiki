@@ -58,7 +58,7 @@ Nadella pairs cognitive coverage with a second skill: token intelligence, the di
 
 - [In, On, and Out of the Loop](/concepts/in-on-out-of-the-loop): cognitive coverage is what keeps a human genuinely on the loop instead of nominally supervising work they do not understand.
 - [Golden Examples](/concepts/golden-examples): curating A+ agent outputs as references; coverage is how you confirm an output earns that status before it rides along.
-- [The Token Economy](/perspectives/the-token-economy): the token-abundance backdrop that makes coverage the premium rather than the expertise.
+- [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics): the token-abundance backdrop that makes coverage the premium rather than the expertise.
 
 ## Sources
 

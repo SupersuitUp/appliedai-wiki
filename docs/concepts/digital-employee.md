@@ -38,15 +38,15 @@ The progression between them is natural. An expert who [documents and streamline
 - **Real expertise, made explicit.** The build is mostly interviews and worked examples, not code: extracting the decision criteria the expert applies without noticing. An expert who cannot articulate their judgment yet needs the [hyperdocumented SOP](/concepts/hyperdocumented-sop) discipline first.
 - **A scoped job, not a persona.** "A digital employee that does X" beats "an AI version of me." Scope it like a hire: one seat's worth of responsibility, with defined inputs, outputs, and escalation rules.
 - **The expert stays the source of truth.** The judgment keeps evolving, so the product needs a maintenance loop where the expert reviews edge cases and the encoded rules get sharper. A digital employee abandoned by its expert decays into a wrapper.
-- **Honest limits.** The [judgment line](/perspectives/the-judgment-line) still applies. The digital employee runs the systematizable majority of the work; the irreducibly human calls stay human, and saying so is what makes buyers trust the rest.
+- **Honest limits.** The [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else) still applies. The digital employee runs the systematizable majority of the work; the irreducibly human calls stay human, and saying so is what makes buyers trust the rest.
 
 ## Why it matters economically
 
-For the expert, this is the first product where their expertise earns while they sleep, without the quality collapse of hiring imitators. For the ecosystem, it is where serious [token consumption](/perspectives/the-token-economy) actually lives: a rented digital employee working inside many customer businesses consumes orders of magnitude more inference than the expert's own seat ever would. The interesting AI businesses are increasingly this shape, expertise at the top, agentic infrastructure underneath, consumption scaling with customers rather than with headcount.
+For the expert, this is the first product where their expertise earns while they sleep, without the quality collapse of hiring imitators. For the ecosystem, it is where serious [token consumption](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) actually lives: a rented digital employee working inside many customer businesses consumes orders of magnitude more inference than the expert's own seat ever would. The interesting AI businesses are increasingly this shape, expertise at the top, agentic infrastructure underneath, consumption scaling with customers rather than with headcount.
 
 ## Further Reading
 
 - [Seat Wrapper](/concepts/seat-wrapper) for the inward-facing counterpart.
-- [The Product Is an Operation](/concepts/the-product-is-an-operation) for the delivery discipline once the digital employee has customers.
+- [The Product as Operation](/concepts/the-product-as-operation) for the delivery discipline once the digital employee has customers.
 - [AI-Native Services Company](/concepts/ai-native-services-company) for the company shape this product usually grows inside.
 - [The Sam Altman Test](/concepts/the-sam-altman-test) for why packaged judgment survives model releases.

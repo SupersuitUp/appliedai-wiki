@@ -46,7 +46,7 @@ The whole point of the split shows up when you dislike the result. You do not to
 - **The intent** was aimed slightly off. Restate it, re-compose.
 - **The projection prompt** asked for the wrong shape, length, or voice. Rewrite it, re-compose.
 
-Each of these is a fix that lands where the next artifact will inherit it, which is the discipline of [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output). Editing the artifact directly would give you a correct artifact today and the same wrong one tomorrow. Turning a knob gives you a corpus and a projection that are both better, so the next run starts from the improvement instead of repeating the mistake.
+Each of these is a fix that lands where the next artifact will inherit it, which is the discipline of [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing). Editing the artifact directly would give you a correct artifact today and the same wrong one tomorrow. Turning a knob gives you a corpus and a projection that are both better, so the next run starts from the improvement instead of repeating the mistake.
 
 This is why the artifact should feel disposable. A projection you can re-run in seconds removes the incentive to protect a flawed output. You throw it away and project again, because projecting again is cheap and hand-repairing is not.
 
@@ -70,7 +70,7 @@ It does not fit a genuine one-off. Building a corpus and a projection to make a 
 
 ## Further Reading
 
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output): the discipline this architecture makes possible. When the artifact is wrong, turn an upstream knob rather than hand-edit the output.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing): the discipline this architecture makes possible. When the artifact is wrong, turn an upstream knob rather than hand-edit the output.
 - [Hand-Rolling](/concepts/hand-rolling): the failure mode a fused blob forces on you, because there is no upstream knob to turn.
 - [The Renderer and the Payload](/concepts/the-renderer-and-the-payload): the complementary split at the output layer, presentation versus content, where this one splits the generation system into inputs versus generator.
 - [PROJECTION.json](/reference/standards/projection-json): the typed contract that formalizes a projection so an agent can plan, produce, and verify the artifact.

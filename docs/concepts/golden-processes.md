@@ -57,7 +57,7 @@ A process is only promotable to golden if it is specified precisely enough that 
 
 The reason to invest in golden processes is not tidiness. It is a trajectory. As the underlying models improve, image, video, reasoning, the deterministic scaffolding around them gets more reliable and the required human input shrinks toward the part that is irreducibly human: the taste, the intent, the blessing. A well-built golden process converges toward incredible reliability, where the human does a small, high-judgment amount and an excellent result happens every time.
 
-That reframes the goal of automation. The aim is not to remove the human from the loop; it is to reduce the human's obligation to exactly the part that carries their judgment and, for the work they care about, the part they find meaningful. For sentimental work made for a loved one, the ideal is not maximum automation but the right participation: the person contributes the stories and the love and the final yes, and the reliable process carries everything else. Golden processes are how that participation stays constant while reliability climbs. The [judgment line](/perspectives/the-judgment-line) is what remains on the human's side of that boundary as everything below it converges.
+That reframes the goal of automation. The aim is not to remove the human from the loop; it is to reduce the human's obligation to exactly the part that carries their judgment and, for the work they care about, the part they find meaningful. For sentimental work made for a loved one, the ideal is not maximum automation but the right participation: the person contributes the stories and the love and the final yes, and the reliable process carries everything else. Golden processes are how that participation stays constant while reliability climbs. The [judgment line](/perspectives/llms-handle-judgment-code-handles-everything-else) is what remains on the human's side of that boundary as everything below it converges.
 
 ## Further Reading
 
@@ -68,5 +68,5 @@ That reframes the goal of automation. The aim is not to remove the human from th
 - [Fat Skills](/concepts/fat-skills): how much a single skill should carry.
 - [Agent Rule Files](/concepts/agent-rule-files): the always-on layer that governs behavior across every process.
 - [Hyperdocumented SOP](/concepts/hyperdocumented-sop): mapping a real workflow precisely enough to prove it against reality and progressively automate it.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the provenance that lets a candidate process be promoted, reproduced, and trusted.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): the provenance that lets a candidate process be promoted, reproduced, and trusted.
 - [In, On, or Out of the Loop](/concepts/in-on-out-of-the-loop): golden processes move the human up the ladder toward on-the-loop without removing them.

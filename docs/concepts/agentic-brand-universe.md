@@ -18,7 +18,7 @@ image: "/img/comics/agentic-brand-universe.png"
 Most brand tooling collapses three different things into one word and then argues about it. Keep them separate and the whole picture clicks.
 
 - **The universe is the cartridge (data).** A portable, version-controlled package of everything the brand *is*: its canon and its blessed [golden](/concepts/golden) assets. It holds no runtime. It is a stable, spec'd data format that an engine reads. Because it is data, it forks and it rents: you can hand a copy to a partner, spin a variant off a proven base, or license the whole thing.
-- **The [Agentic Brand OS](/concepts/agentic-brand-os) is the console (runtime).** A deployed engine that loads a universe and generates any on-brand deliverable from it, in plain language, with [provenance](/disciplines/version-control-your-prompts), held to the universe's rules. The console is software. It changes and improves independently of any one cartridge.
+- **The [Agentic Brand OS](/concepts/agentic-brand-os) is the console (runtime).** A deployed engine that loads a universe and generates any on-brand deliverable from it, in plain language, with [provenance](/playbooks/version-control-your-prompts), held to the universe's rules. The console is software. It changes and improves independently of any one cartridge.
 - **The projection is the deliverable (output).** A book, a flyer, a piece of merch, a meme, a thank-you note. Medium-neutral. The cartridge does not care what shape the output takes; the console renders whatever is asked for and every projection lands in the same universe.
 
 The analogy is exact: cartridge plus console gives you anything you want to play. Swap the cartridge, same console renders a different brand. Upgrade the console, every cartridge renders better. Agentic storytelling (an illustrated book, say) is one projection; day-to-day brand management is the rest of them. They are the same act pointed at different outputs.
@@ -41,7 +41,7 @@ You do not know your brand until you try things. The universe records that disco
 
 ## Provenance is part of the data
 
-Every asset in the universe carries its recipe: the model that made it, the exact prompt, and the references pinned by hash. This is load-bearing, not decoration. Provenance is what lets a candidate be promoted to [golden](/concepts/golden) unchanged, what lets any asset be rebuilt from scratch a year later, and what keeps nothing in the library a mystery. A universe whose assets have no provenance is a folder of orphans; a universe whose assets all carry provenance is reproducible. See [Version-Control Your Prompts](/disciplines/version-control-your-prompts) for the storage discipline this rides on.
+Every asset in the universe carries its recipe: the model that made it, the exact prompt, and the references pinned by hash. This is load-bearing, not decoration. Provenance is what lets a candidate be promoted to [golden](/concepts/golden) unchanged, what lets any asset be rebuilt from scratch a year later, and what keeps nothing in the library a mystery. A universe whose assets have no provenance is a folder of orphans; a universe whose assets all carry provenance is reproducible. See [Version-Control Your Prompts](/playbooks/version-control-your-prompts) for the storage discipline this rides on.
 
 ## It learns, honestly
 
@@ -71,7 +71,7 @@ One cartridge, three doors into it. Nobody is reconstructing the brand from a sc
 - [Agentic Brand OS](/concepts/agentic-brand-os): the console that loads a universe and renders deliverables from it, plus the full manifest of what a cartridge holds.
 - [Golden](/concepts/golden): the human-conferred status that makes an asset canon and load-bearing on all future work.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the blessed reference images that carry identity into every render.
-- [Version-Control Your Prompts](/disciplines/version-control-your-prompts): the provenance discipline the cartridge runs on.
+- [Version-Control Your Prompts](/playbooks/version-control-your-prompts): the provenance discipline the cartridge runs on.
 - [Self-Improving Artifacts](/concepts/self-improving-artifacts): the human-gated loop by which a universe gets sharper the more it runs.
 - [Every Brand Should Be a Version-Controlled Universe Its Agent Renders on Demand](/perspectives/every-brand-is-a-version-controlled-universe): the argument for adopting this as the default.
 - [Generate an Agentic Brand OS](/playbooks/generate-agentic-brand-os): the recipe that scaffolds the package for one brand.

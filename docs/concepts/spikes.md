@@ -51,19 +51,19 @@ Nothing about the spike was a failure. It proved the seam. The error was treatin
 
 - **A spike proves a seam works. It does not demonstrate quality.** Keep those claims separate, out loud.
 - **Label a spike as a spike.** The people looking at its output need to know what corners it cut.
-- **Do not hand-roll a generator you already own.** A spike may skip the real pipeline to move fast, but the real build must run the committed pipeline, or you are shipping the spike. See [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output).
+- **Do not hand-roll a generator you already own.** A spike may skip the real pipeline to move fast, but the real build must run the committed pipeline, or you are shipping the spike. See [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing).
 - **Then throw it away and build the real thing.** The spike's job ended when the question was answered.
 
 ## When not to spike
 
 - The path is known. Building is the faster way to learn now. Do not perform feasibility theater.
 - The risk is taste, not feasibility. That is a job for [Agentic Exploration](/concepts/agentic-exploration), which searches for what is good rather than what is possible.
-- You have grown attached to the spike. If you cannot bring yourself to delete it, reread [Don't Get Attached to Your Process](/perspectives/dont-get-attached-to-your-process). A spike you refuse to discard has already become technical debt wearing the costume of progress.
+- You have grown attached to the spike. If you cannot bring yourself to delete it, reread [Your Process Is Disposable, Your Judgment Is Not](/perspectives/your-process-is-disposable-your-judgment-is-not). A spike you refuse to discard has already become technical debt wearing the costume of progress.
 
 ## Further Reading
 
 - [Agentic Exploration](/concepts/agentic-exploration) (its wider cousin: searching for what is good, not what is possible)
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output) and [Hand-Rolling](/concepts/hand-rolling) (the anti-pattern a spike must not harden into)
-- [Don't Get Attached to Your Process](/perspectives/dont-get-attached-to-your-process) (why throwaway has to mean throwaway)
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) and [Hand-Rolling](/concepts/hand-rolling) (the anti-pattern a spike must not harden into)
+- [Your Process Is Disposable, Your Judgment Is Not](/perspectives/your-process-is-disposable-your-judgment-is-not) (why throwaway has to mean throwaway)
 - [Frameworks Are Proven by Variety, Not Volume](/perspectives/frameworks-are-proven-by-variety-not-volume) (proving by doing rather than by review)
 - [You Cannot Plan the Upgrades That Matter](/perspectives/you-cannot-plan-the-upgrades-that-matter) (why some things can only be learned by running them)

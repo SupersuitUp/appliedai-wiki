@@ -25,13 +25,13 @@ The tell that "loop" is too small: if a loop deserves its own -engineering, so d
 
 Naming is half the value. "Workflow" tells you what to design: the flow of information through a system of actors, with a clear beginning and end. "Loop" tells you to obsess over one retry mechanism and miss the routing, the parallelism, the specialization, and the human checkpoints that actually decide whether the work is good.
 
-The workflow framing also travels. It is the same object as [the roles-to-workflows shift](/concepts/roles-to-workflows) at the org level and [workflow decomposition](/playbooks/workflow-decomposition) at the design level. You are drawing the business as a flow, then deciding which node is a human, which is a deterministic script, and which is a full agent.
+The workflow framing also travels. It is the same object as [the roles-to-workflows shift](/concepts/roles-to-workflows) at the org level and [Decompose the Workflow](/playbooks/decompose-the-workflow) at the design level. You are drawing the business as a flow, then deciding which node is a human, which is a deterministic script, and which is a full agent.
 
 ## What an ADW is made of
 
 Every ADW is a placement problem across [the three actors of value creation](/concepts/three-actors-of-value-creation): engineers, agents, and code. The craft is putting each in the right node.
 
-- **The human holds the two ends.** Prompting (planning) and reviewing (validation) are the two constraints. See [humans at the edges](/perspectives/humans-at-the-edges).
+- **The human holds the two ends.** Prompting (planning) and reviewing (validation) are the two constraints. See [AI-Native Org Charts Put Humans at the Edges](/perspectives/ai-native-org-charts-put-humans-at-the-edges).
 - **Code holds the deterministic middle.** Linting, formatting, type-checking, test execution, ticket state changes, sandbox setup. Fast, reliable, zero token cost.
 - **Agents hold the judgment-heavy middle.** Scouting the codebase, planning, building, resolving test failures. See [sometimes the workflow step should be an agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent) for the per-node decision.
 
@@ -62,6 +62,6 @@ The three-actors framing and the software-factory picture are his. The reconcili
 - [The Three Actors of Value Creation](/concepts/three-actors-of-value-creation): the engineers, agents, and code an ADW places.
 - [Designing an AI Loop](/playbooks/designing-an-ai-loop): the self-improving subclass of workflow.
 - [The Roles-to-Workflows Shift](/concepts/roles-to-workflows): the same move at the org level.
-- [Workflow Decomposition](/playbooks/workflow-decomposition): draw the flow, then classify each node.
+- [Decompose the Workflow](/playbooks/decompose-the-workflow): draw the flow, then classify each node.
 - [Sometimes the Workflow Step Should Be an Agent](/perspectives/sometimes-the-workflow-step-should-be-an-agent): the per-node call versus agent versus code decision.
 - [Harness Engineering](/disciplines/harness-engineering): the craft of the code wrapped around each agent node.

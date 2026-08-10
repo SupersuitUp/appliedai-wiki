@@ -59,4 +59,4 @@ The spare-cycles backlog is that queue. It is the standing answer to "I have cap
 - [Don't scale slop](/playbooks/dont-scale-slop) is the quality gate on what surplus buys: capacity spent on a bad list multiplies low-value output.
 - [Fat Skills](/concepts/fat-skills) are what many spare cycles produce: judgment packaged once and rerun forever.
 - [Compounding Docs](/concepts/compounding-docs) is the same flywheel logic applied to documentation: durable work that makes every future pass faster.
-- [Save Your Progress](/concepts/save-your-progress) is the discipline of routing hard-won value into durable homes, the same instinct that keeps a spare-cycles backlog worth pulling from.
+- [The Session Save](/concepts/the-session-save) is the discipline of routing hard-won value into durable homes, the same instinct that keeps a spare-cycles backlog worth pulling from.

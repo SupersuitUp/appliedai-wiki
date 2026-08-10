@@ -101,7 +101,7 @@ check has to compare the inputs and not merely the presence of an output.
 ## Further Reading
 
 - [Project Resumability](/concepts/project-resumability), the sibling property, about the artifact rather than the operation.
-- [Save Your Progress](/concepts/save-your-progress), the ritual that gets a session's value into durable homes before the context clears.
+- [The Session Save](/concepts/the-session-save), the ritual that gets a session's value into durable homes before the context clears.
 - [Prompt Guards](/concepts/prompt-guards), a worked example of a guard that skips itself when the rule is already present.
 - [Playable Harness Experience](/concepts/playable-harness-experience), the distributable bundle these steps usually live inside.
-- [Fix the Generator, Not the Output](/perspectives/fix-the-generator-not-the-output), the discipline that makes a step worth hardening in the first place.
+- [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing), the discipline that makes a step worth hardening in the first place.

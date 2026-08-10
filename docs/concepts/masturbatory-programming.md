@@ -29,7 +29,7 @@ Everything upstream of that answer can be excellent. Clean abstractions, a real 
 
 Volume of code used to be a costly signal. It took a long time to produce, so producing a lot of it meant something about you. That pricing is gone. Everyone ships thousands of lines a day now, and next year it will be more. When production is nearly free, the artifact proves nothing on its own. See [The Cheaper Code Gets, the Simpler You Should Build](/perspectives/the-cheaper-code-gets-the-simpler-you-should-build) for what that does to system design, and [Acceleration Is Not Completion](/perspectives/acceleration-is-not-completion) for what it does to timelines.
 
-What stayed scarce is a specific person, with a specific want, whose reality is measurably better because the thing exists. That is the unit that got harder to fake, which is exactly why it is the one worth attaching an identity to. [Move a Load-Bearing Measurable](/perspectives/move-a-load-bearing-measurable) is the same demand pointed at a number the business already agreed matters.
+What stayed scarce is a specific person, with a specific want, whose reality is measurably better because the thing exists. That is the unit that got harder to fake, which is exactly why it is the one worth attaching an identity to. [A Moved Measurable Is the Only Proof](/perspectives/a-moved-measurable-is-the-only-proof) is the same demand pointed at a number the business already agreed matters.
 
 ## It is a dial, not a verdict
 
@@ -37,7 +37,7 @@ Almost nobody is purely in this mode, and calling someone a masturbatory program
 
 Plenty of building has no user and is still correct. Building one harness to learn what a harness is, as [Your Edge Is Not Your Infrastructure](/perspectives/your-edge-is-not-your-infrastructure) argues, buys judgment you cannot rent. Exploration, play, and craft practice are all legitimate and should be defended. The dial only becomes a problem when the identity load moves onto the system itself.
 
-That is the actual mechanism, and it explains the delay. Once the system is who you are, deploying it introduces the possibility that nobody wants it, and that possibility now reads as a verdict on you. An unshipped system stays perfect. A shipped one gets judged. So the deploy keeps slipping, always for a defensible technical reason, and the builder experiences the delay as rigor. [Idolizing the Build](/perspectives/idolizing-the-build) covers the sibling failure, where the pleasure sits in the act of building. This one sits in the ownership of what was built.
+That is the actual mechanism, and it explains the delay. Once the system is who you are, deploying it introduces the possibility that nobody wants it, and that possibility now reads as a verdict on you. An unshipped system stays perfect. A shipped one gets judged. So the deploy keeps slipping, always for a defensible technical reason, and the builder experiences the delay as rigor. [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) covers the sibling failure, where the pleasure sits in the act of building. This one sits in the ownership of what was built.
 
 ## The loop on the other side
 
@@ -59,9 +59,9 @@ The difference between the two modes is topological. The masturbatory loop is cl
 
 ## Further Reading
 
-- [Idolizing the Build](/perspectives/idolizing-the-build) for the sibling failure, where the pleasure is in the act of building rather than in owning what was built.
-- [Move a Load-Bearing Measurable](/perspectives/move-a-load-bearing-measurable) for the number that settles the argument about whether the work was real.
+- [Developers Have Started Worshipping the Build](/perspectives/developers-have-started-worshipping-the-build) for the sibling failure, where the pleasure is in the act of building rather than in owning what was built.
+- [A Moved Measurable Is the Only Proof](/perspectives/a-moved-measurable-is-the-only-proof) for the number that settles the argument about whether the work was real.
 - [The Outcome Economy](/concepts/the-outcome-economy) for what actually changes hands once the system is pointed at somebody.
 - [Golden Processes](/concepts/golden-processes) for how a delivered outcome becomes repeatable instead of re-improvised.
-- [Slop Factory](/perspectives/slop-factory) for what the closed loop produces once it is automated and nobody is checking the output.
-- [The Early Demand Trap](/perspectives/the-early-demand-trap) for the opposite failure, and why the fix is a few deep users rather than a flood.
+- [Throughput Without Taste Is a Slop Factory](/perspectives/throughput-without-taste-is-a-slop-factory) for what the closed loop produces once it is automated and nobody is checking the output.
+- [Too Many Early Pilots Will Drown You](/perspectives/too-many-early-pilots-will-drown-you) for the opposite failure, and why the fix is a few deep users rather than a flood.

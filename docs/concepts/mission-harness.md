@@ -42,7 +42,7 @@ This is a judgment role. It requires taste, conviction, and the authority to cou
 
 ### The Applied AI Lead
 
-The applied AI lead is the person (or team) who translates the steward's intent into systems that execute. They build the [agentic harnesses](/disciplines/harness-engineering), write the skill files, design the [permission surfaces](/perspectives/the-permission-surface), and configure the agents so that AI output actually reflects the mission's values.
+The applied AI lead is the person (or team) who translates the steward's intent into systems that execute. They build the [agentic harnesses](/disciplines/harness-engineering), write the skill files, design the [permission surfaces](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness), and configure the agents so that AI output actually reflects the mission's values.
 
 The steward says: "We need to activate 10,000 people into the applied AI economy this year without burning anyone out and without compromising on truth." The applied AI lead builds the system that makes that happen: the course platform, the workshop automation, the community infrastructure, the content pipeline, the feedback loops.
 
@@ -89,5 +89,5 @@ The mission is too important to leave to chance. Harness it.
 - [Intent Engineering](/disciplines/intent-engineering): Encoding organizational purpose into infrastructure
 - [Harness Engineering](/disciplines/harness-engineering): The technical architecture of agent harnesses
 - [Compounding Docs](/concepts/compounding-docs): How mission harnesses get better over time
-- [The Permission Surface](/perspectives/the-permission-surface): Bounding what agents can do on the mission's behalf
-- [Pick a Stack That Can Be Faithful to Your Mission](/perspectives/pick-a-stack-that-can-be-faithful-to-your-mission): The selection criterion for the components a mission harness runs on
+- [Permissions Are the Load-Bearing Layer of a Harness](/perspectives/permissions-are-the-load-bearing-layer-of-a-harness): Bounding what agents can do on the mission's behalf
+- [Capability Is Table Stakes, Faithfulness Is the Choice](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice): The selection criterion for the components a mission harness runs on
