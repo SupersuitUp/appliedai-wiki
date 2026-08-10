@@ -2,9 +2,9 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import useGlobalData from '@docusaurus/useGlobalData';
 
-type ChangeType = 'new' | 'updated' | 'removed';
+export type ChangeType = 'new' | 'updated' | 'removed';
 
-interface ChangeEvent {
+export interface ChangeEvent {
   id: string;
   type: ChangeType;
   date: string;
