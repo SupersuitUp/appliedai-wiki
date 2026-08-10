@@ -167,6 +167,19 @@ Before hiding, remove or neutralize every inbound link from pages that stay (the
 
 ---
 
+## The broken-link check in this repo validates NOTHING (found 2026-08-09)
+
+`onBrokenLinks: 'throw'` is set and it catches zero broken links, because
+`src/theme/MDXComponents/A` forces `target="_blank"` on every link, so Docusaurus
+classifies all of them as external and never resolves them. **A green `pnpm build` is
+not evidence that your links work here.** 61 broken links were hiding behind it, one of
+them shipping live 404s from `disciplines/sop-execution-app/`.
+
+Until the component is fixed, verify links yourself: grep the target path under `docs/`
+before you write a link, and after a rename confirm the old slug is at zero outside
+`docusaurus.config.ts`. `bash scripts/check-cross-wiki-links.sh` still covers the
+cross-wiki half, which the build never checked either.
+
 ## Common mistakes
 
 - Writing a `perspectives/` title as a noun label ("The Adoption Inversion") instead of a sentence ("Knowing AI Changes How You Use It").
