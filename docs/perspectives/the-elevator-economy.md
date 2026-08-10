@@ -70,16 +70,8 @@ This is why activation is so important. Every month a person stays unactivated i
 
 ---
 
-## Related Foundations
-
-- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): What the ascending side of the elevator actually looks like at the individual level.
-- [The Survivor Economy](/perspectives/the-survivor-economy): The company-internal version of the same sorting. Who inside an existing org is ascending and who is being quietly written out of the org chart.
-- [Jevons Paradox](/concepts/jevons-paradox): The economy-wide offset. As AI makes execution cheap, total demand for capable humans expands into new categories.
-
----
-
 ## Further Reading
 
-- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency)
-- [The Survivor Economy](/perspectives/the-survivor-economy)
-- [Jevons Paradox](/concepts/jevons-paradox)
+- [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): what the ascending side of the elevator looks like at the individual level.
+- [The Survivor Economy](/perspectives/the-survivor-economy): the company-internal version of the same sorting, and who is quietly written out of the org chart.
+- [Jevons Paradox](/concepts/jevons-paradox): the economy-wide offset, as cheap execution expands demand for capable humans into new categories.

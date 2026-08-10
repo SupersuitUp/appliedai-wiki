@@ -50,7 +50,7 @@ A wiki is a graph. A directory is a list. Measure:
 - Zero orphan pages. Every page is in the sidebar and linked from at least one other page
 - The lexicon is reachable from every section's index page
 
-Quick test: pick a concept page at random. Click through Further Reading three hops. If you cannot reach disciplines, playbooks, or foundations within three hops, the wiki is too siloed.
+Quick test: pick a concept page at random. Click through Further Reading three hops. If you cannot reach disciplines, playbooks, or perspectives within three hops, the wiki is too siloed.
 
 ## 5. Coverage of load-bearing topics
 
@@ -58,7 +58,6 @@ The "do you have what an implementer actually needs" check.
 
 - **Disciplines:** prompting, context engineering, evals, agents, retrieval, observability. At least one substantive page each (eight hundred words or more, three named sections or more).
 - **Playbooks:** at least one for each engagement phase: scoping, kickoff or week one, mid-engagement, handoff.
-- **Foundations:** at least ten curated reads (books, talks, papers) with annotations.
 - **Tools:** at least Claude Code, Codex, Hermes, git, github-cli, homebrew, node, vscode, plus at minimum one eval tool and one observability tool.
 - **Standards:** ALIGN.md and INTEGRATE.md present with template and example.
 - **Roles:** at least five named roles, including CAIO, applied AI consultant, AI enablement architect, applied AI engineer, applied AI streamliner.

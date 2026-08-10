@@ -14,6 +14,11 @@ The Glossary is a fast-scanning index: every coined term on one line, linked to 
 
 Use this when you want to skim the surface area of the wiki without committing to a full read. Terms are grouped by theme. For the full alphabetical browse, see [Concepts](/concepts).
 
+## The field itself
+
+- **[Applied AI](/start-here/what-is-applied-ai)**: the deliberate, human-led deployment of AI so an organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact.
+- **[Applied AI Engineer](/roles)**: the craftsman this wiki is written for. The person who puts that deployment into practice, owning the systems that turn a capability into a dependable outcome.
+
 ## Agents and harnesses
 
 - **[Agent-Accessible Products](/concepts/agent-accessible-products)**: if agents cannot use your product, agents will replace your product. The CLI, API, and MCP shift in product design.

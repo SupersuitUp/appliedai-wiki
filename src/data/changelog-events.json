@@ -1,6 +1,126 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/clips@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "concepts/clips",
+      "routePath": "/concepts/clips",
+      "section": "concepts",
+      "title": "CLIPs: The Apps of the Agentic Era",
+      "description": "Every major computing wave creates a platform and an ecosystem on top of it. The browser gave us websites. The iPhone gave us apps. Cloud gave us SaaS. Agents are next. The question is: what gets b..."
+    },
+    {
+      "id": "disciplines/sop-execution-app/anatomy@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "disciplines/sop-execution-app/anatomy",
+      "routePath": "/disciplines/sop-execution-app/anatomy",
+      "section": "disciplines",
+      "title": "Anatomy",
+      "description": "The four load-bearing components inside every SOP Execution App: a page per SOP with a form per page, role-scoped memory drawn from the team layer, role-scoped views, and a backend of agents."
+    },
+    {
+      "id": "disciplines/sop-execution-app/how-to-get-one-built@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "disciplines/sop-execution-app/how-to-get-one-built",
+      "routePath": "/disciplines/sop-execution-app/how-to-get-one-built",
+      "section": "disciplines",
+      "title": "How to Get One Built",
+      "description": "Five stages: find the right engineer, brief them well, ship v0.1 in the first session, iterate weekly, and know what kills the engagement."
+    },
+    {
+      "id": "disciplines/sop-execution-app/what-it-is@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "disciplines/sop-execution-app/what-it-is",
+      "routePath": "/disciplines/sop-execution-app/what-it-is",
+      "section": "disciplines",
+      "title": "What it is",
+      "description": "A custom web app that exposes a hyperagent's battle-tested digital SOPs as form-driven pages, one tab per SOP. A deployment artifact downstream of the Supersuit, not a replacement for it."
+    },
+    {
+      "id": "disciplines/sop-execution-app/when-to-get-one@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "disciplines/sop-execution-app/when-to-get-one",
+      "routePath": "/disciplines/sop-execution-app/when-to-get-one",
+      "section": "disciplines",
+      "title": "When to Get One Built",
+      "description": "The signs that a hyperagent running a PAOS should commission an SOP Execution App. The default is to keep working in the terminal; the app is worth the engineering only when specific conditions hold."
+    },
+    {
+      "id": "perspectives/learn-the-harness-not-the-wrapper@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "perspectives/learn-the-harness-not-the-wrapper",
+      "routePath": "/perspectives/learn-the-harness-not-the-wrapper",
+      "section": "perspectives",
+      "title": "Learn the Harness, Not the Wrapper",
+      "description": "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Vendor wrappers over them (Claude Cowork, opinionated desktop apps) hide those primitives to look friendlier. We teach the primitives,..."
+    },
+    {
+      "id": "perspectives/the-case-for-simple-harnesses@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "perspectives/the-case-for-simple-harnesses",
+      "routePath": "/perspectives/the-case-for-simple-harnesses",
+      "section": "perspectives",
+      "title": "The Case for Simple Harnesses",
+      "description": "A small core. Extensible edges. Your context under your control. The harness architecture that keeps winning as the field matures."
+    },
+    {
+      "id": "playbooks/activation@8b1da6c922504e9802d9165d465162235c1e0a9a",
+      "type": "updated",
+      "date": "2026-08-09T18:54:49-05:00",
+      "docKey": "playbooks/activation",
+      "routePath": "/playbooks/activation",
+      "section": "playbooks",
+      "title": "Activation",
+      "description": "Engineering the first hour with a visionary entrepreneur so they cross from 'this exists' to 'this is the lever I have been missing.' Without that crossing, nothing downstream compounds."
+    },
+    {
+      "id": "concepts/harness-apps@22a75d604b2a1702c14859ce7e0200bdd652c28f",
+      "type": "new",
+      "date": "2026-08-09T17:50:20-05:00",
+      "docKey": "concepts/harness-apps",
+      "routePath": "/concepts/harness-apps",
+      "section": "concepts",
+      "title": "Harness Apps",
+      "description": "An app whose entire backend is an agentic harness. Harness apps, or happs. Commonly called Claude Code apps: small purpose-built interfaces, often temporary, where the buttons are wired to Claude Code or Codex rather than to a server you wrote."
+    },
+    {
+      "id": "concepts/local-first-software@22a75d604b2a1702c14859ce7e0200bdd652c28f",
+      "type": "updated",
+      "date": "2026-08-09T17:50:20-05:00",
+      "docKey": "concepts/local-first-software",
+      "routePath": "/concepts/local-first-software",
+      "section": "concepts",
+      "title": "Local-First Software",
+      "description": "Software that runs and keeps its data on your own machine. In the agentic era, a bespoke tool per problem becomes cheap enough to build, use once, and throw away."
+    },
+    {
+      "id": "concepts/skill-file-first-app-second@22a75d604b2a1702c14859ce7e0200bdd652c28f",
+      "type": "updated",
+      "date": "2026-08-09T17:50:20-05:00",
+      "docKey": "concepts/skill-file-first-app-second",
+      "routePath": "/concepts/skill-file-first-app-second",
+      "section": "concepts",
+      "title": "Skill File First, App Second",
+      "description": "If you want to build a capability that operates on people's context, prove it as a skill file first. Package it as an app only after the capability is real."
+    },
+    {
+      "id": "perspectives/everyone-is-paying-to-regenerate-the-same-software@0b68eabaeaa01722ffef79d1e0b7d58e7f4bf42e",
+      "type": "new",
+      "date": "2026-08-09T17:37:17-05:00",
+      "docKey": "perspectives/everyone-is-paying-to-regenerate-the-same-software",
+      "routePath": "/perspectives/everyone-is-paying-to-regenerate-the-same-software",
+      "section": "perspectives",
+      "title": "Everyone Is Paying to Regenerate the Same Software",
+      "description": "Thousands of operators are independently spending tokens to generate the same handful of near-platonic modules, then leaving each copy to die in a private repo. The generated artifact is worth more published than kept, and almost nobody publishes."
+    },
+    {
       "id": "perspectives/the-best-judges-of-creations-should-be-training-ai@e84b25e6844e5204865f8e2108d5cf0d84c5a344",
       "type": "new",
       "date": "2026-08-09T16:18:02-05:00",
@@ -2394,7 +2514,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "concepts/command-centers@778d570e6a71871af71c30a0812b82c4c002d816",
@@ -2414,7 +2534,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade@4f6235e1dd6eee052c3fb5213fb5a4813ac6a848",
@@ -3454,7 +3574,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "concepts/anxious-creativity@c1de0fb1e2bfc9d45a5c9a2e8fd5ef500752fb4d",
@@ -7060,7 +7180,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "start-here/what-is-applied-ai@07afcc31f3dc659db90076fc663a3860961eca01",
@@ -7070,7 +7190,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "foundations/compound-agency@33cbb1c111650643649e53db5d4782908387d160",
@@ -7208,7 +7328,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "concepts/you-are-the-bottleneck@f198fb180fa9e822a31b5fb5e002bfc3355e08bb",
@@ -7236,7 +7356,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "start-here/what-is-applied-ai@4dbe553325beb29734401c6d49b68c523477f6a0",
@@ -7246,7 +7366,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "reference/graphic-style@66590a284d141b7344b51fc914114b2cd4ff80b0",
@@ -9459,7 +9579,7 @@
       "routePath": "/start-here/what-is-applied-ai",
       "section": "start-here",
       "title": "What is Applied AI",
-      "description": "The working definition. Putting AI to its highest and best use: running an organization as autonomously as possible so it can deliver value at the largest scale possible."
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
     },
     {
       "id": "concepts/sample-concept@a992c4d5ab59464d44017a30c3969d181ddea4e5",
