@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-alignment-stack@845cae4dfbbbb626597db2e67036b2c1d5d45084",
+      "type": "new",
+      "date": "2026-08-11T08:16:38-05:00",
+      "docKey": "concepts/the-alignment-stack",
+      "routePath": "/concepts/the-alignment-stack",
+      "section": "concepts",
+      "title": "The Alignment Stack",
+      "description": "The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way."
+    },
+    {
+      "id": "reference/glossary@845cae4dfbbbb626597db2e67036b2c1d5d45084",
+      "type": "updated",
+      "date": "2026-08-11T08:16:38-05:00",
+      "docKey": "reference/glossary",
+      "routePath": "/reference/glossary",
+      "section": "reference",
+      "title": "Glossary",
+      "description": "One-line-per-term summary across the whole wiki. The lexicon, flattened."
+    },
+    {
       "id": "concepts/the-correction-seam@0f9884b3a03a85acabb32754889e1d7185882a49",
       "type": "updated",
       "date": "2026-08-11T05:47:34-05:00",
