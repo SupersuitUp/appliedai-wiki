@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "ONE image divided into 3 CLEAR PANELS of equal size, arranged left to right in a horizontal row, separated by generous clean cream gutters with NO drawn borders and NO frame lines. Each panel is one beat of the same argument and they read in order.\n\nBEAT ONE: Inside the laptop a single bare glowing amber core floats alone, beautiful and producing nothing. She looks at it with her hands empty. BEAT TWO: She has built a wooden rig around the core inside the laptop: jointed tool arms, a small drawer, a hinged plate, a bar across the front. The core now drives all of them. BEAT THREE: The rig runs by itself, tool arms lifting finished objects out onto the bench in a neat row, while she stands back with her arms folded, watching.\n\nTHE FIGURE, the same person in all three panels and recognizably the same person in each: a woman in her fifties, Black, close-cropped grey hair, wearing a brown leather work apron over a cream shirt.\n\nTHE SETTING, one consistent world across all three panels: a warm workshop at dusk with a wooden bench. An open glowing translucent amber laptop sits on the bench. The agents and their work live INSIDE the laptop screen; the human works in the warm real room OUTSIDE it.\n\nTEXT FURNITURE, in the cream margins only and never over the artwork. Reproduce every string character-exact and add no other lettering anywhere:\nTitle bar, centered in the cream margin ABOVE the panels, in caps: HARNESS ENGINEERING\nCaption in the cream gutter UNDER panel one, in caps: THE MODEL ALONE\nCaption in the cream gutter UNDER panel two, in caps: THE RIG AROUND IT\nCaption in the cream gutter UNDER panel three, in caps: THE RIG DOES THE WORK\nFooter bar, centered in the cream margin BELOW the panels, in caps: THE CODE AROUND THE MODEL IS THE WORK\n\nAny other writable surface in frame is BLANK: no labels, no writing on the bench, no text on the laptop screen, no numbers anywhere.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No neon, no 3D or CGI rendering, no glossy plastic, no HUD or arc-reactor comic vocabulary, no power armor, no robot suits.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-11T13:52:01.723472+00:00",
+  "sha256": "5b3acd211523af6a98bd42aef4095477c8fc420075d3e429659e667b6b1572da",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
