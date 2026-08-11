@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip, three equal panels in a row separated by clean cream gutters with no drawn borders or frame lines. One consistent world, one consistent cast, one consistent desk across all three panels, reading left to right as a progression.\n\nBEAT ONE: On a warm wooden desk sits one glowing translucent amber laptop. Inside its screen a small rounded agent character holds up a slip of paper, looking uncertain. The slip carries the mis-heard words I SCREAM in handwriting, struck through with a single pen line, and directly beneath them the corrected words ICE CREAM freshly handwritten. Outside the laptop, in the warm real world, a woman in her fifties with short silver hair and a rust-colored cardigan leans in with a pen, her nib touching the slip where the corrected words are. Her hand and the slip are the focus. The viewer must be able to see that a wrong word was crossed out and a different right word written in its place.\n\nBEAT TWO: The consequence. Now TWO separate glowing translucent amber laptops sit side by side on the same desk, angled slightly apart, with a wide empty cream gap between them. Each laptop has its own rounded agent inside, and each agent is calmly watching a small tidy dial that reads healthy, so neither is looking up. The corrected slip of paper, reading ICE CREAM, tumbles down into the gap between the two laptops and comes to rest on the bare desk, unnoticed by both agents. The slip on the desk in the gap is the focus.\n\nBEAT THREE: The resolution. The two laptops have become ONE single wider glowing translucent amber laptop spanning the desk, its two halves now continuous. The slip of paper rides a clean bright amber arrow that loops out of the right half, curves around, and returns into the left half where the error was made, and the rounded agent on the left is holding that exact slip, still reading ICE CREAM. The woman rests one hand on the desk outside the laptop, watching it, making the call.\n\nTEXT FURNITURE, character-exact, set in the cream margins and never over the artwork:\n- Title bar above the panels, in caps: THE CORRECTION SEAM\n- Caption in the cream gutter under panel one, in caps: THE USER FIXES IT\n- Caption in the cream gutter under panel two, in caps: NOBODY CATCHES IT\n- Caption in the cream gutter under panel three, in caps: ONE OWNER, ONE LOOP\n- Footer bar below the panels, in caps: THE ASSET IS THE LOOP, NOT THE FEATURE\n\nReproduce these five strings exactly as written. The only other text anywhere in the image is on the slip of paper: the struck-through I SCREAM and the corrected ICE CREAM in beat one, and ICE CREAM alone in beats two and three. Do not invent, reword, add, or omit any text, and do not write any other word, label or caption anywhere.\n\nQuantities that must match exactly: panel one shows ONE laptop, panel two shows TWO laptops, panel three shows ONE laptop. Exactly one human figure, the same woman, in panels one and three.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No young man as the human figure. No recurring branded character and no identifiable real individual.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-11T10:34:17.971184+00:00",
+  "sha256": "df43ba2a18ec677d4c2c3c17a729ef5afd3c0568761d8036464681530b458881",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
