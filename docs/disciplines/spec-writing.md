@@ -2,11 +2,14 @@
 title: "Spec Writing"
 slug: /disciplines/spec-writing
 description: "The discipline of describing what you want with enough precision that an AI can deliver it. Implementation is being commoditized; the spec is where the value lives now."
+image: "/img/comics/spec-writing.png"
 ---
 
 # Spec Writing
 
 *Implementation is being commoditized. The spec is where the value lives now.*
+
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: He holds up a loose scribbled sketch on a scrap of paper. The agent inside the laptop produces an object that plainly does not match the scribble. Two: He has drawn a precise measured technical drawing with clean ruled lines and small tick marks for dimensions, and pinned it inside the laptop. The agent produces an object that matches it exactly. Three: Several agents inside the laptop each work from a copy of the same measured drawing, and the finished objects lined up on the bench are identical to one another.](/img/comics/spec-writing.png)
 
 ---
 

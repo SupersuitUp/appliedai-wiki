@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-alignment-stack@cdde376851ddf1438099e4929e7081a1eba5a325",
+      "type": "updated",
+      "date": "2026-08-11T08:33:19-05:00",
+      "docKey": "concepts/the-alignment-stack",
+      "routePath": "/concepts/the-alignment-stack",
+      "section": "concepts",
+      "title": "The Alignment Stack",
+      "description": "The seventeen layers standing between a human value and a deployed model's output. No layer repairs a misalignment above it, which makes choosing your upstream the decision that sets your ceiling."
+    },
+    {
       "id": "concepts/the-alignment-stack@a21e787131d03fcf6db223dc1cf45c071f0d8fbe",
       "type": "updated",
       "date": "2026-08-11T08:27:42-05:00",
