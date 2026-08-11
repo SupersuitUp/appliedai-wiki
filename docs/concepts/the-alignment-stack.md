@@ -1,7 +1,7 @@
 ---
 title: "The Alignment Stack"
 slug: /concepts/the-alignment-stack
-description: "The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way."
+description: "The seventeen layers standing between a human value and a deployed model's output. No layer repairs a misalignment above it, which makes choosing your upstream the decision that sets your ceiling."
 image: "/img/comics/the-alignment-stack.png"
 ---
 
@@ -9,7 +9,7 @@ image: "/img/comics/the-alignment-stack.png"
 
 *The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way.*
 
-![Three panels in a warm workshop at dusk, the same woman in an olive apron in each, a glowing laptop on her bench with a tall column of translucent panes rising out of its screen. Amber means a layer is sound and dull red means a layer has failed. One: every pane glows amber and unbroken while she works with hand tools on the lowest few, the column continuing up past the top of the frame. Two: a red crack has torn through a pane high above her head and runs down through the panes, and the finished piece in her hands is split and stained the same red while she looks down at it rather than up at the crack. Three: she raises a lantern to trace the red crack upward, and exactly three panes at the base glow bright amber while everything above is dim and out of reach.](/img/comics/the-alignment-stack.png)
+![Three panels in a warm workshop at dusk, the same woman in an olive apron in each, working at a laptop from which tall columns of stacked translucent panes rise past the top of the frame. Amber means sound and dull red means failed, and a column goes red from the crack all the way down. One: a red crack high up has turned every pane beneath it red down to the laptop, and the finished piece in her hands is red and split while she looks up at the crack. Two: she works the lowest panes with a tool and they stay stubbornly red, the repair changing nothing. Three: she has turned away from the red column to a different column that glows sound amber from bench to ceiling, holding a whole amber piece, having chosen rather than repaired.](/img/comics/the-alignment-stack.png)
 
 ---
 
@@ -83,7 +83,27 @@ This is the structural claim, and most bad reasoning about alignment violates it
 
 A lower layer can catch **instances**. It cannot fix **causes**. A guard can refuse this output, and it does not make the model aligned. A perfect system prompt cannot fix a captured lab. Liability law cannot fix a race between states.
 
-So "we will handle it at the application layer" is a category error, and so is "the lab will handle it." Each is proposing that one layer absorb a failure originating somewhere it cannot reach. What a lower layer can honestly promise is containment of known failure shapes, which is worth a great deal and is not the same as alignment.
+So "we will handle it at the application layer" is a category error, and so is "the lab will handle it." Each is proposing that one layer absorb a failure originating somewhere it cannot reach. What a lower layer can honestly promise is containment of failure shapes it already knows about, which is worth a great deal and is not alignment.
+
+A crack high in the stack does not leave the layers beneath it partly sound. Everything below inherits the compromised output as its input, so the run below the crack is compromised, and a patch applied at the bottom produces something that looks repaired and is not.
+
+## You select your upstream, you do not repair it
+
+Everything above adds up to one move, and it is a decision rather than a technique.
+
+Because no layer repairs a misalignment above it, the highest-leverage thing anyone at the application layers does is **choose which upstream they inherit**. Which model, from which lab, operating under which governance, in which jurisdiction. That choice is made once, usually early, usually on price and capability, and it silently sets the ceiling on everything the system can be trusted to do afterward.
+
+The instinct this replaces is the engineering instinct, and it is the one to catch. Presented with a misaligned upstream, a good engineer starts designing compensations. The compensations work on the failure shapes they were designed for and produce confidence out of proportion to what they cover, because the ones nobody imagined are precisely the ones no compensation was written for.
+
+**One honest qualifier, and it matters.** Nothing at any layer is fully aligned. There is no fully aligned country, no fully aligned company, and no fully aligned model, so a rule stated in absolutes either paralyzes or manufactures a false sense of having complied with it.
+
+The workable version is comparative and it has three parts:
+
+- **Select the most aligned stack actually available to you**, and be specific about what "most aligned" means at each layer: whether the lab publishes commitments that can refuse a launch, whether the spec ranks its own conflicts, whether the jurisdiction has a real liability regime.
+- **Name the residual.** Whatever misalignment you inherit and cannot reach, write it down as inherited risk carried by the system.
+- **Disclose it rather than absorbing it.** The person relying on the outcome should know which layers you control and which you are trusting. Containment presented as alignment is the failure this whole page exists to prevent.
+
+Selection is also the only move that scales, because it is the one that composes with everyone else's. A market where buyers select on alignment is the mechanism by which layers 2, 3 and 4 feel any pressure at all.
 
 ## Symptoms surface near the artifact and causes sit far upstream
 
@@ -113,12 +133,15 @@ Stacking protects you from disasters. It does not deliver quality. Those are dif
 
 If you are an applied AI engineer, you own layers 11, 12 and 13, you strongly influence 14, and you are downstream of thirteen layers of decisions made by people you will never meet.
 
-That is not a reason for fatalism. It is a job description, and it has four honest modes:
+That is not a reason for fatalism. It is a job description, and the modes run in this order on purpose:
 
-- **Absorb.** Failures you can contain at your layers. A model that is occasionally sycophantic is survivable if your evaluator does not ask the model to grade itself. Design as though the layers above you will fail sometimes, because they will.
-- **Detect and report.** Failures you cannot fix but can see. You are one of the few people positioned to observe layer 8 behavior against real workloads. An unreported observation is a layer 17 failure with your name on it.
-- **Constrain.** Failures you can make unreachable rather than unlikely. This is layer 11 and it is the highest-leverage thing on your desk. Breaking one leg of the lethal trifecta is worth more than any amount of instruction.
-- **Refuse.** Systems where the layers you do not own are misaligned badly enough that no work at your layers makes the outcome acceptable. This is a real professional option and it is the one that never appears in a framework.
+- **Select.** The decision that sets your ceiling, and the only one that reaches the layers you do not own. Made once, early, and usually without anyone noticing they were making it. See above.
+- **Refuse.** Systems where the layers you do not own are misaligned badly enough that no work at your layers makes the outcome acceptable. This is a real professional option, it is the second most powerful thing on this list, and it is the one that never appears in a framework.
+- **Constrain.** Failures you can make unreachable rather than unlikely. This is layer 11 and it is the highest-leverage build work on your desk. Breaking one leg of the lethal trifecta is worth more than any amount of instruction.
+- **Detect and disclose.** Failures you cannot fix but can see. You are one of the few people positioned to observe layer 8 behavior against real workloads. An unreported observation is a layer 17 failure with your name on it, and a disclosed one transfers the decision to the person entitled to make it.
+- **Contain, narrowly.** Failure shapes that originate at your own layers, plus known shapes from above whose blast radius you can bound. Legitimate, bounded, and never to be described as making the system aligned.
+
+Containment sits last on purpose, and most practitioners rank it first. Compensating for a bad upstream is the work that feels most like engineering and pays the least, which is exactly why it attracts the effort that selection deserved.
 
 A practitioner who believes their job starts at the system prompt is carrying thirteen layers of unexamined assumption and calling it a stack that works.
 
