@@ -64,6 +64,8 @@ Three properties make a closed correction loop more valuable than the feature it
 
 **Per-user adaptation compounds into switching cost.** A loop that learns one person's vocabulary gets more valuable to that person every week, without anyone engineering a retention feature. The lock-in is a byproduct of the product working better, which is the durable kind.
 
+Capturing the signal raises the question of whose signal to trust, which is a separate decision and a harder one ([Weight Training Data by Who Is Still in Business](/perspectives/weight-training-data-by-who-is-still-in-business)).
+
 ## The discipline
 
 The test has an obvious failure mode: applied without restraint, it argues for acquiring every adjacent product whose data would be useful, which is how a focused company becomes a conglomerate of mediocre features. Three constraints keep it honest.
@@ -82,6 +84,7 @@ It says where to cut. Rather than owning more of the stack on principle, find th
 
 ## Further Reading
 
+- [Weight Training Data by Who Is Still in Business](/perspectives/weight-training-data-by-who-is-still-in-business): the next decision after capture, and the one that compounds harder.
 - [Vertical Integration Is the Moat](/perspectives/vertical-integration-is-the-moat): the general claim this test sharpens, and why the loop beats the model.
 - [Daily Use Is the Benchmark That Can't Be Gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed): why the seam is found by operators rather than by strategy decks.
 - [Improvement Compounds When the Loops Nest](/perspectives/improvement-compounds-when-the-loops-nest): what happens once you are running more than one of these loops.
