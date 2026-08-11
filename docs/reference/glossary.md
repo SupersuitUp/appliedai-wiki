@@ -25,6 +25,7 @@ Use this when you want to skim the surface area of the wiki without committing t
 - **[Agentic UX Rules](/concepts/agentic-ux-rules)**: a growing list of UX rules for the agentic age. The bar for product UX has moved because AI moved it.
 - **[Always-On Agents](/concepts/always-on-agents)**: the shift from AI that answers when asked to AI that works for you while you sleep.
 - **[The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)**: agentic harnesses like Claude Code, Hermes, and Codex are primitives. Vendor wrappers hide them to look friendlier. Learn the harness so your skills transfer.
+- **[The Alignment Stack](/concepts/the-alignment-stack)**: the seventeen layers between a human value and a deployed model's output. Aligned to what, decided by whom, and what breaks at each layer.
 - **[The Mission Harness](/concepts/mission-harness)**: everyone talks about AI alignment. Aligned to what? A mission harness makes it concrete: a system that keeps humans and agents aligned with a shared purpose.
 
 ## Context and truth

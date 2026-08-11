@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-correction-seam@0f9884b3a03a85acabb32754889e1d7185882a49",
+      "type": "updated",
+      "date": "2026-08-11T05:47:34-05:00",
+      "docKey": "concepts/the-correction-seam",
+      "routePath": "/concepts/the-correction-seam",
+      "section": "concepts",
+      "title": "The Correction Seam",
+      "description": "The boundary between two products where one makes an error and the other collects the user's correction of it. The signal is free, self-labeling, and unusable by either company alone, which turns an ordinary build-versus-buy question into a decision about whether to close a loop."
+    },
+    {
+      "id": "perspectives/weight-training-data-by-who-is-still-in-business@0f9884b3a03a85acabb32754889e1d7185882a49",
+      "type": "new",
+      "date": "2026-08-11T05:47:34-05:00",
+      "docKey": "perspectives/weight-training-data-by-who-is-still-in-business",
+      "routePath": "/perspectives/weight-training-data-by-who-is-still-in-business",
+      "section": "perspectives",
+      "title": "Weight Training Data by Who Is Still in Business",
+      "description": "Once a system learns from user corrections, it has to decide whose corrections count. Every available proxy for good judgment is bad, and money is the least bad of them, because a customer who keeps paying has run an expensive test you get to inherit for free."
+    },
+    {
       "id": "concepts/the-correction-seam@0f00c22519440bce19bc817fb09337c3ba97eabb",
       "type": "new",
       "date": "2026-08-11T05:35:13-05:00",
