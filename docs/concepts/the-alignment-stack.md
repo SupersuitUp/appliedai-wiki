@@ -2,11 +2,14 @@
 title: "The Alignment Stack"
 slug: /concepts/the-alignment-stack
 description: "The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way."
+image: "/img/comics/the-alignment-stack.png"
 ---
 
 # The Alignment Stack
 
 *The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way.*
+
+![Three panels in a warm workshop at dusk, the same woman in an olive apron in each, a glowing laptop on her bench with a tall column of translucent panes rising out of its screen. Amber means a layer is sound and dull red means a layer has failed. One: every pane glows amber and unbroken while she works with hand tools on the lowest few, the column continuing up past the top of the frame. Two: a red crack has torn through a pane high above her head and runs down through the panes, and the finished piece in her hands is split and stained the same red while she looks down at it rather than up at the crack. Three: she raises a lantern to trace the red crack upward, and exactly three panes at the base glow bright amber while everything above is dim and out of reach.](/img/comics/the-alignment-stack.png)
 
 ---
 
