@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does@491c582a90d8cd898b6355dd908e1f60795fb166",
+      "type": "new",
+      "date": "2026-08-11T12:24:42-05:00",
+      "docKey": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "routePath": "/perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "section": "perspectives",
+      "title": "The Evangelist Sees the Frontier Before the Lab Does",
+      "description": "What a model can do is settled in a lab. What it is for is discovered in contact with a specific job, by whoever is standing there. That makes the person deployed into real builds the first to know, and it means an evangelist who is not also an inventor is mis-hired."
+    },
+    {
       "id": "concepts/agent-rule-files@46779328e5059d4aae1234e7353e6c4f480cf661",
       "type": "updated",
       "date": "2026-08-11T08:56:24-05:00",

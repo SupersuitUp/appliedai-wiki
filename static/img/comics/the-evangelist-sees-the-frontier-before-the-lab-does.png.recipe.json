@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "ONE image divided into 3 CLEAR PANELS of equal size, arranged left to right in a horizontal row, separated by generous clean cream gutters with NO drawn borders and NO frame lines. Each panel is one BEAT of the same argument and they read in order as a progression.\n\nTHE SAME WOMAN appears in all three panels and must be recognizably the same person in each: South Asian, late twenties, dark hair in a single braid, a rust-orange cardigan over a plain shirt, carrying a small satchel. Same face, same braid, same cardigan in every panel.\n\nThe glowing translucent amber supercharged laptop from the reference image casts amber light on the wood and the hands near it. Inside its screen, as if in a lit room behind glass, are the small rounded amber agent figures: the one in the gold military cap is the lead, the plainer capless ones are its helpers. The human is always OUTSIDE the laptop, in the warm real world.\n\nBEAT ONE: a plain lecture room. The woman stands at the front beside the glowing laptop, presenting to a seated row of listeners, holding up one printed sheet. She is telling them something already known. The listeners are polite and unmoved. Nothing new is happening.\n\nBEAT TWO: a completely different place, a working boatyard or cooperage full of the unfamiliar tools of a trade. The woman has her cardigan sleeves pushed up and is crouched beside a tradesman in a leather apron, both of their hands on his half-built work, the glowing laptop open on a plank beside them. Her face is caught in the moment of realizing something. She is discovering, not presenting.\n\nBEAT THREE: back in the plain lecture room, the same seated row. Now the woman has set the half-built object from the boatyard on the table in front of them, alongside her open notebook, and the listeners have all leaned forward toward it. The glowing laptop sits to the side. What she brought back is the thing they are looking at.\n\nTEXT, spelled EXACTLY as written here and nowhere else in the image: a TITLE BAR in the cream margin across the very top reading \"TWO FRONTIERS\". A caption in the cream gutter under each panel, in order: \"EXPLAINING WHAT IS KNOWN\", \"FINDING WHAT IS NOT\", \"THE FIELD REPORTS BACK\". A FOOTER BAR in the cream margin across the very bottom reading \"THE MAP GETS DRAWN FROM THE OUTSIDE IN.\"\n\nNO OTHER TEXT ANYWHERE. No readable writing on any sheet, notebook or wall. No words inside the screen, no signature, no watermark. Any legible lettering other than the six declared strings is a defect.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No brand logo or maker mark on the laptop. No flowcharts, no diagrams, no arrows, no charts.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-11T17:30:55.142354+00:00",
+  "sha256": "bdb444505c067973ae30b914e184d4595038e8dbd8be9dae0be46376a3dae463",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
