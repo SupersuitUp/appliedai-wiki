@@ -1,6 +1,74 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agent-rule-files@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "concepts/agent-rule-files",
+      "routePath": "/concepts/agent-rule-files",
+      "section": "concepts",
+      "title": "Agent Rule Files",
+      "description": "Standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. Imperative, persistent, always-on. The version-controlled spine of how an agent behaves inside your workspace."
+    },
+    {
+      "id": "concepts/compounding-docs@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "concepts/compounding-docs",
+      "routePath": "/concepts/compounding-docs",
+      "section": "concepts",
+      "title": "Compounding Docs",
+      "description": "Every document you write makes your AI agent smarter. Every smarter agent output makes the next document faster. The flywheel nobody talks about."
+    },
+    {
+      "id": "disciplines/context-engineering@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "disciplines/context-engineering",
+      "routePath": "/disciplines/context-engineering",
+      "section": "disciplines",
+      "title": "Context Engineering",
+      "description": "The discipline of curating the right information state for an AI system to operate within. The skill that separates 'AI is okay' from 'AI changed how I work.'"
+    },
+    {
+      "id": "disciplines/harness-engineering@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "disciplines/harness-engineering",
+      "routePath": "/disciplines/harness-engineering",
+      "section": "disciplines",
+      "title": "Harness Engineering",
+      "description": "The code wrapped around an AI model is just as important as the model itself. The discipline of designing that wrapper."
+    },
+    {
+      "id": "disciplines/spec-writing@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "disciplines/spec-writing",
+      "routePath": "/disciplines/spec-writing",
+      "section": "disciplines",
+      "title": "Spec Writing",
+      "description": "The discipline of describing what you want with enough precision that an AI can deliver it. Implementation is being commoditized; the spec is where the value lives now."
+    },
+    {
+      "id": "perspectives/llms-handle-judgment-code-handles-everything-else@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "perspectives/llms-handle-judgment-code-handles-everything-else",
+      "routePath": "/perspectives/llms-handle-judgment-code-handles-everything-else",
+      "section": "perspectives",
+      "title": "LLMs Handle Judgment, Code Handles Everything Else"
+    },
+    {
+      "id": "perspectives/tokens-are-the-atomic-unit-of-ai-economics@46779328e5059d4aae1234e7353e6c4f480cf661",
+      "type": "updated",
+      "date": "2026-08-11T08:56:24-05:00",
+      "docKey": "perspectives/tokens-are-the-atomic-unit-of-ai-economics",
+      "routePath": "/perspectives/tokens-are-the-atomic-unit-of-ai-economics",
+      "section": "perspectives",
+      "title": "Tokens Are the Atomic Unit of AI Economics"
+    },
+    {
       "id": "concepts/the-alignment-stack@cdde376851ddf1438099e4929e7081a1eba5a325",
       "type": "updated",
       "date": "2026-08-11T08:33:19-05:00",
