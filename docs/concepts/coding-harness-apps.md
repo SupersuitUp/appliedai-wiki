@@ -1,13 +1,13 @@
 ---
 title: "Coding Harness Apps"
 slug: /concepts/coding-harness-apps
-description: "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+description: "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
 image: "/img/comics/coding-harness-apps.png"
 ---
 
 # Coding Harness Apps
 
-*An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or **CHAPS**. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going.*
+*An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or **CHAPPS**. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going.*
 
 ![Three panels in a warm room. One: a woman sits at a desk with her hands idle while inside the glowing amber laptop a small gold-capped figure holds a row of cards with one card left blank. Two: a single panel lifts out of the laptop and floats between the screen and the woman, showing one round button, and she leans in and speaks into it. Three: the floating panel is gone, the figure inside the laptop holds the same row with every card now filled, a stack of sealed envelopes slides out onto the desk, and the woman sits back with her hands off the desk.](/img/comics/coding-harness-apps.png)
 
@@ -15,19 +15,19 @@ image: "/img/comics/coding-harness-apps.png"
 
 ## What it is
 
-A coding harness app, or **CHAPS**, is a real interface with no backend of its own. It renders some state, it collects input a harness cannot produce, and when you act on it, the work is done by an agentic harness. People usually call these Claude Code apps, because that is the harness most of them are wired to today. The pattern is not vendor-specific. Codex, or any harness that can be driven headlessly, does the same job, which is why a neutral name is worth keeping.
+A coding harness app, or **CHAPPS**, is a real interface with no backend of its own. It renders some state, it collects input a harness cannot produce, and when you act on it, the work is done by an agentic harness. People usually call these Claude Code apps, because that is the harness most of them are wired to today. The pattern is not vendor-specific. Codex, or any harness that can be driven headlessly, does the same job, which is why a neutral name is worth keeping.
 
-The name is spelled out because the short form has to survive being said out loud. "Harness apps" compresses to a sound almost identical to "apps," which makes the term useless in conversation. CHAPS does not collide with anything.
+The short form has to survive being said out loud, which is why it carries a leading consonant. "Harness apps" compresses in speech to a sound almost identical to "apps," so the term disappears the moment anyone says it. CHAPPS keeps the APPS visible and puts a hard sound in front of it, and it collides with nothing.
 
-The distinguishing test is what happens when you take the agent away. A normal app keeps working and loses a feature. A CHAPS becomes an empty shell, because the agent was the runtime.
+The distinguishing test is what happens when you take the agent away. A normal app keeps working and loses a feature. A CHAPPS becomes an empty shell, because the agent was the runtime.
 
-This is a different claim from the two ideas next to it. [Local-First Software](/concepts/local-first-software) is about where your data lives and who owns it. [HTML-First Artifacts](/concepts/html-first-artifacts) is about the format an agent hands you when it is finished. A CHAPS is about architecture: the thing you are clicking has an agent underneath it, working while you watch.
+This is a different claim from the two ideas next to it. [Local-First Software](/concepts/local-first-software) is about where your data lives and who owns it. [HTML-First Artifacts](/concepts/html-first-artifacts) is about the format an agent hands you when it is finished. A CHAPPS is about architecture: the thing you are clicking has an agent underneath it, working while you watch.
 
 ## It is an app, not a skill file
 
-The most common way to get this wrong is to build a [skill file](/concepts/skill-files) and call it a CHAPS. A skill teaches the harness to do something. A CHAPS is the interface the harness opens when the next step needs a human body.
+The most common way to get this wrong is to build a [skill file](/concepts/skill-files) and call it a CHAPPS. A skill teaches the harness to do something. A CHAPPS is the interface the harness opens when the next step needs a human body.
 
-The order matters, and it runs one way. [Skill File First, App Second](/concepts/skill-file-first-app-second) is the governing discipline: prove the capability as a skill, and only build the interface once you have hit a step chat genuinely cannot carry. A CHAPS built before that step is identified is a UI in search of a job.
+The order matters, and it runs one way. [Skill File First, App Second](/concepts/skill-file-first-app-second) is the governing discipline: prove the capability as a skill, and only build the interface once you have hit a step chat genuinely cannot carry. A CHAPPS built before that step is identified is a UI in search of a job.
 
 ## Chat cannot capture, judge, or arrange
 
@@ -53,13 +53,13 @@ The shape is always the same:
 4. **The interface posts the payload back** to the harness. Raw audio files, a set of approvals, a reordered list.
 5. **The pipeline resumes** where it paused, now holding data it could never have generated.
 
-That round trip is what separates a CHAPS from a website that happens to call an API. Control starts in the harness, leaves for exactly as long as your hands are needed, and comes back. You are never dropped into an app and left there to finish the job by hand.
+That round trip is what separates a CHAPPS from a website that happens to call an API. Control starts in the harness, leaves for exactly as long as your hands are needed, and comes back. You are never dropped into an app and left there to finish the job by hand.
 
 The consequence is the one that changes how the work feels. Because the pipeline is code, edits are addressable in bulk. A batch of thirty-five personalized messages sitting in a normal app means thirty-five text boxes and thirty-five rounds of editing. Sitting in a harness, one instruction rewrites the rule that generated them, and all thirty-five regenerate. The interface handles the recording, because only you can speak. The harness handles the other thirty-four changes, because none of them need you at all.
 
 ## Some are temporary and some are not
 
-Most CHAPS should be born with a death date. Spun up for one job, opened in the browser, shut down when the job is done. Treating a single-use tool as permanent software is a real failure mode: it invites configuration, persistence, and a maintenance burden the pattern exists to avoid.
+Most CHAPPS should be born with a death date. Spun up for one job, opened in the browser, shut down when the job is done. Treating a single-use tool as permanent software is a real failure mode: it invites configuration, persistence, and a maintenance burden the pattern exists to avoid.
 
 But the death date is a default, not a rule, and the earlier framing of this idea overstated it. When the human-only step recurs, the interface that captures it should stay. A capture surface you reach for every week has earned persistence, and rebuilding it each time is its own kind of waste. The test is whether the step repeats, not whether the code feels disposable.
 
@@ -73,7 +73,7 @@ But the death date is a default, not a rule, and the earlier framing of this ide
 
 ## The failure mode to design for
 
-A CHAPS inherits a problem normal apps do not have: **your backend can decline to work and still report success.**
+A CHAPPS inherits a problem normal apps do not have: **your backend can decline to work and still report success.**
 
 An agent invoked headlessly will often exit cleanly after refusing to act. It hit a permission boundary, decided the request was out of scope, or wrote its explanation to stdout and stopped. The exit code says zero. A naive app reads zero, tells the user "done", and re-renders the unchanged state. The user believes their instruction was honored. Nothing happened.
 
@@ -84,7 +84,7 @@ Two habits fix it:
 1. **Grant the agent what it needs, explicitly.** Give the spawned agent the working directory and the paths it must write. Do not assume it inherits them.
 2. **Verify the artifact, never the exit code.** Record what the files looked like before, and after the agent claims success, check that something actually changed. If nothing did, report a failure with the agent's own explanation attached. An honest error beats a confident lie.
 
-The same discipline covers the rest. Stream progress so a two-minute agent run does not look like a hang, surface the agent's real error text rather than a generic failure, and remember that a local server with no auth is reachable by any page in the user's browser, so a CHAPS that can take a consequential action needs to check who is asking.
+The same discipline covers the rest. Stream progress so a two-minute agent run does not look like a hang, surface the agent's real error text rather than a generic failure, and remember that a local server with no auth is reachable by any page in the user's browser, so a CHAPPS that can take a consequential action needs to check who is asking.
 
 ## Further Reading
 
