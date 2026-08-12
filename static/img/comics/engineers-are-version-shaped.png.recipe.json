@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\n\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Ground is warm cream (#EFE6D2 and #F5F1E9). Fills are muted slate blue (#8FB0CE) with warm amber and gold accents only where something glows. Line is a dark warm brown-black (#3B382F).\n\nLAYOUT: a THREE-PANEL horizontal strip. Three equal panels in one row, separated by clean cream gutters. The three panels read left to right as one continuous argument in one consistent world, with the same two men, the same room, and the same glowing amber laptop throughout.\n\nSubject:\n\nTHE TWO MEN, the same two people in all three panels and recognizably the same person in each:\n- THE FIRST-VERSION ENGINEER: a wiry South Asian man in his late twenties, black hair pushed back, thin wire glasses, an olive-green work shirt with the sleeves rolled to the elbow.\n- THE HARDENING ENGINEER: a broad-shouldered white man in his fifties, close grey beard, a heather-grey cardigan over a collarless shirt.\nThey are two clearly different people. EXACTLY ONE of each man in frame, never duplicated.\n\nTHE ROOM: a warm workshop with a long wooden bench, a window with potted plants, a hanging lamp.\n\nTHE LAPTOP: the glowing translucent amber supercharged laptop from the reference image, identical in every panel.\n\nCAMERA AND PHYSICAL RELATIONSHIPS, state each one exactly: in every panel the camera sits to the side in three-quarter view, so the men's faces are visible AND the open laptop screen is angled toward the viewer with its glowing contents readable. We never see the blank back of the laptop lid. Whatever is inside the screen stays inside the screen; the men are always in the room outside it and never reach into it.\n\nBEAT ONE, left panel: only the younger South Asian engineer is at the bench, sleeves rolled, leaning into the glowing laptop with quick energy, a scatter of crumpled discarded paper on the bench beside him. Inside the screen a small simple structure of stacked amber blocks is being assembled fast and roughly, lit warm gold. The older man is not in this panel.\n\nBEAT TWO, middle panel: the consequence. Inside the same screen that little amber structure has grown into a large heavy building, wrapped in scaffolding and tied down with cables, sitting cool and pale instead of gold. The younger engineer stands back from the bench with his hands open at his sides, out of his depth. The older grey-bearded man in the cardigan has just stepped into frame at the edge of the panel, unhurried, looking at the building.\n\nBEAT THREE, right panel: the handoff. The two men stand together at the bench facing each other. The younger engineer holds out a small blank card in both hands and the older man takes the other edge of it, both hands on it at once, the card passing cleanly between them. Behind them the laptop screen shows the same heavy scaffolded building, now steady and evenly lit. Both men look calm.\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D, no CGI, no Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket.\n\nRender each of these strings EXACTLY, in this placement, and render NO other text anywhere in the image:\n- In the cream margin above the three panels, a title bar in caps: ENGINEERS ARE VERSION-SHAPED\n- In the cream gutter directly under the left panel: Version one is a sprint into fog.\n- In the cream gutter directly under the middle panel: Version five is a different job.\n- In the cream gutter directly under the right panel: Plan the handoff. Do not discover it.\n- In the cream margin below the panels, a footer bar in caps: STAFF THE VERSION, NOT THE TITLE\n\nEvery object inside the panels is completely BLANK. No lettering on the card, no lettering on the papers, no lettering on the building, no signs, no labels, no signature anywhere in the artwork. All title, caption and footer text sits in the cream margins and gutters, never over the artwork.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-12T21:00:36.660243+00:00",
+  "sha256": "52eecdfbefd8524d33a451ae97872b243adfad8cfb0a8b345dbc96221e8ca1fe",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
