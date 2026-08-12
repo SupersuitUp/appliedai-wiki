@@ -71,6 +71,10 @@ const config: Config = {
           { from: '/foundations/clips', to: '/concepts/clips' },
           { from: '/foundations/teammate-discipline', to: '/disciplines/teammate-discipline' },
           { from: '/foundations/version-control-your-prompts', to: '/playbooks/version-control-your-prompts' },
+          // Renamed 2026-08-12: "harness apps" / "happs" compressed in speech to a
+          // sound indistinguishable from "apps", so the term was useless out loud.
+          // Renamed to Coding Harness Apps / CHAPS.
+          { from: '/concepts/harness-apps', to: '/concepts/coding-harness-apps' },
           { from: '/concepts/strategy-is-the-new-execution', to: '/perspectives/strategy-is-the-new-execution' },
           { from: '/concepts/you-are-the-bottleneck', to: '/perspectives/you-are-the-bottleneck' },
           { from: '/concepts/slop-factory', to: '/perspectives/throughput-without-taste-is-a-slop-factory' },

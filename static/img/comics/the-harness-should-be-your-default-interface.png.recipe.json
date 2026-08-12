@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL HORIZONTAL STRIP: three equal panels in a row, separated by clean cream gutters, NO drawn borders and NO frame lines. One consistent warm room, one consistent cast, one consistent laptop across all three panels, reading left to right as a progression.\n\nTHE FIGURE (identical in all three panels): a South Asian man in his early thirties, short black hair, wearing a rust-coloured button-down shirt with the sleeves rolled. He is the same man in all three panels and must be recognizably the same person in each.\n\nTHE ROOM: a warm room with a plain wooden desk on the right and, on the left, a wall densely covered with many small identical cream message cards pinned in rows. A glowing translucent amber laptop sits on the desk. Inside the laptop screen lives a small rounded figure in a gold military cap.\n\nBEAT ONE (left panel): The laptop on the desk is CLOSED and dark, unused. The man stands at the card wall with a pen, correcting the cards one at a time by hand. Only the two cards directly under his hand carry a small amber correction mark; every other card on the wall is plain and unmarked. His shoulders are slumped and the wall of unmarked cards stretches away from him.\n\nBEAT TWO (middle panel): The man has turned away from the wall to the desk, where the amber laptop is now OPEN and glowing. He holds out ONE small amber card toward the screen and a single thin amber line carries it inward. Inside the glowing screen the small gold-capped figure reaches out to take that one card. Behind him the card wall is unchanged, still with only those same two marked cards among many plain ones.\n\nBEAT THREE (right panel): The man stands with his hands at his sides, doing nothing, watching the wall. From the open glowing laptop a single amber line leaves the screen and fans out across the whole card wall, and now EVERY card on the wall carries the same small amber correction mark. Inside the screen the gold-capped figure holds up the one amber card it was given.\n\nTEXT FURNITURE. Render each of these strings EXACTLY as written, in caps, in the cream margins only, NEVER over the artwork:\n- Title bar in the cream margin ABOVE the three panels: HARNESS FIRST\n- Caption in the cream gutter UNDER the left panel: IN THE APP, ONE FIX AT A TIME\n- Caption in the cream gutter UNDER the middle panel: IN THE HARNESS, YOU SAY IT ONCE\n- Caption in the cream gutter UNDER the right panel: AND EVERY MESSAGE CHANGES\n- Footer bar in the cream margin BELOW the panels: START WHERE ONE EDIT REACHES EVERYTHING.\nNO other text, letters, numbers or lettering anywhere in the image. The message cards carry NO readable writing, only the amber correction marks.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-12T13:57:55.894508+00:00",
+  "sha256": "807072d9dc3cc52ddbe12349c70d1c617e0538044f5eac3aeefc9029d181ff15",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
