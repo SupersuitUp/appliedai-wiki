@@ -27,6 +27,7 @@ If this input routes to a specialist skill (outside resource, question, boomeran
 | **A real question someone asked** (screenshot, paste, "field this question") | The Q&A pipeline | Invoke `add-appliedai-wiki-qa`. Then stop. |
 | **A boomerang prompt** (a paste-in Gary hands a person so their AI interviews them and returns build-ready material) | The hosted-skill pipeline | Invoke `publish-boomerang-to-appliedai` (authoring first via `generate-boomerang-prompt` if the file does not exist). It ships under `static/skills/`, not `docs/`. Then stop. |
 | **A skill or other agent-runnable file to host** (an existing `SKILL.md`, `GENERATE.md`, or the script one needs, that Gary wants fetchable at a URL) | The hosted-file pipeline | Step 1b below. It ships under `static/skills/`, not `docs/`. |
+| **A page that used to exist** ("unhide X", "restore X", "bring back the X articles", "republish what I hid") | The unhide path | Step 1c below. Do NOT rewrite the page from scratch. |
 
 If unsure whether something is a reflection or an outside resource: if Gary is the one making the claim and there is no single external source being summarized, it is a reflection. Treat it as the default and stay here.
 
@@ -76,6 +77,30 @@ italic definition line, no hero comic. The only `docs/` edit is one row in the l
    Then re-fetch any hosted script from its live URL and confirm it still parses
    (`bash -n`). Shipping a script that 200s but is truncated or mangled is the silent case.
 
+## Step 1c: Unhiding a page that was hidden or deleted
+
+Only for the unhide row. **The page is in git, not in `docs/`.** Never redraft from
+memory: find it first, because a restored original beats a rewrite that quietly
+drops the argument Gary wanted back.
+
+```bash
+cd ~/Documents/github-repos/supersuit-repos/appliedai-wiki
+git log --oneline --all -i --grep="hid"      # the hide commit, and any later delete
+git log --oneline --diff-filter=D --all -- "docs/**/*<term>*"
+```
+
+Then follow **"Unhiding is more than the reverse of hiding"** in the wiki's own
+`CLAUDE.md`, which owns the checklist (inbound links, redirects, the restored
+page's own outbound links, and the changelog's path-keyed suppression). Two
+things that only bite on this path:
+
+- **The hide commit's diff will not reverse-apply.** Months of renames have moved
+  the pages that used to link in, so `git apply -R` aborts on "does not exist in
+  index". Re-link by hand against the current text.
+- **A page hidden before a section-wide naming pass comes back carrying the old
+  convention.** Say so, and offer the rename plus redirects, rather than letting
+  it sit as a silent exception.
+
 ## Step 2: Create vs update (always check before creating)
 
 Creating a near-duplicate page is the most common failure mode. Before writing anything new:
@@ -101,6 +126,12 @@ net-new") is wrong. Expand the sound to its likely words before searching, and n
 report that something is new on the strength of a keyword grep: the title scan is what
 settles it. Earned 2026-08-12, when a rename was reported to Gary as a net-new concept
 because `rg 'haps'` and `rg 'happs'` both came back empty against an existing page.
+
+**Both sweeps above read the working tree, so neither can see a page that was
+deleted.** This wiki has deleted pages that Gary later wanted back. If the idea
+smells like something he has argued before, add
+`git log --oneline --diff-filter=D --all -- "docs/**"` before concluding it is
+net-new, and route to Step 1c if it turns up.
 
 Expect to kill candidates. On a batch of six ideas, two being already covered is a
 normal, healthy result, and reporting what you dropped and why is part of the output.
@@ -160,6 +191,21 @@ git push
 ```
 
 Pushing to `main` auto-deploys to https://appliedai.wiki via Vercel. Per Gary's standing preference, push once the page is in a good spot, do not wait to be asked.
+
+**Verify a docs page with a BROWSER UA, the opposite of Step 1b.** `middleware.ts`
+hard-403s `ClaudeBot` and every other AI-crawler UA on HTML routes; hosted files
+escape it only because the matcher excludes `skills/` and `generators/`. Reusing
+Step 1b's bot-UA curl on a `docs/` page returns 403 on a perfectly good deploy,
+which reads as a failed ship.
+
+```bash
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
+curl -sL -A "$UA" https://appliedai.wiki/<section>/<slug> | grep -o '<title>[^<]*'
+```
+
+Check the `<title>`, not just the status: a redirect stub from
+`plugin-client-redirects` also returns 200, with no title. For a renamed page,
+confirm the old slug's stub by reading its `canonical` href.
 
 ## Skill improvement
 
