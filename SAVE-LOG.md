@@ -42,4 +42,4 @@ than the reverse of hiding".
 **Open threads.** None blocking. If any of the three new titles land wrong, alternates were
 offered in the session and a swap is a one-line change plus a redirect.
 
-2026-08-12T18:20:00-05:00 · PLACEHOLDER_SHA · unhide + retitle the nine hidden drafts; unhide checklist added to CLAUDE.md and the skill
+2026-08-12T18:20:00-05:00 · 8e4d3e9 · unhide + retitle the nine hidden drafts; unhide checklist added to CLAUDE.md and the skill
