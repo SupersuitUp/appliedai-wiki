@@ -93,6 +93,15 @@ wiki CLAUDE.md. Scanning the full title list is what catches it. Then sweep seve
 keyword angles, not one: the idea's terms, its metaphor, its opposite, and the audience
 it serves.
 
+**Gary names things by SOUND, and the page spells them out.** He will say "happs",
+"chaps", "PAOS" — an acronym or a compression that appears nowhere in the file, because
+the page is titled `Harness Apps` at `concepts/harness-apps.md`. Grepping the spoken
+form returns nothing and the honest-looking conclusion ("this doesn't exist yet, it's
+net-new") is wrong. Expand the sound to its likely words before searching, and never
+report that something is new on the strength of a keyword grep: the title scan is what
+settles it. Earned 2026-08-12, when a rename was reported to Gary as a net-new concept
+because `rg 'haps'` and `rg 'happs'` both came back empty against an existing page.
+
 Expect to kill candidates. On a batch of six ideas, two being already covered is a
 normal, healthy result, and reporting what you dropped and why is part of the output.
 
