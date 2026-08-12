@@ -1,6 +1,173 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/uncensored-inference@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "concepts/uncensored-inference",
+      "routePath": "/concepts/uncensored-inference",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
+      "id": "note-sharers/the-primetime/2026-06-12-lying-to-you@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "note-sharers/the-primetime/2026-06-12-lying-to-you",
+      "routePath": "/note-sharers/the-primetime/2026-06-12-lying-to-you",
+      "section": "note-sharers",
+      "title": "They are lying to you: the 'coding is solved' evidence gap",
+      "description": "The PrimeTime's developer-grounded case against Anthropic's 'coding is solved' narrative: 14 months of terminal flickering as the evidence, plus the broader harm of loop-everything advice delivered by people whose tokens cost nothing."
+    },
+    {
+      "id": "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense",
+      "routePath": "/note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense",
+      "section": "note-sharers",
+      "title": "The Wisdom Crisis: What LLMs Are Actually Doing to Us",
+      "description": "John Vervaeke and Jonathan Pageau on AI's civilizational stakes: model collapse, the Moloch trap, the ontological mismatch, and why wisdom education is the only durable response."
+    },
+    {
+      "id": "people-to-follow/dr-errol-brandt@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "people-to-follow/dr-errol-brandt",
+      "routePath": "/people-to-follow/dr-errol-brandt",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
+      "id": "perspectives/acceleration-is-not-completion@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/acceleration-is-not-completion",
+      "routePath": "/perspectives/acceleration-is-not-completion",
+      "section": "perspectives",
+      "title": "Acceleration Is Not Completion",
+      "description": "AI has meaningfully accelerated code production. That is different from coding being solved. Collapsing the two is a category error with real costs for operators who build toward the wrong capability."
+    },
+    {
+      "id": "perspectives/ai-fluency-manufactures-false-confidence@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/ai-fluency-manufactures-false-confidence",
+      "routePath": "/perspectives/ai-fluency-manufactures-false-confidence",
+      "section": "perspectives",
+      "title": "AI Fluency Manufactures False Confidence"
+    },
+    {
+      "id": "perspectives/ai-labs-speak-to-investors-not-operators@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/ai-labs-speak-to-investors-not-operators",
+      "routePath": "/perspectives/ai-labs-speak-to-investors-not-operators",
+      "section": "perspectives",
+      "title": "AI Labs Speak to Investors, Not Operators",
+      "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
+    },
+    {
+      "id": "perspectives/milking-humanity@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/milking-humanity",
+      "routePath": "/perspectives/milking-humanity",
+      "section": "perspectives",
+      "title": "Milking Humanity",
+      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
+    },
+    {
+      "id": "perspectives/simple-harnesses-keep-winning@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/simple-harnesses-keep-winning",
+      "routePath": "/perspectives/simple-harnesses-keep-winning",
+      "section": "perspectives",
+      "title": "Simple Harnesses Keep Winning",
+      "description": "A small core. Extensible edges. Your context under your control. The harness architecture that keeps winning as the field matures."
+    },
+    {
+      "id": "perspectives/task-difficulty-does-not-predict-ai-performance@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/task-difficulty-does-not-predict-ai-performance",
+      "routePath": "/perspectives/task-difficulty-does-not-predict-ai-performance",
+      "section": "perspectives",
+      "title": "Task Difficulty Does Not Predict AI Performance",
+      "description": "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
+    },
+    {
+      "id": "perspectives/the-harness-is-the-thing-worth-learning@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/the-harness-is-the-thing-worth-learning",
+      "routePath": "/perspectives/the-harness-is-the-thing-worth-learning",
+      "section": "perspectives",
+      "title": "The Harness Is the Thing Worth Learning",
+      "description": "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Vendor wrappers over them (Claude Cowork, opinionated desktop apps) hide those primitives to look friendlier. We teach the primitives,..."
+    },
+    {
+      "id": "perspectives/the-lock-in-is-coming@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/the-lock-in-is-coming",
+      "routePath": "/perspectives/the-lock-in-is-coming",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
+    },
+    {
+      "id": "perspectives/the-loop-everything-harm@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/the-loop-everything-harm",
+      "routePath": "/perspectives/the-loop-everything-harm",
+      "section": "perspectives",
+      "title": "The Loop-Everything Harm",
+      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
+    },
+    {
+      "id": "perspectives/the-token-rug-pull@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "new",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "perspectives/the-token-rug-pull",
+      "routePath": "/perspectives/the-token-rug-pull",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
+    },
+    {
+      "id": "playbooks/version-control-your-prompts@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "playbooks/version-control-your-prompts",
+      "routePath": "/playbooks/version-control-your-prompts",
+      "section": "playbooks",
+      "title": "Version-Control Your Prompts",
+      "description": "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
+    },
+    {
+      "id": "questions/my-assistant-cant-see-its-own-memory@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "questions/my-assistant-cant-see-its-own-memory",
+      "routePath": "/questions/my-assistant-cant-see-its-own-memory",
+      "section": "questions",
+      "title": "My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?",
+      "description": "The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer."
+    },
+    {
+      "id": "start-here/executive-summary@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
+      "type": "updated",
+      "date": "2026-08-12T17:54:33-05:00",
+      "docKey": "start-here/executive-summary",
+      "routePath": "/start-here/executive-summary",
+      "section": "start-here",
+      "title": "Executive Summary",
+      "description": "The applied-AI worldview this wiki encodes, in one page. The load-bearing claims about the economy, the interface, the strategy, and the operator that a practitioner should know cold."
+    },
+    {
       "id": "perspectives/engineers-are-version-shaped@7da1e11debf1e0a35685d85041d627dcdbc1c45e",
       "type": "new",
       "date": "2026-08-12T16:01:40-05:00",
