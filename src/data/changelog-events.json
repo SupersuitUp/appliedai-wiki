@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/just-in-time-context-collection@50ab21e95dc1db35241f9a30d8bb62194d69cb37",
+      "type": "new",
+      "date": "2026-08-12T15:28:35-05:00",
+      "docKey": "concepts/just-in-time-context-collection",
+      "routePath": "/concepts/just-in-time-context-collection",
+      "section": "concepts",
+      "title": "Just-in-Time Context Collection",
+      "description": "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. The same questions that get ignored in a follow-up email get answered on the spot, because willingness is perishable and decays faster than intent."
+    },
+    {
+      "id": "perspectives/discoverability-is-a-just-in-time-problem@50ab21e95dc1db35241f9a30d8bb62194d69cb37",
+      "type": "updated",
+      "date": "2026-08-12T15:28:35-05:00",
+      "docKey": "perspectives/discoverability-is-a-just-in-time-problem",
+      "routePath": "/perspectives/discoverability-is-a-just-in-time-problem",
+      "section": "perspectives",
+      "title": "Discoverability Is a Just-in-Time Problem",
+      "description": "An agent does not fail to use your tool because it never knew the tool existed. It fails because nothing put the tool in front of it at the moment it was about to hand-roll one. Anything that depends on having read something earlier and remembered it loses on a long session."
+    },
+    {
       "id": "concepts/cognitive-coverage@43f852343f64bcd625599e8aeffda4335dc0772a",
       "type": "updated",
       "date": "2026-08-12T12:12:07-05:00",
