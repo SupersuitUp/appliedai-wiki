@@ -1,6 +1,56 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/coding-harness-apps@a823a714a6a618df60a8452466e61a5494b85beb",
+      "type": "new",
+      "date": "2026-08-12T08:59:21-05:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
+      "id": "concepts/harness-apps@a823a714a6a618df60a8452466e61a5494b85beb",
+      "type": "removed",
+      "date": "2026-08-12T08:59:21-05:00",
+      "docKey": "concepts/harness-apps",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Harness Apps",
+      "description": "An app whose entire backend is an agentic harness. Harness apps, or happs. Commonly called Claude Code apps: small purpose-built interfaces, often temporary, where the buttons are wired to Claude Code or Codex rather than to a server you wrote."
+    },
+    {
+      "id": "concepts/local-first-software@a823a714a6a618df60a8452466e61a5494b85beb",
+      "type": "updated",
+      "date": "2026-08-12T08:59:21-05:00",
+      "docKey": "concepts/local-first-software",
+      "routePath": "/concepts/local-first-software",
+      "section": "concepts",
+      "title": "Local-First Software",
+      "description": "Software that runs and keeps its data on your own machine. In the agentic era, a bespoke tool per problem becomes cheap enough to build, use once, and throw away."
+    },
+    {
+      "id": "concepts/skill-file-first-app-second@a823a714a6a618df60a8452466e61a5494b85beb",
+      "type": "updated",
+      "date": "2026-08-12T08:59:21-05:00",
+      "docKey": "concepts/skill-file-first-app-second",
+      "routePath": "/concepts/skill-file-first-app-second",
+      "section": "concepts",
+      "title": "Skill File First, App Second",
+      "description": "If you want to build a capability that operates on people's context, prove it as a skill file first. Package it as an app only after the capability is real."
+    },
+    {
+      "id": "perspectives/the-harness-should-be-your-default-interface@a823a714a6a618df60a8452466e61a5494b85beb",
+      "type": "new",
+      "date": "2026-08-12T08:59:21-05:00",
+      "docKey": "perspectives/the-harness-should-be-your-default-interface",
+      "routePath": "/perspectives/the-harness-should-be-your-default-interface",
+      "section": "perspectives",
+      "title": "The Harness Should Be Your Default Interface",
+      "description": "Most people open an app and do the work by hand. The better default is to start in an agentic harness, describe the outcome, and let the harness open an interface only for the steps that need your body."
+    },
+    {
       "id": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does@c5f44a8833a80ea2ccffd9b4a0393c6abf4f161a",
       "type": "updated",
       "date": "2026-08-11T12:34:19-05:00",
