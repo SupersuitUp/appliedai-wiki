@@ -41,6 +41,7 @@ The competitive claim underneath all of this: owning a good generator is a durab
 
 ## Further Reading
 
+- [The Outcome Frontier](/concepts/the-outcome-frontier) the trajectory underneath this economy: how much outcome a handful of words buys, and how fast that line moves
 - [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) the cost floor underneath every outcome you sell
 - [Gain-Sharing](/concepts/gain-sharing) the pricing model that makes value-proportional payment work
 - [The Product as Operation](/concepts/the-product-as-operation) what you actually hand a buyer when you sell a generator
