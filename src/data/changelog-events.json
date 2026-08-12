@@ -70,16 +70,6 @@
       "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
     },
     {
-      "id": "perspectives/milking-humanity@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
-      "type": "new",
-      "date": "2026-08-12T17:54:33-05:00",
-      "docKey": "perspectives/milking-humanity",
-      "routePath": "/perspectives/milking-humanity",
-      "section": "perspectives",
-      "title": "Milking Humanity",
-      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
-    },
-    {
       "id": "perspectives/simple-harnesses-keep-winning@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
       "type": "updated",
       "date": "2026-08-12T17:54:33-05:00",
@@ -117,25 +107,6 @@
       "routePath": "/perspectives/the-lock-in-is-coming",
       "section": "perspectives",
       "title": "The Lock-In Is Coming"
-    },
-    {
-      "id": "perspectives/the-loop-everything-harm@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
-      "type": "new",
-      "date": "2026-08-12T17:54:33-05:00",
-      "docKey": "perspectives/the-loop-everything-harm",
-      "routePath": "/perspectives/the-loop-everything-harm",
-      "section": "perspectives",
-      "title": "The Loop-Everything Harm",
-      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
-    },
-    {
-      "id": "perspectives/the-token-rug-pull@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
-      "type": "new",
-      "date": "2026-08-12T17:54:33-05:00",
-      "docKey": "perspectives/the-token-rug-pull",
-      "routePath": "/perspectives/the-token-rug-pull",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
     },
     {
       "id": "playbooks/version-control-your-prompts@7a9d0d9fa182cb9e9149e291952ecbfb30e152f5",
@@ -3482,16 +3453,6 @@
       "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
     },
     {
-      "id": "perspectives/_milking-humanity@fc765ba5bafdf76f30ac506eba631b444909c862",
-      "type": "removed",
-      "date": "2026-08-09T06:22:44-05:00",
-      "docKey": "perspectives/_milking-humanity",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "Milking Humanity",
-      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
-    },
-    {
       "id": "perspectives/_the-lock-in-is-coming@fc765ba5bafdf76f30ac506eba631b444909c862",
       "type": "removed",
       "date": "2026-08-09T06:22:44-05:00",
@@ -3499,25 +3460,6 @@
       "routePath": "",
       "section": "perspectives",
       "title": "The Lock-In Is Coming"
-    },
-    {
-      "id": "perspectives/_the-loop-everything-harm@fc765ba5bafdf76f30ac506eba631b444909c862",
-      "type": "removed",
-      "date": "2026-08-09T06:22:44-05:00",
-      "docKey": "perspectives/_the-loop-everything-harm",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Loop-Everything Harm",
-      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
-    },
-    {
-      "id": "perspectives/_the-token-rug-pull@fc765ba5bafdf76f30ac506eba631b444909c862",
-      "type": "removed",
-      "date": "2026-08-09T06:22:44-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
     },
     {
       "id": "concepts/minimum-viable-infrastructure@e75a3499447c8f01c1a912eb6a61ba7e7e7913a5",
@@ -6047,16 +5989,6 @@
       "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
     },
     {
-      "id": "perspectives/_milking-humanity@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
-      "type": "updated",
-      "date": "2026-07-14T15:50:49-05:00",
-      "docKey": "perspectives/_milking-humanity",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "Milking Humanity",
-      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
-    },
-    {
       "id": "perspectives/_the-lock-in-is-coming@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
       "type": "updated",
       "date": "2026-07-14T15:50:49-05:00",
@@ -6064,25 +5996,6 @@
       "routePath": "",
       "section": "perspectives",
       "title": "The Lock-In Is Coming"
-    },
-    {
-      "id": "perspectives/_the-loop-everything-harm@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
-      "type": "updated",
-      "date": "2026-07-14T15:50:49-05:00",
-      "docKey": "perspectives/_the-loop-everything-harm",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Loop-Everything Harm",
-      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
-    },
-    {
-      "id": "perspectives/_the-token-rug-pull@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
-      "type": "updated",
-      "date": "2026-07-14T15:50:49-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
     },
     {
       "id": "perspectives/acceleration-is-not-completion@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
@@ -6877,15 +6790,6 @@
       "title": "Every Company Is Quietly Sorting Its People"
     },
     {
-      "id": "perspectives/_the-token-rug-pull@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
-      "type": "updated",
-      "date": "2026-07-01T21:58:50-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
-    },
-    {
       "id": "perspectives/the-best-transformations-follow-the-same-arc@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
       "type": "updated",
       "date": "2026-07-01T21:58:50-05:00",
@@ -7650,16 +7554,6 @@
       "title": "Generation Is Cheap, Discrimination Is the Job"
     },
     {
-      "id": "perspectives/_milking-humanity@caa0ceaa6b152a7fe018c54fe9ff288c986b6acf",
-      "type": "updated",
-      "date": "2026-06-12T10:28:31-05:00",
-      "docKey": "perspectives/_milking-humanity",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "Milking Humanity",
-      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
-    },
-    {
       "id": "perspectives/throughput-without-taste-is-a-slop-factory@caa0ceaa6b152a7fe018c54fe9ff288c986b6acf",
       "type": "updated",
       "date": "2026-06-12T10:28:31-05:00",
@@ -7729,16 +7623,6 @@
       "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
     },
     {
-      "id": "perspectives/_milking-humanity@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
-      "type": "new",
-      "date": "2026-06-12T09:48:59-05:00",
-      "docKey": "perspectives/_milking-humanity",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "Milking Humanity",
-      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
-    },
-    {
       "id": "perspectives/task-difficulty-does-not-predict-ai-performance@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
       "type": "updated",
       "date": "2026-06-12T09:48:59-05:00",
@@ -7749,16 +7633,6 @@
       "description": "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
     },
     {
-      "id": "perspectives/_the-loop-everything-harm@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
-      "type": "new",
-      "date": "2026-06-12T09:48:59-05:00",
-      "docKey": "perspectives/_the-loop-everything-harm",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Loop-Everything Harm",
-      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
-    },
-    {
       "id": "perspectives/ai-fluency-manufactures-false-confidence@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
       "type": "updated",
       "date": "2026-06-12T09:48:59-05:00",
@@ -7766,15 +7640,6 @@
       "routePath": "/perspectives/ai-fluency-manufactures-false-confidence",
       "section": "perspectives",
       "title": "AI Fluency Manufactures False Confidence"
-    },
-    {
-      "id": "perspectives/_the-token-rug-pull@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
-      "type": "updated",
-      "date": "2026-06-12T09:48:59-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
     },
     {
       "id": "note-sharers/the-chairman/2026-06-11-ai-transformation-resistance@6d44f5c0a5bf3f285c15e3b3a099b687c7feea31",
@@ -9135,15 +9000,6 @@
       "title": "Tokens Are the Atomic Unit of AI Economics"
     },
     {
-      "id": "perspectives/_the-token-rug-pull@9a614fe265fa96510b5bc072cc858ff748de0419",
-      "type": "updated",
-      "date": "2026-06-03T17:49:52-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
-    },
-    {
       "id": "perspectives/model-upgrades-are-no-longer-strictly-upgrades@9a614fe265fa96510b5bc072cc858ff748de0419",
       "type": "updated",
       "date": "2026-06-03T17:49:52-05:00",
@@ -9983,15 +9839,6 @@
       "section": "concepts",
       "title": "Playable Harness Experience",
       "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
-    },
-    {
-      "id": "perspectives/_the-token-rug-pull@036e3c92e2038822014db6061a017c773d933e20",
-      "type": "new",
-      "date": "2026-05-24T13:57:43-05:00",
-      "docKey": "perspectives/_the-token-rug-pull",
-      "routePath": "",
-      "section": "perspectives",
-      "title": "The Token Rug Pull"
     },
     {
       "id": "people-to-follow/_dr-errol-brandt@036e3c92e2038822014db6061a017c773d933e20",
