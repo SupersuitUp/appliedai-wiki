@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/engineers-are-version-shaped@7da1e11debf1e0a35685d85041d627dcdbc1c45e",
+      "type": "new",
+      "date": "2026-08-12T16:01:40-05:00",
+      "docKey": "perspectives/engineers-are-version-shaped",
+      "routePath": "/perspectives/engineers-are-version-shaped",
+      "section": "perspectives",
+      "title": "Engineers Are Version-Shaped",
+      "description": "An engineer's real specialty is usually a version number. Taking a product from nothing to a launched first version is a different job from keeping version five alive, and staffing by job title mis-staffs both."
+    },
+    {
+      "id": "concepts/the-outcome-economy@6a86a0c1adc7189afa45477dcc83e294bbc058a8",
+      "type": "updated",
+      "date": "2026-08-12T15:57:11-05:00",
+      "docKey": "concepts/the-outcome-economy",
+      "routePath": "/concepts/the-outcome-economy",
+      "section": "concepts",
+      "title": "The Outcome Economy",
+      "description": "An economy where the sellable unit is an outcome generator: a system that embeds superintelligence to reliably produce a valued outcome on demand. You buy or integrate a generator, not a tool and not labor."
+    },
+    {
+      "id": "concepts/the-outcome-frontier@6a86a0c1adc7189afa45477dcc83e294bbc058a8",
+      "type": "new",
+      "date": "2026-08-12T15:57:11-05:00",
+      "docKey": "concepts/the-outcome-frontier",
+      "routePath": "/concepts/the-outcome-frontier",
+      "section": "concepts",
+      "title": "The Outcome Frontier",
+      "description": "The most complex outcome a person can currently buy with a handful of words, and the line it keeps crossing. Read the AI revolution as one rising number: economic value delivered per unit of input."
+    },
+    {
       "id": "concepts/just-in-time-context-collection@50ab21e95dc1db35241f9a30d8bb62194d69cb37",
       "type": "new",
       "date": "2026-08-12T15:28:35-05:00",
@@ -3235,6 +3265,16 @@
       "description": "The foundational both/and for anyone who found this wiki while worried: AI is a way for people who care about their work to do a better job, and the honest risk to your livelihood is a person in your field who wields it."
     },
     {
+      "id": "concepts/_uncensored-inference@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "concepts/_uncensored-inference",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
       "id": "concepts/the-imagination-economy@fc765ba5bafdf76f30ac506eba631b444909c862",
       "type": "updated",
       "date": "2026-08-09T06:22:44-05:00",
@@ -3243,6 +3283,74 @@
       "section": "concepts",
       "title": "The Imagination Economy",
       "description": "The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark."
+    },
+    {
+      "id": "note-sharers/_the-primetime/2026-06-12-lying-to-you@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "note-sharers/_the-primetime/2026-06-12-lying-to-you",
+      "routePath": "",
+      "section": "note-sharers",
+      "title": "They are lying to you: the 'coding is solved' evidence gap",
+      "description": "The PrimeTime's developer-grounded case against Anthropic's 'coding is solved' narrative: 14 months of terminal flickering as the evidence, plus the broader harm of loop-everything advice delivered by people whose tokens cost nothing."
+    },
+    {
+      "id": "people-to-follow/_dr-errol-brandt@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "people-to-follow/_dr-errol-brandt",
+      "routePath": "",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
+      "id": "perspectives/_ai-labs-speak-to-investors-not-operators@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "perspectives/_ai-labs-speak-to-investors-not-operators",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "AI Labs Speak to Investors, Not Operators",
+      "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
+    },
+    {
+      "id": "perspectives/_milking-humanity@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "perspectives/_milking-humanity",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "Milking Humanity",
+      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
+    },
+    {
+      "id": "perspectives/_the-lock-in-is-coming@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "perspectives/_the-lock-in-is-coming",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
+    },
+    {
+      "id": "perspectives/_the-loop-everything-harm@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "perspectives/_the-loop-everything-harm",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Loop-Everything Harm",
+      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
+    },
+    {
+      "id": "perspectives/_the-token-rug-pull@fc765ba5bafdf76f30ac506eba631b444909c862",
+      "type": "removed",
+      "date": "2026-08-09T06:22:44-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
     },
     {
       "id": "concepts/minimum-viable-infrastructure@e75a3499447c8f01c1a912eb6a61ba7e7e7913a5",
@@ -4793,6 +4901,16 @@
       "description": "A domain expert's packaged judgment, rentable as a product: the new category agent SDKs unlock, where the expertise scales past the expert's calendar."
     },
     {
+      "id": "people-to-follow/_dr-errol-brandt@7024a6533975ef0245685a1c6b9f84b9421f097e",
+      "type": "updated",
+      "date": "2026-07-16T14:46:48-05:00",
+      "docKey": "people-to-follow/_dr-errol-brandt",
+      "routePath": "",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
       "id": "perspectives/throughput-without-taste-is-a-slop-factory@7024a6533975ef0245685a1c6b9f84b9421f097e",
       "type": "updated",
       "date": "2026-07-16T14:46:48-05:00",
@@ -5702,6 +5820,16 @@
       "description": "A single LLM call is the cheap default for a step in a workflow. When the middle of the task needs its own judgment, generated code, and a way to check its own work, put a real agent there instead."
     },
     {
+      "id": "concepts/_uncensored-inference@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "concepts/_uncensored-inference",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
       "id": "playbooks/version-control-your-prompts@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
       "type": "updated",
       "date": "2026-07-14T15:50:49-05:00",
@@ -5712,6 +5840,16 @@
       "description": "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
     },
     {
+      "id": "note-sharers/_the-primetime/2026-06-12-lying-to-you@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "note-sharers/_the-primetime/2026-06-12-lying-to-you",
+      "routePath": "",
+      "section": "note-sharers",
+      "title": "They are lying to you: the 'coding is solved' evidence gap",
+      "description": "The PrimeTime's developer-grounded case against Anthropic's 'coding is solved' narrative: 14 months of terminal flickering as the evidence, plus the broader harm of loop-everything advice delivered by people whose tokens cost nothing."
+    },
+    {
       "id": "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
       "type": "updated",
       "date": "2026-07-14T15:50:49-05:00",
@@ -5720,6 +5858,64 @@
       "section": "note-sharers",
       "title": "The Wisdom Crisis: What LLMs Are Actually Doing to Us",
       "description": "John Vervaeke and Jonathan Pageau on AI's civilizational stakes: model collapse, the Moloch trap, the ontological mismatch, and why wisdom education is the only durable response."
+    },
+    {
+      "id": "people-to-follow/_dr-errol-brandt@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "people-to-follow/_dr-errol-brandt",
+      "routePath": "",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
+      "id": "perspectives/_ai-labs-speak-to-investors-not-operators@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "perspectives/_ai-labs-speak-to-investors-not-operators",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "AI Labs Speak to Investors, Not Operators",
+      "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
+    },
+    {
+      "id": "perspectives/_milking-humanity@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "perspectives/_milking-humanity",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "Milking Humanity",
+      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
+    },
+    {
+      "id": "perspectives/_the-lock-in-is-coming@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "perspectives/_the-lock-in-is-coming",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
+    },
+    {
+      "id": "perspectives/_the-loop-everything-harm@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "perspectives/_the-loop-everything-harm",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Loop-Everything Harm",
+      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
+    },
+    {
+      "id": "perspectives/_the-token-rug-pull@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
+      "type": "updated",
+      "date": "2026-07-14T15:50:49-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
     },
     {
       "id": "perspectives/acceleration-is-not-completion@716886512ed9d2345fc2b7ec3b71d4d422a39cf7",
@@ -6177,6 +6373,16 @@
       "description": "An AI transformation is invasive, expensive, and often irreversible, like surgery. The guide who profits from recommending it carries a conflict of interest, so the honest one qualifies hard before cutting."
     },
     {
+      "id": "concepts/_uncensored-inference@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
+      "type": "updated",
+      "date": "2026-07-01T21:58:50-05:00",
+      "docKey": "concepts/_uncensored-inference",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
       "id": "disciplines/legible-organization@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
       "type": "updated",
       "date": "2026-07-01T21:58:50-05:00",
@@ -6502,6 +6708,15 @@
       "routePath": "/perspectives/every-company-is-quietly-sorting-its-people",
       "section": "perspectives",
       "title": "Every Company Is Quietly Sorting Its People"
+    },
+    {
+      "id": "perspectives/_the-token-rug-pull@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
+      "type": "updated",
+      "date": "2026-07-01T21:58:50-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
     },
     {
       "id": "perspectives/the-best-transformations-follow-the-same-arc@4a5c8e421df12e8a4a6b081e1acf4344088140cf",
@@ -6961,6 +7176,26 @@
       "description": "A single statically-served file that primes any agent to generate on-brand assets: identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms inline, plus absolute URLs to every brand asset. One link, no repo access, an on-brand asset out the other side."
     },
     {
+      "id": "concepts/_uncensored-inference@92d220957fc15b11c9cbc1cf60b45ee8f4246563",
+      "type": "updated",
+      "date": "2026-06-22T13:48:31-05:00",
+      "docKey": "concepts/_uncensored-inference",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
+      "id": "concepts/_uncensored-inference@3e84f2d6542a664be37c6ce51b181f21fabaeccd",
+      "type": "new",
+      "date": "2026-06-22T13:39:46-05:00",
+      "docKey": "concepts/_uncensored-inference",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
       "id": "concepts/local-first-software@e19bf5774fa5ea74d310f8e554f07edb91936e6f",
       "type": "new",
       "date": "2026-06-21T20:29:49-05:00",
@@ -7248,6 +7483,16 @@
       "title": "Generation Is Cheap, Discrimination Is the Job"
     },
     {
+      "id": "perspectives/_milking-humanity@caa0ceaa6b152a7fe018c54fe9ff288c986b6acf",
+      "type": "updated",
+      "date": "2026-06-12T10:28:31-05:00",
+      "docKey": "perspectives/_milking-humanity",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "Milking Humanity",
+      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
+    },
+    {
       "id": "perspectives/throughput-without-taste-is-a-slop-factory@caa0ceaa6b152a7fe018c54fe9ff288c986b6acf",
       "type": "updated",
       "date": "2026-06-12T10:28:31-05:00",
@@ -7287,6 +7532,16 @@
       "description": "Classical formation in virtue and wisdom is the only durable response to AI's degradation of human cognitive capacity. The argument is not anti-technology. It is pro-human-depth."
     },
     {
+      "id": "note-sharers/_the-primetime/2026-06-12-lying-to-you@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
+      "type": "new",
+      "date": "2026-06-12T09:48:59-05:00",
+      "docKey": "note-sharers/_the-primetime/2026-06-12-lying-to-you",
+      "routePath": "",
+      "section": "note-sharers",
+      "title": "They are lying to you: the 'coding is solved' evidence gap",
+      "description": "The PrimeTime's developer-grounded case against Anthropic's 'coding is solved' narrative: 14 months of terminal flickering as the evidence, plus the broader harm of loop-everything advice delivered by people whose tokens cost nothing."
+    },
+    {
       "id": "perspectives/acceleration-is-not-completion@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
       "type": "new",
       "date": "2026-06-12T09:48:59-05:00",
@@ -7295,6 +7550,26 @@
       "section": "perspectives",
       "title": "Acceleration Is Not Completion",
       "description": "AI has meaningfully accelerated code production. That is different from coding being solved. Collapsing the two is a category error with real costs for operators who build toward the wrong capability."
+    },
+    {
+      "id": "perspectives/_ai-labs-speak-to-investors-not-operators@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
+      "type": "new",
+      "date": "2026-06-12T09:48:59-05:00",
+      "docKey": "perspectives/_ai-labs-speak-to-investors-not-operators",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "AI Labs Speak to Investors, Not Operators",
+      "description": "AI lab capability claims are calibrated for investor communications and share prices, not for practitioners trying to do real work. The audience determines the message, and the audience is not you."
+    },
+    {
+      "id": "perspectives/_milking-humanity@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
+      "type": "new",
+      "date": "2026-06-12T09:48:59-05:00",
+      "docKey": "perspectives/_milking-humanity",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "Milking Humanity",
+      "description": "Overstating AI capability to drive share price is an ethical violation, not just a marketing mistake. The Faustian bargain: the lie must go all the way down, including into the lab's own culture, to maintain credibility."
     },
     {
       "id": "perspectives/task-difficulty-does-not-predict-ai-performance@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
@@ -7307,6 +7582,16 @@
       "description": "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
     },
     {
+      "id": "perspectives/_the-loop-everything-harm@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
+      "type": "new",
+      "date": "2026-06-12T09:48:59-05:00",
+      "docKey": "perspectives/_the-loop-everything-harm",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Loop-Everything Harm",
+      "description": "The 'write loops, let it run, stop prompting' narrative causes downstream harm to developers and organizations. The advice benefits the seller. The practitioner absorbs the cost."
+    },
+    {
       "id": "perspectives/ai-fluency-manufactures-false-confidence@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
       "type": "updated",
       "date": "2026-06-12T09:48:59-05:00",
@@ -7314,6 +7599,15 @@
       "routePath": "/perspectives/ai-fluency-manufactures-false-confidence",
       "section": "perspectives",
       "title": "AI Fluency Manufactures False Confidence"
+    },
+    {
+      "id": "perspectives/_the-token-rug-pull@4b8dd6e4fd8fa38157cbefb9f386ad2a976b321d",
+      "type": "updated",
+      "date": "2026-06-12T09:48:59-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
     },
     {
       "id": "note-sharers/the-chairman/2026-06-11-ai-transformation-resistance@6d44f5c0a5bf3f285c15e3b3a099b687c7feea31",
@@ -8327,6 +8621,16 @@
       "description": "Founder of Dent Global and ScoreApp. Author of Key Person of Influence and Oversubscribed. Public-teaching source on how entrepreneurs reprice their work in the post-AI economy."
     },
     {
+      "id": "people-to-follow/_dr-errol-brandt@9a614fe265fa96510b5bc072cc858ff748de0419",
+      "type": "updated",
+      "date": "2026-06-03T17:49:52-05:00",
+      "docKey": "people-to-follow/_dr-errol-brandt",
+      "routePath": "",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
       "id": "perspectives/ai-eats-labor-allocation@9a614fe265fa96510b5bc072cc858ff748de0419",
       "type": "updated",
       "date": "2026-06-03T17:49:52-05:00",
@@ -8599,6 +8903,15 @@
       "title": "LLMs Handle Judgment, Code Handles Everything Else"
     },
     {
+      "id": "perspectives/_the-lock-in-is-coming@9a614fe265fa96510b5bc072cc858ff748de0419",
+      "type": "updated",
+      "date": "2026-06-03T17:49:52-05:00",
+      "docKey": "perspectives/_the-lock-in-is-coming",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
+    },
+    {
       "id": "perspectives/making-one-layer-cheap-just-moves-the-bottleneck@9a614fe265fa96510b5bc072cc858ff748de0419",
       "type": "updated",
       "date": "2026-06-03T17:49:52-05:00",
@@ -8653,6 +8966,15 @@
       "routePath": "/perspectives/tokens-are-the-atomic-unit-of-ai-economics",
       "section": "perspectives",
       "title": "Tokens Are the Atomic Unit of AI Economics"
+    },
+    {
+      "id": "perspectives/_the-token-rug-pull@9a614fe265fa96510b5bc072cc858ff748de0419",
+      "type": "updated",
+      "date": "2026-06-03T17:49:52-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
     },
     {
       "id": "perspectives/model-upgrades-are-no-longer-strictly-upgrades@9a614fe265fa96510b5bc072cc858ff748de0419",
@@ -9496,6 +9818,25 @@
       "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
     },
     {
+      "id": "perspectives/_the-token-rug-pull@036e3c92e2038822014db6061a017c773d933e20",
+      "type": "new",
+      "date": "2026-05-24T13:57:43-05:00",
+      "docKey": "perspectives/_the-token-rug-pull",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Token Rug Pull"
+    },
+    {
+      "id": "people-to-follow/_dr-errol-brandt@036e3c92e2038822014db6061a017c773d933e20",
+      "type": "new",
+      "date": "2026-05-24T13:57:43-05:00",
+      "docKey": "people-to-follow/_dr-errol-brandt",
+      "routePath": "",
+      "section": "people-to-follow",
+      "title": "Dr. Errol Brandt",
+      "description": "Founder of Kiraa.AI in Gold Coast, Australia. Thirty years building analytics and AI inside global enterprises. Principal-facing source on AI unit economics and the strategic implications for boards."
+    },
+    {
       "id": "concepts/agent-rule-files@95604f1d07d681b7e31d3579084bce76c6222956",
       "type": "new",
       "date": "2026-05-23T23:46:32-05:00",
@@ -10280,6 +10621,15 @@
       "section": "perspectives",
       "title": "The GUI Is Becoming Legacy",
       "description": "The graphic user interface was the human-friendly wrapper around the computer. The wrapper is being unwound. The capability is moving back to where it always lived: the terminal."
+    },
+    {
+      "id": "perspectives/_the-lock-in-is-coming@33cbb1c111650643649e53db5d4782908387d160",
+      "type": "updated",
+      "date": "2026-05-17T20:18:46-05:00",
+      "docKey": "perspectives/_the-lock-in-is-coming",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
     },
     {
       "id": "perspectives/every-company-is-quietly-sorting-its-people@33cbb1c111650643649e53db5d4782908387d160",
@@ -11695,6 +12045,15 @@
       "section": "perspectives",
       "title": "The GUI Is Becoming Legacy",
       "description": "The graphic user interface was the human-friendly wrapper around the computer. The wrapper is being unwound. The capability is moving back to where it always lived: the terminal."
+    },
+    {
+      "id": "perspectives/_the-lock-in-is-coming@b12a0e2d5042bfada176a95fca0ceb24a52aeb35",
+      "type": "new",
+      "date": "2026-05-15T11:35:52-05:00",
+      "docKey": "perspectives/_the-lock-in-is-coming",
+      "routePath": "",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
     },
     {
       "id": "perspectives/every-company-is-quietly-sorting-its-people@b12a0e2d5042bfada176a95fca0ceb24a52aeb35",

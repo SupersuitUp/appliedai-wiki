@@ -163,7 +163,16 @@ Two build-time generators are wired to honor `draft: true` so hidden pages leave
 
 **Deleting a hidden page is safe, and it was not always.** The changelog collector used to derive its suppression from `draft: true` in the working tree, so deleting a hidden page removed the only flag telling the collector to stay quiet: every historical row resurfaced, plus a fresh "removed" event, and the build published the exact titles the underscore was hiding. Verified live on 2026-08-09, when removing nine hidden drafts put all nine slugs and titles back into `main.*.js`. `plugins/creation-date-plugin/src/collect.ts` now derives suppression from the PATHS in git history instead: any path that ever carried a `_` segment stays suppressed under its underscored key, its bare key, and its leaf. Paths survive the file, so the rule holds after deletion. Do not revert this to a working-tree check.
 
-Before hiding, remove or neutralize every inbound link from pages that stay (the build's `onBrokenLinks: throw` will catch any you miss), and drop any `redirects` entry in `docusaurus.config.ts` that points at the page. Verify by grepping `build/` for the page's title and slug after `pnpm run build`; expect zero hits and `draftIds":[]`. Reverse by dropping the `_` prefix and the `draft` flag.
+Before hiding, remove or neutralize every inbound link from pages that stay (the build's `onBrokenLinks: throw` will catch any you miss), and drop any `redirects` entry in `docusaurus.config.ts` that points at the page. Verify by grepping `build/` for the page's title and slug after `pnpm run build`; expect zero hits and `draftIds":[]`.
+
+**Unhiding is more than the reverse of hiding.** Dropping the `_` prefix and the `draft` flag restores the file, not the page. Four other things were undone when it was hidden, and each has to be redone by hand:
+
+1. **The inbound links.** Hiding stripped every link from the pages that stayed, and some of those pages have since been renamed or rewritten, so the old diff will not apply. Re-link by hand against the current text.
+2. **The redirects** dropped from `docusaurus.config.ts`.
+3. **The restored page's own outbound links.** A page hidden months ago points at slugs the wiki has since renamed, and `onBrokenLinks: throw` will catch the links but not the stale *titles* in the link text. Update both.
+4. **The changelog suppression.** `collect.ts` keys suppression on paths in git history, which outlive the file, so a restored page would stay invisible in the changelog forever. It resolves this by letting the working tree win in one direction: any docKey present in `currentMeta` (live, not draft) is never suppressed by history. A hidden-then-deleted page has no `currentMeta` entry and stays suppressed, which is the case the path rule exists for.
+
+Restoring a page whose section has since changed its naming convention (the perspectives renaming pass, `8237581`) reintroduces the old convention. Rename it to match, or say plainly that you did not.
 
 ---
 

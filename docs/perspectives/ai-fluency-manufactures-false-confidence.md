@@ -101,3 +101,7 @@ Fluency is not mastery. Access is not skill. Throughput is not value. The gap be
 - [Generation Is Cheap, Discrimination Is the Job](/perspectives/generation-is-cheap-discrimination-is-the-job): The build-side companion failure. Generation without discrimination.
 - [Visible Thinking](/concepts/visible-thinking): The escape move. Get your own thinking reflected back clearly enough to notice where it is thin.
 - Kim, Yu, and Yi (2026). *The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows.* [arXiv:2604.14807](https://arxiv.org/abs/2604.14807).
+
+## Supporting voices
+
+- **The PrimeTime (2026-06-12):** Documented the "8x code shipped per employee" metric as an example of confidence-manufacturing. The metric counts code volume, not correctness, reliability, or rollback frequency. Practitioners who take the number at face value and restructure their teams accordingly have inflated confidence in a capability the evidence does not fully support. [Field note](https://appliedai.wiki/note-sharers/the-primetime/2026-06-12-lying-to-you)

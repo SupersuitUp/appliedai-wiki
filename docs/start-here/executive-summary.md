@@ -18,8 +18,8 @@ This page is the compressed version of the wiki. It is the orientation a practit
 The market AI is pouring into has a shape, and the shape is widening.
 
 - The gap between people and firms that compound with AI and those that do not keeps widening. See [There Is No Standing Still Anymore](/perspectives/there-is-no-standing-still-anymore) and, inside organizations, [Every Company Is Quietly Sorting Its People](/perspectives/every-company-is-quietly-sorting-its-people).
-- Compute is metered, and tokens are the atomic unit of AI economics. See [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics).
-- Frontier gains are no longer monotonic, so treat models as swappable dependencies. See [Model Upgrades Are No Longer Strictly Upgrades](/perspectives/model-upgrades-are-no-longer-strictly-upgrades).
+- Compute is metered, and tokens are the atomic unit of AI economics. See [Tokens Are the Atomic Unit of AI Economics](/perspectives/tokens-are-the-atomic-unit-of-ai-economics) and [The Token Rug Pull](/perspectives/the-token-rug-pull).
+- Frontier gains are no longer monotonic, so treat models as swappable dependencies. See [Model Upgrades Are No Longer Strictly Upgrades](/perspectives/model-upgrades-are-no-longer-strictly-upgrades) and [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming).
 - Cheaper intelligence expands demand rather than shrinking it ([Jevons Paradox](/concepts/jevons-paradox)), and the clearest place to capture that today is the mid-market. See [Mid-Markets Are the AI Sweet Spot](/perspectives/mid-markets-are-the-ai-sweet-spot) and [Crossing $5M Revenue Re-Rates a Services Firm](/perspectives/crossing-5m-revenue-re-rates-a-services-firm).
 
 ## The interface shift
