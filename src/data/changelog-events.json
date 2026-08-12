@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does@c5f44a8833a80ea2ccffd9b4a0393c6abf4f161a",
+      "type": "updated",
+      "date": "2026-08-11T12:34:19-05:00",
+      "docKey": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "routePath": "/perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "section": "perspectives",
+      "title": "The Evangelist Sees the Frontier Before the Lab Does",
+      "description": "What a model can do is settled in a lab. What it is for is discovered in contact with a specific job, by whoever is standing there. That makes the person deployed into real builds the first to know, and it means an evangelist who is not also an inventor is mis-hired."
+    },
+    {
       "id": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does@491c582a90d8cd898b6355dd908e1f60795fb166",
       "type": "new",
       "date": "2026-08-11T12:24:42-05:00",
@@ -2980,7 +2990,7 @@
       "type": "new",
       "date": "2026-08-09T17:50:20-05:00",
       "docKey": "concepts/harness-apps",
-      "routePath": "/concepts/harness-apps",
+      "routePath": "",
       "section": "concepts",
       "title": "Harness Apps",
       "description": "An app whose entire backend is an agentic harness. Harness apps, or happs. Commonly called Claude Code apps: small purpose-built interfaces, often temporary, where the buttons are wired to Claude Code or Codex rather than to a server you wrote."
