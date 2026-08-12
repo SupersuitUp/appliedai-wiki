@@ -82,3 +82,4 @@ If those four are true, evals are real in the leader's organization. If they are
 - [LLMs Handle Judgment, Code Handles Everything Else](/perspectives/llms-handle-judgment-code-handles-everything-else)
 - [Stand Up an Eval Harness in Week One](/playbooks/stand-up-an-eval-harness-in-week-one)
 - [Golden Chain](/concepts/golden-chain): a set-building loop whose verifier decides which asset is accepted before it conditions the next one.
+- [Don't Move at Agentic Speed Without Extreme Test Coverage](/perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage): the deterministic half. Tests assert on code, evals score judgment, and a serious system runs both.
