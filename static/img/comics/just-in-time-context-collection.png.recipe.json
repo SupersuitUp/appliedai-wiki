@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip, three equal panels in a row separated by clean cream gutters with no drawn borders and no frame lines. Warm cream paper ground throughout, soft amber glowing ink-and-wash line art, quiet and editorial.\n\nONE CONSISTENT WORLD ACROSS ALL THREE PANELS: the same small warm room with a plain wooden desk, a doorway in the background at the right, and the same glowing translucent amber laptop standing open on the desk. The laptop is TRANSLUCENT, so from the viewer's side we can see through its screen to the small rounded agent working INSIDE it; the agent is inside the machine, never outside in the room.\n\nTWO PEOPLE, THE SAME TWO IN EVERY PANEL, recognizably the same person in each:\n- THE HOST: a woman in her thirties, brown skin, dark curly shoulder-length hair, wearing a plain rust-coloured cardigan. She stands behind the desk beside the laptop.\n- THE VISITOR: a young man with short black hair, wearing a plain forest-green button-down shirt, holding his own small phone.\n\nTHE OBJECT THE STORY IS ABOUT: a single glowing amber card, the size of a postcard, carrying a tiny portrait and a few ruled lines. It is the visitor's own details.\n\nBEAT ONE (left panel): The visitor stands close to the desk, leaning in, animated and warm, mid-conversation with the host. He holds the glowing amber card out in front of him, bright and solid. Inside the laptop the small agent leans forward holding an open shallow tray, reaching toward the card. The card has NOT yet been handed over. The moment is open.\n\nBEAT TWO (middle panel): CONSEQUENCE OF WAITING. The visitor is now at the doorway in the background with his back turned, leaving. The same amber card is no longer in anyone's hand: it hangs unheld in the empty air above the desk, and it has gone grey and is crumbling at its edges into drifting dust. Inside the laptop the agent still holds the same tray, and the tray is EMPTY. On the desk lies a grey unopened envelope. The host stands alone. Nothing was captured.\n\nBEAT THREE (right panel): TAKEN IN TIME. The visitor is back at the desk, still present and still animated, and he is pressing the bright amber card forward so that it passes through the laptop's amber glow and lands squarely in the agent's tray inside the machine. The agent now holds the tray with the solid glowing card sitting in it, the tiny portrait clearly on the card. In the visitor's other hand his own small phone has just lit up with a small warm glow. Beside the agent, further back inside the laptop, ONE additional card lies face down and BLANK on a small shelf, waiting for later.\n\nPHYSICAL RELATIONSHIPS, STATE THEM EXACTLY: The laptop screen faces the host and the viewer sees it obliquely from the front, translucent, so the agent inside is visible as if behind warm glass. The card travels from the visitor's hand, through the plane of the glowing screen, into the tray held by the agent inside; it is one continuous motion into the machine, not a card resting on top of the laptop. In panel two nothing holds the card, which is why it falls apart. The blank shelf card in panel three is FACE DOWN and carries NO writing of any kind.\n\nTEXT FURNITURE, render these strings CHARACTER-EXACT and place them only in the cream margins, never over the artwork:\n- Title bar above the panels, in bold caps: JUST-IN-TIME CONTEXT COLLECTION\n- Caption in the cream gutter under the left panel, in caps: WILLING, RIGHT NOW\n- Caption in the cream gutter under the middle panel, in caps: WILLINGNESS DECAYS\n- Caption in the cream gutter under the right panel, in caps: CAUGHT WHILE IT LASTS\n- Footer bar below the panels, in bold caps: ASK AT THE PEAK, NOT AT YOUR CONVENIENCE\n\nNO OTHER LETTERING ANYWHERE. The card's ruled lines are abstract marks, not readable words. The envelope is blank. The shelf card is blank. Do not invent any label, sign, signature, studio credit or watermark.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No neon, no 3D or CGI or Pixar look, no glossy plastic, no HUD or arc-reactor comic vocabulary, no power armor, no visors.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-12T20:27:25.146676+00:00",
+  "sha256": "3c829383dc3c985f3d290a4a1da143f60e2b1fdb4d753108931ca1923cdb78e3",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "refFirst": true,
+  "size": "1536x1024",
+  "quality": "high"
+}

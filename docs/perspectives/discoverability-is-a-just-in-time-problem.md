@@ -60,6 +60,7 @@ The general form: **any mechanism that relies on prior reading plus recall will 
 
 ## Further Reading
 
+- [Just-in-Time Context Collection](/concepts/just-in-time-context-collection) is the same timing argument aimed at people rather than agents.
 - [Hand-Rolling](/concepts/hand-rolling)
 - [Hyperlocal Skills](/concepts/hyperlocal-skills)
 - [Agent Rule Files](/concepts/agent-rule-files)
