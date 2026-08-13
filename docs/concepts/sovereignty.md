@@ -2,11 +2,14 @@
 title: "Sovereignty"
 slug: /concepts/sovereignty
 description: "Control over the layers of your stack, held for the sake of what that control protects. The wiki uses the word in four distinct senses and defaults to the weakest and most useful one: understanding a dependency you chose deliberately."
+image: "/img/comics/sovereignty.png"
 ---
 
 # Sovereignty
 
 *Control over the layers of your stack, held for the sake of what that control protects. It is instrumental, it is not free, and it comes in four grades that are constantly mistaken for each other.*
+
+![Three panels, one warm room at night, the same woman in a dark green cardigan throughout. Title bar: SOVEREIGNTY. One: seen from inside the room, the glowing amber laptop sits on the wooden table with its small agents standing idle and empty-handed, while far out through the window she is bolting an enormous iron gate across the lane; caption FORTIFY THE PERIMETER. Two: out in the rain at the gate, she crouches with a wrench at its base, soaked, her back to the house, whose one lit window glows small and dim in the distance behind her; caption THE WORK WAITS. Three: back at the table, the laptop bright again and each agent inside holding one of her blank pages, her packed satchel strap over her shoulder, and through the window the huge gate standing wide open and unattended; caption OWN IT, AND BE READY TO GO. Footer: SOVEREIGNTY IS PROTECTION. PROTECTION IS NOT THE POINT.](/img/comics/sovereignty.png)
 
 ---
 
