@@ -1,13 +1,13 @@
 ---
 title: "Just-in-Time Context Collection"
 slug: /concepts/just-in-time-context-collection
-description: "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. The same questions that get ignored in a follow-up email get answered on the spot, because willingness is perishable and decays faster than intent."
+description: "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable and decays faster than intent. Synonym in customer-facing settings: customer experience-enhancing context collection."
 image: "/img/comics/just-in-time-context-collection.png"
 ---
 
 # Just-in-Time Context Collection
 
-*Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable, so the same questions that get ignored in a follow-up email get answered on the spot.*
+*Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable, so the same questions that get ignored in a follow-up email get answered on the spot. In customer-facing settings the same practice goes by a synonym that names its other half: **customer experience-enhancing context collection**, because the collection moment done right makes the experience better rather than taxing it.*
 
 ![Three-panel warm editorial ink-and-wash strip on a cream ground. Title bar: JUST-IN-TIME CONTEXT COLLECTION. One room throughout: a wooden desk, a doorway at the right, and a glowing translucent amber laptop through which a small rounded agent in a gold cap is visible working inside. The same two people appear in every panel, a young man in a green button-down and a woman in a rust cardigan. Panel one: the man leans in mid-conversation holding out a bright amber card carrying a tiny portrait, and the agent inside the laptop reaches forward with an open tray; the card has not been handed over yet. Caption: WILLING, RIGHT NOW. Panel two: the man is walking out through the doorway with his back turned, the same card now hangs unheld in the air gone grey and crumbling into dust, the agent's tray is empty, and a grey unopened envelope lies on the desk. Caption: WILLINGNESS DECAYS. Panel three: the man is back at the desk pressing the bright card through the laptop's glow into the tray, where it now sits solid with the portrait visible, his own phone lit up in his other hand, and one blank card waiting face down on a shelf further inside. Caption: CAUGHT WHILE IT LASTS. Footer bar: ASK AT THE PEAK, NOT AT YOUR CONVENIENCE.](/img/comics/just-in-time-context-collection.png)
 
@@ -50,7 +50,7 @@ A flow that opens a social app before it has captured an email address has spent
 
 ## What makes it not feel like extraction
 
-Collecting personal information from someone the instant you meet them can read as either flattering or predatory, and the difference is not subtle. Three things separate them.
+Collecting personal information from someone the instant you meet them can read as either flattering or predatory, and the difference is not subtle. This is the half the synonym names: when the ask is proportionate, consented, and reciprocated, the collection moment is itself a better experience for the person, which is why a live audience answers a show's question gladly while the same audience ignores a survey. Three things separate the two readings.
 
 **The ask is proportionate to the moment.** Twenty seconds of typing at the peak of enthusiasm is a fair trade. The same person asked for a taste profile, a birthday, and six recommendations in that same moment would correctly feel farmed. Depth is what the follow-up is for; the moment is for identity.
 
