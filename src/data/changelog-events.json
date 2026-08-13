@@ -1,6 +1,144 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/minimum-viable-infrastructure@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "concepts/minimum-viable-infrastructure",
+      "routePath": "/concepts/minimum-viable-infrastructure",
+      "section": "concepts",
+      "title": "Minimum Viable Infrastructure",
+      "description": "The baseline requirements to participate in the applied AI economy. They are higher than most people realize, and almost nobody is talking about it."
+    },
+    {
+      "id": "concepts/sovereignty@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "new",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "concepts/sovereignty",
+      "routePath": "/concepts/sovereignty",
+      "section": "concepts",
+      "title": "Sovereignty",
+      "description": "Control over the layers of your stack, held for the sake of what that control protects. The wiki uses the word in four distinct senses and defaults to the weakest and most useful one: understanding a dependency you chose deliberately."
+    },
+    {
+      "id": "concepts/the-portability-tax@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "concepts/the-portability-tax",
+      "routePath": "/concepts/the-portability-tax",
+      "section": "concepts",
+      "title": "The Portability Tax",
+      "description": "The ongoing cost of keeping maximal model and vendor flexibility: building to the lowest common denominator, owning the harness and the deployment yourself, and forfeiting the platform-native capabilities that would otherwise be free."
+    },
+    {
+      "id": "concepts/uncensored-inference@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "concepts/uncensored-inference",
+      "routePath": "/concepts/uncensored-inference",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
+      "id": "perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn",
+      "routePath": "/perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn",
+      "section": "perspectives",
+      "title": "Cheap Tokens Are a Subsidy That Will Be Withdrawn"
+    },
+    {
+      "id": "perspectives/only-frontier-models-replace-skilled-labor@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/only-frontier-models-replace-skilled-labor",
+      "routePath": "/perspectives/only-frontier-models-replace-skilled-labor",
+      "section": "perspectives",
+      "title": "Only Frontier Models Replace Skilled Labor",
+      "description": "Substituting for skilled labor means substituting for judgment and generality, which live only at the frontier. Small models automate the repetitive slivers that were never the skilled part. So skilled-labor replacement is load-bearing on frontier progress, task by task."
+    },
+    {
+      "id": "perspectives/open-weights-cap-what-closed-labs-can-charge@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/open-weights-cap-what-closed-labs-can-charge",
+      "routePath": "/perspectives/open-weights-cap-what-closed-labs-can-charge",
+      "section": "perspectives",
+      "title": "Open Weights Cap What Closed Labs Can Charge",
+      "description": "Every efficiency paper an open lab publishes does two things at once: it caps what closed labs can charge, and it grows a commons that moves the moat off the technique and onto distribution, reliability, and trust."
+    },
+    {
+      "id": "perspectives/open-weights-win-on-bounded-work@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "new",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/open-weights-win-on-bounded-work",
+      "routePath": "/perspectives/open-weights-win-on-bounded-work",
+      "section": "perspectives",
+      "title": "Open Weights Win on Bounded Work",
+      "description": "The case for running open models is not fear of lock-in. It is that bounded work rewards the things open weights are actually better at: price, pinning, and a boundary your data never crosses. The frontier keeps the judgment; the volume does not need it."
+    },
+    {
+      "id": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "routePath": "/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "section": "perspectives",
+      "title": "Sovereignty Cannot Be Sold at the Expense of Safety",
+      "description": "Understanding your stack is worth a lot, and it is not the top value. When sovereignty and safety conflict, safety wins, which is why picking a vendor whose priority order puts safety first can be a sovereign decision rather than a surrender of one."
+    },
+    {
+      "id": "perspectives/the-lock-in-is-coming@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/the-lock-in-is-coming",
+      "routePath": "/perspectives/the-lock-in-is-coming",
+      "section": "perspectives",
+      "title": "The Lock-In Is Coming"
+    },
+    {
+      "id": "perspectives/your-edge-is-not-your-infrastructure@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "perspectives/your-edge-is-not-your-infrastructure",
+      "routePath": "/perspectives/your-edge-is-not-your-infrastructure",
+      "section": "perspectives",
+      "title": "Your Edge Is Not Your Infrastructure",
+      "description": "A subject-matter expert going all-in on AI should own the judgment, the taste, and the outcome, not invent a harness and a deployment. The infrastructure is the part someone else has already solved better."
+    },
+    {
+      "id": "reference/glossary@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "reference/glossary",
+      "routePath": "/reference/glossary",
+      "section": "reference",
+      "title": "Glossary",
+      "description": "One-line-per-term summary across the whole wiki. The lexicon, flattened."
+    },
+    {
+      "id": "reference/standards/brand-txt@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "reference/standards/brand-txt",
+      "routePath": "/reference/standards/brand-txt",
+      "section": "reference",
+      "title": "brand.txt",
+      "description": "A single statically-served file that primes any agent to generate on-brand assets: identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms inline, plus absolute URLs to every brand asset. One link, no repo access, an on-brand asset out the other side."
+    },
+    {
+      "id": "start-here/executive-summary@5d76428e550eac48f31c0300803bdff9e5440491",
+      "type": "updated",
+      "date": "2026-08-12T19:56:00-05:00",
+      "docKey": "start-here/executive-summary",
+      "routePath": "/start-here/executive-summary",
+      "section": "start-here",
+      "title": "Executive Summary",
+      "description": "The applied-AI worldview this wiki encodes, in one page. The load-bearing claims about the economy, the interface, the strategy, and the operator that a practitioner should know cold."
+    },
+    {
       "id": "note-sharers/the-primetime/2026-06-12-lying-to-you@1d52793aa0337eacd205e2a52d69b315450246de",
       "type": "updated",
       "date": "2026-08-12T18:01:27-05:00",

@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL HORIZONTAL STRIP, three equal panels in one row, separated by clean cream gutters with no drawn borders and no frame lines. One consistent world, one consistent woman, one consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE FIGURE, identical in all three panels: a Black woman in her late forties, close-cropped grey-flecked natural hair, wearing a plain dark green wool cardigan over a grey shirt. She is the same person in every panel and must be recognizably the same person in each. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket, a young man. No recurring branded character and no identifiable real individual.\n\nTHE SETTING, the same in all three panels: a small warm room with a wooden table, and beyond it a window looking out onto a night lane. On the table sits the glowing translucent amber laptop; inside its screen small rounded agent figures work at her files. A leather satchel sits on the floor beside the table's chair throughout.\n\nBEAT ONE, left panel: interior seen past the table. The woman is NOT at the table. She is outside in the lane through the window, small in the distance, bolting an enormous black iron gate across the lane. The gate is far from the house and much bigger than the house's own door. On the table behind her the amber laptop glows and the agents inside it stand idle, waiting, nothing in their hands.\n\nBEAT TWO, middle panel: the consequence. Now we are outside with her at the lane in the rain. She is crouched at the base of the huge iron gate with a wrench, soaked, working on it, her back to the house. The gate is bigger than she is. Far behind her the small house window shows the amber laptop glow gone dim and low, the agents inside still waiting at her unfinished files. Her satchel is visible through the window, still on the floor, unpacked.\n\nBEAT THREE, right panel: back inside the warm room, close on the table. She sits at the table working, the amber laptop bright again, the agents inside busy and each holding one of her pages. Her satchel now sits on the chair beside her, packed, its flap buckled, one strap over her shoulder ready. The room's own door has ONE small ordinary lock, drawn plainly. Through the window behind her, far off in the lane, the enormous iron gate stands wide open and unattended, and it plainly does not matter.\n\nPHYSICAL RELATIONSHIPS, state them exactly this way: the laptop screen faces the woman, so when we see her face across the table we see the laptop's BACK and its glow spilling up around it, never its screen contents; in the panels where we see inside the screen we are looking over her shoulder or past her side. The gate stands in the lane OUTSIDE and BEYOND the house, never attached to the house and never in the same plane as its door. In beat two the woman is outside the house and the house is behind her in the distance, so we see the window from outside.\n\nTEXT FURNITURE, render these strings character-exact in the cream margins, never over the artwork. Title bar above the panels, in caps: SOVEREIGNTY. One short caption in the cream gutter under each panel, in caps, left to right: FORTIFY THE PERIMETER / THE WORK WAITS / OWN IT, AND BE READY TO GO. Footer bar below the panels, in caps, two clauses: SOVEREIGNTY IS PROTECTION. PROTECTION IS NOT THE POINT. No other lettering anywhere. Every page, file, label, card and document in the woman's hands or in the agents' hands is BLANK with no writing on it. The gate carries no sign and no lettering.\n\nQUANTITIES, depict exactly these: three panels, one woman, one laptop, one gate, one satchel, one lock.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-13T01:05:37.984049+00:00",
+  "sha256": "99209ee5428e2fefabff414006a04b1da707dea5cc3917d619c8db01b58e3c89",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "refFirst": true,
+  "size": "1824x1024",
+  "quality": "high"
+}

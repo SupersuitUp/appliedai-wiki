@@ -174,6 +174,14 @@ Before hiding, remove or neutralize every inbound link from pages that stay (the
 
 Restoring a page whose section has since changed its naming convention (the perspectives renaming pass, `8237581`) reintroduces the old convention. Rename it to match, or say plainly that you did not.
 
+5. **The page's DOCTRINE, which is the one the four items above will not catch.** Unhiding rebuilds a page's links; it does not rebuild its argument. The page re-enters carrying the position it held on its hide-date, into a canon that kept moving while it was gone, and because the *file* is now newer than the pages that superseded it, date-sorting the corpus hides the problem completely. Found 2026-08-12, the day after `7a9d0d9`: `the-lock-in-is-coming` came back with 7 inbound links (including the executive summary) and 3 outbound, none of them newer than itself, telling readers to own their models while three pages written during the month it was hidden had priced that posture and partly walked it back. Three checks per restored page, and the fix is always an ADDITIVE scope marker, never a retraction, because the restore was deliberate:
+
+   - **Outbound links.** Count them and check whether any target postdates the page. A restored page can only link what existed when it was hidden, which makes it a one-way sink for its own framing.
+   - **The summary layer that kept citing it.** Index blurbs and `start-here/executive-summary.md` pointed at it the whole time it was invisible, so they now carry its framing unopposed. Audit which side of a contested claim each summary bullet links, not whether each bullet is accurate.
+   - **Anything written during the gap.** Diff the restored thesis against pages created between the hide and the restore, not against the corpus at large. That window is exactly where the disagreement lives.
+
+   The full detector, with the git commands, is the RESTORE refinement under 0a in the `meta-coherence-check` skill.
+
 ---
 
 ## The broken-link check in this repo validates NOTHING (found 2026-08-09)
