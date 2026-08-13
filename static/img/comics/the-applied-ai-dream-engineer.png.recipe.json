@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fill accents, soft dark ink line.\n\nLayout: a THREE-PANEL horizontal strip. Three panels of equal size in one horizontal row, separated by clean cream gutters with NO drawn borders and NO frame lines. A title bar sits in the cream margin above the panels; one short caption sits in the cream gutter under each panel; a footer bar sits in the cream margin below the panels. Text sits only in the cream margins, never over the artwork.\n\nThe same two people appear in all three panels and must be recognizably the same people in each panel: (1) THE DREAM ENGINEER, a woman in her forties with short grey-streaked black hair, wearing a rust-colored cardigan over a plain cream shirt; (2) THE DREAMER, a man in his late twenties with short curly dark hair, wearing a deep-olive sweater. EXACTLY ONE of each person per panel, never duplicated. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nThe glowing translucent amber laptop from the reference image is the SAME laptop in all three panels, sitting open on the same wooden table.\n\nBEAT ONE (left panel): the dreamer leans across the wooden table handing the dream engineer a small hand-drawn sketch page showing a simple drawing of a little house under a sun; apart from that drawing the page is BLANK with no readable words. The dream engineer receives it warmly. The amber laptop sits open between them, its screen soft and quiet.\n\nBEAT TWO (middle panel): the consequence. Inside the glowing amber laptop screen, a small rounded commander figure in a gold military cap directs several tiny rounded helper agents who are building the sketched house; small finished pages and a little wooden house model stream out of the screen onto the table. The dream engineer guides with one hand near the keyboard; the dreamer watches with delight. The sketch page from beat one is propped beside the screen.\n\nBEAT THREE (right panel): the dreamer stands holding the finished little house model, solid and real, the same house that was sketched in beat one. With his other hand he reaches toward a much LARGER blank page the dream engineer is sliding across the table to him, inviting a bigger dream. The larger page is completely BLANK. The laptop glows warmly at the edge of the panel.\n\nPhysical relationships: the laptop screen is angled so the viewer sees the glowing scene inside it while both people remain outside it in the warm real world; the sketch page in beat one is the same page propped up in beat two; the house model in beat three is the same house drawn on the beat-one sketch, now real and three-dimensional in his hands.\n\nRender each of these strings EXACTLY, in this placement, and no other text anywhere:\nTitle bar above the panels, in caps: \"THE APPLIED AI DREAM ENGINEER\"\nCaption under the left panel, in caps: \"PROMPT ME, NOT THE AI\"\nCaption under the middle panel, in caps: \"THE AGENTS BUILD IT\"\nCaption under the right panel, in caps: \"NOW DREAM BIGGER\"\nFooter bar below the panels, in caps: \"EXECUTION STOPS BEING THE LIMIT. IMAGINATION BECOMES IT.\"\n\nno comic-book, no cartoon mascot, no flat vector, no neon, no 3D/CGI/Pixar, no photoreal, no anime, no identifiable recurring individual's face or signature clothing.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-13T16:48:20.501377+00:00",
+  "sha256": "78e829c08acdfd7e091ae7ba4f608370ed310d1c00eba436e4d6f346bac23bf6",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
