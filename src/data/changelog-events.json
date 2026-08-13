@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/sovereignty@18e54aeea7179239b41eefd53d2b72066c9ce6fc",
+      "type": "updated",
+      "date": "2026-08-12T20:08:15-05:00",
+      "docKey": "concepts/sovereignty",
+      "routePath": "/concepts/sovereignty",
+      "section": "concepts",
+      "title": "Sovereignty",
+      "description": "Control over the layers of your stack, held for the sake of what that control protects. The wiki uses the word in four distinct senses and defaults to the weakest and most useful one: understanding a dependency you chose deliberately."
+    },
+    {
       "id": "concepts/minimum-viable-infrastructure@5d76428e550eac48f31c0300803bdff9e5440491",
       "type": "updated",
       "date": "2026-08-12T19:56:00-05:00",
