@@ -32,7 +32,7 @@ Here is what the applied AI economy requires as table stakes:
 
 **Time.** Initial setup takes 3.5 to 4 hours. Building it into a daily practice takes weeks. Developing a deep context garden takes months. You need unstructured time to think, dictate, and iterate. People working three jobs do not have this.
 
-**Approximately $100 to $150 per month.** Claude Max subscription ($100/mo), plus optional tools like Wispr Flow ($10/mo), GitHub Pro, or cloud storage. This is cheap relative to the value it creates. It is not zero.
+**Roughly $100 to $150 per month at the low end.** A frontier subscription at the tier that permits real agent use starts around $100/mo and runs higher on the heavier tiers, plus optional tools like a voice-dictation subscription, GitHub Pro, or cloud storage. Check current pricing rather than trusting this line; it moves. This is cheap relative to the value it creates. It is not zero.
 
 ## The Disparity Nobody Discusses
 
@@ -109,4 +109,6 @@ The applied AI economy does not need to be a rich person's game. Right now, the 
 
 - [What is Applied AI](/start-here/what-is-applied-ai): the working definition this infrastructure exists to serve.
 - [Disciplines](/disciplines): what becomes possible once the floor is in place.
+- [Sovereignty](/concepts/sovereignty): the four things this wiki means by the word, and which one it defaults to.
 - [Sovereignty Cannot Be Sold at the Expense of Safety](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety): why the sovereign stack is not the top value, and what to buy instead.
+- [Uncensored Inference](/concepts/uncensored-inference): what standing up your own inference buys and what it does not, decided on the data rather than the posture.

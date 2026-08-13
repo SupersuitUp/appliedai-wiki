@@ -95,3 +95,4 @@ Run it once. If the answer is pay the tax, pay it deliberately and stop apologiz
 - [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning) for the skill-portability argument, which is a different question from system portability.
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for which layer the cloud era proved was worth keeping portable, which is not the one most teams are paying for.
 - [The Moat Layer](/concepts/the-moat-layer) for the portability that costs almost nothing, and is the one worth buying instead of this tax.
+- [Vendor Resistance Is a Revealed-Preference Problem](/perspectives/vendor-resistance-is-a-revealed-preference-problem) for the version of this argument aimed at the person, rather than the system, refusing to commit.

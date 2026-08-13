@@ -161,7 +161,7 @@ The build script reads `graphic_types` and emits a `## Graphic types` section in
 
 Every brand OS declares a short URL-safe `id` slug in `brand.json` (e.g. `"id": "built-for-exit"`). This slug names the local cache folder at `~/.agents/agentic_brand_oses/<id>/`, where agents can cache `brand.txt` and download GABRs for offline or fast access. The build script emits the ID inline in `## Identity`.
 
-A `sync-brand-os` skill acts as the package manager for brand OSes — `sync-brand-os install <brand-txt-url>` fetches `brand.txt`, downloads all listed GABRs into the local cache, and generates a `render-graphic-<id>` skill in `~/.agents/skills/` pre-loaded with the full brand context. See the [spec](/brand.txt) for the full local cache schema.
+A `sync-brand-os` skill acts as the package manager for brand OSes — `sync-brand-os install <brand-txt-url>` fetches `brand.txt`, downloads all listed GABRs into the local cache, and generates a `render-graphic-<id>` skill in `~/.agents/skills/` pre-loaded with the full brand context. See [Required shape](#required-shape) above for the full schema this cache mirrors.
 
 ## Generate it, do not hand-write it
 

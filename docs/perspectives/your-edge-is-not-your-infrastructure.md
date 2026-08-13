@@ -88,3 +88,4 @@ Your edge compounds when every hour goes into the judgment only you have. Rent t
 - [The Outcome Economy](/concepts/the-outcome-economy) for what the customer is buying, which is never your infrastructure.
 - [You Are Having the 2008 Cloud Argument Again](/perspectives/you-are-having-the-2008-cloud-argument-again) for the historical precedent this argument is repeating, and why the objections to renting were correct and lost anyway.
 - [The Moat Layer](/concepts/the-moat-layer) for the other half of the split named as an asset you fund and thicken on purpose.
+- [Vendor Resistance Is a Revealed-Preference Problem](/perspectives/vendor-resistance-is-a-revealed-preference-problem) for the objection this argument usually meets, and the inventory that tests whether it is being applied consistently.

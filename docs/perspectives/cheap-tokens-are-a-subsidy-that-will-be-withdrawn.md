@@ -17,7 +17,7 @@ image: "/img/comics/the-token-rug-pull.png"
 
 Every business building on top of a commercial API has the same fastest-growing variable cost: tokens. And nobody actually knows what a token costs to produce.
 
-OpenAI lost roughly $5 billion last year. Anthropic is burning investor capital at a similar rate. The unit economics of the frontier labs are deliberately obscured by the largest capital subsidy in the history of enterprise software. Every token consumed today is sold below cost, propped up by investors hoping to be the last platform standing.
+As of the May 2026 source this page is distilled from, OpenAI's reported annual loss ran to several billion dollars and the other frontier labs were burning investor capital at comparable rates. Treat the figures as an order of magnitude rather than a current number; the argument does not depend on the decimal, and the labs do not publish one. The unit economics of the frontier labs are deliberately obscured by the largest capital subsidy in the history of enterprise software. Every token consumed today is sold below cost, propped up by investors hoping to be the last platform standing.
 
 This is the oldest play in the platform economy: subsidize to capture, capture to monetize, monetize until the customer cannot afford to leave. The argument is structural, not personal, and the structure is already in motion. See [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming) for the deeper treatment of why this happens and how to architect against it.
 
@@ -41,7 +41,9 @@ A defensible reference price changes how three groups make decisions.
 
 ## Why The Direction Is Up
 
-The direction of travel on the index is unambiguously up. Most of the pressure has nothing to do with the AI labs themselves: it is geopolitics, energy costs, and constrained data center capacity in Europe and the Middle East. The companies still routing every query through a single US or European region will wake up one morning and discover their AI bill has doubled with no architectural defense.
+Two forces pull on the index at once, and they act on different tiers. Closed-flagship pricing faces upward pressure that has little to do with the AI labs themselves: geopolitics, energy costs, and constrained data center capacity in Europe and the Middle East. The companies still routing every query through a single US or European region will wake up one morning and discover their AI bill has doubled with no architectural defense.
+
+Pulling the other way, every open-weight release with a published efficiency recipe lowers the price at which a credible alternative exists, which is the ceiling described in [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge). Both are real, and reading only one of them produces a wrong forecast. The operator conclusion is the same either way and does not depend on guessing the net direction: **the exposure worth reducing is the exposure to a single provider's pricing decision**, whichever way the index moves.
 
 The subsidies compound the problem. When the music stops, when a funding round dries up or a single major player breaks, the reset is not gradual. Every business that built its workflows on subsidized infrastructure pays market price at the same time. There is no soft landing in a platform economy when the platform decides to monetize.
 

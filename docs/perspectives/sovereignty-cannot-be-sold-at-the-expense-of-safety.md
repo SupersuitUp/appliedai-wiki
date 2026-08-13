@@ -81,5 +81,7 @@ That is the shape of the trust, and it is conditional. Watch whether the order h
 - [The Portability Tax](/concepts/the-portability-tax): how to price the flexibility you give up when you commit
 - [Capability Is Table Stakes, Faithfulness Is the Choice](/perspectives/capability-is-table-stakes-faithfulness-is-the-choice): the other half of the selection criterion
 - [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): the literacy that survives any vendor decision
+- [Sovereignty](/concepts/sovereignty): the four grades of the word, and where the sovereign adoption named here sits among them
+- [The Lock-In Is Coming](/perspectives/the-lock-in-is-coming): the position this page revises, kept intact and read as the structural case rather than the buying advice
 
 > **Sovereignty is protection, and protection is not the top of the stack. Buy the priority order, then keep checking that it holds.**
