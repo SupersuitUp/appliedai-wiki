@@ -55,6 +55,15 @@ Use this when you want to skim the surface area of the wiki without committing t
 - **[Vibe Curation](/concepts/vibe-curation)**: the most valuable engineers in the world will only work in environments where they feel safe. Someone has to foster those environments.
 - **[You Are the Bottleneck](/perspectives/you-are-the-bottleneck)**: money multiplies you. AI multiplies you. Smart hires cannot reach up and fix you from below. You cannot hire, buy, or scale your way out of being the thing that needs to change.
 
+## Dependence, portability, and sovereignty
+
+- **[Sovereignty](/concepts/sovereignty)**: control over the layers of your stack, held for the sake of what that control protects. Four grades, and the wiki defaults to the middle ones: possession of your context, a priced exit, and understanding of what you depend on.
+- **[The Portability Tax](/concepts/the-portability-tax)**: the ongoing cost of keeping maximal model and vendor flexibility. Portability is a purchase, not a default. Price it, then decide.
+- **[The Moat Layer](/concepts/the-moat-layer)**: the part of an agent system that is actually yours. Corpus, evals, encoded craft, prompts. It is all text, it costs almost nothing to keep portable, and everything else is rented.
+- **[The Lock-In Is Coming](/perspectives/the-lock-in-is-coming)**: every VC-backed hyperscaler with proprietary models will eventually move to lock you in. Structural, not personal.
+- **[Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge)**: every efficiency paper an open lab publishes is both a price ceiling on closed labs and a commons that moves the moat off the technique.
+- **[Uncensored Inference](/concepts/uncensored-inference)**: a refusal is a policy, not a capability. Pick a model whose policy already permits the work, and choose the path on cost, privacy, and capability.
+
 ## Business and strategy
 
 - **[Digital Employee](/concepts/digital-employee)**: a domain expert's packaged judgment, rentable as a product. The category agent SDKs unlocked, where expertise scales past the expert's calendar. Secondary name: SMEaaS, subject-matter expertise as a service.

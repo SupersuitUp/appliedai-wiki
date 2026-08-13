@@ -47,14 +47,14 @@ Hyperscaler direction (bottom -> up):
   Model         <- started here (Claude, GPT)
 ```
 
-**Open source moves from the top down.** Open source started the opposite way. People built integrations and workflow tools first (connecting APIs, automating processes with scripts and open tools). Then the community built open harnesses (OpenCode, Aider, Cursor). Now open source models are approaching frontier quality (Llama, Mistral, Qwen, DeepSeek). The gap with proprietary models is closing fast.
+**Open source moves from the top down.** Open source started the opposite way. People built integrations and workflow tools first (connecting APIs, automating processes with scripts and open tools). Then the community built open harnesses (OpenCode, Aider, Goose, Continue). Now open source models are approaching frontier quality (Llama, Mistral, Qwen, DeepSeek). The gap with proprietary models is closing fast.
 
 ```
 Open source direction (top -> down):
 
   Integrations  <- started here (open APIs, automation tools)
   Workflows     <- open workflow tools, n8n, Zapier alternatives
-  Harness       <- OpenCode, Aider, Cursor
+  Harness       <- OpenCode, Aider, Goose
   Model         <- arriving here now (Llama, Mistral, DeepSeek)
 ```
 
@@ -86,7 +86,7 @@ A sovereign architecture is designed to prevent this. Not as a theoretical princ
 
 **Own your models.** Open source models are getting remarkably good, remarkably fast. You can run them on your own hardware with zero data leaving your machine. Today's best default might be a proprietary model. Tomorrow it might be open source. Your files do not care.
 
-**Own your harness.** Claude Code is one [harness](/disciplines/harness-engineering). There are others: OpenCode, Cursor, Aider, and more emerging constantly. A portable architecture works with any harness that can read files and run commands. If your current harness changes its pricing, its policies, or its attitude toward third-party tools, you switch. Your context comes with you. Nothing is lost.
+**Own your harness.** Claude Code is one [harness](/disciplines/harness-engineering). There are open-source alternatives: OpenCode, Aider, Goose, Continue, and more emerging constantly. Note that "not the model vendor's own" is not the same as "open": Cursor and Windsurf are third-party and still proprietary and venture-backed, which means the argument on this page applies to them too. A portable architecture works with any harness that can read files and run commands. If your current harness changes its pricing, its policies, or its attitude toward third-party tools, you switch. Your context comes with you. Nothing is lost.
 
 **Own your future.** Sovereignty means the platform serves you, not the other way around. You are not a user of someone else's system. You are the operator of your own system.
 
@@ -114,10 +114,23 @@ If, as a community, we commit to building sovereign infrastructure that is as ea
 
 > **Own your data. Own your models. Own your harness. Own your future.**
 
+## What this page does not settle
+
+This argument was written in June 2026, and the wiki has kept working on it since. Read this page as the structural case for why the pressure exists, not as the buying advice that follows from it, because the follow-through turned out to be more expensive and more specific than "own everything."
+
+Three later pages narrow it, and none of them retract it. [The Portability Tax](/concepts/the-portability-tax) prices what maximal independence costs and finds that the cheap portability and the expensive portability are not the same purchase. [The Moat Layer](/concepts/the-moat-layer) splits the stack into the part worth carrying (your corpus, evals, encoded craft, prompts, all of it text) and the part worth renting without ceremony. [Sovereignty Cannot Be Sold at the Expense of Safety](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety) goes further and ranks sovereignty below the thing it protects, which is the one move this page does not make.
+
+The line that survives all three is narrower than "own your models," and it is the one worth carrying out of here: **structure the dependency so you can leave.** Not refusing the dependency. Making the exit cheap, and knowing what it would cost before you need it.
+
 ---
 
 ## Further Reading
 
+- [Sovereignty](/concepts/sovereignty): the four senses of the word this page uses, and which one the wiki defaults to
+- [The Portability Tax](/concepts/the-portability-tax): what the posture on this page costs when you actually price it
+- [The Moat Layer](/concepts/the-moat-layer): which half of the stack is worth keeping portable, and which half is not
+- [Sovereignty Cannot Be Sold at the Expense of Safety](/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety): the ranking that puts this argument in its place
+- [Vendor Resistance Is a Revealed-Preference Problem](/perspectives/vendor-resistance-is-a-revealed-preference-problem): the inventory that tests whether you are applying this consistently or only to the newest vendor
 - [Harness Engineering](/disciplines/harness-engineering): Why the wrapper matters as much as the model
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure): The baseline requirements, including the ability to run tools independently
 - [Hyperagency](https://hyperagency.wiki/start-here/what-is-hyperagency): The state of being you reach when you build on portable infrastructure

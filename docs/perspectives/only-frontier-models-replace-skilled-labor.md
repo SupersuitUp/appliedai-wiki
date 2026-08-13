@@ -55,3 +55,4 @@ Run that decomposition and the tasks sort themselves. The repetitive, low-judgme
 - [Task Difficulty Does Not Predict AI Performance](/perspectives/task-difficulty-does-not-predict-ai-performance): the uneven border of what AI does well, which is the border this claim is drawn along.
 - [Some of Every Role Should Never Be Automated](/perspectives/some-of-every-role-should-never-be-automated): the residual skilled work that stays human after the automatable tasks are subtracted.
 - [AI Eats Labor Allocation](/perspectives/ai-eats-labor-allocation): why replacing labor, not software, is the budget AI is actually competing for.
+- [Open Weights Win on Bounded Work](/perspectives/open-weights-win-on-bounded-work): the other side of the fence this page draws, and where the cheap models are the correct call rather than a false economy.

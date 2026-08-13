@@ -91,3 +91,5 @@ So the pragmatic default is: **point an aggregator at a permissive open model.**
 - [Model Upgrades Are No Longer Strictly Upgrades](/perspectives/model-upgrades-are-no-longer-strictly-upgrades): why models are swappable dependencies, which is what makes the aggregator path safe.
 - [Open Weights Cap What Closed Labs Can Charge](/perspectives/open-weights-cap-what-closed-labs-can-charge): why the cheap, permissive open models exist and keep getting better.
 - [Propaganda-Weighted Average](/concepts/propaganda-weighted-average): every model carries a slant, including the uncensored ones. Know which one you are inheriting.
+- [Open Weights Win on Bounded Work](/perspectives/open-weights-win-on-bounded-work): the same decide-on-the-data rule applied to cost and pinning rather than refusals.
+- [Sovereignty](/concepts/sovereignty): the four grades of control, and why the sovereign path here is the most expensive one.
