@@ -2,11 +2,11 @@
 name: generate-a-spec
 description: Interview someone who wants something built (app, site, tool, feature, or automation) and return a nine-section build-ready spec led by a triage-ready TL;DR. Consumer-facing boomerang prompt; hand to a person, not routed by the harness.
 returns: A nine-section build-ready spec led by a TL;DR routing block
-conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
+conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.3
 ---
 
-<!-- last_updated: 2026-07-15 -->
-<!-- version: 0.1 -->
+<!-- last_updated: 2026-08-14 -->
+<!-- version: 0.2 -->
 
 # Build-Ready Spec Boomerang
 
@@ -15,7 +15,7 @@ conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.1
 
 This is the async front half of the [Generate a Build-Ready Spec](https://appliedai.wiki/playbooks/generate-a-spec) SKILL. Hand it to someone who asked for build help but gave you no spec. They run the interview in their own chat, on their own time, and send back a spec precise enough for you to decide "can I help, or who do I forward this to." One run per thing they want built.
 
-**Send note:** "Paste the block below into a new ChatGPT, Claude, or Grok chat. Answer out loud using dictation, not live voice mode. When it writes your spec, paste that into a Google Doc, set it to 'anyone with the link can view,' and send me the link."
+**Send note:** "Paste the block below into a new ChatGPT, Claude, or Grok chat. Answer out loud using dictation, not live voice mode. When it writes your spec, publish it as a shareable link (in Claude, hit Publish on the artifact) or paste it into a Google Doc set to 'anyone with the link can view,' and send me the link."
 
 ## The Paste-In Prompt
 
@@ -70,14 +70,14 @@ Rules for the writeup:
 - Keep the TL;DR honest. Its whole job is to let someone decide fast whether they can help or who to forward it to.
 - No em dashes.
 
-FINALLY: tell me to copy the whole spec into a new Google Doc, set it to "anyone with the link can view," and send that link to the person I want help from. The Google Doc is the thing I share, not this chat.
+FINALLY: tell me to publish the spec as a shareable link (in Claude, Publish on the artifact) or, if my AI cannot publish, to copy it into a new Google Doc set to "anyone with the link can view," and send that link to the person I want help from. The link is the thing I share, not this chat.
 
 Start now with Part 1. Ask me only the first question, then wait.
 ```
 
 ## Delivery
 
-The subject pastes the finished spec into a Google Doc, link-shares it, and sends you the URL. The doc is the artifact you triage, not the chat. Read the TL;DR routing block first: it tells you what it is, who it is for, rough size, whether an off-the-shelf tool likely already does it, and the person's budget, timeline, and technical comfort.
+The subject sends you the finished spec as a shared link: a published artifact straight from their AI, or a link-shared Google Doc when their assistant cannot publish. The link is the artifact you triage, not the chat. Read the TL;DR routing block first: it tells you what it is, who it is for, rough size, whether an off-the-shelf tool likely already does it, and the person's budget, timeline, and technical comfort.
 
 ## Composition
 

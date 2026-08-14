@@ -1,7 +1,7 @@
 ---
 title: Generate a Build-Ready Spec
 slug: /playbooks/generate-a-spec
-description: A Boomerang Prompt that turns a vague "can you help me build this?" into a build-ready spec. Hand it to the person who wants something built, an AI interviews them on their own time, and it returns a nine-section spec led by a triage-ready TL;DR that they paste into a Google Doc and share.
+description: A Boomerang Prompt that turns a vague "can you help me build this?" into a build-ready spec. Hand it to the person who wants something built, an AI interviews them on their own time, and it returns a nine-section spec led by a triage-ready TL;DR that they send back as a shared link.
 image: "/img/comics/generate-a-spec.png"
 ---
 
@@ -44,7 +44,7 @@ The success test: someone who has never heard of the project reads the TL;DR and
 
 ## The Copy-Paste Boomerang Prompt
 
-Hand the person this note with it: *paste the whole thing into a new ChatGPT, Claude, or Grok chat, answer out loud using dictation, and when it writes your spec, paste that into a Google Doc and send me the link.*
+Hand the person this note with it: *paste the whole thing into a new ChatGPT, Claude, or Grok chat, answer out loud using dictation, and when it writes your spec, publish it as a shareable link (in Claude, hit Publish on the artifact) or paste it into a Google Doc, and send me the link.*
 
 ```text
 You are an expert applied-AI systems analyst. Your job is to interview me, then write a build-ready specification for something I want built: an app, a website, a tool, a feature, or an automation. The finished spec will be handed to a builder who will use it to decide whether to buy an existing tool or build custom, to estimate cost and effort, and to route the work to the right person. You are not here to build anything or to recommend tools during the interview. You are here to extract, in high fidelity, exactly what the ideal thing would do.
@@ -97,7 +97,7 @@ Rules for the writeup:
 - Keep the TL;DR honest. Its whole job is to let someone decide fast whether they can help or who to forward it to.
 - No em dashes.
 
-FINALLY: tell me to copy the whole spec into a new Google Doc, set it to "anyone with the link can view," and send that link to the person I want help from. The Google Doc is the thing I share, not this chat.
+FINALLY: tell me to publish the spec as a shareable link (in Claude, Publish on the artifact) or, if my AI cannot publish, to copy it into a new Google Doc set to "anyone with the link can view," and send that link to the person I want help from. The link is the thing I share, not this chat.
 
 Start now with Part 1. Ask me only the first question, then wait.
 ```
