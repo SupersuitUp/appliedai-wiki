@@ -1,0 +1,84 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "Create a NEW illustration in EXACTLY the visual style of the reference images.\nSTRICT STYLE: warm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults. Warm cream ground, muted blue fill accents, soft dark line.\n\nFORMAT: one wide horizontal strip of THREE equal panels in a row, separated by clean cream gutters with NO drawn borders or frame lines. One consistent world, one consistent cast, one consistent laptop across all three panels; the panels read left to right as a progression of the same story.\n\nCAST, identical in all three panels: a middle-aged Black man with short gray-flecked hair and round glasses, wearing a plain rust-colored crewneck sweater. The same man, recognizably the same person, in every panel. The glowing translucent amber laptop from the reference sits on a plain wooden desk. Inside the laptop screen lives the small coral-orange holographic Chief of Agents from the reference: grand gold admiral hat, gold epaulettes, warm rounded dot eyes, two stubby legs, short nub arms ending in rounded mitten stubs (never fingers or hands). He is translucent and holographic, casts light not shadow, stays inside the screen, and never does task work with his own body; he listens, commands, and presents.\n\nBEAT ONE (left panel): the man leans in toward the laptop, frowning gently, one finger pointing at the screen. Inside the screen the Chief of Agents stands beside a crooked, messy stack of small blank film clips, some tilted, one sliding off. A soft amber line loops from the man's pointing finger down into a small glowing card lying flat on the desk beside the laptop; the card reads SKILL. Physics: the laptop screen faces the man, and we see its content over his shoulder; the card lies flat on the desk surface and the amber line ends at the card.\n\nBEAT TWO (middle panel): the same man leans back in his chair, delighted, both hands lifted off the keyboard. Inside the screen the Chief of Agents gestures with one mitten stub toward ONE clean, perfectly aligned horizontal row of blank film clips. The same SKILL card on the desk now glows steadily.\n\nBEAT THREE (right panel): the desk and chair are unattended, the chair empty; the laptop still glows warmly, the Chief of Agents inside working calmly beside the neat row of clips. A single soft amber thread rises from the laptop lid up to a small, softly drawn blank cloud outline near the top of the panel. At the right edge the same man stands at an open doorway holding a travel bag, glancing back at the laptop, relaxed. Physics: the thread rises FROM the laptop TO the cloud; the man is at the doorway, farther from the desk than the empty chair.\n\nTEXT FURNITURE, character-exact, in the cream margins only, never over the artwork:\n- Title bar centered in the cream margin above the panels, in caps: DON'T HAND OFF UNTIL IT ONE-SHOTS\n- Caption in the cream margin under the left panel: CORRECT. FOLD IT BACK.\n- Caption in the cream margin under the middle panel: ONE CALL. CLEAN OUTPUT.\n- Caption in the cream margin under the right panel: NOW IT RUNS WITHOUT YOU.\n- Footer bar centered in the cream margin below the panels, in caps: ITERATE WHERE FEEDBACK IS CHEAP. HAND OFF WHAT ONE-SHOTS.\nThe ONLY in-scene lettering is the word SKILL on the small desk card in panels one and two. No other signage, labels, posters, screens-with-words, or lettering anywhere. The film clips are BLANK, the cloud is BLANK, the doorway has no sign.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character beyond the Chief of Agents, and no identifiable real individual.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.\n\nThese are LOCKED canonical traits of the subject(s). They are not stylistic suggestions and must survive the render exactly: small-blocky-clay-coral-orange-mascot; translucent-holographic-digital-being; casts-light-not-shadow; grand-ornate-gold-admiral-hat; gold-epaulettes; warm-rounded-dot-eyes-with-tiny-catchlights; two-stubby-legs; short-stubby-nub-arms-end-in-rounded-MITTEN-stubs-NEVER-fingers-hands-tubes-or-bars; never-LIVES-in-the-real-world-soft-crossing-allowed-only-at-delivery-leaning-through-the-screen-body-mostly-inside; never-over-anthropomorphized; never-does-task-work-only-listens-commands-delivers; warm-editorial-register-not-comic; clamshell-laptop-form-with-a-visible-physical-keyboard-NEVER-a-tablet; the-WHOLE-laptop-glows-as-a-translucent-holographic-object-not-just-the-screen; glow-colour-is-the-colour-of-the-agent-supercharging-it; screen-FACE-is-visible-to-the-viewer; never-show-the-back-of-the-lid-and-the-screen-face-at-the-same-time; warm-editorial-register; it-is-a-14-INCH-NOTEBOOK-33cm-wide-23cm-deep-21cm-of-screen-when-open; the-open-screen-is-about-TWO-AND-A-QUARTER-TIMES-the-height-of-a-mug-beside-it; it-occupies-about-ONE-QUARTER-of-the-width-of-a-120cm-desk-NEVER-half-NEVER-more; the-lid-is-about-ONE-AND-THREE-QUARTER-SPREAD-HANDS-wide.\n\nIdentity of record is reference/chief-of-agents/master.png. Derive EVERY new pose from it (pass master as the FIRST input image), one pose per render; NEVER a multi-pose sheet in a single generation (that drifts the body composition). Keep it a SMALL blocky mascot: clay-coral Anthropic orange (~#D97757), two dot-eyes, two stubby legs, a grand ornate GOLD admiral hat + gold epaulettes (this is what makes it the Chief; sub-agents wear plain white sailor caps, no gold). It is a DIGITAL being: translucent, holographic, glowing, casts LIGHT not shadow, lives inside the computer / the agentverse. Do NOT over-anthropomorphize \u2014 no big arms, no human proportions (that was the rejected creepy variant). It never does task work; it only listens, commands, and delivers. CROSSING LAW (Gary 2026-07-16, clarified same day): the Chief never LIVES in the real world; it never stands on a real desk, sits in a real chair, or walks a real room as a free-standing body. The one permitted SOFT CROSSING is delivery: leaning through the screen plane, body mostly inside, to hand an artifact to the human or receive one; artifacts themselves may pass through the glass. Delivery may equally be drawn as work materializing on the screen. emerging.png and delivering.png depict the soft-crossing grammar and remain canon references. LONE-AGENT LAW (Gary 2026-07-16): when a scene shows exactly ONE agent, it is the Chief.\n\nColour is meaning: orange means Claude Code / the Chief of Agents is running on it; sage-green means Grantwell is; deep indigo means Storywell is. Never mix two agent colours on one machine. The ordinary, un-supercharged laptop stays a plain grey object; the glow is what marks the turn.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/commanding.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/delivering.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/emerging.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/listening.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/master.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/chief-of-agents/sheet.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/green.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/scale.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-14T15:12:48.418704+00:00",
+  "sha256": "a0875623ce3ce2349695c0c7a7bd3bc17d0d5d19e01e1551074d28021565ef4d",
+  "entities": [
+    {
+      "universe": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe",
+      "id": "chief-of-agents",
+      "look": null,
+      "photoStackDeclared": [],
+      "photoStackPassed": [],
+      "sheets": {
+        "commanding": "reference/chief-of-agents/commanding.png",
+        "delivering": "reference/chief-of-agents/delivering.png",
+        "emerging": "reference/chief-of-agents/emerging.png",
+        "listening": "reference/chief-of-agents/listening.png",
+        "master": "reference/chief-of-agents/master.png",
+        "sheet": "reference/chief-of-agents/sheet.png"
+      }
+    },
+    {
+      "universe": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe",
+      "id": "supercharged-laptop",
+      "look": null,
+      "photoStackDeclared": [],
+      "photoStackPassed": [],
+      "sheets": {
+        "green": "reference/supercharged-laptop/green.png",
+        "orange": "reference/supercharged-laptop/orange.png",
+        "scale": "reference/supercharged-laptop/scale.png"
+      }
+    }
+  ],
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
