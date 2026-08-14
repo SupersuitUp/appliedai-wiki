@@ -1,6 +1,35 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/boomerang-prompt@a83db65c4834e7335c31674867afce5c49e63934",
+      "type": "updated",
+      "date": "2026-08-14T12:33:51-05:00",
+      "docKey": "concepts/boomerang-prompt",
+      "routePath": "/concepts/boomerang-prompt",
+      "section": "concepts",
+      "title": "Boomerang Prompt",
+      "description": "A prompt you hand another person so an AI interviews them on their own time, then returns their story to you as build-ready material for a bespoke artifact."
+    },
+    {
+      "id": "playbooks/generate-a-spec@a83db65c4834e7335c31674867afce5c49e63934",
+      "type": "updated",
+      "date": "2026-08-14T12:33:51-05:00",
+      "docKey": "playbooks/generate-a-spec",
+      "routePath": "/playbooks/generate-a-spec",
+      "section": "playbooks",
+      "title": "Generate a Build-Ready Spec"
+    },
+    {
+      "id": "reference/standards/boomerang-md@a83db65c4834e7335c31674867afce5c49e63934",
+      "type": "updated",
+      "date": "2026-08-14T12:33:51-05:00",
+      "docKey": "reference/standards/boomerang-md",
+      "routePath": "/reference/standards/boomerang-md",
+      "section": "reference",
+      "title": "BOOMERANG.md",
+      "description": "An agent-readable file format for a prompt you hand to another person. An AI interviews them on their own time and returns build-ready material to you. The family's first consumer-facing format."
+    },
+    {
       "id": "perspectives/dont-hand-off-a-skill-until-it-one-shots@a40e65d2cfaab6e76166f34a89c5ad7c2718eac5",
       "type": "new",
       "date": "2026-08-14T10:13:23-05:00",
