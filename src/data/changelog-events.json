@@ -1,6 +1,56 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/dont-hand-off-a-skill-until-it-one-shots@a40e65d2cfaab6e76166f34a89c5ad7c2718eac5",
+      "type": "new",
+      "date": "2026-08-14T10:13:23-05:00",
+      "docKey": "perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "routePath": "/perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "section": "perspectives",
+      "title": "Don't Hand Off a Skill Until It One-Shots",
+      "description": "One-shot reliability at home is the readiness bar for sharing a skill with another person or deploying it to the cloud, because both moves price out the correction loop that made the skill good."
+    },
+    {
+      "id": "concepts/just-in-time-context-collection@ff7472d42ed470b56c8a15740f7e0ad54ee98b1c",
+      "type": "updated",
+      "date": "2026-08-13T15:52:15-05:00",
+      "docKey": "concepts/just-in-time-context-collection",
+      "routePath": "/concepts/just-in-time-context-collection",
+      "section": "concepts",
+      "title": "Just-in-Time Context Collection",
+      "description": "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable and decays faster than intent. Synonym in customer-facing settings: customer experience-enhancing context collection."
+    },
+    {
+      "id": "roles/the-applied-ai-dream-engineer@f7358f1b0691b033bb1927edc443cd9566f5f05e",
+      "type": "updated",
+      "date": "2026-08-13T13:14:32-05:00",
+      "docKey": "roles/the-applied-ai-dream-engineer",
+      "routePath": "/roles/the-applied-ai-dream-engineer",
+      "section": "roles",
+      "title": "The Applied AI Dream Engineer",
+      "description": "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
+    },
+    {
+      "id": "roles/the-applied-ai-dream-engineer@6ed35c66faab99bb4b773e0ad4480c51d62b3890",
+      "type": "updated",
+      "date": "2026-08-13T13:03:48-05:00",
+      "docKey": "roles/the-applied-ai-dream-engineer",
+      "routePath": "/roles/the-applied-ai-dream-engineer",
+      "section": "roles",
+      "title": "The Applied AI Dream Engineer",
+      "description": "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
+    },
+    {
+      "id": "roles/the-applied-ai-dream-engineer@bda16958b2eaf2275a972558c71fb134d9ca04bd",
+      "type": "new",
+      "date": "2026-08-13T11:49:08-05:00",
+      "docKey": "roles/the-applied-ai-dream-engineer",
+      "routePath": "/roles/the-applied-ai-dream-engineer",
+      "section": "roles",
+      "title": "The Applied AI Dream Engineer",
+      "description": "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
+    },
+    {
       "id": "concepts/sovereignty@18e54aeea7179239b41eefd53d2b72066c9ce6fc",
       "type": "updated",
       "date": "2026-08-12T20:08:15-05:00",
@@ -432,7 +482,7 @@
       "routePath": "/concepts/just-in-time-context-collection",
       "section": "concepts",
       "title": "Just-in-Time Context Collection",
-      "description": "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. The same questions that get ignored in a follow-up email get answered on the spot, because willingness is perishable and decays faster than intent."
+      "description": "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable and decays faster than intent. Synonym in customer-facing settings: customer experience-enhancing context collection."
     },
     {
       "id": "perspectives/discoverability-is-a-just-in-time-problem@50ab21e95dc1db35241f9a30d8bb62194d69cb37",
