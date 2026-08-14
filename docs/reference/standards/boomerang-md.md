@@ -4,14 +4,14 @@ slug: /reference/standards/boomerang-md
 description: "An agent-readable file format for a prompt you hand to another person. An AI interviews them on their own time and returns build-ready material to you. The family's first consumer-facing format."
 ---
 
-# BOOMERANG.md Specification v0.2
+# BOOMERANG.md Specification v0.3
 
 *A file format for a prompt you hand to another person. They paste it into their own AI, it interviews them on their own time, and it writes their answers back in a structure you can build from. The prompt went out, did the extraction, and came back to you full.*
 
 ---
 
-{/* last_updated: 2026-07-16 */}
-{/* version: 0.2 */}
+{/* last_updated: 2026-08-14 */}
+{/* version: 0.3 */}
 
 BOOMERANG.md is a file format for teaching a consumer AI how to interview a person and return build-ready material. You write it, hand it to the subject, and they paste it into ChatGPT, Claude, or Grok. The AI conducts the interview, then writes a structured artifact the subject sends back to you. It is the codified form of the [Boomerang Prompt](/concepts/boomerang-prompt) pattern.
 
@@ -70,14 +70,14 @@ conforms_to: <this standard's URL> v<version>
 - **`name`**: kebab-case, matches the folder name and any paired SKILL.md or GENERATE.md `name:` field.
 - **`description`**: one line. State what the boomerang extracts and who runs it, then the trailing marker so a harness does not mistake it for a recipe it should execute itself.
 - **`returns`**: one line naming the artifact the subject sends back (for example "a nine-section build-ready spec" or "narrated life-story chapters").
-- **`conforms_to`**: the URL of this standard plus the version this file targets (for example `https://appliedai.wiki/reference/standards/boomerang-md v0.2`). The machine-readable half of the conformance declaration; see Conformance.
+- **`conforms_to`**: the URL of this standard plus the version this file targets (for example `https://appliedai.wiki/reference/standards/boomerang-md v0.3`). The machine-readable half of the conformance declaration; see Conformance.
 
 ### Conformance
 
 Every boomerang declares which version of this standard it conforms to, in two places: the `conforms_to` frontmatter field above (machine-readable), and a visible line beside the Canonical source (human-readable):
 
 ```markdown
-**Conforms to:** [BOOMERANG.md](/reference/standards/boomerang-md) v0.2
+**Conforms to:** [BOOMERANG.md](/reference/standards/boomerang-md) v0.3
 ```
 
 This is non-negotiable. A boomerang with no version reference cannot be checked against the contract it claims to follow, and a reader cannot tell whether it predates a breaking change to the standard. When this standard bumps, an instance keeps its old `conforms_to` version until someone updates it against the new one, which is exactly the signal you want.
@@ -101,7 +101,8 @@ The exact line you give the subject when you hand it over. This is boomerang-spe
 ```markdown
 **Send note:** "Paste this whole thing into a new ChatGPT, Claude, or Grok
 chat. Answer out loud using dictation, not live voice mode. When it writes
-your <artifact>, paste that into a Google Doc and send me the link."
+your <artifact>, publish it as a shareable link (in Claude, hit Publish on
+the artifact) or paste it into a Google Doc, and send me the link."
 ```
 
 ### 5. The Paste-In Prompt
@@ -109,11 +110,11 @@ your <artifact>, paste that into a Google Doc and send me the link."
 The payload, clearly delimited (a fenced block) so the operator knows exactly what to hand over. It contains the full two-part contract, written in the second person to the subject:
 
 - **Part 1: Interview me.** The interview contract (one question at a time, dictation, follow the energy, push once when thin, gather more than you use, do not propose solutions) plus the areas to cover in rough order.
-- **Part 2: Write it.** The exact return structure: every section heading, its order, what goes in it, what to bold, how long. End with the delivery instruction (paste into a Google Doc, set link sharing, send it on).
+- **Part 2: Write it.** The exact return structure: every section heading, its order, what goes in it, what to bold, how long. End with the delivery instruction (publish as a shareable link, or paste into a Google Doc with link sharing set, then send it on).
 
 ### 6. Delivery
 
-Operator-facing. What comes back, in what form (a Google Doc by default), and what you do with it once it lands. The send-back is the default, not a requirement: when the return serves the subject directly (a job fit brief, a personal plan), say so here and make sharing back optional, reserved for the case where the operator is helping them act on it. A subject who keeps the doc and runs with it is a success, not a broken loop.
+Operator-facing. What comes back, in what form (a shared link by default: a published artifact straight from the subject's AI, with a Google Doc as the fallback when their assistant cannot publish or you need to comment inline), and what you do with it once it lands. The send-back is the default, not a requirement: when the return serves the subject directly (a job fit brief, a personal plan), say so here and make sharing back optional, reserved for the case where the operator is helping them act on it. A subject who keeps the doc and runs with it is a success, not a broken loop.
 
 ## Optional Sections
 
@@ -178,14 +179,15 @@ conforms_to: https://appliedai.wiki/reference/standards/boomerang-md v0.2
 # <Return Name> Boomerang
 
 **Canonical source:** [<wiki>/<page-slug>](https://<wiki>/<page-slug>): the rendered page this boomerang ships in.
-**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.2
+**Conforms to:** [BOOMERANG.md](https://appliedai.wiki/reference/standards/boomerang-md) v0.3
 
 [Orientation: what this extracts, who you hand it to, that the return is
 build-ready, one run per subject.]
 
 **Send note:** "Paste this whole thing into a new ChatGPT, Claude, or Grok
 chat. Answer out loud using dictation, not live voice mode. When it writes
-your <artifact>, paste that into a Google Doc and send me the link."
+your <artifact>, publish it as a shareable link (in Claude, hit Publish on
+the artifact) or paste it into a Google Doc, and send me the link."
 
 ## The Paste-In Prompt
 
@@ -216,9 +218,10 @@ structure:
 Rules: [bolding, length, be concrete, name unknowns rather than invent].
 No em dashes.
 
-FINALLY: tell me to paste the result into a Google Doc, set it to "anyone
-with the link can view," and send that link on. The doc is what I share,
-not this chat.
+FINALLY: tell me to publish the result as a shareable link (in Claude,
+Publish on the artifact) or, if my AI cannot publish, to paste it into a
+Google Doc set to "anyone with the link can view," and send that link on.
+The link is what I share, not this chat.
 
 Start now with Part 1. Ask me only the first question, then wait.
 ```
