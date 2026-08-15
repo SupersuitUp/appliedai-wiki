@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/self-improving-skills@ae6f629e00e1bdb53a531730594abb3c477abc17",
+      "type": "new",
+      "date": "2026-08-14T14:07:17-05:00",
+      "docKey": "concepts/self-improving-skills",
+      "routePath": "/concepts/self-improving-skills",
+      "section": "concepts",
+      "title": "Self-Improving Skills",
+      "description": "A skill earns its place by getting better: every run's corrections fold back into the file, the target is consistent one-shots on the cases you care about, and the update rules live in the skill itself so improving one case cannot silently degrade another."
+    },
+    {
+      "id": "perspectives/dont-hand-off-a-skill-until-it-one-shots@ae6f629e00e1bdb53a531730594abb3c477abc17",
+      "type": "updated",
+      "date": "2026-08-14T14:07:17-05:00",
+      "docKey": "perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "routePath": "/perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "section": "perspectives",
+      "title": "Don't Hand Off a Skill Until It One-Shots",
+      "description": "One-shot reliability at home is the readiness bar for sharing a skill with another person or deploying it to the cloud, because both moves price out the correction loop that made the skill good."
+    },
+    {
       "id": "concepts/boomerang-prompt@a83db65c4834e7335c31674867afce5c49e63934",
       "type": "updated",
       "date": "2026-08-14T12:33:51-05:00",
@@ -11202,16 +11222,6 @@
       "description": "As your agent gets better, the output format becomes the bottleneck. HTML is the upgrade most practitioners have not noticed yet."
     },
     {
-      "id": "concepts/hypercontext-protocol@fdf0cb56643154364f40dd2943ec7bfb4e33e442",
-      "type": "removed",
-      "date": "2026-05-15T15:53:48-05:00",
-      "docKey": "concepts/hypercontext-protocol",
-      "routePath": "",
-      "section": "concepts",
-      "title": "Hypercontext Protocol",
-      "description": "Your personal agent OS is your API to the world. The handshake between trusted parties when one agent needs context from another."
-    },
-    {
       "id": "concepts/integration-recipe@fdf0cb56643154364f40dd2943ec7bfb4e33e442",
       "type": "updated",
       "date": "2026-05-15T15:53:48-05:00",
@@ -12028,10 +12038,10 @@
       "type": "new",
       "date": "2026-05-15T11:35:52-05:00",
       "docKey": "concepts/hypercontext-protocol",
-      "routePath": "",
+      "routePath": "/concepts/hypercontext-protocol",
       "section": "concepts",
       "title": "Hypercontext Protocol",
-      "description": "Your personal agent OS is your API to the world. The handshake between trusted parties when one agent needs context from another."
+      "description": "The social contract for connecting a person's sovereign context to services and agents they don't own. Canonical home: hypercontextprotocol.com."
     },
     {
       "id": "concepts/integration-recipe@b12a0e2d5042bfada176a95fca0ceb24a52aeb35",
