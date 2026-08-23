@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip of equal panels in one row, separated by clean cream gutters with no drawn borders or frame lines. One consistent world, one consistent woman, one consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE FIGURE: a woman in her forties, Vietnamese, black hair in a low bun, wearing a warm mustard cardigan over a plain shirt. The same woman appears in all three panels and must be recognizably the same person in each.\n\nTHE SETTING: a warm workroom with a large drafting table. The glowing translucent amber laptop sits open on the table, small agent figures visible working inside the screen with a rounded chief figure in a gold military cap.\n\nBEAT ONE: the agents inside the laptop are handing out a single finished pale drawing, which now lies flat on the drafting table in front of her. It is neat, complete and entirely unremarkable. She looks at it with her hands still at her sides, not yet touching it.\n\nBEAT TWO: she has taken up a red pencil and is marking the drawing heavily, crossing through one whole region and redrawing that region herself. The marked-up drawing is visibly better and more alive than what she was handed. Inside the laptop the agents watch her hand.\n\nBEAT THREE: she holds the two versions up side by side at eye level, one in each hand, comparing them directly. The version she corrected is clearly stronger. She is studying the DIFFERENCE between the two sheets rather than either sheet.\n\nTEXT FURNITURE, character-exact, in the cream margins only and never over the artwork:\nTitle bar above the panels, in caps: BEATING THE DEFAULT\nCaption under panel one, in caps: THE MACHINE HANDS YOU THE MEAN\nCaption under panel two, in caps: YOU MARK IT UP\nCaption under panel three, in caps: THE DIFFERENCE IS YOUR EXPERTISE\nFooter bar below the panels, in caps: MEASURE THE GAP. IT IS THE ONLY PART THAT WAS EVER YOURS.\nNo other lettering anywhere. The drawings, table and walls carry NO text, NO labels, NO numbers and NO writing of any kind. The drawings are abstract linework, not diagrams with words.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No visible brand logo on the laptop.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-23T21:43:29.645987+00:00",
+  "sha256": "ff33df9843974c37ad9d8b3ba097a73ff7cad7ca02d7bb1a73e30d63c51e3ec7",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}
