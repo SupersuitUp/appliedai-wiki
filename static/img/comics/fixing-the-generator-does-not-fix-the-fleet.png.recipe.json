@@ -1,0 +1,31 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip of equal panels in one row, separated by clean cream gutters with no drawn borders or frame lines. One consistent workshop, one consistent woman, one consistent glowing amber laptop across all three panels, reading left to right as a progression.\n\nTHE FIGURE: a woman in her thirties, Black, short natural hair, wearing a slate-blue utility apron over a cream long-sleeved shirt. The same woman appears in all three panels and must be recognizably the same person in each.\n\nTHE SETTING: a warm workshop. On the left of the frame stands a heavy wooden casting mould on a bench. Along the back wall runs a long shelf holding EIGHT identical pale ceramic jugs, already made. The glowing translucent amber laptop sits open on the bench with small agent figures working inside the screen under a rounded chief figure in a gold military cap.\n\nBEAT ONE: she kneels at the mould with a small tool, repairing a visible chip in its inner edge. The mould is now clean and true. On the shelf behind her the eight jugs each still carry that same chip on the rim, clearly visible.\n\nBEAT TWO: a brand new ninth jug stands on the bench beside the mould, flawless, its rim perfect. She is looking past it to the shelf, where the eight older jugs still carry the chip, untouched. The contrast between the one new jug and the eight old ones is the subject of the panel.\n\nBEAT THREE: she stands at the shelf holding a small brass gauge against the rim of one jug, testing it. Three jugs she has already tested are turned to face outward with a small pale tag tied to each; the rest still wait. Inside the glowing laptop the agents hold a matching gauge, testing alongside her.\n\nTEXT FURNITURE, character-exact, in the cream margins only and never over the artwork:\nTitle bar above the panels, in caps: FIXING THE GENERATOR DOES NOT FIX THE FLEET\nCaption under panel one, in caps: THE MOULD IS REPAIRED\nCaption under panel two, in caps: THE SHELF IS UNCHANGED\nCaption under panel three, in caps: TEST EVERY ONE\nFooter bar below the panels, in caps: A FIX IS A DETECTOR PLUS A REMEDY.\nNo other lettering anywhere. The jugs, tags, shelf, bench and walls carry NO text, NO labels, NO numbers and NO writing of any kind.\n\nThere are EXACTLY EIGHT jugs on the shelf in every panel. Count them.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual. No visible brand logo on the laptop.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    }
+  ],
+  "timestamp": "2026-08-23T16:36:20.548939+00:00",
+  "sha256": "29d274a33394e8225fddfb2a4aef0336cf9866e4275b48247bebbd53ce986f4e",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "size": "1536x1024",
+  "quality": "high"
+}

@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hypercontext-protocol@c136d0d619fc8ed1d9868330088cde90e9ec50d0",
+      "type": "new",
+      "date": "2026-08-15T11:12:38-07:00",
+      "docKey": "concepts/hypercontext-protocol",
+      "routePath": "/concepts/hypercontext-protocol",
+      "section": "concepts",
+      "title": "Hypercontext Protocol",
+      "description": "The social contract for connecting a person's sovereign context to services and agents they don't own. Canonical home: hypercontextprotocol.com."
+    },
+    {
       "id": "concepts/self-improving-skills@ae6f629e00e1bdb53a531730594abb3c477abc17",
       "type": "new",
       "date": "2026-08-14T14:07:17-05:00",
