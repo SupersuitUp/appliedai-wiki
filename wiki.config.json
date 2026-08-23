@@ -2,7 +2,7 @@
   "$schema": "./wiki.config.schema.json",
   "title": "appliedai.wiki",
   "tagline": "Ground truth for applying AI to businesses, at the highest leverage possible.",
-  "url": "https://appliedai.wiki",
+  "url": "https://www.appliedai.wiki",
   "organizationName": "SupersuitUp",
   "projectName": "appliedai-wiki",
   "copyright": "appliedai.wiki",

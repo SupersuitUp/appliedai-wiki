@@ -100,9 +100,21 @@ git add static/skills/<name>/BOOMERANG.md docs/skills/index.md \
   docs/concepts/boomerang-prompt.md docs/reference/standards/boomerang-md.md
 git commit -m "boomerang: <Title>"
 git push
-curl -sL -o /tmp/boom.txt -w "%{http_code} %{url_effective}\n" \
+curl -sL -A "ClaudeBot/1.0" -o /tmp/boom.txt -w "%{http_code} %{url_effective}\n" \
   https://appliedai.wiki/skills/<name>/BOOMERANG.md
 ```
+
+**Verify with a BLOCKED bot UA, not a default one.** `middleware.ts` 403s a long
+list of agent user-agents, and its matcher only spares paths it names. A plain
+`curl` returns 200 while every agent the file exists for gets 403, so the default
+check is the one that cannot detect the failure. If you get a 403, add `skills/`
+(and `generators/`, if hosting one) to the matcher's negative-lookahead in
+`middleware.ts` and redeploy. Note `.md` is NOT in the asset-extension skip-list,
+so these paths are matched and blocked unless explicitly excluded.
+
+Earned 2026-07-29: every hosted skill on appliedai.wiki had been returning 403 to
+exactly the agents meant to fetch them, and a URL shipped inside a doc to a real
+person before anyone checked with the right UA.
 
 **The apex host 308-redirects to `www`.** A bare `curl` without `-L` returns
 308 forever and reads as a failed deploy; that is expected, not a bug. Follow
