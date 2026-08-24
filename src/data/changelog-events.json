@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/beating-the-default-is-table-stakes@1fafe2a1d7d1092928e2e8963714a7f382a585bf",
+      "type": "updated",
+      "date": "2026-08-23T21:16:29-04:00",
+      "docKey": "perspectives/beating-the-default-is-table-stakes",
+      "routePath": "/perspectives/beating-the-default-is-table-stakes",
+      "section": "perspectives",
+      "title": "Beating the Default Is Table Stakes",
+      "description": "Improving on the model's first pass only proves you are not worse than a machine alone. The comparison that prices you is you plus AI against the median competitor plus AI."
+    },
+    {
       "id": "perspectives/beating-the-default-is-table-stakes@b6c799a2eea789fcf81b1593acc47f925c726288",
       "type": "updated",
       "date": "2026-08-23T21:15:53-04:00",

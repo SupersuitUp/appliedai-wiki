@@ -32,11 +32,13 @@ So a fix worth propagating ships as a pair. A **detector** answers "does this in
 
 ## A real one, and what the detector was worth
 
-Eight documentation sites, one template. A swizzled theme component on two of them, added by hand long after the fork, opened with an early return of `null` before mount. That component wraps the entire application including the document head, so static generation emitted every page with an empty title and not one Open Graph tag. Those two sites had never produced a working link preview, on any page, since the component was written.
+Fifteen documentation sites from one template. A swizzled theme component was added by hand to four of them long after the fork, and on three of those four it opened with an early return of `null` before mount. That component wraps the entire application including the document head, so static generation emitted every page with an empty title and not one Open Graph tag. Those two sites had never produced a working link preview, on any page, since the component was written.
 
 Nothing reported it. The HTML was valid, every asset returned 200, and the build was green. The defect was visible only to a scraper, and scrapers do not file tickets.
 
-The obvious sweep is "apply the gate fix to all eight". Six of the eight have no such component at all. That sweep edits nothing on six repos and reports eight successes, and the two-versus-six split is exactly the information worth having, since it says the template was never the source and the defect was introduced twice by hand.
+The obvious sweep is "apply the gate fix to all fifteen". Eleven of the fifteen have no such component at all, and a twelfth has it without the defect. That sweep edits nothing on eleven repos and reports fifteen successes, and the split is exactly the information worth having, since it says the template was never the source and the defect was introduced by hand, three times, at three different moments.
+
+The audit that produced these numbers also caught the sweep that produced them. A first pass enumerated the sites it happened to have surveyed rather than the full set from the registry, reported the fleet as done, and missed a site that still carries the defect today. That is the failure this skill's own rule about enumerating from a registry exists to prevent, committed by the person who wrote the rule.
 
 ## Fixing one thing exposes what it was hiding
 

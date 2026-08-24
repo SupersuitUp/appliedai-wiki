@@ -26,13 +26,13 @@ sweep that reports success everywhere. Edits silently no-op on instances that
 drifted, on instances that never had the defect, and on instances where the
 anchor text differs by a character, and all three look identical to "done".
 
-Earned on a fleet of eight documentation sites. A swizzled theme component (a
+Earned on a fleet of fifteen documentation sites. A swizzled theme component (a
 password gate) returned `null` before mount, and since that component wrapped
 the whole app including the document head, static generation emitted every page
 with an empty `<title>` and zero Open Graph tags. The site had never produced a
 single working link preview. The obvious sweep is "apply the gate fix to all
-the sites". Five of the eight have no such component at all, so that sweep
-would have edited nothing on five repos and declared victory on all eight.
+the sites". Eleven of the fifteen have no such component at all, so that sweep
+would have edited nothing on eleven repos and declared victory on all fifteen.
 
 ### Prove the detector can fail before you trust it
 
@@ -140,9 +140,14 @@ hydration. A client-side gate never kept content out of the shipped bundle
 anyway; the edge middleware is the real boundary, and it deliberately passes
 link-preview bots so cards render.
 
-**What the survey found.** Two of eight sites had it. The other six have no such
-component and were already clean. A remedy-only sweep would have reported eight
-successes.
+**What the survey found.** Three of fifteen sites had it. Four carried the
+component at all, and one of those four never had the defect. A remedy-only
+sweep would have reported fifteen successes.
+
+**And the first pass got this wrong**, which is the sharper lesson. It
+enumerated the sites it had already surveyed instead of the full registry,
+reported the fleet as done, and missed a site still carrying the defect. Step 2
+below is not ceremony.
 
 ## Related
 
