@@ -36,6 +36,14 @@ const config: Config = {
     ? [{ tagName: 'meta', attributes: { name: 'robots', content: 'noindex, nofollow' } }]
     : [],
 
+  customFields: {
+    // Read at build time, exposed to the share-link button
+    // (src/components/ShareButton.tsx) and any client gate. Set on the Vercel
+    // project as WIKI_PASSWORD. Without this, "copy link" copies a URL the
+    // gate has already stripped the key from, and every shared link 401s.
+    wikiPassword: process.env.WIKI_PASSWORD ?? '',
+  },
+
   plugins: [
     './plugins/search-plugin',
     './plugins/creation-date-plugin',
@@ -49,6 +57,10 @@ const config: Config = {
         // old /foundations/* (or moved /concepts|/disciplines) link resolves
         // to the page's new home instead of 404ing.
         redirects: [
+          {
+            from: '/perspectives/if-your-judgment-does-not-beat-the-default-that-is-information',
+            to: '/perspectives/beating-the-default-is-table-stakes',
+          },
           { from: '/foundations/the-token-economy', to: '/perspectives/tokens-are-the-atomic-unit-of-ai-economics' },
           { from: '/foundations/the-survivor-economy', to: '/perspectives/every-company-is-quietly-sorting-its-people' },
           { from: '/foundations/the-elevator-economy', to: '/perspectives/there-is-no-standing-still-anymore' },
