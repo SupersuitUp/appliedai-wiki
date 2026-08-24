@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/beating-the-default-is-table-stakes@b6c799a2eea789fcf81b1593acc47f925c726288",
+      "type": "updated",
+      "date": "2026-08-23T21:15:53-04:00",
+      "docKey": "perspectives/beating-the-default-is-table-stakes",
+      "routePath": "/perspectives/beating-the-default-is-table-stakes",
+      "section": "perspectives",
+      "title": "Beating the Default Is Table Stakes",
+      "description": "Improving on the model's first pass only proves you are not worse than a machine alone. The comparison that prices you is you plus AI against the median competitor plus AI."
+    },
+    {
+      "id": "perspectives/beating-the-default-is-table-stakes@190a0802b5deba4a6c5a249ee1d1581640bce19f",
+      "type": "new",
+      "date": "2026-08-23T17:44:15-04:00",
+      "docKey": "perspectives/beating-the-default-is-table-stakes",
+      "routePath": "/perspectives/beating-the-default-is-table-stakes",
+      "section": "perspectives",
+      "title": "Beating the Default Is Table Stakes",
+      "description": "Improving on the model's first pass only proves you are not worse than a machine alone. The comparison that prices you is you plus AI against the median competitor plus AI."
+    },
+    {
       "id": "perspectives/fixing-the-generator-does-not-fix-the-fleet@a461663c23375a1c2856e19d15f55da59e8ca616",
       "type": "new",
       "date": "2026-08-23T12:37:48-04:00",
