@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "init": "bash scripts/init-wiki.sh",
-    "prebuild": "node scripts/llms-txt-env.mjs",
+    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -15,7 +15,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "test": "node --test scripts/gate-middleware.test.ts scripts/gate-core.test.ts"
+    "test": "node --test scripts/gate-middleware.test.ts scripts/gate-core.test.ts",
+    "check:admonitions": "node scripts/check-admonitions.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",

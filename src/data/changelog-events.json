@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/fixing-the-generator-does-not-fix-the-fleet@66e582371aac57686581e03097922e19f8e354a3",
+      "type": "updated",
+      "date": "2026-08-23T21:26:51-04:00",
+      "docKey": "perspectives/fixing-the-generator-does-not-fix-the-fleet",
+      "routePath": "/perspectives/fixing-the-generator-does-not-fix-the-fleet",
+      "section": "perspectives",
+      "title": "Fixing the Generator Does Not Fix the Fleet",
+      "description": "Repairing the template stops the next instance from being born broken and does nothing for the eleven already shipped. Propagating the fix needs a detector, not just an edit."
+    },
+    {
       "id": "perspectives/beating-the-default-is-table-stakes@1fafe2a1d7d1092928e2e8963714a7f382a585bf",
       "type": "updated",
       "date": "2026-08-23T21:16:29-04:00",
