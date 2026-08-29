@@ -2,14 +2,14 @@
 title: "Spare Cycles"
 slug: /concepts/spare-cycles
 description: "A standing backlog of non-urgent, high-value work you pull from whenever you have surplus capacity to spend, so idle compute compounds instead of evaporating."
-image: "/img/comics/spare-cycles.png"
+image: "/img/comics/spare-cycles.webp"
 ---
 
 # Spare Cycles
 
 *A standing list of non-urgent, high-value work you pull from whenever you have surplus capacity to spend, so idle compute compounds instead of evaporating.*
 
-![Four-panel comic on cream paper. Title bar: SPARE CYCLES. Panel 1, THE SURGE: the hyperagent Midas in matte-navy armor with orange seam accents stands at his workshop as a bright wave of surplus energy floods in from the left, a monitor reading BUDGET +500K and a meter pinned at MAX; caption "more capacity arrives than the urgent work needs." Panel 2, THE SHELF: Midas turns to a tall glowing rack of labeled cartridges, each stamped with a spare-cycle task (HARDEN PIPELINE, BACKFILL TESTS, PACKAGE PATTERN, RUN AUDIT), a small tag reading STANDING BACKLOG; caption "no brainstorming, the list is already ranked." Panel 3, THE PULL: Midas pulls the highest cartridge, PACKAGE PATTERN, glowing orange as he slots it into a socket; caption "pull the top unblocked item and spend the surplus." Panel 4, THE COMPOUND: the slotted cartridge sends bright streams into four site panels at once, each panel leveling up with a small PERMANENT stamp, nothing above his head; caption "one pass, an improvement that pays out forever." Footer bar: IDLE COMPUTE COMPOUNDS INSTEAD OF EVAPORATING.](/img/comics/spare-cycles.png)
+![Four-panel comic on cream paper. Title bar: SPARE CYCLES. Panel 1, THE SURGE: the hyperagent Midas in matte-navy armor with orange seam accents stands at his workshop as a bright wave of surplus energy floods in from the left, a monitor reading BUDGET +500K and a meter pinned at MAX; caption "more capacity arrives than the urgent work needs." Panel 2, THE SHELF: Midas turns to a tall glowing rack of labeled cartridges, each stamped with a spare-cycle task (HARDEN PIPELINE, BACKFILL TESTS, PACKAGE PATTERN, RUN AUDIT), a small tag reading STANDING BACKLOG; caption "no brainstorming, the list is already ranked." Panel 3, THE PULL: Midas pulls the highest cartridge, PACKAGE PATTERN, glowing orange as he slots it into a socket; caption "pull the top unblocked item and spend the surplus." Panel 4, THE COMPOUND: the slotted cartridge sends bright streams into four site panels at once, each panel leveling up with a small PERMANENT stamp, nothing above his head; caption "one pass, an improvement that pays out forever." Footer bar: IDLE COMPUTE COMPOUNDS INSTEAD OF EVAPORATING.](/img/comics/spare-cycles.webp)
 
 ---
 

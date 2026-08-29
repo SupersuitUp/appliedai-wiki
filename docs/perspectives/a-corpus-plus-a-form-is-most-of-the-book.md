@@ -2,14 +2,14 @@
 title: "A Corpus Plus a Form Is Most of the Book"
 slug: /perspectives/a-corpus-plus-a-form-is-most-of-the-book
 description: "When a life is captured as an annotated corpus and a story form is specified as a buildable artifact, an agentic production process can carry a book to 80 to 90 percent done. The human's remaining job is detailed editing and judgment."
-image: "/img/comics/a-corpus-plus-a-form-is-most-of-the-book.png"
+image: "/img/comics/a-corpus-plus-a-form-is-most-of-the-book.webp"
 ---
 
 # A Corpus Plus a Form Is Most of the Book
 
 *When a body of life material exists as an annotated corpus, and a story form (the shape of a specific kind of book) has been specified as a buildable artifact, an agentic production process can carry a draft to 80 to 90 percent done. What remains for the human is detailed editing, taste, and truth-checking, which is a different job than writing.*
 
-![Three-panel warm editorial hero strip titled A CORPUS PLUS A FORM. One: in a lamplit study, a woman in a rust cardigan sets a heavy archive box of dated cards, photos and journal pages beside a glowing amber laptop, a thin book-shaped stencil card leaning against the box; caption THE CORPUS AND THE FORM. Two: inside the laptop screen, the holographic Chief of Agents in his gold cap directs small sub-agents lifting the archive's cards through the book-shaped stencil, each card emerging as a clean typeset page settling into a nearly complete book, one non-fitting card set aside; caption AGENTS DRAFT TO FORM. Three: the near-finished manuscript lies printed on the desk while the same woman marks a page with a red pen, a small tray of loose pages awaiting her edits beside a clean approved stack; caption ONLY THE RED PEN REMAINS. Footer bar: CAPTURE FIRST. EDIT LAST.](/img/comics/a-corpus-plus-a-form-is-most-of-the-book.png)
+![Three-panel warm editorial hero strip titled A CORPUS PLUS A FORM. One: in a lamplit study, a woman in a rust cardigan sets a heavy archive box of dated cards, photos and journal pages beside a glowing amber laptop, a thin book-shaped stencil card leaning against the box; caption THE CORPUS AND THE FORM. Two: inside the laptop screen, the holographic Chief of Agents in his gold cap directs small sub-agents lifting the archive's cards through the book-shaped stencil, each card emerging as a clean typeset page settling into a nearly complete book, one non-fitting card set aside; caption AGENTS DRAFT TO FORM. Three: the near-finished manuscript lies printed on the desk while the same woman marks a page with a red pen, a small tray of loose pages awaiting her edits beside a clean approved stack; caption ONLY THE RED PEN REMAINS. Footer bar: CAPTURE FIRST. EDIT LAST.](/img/comics/a-corpus-plus-a-form-is-most-of-the-book.webp)
 
 ---
 

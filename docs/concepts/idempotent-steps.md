@@ -1,14 +1,14 @@
 ---
 title: "Idempotent Steps"
 description: "A step is idempotent when running it a second time is safe and changes nothing. In agentic work, where sessions crash, run out of context, and get interrupted constantly, idempotency converts crash recovery from a design problem into a non-problem: the recovery procedure is just run it again."
-image: "/img/comics/idempotent-steps.png"
+image: "/img/comics/idempotent-steps.webp"
 ---
 
 # Idempotent Steps
 
 *A step is idempotent when running it a second time is safe and changes nothing. Agents are interrupted constantly, so idempotency is what makes "just run it again" a complete recovery strategy instead of a gamble.*
 
-![Three panels, warm editorial ink and wash, one woman at a wooden desk with a glowing amber laptop, the same in each. One, THE RUN IS INTERRUPTED: inside the screen a workbench holds a row of clay lamps, three of them lit and the remaining places empty, and the screen is going dark while her hand lifts from the keyboard. Two, IT SKIPS WHAT IS DONE: the screen is lit again and a small rounded holographic figure in a gold military cap walks the bench, stepping past the lamps that are already burning and reaching only for the empty places. Three, ONLY THE MISSING WORK IS PAID FOR: every place on the bench now holds a lamp burning with the same steady glow, and she is leaning back, unhurried.](/img/comics/idempotent-steps.png)
+![Three panels, warm editorial ink and wash, one woman at a wooden desk with a glowing amber laptop, the same in each. One, THE RUN IS INTERRUPTED: inside the screen a workbench holds a row of clay lamps, three of them lit and the remaining places empty, and the screen is going dark while her hand lifts from the keyboard. Two, IT SKIPS WHAT IS DONE: the screen is lit again and a small rounded holographic figure in a gold military cap walks the bench, stepping past the lamps that are already burning and reaching only for the empty places. Three, ONLY THE MISSING WORK IS PAID FOR: every place on the bench now holds a lamp burning with the same steady glow, and she is leaning back, unhurried.](/img/comics/idempotent-steps.webp)
 
 ---
 

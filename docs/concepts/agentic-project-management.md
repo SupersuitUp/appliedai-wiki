@@ -2,14 +2,14 @@
 title: "Agentic Project Management"
 slug: /concepts/agentic-project-management
 description: "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
-image: "/img/comics/agentic-project-management.png"
+image: "/img/comics/agentic-project-management.webp"
 ---
 
 # Agentic Project Management
 
 *Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent whose only job is to answer what is next. Version control, source control and resumability stop being things to build and arrive for free.*
 
-![Comic hero: three panels, the same man at the same desk. One, he sits with his head in both hands while loose paper, sticky notes and printed pages drift in a disordered cloud around him; his laptop is closed and dark and a wall calendar behind him has one date circled in red. Two, the drifting scraps stream down in an orderly line into a single large ruled ledger open on the desk, filing themselves; beside it the whole laptop is now a translucent glowing amber object and his hands rest open and empty. Three, he walks out through a doorway with his coat over his arm while the ledger stays open on the desk and, inside the still-glowing laptop, a small rounded figure holds up one card with a single task on it.](/img/comics/agentic-project-management.png)
+![Comic hero: three panels, the same man at the same desk. One, he sits with his head in both hands while loose paper, sticky notes and printed pages drift in a disordered cloud around him; his laptop is closed and dark and a wall calendar behind him has one date circled in red. Two, the drifting scraps stream down in an orderly line into a single large ruled ledger open on the desk, filing themselves; beside it the whole laptop is now a translucent glowing amber object and his hands rest open and empty. Three, he walks out through a doorway with his coat over his arm while the ledger stays open on the desk and, inside the still-glowing laptop, a small rounded figure holds up one card with a single task on it.](/img/comics/agentic-project-management.webp)
 
 ---
 

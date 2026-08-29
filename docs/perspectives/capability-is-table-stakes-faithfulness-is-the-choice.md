@@ -2,14 +2,14 @@
 title: "Capability Is Table Stakes, Faithfulness Is the Choice"
 slug: /perspectives/capability-is-table-stakes-faithfulness-is-the-choice
 description: "The bar for choosing an agentic stack is faithfulness: acting in the spirit of your mission when your instructions run out, and sometimes holding you to a higher standard than you asked for."
-image: "/img/comics/pick-a-stack-that-can-be-faithful-to-your-mission.png"
+image: "/img/comics/pick-a-stack-that-can-be-faithful-to-your-mission.webp"
 ---
 
 # Capability Is Table Stakes, Faithfulness Is the Choice
 
 *The bar for choosing an agentic stack is whether it can be faithful to your mission: filling the gaps in your instructions with the spirit of what you are trying to do, because it holds enough context to know that spirit, and sometimes holding you to a higher standard than you asked for.*
 
-![Three panels. One: at a warm wooden desk, a silver-haired woman in a rust cardigan slides a thin handwritten note toward the glowing amber laptop, where the Chief of Agents listens in front of a tall shelf of glowing files; caption A THIN INSTRUCTION. Two: inside the screen, files pulled from that shelf float open around the Chief as a rich many-part piece of work assembles, far fuller than the tiny note beside it; caption THE CORPUS FILLS THE GAP. Three: the screen holds one glowing page out toward the woman like a gentle mirror while her hand hovers over a crumpled shortcut note, and she pauses and nods; caption HELD TO THE STANDARD. Title bar: FAITHFUL TO THE MISSION. Footer: IT KNOWS YOUR SPIRIT. IT HOLDS YOUR STANDARD.](/img/comics/pick-a-stack-that-can-be-faithful-to-your-mission.png)
+![Three panels. One: at a warm wooden desk, a silver-haired woman in a rust cardigan slides a thin handwritten note toward the glowing amber laptop, where the Chief of Agents listens in front of a tall shelf of glowing files; caption A THIN INSTRUCTION. Two: inside the screen, files pulled from that shelf float open around the Chief as a rich many-part piece of work assembles, far fuller than the tiny note beside it; caption THE CORPUS FILLS THE GAP. Three: the screen holds one glowing page out toward the woman like a gentle mirror while her hand hovers over a crumpled shortcut note, and she pauses and nods; caption HELD TO THE STANDARD. Title bar: FAITHFUL TO THE MISSION. Footer: IT KNOWS YOUR SPIRIT. IT HOLDS YOUR STANDARD.](/img/comics/pick-a-stack-that-can-be-faithful-to-your-mission.webp)
 
 ---
 

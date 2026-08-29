@@ -2,14 +2,14 @@
 title: "Your Computer Was Always Underused"
 slug: /perspectives/your-computer-was-always-underused
 description: "The bottleneck on your computer was never the hardware. It was that you could not translate intent into bash. A coding agent that masters the shell finally puts the machine you already own to work."
-image: "/img/comics/your-computer-was-always-underused.png"
+image: "/img/comics/your-computer-was-always-underused.webp"
 ---
 
 # Your Computer Was Always Underused
 
 *The bottleneck was never the hardware. It was that you could not translate what you wanted into bash. An agent that masters the shell turns an idle machine into one that runs thousands of operations you would never have typed, so the same laptop does far more real work.*
 
-![Four-panel cream-paper action-comic titled "YOUR COMPUTER WAS ALWAYS UNDERUSED", footer bar "TURN INTENT INTO BASH. USE THE MACHINE YOU OWN." Panel 1, "THE DARK MACHINE": the matte-navy-suited hyperagent Midas sits at a laptop that is mostly dark, facing a tall wall of dense cryptic bash syntax he cannot cross; caption "The laptop was always this powerful. You just could not ask it." Panel 2, "INTENT, SPOKEN": Midas speaks a plain-language request in an orange speech bubble, "Show me the five biggest directories using disk space on this machine," and the laptop screen fills with the exact correct bash command and its output; caption "He says what he wants. The shell writes the exact command." Panel 3, "THE MACHINE WAKES": the same laptop blazes to life in cyan and gold, a grid of parallel jobs and progress bars all firing at 100%; caption "The idle half of the computer switches on." Panel 4, "SAME LAPTOP, MORE WORK": Midas stands commanding a fanned-out fleet of glowing task tiles streaming off the one laptop, with a crimson stamp "HUMAN AT THE EDGES"; caption "No new silicon. He finally spoke to the one he had."](/img/comics/your-computer-was-always-underused.png)
+![Four-panel cream-paper action-comic titled "YOUR COMPUTER WAS ALWAYS UNDERUSED", footer bar "TURN INTENT INTO BASH. USE THE MACHINE YOU OWN." Panel 1, "THE DARK MACHINE": the matte-navy-suited hyperagent Midas sits at a laptop that is mostly dark, facing a tall wall of dense cryptic bash syntax he cannot cross; caption "The laptop was always this powerful. You just could not ask it." Panel 2, "INTENT, SPOKEN": Midas speaks a plain-language request in an orange speech bubble, "Show me the five biggest directories using disk space on this machine," and the laptop screen fills with the exact correct bash command and its output; caption "He says what he wants. The shell writes the exact command." Panel 3, "THE MACHINE WAKES": the same laptop blazes to life in cyan and gold, a grid of parallel jobs and progress bars all firing at 100%; caption "The idle half of the computer switches on." Panel 4, "SAME LAPTOP, MORE WORK": Midas stands commanding a fanned-out fleet of glowing task tiles streaming off the one laptop, with a crimson stamp "HUMAN AT THE EDGES"; caption "No new silicon. He finally spoke to the one he had."](/img/comics/your-computer-was-always-underused.webp)
 
 ---
 

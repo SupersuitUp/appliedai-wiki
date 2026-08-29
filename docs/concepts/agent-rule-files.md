@@ -2,14 +2,14 @@
 title: "Agent Rule Files"
 slug: /concepts/agent-rule-files
 description: "Standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. Imperative, persistent, always-on. The version-controlled spine of how an agent behaves inside your workspace."
-image: "/img/comics/agent-rule-files.png"
+image: "/img/comics/agent-rule-files.webp"
 ---
 
 # Agent Rule Files
 
 *Standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. Imperative, persistent, always-on. The version-controlled spine of how an agent behaves inside your workspace.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: She speaks the same instruction to the agent inside the laptop, and an untidy pile of identical repeated notes has built up on the bench beside her. Two: She has engraved one plate and bolted it to the inside of the laptop's frame with a small wrench. She sweeps the pile of repeated notes off the bench into a bin. Three: Three different agents inside the laptop arrive one after another, and each one turns and reads the same bolted plate first without being told. She is not in the frame's centre, standing aside with the wrench still in hand.](/img/comics/agent-rule-files.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: She speaks the same instruction to the agent inside the laptop, and an untidy pile of identical repeated notes has built up on the bench beside her. Two: She has engraved one plate and bolted it to the inside of the laptop's frame with a small wrench. She sweeps the pile of repeated notes off the bench into a bin. Three: Three different agents inside the laptop arrive one after another, and each one turns and reads the same bolted plate first without being told. She is not in the frame's centre, standing aside with the wrench still in hand.](/img/comics/agent-rule-files.webp)
 
 ---
 

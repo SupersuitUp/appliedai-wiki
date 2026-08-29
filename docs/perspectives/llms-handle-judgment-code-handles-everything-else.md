@@ -2,14 +2,14 @@
 title: "LLMs Handle Judgment, Code Handles Everything Else"
 slug: /perspectives/llms-handle-judgment-code-handles-everything-else
 description: LLMs handle judgment. Code handles everything else. The architectural rule that keeps agentic systems trustworthy.
-image: "/img/comics/llms-handle-judgment-code-handles-everything-else.png"
+image: "/img/comics/llms-handle-judgment-code-handles-everything-else.webp"
 ---
 
 # LLMs Handle Judgment, Code Handles Everything Else
 
 *LLMs handle judgment. Code handles everything else.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop, an agent figure is slowly and laboriously counting a long line of identical small parts by hand, looking tired. Two: She has installed a small brass mechanical counter beside the line, which is now doing the counting instantly. The agent has turned away from the line entirely. Three: Two lanes run side by side inside the laptop. In one, the brass counter ticks through the identical parts. In the other, the agent holds up two nearly identical pieces and studies them closely, choosing between them. She watches from outside, satisfied.](/img/comics/llms-handle-judgment-code-handles-everything-else.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop, an agent figure is slowly and laboriously counting a long line of identical small parts by hand, looking tired. Two: She has installed a small brass mechanical counter beside the line, which is now doing the counting instantly. The agent has turned away from the line entirely. Three: Two lanes run side by side inside the laptop. In one, the brass counter ticks through the identical parts. In the other, the agent holds up two nearly identical pieces and studies them closely, choosing between them. She watches from outside, satisfied.](/img/comics/llms-handle-judgment-code-handles-everything-else.webp)
 
 ---
 

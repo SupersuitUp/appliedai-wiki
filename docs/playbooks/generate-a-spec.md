@@ -2,14 +2,14 @@
 title: Generate a Build-Ready Spec
 slug: /playbooks/generate-a-spec
 description: A Boomerang Prompt that turns a vague "can you help me build this?" into a build-ready spec. Hand it to the person who wants something built, an AI interviews them on their own time, and it returns a nine-section spec led by a triage-ready TL;DR that they send back as a shared link.
-image: "/img/comics/generate-a-spec.png"
+image: "/img/comics/generate-a-spec.webp"
 ---
 
 # Generate a Build-Ready Spec
 
 *A Boomerang Prompt you hand to anyone who asks for build help but gives you no spec: an AI interviews them on their own time and returns a spec precise enough for you to decide "can I help, or who do I forward this to."*
 
-![Three-panel cream-paper comic. Title bar: GENERATE A BUILD-READY SPEC. Panel 1, THE VAGUE ASK: a flesh person in a yellow hoodie shrugs and holds out a nearly blank sticky note reading "can you build me a thing?" to a hyperagent in matte-navy plate armor with orange seams and a cyan visor; caption "They ask for help with no spec." Panel 2, IT INTERVIEWS THEM: the same person sits talking into their phone, their spoken words streaming out as a golden ribbon of labeled interview beats (THE ASK, CURRENT REALITY, THE DREAM, FEATURES, DATA, CONSTRAINTS) with a small cyan question-mark bubble; caption "One question at a time, on their own time." Panel 3, IT COMES BACK BUILD-READY: a glowing Google Doc unfurls from the hyperagent's gauntlet, topped by a boxed TL;DR panel stamped READY, with labeled spec sections (project scope, technical requirements, constraints) beneath; caption "You read the TL;DR and route it in ten seconds." Footer bar: GATHERING IS THEIRS. TRIAGE IS YOURS.](/img/comics/generate-a-spec.png)
+![Three-panel cream-paper comic. Title bar: GENERATE A BUILD-READY SPEC. Panel 1, THE VAGUE ASK: a flesh person in a yellow hoodie shrugs and holds out a nearly blank sticky note reading "can you build me a thing?" to a hyperagent in matte-navy plate armor with orange seams and a cyan visor; caption "They ask for help with no spec." Panel 2, IT INTERVIEWS THEM: the same person sits talking into their phone, their spoken words streaming out as a golden ribbon of labeled interview beats (THE ASK, CURRENT REALITY, THE DREAM, FEATURES, DATA, CONSTRAINTS) with a small cyan question-mark bubble; caption "One question at a time, on their own time." Panel 3, IT COMES BACK BUILD-READY: a glowing Google Doc unfurls from the hyperagent's gauntlet, topped by a boxed TL;DR panel stamped READY, with labeled spec sections (project scope, technical requirements, constraints) beneath; caption "You read the TL;DR and route it in ten seconds." Footer bar: GATHERING IS THEIRS. TRIAGE IS YOURS.](/img/comics/generate-a-spec.webp)
 
 ---
 

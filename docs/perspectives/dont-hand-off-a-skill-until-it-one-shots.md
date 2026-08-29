@@ -2,14 +2,14 @@
 title: "Don't Hand Off a Skill Until It One-Shots"
 slug: /perspectives/dont-hand-off-a-skill-until-it-one-shots
 description: "One-shot reliability at home is the readiness bar for sharing a skill with another person or deploying it to the cloud, because both moves price out the correction loop that made the skill good."
-image: "/img/comics/dont-hand-off-a-skill-until-it-one-shots.png"
+image: "/img/comics/dont-hand-off-a-skill-until-it-one-shots.webp"
 ---
 
 # Don't Hand Off a Skill Until It One-Shots
 
 *Iterating with an agent is cheap when you are in the room and expensive everywhere else. So the readiness bar for handing a skill off, whether that means sharing it with another person or deploying it to run unattended in the cloud, is one-shot reliability at home: you invoke it once, the output is basically right, and your edits are trivial. Until a skill clears that bar, every frustrating run is training data for the skill file, and escalating it out of your supervision is escalating the frustration to a place where you can no longer fix it.*
 
-![Three warm editorial panels titled DON'T HAND OFF UNTIL IT ONE-SHOTS. One: a man in a rust sweater leans in at the glowing amber laptop, frowning and pointing at a crooked stack of film clips inside the screen where the Chief of Agents stands; an amber line loops down into a desk card reading SKILL; caption CORRECT. FOLD IT BACK. Two: the same man sits back delighted, hands off the keys, while the Chief of Agents presents one clean aligned row of clips and the SKILL card glows; caption ONE CALL. CLEAN OUTPUT. Three: the chair is empty, the laptop works on unattended with an amber thread rising to a small cloud, and the man is at the open door with a travel bag, glancing back; caption NOW IT RUNS WITHOUT YOU. Footer: ITERATE WHERE FEEDBACK IS CHEAP. HAND OFF WHAT ONE-SHOTS.](/img/comics/dont-hand-off-a-skill-until-it-one-shots.png)
+![Three warm editorial panels titled DON'T HAND OFF UNTIL IT ONE-SHOTS. One: a man in a rust sweater leans in at the glowing amber laptop, frowning and pointing at a crooked stack of film clips inside the screen where the Chief of Agents stands; an amber line loops down into a desk card reading SKILL; caption CORRECT. FOLD IT BACK. Two: the same man sits back delighted, hands off the keys, while the Chief of Agents presents one clean aligned row of clips and the SKILL card glows; caption ONE CALL. CLEAN OUTPUT. Three: the chair is empty, the laptop works on unattended with an amber thread rising to a small cloud, and the man is at the open door with a travel bag, glancing back; caption NOW IT RUNS WITHOUT YOU. Footer: ITERATE WHERE FEEDBACK IS CHEAP. HAND OFF WHAT ONE-SHOTS.](/img/comics/dont-hand-off-a-skill-until-it-one-shots.webp)
 
 ---
 

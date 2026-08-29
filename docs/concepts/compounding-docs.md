@@ -2,14 +2,14 @@
 title: "Compounding Docs"
 slug: /concepts/compounding-docs
 description: "Every document you write makes your AI agent smarter. Every smarter agent output makes the next document faster. The flywheel nobody talks about."
-image: "/img/comics/compounding-docs.png"
+image: "/img/comics/compounding-docs.webp"
 ---
 
 # Compounding Docs
 
 *Every document you write makes your AI agent smarter. Every smarter agent output makes the next document faster. This is the flywheel nobody talks about.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: He slides one handwritten page into a slot in the side of the laptop. Inside, a small agent figure produces a plain, crude little object. Two: The slot now holds a thick stack of pages. The object the agent is producing is visibly finer and larger than before. Three: The agent inside is now writing new pages itself and adding them to the stack while producing an even finer object. He has stepped back with his hands in his pockets, not writing.](/img/comics/compounding-docs.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: He slides one handwritten page into a slot in the side of the laptop. Inside, a small agent figure produces a plain, crude little object. Two: The slot now holds a thick stack of pages. The object the agent is producing is visibly finer and larger than before. Three: The agent inside is now writing new pages itself and adding them to the stack while producing an even finer object. He has stepped back with his hands in his pockets, not writing.](/img/comics/compounding-docs.webp)
 
 ---
 

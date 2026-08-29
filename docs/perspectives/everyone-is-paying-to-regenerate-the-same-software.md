@@ -2,14 +2,14 @@
 title: "Everyone Is Paying to Regenerate the Same Software"
 slug: /perspectives/everyone-is-paying-to-regenerate-the-same-software
 description: "Thousands of operators are independently spending tokens to generate the same handful of near-platonic modules, then leaving each copy to die in a private repo. The generated artifact is worth more published than kept, and almost nobody publishes."
-image: "/img/comics/everyone-is-paying-to-regenerate-the-same-software.png"
+image: "/img/comics/everyone-is-paying-to-regenerate-the-same-software.webp"
 ---
 
 # Everyone Is Paying to Regenerate the Same Software
 
 *A model already holds the pattern for a declarations app, a changelog widget, a password gate. Every operator who wants one pays again to materialize it, then leaves the result in a private repo where it helps exactly one person. The waste is not the tokens. It is that almost none of this gets published.*
 
-![Three panels. One: in a warm workshop, a maker sits at a glowing amber laptop while inside the screen small agents assemble a neat cabinet from scratch; caption "GENERATE IT FROM NOTHING". Two: the view pulls back to a long row of identical workshops stretching into the distance, each with its own maker, its own glowing laptop, and its own set of agents building the very same cabinet, none of them able to see the others; caption "SO DOES EVERYONE ELSE". Three: one maker carries their finished cabinet out and sets it on a public shelf in a shared courtyard where a few others already stand; other makers are lifting cabinets off the shelf and walking away with them while their agents start on something new; caption "PUBLISH ONCE, SKIP THE REBUILD". Footer bar: THE SECOND BUILD OF A SOLVED THING IS WASTE.](/img/comics/everyone-is-paying-to-regenerate-the-same-software.png)
+![Three panels. One: in a warm workshop, a maker sits at a glowing amber laptop while inside the screen small agents assemble a neat cabinet from scratch; caption "GENERATE IT FROM NOTHING". Two: the view pulls back to a long row of identical workshops stretching into the distance, each with its own maker, its own glowing laptop, and its own set of agents building the very same cabinet, none of them able to see the others; caption "SO DOES EVERYONE ELSE". Three: one maker carries their finished cabinet out and sets it on a public shelf in a shared courtyard where a few others already stand; other makers are lifting cabinets off the shelf and walking away with them while their agents start on something new; caption "PUBLISH ONCE, SKIP THE REBUILD". Footer bar: THE SECOND BUILD OF A SOLVED THING IS WASTE.](/img/comics/everyone-is-paying-to-regenerate-the-same-software.webp)
 
 ---
 

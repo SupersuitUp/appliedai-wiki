@@ -2,14 +2,14 @@
 title: "Paving the Desire Path"
 slug: /concepts/paving-the-desire-path
 description: "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died."
-image: "/img/comics/paving-the-desire-path.png"
+image: "/img/comics/paving-the-desire-path.webp"
 ---
 
 # Paving the Desire Path
 
 *The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died.*
 
-![Three panels in a warm workroom, title bar reading PAVING THE DESIRE PATH. One, captioned THE RUN SHIPS: a woman in an olive sweater walks away from her desk toward the open door, her back to us, while the glowing amber laptop sits finished behind her and a scatter of small pale paper cards lies across the floorboards she is not looking at. Two, captioned SEE THE WORN LINE: she has come back and stands still in the middle of the room, head bowed, looking down for the first time, and from her angle the scattered cards resolve into one single worn line across the floor with the boards rubbed pale along that line and untouched everywhere else. Three, captioned PAVE ONLY THAT LINE: she kneels and lays smooth pale paving stones along exactly that one line and nowhere else, the rest of the floor left plain, while inside the laptop screen the same line now runs as one clean continuous amber rail. Footer bar reading DISCOVER THE PATH, THEN PAVE IT.](/img/comics/paving-the-desire-path.png)
+![Three panels in a warm workroom, title bar reading PAVING THE DESIRE PATH. One, captioned THE RUN SHIPS: a woman in an olive sweater walks away from her desk toward the open door, her back to us, while the glowing amber laptop sits finished behind her and a scatter of small pale paper cards lies across the floorboards she is not looking at. Two, captioned SEE THE WORN LINE: she has come back and stands still in the middle of the room, head bowed, looking down for the first time, and from her angle the scattered cards resolve into one single worn line across the floor with the boards rubbed pale along that line and untouched everywhere else. Three, captioned PAVE ONLY THAT LINE: she kneels and lays smooth pale paving stones along exactly that one line and nowhere else, the rest of the floor left plain, while inside the laptop screen the same line now runs as one clean continuous amber rail. Footer bar reading DISCOVER THE PATH, THEN PAVE IT.](/img/comics/paving-the-desire-path.webp)
 
 ---
 

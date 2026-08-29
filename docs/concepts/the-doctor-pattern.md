@@ -2,14 +2,14 @@
 title: "The Doctor Pattern"
 slug: /concepts/the-doctor-pattern
 description: "Give an agent an explicit rubric that IS your definition of done, then loop it: grade, fix the highest-impact gap, re-grade, repeat."
-image: "/img/comics/the-doctor-pattern.png"
+image: "/img/comics/the-doctor-pattern.webp"
 ---
 
 # The Doctor Pattern
 
 *Write down the rubric that IS your definition of "good and complete," then loop an agent against it: grade, fix the highest-impact gap, re-grade, repeat, until you say stop.*
 
-![A warm ink-and-wash plate on cream paper: a glowing amber translucent laptop sits on a desk with coffee and plants. Inside its screen the Chief of Agents, a rounded character in a gold military cap, points at a chart where a grade sweeps from "F" up to a bright "A+" beside a numbered punch-list; a human hand reaches in from the real world pressing a stamp to check one punch-list row. The agent grades and improves inside the glowing laptop; the human supplies the taste check.](/img/comics/the-doctor-pattern.png)
+![A warm ink-and-wash plate on cream paper: a glowing amber translucent laptop sits on a desk with coffee and plants. Inside its screen the Chief of Agents, a rounded character in a gold military cap, points at a chart where a grade sweeps from "F" up to a bright "A+" beside a numbered punch-list; a human hand reaches in from the real world pressing a stamp to check one punch-list row. The agent grades and improves inside the glowing laptop; the human supplies the taste check.](/img/comics/the-doctor-pattern.webp)
 
 ---
 

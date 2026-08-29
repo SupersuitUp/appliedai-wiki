@@ -2,14 +2,14 @@
 title: "The Renderer and the Payload"
 slug: /concepts/the-renderer-and-the-payload
 description: "Every generated artifact is two things fused by default: the presentation and the content. Host the renderer once, let the content travel as data, and the cost, the shelf life, and the privacy of the artifact all change at once."
-image: "/img/comics/the-renderer-and-the-payload.png"
+image: "/img/comics/the-renderer-and-the-payload.webp"
 ---
 
 # The Renderer and the Payload
 
 *Every generated artifact is two things fused by default: the **renderer** that presents it and the **payload** that is actually about this reader. Host the renderer once and let the payload travel as data, and the cost, the shelf life, and the privacy of the artifact all change at once.*
 
-![Three-panel comic in neo-comic action-zine style on cream paper with matte-navy armor and vivid orange seam accents. Title bar: THE RENDERER AND THE PAYLOAD. Panel 1, EVERY TIME, FROM SCRATCH: the hyperagent hunches over a workbench redrawing the same empty page frame by hand, a tall stack of identical sheets beside him each stamped REBUILT, a mug reading ITERATE RELENTLESSLY, a sticky note reading 90 PERCENT THE SAME. Caption: redraw the frame, same page, same margins, over and over. Panel 2, SPLIT IT: the hyperagent stands beside a heavy carved frame labelled THE RENDERER mounted on a pedestal stamped HOSTED ONCE, holding out a small glowing cyan slip labelled THE PAYLOAD. Caption: the renderer holds the frame, the payload is what you hand off. Panel 3, ONE FIX, EVERY ARTIFACT: first-person POV through an armored helmet visor, a gauntleted finger tapping the hosted frame while a receding row of already-sent artifacts each flip to a cyan checkmark stamped UPDATED, with timestamps reading SENT 12:41 and SENT 12:42, and a large HUD card reading FIXED EVERYWHERE, INCLUDING THE ONES ALREADY SENT. Footer bar: HOST THE FRAME. SEND THE CONTENT.](/img/comics/the-renderer-and-the-payload.png)
+![Three-panel comic in neo-comic action-zine style on cream paper with matte-navy armor and vivid orange seam accents. Title bar: THE RENDERER AND THE PAYLOAD. Panel 1, EVERY TIME, FROM SCRATCH: the hyperagent hunches over a workbench redrawing the same empty page frame by hand, a tall stack of identical sheets beside him each stamped REBUILT, a mug reading ITERATE RELENTLESSLY, a sticky note reading 90 PERCENT THE SAME. Caption: redraw the frame, same page, same margins, over and over. Panel 2, SPLIT IT: the hyperagent stands beside a heavy carved frame labelled THE RENDERER mounted on a pedestal stamped HOSTED ONCE, holding out a small glowing cyan slip labelled THE PAYLOAD. Caption: the renderer holds the frame, the payload is what you hand off. Panel 3, ONE FIX, EVERY ARTIFACT: first-person POV through an armored helmet visor, a gauntleted finger tapping the hosted frame while a receding row of already-sent artifacts each flip to a cyan checkmark stamped UPDATED, with timestamps reading SENT 12:41 and SENT 12:42, and a large HUD card reading FIXED EVERYWHERE, INCLUDING THE ONES ALREADY SENT. Footer bar: HOST THE FRAME. SEND THE CONTENT.](/img/comics/the-renderer-and-the-payload.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "Neurosymbolic AI"
 slug: /concepts/neurosymbolic-ai
 description: "Wiring a probabilistic neural model to a formal symbolic layer (an ontology, a rule set, a type system) so the parts that must be exact get checked by something that cannot hallucinate. The name for the architecture reliable agent systems keep converging on."
-image: "/img/comics/neurosymbolic-ai.png"
+image: "/img/comics/neurosymbolic-ai.webp"
 ---
 
 # Neurosymbolic AI
 
 *Wiring a probabilistic neural model to a formal symbolic layer (an ontology, a rule set, a type system) so the parts that must be exact get checked by something that cannot hallucinate. The name for the architecture reliable agent systems keep converging on without knowing it has one.*
 
-![Warm editorial plate: a glowing translucent orange holographic laptop sits on a wooden desk in soft daylight. Inside the screen face, two halves are wired together by a single luminous cable. On the left, the Chief of Agents, a small blocky orange mascot in an ornate gold admiral cap, stands inside a soft billowing cloud of loose half-formed shapes and holds out a blank slip of paper. On the right, a rigid geometric lattice of hard round nodes joined by straight ruled edges has swung shut like a gate directly in front of the slip, stopping it, and the node at the closed joint is ringed with light. Outside the laptop, on the real desk, an open notebook lies with the same lattice drawn by hand in pencil, one human hand resting calmly beside it.](/img/comics/neurosymbolic-ai.png)
+![Warm editorial plate: a glowing translucent orange holographic laptop sits on a wooden desk in soft daylight. Inside the screen face, two halves are wired together by a single luminous cable. On the left, the Chief of Agents, a small blocky orange mascot in an ornate gold admiral cap, stands inside a soft billowing cloud of loose half-formed shapes and holds out a blank slip of paper. On the right, a rigid geometric lattice of hard round nodes joined by straight ruled edges has swung shut like a gate directly in front of the slip, stopping it, and the node at the closed joint is ringed with light. Outside the laptop, on the real desk, an open notebook lies with the same lattice drawn by hand in pencil, one human hand resting calmly beside it.](/img/comics/neurosymbolic-ai.webp)
 
 ---
 

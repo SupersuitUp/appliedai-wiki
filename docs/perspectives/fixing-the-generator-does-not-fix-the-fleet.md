@@ -1,14 +1,14 @@
 ---
 title: "Fixing the Generator Does Not Fix the Fleet"
 description: "Repairing the template stops the next instance from being born broken and does nothing for the eleven already shipped. Propagating the fix needs a detector, not just an edit."
-image: "/img/comics/fixing-the-generator-does-not-fix-the-fleet.png"
+image: "/img/comics/fixing-the-generator-does-not-fix-the-fleet.webp"
 ---
 
 # Fixing the Generator Does Not Fix the Fleet
 
 *Repairing the template stops the next instance from being born broken and does nothing for the eleven already shipped. Propagating the fix needs a detector, not just an edit.*
 
-![Three panels in a warm pottery workshop. One, captioned THE MOULD IS REPAIRED: a woman in a slate-blue apron kneels at a wooden casting mould, repairing a chip in its inner edge, while a shelf of eight already-made pale jugs behind her each still carry that same chip on the rim, and a glowing amber laptop beside her shows small agents working under a gold-capped chief. Two, captioned THE SHELF IS UNCHANGED: a flawless ninth jug stands on the bench beside the repaired mould while she looks past it to the eight older jugs on the shelf, still chipped and untouched. Three, captioned TEST EVERY ONE: she stands at the shelf holding a brass gauge against a jug's rim, three already-tested jugs carrying small pale tags, while inside the laptop the agents hold a matching gauge and test alongside her.](/img/comics/fixing-the-generator-does-not-fix-the-fleet.png)
+![Three panels in a warm pottery workshop. One, captioned THE MOULD IS REPAIRED: a woman in a slate-blue apron kneels at a wooden casting mould, repairing a chip in its inner edge, while a shelf of eight already-made pale jugs behind her each still carry that same chip on the rim, and a glowing amber laptop beside her shows small agents working under a gold-capped chief. Two, captioned THE SHELF IS UNCHANGED: a flawless ninth jug stands on the bench beside the repaired mould while she looks past it to the eight older jugs on the shelf, still chipped and untouched. Three, captioned TEST EVERY ONE: she stands at the shelf holding a brass gauge against a jug's rim, three already-tested jugs carrying small pale tags, while inside the laptop the agents hold a matching gauge and test alongside her.](/img/comics/fixing-the-generator-does-not-fix-the-fleet.webp)
 
 ---
 

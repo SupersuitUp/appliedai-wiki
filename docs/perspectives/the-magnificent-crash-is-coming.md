@@ -2,14 +2,14 @@
 title: "The Magnificent Crash Is Coming"
 slug: /perspectives/the-magnificent-crash-is-coming
 description: "A large market correction is coming because there is far more AI technology than there is guidance to deploy it. The valuations assume a transformation that trust, which forms slowly, cannot deliver on the implied schedule."
-image: "/img/comics/the-magnificent-crash-is-coming.png"
+image: "/img/comics/the-magnificent-crash-is-coming.webp"
 ---
 
 # The Magnificent Crash Is Coming
 
 *A large market correction is coming because there is far more AI technology than there is guidance and human capability to deploy it. The valuations assume a transformation that trust, which forms slowly, cannot deliver on the implied schedule.*
 
-![Three-panel cream-paper comic strip. Title bar reads "THE MAGNIFICENT CRASH IS COMING"; footer bar reads "MORE TECHNOLOGY THAN GUIDANCE." Panel 1, "THE BUBBLE": a colossal straining bubble crammed with AI logos and steep upward valuation arrows under a "SUPER-CYCLE" banner, with Midas, a Blasian man in bulky matte-navy plate armor, watching from a rocky ledge. Caption: "The market priced a transformation trust cannot deliver on time." Panel 2, "THE MISSING PILLAR": the same enormous bubble resting its full weight on a single thin cracking stone pillar labeled "GUIDANCE," a dark mountain labeled "CAPABILITY" looming behind. Caption: "Far more technology than guidance." Panel 3, "THE FRUITFUL CRASH": the bubble bursts into a shower of red downward arrows and falling confetti while distinct figures flee, and in the calm foreground Midas steadily guides one real business owner, a "READY" stamp nearby. Caption: "The correction is the opportunity for the genuinely good."](/img/comics/the-magnificent-crash-is-coming.png)
+![Three-panel cream-paper comic strip. Title bar reads "THE MAGNIFICENT CRASH IS COMING"; footer bar reads "MORE TECHNOLOGY THAN GUIDANCE." Panel 1, "THE BUBBLE": a colossal straining bubble crammed with AI logos and steep upward valuation arrows under a "SUPER-CYCLE" banner, with Midas, a Blasian man in bulky matte-navy plate armor, watching from a rocky ledge. Caption: "The market priced a transformation trust cannot deliver on time." Panel 2, "THE MISSING PILLAR": the same enormous bubble resting its full weight on a single thin cracking stone pillar labeled "GUIDANCE," a dark mountain labeled "CAPABILITY" looming behind. Caption: "Far more technology than guidance." Panel 3, "THE FRUITFUL CRASH": the bubble bursts into a shower of red downward arrows and falling confetti while distinct figures flee, and in the calm foreground Midas steadily guides one real business owner, a "READY" stamp nearby. Caption: "The correction is the opportunity for the genuinely good."](/img/comics/the-magnificent-crash-is-coming.webp)
 
 ---
 

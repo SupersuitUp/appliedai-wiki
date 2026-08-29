@@ -1,7 +1,7 @@
 ---
 title: "Onboarding Belongs in a Repo That Holds Your State"
 description: "The friction in adopting new AI infrastructure is that nobody holds your state between sessions. Ship the onboarding as a project the developer clones, which tracks real integration instead of lessons read."
-image: "/img/comics/onboarding-belongs-in-a-repo-that-holds-your-state.png"
+image: "/img/comics/onboarding-belongs-in-a-repo-that-holds-your-state.webp"
 ---
 
 # Onboarding Belongs in a Repo That Holds Your State

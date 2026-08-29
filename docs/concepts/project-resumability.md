@@ -2,14 +2,14 @@
 title: "Project Resumability"
 slug: /concepts/project-resumability
 description: "The property that lets a reader who was not there reach a project's true state in minutes, from the files alone, and be right about it. Saving is the act, agentic project management is one implementation, resumability is the quality both are trying to produce."
-image: "/img/comics/project-resumability.png"
+image: "/img/comics/project-resumability.webp"
 ---
 
 # Project Resumability
 
 *A project is resumable when a reader who was not there (a new session, a teammate, future-you) can reach its true state in minutes, from the files alone, and be right about it.*
 
-![Warm editorial three-panel strip on cream paper, title bar 'PROJECT RESUMABILITY'. The same wooden desk and the same glowing translucent amber laptop in all three panels. One: the woman's chair is empty and pushed back; inside the laptop a small rounded agent has just arrived, facing a wall of identical unlabeled drawers with a long paper scroll unrolled across the floor, its hand hovering over the nearest drawer at random. Caption: 'A NEW SESSION ARRIVES COLD'. Two: the agent walks away holding up one yellowed curled old page with a confident posture while the page that matters lies unread at the far end of the scroll; outside, the woman has returned to her chair, hand lifted from the keyboard, reading what it brought her and seeing that it is out of date. Caption: 'IT PICKS WRONG, CONFIDENTLY'. Three: the woman reaches into the laptop and sets one upright wooden signboard reading START HERE in front of the drawers, a green desk lamp burning steadily beside it; the agent walks straight to the signboard holding one crisp fresh page, and the scroll is neatly rolled up and set aside. Caption: 'ONE FRONT DOOR, VERIFIED STATE'. Footer bar: 'TEST THE COLD START, NEVER ASSUME IT'.](/img/comics/project-resumability.png)
+![Warm editorial three-panel strip on cream paper, title bar 'PROJECT RESUMABILITY'. The same wooden desk and the same glowing translucent amber laptop in all three panels. One: the woman's chair is empty and pushed back; inside the laptop a small rounded agent has just arrived, facing a wall of identical unlabeled drawers with a long paper scroll unrolled across the floor, its hand hovering over the nearest drawer at random. Caption: 'A NEW SESSION ARRIVES COLD'. Two: the agent walks away holding up one yellowed curled old page with a confident posture while the page that matters lies unread at the far end of the scroll; outside, the woman has returned to her chair, hand lifted from the keyboard, reading what it brought her and seeing that it is out of date. Caption: 'IT PICKS WRONG, CONFIDENTLY'. Three: the woman reaches into the laptop and sets one upright wooden signboard reading START HERE in front of the drawers, a green desk lamp burning steadily beside it; the agent walks straight to the signboard holding one crisp fresh page, and the scroll is neatly rolled up and set aside. Caption: 'ONE FRONT DOOR, VERIFIED STATE'. Footer bar: 'TEST THE COLD START, NEVER ASSUME IT'.](/img/comics/project-resumability.webp)
 
 ---
 

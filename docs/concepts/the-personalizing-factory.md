@@ -2,14 +2,14 @@
 title: "The Personalizing Factory"
 slug: /concepts/the-personalizing-factory
 description: "Superintelligent automation for personalized output. A production line that holds PRINCIPLES constant instead of a template, so the things it makes can be genuinely new and still reliably good."
-image: "/img/comics/the-personalizing-factory.png"
+image: "/img/comics/the-personalizing-factory.webp"
 ---
 
 # The Personalizing Factory
 
 *A production line that holds a set of PRINCIPLES constant instead of a template, so the things it makes can be genuinely new and still reliably good. What repeats is the reasoning about what makes the output work. What varies is the output itself, including in ways nobody specified in advance.*
 
-![Three warm ink-and-wash panels on cream. One: a woman in a work apron crouches in a workshop looking at five folded paper planes, all five visibly different in shape, her expression puzzled, the glowing amber laptop closed on the bench behind her. Two: she stands at the open glowing amber laptop, and inside its screen a mechanical throwing arm has just launched a strange fat blunt-nosed plane, an amber arc tracing a long successful flight to a tick mark, while three more unlike planes wait on the bench outside. Three: an open sky where many paper planes fly at once and no two share a shape, one folded from newsprint, with people of different ages throwing more up from the field and the laptop open and quiet in the grass.](/img/comics/the-personalizing-factory.png)
+![Three warm ink-and-wash panels on cream. One: a woman in a work apron crouches in a workshop looking at five folded paper planes, all five visibly different in shape, her expression puzzled, the glowing amber laptop closed on the bench behind her. Two: she stands at the open glowing amber laptop, and inside its screen a mechanical throwing arm has just launched a strange fat blunt-nosed plane, an amber arc tracing a long successful flight to a tick mark, while three more unlike planes wait on the bench outside. Three: an open sky where many paper planes fly at once and no two share a shape, one folded from newsprint, with people of different ages throwing more up from the field and the laptop open and quiet in the grass.](/img/comics/the-personalizing-factory.webp)
 
 ## The two things it is not
 

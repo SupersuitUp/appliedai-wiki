@@ -2,14 +2,14 @@
 title: "The Correction Seam"
 slug: /concepts/the-correction-seam
 description: "The boundary between two products where one makes an error and the other collects the user's correction of it. The signal is free, self-labeling, and unusable by either company alone, which turns an ordinary build-versus-buy question into a decision about whether to close a loop."
-image: "/img/comics/the-correction-seam.png"
+image: "/img/comics/the-correction-seam.webp"
 ---
 
 # The Correction Seam
 
 *The boundary between two products where one makes the error and the other collects the correction. Both halves of a free training pair exist, held by two different companies, and neither one has both.*
 
-![Three panels on cream paper. One, THE USER FIXES IT: at a warm wooden desk a woman in her fifties with short silver hair and a rust cardigan reaches into a single glowing amber laptop where a small rounded agent holds a slip of paper reading I SCREAM struck through, with ICE CREAM written beneath it in her hand. Two, NOBODY CATCHES IT: two separate glowing amber laptops now sit angled apart with a gap between them, each agent inside watching its own dial, while the corrected ICE CREAM slip lies fallen on the bare desk in the gap, unnoticed by both. Three, ONE OWNER, ONE LOOP: the two laptops have become one wider laptop, an amber arrow loops from the right half back into the left where the error was made, the left agent now holds the ICE CREAM slip, and the woman watches from outside with her hand resting on the desk. Footer: THE ASSET IS THE LOOP, NOT THE FEATURE.](/img/comics/the-correction-seam.png)
+![Three panels on cream paper. One, THE USER FIXES IT: at a warm wooden desk a woman in her fifties with short silver hair and a rust cardigan reaches into a single glowing amber laptop where a small rounded agent holds a slip of paper reading I SCREAM struck through, with ICE CREAM written beneath it in her hand. Two, NOBODY CATCHES IT: two separate glowing amber laptops now sit angled apart with a gap between them, each agent inside watching its own dial, while the corrected ICE CREAM slip lies fallen on the bare desk in the gap, unnoticed by both. Three, ONE OWNER, ONE LOOP: the two laptops have become one wider laptop, an amber arrow loops from the right half back into the left where the error was made, the left agent now holds the ICE CREAM slip, and the woman watches from outside with her hand resting on the desk. Footer: THE ASSET IS THE LOOP, NOT THE FEATURE.](/img/comics/the-correction-seam.webp)
 
 ---
 

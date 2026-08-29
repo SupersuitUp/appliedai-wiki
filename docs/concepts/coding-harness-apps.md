@@ -2,14 +2,14 @@
 title: "Coding Harness Apps"
 slug: /concepts/coding-harness-apps
 description: "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
-image: "/img/comics/coding-harness-apps.png"
+image: "/img/comics/coding-harness-apps.webp"
 ---
 
 # Coding Harness Apps
 
 *An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or **CHAPPS**. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going.*
 
-![Three panels in a warm room. One: a woman sits at a desk with her hands idle while inside the glowing amber laptop a small gold-capped figure holds a row of cards with one card left blank. Two: a single panel lifts out of the laptop and floats between the screen and the woman, showing one round button, and she leans in and speaks into it. Three: the floating panel is gone, the figure inside the laptop holds the same row with every card now filled, a stack of sealed envelopes slides out onto the desk, and the woman sits back with her hands off the desk.](/img/comics/coding-harness-apps.png)
+![Three panels in a warm room. One: a woman sits at a desk with her hands idle while inside the glowing amber laptop a small gold-capped figure holds a row of cards with one card left blank. Two: a single panel lifts out of the laptop and floats between the screen and the woman, showing one round button, and she leans in and speaks into it. Three: the floating panel is gone, the figure inside the laptop holds the same row with every card now filled, a stack of sealed envelopes slides out onto the desk, and the woman sits back with her hands off the desk.](/img/comics/coding-harness-apps.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "Agentic Brand Universe"
 slug: /concepts/agentic-brand-universe
 description: "A portable, version-controlled brand packaged as data: its canon (characters, settings, motifs, voice, rules) plus its blessed golden assets, held in a form an agent can load and render from. The cartridge in a three-layer ontology where the Agentic Brand OS is the console that loads it and a deliverable is the projection it renders."
-image: "/img/comics/agentic-brand-universe.png"
+image: "/img/comics/agentic-brand-universe.webp"
 ---
 
 # Agentic Brand Universe
 
 *An Agentic Brand Universe is a portable, version-controlled brand packaged as data: its canon (characters, settings, motifs, voice, rules) plus its blessed golden assets, held in a form an agent can load and render from. It is the cartridge in a three-layer ontology: the universe is the cartridge (data), the [Agentic Brand OS](/concepts/agentic-brand-os) is the console that loads it (runtime), and any finished asset is the projection it renders (output).*
 
-![Comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "AGENTIC BRAND UNIVERSE". Footer bar: "CARTRIDGE, CONSOLE, PROJECTION". PANEL 1, label "THE CARTRIDGE": Midas in matte-navy Supersuit with orange seams holds up a glowing data cartridge etched with tiny icons of a character, a color swatch, a motif, and a rule. Caption: "The brand is data. Portable. Version-controlled." PANEL 2, label "THE CONSOLE": The cartridge slots into a glowing console labeled "BRAND OS"; luminous cyan-and-gold sub-agents in a cyber-cathedral hall read it. Caption: "Load it into the engine." PANEL 3, label "THE PROJECTION": From the console, holographic deliverables fan out: a book, a flyer, a social card, a piece of merch, all sharing the same palette and mark. Caption: "Render anything. Same universe." PANEL 4, label "IT COMPOUNDS": Midas blesses one asset with a gold seal; it flows back into the cartridge as a new golden. Caption: "Every blessing sharpens the cartridge."](/img/comics/agentic-brand-universe.png)
+![Comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "AGENTIC BRAND UNIVERSE". Footer bar: "CARTRIDGE, CONSOLE, PROJECTION". PANEL 1, label "THE CARTRIDGE": Midas in matte-navy Supersuit with orange seams holds up a glowing data cartridge etched with tiny icons of a character, a color swatch, a motif, and a rule. Caption: "The brand is data. Portable. Version-controlled." PANEL 2, label "THE CONSOLE": The cartridge slots into a glowing console labeled "BRAND OS"; luminous cyan-and-gold sub-agents in a cyber-cathedral hall read it. Caption: "Load it into the engine." PANEL 3, label "THE PROJECTION": From the console, holographic deliverables fan out: a book, a flyer, a social card, a piece of merch, all sharing the same palette and mark. Caption: "Render anything. Same universe." PANEL 4, label "IT COMPOUNDS": Midas blesses one asset with a gold seal; it flows back into the cartridge as a new golden. Caption: "Every blessing sharpens the cartridge."](/img/comics/agentic-brand-universe.webp)
 
 ---
 

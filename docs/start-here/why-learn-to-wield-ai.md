@@ -3,14 +3,14 @@ title: "Why You Should Learn to Wield AI"
 slug: /start-here/why-learn-to-wield-ai
 sidebar_position: 3
 description: "The foundational both/and for anyone who found this wiki while worried: AI is a way for people who care about their work to do a better job, and the honest risk to your livelihood is a person in your field who wields it."
-image: "/img/comics/why-learn-to-wield-ai.png"
+image: "/img/comics/why-learn-to-wield-ai.webp"
 ---
 
 # Why You Should Learn to Wield AI
 
 *AI is a way for people who care about their work to do a better job. The risk to your livelihood was never AI itself: it is the person in your field who cares as much as you do and learned to wield it. Fear is the one response that guarantees you lose ground.*
 
-![Three-panel warm editorial strip titled LEARN TO WIELD AI. One: a middle-aged real-estate agent in a rust cardigan sits at her desk with arms folded, turned away from her closed, dim laptop while a cloud of grey newspaper pages looms behind her; caption FEAR FREEZES HER. Two: on the street outside, her client in a long charcoal coat walks away from her office doorway toward a rival agent in an olive sweater who holds an open glowing amber laptop and hands the client a bound house presentation; she watches small in the background; caption CLIENTS LEAVE FOR BETTER SERVICE. Three: back at her desk, the same woman leans in toward her own glowing amber laptop, pointing at a house card on the screen where two small rounded agents assemble a presentation, while a happy client with box braids and a mustard scarf holds the finished booklet; caption HER CARE, MULTIPLIED. Footer: AI WILL NOT TAKE YOUR CLIENTS. A PERSON WIELDING IT WILL.](/img/comics/why-learn-to-wield-ai.png)
+![Three-panel warm editorial strip titled LEARN TO WIELD AI. One: a middle-aged real-estate agent in a rust cardigan sits at her desk with arms folded, turned away from her closed, dim laptop while a cloud of grey newspaper pages looms behind her; caption FEAR FREEZES HER. Two: on the street outside, her client in a long charcoal coat walks away from her office doorway toward a rival agent in an olive sweater who holds an open glowing amber laptop and hands the client a bound house presentation; she watches small in the background; caption CLIENTS LEAVE FOR BETTER SERVICE. Three: back at her desk, the same woman leans in toward her own glowing amber laptop, pointing at a house card on the screen where two small rounded agents assemble a presentation, while a happy client with box braids and a mustard scarf holds the finished booklet; caption HER CARE, MULTIPLIED. Footer: AI WILL NOT TAKE YOUR CLIENTS. A PERSON WIELDING IT WILL.](/img/comics/why-learn-to-wield-ai.webp)
 
 ---
 

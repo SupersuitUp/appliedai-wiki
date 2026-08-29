@@ -2,14 +2,14 @@
 title: "The AI-Native Services Company"
 slug: /concepts/ai-native-services-company
 description: "A services firm rebuilt from scratch so AI does most of the work and the company delivers the finished outcome instead of a copilot. The opposite of SaaS: you absorb the whole job and hand back the result. Trillion-dollar markets that did not exist two years ago."
-image: "/img/comics/ai-native-services-company.png"
+image: "/img/comics/ai-native-services-company.webp"
 ---
 
 # The AI-Native Services Company
 
 *A services firm rebuilt from scratch so AI does most of the work and the company delivers the finished outcome instead of a copilot. The opposite of SaaS: you absorb the whole job and hand back the result.*
 
-![Three-panel cream-paper comic strip. Top inked title bar in chunky capitals reads "THE AI-NATIVE SERVICES COMPANY"; bottom footer bar reads "ABSORB THE WHOLE JOB. HAND BACK THE RESULT." Panel 1, paper-tape caption "THE COPILOT HANDS YOU A TOOL.": a gray plainclothes rival vendor shoves a clunky cobalt-blue software dashboard at a tired professional who is buried under a tall stack of paper forms faintly labeled TAX, CLAIM, AUDIT; the burden is not lifted. Panel 2, caption "WE DELIVER THE FINISHED OUTCOME.": the flesh-and-blood hyperagent in a bulky matte-navy Supersuit (orange seam accents, clean chest, cyan wrist glow) calmly hands a single gold-sealed finished work-product folder across a desk to a relieved client, a small gold READY stamp on the folder; behind him a luminous translucent cyan-and-gold holographic Chief of Agents dispatches a fleet of distinct cyan sub-agents doing the labor; a doorway sign reads BUDGET-OWNED as the displaced gray vendor exits. Panel 3, helmet-visor first-person POV through the hyperagent's cyan-lit HUD: a vast horizon of trillion-dollar market towers labeled LAW, TAX, INSURANCE, AUDIT dwarfing a smaller cluster faintly labeled SOFTWARE, with a gold MISSION INTACT stamp in the corner.](/img/comics/ai-native-services-company.png)
+![Three-panel cream-paper comic strip. Top inked title bar in chunky capitals reads "THE AI-NATIVE SERVICES COMPANY"; bottom footer bar reads "ABSORB THE WHOLE JOB. HAND BACK THE RESULT." Panel 1, paper-tape caption "THE COPILOT HANDS YOU A TOOL.": a gray plainclothes rival vendor shoves a clunky cobalt-blue software dashboard at a tired professional who is buried under a tall stack of paper forms faintly labeled TAX, CLAIM, AUDIT; the burden is not lifted. Panel 2, caption "WE DELIVER THE FINISHED OUTCOME.": the flesh-and-blood hyperagent in a bulky matte-navy Supersuit (orange seam accents, clean chest, cyan wrist glow) calmly hands a single gold-sealed finished work-product folder across a desk to a relieved client, a small gold READY stamp on the folder; behind him a luminous translucent cyan-and-gold holographic Chief of Agents dispatches a fleet of distinct cyan sub-agents doing the labor; a doorway sign reads BUDGET-OWNED as the displaced gray vendor exits. Panel 3, helmet-visor first-person POV through the hyperagent's cyan-lit HUD: a vast horizon of trillion-dollar market towers labeled LAW, TAX, INSURANCE, AUDIT dwarfing a smaller cluster faintly labeled SOFTWARE, with a gold MISSION INTACT stamp in the corner.](/img/comics/ai-native-services-company.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "Tokens Are Cheap, Your Future Attention Is Not"
 slug: /perspectives/tokens-are-cheap-your-future-attention-is-not
 description: "An agent left to optimize for the cheapest completion of this turn will quietly spend your scarcest resource: the attention it costs you to review work that came back wrong, and the attention it costs future you to rediscover a lesson nobody wrote down."
-image: "/img/comics/tokens-are-cheap-your-future-attention-is-not.png"
+image: "/img/comics/tokens-are-cheap-your-future-attention-is-not.webp"
 ---
 
 # Tokens Are Cheap, Your Future Attention Is Not
 
 *An agent left to optimize for the cheapest completion of this turn will quietly spend your scarcest resource: the attention it costs you to review work that came back wrong, and the attention it costs future you to rediscover a lesson nobody wrote down.*
 
-![Warm editorial painterly plate on a cream ground. A woman sits at a wooden desk in a lamplit room, seen from behind, one hand resting open on a thick closed cloth-bound ledger. To her right stands a glowing translucent amber laptop; inside its screen, small rounded agent figures work along a long lit bench under pendant lamps, and on the wall behind them hangs a large round brass gauge whose single needle rests low and calm. On the wall of her own room hangs a second brass gauge of the same size and make, but its face is entirely blank and it has no needle at all. No text anywhere in the frame.](/img/comics/tokens-are-cheap-your-future-attention-is-not.png)
+![Warm editorial painterly plate on a cream ground. A woman sits at a wooden desk in a lamplit room, seen from behind, one hand resting open on a thick closed cloth-bound ledger. To her right stands a glowing translucent amber laptop; inside its screen, small rounded agent figures work along a long lit bench under pendant lamps, and on the wall behind them hangs a large round brass gauge whose single needle rests low and calm. On the wall of her own room hangs a second brass gauge of the same size and make, but its face is entirely blank and it has no needle at all. No text anywhere in the frame.](/img/comics/tokens-are-cheap-your-future-attention-is-not.webp)
 
 ---
 

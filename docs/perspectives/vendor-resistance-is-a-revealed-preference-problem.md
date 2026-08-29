@@ -2,14 +2,14 @@
 title: "Vendor Resistance Is a Revealed-Preference Problem"
 slug: /perspectives/vendor-resistance-is-a-revealed-preference-problem
 description: "What you already use is the real statement of your values. Every device, service, and account you run says you accepted big-tech dependence long ago. The AI stack is where you noticed."
-image: "/img/comics/vendor-resistance-is-a-revealed-preference-problem.png"
+image: "/img/comics/vendor-resistance-is-a-revealed-preference-problem.webp"
 ---
 
 # Vendor Resistance Is a Revealed-Preference Problem
 
 *What you already use is the real statement of your values. Every device, service, and account you run says you accepted big-tech dependence long ago. The AI stack is where you noticed.*
 
-![Three warm editorial panels at one wooden home-office desk, titled REVEALED PREFERENCE. One, captioned OBJECTING TO ONE: a woman in an olive sweater holds a palm out in refusal toward a glowing amber laptop where two small agent figures wait, while a phone, a delivery parcel, a mug, and a paper calendar sit unremarked on the desk beside her. Two, captioned ALREADY USING THE REST: she has turned away from the laptop to read a handwritten list, looking for the first time at the four everyday things she already uses, her refusing hand dropped. Three, captioned BUILD THE EXIT: she works at the glowing laptop with the agents now busy inside it, her own wooden file box of labelled folders standing on the desk within reach and an open door onto daylight behind her. Footer: YOU ALREADY DEPEND. CAN YOU LEAVE?](/img/comics/vendor-resistance-is-a-revealed-preference-problem.png)
+![Three warm editorial panels at one wooden home-office desk, titled REVEALED PREFERENCE. One, captioned OBJECTING TO ONE: a woman in an olive sweater holds a palm out in refusal toward a glowing amber laptop where two small agent figures wait, while a phone, a delivery parcel, a mug, and a paper calendar sit unremarked on the desk beside her. Two, captioned ALREADY USING THE REST: she has turned away from the laptop to read a handwritten list, looking for the first time at the four everyday things she already uses, her refusing hand dropped. Three, captioned BUILD THE EXIT: she works at the glowing laptop with the agents now busy inside it, her own wooden file box of labelled folders standing on the desk within reach and an open door onto daylight behind her. Footer: YOU ALREADY DEPEND. CAN YOU LEAVE?](/img/comics/vendor-resistance-is-a-revealed-preference-problem.webp)
 
 ---
 

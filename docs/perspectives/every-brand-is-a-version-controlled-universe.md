@@ -2,14 +2,14 @@
 title: "Every Brand Should Be a Version-Controlled Universe Its Agent Renders on Demand"
 slug: /perspectives/every-brand-is-a-version-controlled-universe
 description: "The brand book is a dead PDF the moment it ships. The alternative is a brand held as a version-controlled universe an agent loads and renders on demand, so a partner can browse it, a creator can generate from it, and an operator can edit it, all in plain language, all from one source of truth."
-image: "/img/comics/every-brand-is-a-version-controlled-universe.png"
+image: "/img/comics/every-brand-is-a-version-controlled-universe.webp"
 ---
 
 # Every Brand Should Be a Version-Controlled Universe Its Agent Renders on Demand
 
 *A brand held as a static document rots the moment it ships and drifts every time someone makes something from memory. Held instead as a version-controlled universe an agent renders on demand, it stops drifting, starts compounding, and becomes an asset a competitor cannot copy.*
 
-![Comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "RENDER ON DEMAND". Footer bar: "THE BRAND BOOK IS DEAD". PANEL 1, label "THE DEAD PDF": Midas in matte-navy Supersuit with orange seams looks at a thick brand-book PDF crumbling into dust, its hex codes and logo pages flaking away. Caption: "A brand book rots the moment it ships." PANEL 2, label "THE UNIVERSE": He holds a glowing version-controlled cartridge instead, a commit history scrolling beside it. Caption: "Hold the brand as data, not a document." PANEL 3, label "ONE SOURCE, THREE DOORS": Three holographic doors open from the same cartridge, labeled PARTNER, CREATOR, ADMIN. Caption: "Browse it. Generate from it. Edit it. Plain language." PANEL 4, label "IT COMPOUNDS": A blessed golden asset flows back into the cartridge; the whole thing glows brighter. Caption: "The library is the moat."](/img/comics/every-brand-is-a-version-controlled-universe.png)
+![Comic strip, high-tech power-armor Marvel-zine style on deep navy background. Title bar: "RENDER ON DEMAND". Footer bar: "THE BRAND BOOK IS DEAD". PANEL 1, label "THE DEAD PDF": Midas in matte-navy Supersuit with orange seams looks at a thick brand-book PDF crumbling into dust, its hex codes and logo pages flaking away. Caption: "A brand book rots the moment it ships." PANEL 2, label "THE UNIVERSE": He holds a glowing version-controlled cartridge instead, a commit history scrolling beside it. Caption: "Hold the brand as data, not a document." PANEL 3, label "ONE SOURCE, THREE DOORS": Three holographic doors open from the same cartridge, labeled PARTNER, CREATOR, ADMIN. Caption: "Browse it. Generate from it. Edit it. Plain language." PANEL 4, label "IT COMPOUNDS": A blessed golden asset flows back into the cartridge; the whole thing glows brighter. Caption: "The library is the moat."](/img/comics/every-brand-is-a-version-controlled-universe.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "Transformation as Surgery"
 slug: /concepts/transformation-as-surgery
 description: "An AI transformation is invasive, expensive, and often irreversible, like surgery. The guide who profits from recommending it carries a conflict of interest, so the honest one qualifies hard before cutting."
-image: "/img/comics/transformation-as-surgery.png"
+image: "/img/comics/transformation-as-surgery.webp"
 ---
 
 # Transformation as Surgery
 
 *An AI transformation is invasive, expensive, and often irreversible, the way surgery is. The person who recommends it usually profits from it, so the honest guide qualifies hard before recommending the cut.*
 
-![Three-panel cream-paper comic strip. Title bar reads "TRANSFORMATION AS SURGERY"; footer bar reads "A GOOD GUIDE QUALIFIES BEFORE CUTTING." Panel 1, "THE PUSH": a slick smiling consultant in a plain navy business suit (not armored) holds a scalpel with a "$2.4M" price tag over a nervous owner lying on an operating table labeled "YOUR COMPANY." Caption: "The one who recommends the cut profits from the cut." Panel 2, "THE LIGHTER FIX": a balance scale weighing a "CHEAPER" side (a workflow loop, an app, a stack of documents) against an "INVASIVE" surgery side, tipping toward cheaper. Caption: "Often a cheaper, lighter fix wins." Panel 3, "THE HONEST GUIDE": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists, sets the scalpel down and reassures the relieved owner, a green "TRUST" meter rising on the wall and a "READY" stamp in the corner. Caption: "You do not need the surgery. Trust compounds."](/img/comics/transformation-as-surgery.png)
+![Three-panel cream-paper comic strip. Title bar reads "TRANSFORMATION AS SURGERY"; footer bar reads "A GOOD GUIDE QUALIFIES BEFORE CUTTING." Panel 1, "THE PUSH": a slick smiling consultant in a plain navy business suit (not armored) holds a scalpel with a "$2.4M" price tag over a nervous owner lying on an operating table labeled "YOUR COMPANY." Caption: "The one who recommends the cut profits from the cut." Panel 2, "THE LIGHTER FIX": a balance scale weighing a "CHEAPER" side (a workflow loop, an app, a stack of documents) against an "INVASIVE" surgery side, tipping toward cheaper. Caption: "Often a cheaper, lighter fix wins." Panel 3, "THE HONEST GUIDE": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists, sets the scalpel down and reassures the relieved owner, a green "TRUST" meter rising on the wall and a "READY" stamp in the corner. Caption: "You do not need the surgery. Trust compounds."](/img/comics/transformation-as-surgery.webp)
 
 ---
 

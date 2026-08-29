@@ -2,14 +2,14 @@
 title: "Package the Patterns You Keep Copying"
 slug: /playbooks/package-the-patterns-you-copy
 description: "When you have copied the same code into a third project, publish it as a package so a fix is one update instead of many."
-image: "/img/comics/package-the-patterns-you-copy.png"
+image: "/img/comics/package-the-patterns-you-copy.webp"
 ---
 
 # Package the Patterns You Keep Copying
 
 *The third time you copy the same component or script into a new project, stop copying and publish it as a package. One source of truth, and every future fix becomes one update instead of an edit in every copy.*
 
-![Three-panel comic on cream paper. Title bar: PACKAGE WHAT YOU COPY. Panel 1, THE COPY-PASTE TAX: the hyperagent Midas in matte-navy armor with orange seams stands tired before five near-identical floating website panels, each with the same small red bug glowing in the same spot; a paper-tape caption reads "one fix, five edits." Panel 2, THE THIRD COPY: Midas holds up three fingers as a third identical panel appears, and a glowing box labeled PACKAGE forms around the shared part they all contain; caption "the third copy is the signal." Panel 3, ONE UPDATE: the five site panels now each show a small socket plugged into one central glowing PACKAGE cartridge; Midas taps a single button reading UPDATE and the same fix ripples to all five at once; caption "fix once, update everywhere." Footer bar: THE SPEED THAT MADE THE COPIES NOW COMPOUNDS FOR YOU.](/img/comics/package-the-patterns-you-copy.png)
+![Three-panel comic on cream paper. Title bar: PACKAGE WHAT YOU COPY. Panel 1, THE COPY-PASTE TAX: the hyperagent Midas in matte-navy armor with orange seams stands tired before five near-identical floating website panels, each with the same small red bug glowing in the same spot; a paper-tape caption reads "one fix, five edits." Panel 2, THE THIRD COPY: Midas holds up three fingers as a third identical panel appears, and a glowing box labeled PACKAGE forms around the shared part they all contain; caption "the third copy is the signal." Panel 3, ONE UPDATE: the five site panels now each show a small socket plugged into one central glowing PACKAGE cartridge; Midas taps a single button reading UPDATE and the same fix ripples to all five at once; caption "fix once, update everywhere." Footer bar: THE SPEED THAT MADE THE COPIES NOW COMPOUNDS FOR YOU.](/img/comics/package-the-patterns-you-copy.webp)
 
 ---
 

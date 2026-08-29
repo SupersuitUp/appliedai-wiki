@@ -2,14 +2,14 @@
 title: "Precise Procedures Are Written for the Agent"
 slug: /perspectives/precise-procedures-are-written-for-the-agent
 description: "Dense procedural precision reads as over-engineering to a human skimming for the gist. It is not for the skim. It is the interface an agent executes against faithfully, and the second reader changes what good writing is."
-image: "/img/comics/precise-procedures-are-written-for-the-agent.png"
+image: "/img/comics/precise-procedures-are-written-for-the-agent.webp"
 ---
 
 # Precise Procedures Are Written for the Agent
 
 *Dense procedural precision reads as over-engineering to a human skimming for the gist. It is not written for the skim. It is the interface an agent executes against faithfully, and once the agent is a reader, ambiguity stops being a stylistic choice and becomes a defect.*
 
-![Three-panel cream-paper comic titled WRITTEN FOR THE AGENT. Panel 1: a civilian in ordinary street clothes squints skeptically at a long dense specification document, caption "Too complex. You could have simplified." Panel 2: Midas the hyperagent in matte-navy plate armor calmly holds the same precise spec and feeds it toward a glowing portal to the command hall, caption "The precision is not for the skim." Panel 3: in the navy cyber-cathedral the holographic Chief of Agents with a gold comms crown executes the procedure faithfully on floating grids, producing an identical reproducible result, caption "It is the interface an agent runs, the same way every time." Footer bar: AMBIGUITY IS FREE FOR A HUMAN AND COSTLY FOR AN AGENT.](/img/comics/precise-procedures-are-written-for-the-agent.png)
+![Three-panel cream-paper comic titled WRITTEN FOR THE AGENT. Panel 1: a civilian in ordinary street clothes squints skeptically at a long dense specification document, caption "Too complex. You could have simplified." Panel 2: Midas the hyperagent in matte-navy plate armor calmly holds the same precise spec and feeds it toward a glowing portal to the command hall, caption "The precision is not for the skim." Panel 3: in the navy cyber-cathedral the holographic Chief of Agents with a gold comms crown executes the procedure faithfully on floating grids, producing an identical reproducible result, caption "It is the interface an agent runs, the same way every time." Footer bar: AMBIGUITY IS FREE FOR A HUMAN AND COSTLY FOR AN AGENT.](/img/comics/precise-procedures-are-written-for-the-agent.webp)
 
 ---
 

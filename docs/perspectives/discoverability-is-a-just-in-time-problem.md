@@ -2,14 +2,14 @@
 title: Discoverability Is a Just-in-Time Problem
 slug: /perspectives/discoverability-is-a-just-in-time-problem
 description: "An agent does not fail to use your tool because it never knew the tool existed. It fails because nothing put the tool in front of it at the moment it was about to hand-roll one. Anything that depends on having read something earlier and remembered it loses on a long session."
-image: "/img/comics/discoverability-is-a-just-in-time-problem.png"
+image: "/img/comics/discoverability-is-a-just-in-time-problem.webp"
 ---
 
 # Discoverability Is a Just-in-Time Problem
 
 *An agent does not fail to use your tool because it never knew the tool existed. It fails because nothing put the tool in front of it at the moment it was about to hand-roll one. Anything that depends on having read something earlier and remembered it loses on a long session.*
 
-![Three-panel warm editorial ink-and-wash strip on a cream ground. Title bar: DISCOVERABILITY IS JUST-IN-TIME. In every panel a woman in her fifties with short silver hair and a charcoal sweater sits at a wooden desk outside a glowing translucent amber laptop, while a small rounded agent works inside its screen. Panel one: the agent cuts and pastes a grid of little picture-cards by hand at a bench, while on a shelf behind it in the same screen the identical finished grid already sits, complete and unnoticed. Caption: THE TOOL WAS ALREADY THERE. Panel two: the bench is heaped with a pile of identical hand-cut grids and the agent is still cutting another, while far away on the desk outside the laptop a long scroll lies rolled and grey with its glow gone. Caption: AGAIN AND AGAIN, BY HAND. Panel three: the woman reaches one hand into the glow and writes a short glowing line directly on the bench beside the agent's hands, and the agent has set down the scissors and lifted the ready-made grid off the shelf. Caption: ITS NAME, WHERE THE HANDS ARE. Footer bar: A TOOL NOBODY FINDS IS A TOOL THAT DOES NOT EXIST.](/img/comics/discoverability-is-a-just-in-time-problem.png)
+![Three-panel warm editorial ink-and-wash strip on a cream ground. Title bar: DISCOVERABILITY IS JUST-IN-TIME. In every panel a woman in her fifties with short silver hair and a charcoal sweater sits at a wooden desk outside a glowing translucent amber laptop, while a small rounded agent works inside its screen. Panel one: the agent cuts and pastes a grid of little picture-cards by hand at a bench, while on a shelf behind it in the same screen the identical finished grid already sits, complete and unnoticed. Caption: THE TOOL WAS ALREADY THERE. Panel two: the bench is heaped with a pile of identical hand-cut grids and the agent is still cutting another, while far away on the desk outside the laptop a long scroll lies rolled and grey with its glow gone. Caption: AGAIN AND AGAIN, BY HAND. Panel three: the woman reaches one hand into the glow and writes a short glowing line directly on the bench beside the agent's hands, and the agent has set down the scissors and lifted the ready-made grid off the shelf. Caption: ITS NAME, WHERE THE HANDS ARE. Footer bar: A TOOL NOBODY FINDS IS A TOOL THAT DOES NOT EXIST.](/img/comics/discoverability-is-a-just-in-time-problem.webp)
 
 ---
 

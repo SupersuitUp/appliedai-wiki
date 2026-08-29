@@ -2,14 +2,14 @@
 title: "Sovereignty Cannot Be Sold at the Expense of Safety"
 slug: /perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety
 description: "Understanding your stack is worth a lot, and it is not the top value. When sovereignty and safety conflict, safety wins, which is why picking a vendor whose priority order puts safety first can be a sovereign decision rather than a surrender of one."
-image: "/img/comics/sovereignty-cannot-be-sold-at-the-expense-of-safety.png"
+image: "/img/comics/sovereignty-cannot-be-sold-at-the-expense-of-safety.webp"
 ---
 
 # Sovereignty Cannot Be Sold at the Expense of Safety
 
 *Understanding your stack is worth a lot, and it is not the top value. When sovereignty and safety conflict, safety wins, which is why picking a vendor whose priority order puts safety first can be a sovereign decision rather than a surrender of one.*
 
-![Three panels, one warm workroom, the same woman in a rust apron at a wooden desk with a glowing amber laptop, a heavy padlock on the bolted door behind her. Title bar: SOVEREIGNTY AND SAFETY. One: she holds up a full ring of iron keys, pleased, while inside the screen two small agents calmly build a warm bright object; caption EVERY KEY IS MINE. Two: a jagged dark shape has appeared inside the screen and the same two agents are building it; she has half-risen and thrust the key ring toward the screen, and the keys reach nothing; caption LOCKS DO NOT REFUSE. Three: inside the screen a small cream robot stands in the inner doorway reading from a glowing book, one open palm raised, the jagged dark shape halted in the air just short of it and untouched; outside on the desk a tall stack of gold coins sits untaken while she watches, still holding her keys; caption IT TURNED THE MONEY DOWN. Footer: SOVEREIGNTY PROTECTS. IT DOES NOT REFUSE.](/img/comics/sovereignty-cannot-be-sold-at-the-expense-of-safety.png)
+![Three panels, one warm workroom, the same woman in a rust apron at a wooden desk with a glowing amber laptop, a heavy padlock on the bolted door behind her. Title bar: SOVEREIGNTY AND SAFETY. One: she holds up a full ring of iron keys, pleased, while inside the screen two small agents calmly build a warm bright object; caption EVERY KEY IS MINE. Two: a jagged dark shape has appeared inside the screen and the same two agents are building it; she has half-risen and thrust the key ring toward the screen, and the keys reach nothing; caption LOCKS DO NOT REFUSE. Three: inside the screen a small cream robot stands in the inner doorway reading from a glowing book, one open palm raised, the jagged dark shape halted in the air just short of it and untouched; outside on the desk a tall stack of gold coins sits untaken while she watches, still holding her keys; caption IT TURNED THE MONEY DOWN. Footer: SOVEREIGNTY PROTECTS. IT DOES NOT REFUSE.](/img/comics/sovereignty-cannot-be-sold-at-the-expense-of-safety.webp)
 
 ---
 

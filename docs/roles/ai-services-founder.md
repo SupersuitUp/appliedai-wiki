@@ -2,14 +2,14 @@
 title: "The AI-Services Founder"
 slug: /roles/ai-services-founder
 description: "The founder profile for an AI-native services company: domain fluency, model fluency, and operational rigor. The unglamorous third trait is the differentiator, because the product is an operation."
-image: "/img/comics/ai-services-founder.png"
+image: "/img/comics/ai-services-founder.webp"
 ---
 
 # The AI-Services Founder
 
 *The founder profile for an AI-native services company: domain fluency, model fluency, and operational rigor. The unglamorous third trait is the differentiator, because the product is an operation.*
 
-![Four-panel comic strip on warm cream paper titled THE AI-SERVICES FOUNDER, footer banner THE UNGLAMOROUS TRAIT IS THE DIFFERENTIATOR, SUPERSUIT wordmark stamped bottom-right. The recurring hero is a flesh-and-blood founder in matte-navy power armor with orange seams and cyan wrist and visor glow. Panel 1 (tab: DOMAIN FLUENCY) shows him leaning across a boardroom table toward a row of skeptical arms-crossed professional buyers while a cyan trust meter fills toward CREDIBLE; caption: Bleed credibility to skeptical buyers. Panel 2 (tab: MODEL FLUENCY) shows him surfing a steep upward-curving line labeled FRONTIER with rising version milestones 1.0 BETA, 2.0 BETTER, 3.0 STRONGER, 4.0 STATE OF THE ART; caption: Ride the frontier curve. Better for free each release. Panel 3 (tab: OPERATIONAL RIGOR) shows him at an industrial command deck working THROUGHPUT and VARIANCE gauges beside an SOPs binder under warm gold work-light, with a crimson THE EDGE stamp; caption: Throughput, variance, SOPs. Unglamorous. Decisive. Panel 4 (tab: VISION FIRST-PERSON) is a helmet-visor POV showing a HUD checklist with DOMAIN and MODEL checked and OPERATION checked and highlighted brightest in gold, plus a MISSION INTACT stamp; caption: The product is an operation.](/img/comics/ai-services-founder.png)
+![Four-panel comic strip on warm cream paper titled THE AI-SERVICES FOUNDER, footer banner THE UNGLAMOROUS TRAIT IS THE DIFFERENTIATOR, SUPERSUIT wordmark stamped bottom-right. The recurring hero is a flesh-and-blood founder in matte-navy power armor with orange seams and cyan wrist and visor glow. Panel 1 (tab: DOMAIN FLUENCY) shows him leaning across a boardroom table toward a row of skeptical arms-crossed professional buyers while a cyan trust meter fills toward CREDIBLE; caption: Bleed credibility to skeptical buyers. Panel 2 (tab: MODEL FLUENCY) shows him surfing a steep upward-curving line labeled FRONTIER with rising version milestones 1.0 BETA, 2.0 BETTER, 3.0 STRONGER, 4.0 STATE OF THE ART; caption: Ride the frontier curve. Better for free each release. Panel 3 (tab: OPERATIONAL RIGOR) shows him at an industrial command deck working THROUGHPUT and VARIANCE gauges beside an SOPs binder under warm gold work-light, with a crimson THE EDGE stamp; caption: Throughput, variance, SOPs. Unglamorous. Decisive. Panel 4 (tab: VISION FIRST-PERSON) is a helmet-visor POV showing a HUD checklist with DOMAIN and MODEL checked and OPERATION checked and highlighted brightest in gold, plus a MISSION INTACT stamp; caption: The product is an operation.](/img/comics/ai-services-founder.webp)
 
 ---
 

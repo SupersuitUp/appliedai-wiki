@@ -2,14 +2,14 @@
 title: "Golden Chain"
 slug: /concepts/golden-chain
 description: "The method for building a set of assets that must agree with each other: generate one at a time, conditioning each new asset on the blessed seed plus every asset accepted before it. Parallel generation produces variations that share a description; a chain produces one subject seen from many angles."
-image: "/img/comics/golden-chain.png"
+image: "/img/comics/golden-chain.webp"
 ---
 
 # Golden Chain
 
 *A golden chain is the method for producing a set of assets whose whole purpose is agreeing with each other: generate them one at a time, conditioning each new asset on the blessed seed plus every asset already accepted. Parallel generation from a shared description yields N different subjects that merely sound alike; a chain yields one subject seen from many angles.*
 
-![Four-panel cream-paper comic strip titled GOLDEN CHAIN, footer bar reading PARALLELIZE BATCHES. CHAIN SETS. Panel 1, caption "Generated in parallel: four rooms, one description.": the hyperagent in bulky matte-navy power armor with orange seams frowns at a two-by-two grid of four framed studio illustrations that disagree with each other, a crimson X over the group. Panel 2, caption "He blesses ONE as golden.": he presses a glowing gold seal onto a single plate, which lights up while the other three go dim. Panel 3, caption "The golden becomes the reference for the next.": the blessed gold plate links forward along a gold chain to a second and then a third plate, each turning gold in turn. Panel 4, caption "One subject. Many angles. Canon.": he stands with arms crossed before a row of four matching gold-edged plates showing the same room from different angles, with a gold READY stamp in the corner.](/img/comics/golden-chain.png)
+![Four-panel cream-paper comic strip titled GOLDEN CHAIN, footer bar reading PARALLELIZE BATCHES. CHAIN SETS. Panel 1, caption "Generated in parallel: four rooms, one description.": the hyperagent in bulky matte-navy power armor with orange seams frowns at a two-by-two grid of four framed studio illustrations that disagree with each other, a crimson X over the group. Panel 2, caption "He blesses ONE as golden.": he presses a glowing gold seal onto a single plate, which lights up while the other three go dim. Panel 3, caption "The golden becomes the reference for the next.": the blessed gold plate links forward along a gold chain to a second and then a third plate, each turning gold in turn. Panel 4, caption "One subject. Many angles. Canon.": he stands with arms crossed before a row of four matching gold-edged plates showing the same room from different angles, with a gold READY stamp in the corner.](/img/comics/golden-chain.webp)
 
 ---
 

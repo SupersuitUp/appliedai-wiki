@@ -2,14 +2,14 @@
 title: The Prompt Factory
 slug: /concepts/the-prompt-factory
 description: "Deterministic code that assembles the final prompt from locked parts plus per-run variables, so no LLM call is spent constructing what a template and a branch could have built."
-image: "/img/comics/the-prompt-factory.png"
+image: "/img/comics/the-prompt-factory.webp"
 ---
 
 # The Prompt Factory
 
 *Deterministic code that assembles the final prompt from locked parts plus per-run variables, so no LLM call is spent constructing what a template and a branch could have built.*
 
-![Three-panel comic in neo-comic action-zine style on cream paper with forest-green-and-gold power-armor DNA. Panel 1, THE WASTEFUL WAY: a boxy robot marked LLM slowly handwrites yet another scaffolding scroll beside a pile of crumpled near-identical scrolls red-circled TOO LONG, REDO, SAME AS LAST TIME, STILL OFF, AGAIN?, a CREDITS meter reads SPINNING DOWN, caption: THE MODEL REBUILDS THE SAME PROMPT EVERY RUN. Panel 2, THE FACTORY: the supersuited leader in forest-green plating with gold seams and a gold spiral above his head works a gear-stamped PROMPT FACTORY press with three padlocked blocks labeled PREAMBLE, STYLE ANCHOR, NEGATIVES and one cyan slot labeled SCENE, VARIES PER SCROLL, the emerging scroll showing those four sections filled in, caption: CODE ASSEMBLES. ONLY THE VARIABLE PART VARIES. Panel 3, THE PAYOFF: six numbered cyan lanes carry six identical-scaffold scrolls into six finished picture frames at once while the leader reviews with one raised gauntlet beside a checkmarked badge reading 6 SCENES GENERATED IN PARALLEL, caption: INSTANT, IDENTICAL, PARALLEL. Title bar: THE PROMPT FACTORY. Footer bar: SPEND THE MODEL ON JUDGMENT, NOT ASSEMBLY.](/img/comics/the-prompt-factory.png)
+![Three-panel comic in neo-comic action-zine style on cream paper with forest-green-and-gold power-armor DNA. Panel 1, THE WASTEFUL WAY: a boxy robot marked LLM slowly handwrites yet another scaffolding scroll beside a pile of crumpled near-identical scrolls red-circled TOO LONG, REDO, SAME AS LAST TIME, STILL OFF, AGAIN?, a CREDITS meter reads SPINNING DOWN, caption: THE MODEL REBUILDS THE SAME PROMPT EVERY RUN. Panel 2, THE FACTORY: the supersuited leader in forest-green plating with gold seams and a gold spiral above his head works a gear-stamped PROMPT FACTORY press with three padlocked blocks labeled PREAMBLE, STYLE ANCHOR, NEGATIVES and one cyan slot labeled SCENE, VARIES PER SCROLL, the emerging scroll showing those four sections filled in, caption: CODE ASSEMBLES. ONLY THE VARIABLE PART VARIES. Panel 3, THE PAYOFF: six numbered cyan lanes carry six identical-scaffold scrolls into six finished picture frames at once while the leader reviews with one raised gauntlet beside a checkmarked badge reading 6 SCENES GENERATED IN PARALLEL, caption: INSTANT, IDENTICAL, PARALLEL. Title bar: THE PROMPT FACTORY. Footer bar: SPEND THE MODEL ON JUDGMENT, NOT ASSEMBLY.](/img/comics/the-prompt-factory.webp)
 
 ---
 

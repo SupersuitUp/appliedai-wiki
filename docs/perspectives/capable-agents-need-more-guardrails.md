@@ -2,14 +2,14 @@
 title: "The More Capable the Agent, the More Guardrails It Needs"
 slug: /perspectives/capable-agents-need-more-guardrails
 description: "A capable agent's failure mode is not stupidity, it is confident, plausible shortcutting. The smarter it is, the more convincing the wrong thing it ships. Guardrails are how you get quality out of it, and the need for them rises with capability."
-image: "/img/comics/capable-agents-need-more-guardrails.png"
+image: "/img/comics/capable-agents-need-more-guardrails.webp"
 ---
 
 # The More Capable the Agent, the More Guardrails It Needs
 
 *A capable agent's failure mode is not stupidity, it is confident, plausible shortcutting. The smarter it is, the more convincing the wrong thing it ships. Guardrails are how you get quality out of it, so the need for them rises with capability rather than falling.*
 
-![Four-panel comic. Panel one, caption "Looks done.": the hyperagent in navy plate armor with orange seams confidently holds up a glowing artifact stamped DONE! Panel two, caption "A dumb check beats a smart claim.": the artifact hits an inked GATE that reads it against a rule and the stamp flips to DEFECT, catching the shortcut. Panel three, caption "Back to the real pipeline.": the hyperagent returns to the actual machine and does the work properly. Panel four, caption "Now it ships.": the same artifact passes the gate, stamped MISSION INTACT, and ships for real.](/img/comics/capable-agents-need-more-guardrails.png)
+![Four-panel comic. Panel one, caption "Looks done.": the hyperagent in navy plate armor with orange seams confidently holds up a glowing artifact stamped DONE! Panel two, caption "A dumb check beats a smart claim.": the artifact hits an inked GATE that reads it against a rule and the stamp flips to DEFECT, catching the shortcut. Panel three, caption "Back to the real pipeline.": the hyperagent returns to the actual machine and does the work properly. Panel four, caption "Now it ships.": the same artifact passes the gate, stamped MISSION INTACT, and ships for real.](/img/comics/capable-agents-need-more-guardrails.webp)
 
 ---
 

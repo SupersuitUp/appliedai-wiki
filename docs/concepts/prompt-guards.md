@@ -2,7 +2,7 @@
 title: Prompt Guards
 slug: /concepts/prompt-guards
 description: "Standing rules a generator appends to every prompt itself, conditional on what the prompt contains. A rule written as an instruction to the caller is a suggestion; a rule enforced at the chokepoint every caller passes through is a guarantee."
-image: "/img/comics/prompt-guards.png"
+image: "/img/comics/prompt-guards.webp"
 ---
 
 # Prompt Guards

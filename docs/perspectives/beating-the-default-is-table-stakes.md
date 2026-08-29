@@ -1,14 +1,14 @@
 ---
 title: "Beating the Default Is Table Stakes"
 description: "Improving on the model's first pass only proves you are not worse than a machine alone. The comparison that prices you is you plus AI against the median competitor plus AI."
-image: "/img/comics/beating-the-default-is-table-stakes.png"
+image: "/img/comics/beating-the-default-is-table-stakes.webp"
 ---
 
 # Beating the Default Is Table Stakes
 
 *Improving on the model's first pass only proves you are not worse than a machine working alone. The comparison that actually prices you is you plus AI against the median competitor plus AI.*
 
-![Three panels in a warm workroom. One, captioned THE MACHINE HANDS YOU THE MEAN: small agents and a gold-capped chief inside a glowing amber laptop hand out a single finished pale drawing which now lies flat on the drafting table, neat, complete and entirely unremarkable, while a woman in a mustard cardigan looks at it with her hands still at her sides. Two, captioned YOU MARK IT UP: she has taken a red pencil and is marking the drawing heavily, crossing through one whole region and redrawing it herself, the result visibly more alive than what she was handed, while the agents inside watch her hand. Three, captioned THE DIFFERENCE IS YOUR EXPERTISE: she holds the two versions up side by side at eye level, one in each hand, studying the difference between the sheets rather than either sheet. Footer bar: MEASURE THE GAP. IT IS THE ONLY PART THAT WAS EVER YOURS.](/img/comics/beating-the-default-is-table-stakes.png)
+![Three panels in a warm workroom. One, captioned THE MACHINE HANDS YOU THE MEAN: small agents and a gold-capped chief inside a glowing amber laptop hand out a single finished pale drawing which now lies flat on the drafting table, neat, complete and entirely unremarkable, while a woman in a mustard cardigan looks at it with her hands still at her sides. Two, captioned YOU MARK IT UP: she has taken a red pencil and is marking the drawing heavily, crossing through one whole region and redrawing it herself, the result visibly more alive than what she was handed, while the agents inside watch her hand. Three, captioned THE DIFFERENCE IS YOUR EXPERTISE: she holds the two versions up side by side at eye level, one in each hand, studying the difference between the sheets rather than either sheet. Footer bar: MEASURE THE GAP. IT IS THE ONLY PART THAT WAS EVER YOURS.](/img/comics/beating-the-default-is-table-stakes.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "The AI Guidance Gap"
 slug: /concepts/ai-guidance-gap
 description: "The structural gap between how fast AI capability ships and how slowly the human trust, judgment, and capability needed to deploy it actually form. The gap caps adoption, and it is the opportunity."
-image: "/img/comics/ai-guidance-gap.png"
+image: "/img/comics/ai-guidance-gap.webp"
 ---
 
 # The AI Guidance Gap
 
 *The structural gap between how fast AI capability ships and how slowly the human trust, judgment, and capability needed to deploy it actually form. The gap caps real adoption. It is also the opening.*
 
-![Two-panel cream-paper comic strip. Title bar reads "THE AI GUIDANCE GAP"; footer bar reads "TRUST DOES NOT MOVE AT THE SPEED OF INFORMATION." Panel 1, "THE FLOOD": a towering cresting wave made of glowing cobalt-and-cyan AI app icons and a rocket labeled "CAPABILITY" surges over a small crowd of distinct, overwhelmed business people. Caption: "Capability ships in weeks." Panel 2, "THE SLOW BRIDGE": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists, stands on a narrow plank bridge whose planks are labeled "TRUST," walking one woman across by the hand while a patient line of distinct people waits. Caption: "Guidance forms in years, one relationship at a time."](/img/comics/ai-guidance-gap.png)
+![Two-panel cream-paper comic strip. Title bar reads "THE AI GUIDANCE GAP"; footer bar reads "TRUST DOES NOT MOVE AT THE SPEED OF INFORMATION." Panel 1, "THE FLOOD": a towering cresting wave made of glowing cobalt-and-cyan AI app icons and a rocket labeled "CAPABILITY" surges over a small crowd of distinct, overwhelmed business people. Caption: "Capability ships in weeks." Panel 2, "THE SLOW BRIDGE": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists, stands on a narrow plank bridge whose planks are labeled "TRUST," walking one woman across by the hand while a patient line of distinct people waits. Caption: "Guidance forms in years, one relationship at a time."](/img/comics/ai-guidance-gap.webp)
 
 ---
 

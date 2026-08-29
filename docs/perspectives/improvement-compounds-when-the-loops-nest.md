@@ -1,14 +1,14 @@
 ---
 title: "Improvement Compounds When the Loops Nest"
 description: "One improvement loop is table stakes. The compounding move is a loop at every level of abstraction, nested, with lessons flowing up and work flowing down. Each level catches what the level below cannot see, including the loop that grades the grader."
-image: "/img/comics/improvement-compounds-when-the-loops-nest.png"
+image: "/img/comics/improvement-compounds-when-the-loops-nest.webp"
 ---
 
 # Improvement Compounds When the Loops Nest
 
 *One improvement loop is table stakes. The compounding move is a loop at every level of abstraction, nested, with lessons flowing up and work flowing down. Each level catches what the level below cannot see, including the loop that grades the grader.*
 
-![Three panels titled NESTED IMPROVEMENT LOOPS. One, LOOP ONE: THE ARTIFACT: inside a glowing amber laptop a single rounded agent repaints a framed picture on an easel, a small loop arrow circling just that easel, while an operator watches from the warm world outside. Two, LOOP TWO: THE PIPELINE: the screen zooms out to an assembly line of agents ending at a capped chief pinning up a checklist, one larger loop arrow circling the whole line. Three, LOOP THREE: THE GRADER: a loop arrow circles the chief's own clipboard inside the pipeline's larger loop, the nesting visible, while the operator points, making the call. Footer: LESSONS FLOW UP. WORK FLOWS DOWN.](/img/comics/improvement-compounds-when-the-loops-nest.png)
+![Three panels titled NESTED IMPROVEMENT LOOPS. One, LOOP ONE: THE ARTIFACT: inside a glowing amber laptop a single rounded agent repaints a framed picture on an easel, a small loop arrow circling just that easel, while an operator watches from the warm world outside. Two, LOOP TWO: THE PIPELINE: the screen zooms out to an assembly line of agents ending at a capped chief pinning up a checklist, one larger loop arrow circling the whole line. Three, LOOP THREE: THE GRADER: a loop arrow circles the chief's own clipboard inside the pipeline's larger loop, the nesting visible, while the operator points, making the call. Footer: LESSONS FLOW UP. WORK FLOWS DOWN.](/img/comics/improvement-compounds-when-the-loops-nest.webp)
 
 Most teams that take improvement seriously build one loop. A retro after the project. An eval suite over the model. A quality gate before the release. That single loop is real progress, and it is also where most systems stop, because one loop feels like discipline and a second loop feels like bureaucracy.
 

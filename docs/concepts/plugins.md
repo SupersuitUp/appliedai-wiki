@@ -2,14 +2,14 @@
 title: "Plugins"
 slug: /concepts/plugins
 description: "The packaging and distribution layer for agent extensions: a per-vendor bundle of skills, commands, subagents, hooks, and MCP servers, installed from a marketplace. The plugin is the box; MCP is the cargo."
-image: "/img/comics/plugins.png"
+image: "/img/comics/plugins.webp"
 ---
 
 # Plugins
 
 *The packaging and distribution layer for agent extensions. A plugin is a per-vendor bundle of skills, commands, subagents, hooks, and MCP servers, installed and versioned from a marketplace. The plugin is the box; MCP is the cargo.*
 
-![Three-panel cream-paper action comic. Title bar: THE PLUGIN IS THE BOX. MCP IS THE CARGO. Panel 1: Midas, the navy-armored hyperagent, packs labeled modules (SKILLS, COMMANDS, HOOKS, SUBAGENTS, and a glowing cyan-and-gold MCP server-gear) into a wooden crate stamped PLUGIN; caption, Midas packs his whole toolkit into one crate. Panel 2: he slides the closed PLUGIN crate onto a dock rail where it clicks into place, stamped HYPERCONTEXT LOADED; caption, One install ships the whole domain. Panel 3: the same glowing MCP cargo fits into three distinct crates labeled CLAUDE, CODEX, and CURSOR, stamped READY; caption, Swap the box, the MCP cargo runs anywhere. Footer bar: PACKAGE THE BOX. KEEP THE CARGO PORTABLE.](/img/comics/plugins.png)
+![Three-panel cream-paper action comic. Title bar: THE PLUGIN IS THE BOX. MCP IS THE CARGO. Panel 1: Midas, the navy-armored hyperagent, packs labeled modules (SKILLS, COMMANDS, HOOKS, SUBAGENTS, and a glowing cyan-and-gold MCP server-gear) into a wooden crate stamped PLUGIN; caption, Midas packs his whole toolkit into one crate. Panel 2: he slides the closed PLUGIN crate onto a dock rail where it clicks into place, stamped HYPERCONTEXT LOADED; caption, One install ships the whole domain. Panel 3: the same glowing MCP cargo fits into three distinct crates labeled CLAUDE, CODEX, and CURSOR, stamped READY; caption, Swap the box, the MCP cargo runs anywhere. Footer bar: PACKAGE THE BOX. KEEP THE CARGO PORTABLE.](/img/comics/plugins.webp)
 
 ---
 

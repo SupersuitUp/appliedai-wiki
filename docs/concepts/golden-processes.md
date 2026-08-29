@@ -2,14 +2,14 @@
 title: "Golden Processes"
 slug: /concepts/golden-processes
 description: "Golden is a status for how you make things, not only for the artifacts you keep. A golden process is a human-blessed, version-controlled procedure that reliably turns a small amount of the right human input into an excellent result."
-image: "/img/comics/golden-processes.png"
+image: "/img/comics/golden-processes.webp"
 ---
 
 # Golden Processes
 
 *Golden is a status for how you make things, not only for the artifacts you keep. A golden process is a human-blessed, version-controlled procedure that reliably turns a small amount of the right human input into an excellent result. It is discovered in real work, refined over repetitions, and checked into modular skills and plugins, so an emergent good workflow stops being re-improvised every time and becomes reusable, isolable, and reliable.*
 
-![Three-panel cream-paper comic titled GOLDEN PROCESSES. Panel 1: Midas the hyperagent in matte-navy plate armor works a task the hard way at a cluttered workbench, one path glowing orange, caption "Midas runs it the hard way, and the shape that works emerges." Panel 2: Midas presses an orange APPROVED stamp on the refined procedure and slots it as a modular cartridge into a shelf of plugin cartridges, caption "He blesses the proven procedure and checks it in as a modular skill." Panel 3: in the navy cyber-cathedral the holographic Chief of Agents with a gold comms crown runs the process on floating grids, a small input flowing in and a finished artifact out, caption "Now it runs itself: small input in, excellent result out." Footer bar: GOLDEN IS A STATUS YOU CONFER ON HOW YOU MAKE, NOT ONLY WHAT YOU KEEP.](/img/comics/golden-processes.png)
+![Three-panel cream-paper comic titled GOLDEN PROCESSES. Panel 1: Midas the hyperagent in matte-navy plate armor works a task the hard way at a cluttered workbench, one path glowing orange, caption "Midas runs it the hard way, and the shape that works emerges." Panel 2: Midas presses an orange APPROVED stamp on the refined procedure and slots it as a modular cartridge into a shelf of plugin cartridges, caption "He blesses the proven procedure and checks it in as a modular skill." Panel 3: in the navy cyber-cathedral the holographic Chief of Agents with a gold comms crown runs the process on floating grids, a small input flowing in and a finished artifact out, caption "Now it runs itself: small input in, excellent result out." Footer bar: GOLDEN IS A STATUS YOU CONFER ON HOW YOU MAKE, NOT ONLY WHAT YOU KEEP.](/img/comics/golden-processes.webp)
 
 ---
 

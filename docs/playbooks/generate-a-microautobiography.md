@@ -2,7 +2,7 @@
 title: Generate a Microautobiography
 slug: /playbooks/generate-a-microautobiography
 description: A GENERATE.md recipe that produces an AI-narrated life-story site for one person. Run a seven-question life interview, lock the narrator persona and voice, write chapters for the ear, and ship a page where every sentence is clickable, highlighted as it is read, and scored with music. One-time generation per person.
-image: "/img/comics/generate-a-microautobiography.png"
+image: "/img/comics/generate-a-microautobiography.webp"
 ---
 
 # Generate a Microautobiography
@@ -12,7 +12,7 @@ image: "/img/comics/generate-a-microautobiography.png"
 
 *A microautobiography is a person's life told in narrated chapters on a single page: an AI narrator reads it aloud over music, the sentence being spoken glows, and clicking any sentence plays from exactly there.*
 
-![Three-panel cream-paper comic. Title bar: GENERATE A MICROAUTOBIOGRAPHY. Panel 1, THE INTERVIEW: a flesh hyperagent in matte-navy plate armor sits telling his story while a bare-headed cyan-and-gold holographic AI narrator listens from a glowing virtual window labeled NARRATOR; caption "One question at a time." Panel 2, THE CHAPTERS: holographic cyan hands in a virtual command hall stack scattered photos and memory fragments into a glowing tower of titled life-chapters; caption "The answers become chapters." Panel 3, THE PAGE: a glowing single life-story web page with a live cyan audio waveform while a distinct older woman with silver-streaked hair listens with a hand on her heart, a READY stamp in the corner; caption "A stranger presses play, and feels they know you." Footer bar: ONE LIFE, TOLD ALOUD ON ONE PAGE.](/img/comics/generate-a-microautobiography.png)
+![Three-panel cream-paper comic. Title bar: GENERATE A MICROAUTOBIOGRAPHY. Panel 1, THE INTERVIEW: a flesh hyperagent in matte-navy plate armor sits telling his story while a bare-headed cyan-and-gold holographic AI narrator listens from a glowing virtual window labeled NARRATOR; caption "One question at a time." Panel 2, THE CHAPTERS: holographic cyan hands in a virtual command hall stack scattered photos and memory fragments into a glowing tower of titled life-chapters; caption "The answers become chapters." Panel 3, THE PAGE: a glowing single life-story web page with a live cyan audio waveform while a distinct older woman with silver-streaked hair listens with a hand on her heart, a READY stamp in the corner; caption "A stranger presses play, and feels they know you." Footer bar: ONE LIFE, TOLD ALOUD ON ONE PAGE.](/img/comics/generate-a-microautobiography.webp)
 
 ---
 

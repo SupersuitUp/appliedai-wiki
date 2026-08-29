@@ -2,14 +2,14 @@
 title: The Outcome Frontier
 slug: /concepts/the-outcome-frontier
 description: "The most complex outcome a person can currently buy with a handful of words, and the line it keeps crossing. Read the AI revolution as one rising number: economic value delivered per unit of input."
-image: "/img/comics/the-outcome-frontier.png"
+image: "/img/comics/the-outcome-frontier.webp"
 ---
 
 # The Outcome Frontier
 
 *The most complex outcome a person can currently buy with a handful of words, and the line it keeps crossing. The AI revolution read as one rising number: economic value delivered per unit of input.*
 
-![Warm editorial three-panel strip on cream, titled THE OUTCOME FRONTIER. One: a woman in a rust sweater sits at a wooden table at dusk, speaking three small amber word-shapes toward a glowing amber laptop, where an agent in a gold cap hands back one blank sheet of paper that rests beside her; caption, A FEW WORDS. ONE PAGE. Two: the same woman speaks the same three word-shapes, the agent leans out holding two blank question cards, she raises two fingers in answer, and a fully set banquet table with candles, flowers and chairs spills out of the laptop beside her; caption, SAME WORDS. TWO ANSWERS. FAR MORE BACK. Three: a bright line runs across the wooden floor with the finished banquet on the near side, and past it a flowered wedding arch and an aisle of empty chairs waits unreached while she stands at the line with the glowing laptop under her arm; caption, THE LINE MOVED. THE NEXT THING WAITS. Footer: SAME WORDS IN. MORE OUT EVERY YEAR.](/img/comics/the-outcome-frontier.png)
+![Warm editorial three-panel strip on cream, titled THE OUTCOME FRONTIER. One: a woman in a rust sweater sits at a wooden table at dusk, speaking three small amber word-shapes toward a glowing amber laptop, where an agent in a gold cap hands back one blank sheet of paper that rests beside her; caption, A FEW WORDS. ONE PAGE. Two: the same woman speaks the same three word-shapes, the agent leans out holding two blank question cards, she raises two fingers in answer, and a fully set banquet table with candles, flowers and chairs spills out of the laptop beside her; caption, SAME WORDS. TWO ANSWERS. FAR MORE BACK. Three: a bright line runs across the wooden floor with the finished banquet on the near side, and past it a flowered wedding arch and an aisle of empty chairs waits unreached while she stands at the line with the glowing laptop under her arm; caption, THE LINE MOVED. THE NEXT THING WAITS. Footer: SAME WORDS IN. MORE OUT EVERY YEAR.](/img/comics/the-outcome-frontier.webp)
 
 ---
 

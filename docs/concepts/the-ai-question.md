@@ -2,14 +2,14 @@
 title: "The AI Question"
 slug: /concepts/the-ai-question
 description: "The single question every leader is actually asking about AI right now: how can I use it to become more successful? Meet them there, or every high-ticket engagement is out of order."
-image: "/img/comics/the-ai-question.png"
+image: "/img/comics/the-ai-question.webp"
 ---
 
 # The AI Question
 
 *The single question every leader is actually asking about AI right now: how can I use it to become more successful? Meet them at that question, or every high-ticket engagement you pitch is out of order.*
 
-![Two-panel cream-paper comic strip. Title bar reads "THE AI QUESTION"; footer bar reads "MEET THEM AT THE QUESTION." Panel 1, "WHAT THEY KNOW": a worried middle-aged leader at an office desk slumps over a laptop showing a bare chat window, a printed email draft stamped "SLOP" on the desk and a "Q4 FOCUS" mug, thought-balloon reading "What I know about AI." Caption: "Most leaders only know AI as a chatbot." Panel 2, "THE REAL QUESTION": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing visor band, sits beside the same leader and hands him a card reading "How can AI make me more successful?" Caption: "Meet them at the question they are actually asking."](/img/comics/the-ai-question.png)
+![Two-panel cream-paper comic strip. Title bar reads "THE AI QUESTION"; footer bar reads "MEET THEM AT THE QUESTION." Panel 1, "WHAT THEY KNOW": a worried middle-aged leader at an office desk slumps over a laptop showing a bare chat window, a printed email draft stamped "SLOP" on the desk and a "Q4 FOCUS" mug, thought-balloon reading "What I know about AI." Caption: "Most leaders only know AI as a chatbot." Panel 2, "THE REAL QUESTION": Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing visor band, sits beside the same leader and hands him a card reading "How can AI make me more successful?" Caption: "Meet them at the question they are actually asking."](/img/comics/the-ai-question.webp)
 
 ---
 

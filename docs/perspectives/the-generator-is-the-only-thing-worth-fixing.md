@@ -2,14 +2,14 @@
 title: "The Generator Is the Only Thing Worth Fixing"
 slug: /perspectives/the-generator-is-the-only-thing-worth-fixing
 description: "When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around."
-image: "/img/comics/fix-the-generator-not-the-output.png"
+image: "/img/comics/fix-the-generator-not-the-output.webp"
 ---
 
 # The Generator Is the Only Thing Worth Fixing
 
 *When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around.*
 
-![Comic hero: a maker at a workbench pulls a slightly-wrong object off a machine. In the first panel they reach for a file to sand the object by hand. In the second they stop, turn to the machine, and adjust a dial on it instead. The third panel shows a row of correct objects coming off the machine, and the maker walking away.](/img/comics/fix-the-generator-not-the-output.png)
+![Comic hero: a maker at a workbench pulls a slightly-wrong object off a machine. In the first panel they reach for a file to sand the object by hand. In the second they stop, turn to the machine, and adjust a dial on it instead. The third panel shows a row of correct objects coming off the machine, and the maker walking away.](/img/comics/fix-the-generator-not-the-output.webp)
 
 ---
 

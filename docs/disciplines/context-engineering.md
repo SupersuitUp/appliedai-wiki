@@ -2,14 +2,14 @@
 title: "Context Engineering"
 slug: /disciplines/context-engineering
 description: "The discipline of curating the right information state for an AI system to operate within. The skill that separates 'AI is okay' from 'AI changed how I work.'"
-image: "/img/comics/context-engineering.png"
+image: "/img/comics/context-engineering.webp"
 ---
 
 # Context Engineering
 
 *The skill that separates "AI is okay" from "AI changed how I work." And the one most people are skipping.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Two identical laptops sit side by side. Into the left one he dumps a huge disordered heap of loose papers. Into the right one he carefully places three chosen sheets. Two: The agent in the left laptop is buried to the shoulders in paper and the object it holds out is muddled and malformed. The agent in the right laptop works in clear space and its object is crisp and clean. Three: He pulls armfuls of paper back out of the left laptop until only three sheets remain, and that agent's object becomes crisp too. He holds the discarded heap under one arm.](/img/comics/context-engineering.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Two identical laptops sit side by side. Into the left one he dumps a huge disordered heap of loose papers. Into the right one he carefully places three chosen sheets. Two: The agent in the left laptop is buried to the shoulders in paper and the object it holds out is muddled and malformed. The agent in the right laptop works in clear space and its object is crisp and clean. Three: He pulls armfuls of paper back out of the left laptop until only three sheets remain, and that agent's object becomes crisp too. He holds the discarded heap under one arm.](/img/comics/context-engineering.webp)
 
 ---
 

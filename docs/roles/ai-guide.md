@@ -2,14 +2,14 @@
 title: "The AI Guide"
 slug: /roles/ai-guide
 description: "The trusted person people go to when they want to know what to do about AI. Advisory at large scale, to anyone. The load-bearing pillar of the AI economy, because trust is the real bottleneck."
-image: "/img/comics/ai-guide.png"
+image: "/img/comics/ai-guide.webp"
 ---
 
 # The AI Guide
 
 *The trusted person people go to when they want to know what AI can do for their life or their business. Advisory at large scale, to anyone, the way an [advisor to one CEO](/roles/ai-advisor-to-the-ceo) is advisory at the scale of one company.*
 
-![Three-panel cream-paper comic strip. Chunky inked title bar reads "THE AI GUIDE"; footer bar reads "TRUST IS THE BOTTLENECK." Panel 1: a worried small-business owner with curly brown hair leans across a cafe table holding up her phone toward Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists; paper-tape caption "What do I do about AI?" Panel 2: Midas gestures at a hand-inked diagram on the table showing a workflow loop, a single app, and a crossed-out tool, while a bald builder waits at the edge to take referred work; caption "Sometimes: you don't need a tool." Panel 3: the woman walks off satisfied and gestures back toward a line of three distinct new people forming behind Midas, with a "READY" stamp; caption "Guided, she sends five more."](/img/comics/ai-guide.png)
+![Three-panel cream-paper comic strip. Chunky inked title bar reads "THE AI GUIDE"; footer bar reads "TRUST IS THE BOTTLENECK." Panel 1: a worried small-business owner with curly brown hair leans across a cafe table holding up her phone toward Midas, a Blasian man in bulky matte-navy plate armor with orange seams and cyan-glowing wrists; paper-tape caption "What do I do about AI?" Panel 2: Midas gestures at a hand-inked diagram on the table showing a workflow loop, a single app, and a crossed-out tool, while a bald builder waits at the edge to take referred work; caption "Sometimes: you don't need a tool." Panel 3: the woman walks off satisfied and gestures back toward a line of three distinct new people forming behind Midas, with a "READY" stamp; caption "Guided, she sends five more."](/img/comics/ai-guide.webp)
 
 ---
 

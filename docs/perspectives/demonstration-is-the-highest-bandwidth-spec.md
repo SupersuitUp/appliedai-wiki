@@ -2,14 +2,14 @@
 title: "Demonstration Is the Highest-Bandwidth Spec"
 slug: /perspectives/demonstration-is-the-highest-bandwidth-spec
 description: "Three minutes of doing a workflow while narrating it carries more usable specification than an hour of writing the procedure down. The binding constraint on automating a process was never model capability. It was asking an operator to describe something their hands run without conscious observation."
-image: "/img/comics/demonstration-is-the-highest-bandwidth-spec.png"
+image: "/img/comics/demonstration-is-the-highest-bandwidth-spec.webp"
 ---
 
 # Demonstration Is the Highest-Bandwidth Spec
 
 *Three minutes of doing the work while narrating it carries more usable specification than an hour of writing the procedure down, because it captures the steps you would never have thought to mention.*
 
-![Three warm editorial panels in one row on cream paper, one lamplit room and one desk throughout, title bar above reading DEMONSTRATION AS SPEC. One, captioned A HALF-EMPTY PAGE: a person sits at the desk with a pen over a sheet holding only a few lines, while inside the glowing amber laptop screen the round agent in a gold cap holds an identically sparse sheet and waits with nothing else to work from. Two, captioned SHOW IT AND SAY IT: the pen and sheet are pushed aside, the person's hands sort a stack of paper slips into two piles on the desk while speaking, a soft amber ribbon of speech curves into the screen, and inside it the agent watches those hands and writes rapidly on a page now dense with lines. Three, captioned THE RULE NOBODY SAID: the person leans in and points at the screen where the agent holds the finished dense page up, one line near its bottom underlined and glowing amber, the person's expression one of recognition. Footer bar: WRITING LOSES WHAT THE HANDS KNOW. SHOWING KEEPS IT.](/img/comics/demonstration-is-the-highest-bandwidth-spec.png)
+![Three warm editorial panels in one row on cream paper, one lamplit room and one desk throughout, title bar above reading DEMONSTRATION AS SPEC. One, captioned A HALF-EMPTY PAGE: a person sits at the desk with a pen over a sheet holding only a few lines, while inside the glowing amber laptop screen the round agent in a gold cap holds an identically sparse sheet and waits with nothing else to work from. Two, captioned SHOW IT AND SAY IT: the pen and sheet are pushed aside, the person's hands sort a stack of paper slips into two piles on the desk while speaking, a soft amber ribbon of speech curves into the screen, and inside it the agent watches those hands and writes rapidly on a page now dense with lines. Three, captioned THE RULE NOBODY SAID: the person leans in and points at the screen where the agent holds the finished dense page up, one line near its bottom underlined and glowing amber, the person's expression one of recognition. Footer bar: WRITING LOSES WHAT THE HANDS KNOW. SHOWING KEEPS IT.](/img/comics/demonstration-is-the-highest-bandwidth-spec.webp)
 
 ---
 

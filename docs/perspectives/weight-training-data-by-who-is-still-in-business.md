@@ -2,14 +2,14 @@
 title: "Weight Training Data by Who Is Still in Business"
 slug: /perspectives/weight-training-data-by-who-is-still-in-business
 description: "Once a system learns from user corrections, it has to decide whose corrections count. Every available proxy for good judgment is bad, and money is the least bad of them, because a customer who keeps paying has run an expensive test you get to inherit for free."
-image: "/img/comics/weight-training-data-by-who-is-still-in-business.png"
+image: "/img/comics/weight-training-data-by-who-is-still-in-business.webp"
 ---
 
 # Weight Training Data by Who Is Still in Business
 
 *Once a system learns from its users' corrections, it has to decide whose corrections count. Every proxy for good judgment is bad, and revenue is the least bad of them, because a customer who keeps paying has already run an expensive experiment you get to inherit for free.*
 
-![Three panels on cream paper, titled WHOSE CORRECTIONS COUNT. One, ALL SLIPS WEIGH THE SAME: a woman in her thirties with black hair in a low bun and a mustard blouse watches a glowing amber laptop where a small rounded agent stands before a two-pan balance scale holding equal piles of blank paper slips, the beam perfectly level and the agent's hands up, stuck. Two, THE ONES STILL IN BUSINESS: she reaches in and sets a small brass weight engraved with a lit-up open shopfront onto the left pan, which sinks while the right pan rises. Three, KEEP A FEW OF THE REST: the scale stays tilted, she holds the thick weighted stack up by the screen, and in her other hand down at the desk she has deliberately kept a small fan of the light slips rather than discarding them. Footer: THE FILTER IS THE MOAT, NOT THE DATA.](/img/comics/weight-training-data-by-who-is-still-in-business.png)
+![Three panels on cream paper, titled WHOSE CORRECTIONS COUNT. One, ALL SLIPS WEIGH THE SAME: a woman in her thirties with black hair in a low bun and a mustard blouse watches a glowing amber laptop where a small rounded agent stands before a two-pan balance scale holding equal piles of blank paper slips, the beam perfectly level and the agent's hands up, stuck. Two, THE ONES STILL IN BUSINESS: she reaches in and sets a small brass weight engraved with a lit-up open shopfront onto the left pan, which sinks while the right pan rises. Three, KEEP A FEW OF THE REST: the scale stays tilted, she holds the thick weighted stack up by the screen, and in her other hand down at the desk she has deliberately kept a small fan of the light slips rather than discarding them. Footer: THE FILTER IS THE MOAT, NOT THE DATA.](/img/comics/weight-training-data-by-who-is-still-in-business.webp)
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: "A Bias for Iteration Is the Price of Admission Now"
 description: "Comfort with rapid, real-time iteration used to be a temperament. It is now the entry requirement for building products at all. The people who win iterate fast, learn quickly, and build systems that learn, on a substrate that is itself improving underneath them."
-image: "/img/comics/a-bias-for-iteration-is-the-price-of-admission-now.png"
+image: "/img/comics/a-bias-for-iteration-is-the-price-of-admission-now.webp"
 ---
 
 # A Bias for Iteration Is the Price of Admission Now
 
 *If you are not comfortable with a bias for experimentation and rapid, real-time iteration, you will not have a good time building products in this economy. The people who win iterate fast, learn quickly, and build systems that learn, and the technology they adopt is itself improving underneath them.*
 
-![Three-panel warm editorial strip titled A BIAS FOR ITERATION. Panel 1, captioned ONE PLANS. ONE LOOPS.: two wooden desks side by side in a warm workshop; at the left desk an older planner in a sweater vest studies a thick bound plan beside his closed, dark laptop; at the right desk a builder in a rust-red sweater feeds a rough page into a glowing translucent amber laptop, where a small holographic Chief of Agents in a gold admiral hat sets a circle of tiny agents turning. Panel 2, captioned EVERY PASS TEACHES.: closer on the glowing laptop; inside the screen the wheel of agents turns while one agent pins a lesson card onto a growing board of pinned cards; a stack of finished pages has emerged beside the laptop, each cleaner than the one beneath; the builder points at the screen, deciding the next change. Panel 3, captioned THE FLOOR RISES.: the builder's desk and glowing laptop now stand on a raised platform of ascending wooden steps over large gears that turn on their own; far below on flat ground the planner holds his bound plan and looks up at her. Footer bar: ITERATE FAST. BUILD SYSTEMS THAT LEARN.](/img/comics/a-bias-for-iteration-is-the-price-of-admission-now.png)
+![Three-panel warm editorial strip titled A BIAS FOR ITERATION. Panel 1, captioned ONE PLANS. ONE LOOPS.: two wooden desks side by side in a warm workshop; at the left desk an older planner in a sweater vest studies a thick bound plan beside his closed, dark laptop; at the right desk a builder in a rust-red sweater feeds a rough page into a glowing translucent amber laptop, where a small holographic Chief of Agents in a gold admiral hat sets a circle of tiny agents turning. Panel 2, captioned EVERY PASS TEACHES.: closer on the glowing laptop; inside the screen the wheel of agents turns while one agent pins a lesson card onto a growing board of pinned cards; a stack of finished pages has emerged beside the laptop, each cleaner than the one beneath; the builder points at the screen, deciding the next change. Panel 3, captioned THE FLOOR RISES.: the builder's desk and glowing laptop now stand on a raised platform of ascending wooden steps over large gears that turn on their own; far below on flat ground the planner holds his bound plan and looks up at her. Footer bar: ITERATE FAST. BUILD SYSTEMS THAT LEARN.](/img/comics/a-bias-for-iteration-is-the-price-of-admission-now.webp)
 
 ---
 

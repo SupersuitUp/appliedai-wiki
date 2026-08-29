@@ -2,14 +2,14 @@
 title: "Agents Read READMEs"
 slug: /perspectives/agents-read-readmes
 description: "Keep agent rule files thin and push the substance into a genuinely good README the rule file points at. Agents read READMEs the way capable developers do."
-image: "/img/comics/agents-read-readmes.png"
+image: "/img/comics/agents-read-readmes.webp"
 ---
 
 # Agents Read READMEs
 
 *Keep the agent rule files thin. Put the substance in a genuinely good README and tell the rule file to read it. A capable developer reads the README before touching the code, and so does the agent.*
 
-![Three-panel cream-paper comic titled AGENTS READ READMEs. Panel 1: Midas in his bulky navy-and-orange Supersuit half-buried under an avalanche of loose papers stamped CLAUDE.md, caption "The rule file swells. The substance rots inside it." Panel 2: Midas standing tall holding a small card reading READ THE README FIRST, an orange arrow pointing to a thick bound book stamped README on a pedestal, caption "Keep the rules thin. Point them at the README." Panel 3: the holographic Chief of Agents with his gold comms crown and LEAD LLM-COMMS LAYER chest band in the navy cyber-cathedral, reading a glowing README checklist (Purpose, Installation, Usage, Examples, Guidance, Gotchas) and beaming out OUTPUT ORIENTED SHIPPING, caption "The agent reads it like a sharp new hire and ships." Footer bar: "Write it for the new hire. The agent reads over their shoulder."](/img/comics/agents-read-readmes.png)
+![Three-panel cream-paper comic titled AGENTS READ READMEs. Panel 1: Midas in his bulky navy-and-orange Supersuit half-buried under an avalanche of loose papers stamped CLAUDE.md, caption "The rule file swells. The substance rots inside it." Panel 2: Midas standing tall holding a small card reading READ THE README FIRST, an orange arrow pointing to a thick bound book stamped README on a pedestal, caption "Keep the rules thin. Point them at the README." Panel 3: the holographic Chief of Agents with his gold comms crown and LEAD LLM-COMMS LAYER chest band in the navy cyber-cathedral, reading a glowing README checklist (Purpose, Installation, Usage, Examples, Guidance, Gotchas) and beaming out OUTPUT ORIENTED SHIPPING, caption "The agent reads it like a sharp new hire and ships." Footer bar: "Write it for the new hire. The agent reads over their shoulder."](/img/comics/agents-read-readmes.webp)
 
 ---
 

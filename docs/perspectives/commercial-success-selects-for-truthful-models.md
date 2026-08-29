@@ -2,14 +2,14 @@
 title: "Commercial Success Selects for Truthful Models"
 slug: /perspectives/commercial-success-selects-for-truthful-models
 description: "For AI that is paid to do a job, the market's success signal and the truth signal are the same thing: whether the customer got what they actually wanted. So winning the market selects for models that are reliable and honest. This holds only where the product is bought to complete a task, not to hold attention, where the selection runs the opposite way."
-image: "/img/comics/commercial-success-selects-for-truthful-models.png"
+image: "/img/comics/commercial-success-selects-for-truthful-models.webp"
 ---
 
 # Commercial Success Selects for Truthful Models
 
 *For AI that is paid to do a job, the market's success signal and the alignment signal are the same thing: whether the customer got what they actually wanted. So winning the market pulls the model toward being reliable and honest. This holds only where the product is bought to complete a task, not to hold attention, where the selection runs the opposite way.*
 
-![Comic hero: three-panel action-comic on cream paper, matte-navy power armor with vivid orange seam accents. Title bar reads COMMERCIAL SUCCESS SELECTS FOR TRUTHFUL MODELS. Panel one, THE SIGNAL: Midas the hyperagent at a command desk hands a customer figure a finished result; a single amber tag peels up reading GOT WHAT I WANTED?, cyan check glowing. Panel two, THE LOOP: that YES tag flows down a cyan channel into a gold MODEL core stamped MORE TRUE, while a red X tag from an unhappy customer is routed to a bin marked CHURN. Panel three, THE FORK: two doors, one labeled DO THE JOB glowing cyan and leading to the model core, one labeled HOLD THE GAZE glowing red and leading to a slot-machine; Midas walks through the cyan door. Footer bar reads THE JOB REWARDS THE TRUTH. THE GAZE REWARDS THE HOOK.](/img/comics/commercial-success-selects-for-truthful-models.png)
+![Comic hero: three-panel action-comic on cream paper, matte-navy power armor with vivid orange seam accents. Title bar reads COMMERCIAL SUCCESS SELECTS FOR TRUTHFUL MODELS. Panel one, THE SIGNAL: Midas the hyperagent at a command desk hands a customer figure a finished result; a single amber tag peels up reading GOT WHAT I WANTED?, cyan check glowing. Panel two, THE LOOP: that YES tag flows down a cyan channel into a gold MODEL core stamped MORE TRUE, while a red X tag from an unhappy customer is routed to a bin marked CHURN. Panel three, THE FORK: two doors, one labeled DO THE JOB glowing cyan and leading to the model core, one labeled HOLD THE GAZE glowing red and leading to a slot-machine; Midas walks through the cyan door. Footer bar reads THE JOB REWARDS THE TRUTH. THE GAZE REWARDS THE HOOK.](/img/comics/commercial-success-selects-for-truthful-models.webp)
 
 ---
 

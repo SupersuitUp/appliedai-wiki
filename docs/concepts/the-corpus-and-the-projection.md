@@ -2,14 +2,14 @@
 title: "The Corpus and the Projection"
 slug: /concepts/the-corpus-and-the-projection
 description: "Every generated artifact fuses two things: the corpus of annotated inputs and intent it draws from, and the projection, the editable spec that turns that corpus into this particular artifact. Separate them and the corpus becomes a durable asset while every artifact stays cheap, re-rollable, and traceable to its exact source."
-image: "/img/comics/the-corpus-and-the-projection.png"
+image: "/img/comics/the-corpus-and-the-projection.webp"
 ---
 
 # The Corpus and the Projection
 
 *Every generated artifact fuses two things: the **corpus** of annotated inputs and intent it draws from, and the **projection**, the editable spec that turns that corpus into this particular artifact. Separate them and the corpus becomes a durable asset while every artifact stays cheap, re-rollable, and traceable to its exact source.*
 
-![Comic hero: three-panel neo-comic action-zine strip on cream paper, matte-navy armor with vivid orange seam accents. Title bar: THE CORPUS AND THE PROJECTION. Panel one, THE VAULT: an armored maker stands beside a heavy glowing archive labeled THE CORPUS, its shelves stacked with tagged source cards each stamped with a small provenance seal, a mug reading GATHER ONCE. Panel two, THE LENS: he holds a small etched lens labeled THE PROJECTION up to the vault, and a single finished artifact, a book, beams out of it onto the workbench, caption "one lens, one artifact." Panel three, MANY LENSES: a rack of different lenses labeled MINI-BOOK, FLASHCARDS, ONE-PAGER, AUDIO each throw a different artifact from the same unchanged vault, footer bar: THE CORPUS IS THE MOAT. PROJECTIONS ARE CHEAP.](/img/comics/the-corpus-and-the-projection.png)
+![Comic hero: three-panel neo-comic action-zine strip on cream paper, matte-navy armor with vivid orange seam accents. Title bar: THE CORPUS AND THE PROJECTION. Panel one, THE VAULT: an armored maker stands beside a heavy glowing archive labeled THE CORPUS, its shelves stacked with tagged source cards each stamped with a small provenance seal, a mug reading GATHER ONCE. Panel two, THE LENS: he holds a small etched lens labeled THE PROJECTION up to the vault, and a single finished artifact, a book, beams out of it onto the workbench, caption "one lens, one artifact." Panel three, MANY LENSES: a rack of different lenses labeled MINI-BOOK, FLASHCARDS, ONE-PAGER, AUDIO each throw a different artifact from the same unchanged vault, footer bar: THE CORPUS IS THE MOAT. PROJECTIONS ARE CHEAP.](/img/comics/the-corpus-and-the-projection.webp)
 
 ---
 

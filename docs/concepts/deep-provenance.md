@@ -2,14 +2,14 @@
 title: "Deep Provenance"
 slug: /concepts/deep-provenance
 description: "Recording what produced every artifact, in enough detail that you can tell which input to change. Without it you re-roll and hope. With it you steer, and you also learn which finished work a changed input made suspect."
-image: "/img/comics/deep-provenance.png"
+image: "/img/comics/deep-provenance.webp"
 ---
 
 # Deep Provenance
 
 *Recording what produced every artifact, in enough detail that you can tell which input to change. The output is close but not right, and you are sure it can get there. Provenance is what lets you steer toward it instead of re-rolling and hoping.*
 
-![Three warm editorial panels on cream under a title bar reading DEEP PROVENANCE, the same cook in the same modest kitchen in all three, a single wide pot on a wooden counter and shelves of preserve jars behind. Panel one, captioned NOT QUITE RIGHT: she tastes from a wooden spoon with her brow furrowed, and nothing anywhere is written down. Panel two, captioned EVERY INPUT RECORDED: she writes on a small card laid beside the pot, recording what went in. The pot is unchanged; only the record is new. Panel three, captioned NOW YOU KNOW WHICH TO CHANGE: she reads the card in one hand and reaches up with the other to exactly one jar on the shelf, which glows warm while every other jar stays plain, and the pot itself now glows. A footer bar reads GUESSING IS NOT ITERATING.](/img/comics/deep-provenance.png)
+![Three warm editorial panels on cream under a title bar reading DEEP PROVENANCE, the same cook in the same modest kitchen in all three, a single wide pot on a wooden counter and shelves of preserve jars behind. Panel one, captioned NOT QUITE RIGHT: she tastes from a wooden spoon with her brow furrowed, and nothing anywhere is written down. Panel two, captioned EVERY INPUT RECORDED: she writes on a small card laid beside the pot, recording what went in. The pot is unchanged; only the record is new. Panel three, captioned NOW YOU KNOW WHICH TO CHANGE: she reads the card in one hand and reaches up with the other to exactly one jar on the shelf, which glows warm while every other jar stays plain, and the pot itself now glows. A footer bar reads GUESSING IS NOT ITERATING.](/img/comics/deep-provenance.webp)
 
 ---
 

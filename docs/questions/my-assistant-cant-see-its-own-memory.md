@@ -2,14 +2,14 @@
 title: "My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?"
 slug: /questions/my-assistant-cant-see-its-own-memory
 description: "The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer."
-image: "/img/comics/my-assistant-cant-see-its-own-memory.png"
+image: "/img/comics/my-assistant-cant-see-its-own-memory.webp"
 ---
 
 # My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?
 
 *The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer.*
 
-![Three-panel cream-paper action comic titled CROSSING THE CHASM with footer OWN THE SUBSTRATE. Panel 1 THE SEALED BOX: Midas, a Blasian hyperagent in bulky matte-navy plate armor with orange seams, presses a gauntlet against the inside of a sealed glass box; locked folder and memory icons sit out of reach; his Chief of Agents shows only as a dim cyan-gold hologram. Caption: My assistant can't reach its own memory. Panel 2 THE CHASM: Midas leaps a canyon gap from cracked glass shards labeled VENDOR BOX BROKEN to a far ledge built of stacked markdown context files. Caption: Rent the provider's memory, or own your context layer. Panel 3 OWNED CONTEXT: in the cyber-cathedral command hall the Chief of Agents is now fully luminous, gold comms crown on his head, conductor's mantle, LEAD LLM-COMMS LAYER chest band, reading freely from glowing holographic markdown files. Caption: HYPERCONTEXT LOADED.](/img/comics/my-assistant-cant-see-its-own-memory.png)
+![Three-panel cream-paper action comic titled CROSSING THE CHASM with footer OWN THE SUBSTRATE. Panel 1 THE SEALED BOX: Midas, a Blasian hyperagent in bulky matte-navy plate armor with orange seams, presses a gauntlet against the inside of a sealed glass box; locked folder and memory icons sit out of reach; his Chief of Agents shows only as a dim cyan-gold hologram. Caption: My assistant can't reach its own memory. Panel 2 THE CHASM: Midas leaps a canyon gap from cracked glass shards labeled VENDOR BOX BROKEN to a far ledge built of stacked markdown context files. Caption: Rent the provider's memory, or own your context layer. Panel 3 OWNED CONTEXT: in the cyber-cathedral command hall the Chief of Agents is now fully luminous, gold comms crown on his head, conductor's mantle, LEAD LLM-COMMS LAYER chest band, reading freely from glowing holographic markdown files. Caption: HYPERCONTEXT LOADED.](/img/comics/my-assistant-cant-see-its-own-memory.webp)
 
 ---
 

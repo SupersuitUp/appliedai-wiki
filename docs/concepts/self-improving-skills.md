@@ -2,14 +2,14 @@
 title: "Self-Improving Skills"
 slug: /concepts/self-improving-skills
 description: "A skill earns its place by getting better: every run's corrections fold back into the file, the target is consistent one-shots on the cases you care about, and the update rules live in the skill itself so improving one case cannot silently degrade another."
-image: "/img/comics/self-improving-skills.png"
+image: "/img/comics/self-improving-skills.webp"
 ---
 
 # Self-Improving Skills
 
 *A skill earns its place by getting better: every run's corrections fold back into the file, the target is consistent one-shots on the cases you care about, and the update rules live in the skill itself so improving one case cannot silently degrade another.*
 
-![Three warm editorial panels titled SELF-IMPROVING SKILLS. One: a middle-aged Black woman in round glasses and a mustard cardigan leans in frowning at the glowing amber laptop, where the Chief of Agents holds up a crooked incomplete page; an amber correction line loops from the screen down into a desk card labeled SKILL; caption FIRST RUN FAILS. FOLD IT BACK. Two: the same woman sits back with her hands off the keys while the Chief of Agents presents one clean finished page and the SKILL card beside the laptop carries layered annotation strokes and glows faintly; caption RUNS LATER: IT ONE-SHOTS. Three: she holds a new amber correction slip up against the SKILL card, which shows a neat stack of three blank case tags, while inside the laptop two sub-agents each hold up a clean page of a different shape; caption NEW FIX, CHECKED AGAINST THE REST. Footer: ADOPT ONLY WHAT IMPROVES. IMPROVE WITHOUT DEGRADING.](/img/comics/self-improving-skills.png)
+![Three warm editorial panels titled SELF-IMPROVING SKILLS. One: a middle-aged Black woman in round glasses and a mustard cardigan leans in frowning at the glowing amber laptop, where the Chief of Agents holds up a crooked incomplete page; an amber correction line loops from the screen down into a desk card labeled SKILL; caption FIRST RUN FAILS. FOLD IT BACK. Two: the same woman sits back with her hands off the keys while the Chief of Agents presents one clean finished page and the SKILL card beside the laptop carries layered annotation strokes and glows faintly; caption RUNS LATER: IT ONE-SHOTS. Three: she holds a new amber correction slip up against the SKILL card, which shows a neat stack of three blank case tags, while inside the laptop two sub-agents each hold up a clean page of a different shape; caption NEW FIX, CHECKED AGAINST THE REST. Footer: ADOPT ONLY WHAT IMPROVES. IMPROVE WITHOUT DEGRADING.](/img/comics/self-improving-skills.webp)
 
 ---
 

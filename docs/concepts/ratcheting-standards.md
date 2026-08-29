@@ -2,14 +2,14 @@
 title: "Ratcheting Standards"
 slug: /concepts/ratcheting-standards
 description: "A check that records how many violations a codebase already has and fails only when the number goes up. Lets you adopt a standard today on a codebase that does not meet it, without blocking on a cleanup you will keep postponing."
-image: "/img/comics/ratcheting-standards.png"
+image: "/img/comics/ratcheting-standards.webp"
 ---
 
 # Ratcheting Standards
 
 *A check that records how many violations a codebase already has and fails only when the number goes up. It lets you adopt a standard today on a codebase that does not meet it.*
 
-![Three panels in warm editorial ink-and-wash on cream paper. Title bar: RATCHETING STANDARDS. One: inside a glowing amber laptop on a wooden desk, a tall untidy stack of loose papers; the person outside reaches in and clamps a slim brass bar horizontally against the stack at exactly its current top edge. Caption: MARK THE CURRENT HEIGHT. Two: the bar sits at the same height and a single new sheet is stopped dead against its underside, held by a small rounded agent, while the stack below the bar is undisturbed. Caption: NEW WORK CANNOT EXCEED IT. Three: the stack is visibly shorter because the person has drawn a sheaf of papers out onto the desk outside the laptop, and the brass bar has slid down to rest on the new lower top edge. Caption: THE MARK ONLY MOVES DOWN. Footer bar: GRANDFATHER THE DEBT. BLOCK THE NEXT ONE.](/img/comics/ratcheting-standards.png)
+![Three panels in warm editorial ink-and-wash on cream paper. Title bar: RATCHETING STANDARDS. One: inside a glowing amber laptop on a wooden desk, a tall untidy stack of loose papers; the person outside reaches in and clamps a slim brass bar horizontally against the stack at exactly its current top edge. Caption: MARK THE CURRENT HEIGHT. Two: the bar sits at the same height and a single new sheet is stopped dead against its underside, held by a small rounded agent, while the stack below the bar is undisturbed. Caption: NEW WORK CANNOT EXCEED IT. Three: the stack is visibly shorter because the person has drawn a sheaf of papers out onto the desk outside the laptop, and the brass bar has slid down to rest on the new lower top edge. Caption: THE MARK ONLY MOVES DOWN. Footer bar: GRANDFATHER THE DEBT. BLOCK THE NEXT ONE.](/img/comics/ratcheting-standards.webp)
 
 ---
 

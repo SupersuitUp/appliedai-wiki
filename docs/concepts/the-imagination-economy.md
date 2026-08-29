@@ -1,14 +1,14 @@
 ---
 title: The Imagination Economy
 description: "The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark."
-image: "/img/comics/the-imagination-economy.png"
+image: "/img/comics/the-imagination-economy.webp"
 ---
 
 # The Imagination Economy
 
 *The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark.*
 
-![Titled three-panel strip, THE IMAGINATION ECONOMY. One, THE OLD CONSTRAINT: a woman at a desk with a rich page of sketched ideas, gazing at a tiny team struggling under one heavy block inside the glowing amber laptop, most of her page undone. Two, THE FLIP: the same laptop now full of small agents building many things at once from her sketches, pages streaming out, her hand adding a new idea mid-flow. Three, THE GATE: beside the glowing laptop stands a small solid gate figure; a warm bright sketch passes through it into the world while a jagged dark sketch is stopped at the gate, the woman nodding. Footer: WILL EXECUTES NOW. ALIGNMENT DECIDES WHOSE.](/img/comics/the-imagination-economy.png)
+![Titled three-panel strip, THE IMAGINATION ECONOMY. One, THE OLD CONSTRAINT: a woman at a desk with a rich page of sketched ideas, gazing at a tiny team struggling under one heavy block inside the glowing amber laptop, most of her page undone. Two, THE FLIP: the same laptop now full of small agents building many things at once from her sketches, pages streaming out, her hand adding a new idea mid-flow. Three, THE GATE: beside the glowing laptop stands a small solid gate figure; a warm bright sketch passes through it into the world while a jagged dark sketch is stopped at the gate, the woman nodding. Footer: WILL EXECUTES NOW. ALIGNMENT DECIDES WHOSE.](/img/comics/the-imagination-economy.webp)
 
 ---
 

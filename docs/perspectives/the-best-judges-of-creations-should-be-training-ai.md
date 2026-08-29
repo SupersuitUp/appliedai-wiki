@@ -2,14 +2,14 @@
 title: "The Best Judges of Creations Should Be Training AI"
 slug: /perspectives/the-best-judges-of-creations-should-be-training-ai
 description: "Taste is not a scale problem. A model's ceiling on any creative domain is the taste of whoever judged its output, so the highest-leverage hire in applied AI is the person whose verdict on a creation the market already trusts."
-image: "/img/comics/the-best-judges-of-creations-should-be-training-ai.png"
+image: "/img/comics/the-best-judges-of-creations-should-be-training-ai.webp"
 ---
 
 # The Best Judges of Creations Should Be Training AI
 
 *A model's taste ceiling is the taste of whoever judged its output. So the way you make AI have taste is not a better architecture or more data. It is hiring the people whose verdict on a creation the world already trusts, and putting their judgment in the loop.*
 
-![Three panels. One: in a warm studio, a laptop glows on a workbench while inside its screen small agents hold up freshly made garments toward a row of identical grey silhouettes at a counting desk, each stamping the same neutral mark on everything; caption "SCALE JUDGES BY THE PAGE". Two: outside the laptop, one woman with a practiced eye lifts a single garment to the light, turns it over, and sets it in a small blessed pile while pushing three others aside; the agents inside the screen watch her sorted piles through the glass; caption "ONE VALIDATED VERDICT". Three: the agents inside the laptop now produce a rack of garments that match the blessed pile, and the woman rests one hand on the finished rack while the counting desk stands empty; caption "THE CEILING MOVED". Footer bar: A MODEL INHERITS ITS JUDGE'S TASTE.](/img/comics/the-best-judges-of-creations-should-be-training-ai.png)
+![Three panels. One: in a warm studio, a laptop glows on a workbench while inside its screen small agents hold up freshly made garments toward a row of identical grey silhouettes at a counting desk, each stamping the same neutral mark on everything; caption "SCALE JUDGES BY THE PAGE". Two: outside the laptop, one woman with a practiced eye lifts a single garment to the light, turns it over, and sets it in a small blessed pile while pushing three others aside; the agents inside the screen watch her sorted piles through the glass; caption "ONE VALIDATED VERDICT". Three: the agents inside the laptop now produce a rack of garments that match the blessed pile, and the woman rests one hand on the finished rack while the counting desk stands empty; caption "THE CEILING MOVED". Footer bar: A MODEL INHERITS ITS JUDGE'S TASTE.](/img/comics/the-best-judges-of-creations-should-be-training-ai.webp)
 
 ---
 
@@ -23,7 +23,7 @@ Which makes "how do we give this model taste?" a hiring question wearing a resea
 
 ## The judging layer is the cheapest part of the stack, and that shows
 
-![A two-pan scale on a workshop bench. The left pan sinks under gleaming precision machinery, stacked server blocks and polished instruments. The right pan rides high holding only a flimsy paper rubber-stamp and a thin stack of checklist slips. A beautifully made garment rests on the top beam, tilting toward the light side and about to slide off, while an older man in a grey cardigan studies the light pan with his arms folded. Title bar: WHERE THE MONEY GOES. Footer: FRONTIER COMPUTE. COMMODITY JUDGMENT.](/img/comics/the-best-judges-of-creations-should-be-training-ai-scale.png)
+![A two-pan scale on a workshop bench. The left pan sinks under gleaming precision machinery, stacked server blocks and polished instruments. The right pan rides high holding only a flimsy paper rubber-stamp and a thin stack of checklist slips. A beautifully made garment rests on the top beam, tilting toward the light side and about to slide off, while an older man in a grey cardigan studies the light pan with his arms folded. Title bar: WHERE THE MONEY GOES. Footer: FRONTIER COMPUTE. COMMODITY JUDGMENT.](/img/comics/the-best-judges-of-creations-should-be-training-ai-scale.webp)
 
 Look at how creative judgment is actually sourced today. Frontier labs spend enormous sums on compute and top-percentile research talent, then route a meaningful share of preference judgments through a labeling layer procured on throughput and cost. That layer is staffed by people doing a job to make a living, working fast, against generic rubrics, on domains they were not selected for.
 
@@ -41,7 +41,7 @@ That validation is what a generic rubric cannot manufacture and a smart generali
 
 ## The engineer who cannot see product-market fit
 
-![Two panels. One, labeled NO ONE TO ASK: a young engineer in a slate-blue button-down holds a freshly generated poster print at arm's length, head tilted, openly uncertain, beside a glowing amber laptop that has just produced a stack of identical prints; the wall behind him is blank where a standard would hang. Two, labeled A STANDARD ON THE WALL: the same engineer turns toward an older woman in a charcoal jacket who holds one print up beside three framed blessed prints now hanging on the wall, with the discarded prints in a tidy pile by the bench. Title bar: IS THIS ANY GOOD. Footer: THE JUDGE IS A REQUIRED COMPONENT.](/img/comics/the-best-judges-of-creations-should-be-training-ai-pmf.png)
+![Two panels. One, labeled NO ONE TO ASK: a young engineer in a slate-blue button-down holds a freshly generated poster print at arm's length, head tilted, openly uncertain, beside a glowing amber laptop that has just produced a stack of identical prints; the wall behind him is blank where a standard would hang. Two, labeled A STANDARD ON THE WALL: the same engineer turns toward an older woman in a charcoal jacket who holds one print up beside three framed blessed prints now hanging on the wall, with the discarded prints in a tidy pile by the bench. Title bar: IS THIS ANY GOOD. Footer: THE JUDGE IS A REQUIRED COMPONENT.](/img/comics/the-best-judges-of-creations-should-be-training-ai-pmf.webp)
 
 Here is the operator version of the problem, and it is the reason this is urgent rather than philosophical.
 

@@ -2,14 +2,14 @@
 title: "Variance Is the Existential Problem"
 slug: /perspectives/variance-is-the-existential-problem
 description: "Customers fire an AI-services company for inconsistent output faster than for being slower or more expensive than the incumbent. Consistency is what they are buying. Output variance, not speed or price, is the churn driver."
-image: "/img/comics/variance-is-the-existential-problem.png"
+image: "/img/comics/variance-is-the-existential-problem.webp"
 ---
 
 # Variance Is the Existential Problem
 
 *Customers fire an AI-services company for inconsistent output faster than for being slower or more expensive than the incumbent. Consistency is what they are buying. Output variance, not speed or price, is the churn driver.*
 
-![Three-panel comic strip on warm cream paper. Chunky inked title bar reads "VARIANCE IS THE EXISTENTIAL PROBLEM"; footer bar reads "CONSISTENCY IS WHAT THEY ARE BUYING". Panel 1: the flesh-and-blood hyperagent in his bulky matte-navy orange-seamed Supersuit stands by a row of identical gold-stamped deliverables, each marked with a cyan READY check, beside a calm trusting customer in plain business clothes; paper-tape caption "Same result. Every single time." Panel 2: one deliverable in the row is cracked with a crimson ERROR glyph while the others stay clean; the customer turns and walks away pulling back a contract, with struck-through tags reading "NOT SLOWER" and "NOT PRICIER" to show variance, not speed or price, is the churn driver; caption "One bad output. Trust collapses." Panel 3: the hyperagent at a console runs EVALS, where a glowing cyan-and-gold holographic bell curve labeled OUTPUT DISTRIBUTION is clamped from WIDE SCATTER into a TIGHT RELIABLE BAND by gold golden-example cards and a cyan REVIEW GATE, assisted by a translucent cyan-and-gold holographic Chief of Agents; a small MISSION INTACT stamp sits in the corner; caption "Evals compress the distribution."](/img/comics/variance-is-the-existential-problem.png)
+![Three-panel comic strip on warm cream paper. Chunky inked title bar reads "VARIANCE IS THE EXISTENTIAL PROBLEM"; footer bar reads "CONSISTENCY IS WHAT THEY ARE BUYING". Panel 1: the flesh-and-blood hyperagent in his bulky matte-navy orange-seamed Supersuit stands by a row of identical gold-stamped deliverables, each marked with a cyan READY check, beside a calm trusting customer in plain business clothes; paper-tape caption "Same result. Every single time." Panel 2: one deliverable in the row is cracked with a crimson ERROR glyph while the others stay clean; the customer turns and walks away pulling back a contract, with struck-through tags reading "NOT SLOWER" and "NOT PRICIER" to show variance, not speed or price, is the churn driver; caption "One bad output. Trust collapses." Panel 3: the hyperagent at a console runs EVALS, where a glowing cyan-and-gold holographic bell curve labeled OUTPUT DISTRIBUTION is clamped from WIDE SCATTER into a TIGHT RELIABLE BAND by gold golden-example cards and a cyan REVIEW GATE, assisted by a translucent cyan-and-gold holographic Chief of Agents; a small MISSION INTACT stamp sits in the corner; caption "Evals compress the distribution."](/img/comics/variance-is-the-existential-problem.webp)
 
 ---
 

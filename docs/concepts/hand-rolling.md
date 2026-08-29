@@ -2,14 +2,14 @@
 title: "Hand-Rolling"
 slug: /concepts/hand-rolling
 description: "Producing a one-off result by hand to get around your own system, instead of improving the system so it produces the result. Every hand-roll is a fix that helps once and teaches the generator nothing."
-image: "/img/comics/hand-rolling.png"
+image: "/img/comics/hand-rolling.webp"
 ---
 
 # Hand-Rolling
 
 *Producing a one-off result by hand to get around your own system, instead of improving the system so it produces the result. Every hand-roll is a fix that helps once and teaches the generator nothing.*
 
-![Comic hero: three panels titled HAND-ROLLING. Panel one, an armored operator pulls a slightly crooked object off a machine and files it smooth by hand with a satisfied look, caption "Fix the thing in your hand." Panel two, the same machine keeps producing identical crooked objects that pile up behind him while he hand-files the first, caption "The machine never learned." Panel three, a mountain of crooked objects and one exhausted operator still filing while the untouched machine hums, footer "Every hand-roll fixes one and teaches the machine nothing."](/img/comics/hand-rolling.png)
+![Comic hero: three panels titled HAND-ROLLING. Panel one, an armored operator pulls a slightly crooked object off a machine and files it smooth by hand with a satisfied look, caption "Fix the thing in your hand." Panel two, the same machine keeps producing identical crooked objects that pile up behind him while he hand-files the first, caption "The machine never learned." Panel three, a mountain of crooked objects and one exhausted operator still filing while the untouched machine hums, footer "Every hand-roll fixes one and teaches the machine nothing."](/img/comics/hand-rolling.webp)
 
 ---
 

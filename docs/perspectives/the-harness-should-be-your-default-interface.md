@@ -2,14 +2,14 @@
 title: The Harness Should Be Your Default Interface
 slug: /perspectives/the-harness-should-be-your-default-interface
 description: "Most people open an app and do the work by hand. The better default is to start in an agentic harness, describe the outcome, and let the harness open an interface only for the steps that need your body."
-image: "/img/comics/the-harness-should-be-your-default-interface.png"
+image: "/img/comics/the-harness-should-be-your-default-interface.webp"
 ---
 
 # The Harness Should Be Your Default Interface
 
 *Most people open an app and do the work by hand. The better default is to start in an agentic harness, describe the outcome, and let the harness open an interface only for the steps that need your body.*
 
-![Three panels in a warm room with a wall of small message cards. One: the laptop sits closed while a man corrects the cards one at a time by hand, and only the two under his hand carry a mark. Two: he turns to the now-open glowing amber laptop and holds out a single card, which a thin amber line carries in to a small gold-capped figure inside the screen, while the wall behind him is unchanged. Three: an amber line fans out of the laptop across the whole wall and every card now carries the same mark, while the man stands with his hands at his sides watching.](/img/comics/the-harness-should-be-your-default-interface.png)
+![Three panels in a warm room with a wall of small message cards. One: the laptop sits closed while a man corrects the cards one at a time by hand, and only the two under his hand carry a mark. Two: he turns to the now-open glowing amber laptop and holds out a single card, which a thin amber line carries in to a small gold-capped figure inside the screen, while the wall behind him is unchanged. Three: an amber line fans out of the laptop across the whole wall and every card now carries the same mark, while the man stands with his hands at his sides watching.](/img/comics/the-harness-should-be-your-default-interface.webp)
 
 ---
 

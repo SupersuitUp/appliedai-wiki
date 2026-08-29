@@ -2,14 +2,14 @@
 title: "The Goldilocks Pace"
 slug: /concepts/the-goldilocks-pace
 description: "The operating pace that maximizes returns while keeping risk bounded, held predictably week after week."
-image: "/img/comics/the-goldilocks-pace.png"
+image: "/img/comics/the-goldilocks-pace.webp"
 ---
 
 # The Goldilocks Pace
 
 *The operating pace that maximizes returns while keeping risk bounded, held predictably week after week. Models can go a million miles an hour. A business should not, by default.*
 
-![Three-panel warm editorial strip titled THE GOLDILOCKS PACE. Panel one, captioned TOO HOT: SLOP SHIPS, a young woman hunched over a glowing amber laptop as printed pages pour out of it and drift across the table and floor, while behind her a customer walks out the open door. Panel two, captioned TOO COLD: THE WINDOW PASSES, an older man sits with his arms crossed watching a train pull away through the window, his laptop closed on the table in front of him. Panel three, captioned JUST RIGHT: FOUNDATIONS FIRST, a woman works calmly at a glowing laptop in which small figures lay deep stone foundations under a rising tower, with a neat stack of tiles beside her. Bottom line: PICK THE PACE YOU CAN HOLD. DIG DEEP BEFORE YOU BUILD.](/img/comics/the-goldilocks-pace.png)
+![Three-panel warm editorial strip titled THE GOLDILOCKS PACE. Panel one, captioned TOO HOT: SLOP SHIPS, a young woman hunched over a glowing amber laptop as printed pages pour out of it and drift across the table and floor, while behind her a customer walks out the open door. Panel two, captioned TOO COLD: THE WINDOW PASSES, an older man sits with his arms crossed watching a train pull away through the window, his laptop closed on the table in front of him. Panel three, captioned JUST RIGHT: FOUNDATIONS FIRST, a woman works calmly at a glowing laptop in which small figures lay deep stone foundations under a rising tower, with a neat stack of tiles beside her. Bottom line: PICK THE PACE YOU CAN HOLD. DIG DEEP BEFORE YOU BUILD.](/img/comics/the-goldilocks-pace.webp)
 
 ## The pace is a decision, and most teams inherit it instead of making it
 

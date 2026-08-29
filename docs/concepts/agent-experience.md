@@ -1,14 +1,14 @@
 ---
 title: Agent Experience
 description: "Designing the environment an agent works in, its files, names, folders, and frontmatter, so it spends its budget producing instead of searching. Most of the work in the world is about to be done by agents, which makes this most of experience design."
-image: "/img/comics/agent-experience.png"
+image: "/img/comics/agent-experience.webp"
 ---
 
 # Agent Experience
 
 *Designing the environment an agent works in, its files, names, folders, and frontmatter, so it spends its budget producing instead of searching. Most of the work in the world is about to be done by agents, which makes this most of experience design.*
 
-![Titled three-panel strip, AGENT EXPERIENCE. One, THE COLD ARRIVAL: a gray-haired man gives his glowing amber laptop a task while inside the glow a small agent faces a chaotic heap of unlabeled pages. Two, SEARCHING IS THE TAX: the agent is waist-deep in the heap holding a wrong page, the man outside waiting by a clock. Three, STRUCTURE IS THE REBATE: a tidy shelf of dated files inside the glow, the agent already working with the one right file, a finished page emerging. Footer: THE AGENT IS A USER. DESIGN FOR IT.](/img/comics/agent-experience.png)
+![Titled three-panel strip, AGENT EXPERIENCE. One, THE COLD ARRIVAL: a gray-haired man gives his glowing amber laptop a task while inside the glow a small agent faces a chaotic heap of unlabeled pages. Two, SEARCHING IS THE TAX: the agent is waist-deep in the heap holding a wrong page, the man outside waiting by a clock. Three, STRUCTURE IS THE REBATE: a tidy shelf of dated files inside the glow, the agent already working with the one right file, a finished page emerging. Footer: THE AGENT IS A USER. DESIGN FOR IT.](/img/comics/agent-experience.webp)
 
 ---
 

@@ -2,14 +2,14 @@
 title: "Tokens Are the Atomic Unit of AI Economics"
 slug: /perspectives/tokens-are-the-atomic-unit-of-ai-economics
 description: Tokens are the atomic unit of AI output and the atomic unit of AI economics. Understanding the economics is no longer optional.
-image: "/img/comics/tokens-are-the-atomic-unit-of-ai-economics.png"
+image: "/img/comics/tokens-are-the-atomic-unit-of-ai-economics.webp"
 ---
 
 # Tokens Are the Atomic Unit of AI Economics
 
 *Every time an AI thinks, reasons, writes, or acts, it produces tokens. Tokens are the atomic unit of AI output, and the atomic unit of AI economics.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop the agent's work is visibly made of countless tiny identical amber grains, pouring and swirling as it works. Two: He holds a small brass balance scale on the bench, weighing a handful of the amber grains against a single plain coin. Three: On the bench sits a large finished object, and beside it a heap of amber grain of visibly matching size, the two clearly proportional. He looks between them with his hand on his chin.](/img/comics/tokens-are-the-atomic-unit-of-ai-economics.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop the agent's work is visibly made of countless tiny identical amber grains, pouring and swirling as it works. Two: He holds a small brass balance scale on the bench, weighing a handful of the amber grains against a single plain coin. Three: On the bench sits a large finished object, and beside it a heap of amber grain of visibly matching size, the two clearly proportional. He looks between them with his hand on his chin.](/img/comics/tokens-are-the-atomic-unit-of-ai-economics.webp)
 
 ---
 

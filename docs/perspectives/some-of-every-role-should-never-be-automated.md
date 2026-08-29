@@ -2,14 +2,14 @@
 title: "Some of Every Role Should Never Be Automated"
 slug: /perspectives/some-of-every-role-should-never-be-automated
 description: "Some capacities stay decisively human, and in every seat a few of them are load-bearing. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate."
-image: "/img/comics/comparative-human-edge.png"
+image: "/img/comics/comparative-human-edge.webp"
 ---
 
 # Some of Every Role Should Never Be Automated
 
 *Some capacities stay decisively human, and in every seat a few of them are load-bearing. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate.*
 
-![Four-panel neo-comic action-zine on cream paper, crimson + cobalt + gold + cyan, title bar COMPARATIVE HUMAN EDGE. Panel 1 A SEAT IS MANY ROLES: a labeled chair-console reading ONE SEAT MANY ROLES with glowing role tokens SALES CALL, PROPOSALS, FOLLOW-UP, THE CLOSE, CRM lifting off it. Caption: 'A seat is not one job. It is several roles.' Panel 2 PLOT THE ROLES ON THE FRONTIER: a map split by a jagged glowing cyan border, gold AI BRILLIANT territory and crimson AI BREAKS territory, the role tokens scattered across both sides, the supersuited leader studying the line. Caption: 'Map each role onto the jagged frontier.' Panel 3 THE EDGE IS WHAT FALLS OUTSIDE: the tokens on the crimson outside side glow cobalt and are tagged COMPARATIVE HUMAN EDGE, the supersuited leader standing on the cobalt band. Caption: 'The roles outside the frontier are the comparative human edge.' Panel 4 AUTOMATE INSIDE, HUMAN OUTSIDE: first-person POV through an armored helmet visor, a cyan lasso labeled SEAT WRAPPER around the inside gold-zone tokens, a navy-and-orange gauntleted hand on the outside cobalt tokens, HUD HYPERCONTEXT LOADED. Caption: 'Wrapper takes the roles inside. The human takes the roles outside.' Footer bar: MAP THE ROLES. HUMAN HOLDS THE OUTSIDE.](/img/comics/comparative-human-edge.png)
+![Four-panel neo-comic action-zine on cream paper, crimson + cobalt + gold + cyan, title bar COMPARATIVE HUMAN EDGE. Panel 1 A SEAT IS MANY ROLES: a labeled chair-console reading ONE SEAT MANY ROLES with glowing role tokens SALES CALL, PROPOSALS, FOLLOW-UP, THE CLOSE, CRM lifting off it. Caption: 'A seat is not one job. It is several roles.' Panel 2 PLOT THE ROLES ON THE FRONTIER: a map split by a jagged glowing cyan border, gold AI BRILLIANT territory and crimson AI BREAKS territory, the role tokens scattered across both sides, the supersuited leader studying the line. Caption: 'Map each role onto the jagged frontier.' Panel 3 THE EDGE IS WHAT FALLS OUTSIDE: the tokens on the crimson outside side glow cobalt and are tagged COMPARATIVE HUMAN EDGE, the supersuited leader standing on the cobalt band. Caption: 'The roles outside the frontier are the comparative human edge.' Panel 4 AUTOMATE INSIDE, HUMAN OUTSIDE: first-person POV through an armored helmet visor, a cyan lasso labeled SEAT WRAPPER around the inside gold-zone tokens, a navy-and-orange gauntleted hand on the outside cobalt tokens, HUD HYPERCONTEXT LOADED. Caption: 'Wrapper takes the roles inside. The human takes the roles outside.' Footer bar: MAP THE ROLES. HUMAN HOLDS THE OUTSIDE.](/img/comics/comparative-human-edge.webp)
 
 ---
 

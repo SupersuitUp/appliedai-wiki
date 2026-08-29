@@ -2,14 +2,14 @@
 title: "The Applied AI Dream Engineer"
 slug: /roles/the-applied-ai-dream-engineer
 description: "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
-image: "/img/comics/the-applied-ai-dream-engineer.png"
+image: "/img/comics/the-applied-ai-dream-engineer.webp"
 ---
 
 # The Applied AI Dream Engineer
 
 *The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely. Some call the role an applied AI alchemist: raw aspiration in, shipped reality out.*
 
-![Three-panel warm editorial strip titled THE APPLIED AI DREAM ENGINEER. One, caption PROMPT ME, NOT THE AI: two friends fully present over coffee at a garden table in a warm hillside landscape, no device anywhere; a woman in a rust cardigan hands a young man in an olive sweater, the dream engineer, a small sketch of a house under a sun, and he leans in to receive it. Two, caption THE AGENTS BUILD IT: the same two friends walk a garden path at dusk, still in conversation, the sketch now in his hand, while behind them through his studio window a glowing amber screen works unattended, a small rounded commander in a gold cap directing tiny rounded agents building the sketched house. Three, caption NOW DREAM BIGGER: morning at her doorstep; the dream engineer arrives carrying the finished wooden house model in both hands with a much larger blank page rolled under his arm, and she reacts with delighted astonishment. No device in panels one and three; the machinery stays offstage. Footer: EXECUTION STOPS BEING THE LIMIT. IMAGINATION BECOMES IT.](/img/comics/the-applied-ai-dream-engineer.png)
+![Three-panel warm editorial strip titled THE APPLIED AI DREAM ENGINEER. One, caption PROMPT ME, NOT THE AI: two friends fully present over coffee at a garden table in a warm hillside landscape, no device anywhere; a woman in a rust cardigan hands a young man in an olive sweater, the dream engineer, a small sketch of a house under a sun, and he leans in to receive it. Two, caption THE AGENTS BUILD IT: the same two friends walk a garden path at dusk, still in conversation, the sketch now in his hand, while behind them through his studio window a glowing amber screen works unattended, a small rounded commander in a gold cap directing tiny rounded agents building the sketched house. Three, caption NOW DREAM BIGGER: morning at her doorstep; the dream engineer arrives carrying the finished wooden house model in both hands with a much larger blank page rolled under his arm, and she reacts with delighted astonishment. No device in panels one and three; the machinery stays offstage. Footer: EXECUTION STOPS BEING THE LIMIT. IMAGINATION BECOMES IT.](/img/comics/the-applied-ai-dream-engineer.webp)
 
 ---
 

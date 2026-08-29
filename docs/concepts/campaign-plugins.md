@@ -2,14 +2,14 @@
 title: "Campaign Plugins"
 slug: /concepts/campaign-plugins
 description: "A plugin is the right container for a campaign: skills as the campaign's atomic actions, versioned files as its state machine, layered on top of the permanent relationship record. The operator talks; the campaign updates itself."
-image: "/img/comics/campaign-plugins.png"
+image: "/img/comics/campaign-plugins.webp"
 ---
 
 # Campaign Plugins
 
 *A campaign is a goal-directed, time-bounded effort with people, artifacts, and a deadline. A campaign plugin packages that campaign as an installable action-set: skills as the atomic actions, versioned files as the state machine, layered on top of the permanent relationship record. The operator talks; the campaign updates itself.*
 
-![Three-panel cream-paper action comic. Title bar: CAMPAIGN PLUGINS. Panel 1, caption A CAMPAIGN IS A STATE MACHINE: Midas, the navy-armored hyperagent with orange seams, stands at a physical wooden board of person-cards arranged in three labeled columns QUEUED, SENT, RESPONDED, moving one card with a gauntleted hand. Panel 2, caption EVERY ACTION IS A TRANSITION: close on Midas stamping a person-card whose fresh ink tag reads TOUCH LOGGED; below the board a deep wooden drawer with a brass plate reading PERMANENT RECORD stays closed and intact. Panel 3, caption THE MACHINE LISTENS: a visibly distinct second person in casual clothes speaks to Midas, speech bubble filled with abstract line work only, while behind Midas a board card slides itself one column right under a gold READY stamp. Footer bar: THE OPERATOR TALKS. THE CAMPAIGN UPDATES ITSELF.](/img/comics/campaign-plugins.png)
+![Three-panel cream-paper action comic. Title bar: CAMPAIGN PLUGINS. Panel 1, caption A CAMPAIGN IS A STATE MACHINE: Midas, the navy-armored hyperagent with orange seams, stands at a physical wooden board of person-cards arranged in three labeled columns QUEUED, SENT, RESPONDED, moving one card with a gauntleted hand. Panel 2, caption EVERY ACTION IS A TRANSITION: close on Midas stamping a person-card whose fresh ink tag reads TOUCH LOGGED; below the board a deep wooden drawer with a brass plate reading PERMANENT RECORD stays closed and intact. Panel 3, caption THE MACHINE LISTENS: a visibly distinct second person in casual clothes speaks to Midas, speech bubble filled with abstract line work only, while behind Midas a board card slides itself one column right under a gold READY stamp. Footer bar: THE OPERATOR TALKS. THE CAMPAIGN UPDATES ITSELF.](/img/comics/campaign-plugins.webp)
 
 ---
 

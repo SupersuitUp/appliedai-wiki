@@ -2,14 +2,14 @@
 title: "The Billing Adapter"
 slug: /concepts/the-billing-adapter
 description: "A seam that separates what AI work costs from who pays for it, so one product can bill each request to the right wallet."
-image: "/img/comics/the-billing-adapter.png"
+image: "/img/comics/the-billing-adapter.webp"
 ---
 
 # The Billing Adapter
 
 *A seam in an AI product that separates what the intelligence costs from who pays for it: one interface for the model call, multiple interchangeable billing backends behind it (the user's own subscription, the operator's API key, sponsored credits), selected per request with graceful degradation between them.*
 
-![Three-panel strip titled THE BILLING ADAPTER. One: a worried operator at a desk watches money stream from her single open wallet into a glowing amber laptop where a small agent works, a meter dial spinning on the cord; caption ONE WALLET PAYS FOR ALL. Two: the same laptop's cord now enters a small wooden adapter block, and three short cords leave it toward a blue bank card, a brass key, and a ribboned credit pouch, with only the card's cord glowing; caption A SEAM PICKS THE WALLET. Three: three different people at their own tables each work at their own glowing laptop plugged into their own card, while the operator stands aside relaxed, holding only the small ribboned pouch; caption USERS BRING THEIR OWN METER. Footer: SEPARATE THE COST FROM THE PAYER, AND GROWTH STOPS BEING A BILL.](/img/comics/the-billing-adapter.png)
+![Three-panel strip titled THE BILLING ADAPTER. One: a worried operator at a desk watches money stream from her single open wallet into a glowing amber laptop where a small agent works, a meter dial spinning on the cord; caption ONE WALLET PAYS FOR ALL. Two: the same laptop's cord now enters a small wooden adapter block, and three short cords leave it toward a blue bank card, a brass key, and a ribboned credit pouch, with only the card's cord glowing; caption A SEAM PICKS THE WALLET. Three: three different people at their own tables each work at their own glowing laptop plugged into their own card, while the operator stands aside relaxed, holding only the small ribboned pouch; caption USERS BRING THEIR OWN METER. Footer: SEPARATE THE COST FROM THE PAYER, AND GROWTH STOPS BEING A BILL.](/img/comics/the-billing-adapter.webp)
 
 ---
 

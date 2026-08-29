@@ -2,7 +2,7 @@
 title: "Spikes"
 slug: /concepts/spikes
 description: "A small, throwaway experiment whose only job is to kill one risky unknown before you build the real thing. In agentic development its value is the question it answers, never the code it leaves behind."
-image: "/img/comics/spikes.png"
+image: "/img/comics/spikes.webp"
 ---
 
 # Spikes
@@ -11,7 +11,7 @@ image: "/img/comics/spikes.png"
 
 ---
 
-![Four-panel comic titled SPIKES on cream paper, footer reading "Verify by doing, then build for real." Panel 1, caption "One unknown blocks the whole plan.": the hyperagent in navy plate armor with orange seams faces a wall of grey fog with a glowing orange question mark over a half-drawn blueprint. Panel 2, caption "Drive one probe at the risk.": he drives a tagged SPIKE probe rod through the fog, punching a cyan beam through to the far side. Panel 3, caption "Learn the one fact, cheap.": the fog parts to reveal a steel structure, a READY stamp below it. Panel 4, caption "Throw it away. Build for real.": he walks past the discarded SPIKE toward a solid finished building, a MISSION INTACT stamp beside him.](/img/comics/spikes.png)
+![Four-panel comic titled SPIKES on cream paper, footer reading "Verify by doing, then build for real." Panel 1, caption "One unknown blocks the whole plan.": the hyperagent in navy plate armor with orange seams faces a wall of grey fog with a glowing orange question mark over a half-drawn blueprint. Panel 2, caption "Drive one probe at the risk.": he drives a tagged SPIKE probe rod through the fog, punching a cyan beam through to the far side. Panel 3, caption "Learn the one fact, cheap.": the fog parts to reveal a steel structure, a READY stamp below it. Panel 4, caption "Throw it away. Build for real.": he walks past the discarded SPIKE toward a solid finished building, a MISSION INTACT stamp beside him.](/img/comics/spikes.webp)
 
 ## What a spike is
 

@@ -2,14 +2,14 @@
 title: "You Cannot Plan the Upgrades That Matter"
 slug: /perspectives/you-cannot-plan-the-upgrades-that-matter
 description: "The features that make a generation pipeline good are discovered by delivering real artifacts to real people, not by designing the pipeline up front. Real delivery is the roadmap, and the commit history is the record of thinking."
-image: "/img/comics/you-cannot-plan-the-upgrades-that-matter.png"
+image: "/img/comics/you-cannot-plan-the-upgrades-that-matter.webp"
 ---
 
 # You Cannot Plan the Upgrades That Matter
 
 *The upgrades that make a generation pipeline good are not designed in advance. They are surfaced by delivering real artifacts to real, named people, where each delivery exposes exactly one gap the plan could not have predicted. Real delivery is the roadmap. The commit history is the record of thinking, and it is legible evidence that the work was demanded rather than invented.*
 
-![Three-panel cream-paper comic strip titled YOU CANNOT PLAN THE UPGRADES THAT MATTER, footer bar reading REAL DELIVERY IS THE ROADMAP. Panel 1, caption "He hands the finished book to one real reader.": the hyperagent in bulky matte-navy power armor with orange seams hands a finished illustrated book to a smiling older woman in a red cardigan, in a warm room. Panel 2, caption "Her use exposes one gap no plan predicted.": he stands hand-on-chin studying a large brass-and-steel book-printing engine of gears and rollers, a single crimson spark marking one fracture among the gold gears. Panel 3, caption "He repairs the ENGINE, not the book. The line rises.": he welds the fractured gear with a gold tool, the seam now sealed in gold, while behind him a staircase of finished books ascends to the upper right, each step brighter than the last, with a gold MISSION INTACT stamp in the corner.](/img/comics/you-cannot-plan-the-upgrades-that-matter.png)
+![Three-panel cream-paper comic strip titled YOU CANNOT PLAN THE UPGRADES THAT MATTER, footer bar reading REAL DELIVERY IS THE ROADMAP. Panel 1, caption "He hands the finished book to one real reader.": the hyperagent in bulky matte-navy power armor with orange seams hands a finished illustrated book to a smiling older woman in a red cardigan, in a warm room. Panel 2, caption "Her use exposes one gap no plan predicted.": he stands hand-on-chin studying a large brass-and-steel book-printing engine of gears and rollers, a single crimson spark marking one fracture among the gold gears. Panel 3, caption "He repairs the ENGINE, not the book. The line rises.": he welds the fractured gear with a gold tool, the seam now sealed in gold, while behind him a staircase of finished books ascends to the upper right, each step brighter than the last, with a gold MISSION INTACT stamp in the corner.](/img/comics/you-cannot-plan-the-upgrades-that-matter.webp)
 
 ---
 

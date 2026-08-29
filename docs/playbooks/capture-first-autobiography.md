@@ -2,14 +2,14 @@
 title: The Capture-First Autobiography
 slug: /playbooks/capture-first-autobiography
 description: "Capture the raw truth of a life into files you own before turning any of it into a book, a site, or a video. A continuous AI interview builds the corpus; every format you ever want is a projection of it."
-image: "/img/comics/capture-first-autobiography.png"
+image: "/img/comics/capture-first-autobiography.webp"
 ---
 
 # The Capture-First Autobiography
 
 *Capture the raw truth of your life into files you own before you write a single polished page. The corpus is the asset; the book, the site, the children's book, and the videos are all projections of it.*
 
-![Three-panel comic strip on cream paper. Title bar in chunky inked caps: THE CAPTURE-FIRST AUTOBIOGRAPHY. Panel 1, label "1. TESTIFY": the hyperagent seated in a warm lamplit room across from a recorder, mid-story, his spoken words streaming as a golden ribbon into a stack of dated markdown file cards. Paper-tape caption: "Raw truth, one story at a time. Testimony, not writing." Panel 2, label "2. OWN THE VAULT": an open vault drawer holding dated markdown cards, old photo prints, and scanned journal pages, with a padlock icon and a version-history ribbon; outside the vault a dim crossed-out chat-bubble window. Paper-tape caption: "Files you own, under version control. Never trapped in a chat app." Panel 3, label "3. PROJECT LATER": one glowing corpus card fanning light beams onto a printed book, a children's picture book, a phone playing a video, and a narrated one-page site. Paper-tape caption: "The corpus is the asset. Every format is a projection of it." Footer bar: CAPTURE THE TRUTH ONCE. EVERY FORMAT FOLLOWS.](/img/comics/capture-first-autobiography.png)
+![Three-panel comic strip on cream paper. Title bar in chunky inked caps: THE CAPTURE-FIRST AUTOBIOGRAPHY. Panel 1, label "1. TESTIFY": the hyperagent seated in a warm lamplit room across from a recorder, mid-story, his spoken words streaming as a golden ribbon into a stack of dated markdown file cards. Paper-tape caption: "Raw truth, one story at a time. Testimony, not writing." Panel 2, label "2. OWN THE VAULT": an open vault drawer holding dated markdown cards, old photo prints, and scanned journal pages, with a padlock icon and a version-history ribbon; outside the vault a dim crossed-out chat-bubble window. Paper-tape caption: "Files you own, under version control. Never trapped in a chat app." Panel 3, label "3. PROJECT LATER": one glowing corpus card fanning light beams onto a printed book, a children's picture book, a phone playing a video, and a narrated one-page site. Paper-tape caption: "The corpus is the asset. Every format is a projection of it." Footer bar: CAPTURE THE TRUTH ONCE. EVERY FORMAT FOLLOWS.](/img/comics/capture-first-autobiography.webp)
 
 ---
 

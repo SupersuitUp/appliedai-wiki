@@ -2,14 +2,14 @@
 title: "RAG Is the Wrong Default for Knowledge Bases"
 slug: /perspectives/rag-is-the-wrong-default-for-knowledge-bases
 description: "For a corpus an agent can hold or navigate whole, a chunk-embed-retrieve pipeline is lossy, extra infrastructure, and a hallucination mechanism. Give the agent the corpus and the tools an engineer would use."
-image: "/img/comics/rag-is-the-wrong-default-for-knowledge-bases.png"
+image: "/img/comics/rag-is-the-wrong-default-for-knowledge-bases.webp"
 ---
 
 # RAG Is the Wrong Default for Knowledge Bases
 
 *For a corpus an agent can hold or navigate whole (a wiki, a docs site, a company handbook), single-turn retrieval is lossy, extra infrastructure, and a built-in hallucination mechanism. The better default is agentic search: give the agent the corpus on disk and the tools an engineer would use.*
 
-![Three panels, warm editorial ink-and-wash, titled RAG IS THE WRONG DEFAULT. One: a grey-haired woman in a rust cardigan feeds a whole cream page into a paper shredder, strips falling into a glass bowl; caption SHRED THE CORPUS. Two: the bowl of strips tips toward a glowing amber laptop, and inside the screen a small rounded agent tapes the strips into a crooked patchwork page full of seams; caption GUESS FROM SCRAPS. Three: the woman sets the intact page stack beside the laptop, and inside the screen the Chief of Agents in a gold military cap reads one whole page and passes a clean answer card out through the glow to her hand; caption READ IT WHOLE. Footer: STOP RETRIEVING FRAGMENTS. LET THE AGENT READ.](/img/comics/rag-is-the-wrong-default-for-knowledge-bases.png)
+![Three panels, warm editorial ink-and-wash, titled RAG IS THE WRONG DEFAULT. One: a grey-haired woman in a rust cardigan feeds a whole cream page into a paper shredder, strips falling into a glass bowl; caption SHRED THE CORPUS. Two: the bowl of strips tips toward a glowing amber laptop, and inside the screen a small rounded agent tapes the strips into a crooked patchwork page full of seams; caption GUESS FROM SCRAPS. Three: the woman sets the intact page stack beside the laptop, and inside the screen the Chief of Agents in a gold military cap reads one whole page and passes a clean answer card out through the glow to her hand; caption READ IT WHOLE. Footer: STOP RETRIEVING FRAGMENTS. LET THE AGENT READ.](/img/comics/rag-is-the-wrong-default-for-knowledge-bases.webp)
 
 ---
 

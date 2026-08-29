@@ -2,14 +2,14 @@
 title: "Harness Engineering"
 slug: /disciplines/harness-engineering
 description: "The code wrapped around an AI model is just as important as the model itself. The discipline of designing that wrapper."
-image: "/img/comics/harness-engineering.png"
+image: "/img/comics/harness-engineering.webp"
 ---
 
 # Harness Engineering
 
 *The code wrapped around an AI model is just as important as the model itself. And soon, that code will write itself.*
 
-![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop a single bare glowing amber core floats alone, beautiful and producing nothing. She looks at it with her hands empty. Two: She has built a wooden rig around the core inside the laptop: jointed tool arms, a small drawer, a hinged plate, a bar across the front. The core now drives all of them. Three: The rig runs by itself, tool arms lifting finished objects out onto the bench in a neat row, while she stands back with her arms folded, watching.](/img/comics/harness-engineering.png)
+![Three panels in a warm workshop at dusk, the same person in each, working at a glowing amber laptop whose screen holds the agents and their work. One: Inside the laptop a single bare glowing amber core floats alone, beautiful and producing nothing. She looks at it with her hands empty. Two: She has built a wooden rig around the core inside the laptop: jointed tool arms, a small drawer, a hinged plate, a bar across the front. The core now drives all of them. Three: The rig runs by itself, tool arms lifting finished objects out onto the bench in a neat row, while she stands back with her arms folded, watching.](/img/comics/harness-engineering.webp)
 
 ---
 

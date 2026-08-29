@@ -2,14 +2,14 @@
 title: "The Alignment Stack"
 slug: /concepts/the-alignment-stack
 description: "The seventeen layers standing between a human value and a deployed model's output. No layer repairs a misalignment above it, which makes choosing your upstream the decision that sets your ceiling."
-image: "/img/comics/the-alignment-stack.png"
+image: "/img/comics/the-alignment-stack.webp"
 ---
 
 # The Alignment Stack
 
 *The seventeen layers standing between a human value and a deployed model's output. Each one aligns something to something else, each one is decided by a person, and each one fails in its own way.*
 
-![Three panels in a warm workshop at dusk, the same woman in an olive apron in each, working at a laptop from which tall columns of stacked translucent panes rise past the top of the frame. Amber means sound and dull red means failed, and a column goes red from the crack all the way down. One: a red crack high up has turned every pane beneath it red down to the laptop, and the finished piece in her hands is red and split while she looks up at the crack. Two: she works the lowest panes with a tool and they stay stubbornly red, the repair changing nothing. Three: she has turned away from the red column to a different column that glows sound amber from bench to ceiling, holding a whole amber piece, having chosen rather than repaired.](/img/comics/the-alignment-stack.png)
+![Three panels in a warm workshop at dusk, the same woman in an olive apron in each, working at a laptop from which tall columns of stacked translucent panes rise past the top of the frame. Amber means sound and dull red means failed, and a column goes red from the crack all the way down. One: a red crack high up has turned every pane beneath it red down to the laptop, and the finished piece in her hands is red and split while she looks up at the crack. Two: she works the lowest panes with a tool and they stay stubbornly red, the repair changing nothing. Three: she has turned away from the red column to a different column that glows sound amber from bench to ceiling, holding a whole amber piece, having chosen rather than repaired.](/img/comics/the-alignment-stack.webp)
 
 ---
 

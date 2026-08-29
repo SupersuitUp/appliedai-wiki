@@ -2,14 +2,14 @@
 title: "Too Many Early Pilots Will Drown You"
 slug: /perspectives/too-many-early-pilots-will-drown-you
 description: "Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful."
-image: "/img/comics/the-early-demand-trap.png"
+image: "/img/comics/the-early-demand-trap.webp"
 ---
 
 # Too Many Early Pilots Will Drown You
 
 *Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful.*
 
-![Three-panel neo-comic strip on cream paper titled "THE EARLY DEMAND TRAP", footer ribbon reading "A FEW DEEP PILOTS, NOT A FLOOD OF SHALLOW ONES." Panel 1 (THE TRAP): a hyperagent in a bulky matte-navy Supersuit with orange seam accents, clean chest and cyan wrist glow, is buried under a flood of falling signed pilot-contract papers and company logo badges stamped "SIGNED", hunched over frantic manual paperwork by hand; tape captions read "SIGN EVERY PILOT AND HUMANS SERVE THEM ALL." and "YOU SERVE, YOU NEVER BUILD." Panel 2 (THE FIX): the same hyperagent stands upright and calm, holding three glowing cyan folders labeled DEEP PILOT 01, 02, 03, the rest of the flood blocked by an orange barrier stamped "INTAKE CAP 03"; tape captions read "CAP THE FIRST PILOTS TO A HANDFUL." and "A FEW DEEP PILOTS TEACH MORE THAN MANY SHALLOW." Panel 3 (THE PAYOFF): a helmet-visor first-person POV with a cyan HUD band; the three deep pilots feed a flowchart (INGEST & VALIDATE, TRANSFORM & ENRICH, SCORE & DECIDE, DELIVER & LEARN) into a SCALED PRODUCT PIPELINE with a green "READY" shield, and a HUD line shows COGS PER OUTPUT dropping HIGH to LOW; tape caption reads "THE PILOTS BECOME THE PRODUCT. IT SCALES WITHOUT MORE HUMANS."](/img/comics/the-early-demand-trap.png)
+![Three-panel neo-comic strip on cream paper titled "THE EARLY DEMAND TRAP", footer ribbon reading "A FEW DEEP PILOTS, NOT A FLOOD OF SHALLOW ONES." Panel 1 (THE TRAP): a hyperagent in a bulky matte-navy Supersuit with orange seam accents, clean chest and cyan wrist glow, is buried under a flood of falling signed pilot-contract papers and company logo badges stamped "SIGNED", hunched over frantic manual paperwork by hand; tape captions read "SIGN EVERY PILOT AND HUMANS SERVE THEM ALL." and "YOU SERVE, YOU NEVER BUILD." Panel 2 (THE FIX): the same hyperagent stands upright and calm, holding three glowing cyan folders labeled DEEP PILOT 01, 02, 03, the rest of the flood blocked by an orange barrier stamped "INTAKE CAP 03"; tape captions read "CAP THE FIRST PILOTS TO A HANDFUL." and "A FEW DEEP PILOTS TEACH MORE THAN MANY SHALLOW." Panel 3 (THE PAYOFF): a helmet-visor first-person POV with a cyan HUD band; the three deep pilots feed a flowchart (INGEST & VALIDATE, TRANSFORM & ENRICH, SCORE & DECIDE, DELIVER & LEARN) into a SCALED PRODUCT PIPELINE with a green "READY" shield, and a HUD line shows COGS PER OUTPUT dropping HIGH to LOW; tape caption reads "THE PILOTS BECOME THE PRODUCT. IT SCALES WITHOUT MORE HUMANS."](/img/comics/the-early-demand-trap.webp)
 
 ---
 

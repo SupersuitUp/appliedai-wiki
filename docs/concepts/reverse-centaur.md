@@ -2,14 +2,14 @@
 title: "Reverse Centaur"
 slug: /concepts/reverse-centaur
 description: "An AI deployment that inverts the centaur: the human is subordinated to the machine, paced by it, deskilled by it, and left to absorb the blame when it fails. The failure mode applied AI adoption should be designed against."
-image: "/img/comics/reverse-centaur.png"
+image: "/img/comics/reverse-centaur.webp"
 ---
 
 # Reverse Centaur
 
 *An AI deployment that inverts the centaur: the human is subordinated to the machine, paced by it, deskilled by it, and left to absorb the blame when it fails.*
 
-![Four-panel cream-paper action-comic titled "REVERSE CENTAUR." Panel 1, "THE CENTAUR": the hyperagent Midas in his matte-navy Supersuit stands in command in the real world, hand on a control wheel, directing a holographic gold-crowned Chief of Agents and translucent cyan-gold sub-agents who carry the work; caption "Midas rides the machine: he decides, the agents carry." Panel 2, "THE INVERSION": a different ordinary deskilled office worker, no armor, hunched and harnessed to a towering grinding machine that sets his pace, frantically stamping "APPROVE" on a conveyor of outputs he no longer reads, crimson warning tint; caption "Reverse centaur: the machine rides the human." Panel 3, "THE BLAME SPONGE": nine empty desks in shadow, one lone worker at the conveyor's end, a heavy crimson blame-arrow crashing onto his signature, stamp "ANTI-PATTERN"; caption "Fire nine, make the tenth carry the blame." Panel 4, "BUILD CENTAURS": Midas back in command in his Supersuit, the holographic machine serving him, a crimson warning stamp crossing out the reverse-centaur arrangement behind him; caption "Midas keeps the human on the centaur's side." Footer bar: "KEEP THE HUMAN IN CHARGE."](/img/comics/reverse-centaur.png)
+![Four-panel cream-paper action-comic titled "REVERSE CENTAUR." Panel 1, "THE CENTAUR": the hyperagent Midas in his matte-navy Supersuit stands in command in the real world, hand on a control wheel, directing a holographic gold-crowned Chief of Agents and translucent cyan-gold sub-agents who carry the work; caption "Midas rides the machine: he decides, the agents carry." Panel 2, "THE INVERSION": a different ordinary deskilled office worker, no armor, hunched and harnessed to a towering grinding machine that sets his pace, frantically stamping "APPROVE" on a conveyor of outputs he no longer reads, crimson warning tint; caption "Reverse centaur: the machine rides the human." Panel 3, "THE BLAME SPONGE": nine empty desks in shadow, one lone worker at the conveyor's end, a heavy crimson blame-arrow crashing onto his signature, stamp "ANTI-PATTERN"; caption "Fire nine, make the tenth carry the blame." Panel 4, "BUILD CENTAURS": Midas back in command in his Supersuit, the holographic machine serving him, a crimson warning stamp crossing out the reverse-centaur arrangement behind him; caption "Midas keeps the human on the centaur's side." Footer bar: "KEEP THE HUMAN IN CHARGE."](/img/comics/reverse-centaur.webp)
 
 ---
 

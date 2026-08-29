@@ -2,14 +2,14 @@
 title: "The Sam Altman Test"
 slug: /concepts/the-sam-altman-test
 description: "A one-line diagnostic for model risk: as the models get better, does your service get stronger, or does the model itself commoditize you? Build only where capability jumps are tailwinds."
-image: "/img/comics/the-sam-altman-test.png"
+image: "/img/comics/the-sam-altman-test.webp"
 ---
 
 # The Sam Altman Test
 
 *As the models get better, does your service get stronger, or does the model itself commoditize you? Build only where capability jumps are tailwinds.*
 
-![Three-panel comic strip on cream paper titled THE SAM ALTMAN TEST, with a paper-tape subtitle caption reading "As the models get better: tailwind, or commodity?". Panel one, captioned "WHICH CAMP ARE YOU IN?": the hyperagent (flesh-and-blood operator in a bulky matte-navy power suit with orange seam accents and cyan wrist and visor glow) stands at a forked road that splits into two diverging paths, gripping a glowing cyan diagnostic signpost. Panel two, captioned "EACH MODEL RELEASE LIFTS YOU.": the rising-tide camp, where the hyperagent stands triumphant atop a sturdy stone platform inscribed MARKET · OPERATION · MOAT · CONTEXT while a swelling cyan-and-gold tide of small cresting waves labeled v1, v2, v3 raises the whole platform higher. Panel three, captioned "THE NEXT VERSION DOES IT FREE.": the commodity camp, where the same tide becomes a breaking crimson-edged wave washing a thin paper slab labeled WRAPPER off a dotted COMMODITY LINE, the wrapper sitting below the line while the stone platform sits well above it. Chunky inked footer bar reads BUILD ONLY WHERE CAPABILITY JUMPS ARE TAILWINDS.](/img/comics/the-sam-altman-test.png)
+![Three-panel comic strip on cream paper titled THE SAM ALTMAN TEST, with a paper-tape subtitle caption reading "As the models get better: tailwind, or commodity?". Panel one, captioned "WHICH CAMP ARE YOU IN?": the hyperagent (flesh-and-blood operator in a bulky matte-navy power suit with orange seam accents and cyan wrist and visor glow) stands at a forked road that splits into two diverging paths, gripping a glowing cyan diagnostic signpost. Panel two, captioned "EACH MODEL RELEASE LIFTS YOU.": the rising-tide camp, where the hyperagent stands triumphant atop a sturdy stone platform inscribed MARKET · OPERATION · MOAT · CONTEXT while a swelling cyan-and-gold tide of small cresting waves labeled v1, v2, v3 raises the whole platform higher. Panel three, captioned "THE NEXT VERSION DOES IT FREE.": the commodity camp, where the same tide becomes a breaking crimson-edged wave washing a thin paper slab labeled WRAPPER off a dotted COMMODITY LINE, the wrapper sitting below the line while the stone platform sits well above it. Chunky inked footer bar reads BUILD ONLY WHERE CAPABILITY JUMPS ARE TAILWINDS.](/img/comics/the-sam-altman-test.webp)
 
 ---
 

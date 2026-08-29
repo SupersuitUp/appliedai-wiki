@@ -2,14 +2,14 @@
 title: "Daily Use Is the Benchmark That Can't Be Gamed"
 slug: /perspectives/daily-use-is-the-benchmark-that-cant-be-gamed
 description: "A published benchmark is a target a vendor can train to. Months of daily use by a demanding operator is an eval nobody can see, so nobody can game it. Trust the felt experience, and the revealed preference of builders you respect, over the leaderboard."
-image: "/img/comics/daily-use-is-the-benchmark-that-cant-be-gamed.png"
+image: "/img/comics/daily-use-is-the-benchmark-that-cant-be-gamed.webp"
 ---
 
 # Daily Use Is the Benchmark That Can't Be Gamed
 
 *A published benchmark is a target a vendor can train to. Months of daily use by a demanding operator is an eval nobody can see, so nobody can game it. When choosing a model, weigh the felt experience, and the revealed preference of builders you respect, over the leaderboard.*
 
-![Three panels. One: at a warm wooden desk, a silver-haired woman in a rust cardigan studies the glowing amber laptop, where a gold trophy stamped 98 stands under spotlights and confetti; caption THE STAGED SCORE. Two: inside the screen the same trophy has turned to show its back, open and hollow like a theater prop held up by a wooden brace, and she leans in with eyebrows raised; caption PROPPED FOR THE TEST. Three: beside a wall calendar dense with cross-marks, she writes calmly in a notebook while the small coral holographic Chief of Agents in its gold admiral hat presents a solid stack of finished pages on the screen; caption PROVEN BY DAILY WORK. Title bar: THE BENCHMARK THAT CAN'T BE GAMED. Footer: A SCORE CAN BE STAGED. A YEAR OF USE CANNOT.](/img/comics/daily-use-is-the-benchmark-that-cant-be-gamed.png)
+![Three panels. One: at a warm wooden desk, a silver-haired woman in a rust cardigan studies the glowing amber laptop, where a gold trophy stamped 98 stands under spotlights and confetti; caption THE STAGED SCORE. Two: inside the screen the same trophy has turned to show its back, open and hollow like a theater prop held up by a wooden brace, and she leans in with eyebrows raised; caption PROPPED FOR THE TEST. Three: beside a wall calendar dense with cross-marks, she writes calmly in a notebook while the small coral holographic Chief of Agents in its gold admiral hat presents a solid stack of finished pages on the screen; caption PROVEN BY DAILY WORK. Title bar: THE BENCHMARK THAT CAN'T BE GAMED. Footer: A SCORE CAN BE STAGED. A YEAR OF USE CANNOT.](/img/comics/daily-use-is-the-benchmark-that-cant-be-gamed.webp)
 
 ---
 

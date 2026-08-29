@@ -2,14 +2,14 @@
 title: "Remote Control Is Incomplete Without Remote Boot"
 slug: /perspectives/remote-control-is-incomplete-without-remote-boot
 description: "Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart updates it. Being able to start a fresh session remotely is what lets you stay away for days."
-image: "/img/comics/remote-control-is-incomplete-without-remote-boot.png"
+image: "/img/comics/remote-control-is-incomplete-without-remote-boot.webp"
 ---
 
 # Remote Control Is Incomplete Without Remote Boot
 
 *Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart picks up changes. Being able to start a fresh session remotely is what lets you stay away for days.*
 
-![Three panels titled REMOTE BOOT. One, an empty chair at a home desk where a glowing amber laptop runs on, its agents working from a faded dog-eared booklet, captioned THE SESSION GOES STALE. Two, a woman on a sunlit garden path taps her phone and a clean amber line runs back to the desk, where a crisp new booklet has replaced the faded one on the same stand, captioned ONE TAP STARTS A NEW ONE. Three, the chair is still empty, finished pages stack beside the brighter laptop, and the woman walks away down the path, captioned THE DESK STAYS EMPTY. Footer, STEERING IS NOT ENOUGH. YOU MUST BE ABLE TO BOOT.](/img/comics/remote-control-is-incomplete-without-remote-boot.png)
+![Three panels titled REMOTE BOOT. One, an empty chair at a home desk where a glowing amber laptop runs on, its agents working from a faded dog-eared booklet, captioned THE SESSION GOES STALE. Two, a woman on a sunlit garden path taps her phone and a clean amber line runs back to the desk, where a crisp new booklet has replaced the faded one on the same stand, captioned ONE TAP STARTS A NEW ONE. Three, the chair is still empty, finished pages stack beside the brighter laptop, and the woman walks away down the path, captioned THE DESK STAYS EMPTY. Footer, STEERING IS NOT ENOUGH. YOU MUST BE ABLE TO BOOT.](/img/comics/remote-control-is-incomplete-without-remote-boot.webp)
 
 ---
 
