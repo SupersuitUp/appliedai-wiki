@@ -77,7 +77,13 @@ for (const f of files) {
   lines.forEach((line, i) => {
     if (/^\s*```/.test(line)) { fenced = !fenced; return; }
     if (fenced) return;   // a link inside a code fence is an example, not a link
-    for (const m of line.matchAll(/\[[^\]]*\]\((\/[^)\s#]*)(#[^)\s]*)?\)/g)) {
+    // Inline code spans are examples too. A voice-rules page documenting the house
+    // link format as `[Link](/path) - description` is not linking to /path, and
+    // flagging it teaches everyone that the gate is noisy. Strip spans before
+    // scanning, rather than skipping the whole line, so a real link sitting beside
+    // an example is still checked.
+    const scan = line.replace(/`[^`]*`/g, "");
+    for (const m of scan.matchAll(/\[[^\]]*\]\((\/[^)\s#]*)(#[^)\s]*)?\)/g)) {
       const target = m[1].replace(/\/$/, "") || "/";
       if (routes.has(target) || isAsset(target)) continue;
       // Ignore anything the site serves outside docs (blog, custom pages) by
