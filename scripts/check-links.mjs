@@ -48,8 +48,27 @@ for (const f of files) {
   routes.add(rel);
 }
 
+// Custom React pages are real routes too. src/pages/ask.tsx serves /ask, and a
+// checker that only knows about docs/ calls that a broken link. Caught immediately:
+// the first sweep reported /ask as broken in a wiki whose src/pages/ask.tsx has been
+// live for weeks. A gate that cries wolf gets switched off, which costs more than
+// the gate was ever worth.
+const PAGES = join(ROOT, "src", "pages");
+function addPageRoutes(dir, prefix = "") {
+  if (!existsSync(dir)) return;
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    if (e.isDirectory()) { addPageRoutes(join(dir, e.name), `${prefix}/${e.name}`); continue; }
+    const m = /^(.+)\.(tsx?|jsx?|mdx?)$/.exec(e.name);
+    if (!m) continue;                       // .module.css and friends are not routes
+    if (m[1].startsWith("_")) continue;     // _listen.tsx is deliberately unrouted
+    routes.add(m[1] === "index" ? (prefix || "/") : `${prefix}/${m[1]}`);
+  }
+}
+
 /** A static asset that really is on disk. */
 const isAsset = (p) => existsSync(join(STATIC, p.replace(/^\//, "")));
+
+addPageRoutes(PAGES);
 
 const problems = [];
 for (const f of files) {
