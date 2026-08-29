@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "init": "bash scripts/init-wiki.sh",
-    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs",
+    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs && node scripts/check-links.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
