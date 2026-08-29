@@ -25,10 +25,25 @@ const MAX_W = 1536;        // what the image skills generate; articles render ~8
 const MAX_BYTES = 1_000_000;
 const IMAGE_EXT = /\.(webp|png|jpe?g|gif)$/i;
 // Two exemptions from the FORMAT rule, both deliberate. Icons must stay .ico/.png or the
-// browser will not use them. Share cards must stay png/jpg because several unfurl
-// consumers still do not render webp, and a share image that does not unfurl defeats its
-// own purpose. Both still have to obey the size cap.
-const FORMAT_EXEMPT = /(favicon|apple-touch-icon|android-chrome|mstile|safari-pinned|icon-\d|social-card|share-card|og-image)/i;
+// browser will not use them. Share cards must stay png/jpg because several unfurl consumers
+// still do not render webp, and a share image that does not unfurl defeats its own purpose.
+// Both still have to obey the size cap.
+//
+// Judged on the whole PATH, not just the filename. buildonanthropic-wiki keeps its deck card
+// at static/og-deck/share.png, referenced from an og:image meta as an absolute external URL
+// (https://.../og-deck/share.png), so a filename-only rule converted it AND no site-absolute
+// reference scan could have caught the break. Kept in lockstep with optimize-images.py.
+const ICON_NAME = /^(favicon|apple-touch-icon|android-chrome|mstile|safari-pinned|icon)[-.]/i;
+const CARD_STEM = /^(share|card|og|og-image|social-card|share-card)$|(-social-card|-share-card|-og-image)$/i;
+const CARD_DIR = /^(og|share|social)(-.*)?$/i;
+
+function formatExempt(relPath) {
+  const parts = relPath.split("/");
+  const name = parts[parts.length - 1];
+  const stem = name.replace(/\.[^.]+$/, "");
+  return ICON_NAME.test(name) || CARD_STEM.test(stem) ||
+         parts.slice(0, -1).some((d) => CARD_DIR.test(d));
+}
 
 function walk(dir, out = []) {
   if (!existsSync(dir)) return out;
@@ -62,7 +77,7 @@ for (const file of walk(join(ROOT, "static"))) {
   const size = statSync(file).size;
   totalBytes += size;
   const { fmt, w } = probe(file);
-  const exempt = FORMAT_EXEMPT.test(file);
+  const exempt = formatExempt(relative(ROOT, file));
   const why = [];
   if (fmt !== "webp" && !exempt) why.push(`is ${fmt}, not webp`);
   if (w > MAX_W && !exempt) why.push(`is ${w}px wide (max ${MAX_W})`);

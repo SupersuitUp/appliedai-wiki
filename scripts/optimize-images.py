@@ -29,10 +29,22 @@ MAX_W, QUALITY = 1536, 80
 IMAGE_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 # Same two exemptions the gate makes, for the same reasons: icons must keep their format,
 # and share cards must stay png/jpg because several unfurl consumers do not render webp.
-FORMAT_EXEMPT = re.compile(
-    r"(favicon|apple-touch-icon|android-chrome|mstile|safari-pinned|icon-\d|social-card|share-card|og-image)",
-    re.I,
-)
+#
+# Judged on the whole PATH, and kept in lockstep with check-image-weight.mjs.
+# buildonanthropic-wiki keeps its deck card at static/og-deck/share.png, referenced from an
+# og:image meta as an absolute external URL, so a filename-only rule converted it and no
+# site-absolute reference scan could have caught the break.
+ICON_NAME = re.compile(r"^(favicon|apple-touch-icon|android-chrome|mstile|safari-pinned|icon)[-.]", re.I)
+CARD_STEM = re.compile(r"^(share|card|og|og-image|social-card|share-card)$"
+                       r"|(-social-card|-share-card|-og-image)$", re.I)
+CARD_DIR = re.compile(r"^(og|share|social)(-.*)?$", re.I)
+
+
+def format_exempt(rel: str) -> bool:
+    parts = rel.split("/")
+    return bool(ICON_NAME.match(parts[-1])) or bool(CARD_STEM.match(parts[-1].rsplit(".", 1)[0])) \
+        or any(CARD_DIR.match(d) for d in parts[:-1])
+
 # Where a reference to a static asset can live.
 TEXT_DIRS = ["docs", "blog", "src", "static/skills"]
 TEXT_FILES = ["docusaurus.config.ts", "sidebars.ts", "wiki.config.json"]
@@ -48,7 +60,7 @@ def needs_work(path: Path):
             fmt, w = (im.format or "").lower(), im.width
     except Exception as e:
         return [f"unreadable ({e})"], 0
-    exempt = bool(FORMAT_EXEMPT.search(path.name))
+    exempt = format_exempt(str(path.relative_to(ROOT)))
     reasons = []
     if fmt != "webp" and not exempt:
         reasons.append(f"is {fmt}, not webp")
