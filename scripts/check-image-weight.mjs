@@ -71,6 +71,25 @@ function probe(file) {
   return { fmt: "unknown", w: 0 };
 }
 
+// Both scripts check themselves against scripts/image-exempt-cases.json before running.
+// The rule lives in two languages, so it drifts; this is the table that catches the drift.
+{
+  const casesPath = join(ROOT, "scripts", "image-exempt-cases.json");
+  if (existsSync(casesPath)) {
+    const cases = JSON.parse(readFileSync(casesPath, "utf8"));
+    const bad = [
+      ...cases.exempt.filter((p) => !formatExempt(p)),
+      ...cases.convert.filter((p) => formatExempt(p)),
+    ];
+    if (bad.length) {
+      console.error("[image-weight] SELF-TEST FAILED, classification disagrees with " +
+        "scripts/image-exempt-cases.json:");
+      for (const p of bad) console.error(`  ${p}`);
+      process.exit(2);
+    }
+  }
+}
+
 const offenders = [];
 let totalBytes = 0;
 for (const file of walk(join(ROOT, "static"))) {

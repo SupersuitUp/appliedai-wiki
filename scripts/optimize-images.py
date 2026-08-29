@@ -42,8 +42,28 @@ CARD_DIR = re.compile(r"^(og|share|social)(-.*)?$", re.I)
 
 def format_exempt(rel: str) -> bool:
     parts = rel.split("/")
-    return bool(ICON_NAME.match(parts[-1])) or bool(CARD_STEM.match(parts[-1].rsplit(".", 1)[0])) \
-        or any(CARD_DIR.match(d) for d in parts[:-1])
+    # search, not match: CARD_STEM's second alternative is a SUFFIX (-social-card), and
+    # re.match anchors at the start, so match() silently classified
+    # docusaurus-social-card.jpg as convertible while the JS gate called it exempt. The
+    # self-test below exists because that drift is invisible until it converts something.
+    return bool(ICON_NAME.search(parts[-1])) or bool(CARD_STEM.search(parts[-1].rsplit(".", 1)[0])) \
+        or any(CARD_DIR.search(d) for d in parts[:-1])
+
+
+def self_test():
+    """Both scripts check themselves against scripts/image-exempt-cases.json first."""
+    cases = json.loads((ROOT / "scripts" / "image-exempt-cases.json").read_text())
+    bad = [p for p in cases["exempt"] if not format_exempt(p)]
+    bad += [p for p in cases["convert"] if format_exempt(p)]
+    if bad:
+        print("[optimize-images] SELF-TEST FAILED, classification disagrees with "
+              "scripts/image-exempt-cases.json:", file=sys.stderr)
+        for p in bad:
+            print(f"  {p}", file=sys.stderr)
+        sys.exit(2)
+
+
+self_test()
 
 # Where a reference to a static asset can live.
 TEXT_DIRS = ["docs", "blog", "src", "static/skills"]
@@ -72,15 +92,44 @@ def needs_work(path: Path):
 
 
 def convert(path: Path):
-    """Re-encode to webp beside the original, then swap. Returns the new path, or None."""
+    """Re-encode, then swap. Returns the new path, or None.
+
+    An exempt file (icon, share card) is re-encoded IN ITS OWN FORMAT and keeps its
+    extension. It can still land here by being oversized, and converting it anyway is what
+    turned five wikis' social-card.jpg into a webp that several unfurl consumers do not
+    render: the exemption suppressed the format complaint but not the conversion.
+    """
+    rel = str(path.relative_to(ROOT))
+    exempt = format_exempt(rel)
     with Image.open(path) as im:
         if im.width > MAX_W:
             im = im.resize((MAX_W, round(im.height * MAX_W / im.width)), Image.LANCZOS)
         buf = io.BytesIO()
-        im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB").save(
-            buf, "WEBP", quality=QUALITY, method=6
-        )
+        if exempt:
+            # Encode to the format the EXTENSION declares, not the bytes it currently holds.
+            # The extension is what the og:image URL promises and what an unfurl consumer
+            # sniffs for. appliedai-wiki's card is a PNG named social-card.jpg; honouring the
+            # bytes re-saved 3.3 MB of PNG, honouring the extension gives a 0.5 MB JPEG.
+            fmt = {"jpg": "JPEG", "jpeg": "JPEG", "png": "PNG"}.get(path.suffix[1:].lower())
+            if fmt == "JPEG":
+                im.convert("RGB").save(buf, "JPEG", quality=82, optimize=True, progressive=True)
+            elif fmt == "PNG":
+                im.save(buf, "PNG", optimize=True)
+            else:
+                return None  # .ico and friends: leave them entirely alone
+        else:
+            im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB").save(
+                buf, "WEBP", quality=QUALITY, method=6
+            )
     data = buf.getvalue()
+    if exempt:
+        if len(data) >= path.stat().st_size:
+            return None
+        tmp = path.with_name(path.name + ".tmp-optimize")
+        if not dry:
+            tmp.write_bytes(data)
+            tmp.replace(path)
+        return path   # same name, so no rename and no reference rewrite
     if len(data) >= path.stat().st_size and path.suffix.lower() == ".webp":
         return None  # already optimal; re-encoding would only make it bigger
     new = path.with_suffix(".webp")

@@ -1,0 +1,26 @@
+{
+  "_comment": "ONE table, two implementations. check-image-weight.mjs (the build gate) and optimize-images.py (the converter) must agree on which files are exempt from the webp rule, and they are written in different languages, so they drift silently. They did: JS RegExp.test searches, Python re.match anchors at the start, and the same pattern classified docusaurus-social-card.jpg as exempt in the gate and convertible in the converter. The converter won, and eleven wikis had their social card turned into a webp that several unfurl consumers do not render. Both scripts self-test against this table before they do anything.",
+  "exempt": [
+    "static/img/favicon.ico",
+    "static/img/icon-192.png",
+    "static/img/icon-512.png",
+    "static/img/apple-touch-icon.png",
+    "static/img/android-chrome-512x512.png",
+    "static/img/docusaurus-social-card.jpg",
+    "static/img/social-card.png",
+    "static/img/share-card.png",
+    "static/og-deck/share.png",
+    "static/deck-august-9/share.png",
+    "static/og/home.png",
+    "static/share-cards/launch.png"
+  ],
+  "convert": [
+    "static/img/comics/skill-files.png",
+    "static/img/the-new-flood-cover.png",
+    "static/img/share-this-idea.png",
+    "static/img/cardiology-diagram.png",
+    "static/img/ogilvy-on-advertising.png",
+    "static/img/comics/social-proof-is-not-proof.png",
+    "static/illustrations/hero.png"
+  ]
+}
