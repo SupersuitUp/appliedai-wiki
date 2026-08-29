@@ -86,6 +86,11 @@ for (const f of files) {
     for (const m of scan.matchAll(/\[[^\]]*\]\((\/[^)\s#]*)(#[^)\s]*)?\)/g)) {
       const target = m[1].replace(/\/$/, "") || "/";
       if (routes.has(target) || isAsset(target)) continue;
+      // Blog routes are derived from dated filenames and per-post slug frontmatter,
+      // which this checker deliberately does not model. Claiming to check them and
+      // getting it wrong would break a build over a link that works, so they are
+      // out of scope and skipped rather than guessed at.
+      if (target === "/blog" || target.startsWith("/blog/")) continue;
       // Ignore anything the site serves outside docs (blog, custom pages) by
       // convention: only flag paths that look like doc routes.
       problems.push({ file: relative(ROOT, f), line: i + 1, target });
