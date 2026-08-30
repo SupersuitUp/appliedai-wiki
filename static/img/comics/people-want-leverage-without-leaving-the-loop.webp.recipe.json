@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "THREE panels of equal size in one horizontal row, separated by clean cream gutters, with no drawn borders and no frame lines. ONE consistent world, ONE consistent cast, ONE consistent glowing translucent amber laptop across all three panels, reading left to right as one progression. Composition law: the small agent characters live INSIDE the glowing amber laptop screen; the woman works in the warm real world outside it, and she never reaches into the screen.\n\nTHE FIGURE, the same person in all three panels and recognizably the same person in each: a woman in her forties, South Asian, dark hair pulled back, wearing a plain olive-green crewneck sweater.\n\nPANEL ONE: Inside the laptop screen, a rounded agent character in a gold military cap proudly presents a closed glowing ring spinning by itself, self-contained and humming. Outside the laptop, the woman sits back with her arms folded, unpersuaded, not reaching for it. She looks past the spinning ring toward a half-finished piece of her own work lying on the desk beside her. The ring is impressive and she is not impressed.\n\nPANEL TWO: The same desk. Small agent characters inside the laptop pass a fast stream of prepared sheets out toward the screen's edge, and the woman has BOTH HANDS ON those sheets where they land on her desk, working them, shaping the one piece in front of her. The finished, good-looking result forms exactly under her hands at the point of contact. She leans in, absorbed.\n\nPANEL THREE: Two chutes side by side coming out of the laptop, both running with nobody operating them. The LEFT chute drops a tidy, neatly squared stack of paper onto the desk, where the same woman stands calmly skimming the top sheet, relaxed and in control. The RIGHT chute posts sealed envelopes straight out through a slot in the wall to the outside world with nobody standing at it at all, and a few envelopes have missed the slot and lie scattered on the floor. Exactly two chutes.\n\nPHYSICAL RELATIONSHIPS, state them correctly: the laptop screen faces the woman, so we see the BACK of the screen only if we are behind her; in every panel we see her face and the screen's glowing front is angled toward her and partly visible to us. The chutes in panel three emerge from the laptop and descend to desk height, so paper falls DOWNWARD onto the desk. The wall slot in panel three is on the far wall behind the desk, above floor level, so a missed envelope falls to the floor below it.\n\nABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nEvery paper, sheet, envelope, screen and surface inside the artwork is COMPLETELY BLANK: no writing, no labels, no logos, no signage, no numbers, no document text. There are NO signs on the wall. No company name and no product name appears anywhere.\n\nTEXT FURNITURE, render each of these strings EXACTLY as written, in caps, in the cream margins only and never over the artwork: TITLE BAR above the panels: \"LEVERAGE WITHOUT LEAVING THE LOOP\". CAPTION in the gutter under panel one: \"A LOOP THAT RUNS WITHOUT HER\". CAPTION in the gutter under panel two: \"SPEED ARRIVES, HER HANDS STAY ON IT\". CAPTION in the gutter under panel three: \"ONE HANDS HER A STACK, ONE MAILS ITSELF\". FOOTER BAR below the panels: \"SELL THE STEPS REMOVED. NEVER SELL HER ABSENCE.\" No other text anywhere.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-08-30T03:44:31.983666+00:00",
+  "sha256": "68c6cbed72cf1f47d0566aa84606f7b086d9a3c94fc23986f2da3e8eb7814633",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "refFirst": true,
+  "size": "1536x1024",
+  "quality": "high"
+}
