@@ -1,6 +1,1786 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agent-constellation@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agent-constellation",
+      "routePath": "/concepts/agent-constellation",
+      "section": "concepts",
+      "title": "Agent Constellation",
+      "description": "Staffing an operation with many narrowly scoped, persistently named agents instead of one all-knowing assistant. Each one gets a job, its own tools, and its own workspace."
+    },
+    {
+      "id": "concepts/agent-experience@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agent-experience",
+      "routePath": "/concepts/agent-experience",
+      "section": "concepts",
+      "title": "Agent Experience",
+      "description": "Designing the environment an agent works in, its files, names, folders, and frontmatter, so it spends its budget producing instead of searching. Most of the work in the world is about to be done by agents, which makes this most of experience design."
+    },
+    {
+      "id": "concepts/agent-rule-files@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agent-rule-files",
+      "routePath": "/concepts/agent-rule-files",
+      "section": "concepts",
+      "title": "Agent Rule Files",
+      "description": "Standing orders the agent reads at the start of every session. CLAUDE.md and AGENTS.md. Imperative, persistent, always-on. The version-controlled spine of how an agent behaves inside your workspace."
+    },
+    {
+      "id": "concepts/agentic-brand-os@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agentic-brand-os",
+      "routePath": "/concepts/agentic-brand-os",
+      "section": "concepts",
+      "title": "Agentic Brand OS",
+      "description": "An Agentic Brand OS is the runtime that loads a brand's version-controlled cartridge (its canon and blessed goldens) and renders any on-brand asset from it, so an agent produces new sites, decks, and assets that all land in the same brand universe."
+    },
+    {
+      "id": "concepts/agentic-brand-universe@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agentic-brand-universe",
+      "routePath": "/concepts/agentic-brand-universe",
+      "section": "concepts",
+      "title": "Agentic Brand Universe",
+      "description": "A portable, version-controlled brand packaged as data: its canon (characters, settings, motifs, voice, rules) plus its blessed golden assets, held in a form an agent can load and render from. The cartridge in a three-layer ontology where the Agentic Brand OS is the console that loads it and a deliverable is the projection it renders."
+    },
+    {
+      "id": "concepts/agentic-project-management@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "/concepts/agentic-project-management",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
+      "id": "concepts/ai-developer-workflow@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/ai-developer-workflow",
+      "routePath": "/concepts/ai-developer-workflow",
+      "section": "concepts",
+      "title": "AI Developer Workflow",
+      "description": "The real unit of agentic engineering: a repeatable composition of engineers, agents, and code that runs a piece of work end to end. The loop is one node inside it. Composed up behind a router, many of them become a software factory."
+    },
+    {
+      "id": "concepts/ai-guidance-gap@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/ai-guidance-gap",
+      "routePath": "/concepts/ai-guidance-gap",
+      "section": "concepts",
+      "title": "The AI Guidance Gap",
+      "description": "The structural gap between how fast AI capability ships and how slowly the human trust, judgment, and capability needed to deploy it actually form. The gap caps adoption, and it is the opportunity."
+    },
+    {
+      "id": "concepts/ai-native-services-company@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/ai-native-services-company",
+      "routePath": "/concepts/ai-native-services-company",
+      "section": "concepts",
+      "title": "The AI-Native Services Company",
+      "description": "A services firm rebuilt from scratch so AI does most of the work and the company delivers the finished outcome instead of a copilot. The opposite of SaaS: you absorb the whole job and hand back the result. Trillion-dollar markets that did not exist two years ago."
+    },
+    {
+      "id": "concepts/ai-operating-leverage@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/ai-operating-leverage",
+      "routePath": "/concepts/ai-operating-leverage",
+      "section": "concepts",
+      "title": "AI Operating Leverage",
+      "description": "The P&L bet of an AI-native services company: the more the product is built, the lower the cost of goods sold and the better the gross margin. It is what pulls a services firm from a ~30% margin ceiling toward software-like 50%+ on a market two to three times bigger than software."
+    },
+    {
+      "id": "concepts/anxious-creativity@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/anxious-creativity",
+      "routePath": "/concepts/anxious-creativity",
+      "section": "concepts",
+      "title": "Anxious Creativity",
+      "description": "The compulsion to be doing something with AI without knowing what. It reads as creativity and feels like progress, but it is anxiety: a fear of falling behind that pulls you off the proven work you already do well into an endless churn of new tools and half-built experiments."
+    },
+    {
+      "id": "concepts/boomerang-prompt@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/boomerang-prompt",
+      "routePath": "/concepts/boomerang-prompt",
+      "section": "concepts",
+      "title": "Boomerang Prompt",
+      "description": "A prompt you hand another person so an AI interviews them on their own time, then returns their story to you as build-ready material for a bespoke artifact."
+    },
+    {
+      "id": "concepts/business-logic-as-ai-system@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/business-logic-as-ai-system",
+      "routePath": "/concepts/business-logic-as-ai-system",
+      "section": "concepts",
+      "title": "Business Logic as AI System",
+      "description": "The meta-pattern underneath almost every AI consulting engagement. Take the logic of the business, whether it's been written down or not, and convert it into an AI system. Naming the pattern changes how you scope, sell, price, and execute."
+    },
+    {
+      "id": "concepts/campaign-plugins@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/campaign-plugins",
+      "routePath": "/concepts/campaign-plugins",
+      "section": "concepts",
+      "title": "Campaign Plugins",
+      "description": "A plugin is the right container for a campaign: skills as the campaign's atomic actions, versioned files as its state machine, layered on top of the permanent relationship record. The operator talks; the campaign updates itself."
+    },
+    {
+      "id": "concepts/coding-harness-apps@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
+      "id": "concepts/cognitive-coverage@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/cognitive-coverage",
+      "routePath": "/concepts/cognitive-coverage",
+      "section": "concepts",
+      "title": "Cognitive Coverage",
+      "description": "Like test coverage measures how much of your code is exercised by tests, cognitive coverage measures how much of an agent's work you actually understand. Verify understanding, do not just accept output."
+    },
+    {
+      "id": "concepts/compounding-docs@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/compounding-docs",
+      "routePath": "/concepts/compounding-docs",
+      "section": "concepts",
+      "title": "Compounding Docs",
+      "description": "Every document you write makes your AI agent smarter. Every smarter agent output makes the next document faster. The flywheel nobody talks about."
+    },
+    {
+      "id": "concepts/deep-provenance@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/deep-provenance",
+      "routePath": "/concepts/deep-provenance",
+      "section": "concepts",
+      "title": "Deep Provenance",
+      "description": "Recording what produced every artifact, in enough detail that you can tell which input to change. Without it you re-roll and hope. With it you steer, and you also learn which finished work a changed input made suspect."
+    },
+    {
+      "id": "concepts/digital-employee@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/digital-employee",
+      "routePath": "/concepts/digital-employee",
+      "section": "concepts",
+      "title": "Digital Employee",
+      "description": "A domain expert's packaged judgment, rentable as a product: the new category agent SDKs unlock, where the expertise scales past the expert's calendar."
+    },
+    {
+      "id": "concepts/gain-sharing@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/gain-sharing",
+      "routePath": "/concepts/gain-sharing",
+      "section": "concepts",
+      "title": "Gain Sharing",
+      "description": "Charging a share of the measurable gain you create, the savings you uncover or the upside you unlock, instead of a share of your time. The fee floats with the result."
+    },
+    {
+      "id": "concepts/generative-welcome@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/generative-welcome",
+      "routePath": "/concepts/generative-welcome",
+      "section": "concepts",
+      "title": "The Generative Welcome",
+      "description": "A paste-in recipe a practitioner hands a prospect, who runs it inside their own AI harness to generate a personalized, on-brand artifact showing what AI could do for their specific business, plus a warm introduction to the practitioner. The generic funnel becomes a one-to-one, self-serve aha the prospect experiences by pasting one file."
+    },
+    {
+      "id": "concepts/golden-chain@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/golden-chain",
+      "routePath": "/concepts/golden-chain",
+      "section": "concepts",
+      "title": "Golden Chain",
+      "description": "The method for building a set of assets that must agree with each other: generate one at a time, conditioning each new asset on the blessed seed plus every asset accepted before it. Parallel generation produces variations that share a description; a chain produces one subject seen from many angles."
+    },
+    {
+      "id": "concepts/golden-examples@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/golden-examples",
+      "routePath": "/concepts/golden-examples",
+      "section": "concepts",
+      "title": "Golden Examples",
+      "description": "The A+ outputs you preserve in your library so they can ride as in-context references on every new generation. The asset class of AI-native workflows. Mediocre stuff compounds the same way A+ stuff does."
+    },
+    {
+      "id": "concepts/golden-processes@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/golden-processes",
+      "routePath": "/concepts/golden-processes",
+      "section": "concepts",
+      "title": "Golden Processes",
+      "description": "Golden is a status for how you make things, not only for the artifacts you keep. A golden process is a human-blessed, version-controlled procedure that reliably turns a small amount of the right human input into an excellent result."
+    },
+    {
+      "id": "concepts/hand-rolling@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/hand-rolling",
+      "routePath": "/concepts/hand-rolling",
+      "section": "concepts",
+      "title": "Hand-Rolling",
+      "description": "Producing a one-off result by hand to get around your own system, instead of improving the system so it produces the result. Every hand-roll is a fix that helps once and teaches the generator nothing."
+    },
+    {
+      "id": "concepts/hyperlocal-skills@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/hyperlocal-skills",
+      "routePath": "/concepts/hyperlocal-skills",
+      "section": "concepts",
+      "title": "Hyperlocal Skills",
+      "description": "A file-organization pattern for harness users: a skill file lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer."
+    },
+    {
+      "id": "concepts/idempotent-steps@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/idempotent-steps",
+      "routePath": "/concepts/idempotent-steps",
+      "section": "concepts",
+      "title": "Idempotent Steps",
+      "description": "A step is idempotent when running it a second time is safe and changes nothing. In agentic work, where sessions crash, run out of context, and get interrupted constantly, idempotency converts crash recovery from a design problem into a non-problem: the recovery procedure is just run it again."
+    },
+    {
+      "id": "concepts/in-context-learning@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/in-context-learning",
+      "routePath": "/concepts/in-context-learning",
+      "section": "concepts",
+      "title": "In-Context Learning",
+      "description": "The only lever you have. You cannot touch the model's weights, so every customization enters as text in the context window. Which turns agent customization into context engineering under a fixed budget."
+    },
+    {
+      "id": "concepts/in-on-out-of-the-loop@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/in-on-out-of-the-loop",
+      "routePath": "/concepts/in-on-out-of-the-loop",
+      "section": "concepts",
+      "title": "In, On, and Out of the Loop",
+      "description": "Three positions a human can hold relative to an automated workflow: in the loop (the human is the gate), on the loop (the human supervises), out of the loop (fully automated, no human trigger). Good practice graduates each workflow down the loop as capability advances."
+    },
+    {
+      "id": "concepts/jevons-paradox@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/jevons-paradox",
+      "routePath": "/concepts/jevons-paradox",
+      "section": "concepts",
+      "title": "Jevons Paradox"
+    },
+    {
+      "id": "concepts/just-in-time-context-collection@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/just-in-time-context-collection",
+      "routePath": "/concepts/just-in-time-context-collection",
+      "section": "concepts",
+      "title": "Just-in-Time Context Collection",
+      "description": "Collecting context from a person at the moment their motivation to give it is at its peak, rather than at the moment it is convenient to ask. Willingness is perishable and decays faster than intent. Synonym in customer-facing settings: customer experience-enhancing context collection."
+    },
+    {
+      "id": "concepts/masturbatory-programming@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/masturbatory-programming",
+      "routePath": "/concepts/masturbatory-programming",
+      "section": "concepts",
+      "title": "Masturbatory Programming",
+      "description": "Building technical systems as self-expression instead of service, so the builder's identity attaches to the architecture rather than to anyone it was supposed to serve. The tell is a detailed system and zero users."
+    },
+    {
+      "id": "concepts/neurosymbolic-ai@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/neurosymbolic-ai",
+      "routePath": "/concepts/neurosymbolic-ai",
+      "section": "concepts",
+      "title": "Neurosymbolic AI",
+      "description": "Wiring a probabilistic neural model to a formal symbolic layer (an ontology, a rule set, a type system) so the parts that must be exact get checked by something that cannot hallucinate. The name for the architecture reliable agent systems keep converging on."
+    },
+    {
+      "id": "concepts/paving-the-desire-path@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/paving-the-desire-path",
+      "routePath": "/concepts/paving-the-desire-path",
+      "section": "concepts",
+      "title": "Paving the Desire Path",
+      "description": "The retrospective pass over a finished run that finds the hand-rolls you could not see while making them, and hardens the ones you have already walked more than once into reusable components. You do not plan a desire path, you discover it by looking at where the grass actually died."
+    },
+    {
+      "id": "concepts/playable-harness-experience@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
+      "id": "concepts/plugins@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/plugins",
+      "routePath": "/concepts/plugins",
+      "section": "concepts",
+      "title": "Plugins",
+      "description": "The packaging and distribution layer for agent extensions: a per-vendor bundle of skills, commands, subagents, hooks, and MCP servers, installed from a marketplace. The plugin is the box; MCP is the cargo."
+    },
+    {
+      "id": "concepts/project-resumability@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/project-resumability",
+      "routePath": "/concepts/project-resumability",
+      "section": "concepts",
+      "title": "Project Resumability",
+      "description": "The property that lets a reader who was not there reach a project's true state in minutes, from the files alone, and be right about it. Saving is the act, agentic project management is one implementation, resumability is the quality both are trying to produce."
+    },
+    {
+      "id": "concepts/prompt-guards@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/prompt-guards",
+      "routePath": "/concepts/prompt-guards",
+      "section": "concepts",
+      "title": "Prompt Guards",
+      "description": "Standing rules a generator appends to every prompt itself, conditional on what the prompt contains. A rule written as an instruction to the caller is a suggestion; a rule enforced at the chokepoint every caller passes through is a guarantee."
+    },
+    {
+      "id": "concepts/ratcheting-standards@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/ratcheting-standards",
+      "routePath": "/concepts/ratcheting-standards",
+      "section": "concepts",
+      "title": "Ratcheting Standards",
+      "description": "A check that records how many violations a codebase already has and fails only when the number goes up. Lets you adopt a standard today on a codebase that does not meet it, without blocking on a cleanup you will keep postponing."
+    },
+    {
+      "id": "concepts/references-first-illustration@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/references-first-illustration",
+      "routePath": "/concepts/references-first-illustration",
+      "section": "concepts",
+      "title": "References-First Illustration",
+      "description": "References-first illustration is the discipline of deriving, auditing, and locking every reference image a composite scene depends on before rendering the scene. The model copies what the references show, so a defect that survives prompt rewrites lives in a reference, and the fix happens in isolation, under human approval, before compositing resumes."
+    },
+    {
+      "id": "concepts/remote-harness-control@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/remote-harness-control",
+      "routePath": "/concepts/remote-harness-control",
+      "section": "concepts",
+      "title": "Remote Harness Control",
+      "description": "Steering your agentic harness from your phone, so heavy work on your real files keeps moving while you are away from the desk."
+    },
+    {
+      "id": "concepts/reverse-centaur@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/reverse-centaur",
+      "routePath": "/concepts/reverse-centaur",
+      "section": "concepts",
+      "title": "Reverse Centaur",
+      "description": "An AI deployment that inverts the centaur: the human is subordinated to the machine, paced by it, deskilled by it, and left to absorb the blame when it fails. The failure mode applied AI adoption should be designed against."
+    },
+    {
+      "id": "concepts/seat-wrapper@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/seat-wrapper",
+      "routePath": "/concepts/seat-wrapper",
+      "section": "concepts",
+      "title": "Seat Wrapper",
+      "description": "A purpose-built AI system scoped to one seat, encoding that role's repeatable processes so the person spends their hours in their comparative human edge. The good kind of wrapper: narrow, specific, built on the primitive."
+    },
+    {
+      "id": "concepts/self-improving-artifacts@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/self-improving-artifacts",
+      "routePath": "/concepts/self-improving-artifacts",
+      "section": "concepts",
+      "title": "Self-Improving Artifacts",
+      "description": "Documents that regenerate from raw organizational context on a cadence, rather than being maintained by hand. The static user manual is replaced by a living one fed by every new conversation, decision, and recording in the company brain."
+    },
+    {
+      "id": "concepts/self-improving-skills@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/self-improving-skills",
+      "routePath": "/concepts/self-improving-skills",
+      "section": "concepts",
+      "title": "Self-Improving Skills",
+      "description": "A skill earns its place by getting better: every run's corrections fold back into the file, the target is consistent one-shots on the cases you care about, and the update rules live in the skill itself so improving one case cannot silently degrade another."
+    },
+    {
+      "id": "concepts/skill-files@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/skill-files",
+      "routePath": "/concepts/skill-files",
+      "section": "concepts",
+      "title": "Skill Files",
+      "description": "On-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. Episodic, parametric, called. The library of procedures the agent runs on your behalf."
+    },
+    {
+      "id": "concepts/sovereignty@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/sovereignty",
+      "routePath": "/concepts/sovereignty",
+      "section": "concepts",
+      "title": "Sovereignty",
+      "description": "Control over the layers of your stack, held for the sake of what that control protects. The wiki uses the word in four distinct senses and defaults to the weakest and most useful one: understanding a dependency you chose deliberately."
+    },
+    {
+      "id": "concepts/spare-cycles@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/spare-cycles",
+      "routePath": "/concepts/spare-cycles",
+      "section": "concepts",
+      "title": "Spare Cycles",
+      "description": "A standing backlog of non-urgent, high-value work you pull from whenever you have surplus capacity to spend, so idle compute compounds instead of evaporating."
+    },
+    {
+      "id": "concepts/spikes@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/spikes",
+      "routePath": "/concepts/spikes",
+      "section": "concepts",
+      "title": "Spikes",
+      "description": "A small, throwaway experiment whose only job is to kill one risky unknown before you build the real thing. In agentic development its value is the question it answers, never the code it leaves behind."
+    },
+    {
+      "id": "concepts/the-ai-question@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-ai-question",
+      "routePath": "/concepts/the-ai-question",
+      "section": "concepts",
+      "title": "The AI Question",
+      "description": "The single question every leader is actually asking about AI right now: how can I use it to become more successful? Meet them there, or every high-ticket engagement is out of order."
+    },
+    {
+      "id": "concepts/the-alignment-stack@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-alignment-stack",
+      "routePath": "/concepts/the-alignment-stack",
+      "section": "concepts",
+      "title": "The Alignment Stack",
+      "description": "The seventeen layers standing between a human value and a deployed model's output. No layer repairs a misalignment above it, which makes choosing your upstream the decision that sets your ceiling."
+    },
+    {
+      "id": "concepts/the-billing-adapter@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-billing-adapter",
+      "routePath": "/concepts/the-billing-adapter",
+      "section": "concepts",
+      "title": "The Billing Adapter",
+      "description": "A seam that separates what AI work costs from who pays for it, so one product can bill each request to the right wallet."
+    },
+    {
+      "id": "concepts/the-corpus-and-the-projection@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-corpus-and-the-projection",
+      "routePath": "/concepts/the-corpus-and-the-projection",
+      "section": "concepts",
+      "title": "The Corpus and the Projection",
+      "description": "Every generated artifact fuses two things: the corpus of annotated inputs and intent it draws from, and the projection, the editable spec that turns that corpus into this particular artifact. Separate them and the corpus becomes a durable asset while every artifact stays cheap, re-rollable, and traceable to its exact source."
+    },
+    {
+      "id": "concepts/the-correction-seam@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-correction-seam",
+      "routePath": "/concepts/the-correction-seam",
+      "section": "concepts",
+      "title": "The Correction Seam",
+      "description": "The boundary between two products where one makes an error and the other collects the user's correction of it. The signal is free, self-labeling, and unusable by either company alone, which turns an ordinary build-versus-buy question into a decision about whether to close a loop."
+    },
+    {
+      "id": "concepts/the-doctor-pattern@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-doctor-pattern",
+      "routePath": "/concepts/the-doctor-pattern",
+      "section": "concepts",
+      "title": "The Doctor Pattern",
+      "description": "Give an agent an explicit rubric that IS your definition of done, then loop it: grade, fix the highest-impact gap, re-grade, repeat."
+    },
+    {
+      "id": "concepts/the-goldilocks-pace@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-goldilocks-pace",
+      "routePath": "/concepts/the-goldilocks-pace",
+      "section": "concepts",
+      "title": "The Goldilocks Pace",
+      "description": "The operating pace that maximizes returns while keeping risk bounded, held predictably week after week."
+    },
+    {
+      "id": "concepts/the-harness-and-the-deployment@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-harness-and-the-deployment",
+      "routePath": "/concepts/the-harness-and-the-deployment",
+      "section": "concepts",
+      "title": "The Harness and the Deployment",
+      "description": "Two independent questions decide who owns an agent system: who supplies the harness, and who supplies the deployment. Teams conflate the two and end up owning both by accident."
+    },
+    {
+      "id": "concepts/the-imagination-economy@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-imagination-economy",
+      "routePath": "/concepts/the-imagination-economy",
+      "section": "concepts",
+      "title": "The Imagination Economy",
+      "description": "The economy where execution stops being the binding constraint and imagination becomes it. AI is articulated-will execution, which is wonderful, and which is exactly why aligned AI is the load-bearing requirement: some imaginations are dark."
+    },
+    {
+      "id": "concepts/the-moat-layer@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-moat-layer",
+      "routePath": "/concepts/the-moat-layer",
+      "section": "concepts",
+      "title": "The Moat Layer",
+      "description": "The part of an agent system that is actually yours: the context corpus, the evals, the tool definitions and encoded craft, and the prompts. It is all text, it costs almost nothing to keep portable, and for a company that sells agents it is the entire asset."
+    },
+    {
+      "id": "concepts/the-outcome-economy@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-outcome-economy",
+      "routePath": "/concepts/the-outcome-economy",
+      "section": "concepts",
+      "title": "The Outcome Economy",
+      "description": "An economy where the sellable unit is an outcome generator: a system that embeds superintelligence to reliably produce a valued outcome on demand. You buy or integrate a generator, not a tool and not labor."
+    },
+    {
+      "id": "concepts/the-outcome-frontier@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-outcome-frontier",
+      "routePath": "/concepts/the-outcome-frontier",
+      "section": "concepts",
+      "title": "The Outcome Frontier",
+      "description": "The most complex outcome a person can currently buy with a handful of words, and the line it keeps crossing. Read the AI revolution as one rising number: economic value delivered per unit of input."
+    },
+    {
+      "id": "concepts/the-personalizing-factory@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-personalizing-factory",
+      "routePath": "/concepts/the-personalizing-factory",
+      "section": "concepts",
+      "title": "The Personalizing Factory",
+      "description": "Superintelligent automation for personalized output. A production line that holds PRINCIPLES constant instead of a template, so the things it makes can be genuinely new and still reliably good."
+    },
+    {
+      "id": "concepts/the-portability-tax@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-portability-tax",
+      "routePath": "/concepts/the-portability-tax",
+      "section": "concepts",
+      "title": "The Portability Tax",
+      "description": "The ongoing cost of keeping maximal model and vendor flexibility: building to the lowest common denominator, owning the harness and the deployment yourself, and forfeiting the platform-native capabilities that would otherwise be free."
+    },
+    {
+      "id": "concepts/the-product-as-operation@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-product-as-operation",
+      "routePath": "/concepts/the-product-as-operation",
+      "section": "concepts",
+      "title": "The Product as Operation",
+      "description": "In AI services the human is the interface to the customer and the software exists to let that human scale nonlinearly. So you build with an operations mindset: find the bottleneck, build for the bottleneck, and track throughput and cycle time like DAU."
+    },
+    {
+      "id": "concepts/the-prompt-factory@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-prompt-factory",
+      "routePath": "/concepts/the-prompt-factory",
+      "section": "concepts",
+      "title": "The Prompt Factory",
+      "description": "Deterministic code that assembles the final prompt from locked parts plus per-run variables, so no LLM call is spent constructing what a template and a branch could have built."
+    },
+    {
+      "id": "concepts/the-renderer-and-the-payload@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-renderer-and-the-payload",
+      "routePath": "/concepts/the-renderer-and-the-payload",
+      "section": "concepts",
+      "title": "The Renderer and the Payload",
+      "description": "Every generated artifact is two things fused by default: the presentation and the content. Host the renderer once, let the content travel as data, and the cost, the shelf life, and the privacy of the artifact all change at once."
+    },
+    {
+      "id": "concepts/the-sam-altman-test@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-sam-altman-test",
+      "routePath": "/concepts/the-sam-altman-test",
+      "section": "concepts",
+      "title": "The Sam Altman Test",
+      "description": "A one-line diagnostic for model risk: as the models get better, does your service get stronger, or does the model itself commoditize you? Build only where capability jumps are tailwinds."
+    },
+    {
+      "id": "concepts/the-session-save@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/the-session-save",
+      "routePath": "/concepts/the-session-save",
+      "section": "concepts",
+      "title": "The Session Save",
+      "description": "The deliberate act of routing a work session's hard-won value (decisions, rationale, and newly-earned tribal knowledge) into durable homes (work logs, skill files, wiki pages, memory, commits) before the chat clears or the context window fills. The save mechanic for the playable harness experience: a reviewed sweep, never autopilot."
+    },
+    {
+      "id": "concepts/three-actors-of-value-creation@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/three-actors-of-value-creation",
+      "routePath": "/concepts/three-actors-of-value-creation",
+      "section": "concepts",
+      "title": "The Three Actors of Value Creation",
+      "description": "Engineering value now comes from three actors: engineers, agents, and code. The craft is placing each in the right node. Ranked by reliability it goes code, then engineers, then agents, and code is the one everyone forgets."
+    },
+    {
+      "id": "concepts/transformation-as-surgery@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/transformation-as-surgery",
+      "routePath": "/concepts/transformation-as-surgery",
+      "section": "concepts",
+      "title": "Transformation as Surgery",
+      "description": "An AI transformation is invasive, expensive, and often irreversible, like surgery. The guide who profits from recommending it carries a conflict of interest, so the honest one qualifies hard before cutting."
+    },
+    {
+      "id": "concepts/uncensored-inference@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "concepts/uncensored-inference",
+      "routePath": "/concepts/uncensored-inference",
+      "section": "concepts",
+      "title": "Uncensored Inference",
+      "description": "When a frontier chat assistant refuses a legitimate task, the fix is rarely a jailbreak. Pick a model whose policy already permits the work, and choose how you reach it by cost, privacy, and capability."
+    },
+    {
+      "id": "disciplines/context-engineering@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/context-engineering",
+      "routePath": "/disciplines/context-engineering",
+      "section": "disciplines",
+      "title": "Context Engineering",
+      "description": "The discipline of curating the right information state for an AI system to operate within. The skill that separates 'AI is okay' from 'AI changed how I work.'"
+    },
+    {
+      "id": "disciplines/harness-engineering@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/harness-engineering",
+      "routePath": "/disciplines/harness-engineering",
+      "section": "disciplines",
+      "title": "Harness Engineering",
+      "description": "The code wrapped around an AI model is just as important as the model itself. The discipline of designing that wrapper."
+    },
+    {
+      "id": "disciplines/legible-organization@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/legible-organization",
+      "routePath": "/disciplines/legible-organization",
+      "section": "disciplines",
+      "title": "Legible Organization",
+      "description": "Record everything so the AI can see it. If it was not captured, it did not happen to your intelligence. The pre-condition for every self-improving loop. Emails, messages, meetings, office hours, decisions, hand-offs, all of it, diarized and surfaced as context."
+    },
+    {
+      "id": "disciplines/sop-execution-app/case-studies/high-volume-content-studio@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/sop-execution-app/case-studies/high-volume-content-studio",
+      "routePath": "/disciplines/sop-execution-app/case-studies/high-volume-content-studio",
+      "section": "disciplines",
+      "title": "Case Study: High-Volume Content Studio",
+      "description": "A content team at a multi-brand media operation moved their production mechanics into a SOP Execution App and shifted the team's hours from execution to editorial judgment."
+    },
+    {
+      "id": "disciplines/sop-execution-app/what-it-is@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/sop-execution-app/what-it-is",
+      "routePath": "/disciplines/sop-execution-app/what-it-is",
+      "section": "disciplines",
+      "title": "What it is",
+      "description": "A custom web app that exposes a hyperagent's battle-tested digital SOPs as form-driven pages, one tab per SOP. A deployment artifact downstream of the Supersuit, not a replacement for it."
+    },
+    {
+      "id": "disciplines/spec-writing@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "disciplines/spec-writing",
+      "routePath": "/disciplines/spec-writing",
+      "section": "disciplines",
+      "title": "Spec Writing",
+      "description": "The discipline of describing what you want with enough precision that an AI can deliver it. Implementation is being commoditized; the spec is where the value lives now."
+    },
+    {
+      "id": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/a-bias-for-iteration-is-the-price-of-admission-now",
+      "routePath": "/perspectives/a-bias-for-iteration-is-the-price-of-admission-now",
+      "section": "perspectives",
+      "title": "A Bias for Iteration Is the Price of Admission Now",
+      "description": "Comfort with rapid, real-time iteration used to be a temperament. It is now the entry requirement for building products at all. The people who win iterate fast, learn quickly, and build systems that learn, on a substrate that is itself improving underneath them."
+    },
+    {
+      "id": "perspectives/a-corpus-plus-a-form-is-most-of-the-book@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/a-corpus-plus-a-form-is-most-of-the-book",
+      "routePath": "/perspectives/a-corpus-plus-a-form-is-most-of-the-book",
+      "section": "perspectives",
+      "title": "A Corpus Plus a Form Is Most of the Book",
+      "description": "When a life is captured as an annotated corpus and a story form is specified as a buildable artifact, an agentic production process can carry a book to 80 to 90 percent done. The human's remaining job is detailed editing and judgment."
+    },
+    {
+      "id": "perspectives/a-moved-measurable-is-the-only-proof@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/a-moved-measurable-is-the-only-proof",
+      "routePath": "/perspectives/a-moved-measurable-is-the-only-proof",
+      "section": "perspectives",
+      "title": "A Moved Measurable Is the Only Proof",
+      "description": "The proof your AI work is real is that it moves a load-bearing, profit-tied measurable the business already agreed matters. Everything else is novelty at best, and AI is happy to help you mistake it for traction."
+    },
+    {
+      "id": "perspectives/a-startup-is-an-outcome-generator@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/a-startup-is-an-outcome-generator",
+      "routePath": "/perspectives/a-startup-is-an-outcome-generator",
+      "section": "perspectives",
+      "title": "A Startup Is an Outcome Generator",
+      "description": "A startup is a company whose product reliably produces a valued outcome on demand. Accelerators are factories that manufacture outcome generators, and the frontier labs are the power source underneath all of them."
+    },
+    {
+      "id": "perspectives/agents-read-readmes@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/agents-read-readmes",
+      "routePath": "/perspectives/agents-read-readmes",
+      "section": "perspectives",
+      "title": "Agents Read READMEs",
+      "description": "Keep agent rule files thin and push the substance into a genuinely good README the rule file points at. Agents read READMEs the way capable developers do."
+    },
+    {
+      "id": "perspectives/ai-discourse-refuses-to-name-its-political-reality@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/ai-discourse-refuses-to-name-its-political-reality",
+      "routePath": "/perspectives/ai-discourse-refuses-to-name-its-political-reality",
+      "section": "perspectives",
+      "title": "AI Discourse Refuses to Name Its Political Reality",
+      "description": "The obvious political reality that AI discourse keeps refusing to name: the flaming red elephant in the room. Red for the revolutionary spirit rising in a generation locked out of the economy. Flaming for the firebombs already being thrown at AI executives and data centers. Elephant because the cause is obvious and nobody at the top of the industry wants to look at it."
+    },
+    {
+      "id": "perspectives/ai-eats-labor-allocation@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/ai-eats-labor-allocation",
+      "routePath": "/perspectives/ai-eats-labor-allocation",
+      "section": "perspectives",
+      "title": "AI Eats Labor Allocation",
+      "description": "SaaS captured a tiny slice of corporate budgets (the software allocation). AI captures a much larger slice (the labor allocation). The unit economics are 50-100x different, and they explain why AI consulting firms can re-rate faster than legacy services firms."
+    },
+    {
+      "id": "perspectives/ai-is-your-smartest-most-coachable-friend@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/ai-is-your-smartest-most-coachable-friend",
+      "routePath": "/perspectives/ai-is-your-smartest-most-coachable-friend",
+      "section": "perspectives",
+      "title": "AI Is Your Smartest, Most Coachable Friend Who Has Read Everything But Experienced Nothing",
+      "description": "The fastest accurate model of AI: a brilliant friend with no lived experience and no internal compass for truth. It is wildly coachable in either direction, which is why the operator's lived experience and discerning taste are the load-bearing inputs."
+    },
+    {
+      "id": "perspectives/ai-native-org-charts-put-humans-at-the-edges@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/ai-native-org-charts-put-humans-at-the-edges",
+      "routePath": "/perspectives/ai-native-org-charts-put-humans-at-the-edges",
+      "section": "perspectives",
+      "title": "AI-Native Org Charts Put Humans at the Edges",
+      "description": "In an AI-native company, the AI sits in the center: the company brain, the data, the skills, the loops. Humans live at the perimeter, interfacing with reality where the intelligence makes contact with the world. The org chart inverts."
+    },
+    {
+      "id": "perspectives/applied-ai-pays-off-where-fit-is-already-proven@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/applied-ai-pays-off-where-fit-is-already-proven",
+      "routePath": "/perspectives/applied-ai-pays-off-where-fit-is-already-proven",
+      "section": "perspectives",
+      "title": "Applied AI Pays Off Where Fit Is Already Proven",
+      "description": "Applied AI pays off fastest inside a business that has already proven market fit, where it clears bottlenecks and compounds profit. Spinning up a speculative AI startup in today's crowded, bubbly market is a far worse use of the same energy."
+    },
+    {
+      "id": "perspectives/beating-the-default-is-table-stakes@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/beating-the-default-is-table-stakes",
+      "routePath": "/perspectives/beating-the-default-is-table-stakes",
+      "section": "perspectives",
+      "title": "Beating the Default Is Table Stakes",
+      "description": "Improving on the model's first pass only proves you are not worse than a machine alone. The comparison that prices you is you plus AI against the median competitor plus AI."
+    },
+    {
+      "id": "perspectives/buyers-fumble-alone-before-they-hire-you@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/buyers-fumble-alone-before-they-hire-you",
+      "routePath": "/perspectives/buyers-fumble-alone-before-they-hire-you",
+      "section": "perspectives",
+      "title": "Buyers Fumble Alone Before They Hire You",
+      "description": "People try to figure out AI alone on minimal spend, fumble for months, then hire a coach. The lag between starting solo and reaching out is the consultant's sales-timing signal."
+    },
+    {
+      "id": "perspectives/capability-is-table-stakes-faithfulness-is-the-choice@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/capability-is-table-stakes-faithfulness-is-the-choice",
+      "routePath": "/perspectives/capability-is-table-stakes-faithfulness-is-the-choice",
+      "section": "perspectives",
+      "title": "Capability Is Table Stakes, Faithfulness Is the Choice",
+      "description": "The bar for choosing an agentic stack is faithfulness: acting in the spirit of your mission when your instructions run out, and sometimes holding you to a higher standard than you asked for."
+    },
+    {
+      "id": "perspectives/capable-agents-need-more-guardrails@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/capable-agents-need-more-guardrails",
+      "routePath": "/perspectives/capable-agents-need-more-guardrails",
+      "section": "perspectives",
+      "title": "The More Capable the Agent, the More Guardrails It Needs",
+      "description": "A capable agent's failure mode is not stupidity, it is confident, plausible shortcutting. The smarter it is, the more convincing the wrong thing it ships. Guardrails are how you get quality out of it, and the need for them rises with capability."
+    },
+    {
+      "id": "perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn",
+      "routePath": "/perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn",
+      "section": "perspectives",
+      "title": "Cheap Tokens Are a Subsidy That Will Be Withdrawn"
+    },
+    {
+      "id": "perspectives/commercial-success-selects-for-truthful-models@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/commercial-success-selects-for-truthful-models",
+      "routePath": "/perspectives/commercial-success-selects-for-truthful-models",
+      "section": "perspectives",
+      "title": "Commercial Success Selects for Truthful Models",
+      "description": "For AI that is paid to do a job, the market's success signal and the truth signal are the same thing: whether the customer got what they actually wanted. So winning the market selects for models that are reliable and honest. This holds only where the product is bought to complete a task, not to hold attention, where the selection runs the opposite way."
+    },
+    {
+      "id": "perspectives/crossing-5m-revenue-re-rates-a-services-firm@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/crossing-5m-revenue-re-rates-a-services-firm",
+      "routePath": "/perspectives/crossing-5m-revenue-re-rates-a-services-firm",
+      "section": "perspectives",
+      "title": "Crossing $5M Revenue Re-Rates a Services Firm",
+      "description": "Services businesses sell at 1-2x EBITDA below roughly $5M annual revenue and 4-5x EBITDA above it. The same multiple jump applies to AI consulting firms. The threshold is the structural reason the exit posture decision matters."
+    },
+    {
+      "id": "perspectives/daily-use-is-the-benchmark-that-cant-be-gamed@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/daily-use-is-the-benchmark-that-cant-be-gamed",
+      "routePath": "/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed",
+      "section": "perspectives",
+      "title": "Daily Use Is the Benchmark That Can't Be Gamed",
+      "description": "A published benchmark is a target a vendor can train to. Months of daily use by a demanding operator is an eval nobody can see, so nobody can game it. Trust the felt experience, and the revealed preference of builders you respect, over the leaderboard."
+    },
+    {
+      "id": "perspectives/demonstration-is-the-highest-bandwidth-spec@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/demonstration-is-the-highest-bandwidth-spec",
+      "routePath": "/perspectives/demonstration-is-the-highest-bandwidth-spec",
+      "section": "perspectives",
+      "title": "Demonstration Is the Highest-Bandwidth Spec",
+      "description": "Three minutes of doing a workflow while narrating it carries more usable specification than an hour of writing the procedure down. The binding constraint on automating a process was never model capability. It was asking an operator to describe something their hands run without conscious observation."
+    },
+    {
+      "id": "perspectives/deny-rules-are-not-a-wall@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/deny-rules-are-not-a-wall",
+      "routePath": "/perspectives/deny-rules-are-not-a-wall",
+      "section": "perspectives",
+      "title": "Deny Rules Are Not a Wall",
+      "description": "Permission rules steer an agent toward the right default and persist across sessions, which is worth having. They cannot contain an agent, because the same action has many spellings. If an outcome is unacceptable, remove the capability rather than writing a rule against it."
+    },
+    {
+      "id": "perspectives/developers-have-started-worshipping-the-build@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/developers-have-started-worshipping-the-build",
+      "routePath": "/perspectives/developers-have-started-worshipping-the-build",
+      "section": "perspectives",
+      "title": "Developers Have Started Worshipping the Build",
+      "description": "Developers have started worshipping the act of building over the outcome it is supposed to serve. Spending tokens feels like progress. It is not. The business only ever paid for the outcome, and most of the outcome is already solved."
+    },
+    {
+      "id": "perspectives/discoverability-is-a-just-in-time-problem@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/discoverability-is-a-just-in-time-problem",
+      "routePath": "/perspectives/discoverability-is-a-just-in-time-problem",
+      "section": "perspectives",
+      "title": "Discoverability Is a Just-in-Time Problem",
+      "description": "An agent does not fail to use your tool because it never knew the tool existed. It fails because nothing put the tool in front of it at the moment it was about to hand-roll one. Anything that depends on having read something earlier and remembered it loses on a long session."
+    },
+    {
+      "id": "perspectives/document-and-streamline-load-bearing-workflows@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/document-and-streamline-load-bearing-workflows",
+      "routePath": "/perspectives/document-and-streamline-load-bearing-workflows",
+      "section": "perspectives",
+      "title": "The Default AI Move Is to Document and Streamline Load-Bearing Workflows",
+      "description": "Whatever else you do with AI, the no-regret baseline every business owes itself is to document its load-bearing workflows and streamline them. It is the floor, not the ceiling. Every fancier bet sits on top of a mapped operation or it sits on sand."
+    },
+    {
+      "id": "perspectives/dont-hand-off-a-skill-until-it-one-shots@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "routePath": "/perspectives/dont-hand-off-a-skill-until-it-one-shots",
+      "section": "perspectives",
+      "title": "Don't Hand Off a Skill Until It One-Shots",
+      "description": "One-shot reliability at home is the readiness bar for sharing a skill with another person or deploying it to the cloud, because both moves price out the correction loop that made the skill good."
+    },
+    {
+      "id": "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage",
+      "routePath": "/perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage",
+      "section": "perspectives",
+      "title": "Don't Move at Agentic Speed Without Extreme Test Coverage",
+      "description": "The regression tax is charged at the rate you change things, and agents raised that rate by an order of magnitude. Writing tests used to be the expensive part, which is what made skipping them defensible. It is not expensive anymore, so the excuse is gone and the coverage bar should be extreme."
+    },
+    {
+      "id": "perspectives/engineers-are-version-shaped@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/engineers-are-version-shaped",
+      "routePath": "/perspectives/engineers-are-version-shaped",
+      "section": "perspectives",
+      "title": "Engineers Are Version-Shaped",
+      "description": "An engineer's real specialty is usually a version number. Taking a product from nothing to a launched first version is a different job from keeping version five alive, and staffing by job title mis-staffs both."
+    },
+    {
+      "id": "perspectives/every-ai-business-model-has-a-different-ceiling@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/every-ai-business-model-has-a-different-ceiling",
+      "routePath": "/perspectives/every-ai-business-model-has-a-different-ceiling",
+      "section": "perspectives",
+      "title": "Every AI Business Model Has a Different Ceiling",
+      "description": "A working chart of every distinct business model for monetizing AI expertise in 2026, plotted on technical depth against contract size. Each model has a different ceiling, a different exit profile, and a different operational shape. Pick deliberately."
+    },
+    {
+      "id": "perspectives/every-brand-is-a-version-controlled-universe@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/every-brand-is-a-version-controlled-universe",
+      "routePath": "/perspectives/every-brand-is-a-version-controlled-universe",
+      "section": "perspectives",
+      "title": "Every Brand Should Be a Version-Controlled Universe Its Agent Renders on Demand",
+      "description": "The brand book is a dead PDF the moment it ships. The alternative is a brand held as a version-controlled universe an agent loads and renders on demand, so a partner can browse it, a creator can generate from it, and an operator can edit it, all in plain language, all from one source of truth."
+    },
+    {
+      "id": "perspectives/every-company-is-quietly-sorting-its-people@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/every-company-is-quietly-sorting-its-people",
+      "routePath": "/perspectives/every-company-is-quietly-sorting-its-people",
+      "section": "perspectives",
+      "title": "Every Company Is Quietly Sorting Its People"
+    },
+    {
+      "id": "perspectives/everyone-is-paying-to-regenerate-the-same-software@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/everyone-is-paying-to-regenerate-the-same-software",
+      "routePath": "/perspectives/everyone-is-paying-to-regenerate-the-same-software",
+      "section": "perspectives",
+      "title": "Everyone Is Paying to Regenerate the Same Software",
+      "description": "Thousands of operators are independently spending tokens to generate the same handful of near-platonic modules, then leaving each copy to die in a private repo. The generated artifact is worth more published than kept, and almost nobody publishes."
+    },
+    {
+      "id": "perspectives/execution-is-no-longer-what-you-get-paid-for@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/execution-is-no-longer-what-you-get-paid-for",
+      "routePath": "/perspectives/execution-is-no-longer-what-you-get-paid-for",
+      "section": "perspectives",
+      "title": "Execution Is No Longer What You Get Paid For",
+      "description": "Daniel Priestley's framing of post-AI work. AI tokens replace task execution, so humans get paid for conviction, judgment, taste, commercial outcomes, and improving the system."
+    },
+    {
+      "id": "perspectives/fixing-the-generator-does-not-fix-the-fleet@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/fixing-the-generator-does-not-fix-the-fleet",
+      "routePath": "/perspectives/fixing-the-generator-does-not-fix-the-fleet",
+      "section": "perspectives",
+      "title": "Fixing the Generator Does Not Fix the Fleet",
+      "description": "Repairing the template stops the next instance from being born broken and does nothing for the eleven already shipped. Propagating the fix needs a detector, not just an edit."
+    },
+    {
+      "id": "perspectives/frameworks-are-proven-by-variety-not-volume@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/frameworks-are-proven-by-variety-not-volume",
+      "routePath": "/perspectives/frameworks-are-proven-by-variety-not-volume",
+      "section": "perspectives",
+      "title": "Frameworks Are Proven by Variety, Not Volume",
+      "description": "A framework that has produced one kind of thing a hundred times is still unproven. Each new KIND of instance is what exposes a structural hole, and review never finds them because review only checks internal coherence."
+    },
+    {
+      "id": "perspectives/improvement-compounds-when-the-loops-nest@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/improvement-compounds-when-the-loops-nest",
+      "routePath": "/perspectives/improvement-compounds-when-the-loops-nest",
+      "section": "perspectives",
+      "title": "Improvement Compounds When the Loops Nest",
+      "description": "One improvement loop is table stakes. The compounding move is a loop at every level of abstraction, nested, with lessons flowing up and work flowing down. Each level catches what the level below cannot see, including the loop that grades the grader."
+    },
+    {
+      "id": "perspectives/intelligence-is-commoditized-deployment-is-the-moat@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/intelligence-is-commoditized-deployment-is-the-moat",
+      "routePath": "/perspectives/intelligence-is-commoditized-deployment-is-the-moat",
+      "section": "perspectives",
+      "title": "Intelligence Is Commoditized, Deployment Is the Moat",
+      "description": "Every company can buy the same frontier intelligence, so intelligence is no longer the edge. The advantage moved to deployment: the bridge between general intelligence and one company's specific processes, politics, and exceptions."
+    },
+    {
+      "id": "perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision",
+      "routePath": "/perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision",
+      "section": "perspectives",
+      "title": "Lifestyle or Enterprise Value Is a Day-One Decision",
+      "description": "The decision every AI consulting founder makes in their first month, usually without naming it. Lifestyle businesses and enterprise-value businesses look the same on day 30 and look completely different on day 730. Choose deliberately."
+    },
+    {
+      "id": "perspectives/llms-handle-judgment-code-handles-everything-else@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/llms-handle-judgment-code-handles-everything-else",
+      "routePath": "/perspectives/llms-handle-judgment-code-handles-everything-else",
+      "section": "perspectives",
+      "title": "LLMs Handle Judgment, Code Handles Everything Else"
+    },
+    {
+      "id": "perspectives/mid-market-executives-are-buying-a-narrative@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/mid-market-executives-are-buying-a-narrative",
+      "routePath": "/perspectives/mid-market-executives-are-buying-a-narrative",
+      "section": "perspectives",
+      "title": "Mid-Market Executives Are Buying a Narrative",
+      "description": "Mid-market executives are not buying AI systems. They are buying a coherent narrative they can take to their board, their team, and themselves. The technology is downstream of the narrative. Once you see this, your sales calls change."
+    },
+    {
+      "id": "perspectives/mid-markets-are-the-ai-sweet-spot@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/mid-markets-are-the-ai-sweet-spot",
+      "routePath": "/perspectives/mid-markets-are-the-ai-sweet-spot",
+      "section": "perspectives",
+      "title": "Mid-Markets Are the AI Sweet Spot",
+      "description": "Mid-market companies ($10M-$250M annual revenue) are the AI era's prime client profile for consulting firms. SMBs lack the documented business logic AI systems get built from. Enterprises are too distributed to execute a holistic strategy. Mid-markets are systematized just enough to build against."
+    },
+    {
+      "id": "perspectives/middle-management-is-ending@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/middle-management-is-ending",
+      "routePath": "/perspectives/middle-management-is-ending",
+      "section": "perspectives",
+      "title": "Middle Management Is Ending",
+      "description": "In an AI-native company, two roles matter: ICs who build and operate, and DRIs who own outcomes. Middle management exists to coordinate, and AI does coordination now. A greenfield claim, not a prescription for legacy orgs."
+    },
+    {
+      "id": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "routePath": "/perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "section": "perspectives",
+      "title": "Onboarding Belongs in a Repo That Holds Your State",
+      "description": "The friction in adopting new AI infrastructure is that nobody holds your state between sessions. Ship the onboarding as a project the developer clones, which tracks real integration instead of lessons read."
+    },
+    {
+      "id": "perspectives/only-frontier-models-replace-skilled-labor@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/only-frontier-models-replace-skilled-labor",
+      "routePath": "/perspectives/only-frontier-models-replace-skilled-labor",
+      "section": "perspectives",
+      "title": "Only Frontier Models Replace Skilled Labor",
+      "description": "Substituting for skilled labor means substituting for judgment and generality, which live only at the frontier. Small models automate the repetitive slivers that were never the skilled part. So skilled-labor replacement is load-bearing on frontier progress, task by task."
+    },
+    {
+      "id": "perspectives/pain-tolerance-for-drudgery-is-a-bug@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/pain-tolerance-for-drudgery-is-a-bug",
+      "routePath": "/perspectives/pain-tolerance-for-drudgery-is-a-bug",
+      "section": "perspectives",
+      "title": "Pain Tolerance for Drudgery Is a Bug",
+      "description": "Enduring brute-force drudgery is a cost you stopped questioning, not a virtue. Redesign the workflow so you stay in flow at the highest impact, and hire the drudgery away, for yourself and for your clients."
+    },
+    {
+      "id": "perspectives/precise-procedures-are-written-for-the-agent@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/precise-procedures-are-written-for-the-agent",
+      "routePath": "/perspectives/precise-procedures-are-written-for-the-agent",
+      "section": "perspectives",
+      "title": "Precise Procedures Are Written for the Agent",
+      "description": "Dense procedural precision reads as over-engineering to a human skimming for the gist. It is not for the skim. It is the interface an agent executes against faithfully, and the second reader changes what good writing is."
+    },
+    {
+      "id": "perspectives/progressive-automation-is-the-job@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/progressive-automation-is-the-job",
+      "routePath": "/perspectives/progressive-automation-is-the-job",
+      "section": "perspectives",
+      "title": "Progressive Automation Is the Job",
+      "description": "The highest-leverage AI work is boring. Week after week you map one more proven, money-making workflow and automate the parts that should be automated. You are not chasing a trend or building a toy. You are buying back human attention, which is sacred, one unglamorous increment at a time."
+    },
+    {
+      "id": "perspectives/rag-is-the-wrong-default-for-knowledge-bases@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/rag-is-the-wrong-default-for-knowledge-bases",
+      "routePath": "/perspectives/rag-is-the-wrong-default-for-knowledge-bases",
+      "section": "perspectives",
+      "title": "RAG Is the Wrong Default for Knowledge Bases",
+      "description": "For a corpus an agent can hold or navigate whole, a chunk-embed-retrieve pipeline is lossy, extra infrastructure, and a hallucination mechanism. Give the agent the corpus and the tools an engineer would use."
+    },
+    {
+      "id": "perspectives/recurring-work-belongs-in-code@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/recurring-work-belongs-in-code",
+      "routePath": "/perspectives/recurring-work-belongs-in-code",
+      "section": "perspectives",
+      "title": "Recurring Work Belongs in Code",
+      "description": "For any recurring process, deterministic code is near-free to run and consistent by construction. Make it the default, and treat live model generation as the metered exception you escalate to on purpose."
+    },
+    {
+      "id": "perspectives/remote-control-is-incomplete-without-remote-boot@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/remote-control-is-incomplete-without-remote-boot",
+      "routePath": "/perspectives/remote-control-is-incomplete-without-remote-boot",
+      "section": "perspectives",
+      "title": "Remote Control Is Incomplete Without Remote Boot",
+      "description": "Steering a running session from your phone still chains you to the desk, because a session freezes your tooling at boot and only a restart updates it. Being able to start a fresh session remotely is what lets you stay away for days."
+    },
+    {
+      "id": "perspectives/small-binaries-matter@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/small-binaries-matter",
+      "routePath": "/perspectives/small-binaries-matter",
+      "section": "perspectives",
+      "title": "Small Binaries Matter",
+      "description": "The rule is not 'no binaries in git.' Small binaries that ship with the product belong in the repo. Large regenerable derivative sets do not, and an agent will happily commit 600MB of them unless you encode the boundary."
+    },
+    {
+      "id": "perspectives/software-is-disposable-context-is-the-asset@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/software-is-disposable-context-is-the-asset",
+      "routePath": "/perspectives/software-is-disposable-context-is-the-asset",
+      "section": "perspectives",
+      "title": "Software Is Disposable, Context Is the Asset",
+      "description": "Where value lives in an AI-native company. Software gets regenerated when the models get smarter. Data, skills, and captured context do not. Build for the inversion: hoard the substrate, treat the tooling as disposable."
+    },
+    {
+      "id": "perspectives/some-of-every-role-should-never-be-automated@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/some-of-every-role-should-never-be-automated",
+      "routePath": "/perspectives/some-of-every-role-should-never-be-automated",
+      "section": "perspectives",
+      "title": "Some of Every Role Should Never Be Automated",
+      "description": "Some capacities stay decisively human, and in every seat a few of them are load-bearing. The jagged frontier maps where AI is strong; the comparative human edge maps the part of a role you should never try to automate."
+    },
+    {
+      "id": "perspectives/sometimes-the-workflow-step-should-be-an-agent@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/sometimes-the-workflow-step-should-be-an-agent",
+      "routePath": "/perspectives/sometimes-the-workflow-step-should-be-an-agent",
+      "section": "perspectives",
+      "title": "Sometimes the Workflow Step Should Be an Agent",
+      "description": "A single LLM call is the cheap default for a step in a workflow. When the middle of the task needs its own judgment, generated code, and a way to check its own work, put a real agent there instead."
+    },
+    {
+      "id": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "routePath": "/perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety",
+      "section": "perspectives",
+      "title": "Sovereignty Cannot Be Sold at the Expense of Safety",
+      "description": "Understanding your stack is worth a lot, and it is not the top value. When sovereignty and safety conflict, safety wins, which is why picking a vendor whose priority order puts safety first can be a sovereign decision rather than a surrender of one."
+    },
+    {
+      "id": "perspectives/task-difficulty-does-not-predict-ai-performance@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/task-difficulty-does-not-predict-ai-performance",
+      "routePath": "/perspectives/task-difficulty-does-not-predict-ai-performance",
+      "section": "perspectives",
+      "title": "Task Difficulty Does Not Predict AI Performance",
+      "description": "AI capability has an uneven border. Human-perceived difficulty does not predict which tasks AI does brilliantly and which it botches. You map the border by probing it, and it moves outward every week."
+    },
+    {
+      "id": "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem",
+      "routePath": "/perspectives/the-agentic-os-ux-problem-is-a-packaging-problem",
+      "section": "perspectives",
+      "title": "The Agentic OS UX Problem Is a Packaging Problem",
+      "description": "The capability layer of a personal agentic OS is already good enough for normal people. What they are missing is a door shaped like the software they already understand: an app. Thin app-shaped surfaces over a proven skill library dissolve most of the agentic OS UX problem."
+    },
+    {
+      "id": "perspectives/the-best-judges-of-creations-should-be-training-ai@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-best-judges-of-creations-should-be-training-ai",
+      "routePath": "/perspectives/the-best-judges-of-creations-should-be-training-ai",
+      "section": "perspectives",
+      "title": "The Best Judges of Creations Should Be Training AI",
+      "description": "Taste is not a scale problem. A model's ceiling on any creative domain is the taste of whoever judged its output, so the highest-leverage hire in applied AI is the person whose verdict on a creation the market already trusts."
+    },
+    {
+      "id": "perspectives/the-best-transformations-follow-the-same-arc@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-best-transformations-follow-the-same-arc",
+      "routePath": "/perspectives/the-best-transformations-follow-the-same-arc",
+      "section": "perspectives",
+      "title": "The Best Transformations Follow the Same Arc",
+      "description": "The common process the best AI transformation engagements converge on. Refuse the one-tool instinct, lead with a ROI-ranked strategy blueprint, ship quick wins that pay back fast, then sequence the rollout so each solution compounds the last. Derived from a library of mid-market case studies."
+    },
+    {
+      "id": "perspectives/the-cheaper-code-gets-the-simpler-you-should-build@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-cheaper-code-gets-the-simpler-you-should-build",
+      "routePath": "/perspectives/the-cheaper-code-gets-the-simpler-you-should-build",
+      "section": "perspectives",
+      "title": "The Cheaper Code Gets, the Simpler You Should Build",
+      "description": "When producing code costs almost nothing, the friction that used to enforce simplicity is gone. Restraint is now something you supply on purpose. Build the simplest thing that works, and stop."
+    },
+    {
+      "id": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "routePath": "/perspectives/the-evangelist-sees-the-frontier-before-the-lab-does",
+      "section": "perspectives",
+      "title": "The Evangelist Sees the Frontier Before the Lab Does",
+      "description": "What a model can do is settled in a lab. What it is for is discovered in contact with a specific job, by whoever is standing there. That makes the person deployed into real builds the first to know, and it means an evangelist who is not also an inventor is mis-hired."
+    },
+    {
+      "id": "perspectives/the-generator-is-the-only-thing-worth-fixing@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-generator-is-the-only-thing-worth-fixing",
+      "routePath": "/perspectives/the-generator-is-the-only-thing-worth-fixing",
+      "section": "perspectives",
+      "title": "The Generator Is the Only Thing Worth Fixing",
+      "description": "When a system you own produces the wrong result, the fix belongs in the system, not the artifact. The intended outcome is the authority, so a rule that blocks it is a bug in the generator, not a constraint to route around."
+    },
+    {
+      "id": "perspectives/the-harness-should-be-your-default-interface@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-harness-should-be-your-default-interface",
+      "routePath": "/perspectives/the-harness-should-be-your-default-interface",
+      "section": "perspectives",
+      "title": "The Harness Should Be Your Default Interface",
+      "description": "Most people open an app and do the work by hand. The better default is to start in an agentic harness, describe the outcome, and let the harness open an interface only for the steps that need your body."
+    },
+    {
+      "id": "perspectives/the-magnificent-crash-is-coming@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-magnificent-crash-is-coming",
+      "routePath": "/perspectives/the-magnificent-crash-is-coming",
+      "section": "perspectives",
+      "title": "The Magnificent Crash Is Coming",
+      "description": "A large market correction is coming because there is far more AI technology than there is guidance to deploy it. The valuations assume a transformation that trust, which forms slowly, cannot deliver on the implied schedule."
+    },
+    {
+      "id": "perspectives/the-self-improving-business-is-a-bad-meme@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/the-self-improving-business-is-a-bad-meme",
+      "routePath": "/perspectives/the-self-improving-business-is-a-bad-meme",
+      "section": "perspectives",
+      "title": "The Self-Improving Business Is a Bad Meme",
+      "description": "A direct rebuttal to the recursive-self-improving-business framing. Workflows can self-update; businesses do not self-improve. The human is the improver. Implementers who consult from any other premise ship the wrong shape."
+    },
+    {
+      "id": "perspectives/there-is-no-standing-still-anymore@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/there-is-no-standing-still-anymore",
+      "routePath": "/perspectives/there-is-no-standing-still-anymore",
+      "section": "perspectives",
+      "title": "There Is No Standing Still Anymore"
+    },
+    {
+      "id": "perspectives/tokens-are-cheap-your-future-attention-is-not@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/tokens-are-cheap-your-future-attention-is-not",
+      "routePath": "/perspectives/tokens-are-cheap-your-future-attention-is-not",
+      "section": "perspectives",
+      "title": "Tokens Are Cheap, Your Future Attention Is Not",
+      "description": "An agent left to optimize for the cheapest completion of this turn will quietly spend your scarcest resource: the attention it costs you to review work that came back wrong, and the attention it costs future you to rediscover a lesson nobody wrote down."
+    },
+    {
+      "id": "perspectives/tokens-are-the-atomic-unit-of-ai-economics@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/tokens-are-the-atomic-unit-of-ai-economics",
+      "routePath": "/perspectives/tokens-are-the-atomic-unit-of-ai-economics",
+      "section": "perspectives",
+      "title": "Tokens Are the Atomic Unit of AI Economics"
+    },
+    {
+      "id": "perspectives/too-many-early-pilots-will-drown-you@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/too-many-early-pilots-will-drown-you",
+      "routePath": "/perspectives/too-many-early-pilots-will-drown-you",
+      "section": "perspectives",
+      "title": "Too Many Early Pilots Will Drown You",
+      "description": "Signing too many pilot customers early drowns you in human labor before you can build the product to scale, so you stay stuck using humans. The fix is counterintuitive: cap your first pilots to a small handful."
+    },
+    {
+      "id": "perspectives/trust-attaches-to-operators-with-a-named-framework@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/trust-attaches-to-operators-with-a-named-framework",
+      "routePath": "/perspectives/trust-attaches-to-operators-with-a-named-framework",
+      "section": "perspectives",
+      "title": "Trust Attaches to Operators With a Named Framework",
+      "description": "Productize your service as a signature named framework. The Big-4 pattern (McKinsey, BCG, Bain) is the reference. \"I'll build whatever you want\" sounds accommodating but reads as not-standing-on-anything. Trust attaches to operators with an opinion."
+    },
+    {
+      "id": "perspectives/variance-is-the-existential-problem@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/variance-is-the-existential-problem",
+      "routePath": "/perspectives/variance-is-the-existential-problem",
+      "section": "perspectives",
+      "title": "Variance Is the Existential Problem",
+      "description": "Customers fire an AI-services company for inconsistent output faster than for being slower or more expensive than the incumbent. Consistency is what they are buying. Output variance, not speed or price, is the churn driver."
+    },
+    {
+      "id": "perspectives/vendor-resistance-is-a-revealed-preference-problem@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/vendor-resistance-is-a-revealed-preference-problem",
+      "routePath": "/perspectives/vendor-resistance-is-a-revealed-preference-problem",
+      "section": "perspectives",
+      "title": "Vendor Resistance Is a Revealed-Preference Problem",
+      "description": "What you already use is the real statement of your values. Every device, service, and account you run says you accepted big-tech dependence long ago. The AI stack is where you noticed."
+    },
+    {
+      "id": "perspectives/vertical-integration-is-the-moat@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/vertical-integration-is-the-moat",
+      "routePath": "/perspectives/vertical-integration-is-the-moat",
+      "section": "perspectives",
+      "title": "Vertical Integration Is the Moat",
+      "description": "Model quality converges, but the harness compounds. The company that fully verticalizes the model and the harness harvests the one dataset nobody else has: how humans turn intent into action and whether they got what they wanted. Users pay to train it, and productizing the harness as an SDK farms that collection out to other companies too."
+    },
+    {
+      "id": "perspectives/weight-training-data-by-who-is-still-in-business@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/weight-training-data-by-who-is-still-in-business",
+      "routePath": "/perspectives/weight-training-data-by-who-is-still-in-business",
+      "section": "perspectives",
+      "title": "Weight Training Data by Who Is Still in Business",
+      "description": "Once a system learns from user corrections, it has to decide whose corrections count. Every available proxy for good judgment is bad, and money is the least bad of them, because a customer who keeps paying has run an expensive test you get to inherit for free."
+    },
+    {
+      "id": "perspectives/you-are-having-the-2008-cloud-argument-again@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/you-are-having-the-2008-cloud-argument-again",
+      "routePath": "/perspectives/you-are-having-the-2008-cloud-argument-again",
+      "section": "perspectives",
+      "title": "You Are Having the 2008 Cloud Argument Again",
+      "description": "Managed agent platforms are running the cloud's play: not making infrastructure better, making owning it optional. The objections to the cloud were correct and lost anyway, and why they lost decides what you keep portable this time."
+    },
+    {
+      "id": "perspectives/you-cannot-acquire-product-market-fit@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/you-cannot-acquire-product-market-fit",
+      "routePath": "/perspectives/you-cannot-acquire-product-market-fit",
+      "section": "perspectives",
+      "title": "You Cannot Acquire Product-Market Fit",
+      "description": "Buying a legacy services firm and bolting AI on top is a trap: you cannot acquire product-market fit, and legacy expectations on metrics, hiring, and performance do not change because you added AI. The one exception is a regulatory moat you need fast."
+    },
+    {
+      "id": "perspectives/you-cannot-plan-the-upgrades-that-matter@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/you-cannot-plan-the-upgrades-that-matter",
+      "routePath": "/perspectives/you-cannot-plan-the-upgrades-that-matter",
+      "section": "perspectives",
+      "title": "You Cannot Plan the Upgrades That Matter",
+      "description": "The features that make a generation pipeline good are discovered by delivering real artifacts to real people, not by designing the pipeline up front. Real delivery is the roadmap, and the commit history is the record of thinking."
+    },
+    {
+      "id": "perspectives/you-cannot-reason-about-ai-you-have-not-felt@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/you-cannot-reason-about-ai-you-have-not-felt",
+      "routePath": "/perspectives/you-cannot-reason-about-ai-you-have-not-felt",
+      "section": "perspectives",
+      "title": "You Cannot Reason About AI You Have Not Felt"
+    },
+    {
+      "id": "perspectives/you-cant-distill-your-way-to-the-frontier@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/you-cant-distill-your-way-to-the-frontier",
+      "routePath": "/perspectives/you-cant-distill-your-way-to-the-frontier",
+      "section": "perspectives",
+      "title": "You Can't Distill Your Way to the Frontier",
+      "description": "Distilling a model from another model's outputs reproduces the teacher's surface answers while inheriting its errors. You can copy the frontier cheaply, but you cannot lead from a copy: the durable edge belongs to the models trained closest to reality."
+    },
+    {
+      "id": "perspectives/your-computer-was-always-underused@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-computer-was-always-underused",
+      "routePath": "/perspectives/your-computer-was-always-underused",
+      "section": "perspectives",
+      "title": "Your Computer Was Always Underused",
+      "description": "The bottleneck on your computer was never the hardware. It was that you could not translate intent into bash. A coding agent that masters the shell finally puts the machine you already own to work."
+    },
+    {
+      "id": "perspectives/your-edge-is-not-your-infrastructure@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-edge-is-not-your-infrastructure",
+      "routePath": "/perspectives/your-edge-is-not-your-infrastructure",
+      "section": "perspectives",
+      "title": "Your Edge Is Not Your Infrastructure",
+      "description": "A subject-matter expert going all-in on AI should own the judgment, the taste, and the outcome, not invent a harness and a deployment. The infrastructure is the part someone else has already solved better."
+    },
+    {
+      "id": "perspectives/your-first-touch-should-sell-the-next-step@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-first-touch-should-sell-the-next-step",
+      "routePath": "/perspectives/your-first-touch-should-sell-the-next-step",
+      "section": "perspectives",
+      "title": "Your First Touch Should Sell the Next Step, Not the Product",
+      "description": "A cold reader gives you seconds and no benefit of the doubt, so the first message cannot carry your argument. Its only job is to earn the next step, and proof does that where explanation does not."
+    },
+    {
+      "id": "perspectives/your-highest-leverage-writing-has-an-audience-of-one@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-highest-leverage-writing-has-an-audience-of-one",
+      "routePath": "/perspectives/your-highest-leverage-writing-has-an-audience-of-one",
+      "section": "perspectives",
+      "title": "Your Highest-Leverage Writing Has an Audience of One",
+      "description": "Three genres of writing compete for your hours: for yourself, for one person, for a crowd. The public genre is the one most practitioners practice daily and the one that pays the least. The private genre is where your read on reality gets corrected, and it is now also the substrate your agents run on."
+    },
+    {
+      "id": "perspectives/your-process-is-disposable-your-judgment-is-not@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-process-is-disposable-your-judgment-is-not",
+      "routePath": "/perspectives/your-process-is-disposable-your-judgment-is-not",
+      "section": "perspectives",
+      "title": "Your Process Is Disposable, Your Judgment Is Not",
+      "description": "The value was never the process. It was the outcome. The process was only the cheapest known path to it, and clinging to it blinds you when a cheaper or better way to generate the outcome appears."
+    },
+    {
+      "id": "perspectives/your-reader-already-has-the-objection@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "perspectives/your-reader-already-has-the-objection",
+      "routePath": "/perspectives/your-reader-already-has-the-objection",
+      "section": "perspectives",
+      "title": "Your Reader Already Has the Objection",
+      "description": "Anyone technical enough to matter already knows the counterargument to what you are recommending. Stating it in its strongest form, before they raise it, is what earns you the right to answer it."
+    },
+    {
+      "id": "playbooks/ai-tech-partnership-revenue-model@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/ai-tech-partnership-revenue-model",
+      "routePath": "/playbooks/ai-tech-partnership-revenue-model",
+      "section": "playbooks",
+      "title": "The AI Tech Partnership Revenue Model",
+      "description": "Budget plus a percentage of top-line revenue. Borrowed from the growth-marketing partner model and adapted for AI consulting. Aligns incentives, captures the value AI labor replacement actually produces, and re-rates the consulting firm's revenue quality."
+    },
+    {
+      "id": "playbooks/archive-never-delete@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/archive-never-delete",
+      "routePath": "/playbooks/archive-never-delete",
+      "section": "playbooks",
+      "title": "Archive, Never Delete",
+      "description": "Clear a cluttered workspace by sweeping loose files into a dated archive folder, not by deleting them. Cheap storage makes every file you have ever touched a recoverable part of your context corpus. Pruning is a separate, deliberate decision."
+    },
+    {
+      "id": "playbooks/capture-first-autobiography@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/capture-first-autobiography",
+      "routePath": "/playbooks/capture-first-autobiography",
+      "section": "playbooks",
+      "title": "The Capture-First Autobiography",
+      "description": "Capture the raw truth of a life into files you own before turning any of it into a book, a site, or a video. A continuous AI interview builds the corpus; every format you ever want is a projection of it."
+    },
+    {
+      "id": "playbooks/generate-a-microautobiography@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/generate-a-microautobiography",
+      "routePath": "/playbooks/generate-a-microautobiography",
+      "section": "playbooks",
+      "title": "Generate a Microautobiography"
+    },
+    {
+      "id": "playbooks/generate-a-spec@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/generate-a-spec",
+      "routePath": "/playbooks/generate-a-spec",
+      "section": "playbooks",
+      "title": "Generate a Build-Ready Spec"
+    },
+    {
+      "id": "playbooks/generate-agentic-brand-os@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/generate-agentic-brand-os",
+      "routePath": "/playbooks/generate-agentic-brand-os",
+      "section": "playbooks",
+      "title": "Generate an Agentic Brand OS"
+    },
+    {
+      "id": "playbooks/make-every-share-link-an-invite@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/make-every-share-link-an-invite",
+      "routePath": "/playbooks/make-every-share-link-an-invite",
+      "section": "playbooks",
+      "title": "Make Every Share Link an Invite",
+      "description": "A viral-invite and attribution-graph pattern for gated products: every member's share link doubles as an invite, every new member is permanently attributed to whoever brought them, and the result is a legacy tree instead of a marketing funnel."
+    },
+    {
+      "id": "playbooks/package-the-patterns-you-copy@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/package-the-patterns-you-copy",
+      "routePath": "/playbooks/package-the-patterns-you-copy",
+      "section": "playbooks",
+      "title": "Package the Patterns You Keep Copying",
+      "description": "When you have copied the same code into a third project, publish it as a package so a fix is one update instead of many."
+    },
+    {
+      "id": "playbooks/picking-an-ai-services-market@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/picking-an-ai-services-market",
+      "routePath": "/playbooks/picking-an-ai-services-market",
+      "section": "playbooks",
+      "title": "Picking an AI-Services Market",
+      "description": "A four-trait filter for choosing the market to build an AI-native services company in: low trust, low judgment at the task level, a high intelligence threshold, and regulation as a moat. Plus two checks: the Sam Altman test and the no-physical-ops rule."
+    },
+    {
+      "id": "playbooks/version-control-your-prompts@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/version-control-your-prompts",
+      "routePath": "/playbooks/version-control-your-prompts",
+      "section": "playbooks",
+      "title": "Version-Control Your Prompts",
+      "description": "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
+    },
+    {
+      "id": "playbooks/workshop-blueprint-project-partnership-ladder@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "playbooks/workshop-blueprint-project-partnership-ladder",
+      "routePath": "/playbooks/workshop-blueprint-project-partnership-ladder",
+      "section": "playbooks",
+      "title": "Workshop → Blueprint → Project → Partnership Engagement Ladder",
+      "description": "The four-step engagement structure that takes AI consulting contracts from $5k to $1M+. Each step is a fixed-price offer. Each step builds trust before the next step gets pitched. Custom AI Studio's operating model."
+    },
+    {
+      "id": "questions/my-assistant-cant-see-its-own-memory@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "questions/my-assistant-cant-see-its-own-memory",
+      "routePath": "/questions/my-assistant-cant-see-its-own-memory",
+      "section": "questions",
+      "title": "My AI Assistant Can't See My App's Memory or Project Folders. How Do You Deal With That?",
+      "description": "The friction is real and it is not a skill issue. It is the moment you decide whether to keep renting someone else's memory system or cross the chasm and own your context layer."
+    },
+    {
+      "id": "roles/ai-guide@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "roles/ai-guide",
+      "routePath": "/roles/ai-guide",
+      "section": "roles",
+      "title": "The AI Guide",
+      "description": "The trusted person people go to when they want to know what to do about AI. Advisory at large scale, to anyone. The load-bearing pillar of the AI economy, because trust is the real bottleneck."
+    },
+    {
+      "id": "roles/ai-services-founder@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "roles/ai-services-founder",
+      "routePath": "/roles/ai-services-founder",
+      "section": "roles",
+      "title": "The AI-Services Founder",
+      "description": "The founder profile for an AI-native services company: domain fluency, model fluency, and operational rigor. The unglamorous third trait is the differentiator, because the product is an operation."
+    },
+    {
+      "id": "roles/forward-deployed-engineer@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "roles/forward-deployed-engineer",
+      "routePath": "/roles/forward-deployed-engineer",
+      "section": "roles",
+      "title": "Forward Deployed Engineer",
+      "description": "The Palantir-coined seat that turns commoditized intelligence into working systems inside one company's messy reality. The rare person who is genuinely excellent at both the business and the code, not the average of the two."
+    },
+    {
+      "id": "roles/generative-experience-architect@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "roles/generative-experience-architect",
+      "routePath": "/roles/generative-experience-architect",
+      "section": "roles",
+      "title": "Generative Experience Architect",
+      "description": "The seat a subject-matter expert steps into when they stop delivering their expertise one client at a time and start designing the system that generates it. They are accountable for the felt quality of every outcome the system produces."
+    },
+    {
+      "id": "roles/the-applied-ai-dream-engineer@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "roles/the-applied-ai-dream-engineer",
+      "routePath": "/roles/the-applied-ai-dream-engineer",
+      "section": "roles",
+      "title": "The Applied AI Dream Engineer",
+      "description": "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
+    },
+    {
+      "id": "start-here/what-is-applied-ai@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "start-here/what-is-applied-ai",
+      "routePath": "/start-here/what-is-applied-ai",
+      "section": "start-here",
+      "title": "What is Applied AI",
+      "description": "The working definition. The deliberate, human-led deployment of AI so that the organization can deliver value at a scale that was previously impossible, while keeping the irreplaceably human elements of the work intact."
+    },
+    {
+      "id": "start-here/why-learn-to-wield-ai@b68c747135cd6d56bebe28da63af8865c5596bcb",
+      "type": "updated",
+      "date": "2026-08-29T07:29:14-04:00",
+      "docKey": "start-here/why-learn-to-wield-ai",
+      "routePath": "/start-here/why-learn-to-wield-ai",
+      "section": "start-here",
+      "title": "Why You Should Learn to Wield AI",
+      "description": "The foundational both/and for anyone who found this wiki while worried: AI is a way for people who care about their work to do a better job, and the honest risk to your livelihood is a person in your field who wields it."
+    },
+    {
       "id": "perspectives/fixing-the-generator-does-not-fix-the-fleet@66e582371aac57686581e03097922e19f8e354a3",
       "type": "updated",
       "date": "2026-08-23T21:26:51-04:00",
