@@ -47,7 +47,7 @@ Three honest limits.
 
 **Small jobs do not repay the setup.** For a one-off with no variation, opening the app is correct and building a pipeline is [hand-rolling in reverse](/concepts/hand-rolling): ceremony where a direct action would do. The claim earns its keep at batch size, or at recurrence, or where a generation rule is worth fixing once.
 
-**The backend can lie.** A harness invoked headlessly can decline to act and exit cleanly, so the interface reports success over an unchanged state. This is the standing failure mode of the pattern, and any harness-first workflow that takes consequential actions has to verify artifacts rather than exit codes.
+**The runtime can lie.** A harness invoked headlessly can decline to act and exit cleanly, so the interface reports success over an unchanged state. This is the standing failure mode of the pattern, and any harness-first workflow that takes consequential actions has to verify artifacts rather than exit codes.
 
 ## What this changes about how you build
 

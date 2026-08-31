@@ -1,13 +1,13 @@
 ---
 title: "Coding Harness Apps"
 slug: /concepts/coding-harness-apps
-description: "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+description: "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
 image: "/img/comics/coding-harness-apps.webp"
 ---
 
 # Coding Harness Apps
 
-*An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or **CHAPPS**. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going.*
+*An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or **CHAPPS**. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going.*
 
 ![Three panels in a warm room. One: a woman sits at a desk with her hands idle while inside the glowing amber laptop a small gold-capped figure holds a row of cards with one card left blank. Two: a single panel lifts out of the laptop and floats between the screen and the woman, showing one round button, and she leans in and speaks into it. Three: the floating panel is gone, the figure inside the laptop holds the same row with every card now filled, a stack of sealed envelopes slides out onto the desk, and the woman sits back with her hands off the desk.](/img/comics/coding-harness-apps.webp)
 
@@ -15,13 +15,29 @@ image: "/img/comics/coding-harness-apps.webp"
 
 ## What it is
 
-A coding harness app, or **CHAPPS**, is a real interface with no backend of its own. It renders some state, it collects input a harness cannot produce, and when you act on it, the work is done by an agentic harness. People usually call these Claude Code apps, because that is the harness most of them are wired to today. The pattern is not vendor-specific. Codex, or any harness that can be driven headlessly, does the same job, which is why a neutral name is worth keeping.
+A coding harness app, or **CHAPPS**, is a real interface with no server of its own. It renders some state, it collects input a harness cannot produce, and when you act on it, the work is done by an agentic harness. People usually call these Claude Code apps, because that is the harness most of them are wired to today. The pattern is not vendor-specific. Codex, or any harness that can be driven headlessly, does the same job, which is why a neutral name is worth keeping.
 
 The short form has to survive being said out loud, which is why it carries a leading consonant. "Harness apps" compresses in speech to a sound almost identical to "apps," so the term disappears the moment anyone says it. CHAPPS keeps the APPS visible and puts a hard sound in front of it, and it collides with nothing.
 
-The distinguishing test is what happens when you take the agent away. A normal app keeps working and loses a feature. A CHAPPS becomes an empty shell, because the agent was the runtime.
+The distinguishing test is what happens when you take the agent away. A normal app keeps working and loses a feature. A CHAPPS becomes an empty shell, because the agent was the runtime. The files it wrote are still on disk and still readable, because they were never inside the harness.
 
-This is a different claim from the two ideas next to it. [Local-First Software](/concepts/local-first-software) is about where your data lives and who owns it. [HTML-First Artifacts](/concepts/html-first-artifacts) is about the format an agent hands you when it is finished. A CHAPPS is about architecture: the thing you are clicking has an agent underneath it, working while you watch.
+This is a different claim from the two ideas next to it, though one of them is load-bearing here. [Local-First Software](/concepts/local-first-software) is about where your data lives and who owns it, which is what the state layer below is doing. [HTML-First Artifacts](/concepts/html-first-artifacts) is about the format an agent hands you when it is finished. A CHAPPS is about architecture: the thing you are clicking has an agent underneath it, working while you watch.
+
+## The harness is the runtime and the files are the backend
+
+Calling the harness the backend collapses two layers that behave differently, and the difference shows up the first time something goes wrong.
+
+The harness is the runtime. It executes the pipeline, calls the tools, and holds nothing once the run ends. The backend is the state, and in a CHAPPS that state is ordinary files in a git repo: markdown and JSON on disk, in the shape a person would write them by hand. [Local-First Software](/concepts/local-first-software) states the underlying fact plainly, that the filesystem is the database.
+
+Four things follow, and they are why the distinction is worth keeping.
+
+**The harness is swappable and the state is not.** Point the same repo at Codex instead of Claude Code and none of the app's data moves. That is what makes the vendor-neutral name honest rather than aspirational. A harness that really was the backend would make switching harnesses a migration.
+
+**Anything the app must remember has to be written down.** A harness starts each invocation with no memory of the last one. That reads as a limitation and works as a discipline, because it forces every durable decision out of a context window and into a file a person can open.
+
+**Review, history, and rollback come free.** A hosted database gives you the current value. A repo gives you the current value, who changed it, when, and what it was before. For an app whose real content is judgment, a rubric, a house style, a prompt, the history of how that judgment changed is the most valuable thing in it.
+
+**The state is where the work compounds.** Every correction lands in a file the next run reads, so output quality tracks what is in the repo instead of what was in someone's head. That is the mechanism behind a [golden examples](/concepts/golden-examples) library, applied to a running app: the library compounds in the direction you curate, and here the library and the database are the same files.
 
 ## It is an app, not a skill file
 
@@ -73,7 +89,7 @@ But the death date is a default, not a rule, and the earlier framing of this ide
 
 ## The failure mode to design for
 
-A CHAPPS inherits a problem normal apps do not have: **your backend can decline to work and still report success.**
+A CHAPPS inherits a problem normal apps do not have: **your runtime can decline to work and still report success.**
 
 An agent invoked headlessly will often exit cleanly after refusing to act. It hit a permission boundary, decided the request was out of scope, or wrote its explanation to stdout and stopped. The exit code says zero. A naive app reads zero, tells the user "done", and re-renders the unchanged state. The user believes their instruction was honored. Nothing happened.
 
@@ -82,7 +98,7 @@ This is worth stating plainly because it is easy to ship and hard to notice. It 
 Two habits fix it:
 
 1. **Grant the agent what it needs, explicitly.** Give the spawned agent the working directory and the paths it must write. Do not assume it inherits them.
-2. **Verify the artifact, never the exit code.** Record what the files looked like before, and after the agent claims success, check that something actually changed. If nothing did, report a failure with the agent's own explanation attached. An honest error beats a confident lie.
+2. **Verify the artifact, never the exit code.** Record what the files looked like before, and after the agent claims success, check that something actually changed. If nothing did, report a failure with the agent's own explanation attached. An honest error beats a confident lie. This check stays cheap because the state is files: a diff against the working tree answers whether the run did anything.
 
 The same discipline covers the rest. Stream progress so a two-minute agent run does not look like a hang, surface the agent's real error text rather than a generic failure, and remember that a local server with no auth is reachable by any page in the user's browser, so a CHAPPS that can take a consequential action needs to check who is asking.
 
@@ -91,6 +107,7 @@ The same discipline covers the rest. Stream progress so a two-minute agent run d
 - [The Harness Should Be Your Default Interface](/perspectives/the-harness-should-be-your-default-interface): the argument for starting every workflow here, and what it costs when you do not.
 - [Skill File First, App Second](/concepts/skill-file-first-app-second): the discipline that comes first. Prove the capability as a skill, then build the interface when chat is genuinely the wrong place.
 - [Local-First Software](/concepts/local-first-software): the data-ownership half of the same shift, and where an app per problem becomes affordable.
+- [Golden Examples](/concepts/golden-examples): what the state layer accumulates when you curate it, and why the files are the asset.
 - [HTML-First Artifacts](/concepts/html-first-artifacts): what the agent hands you when a document is enough and an app is too much.
 - [Playable Harness Experience](/concepts/playable-harness-experience): distributing an experience that runs inside the harness, rather than an interface standing beside it.
 - [Minimum Viable Infrastructure](/concepts/minimum-viable-infrastructure): the just-enough posture these apps depend on.
