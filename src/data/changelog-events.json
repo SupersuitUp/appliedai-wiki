@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/coding-harness-apps@7dcffbc2154ac98dfa4fa63830b3bc983a1226f3",
+      "type": "updated",
+      "date": "2026-08-31T10:06:37-05:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
+      "id": "perspectives/the-harness-should-be-your-default-interface@7dcffbc2154ac98dfa4fa63830b3bc983a1226f3",
+      "type": "updated",
+      "date": "2026-08-31T10:06:37-05:00",
+      "docKey": "perspectives/the-harness-should-be-your-default-interface",
+      "routePath": "/perspectives/the-harness-should-be-your-default-interface",
+      "section": "perspectives",
+      "title": "The Harness Should Be Your Default Interface",
+      "description": "Most people open an app and do the work by hand. The better default is to start in an agentic harness, describe the outcome, and let the harness open an interface only for the steps that need your body."
+    },
+    {
+      "id": "perspectives/people-want-leverage-without-leaving-the-loop@49addf8de87fe9c9a07f3e86391ba611121a7899",
+      "type": "new",
+      "date": "2026-08-29T22:45:50-05:00",
+      "docKey": "perspectives/people-want-leverage-without-leaving-the-loop",
+      "routePath": "/perspectives/people-want-leverage-without-leaving-the-loop",
+      "section": "perspectives",
+      "title": "People Want Leverage Without Leaving the Loop",
+      "description": "The autonomous loop is a builder's category. Buyers hold a different one: get more done, and stay close enough to the work to keep it good. For people who treat their own involvement as the thing that produces quality, a product sold on autonomy is offering them their own absence."
+    },
+    {
       "id": "concepts/agent-constellation@b68c747135cd6d56bebe28da63af8865c5596bcb",
       "type": "updated",
       "date": "2026-08-29T07:29:14-04:00",
@@ -148,7 +178,7 @@
       "routePath": "/concepts/coding-harness-apps",
       "section": "concepts",
       "title": "Coding Harness Apps",
-      "description": "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
     },
     {
       "id": "concepts/cognitive-coverage@b68c747135cd6d56bebe28da63af8865c5596bcb",
@@ -2430,7 +2460,7 @@
       "routePath": "/concepts/coding-harness-apps",
       "section": "concepts",
       "title": "Coding Harness Apps",
-      "description": "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
     },
     {
       "id": "concepts/coding-harness-apps@a823a714a6a618df60a8452466e61a5494b85beb",
@@ -2440,7 +2470,7 @@
       "routePath": "/concepts/coding-harness-apps",
       "section": "concepts",
       "title": "Coding Harness Apps",
-      "description": "An app whose backend is an agentic harness, and whose interface exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
     },
     {
       "id": "concepts/harness-apps@a823a714a6a618df60a8452466e61a5494b85beb",
