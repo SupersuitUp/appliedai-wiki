@@ -1,6 +1,15 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/give-the-agent-a-cli-not-the-database@31fcdf211e082c817ee07793ed3003b7cc0b367a",
+      "type": "new",
+      "date": "2026-09-02T09:12:54-05:00",
+      "docKey": "perspectives/give-the-agent-a-cli-not-the-database",
+      "routePath": "/perspectives/give-the-agent-a-cli-not-the-database",
+      "section": "perspectives",
+      "title": "Give the Agent a CLI, Not the Database"
+    },
+    {
       "id": "concepts/coding-harness-apps@7dcffbc2154ac98dfa4fa63830b3bc983a1226f3",
       "type": "updated",
       "date": "2026-08-31T10:06:37-05:00",

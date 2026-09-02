@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A three-panel horizontal strip, equal panels in a row on warm cream ground, separated by clean cream gutters with no drawn borders or frame lines. One consistent world, one consistent cast, one consistent glowing amber laptop across all three panels, reading left to right as one argument.\n\nTITLE BAR across the top in small clean caps: HYPERDOCUMENTED SKILLS\n\nBEAT ONE: The operator sits in the warm real world at the glowing translucent amber laptop. Inside the screen, the Chief of Agents in his gold military cap holds a single tall page titled SKILL, a plain numbered list of steps, every step drawn identically. The operator is turned slightly away, unable to see any difference between the steps. Caption under the panel: A LIST OF STEPS SAYS NOTHING ABOUT WHICH ONES WERE JUDGMENT.\n\nBEAT TWO: The consequence. Inside the laptop the same list now runs on its own, and one step that had been the operator's, drawn in warm amber, is being quietly absorbed into the machine's cool blue flow. The operator's hand is still open in the real world, reaching for a decision that is no longer there to make, and he has not noticed. Nothing is broken, nothing is alarmed. Caption under the panel: SO THE ONE THAT NEEDED A HUMAN GETS ABSORBED, QUIETLY.\n\nBEAT THREE: The same scene, now with a second page pinned open beside the first: a MAP, its steps clearly colour-coded, the amber human steps standing apart from the blue agent steps, with a small branching diagram on it. The operator is holding the amber step in his own hand in the real world, reading the map, while the Chief of Agents runs the blue ones inside the laptop. Both are calm and it is legible at a glance. Caption under the panel: THE MAP BESIDE IT MAKES THE HUMAN STEPS VISIBLE AGAIN.\n\nWarm cream ground, soft amber glowing line-art, ink-and-wash, quiet and editorial throughout. The concept lives inside the glowing laptop where the agents work; the human's taste, decision and veto stay in the warm real world outside it.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-09-02T16:09:39.049290+00:00",
+  "sha256": "57ddf7bf23d3831b6b9f478d9e3366b059d1906a8d08ee9352537a705483a4d5",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "refFirst": true,
+  "size": "1536x1024",
+  "quality": "high"
+}
