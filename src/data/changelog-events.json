@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hyperdocumented-skills@7a437031bdebf3f677f2626ca6b2f922faab2128",
+      "type": "new",
+      "date": "2026-09-02T11:11:02-05:00",
+      "docKey": "concepts/hyperdocumented-skills",
+      "routePath": "/concepts/hyperdocumented-skills",
+      "section": "concepts",
+      "title": "Hyperdocumented Skills",
+      "description": "A skill that ships with its map. The instructions an agent executes and the hyperdocumented SOP a human reviews live side by side and change in the same commit, so a procedure nobody can check stops being possible."
+    },
+    {
       "id": "perspectives/give-the-agent-a-cli-not-the-database@31fcdf211e082c817ee07793ed3003b7cc0b367a",
       "type": "new",
       "date": "2026-09-02T09:12:54-05:00",
