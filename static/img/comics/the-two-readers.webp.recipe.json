@@ -1,0 +1,32 @@
+{
+  "provider": "gpt-image-2",
+  "model": "gpt-image-2",
+  "prompt": "A THREE-PANEL horizontal strip of equal-sized panels in a row, separated by clean cream gutters with no drawn borders or frame lines. One continuous world, one cast, one laptop across all three panels, reading left to right as a progression.\n\nTHE FIGURE, identical in all three panels: a Black woman in her early thirties, short natural hair, wearing a rust-coloured knit sweater, seated at a warm wooden desk in the real world. She must be recognizably the same person in every panel. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, any embroidered emblem, a white tee under an open jacket. No recurring branded character and no identifiable real individual.\n\nCOMPOSITION LAW, all panels: the glowing translucent amber laptop sits on her desk, open, its screen FACING HER, so we see the laptop's BACK-LEFT three-quarter and can see INTO the screen from our angle. The agents live INSIDE the screen. She stays outside it in the warm real world and never reaches through the glass.\n\nBEAT ONE: She holds up ONE page covered in flowing handwritten script with a decorative flourish at the top, and slides it toward the laptop. Inside the screen, the Chief of Agents, a small rounded figure in a gold military cap, reaches up with both hands to receive it. Her expression is pleased. The page is warm and handsome.\n\nBEAT TWO: THE CONSEQUENCE. Inside the screen the Chief of Agents is now holding that same page, and the flowing script on it has FADED to faint empty grey ghost-lines that say nothing. The Chief stands still, both hands holding a page it cannot read, waiting, with a small question mark of amber light above its cap. Outside, she has already turned away toward the window with her mug and does not see it. The desk between them is empty.\n\nBEAT THREE: THE RESOLUTION. She has written TWO different pages. In her left hand, held in the warm real world and angled toward herself, is a warm handsome page with flowing script. In her right hand she slides a SECOND page into the laptop: a plain dense card of short flat ruled lines and a hard boxed heading. Inside the screen the Chief of Agents holds that plain card open and is clearly acting on it, gesturing with its free hand to two smaller sub-agents who are already working. She is reading her own page and smiling. Both pages are legible and neither is faded.\n\nTEXT FURNITURE. Render these strings CHARACTER-EXACT and invent no other lettering anywhere in the image.\nTitle bar, in caps, in the cream margin ABOVE the panels: THE TWO READERS\nPanel captions, one short line in caps in the cream gutter UNDER each panel, in order: ONE PAGE FOR BOTH / IT CANNOT READ IT / SO SHE WRITES TWO\nFooter bar, in caps, in the cream margin BELOW the panels: ONE ARTIFACT CANNOT SERVE BOTH READERS\nAll pages, cards and screens in the artwork carry only abstract script-lines and ruled lines, NEVER readable words. There are no signs, no posters, no labels, no book titles, no mug lettering and no screen text anywhere in the scene. Exactly three panels are depicted, matching the three captions.\n\nwarm editorial illustration, soft painterly line and gentle shading, muted natural palette on a warm cream ground, grounded and human, picture-book register for adults\n\nDo NOT render it in any of these styles: comic-book, cartoon mascot, flat vector, neon, 3D/CGI/Pixar, photoreal, anime, any identifiable recurring individual's face or signature clothing.",
+  "specVersion": "0.6",
+  "refs": [
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+    },
+    {
+      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+    }
+  ],
+  "timestamp": "2026-09-08T17:15:14.741801+00:00",
+  "sha256": "f0888af4cf227a2edf1fa38f6d5f9fc8368446da268287fffc1a237ae04b12a4",
+  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "refFirst": true,
+  "size": "1536x1024",
+  "quality": "high"
+}
