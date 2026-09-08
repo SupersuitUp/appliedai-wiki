@@ -18,7 +18,9 @@
     "test": "node --test scripts/gate-middleware.test.ts scripts/gate-core.test.ts",
     "check:admonitions": "node scripts/check-admonitions.mjs",
     "optimize:images": "uv run --with pillow --quiet python3 scripts/optimize-images.py",
-    "check:image-weight": "node scripts/check-image-weight.mjs"
+    "check:image-weight": "node scripts/check-image-weight.mjs",
+    "share": "node scripts/unlock-link.mjs",
+    "test:unlock-link": "node --test scripts/unlock-link.test.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",
