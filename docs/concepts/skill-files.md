@@ -25,6 +25,30 @@ When the hyperagent says "process this transcript" or types `/process-transcript
 
 The canonical path inside a [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is) is `.agents/skills/<skill-name>/SKILL.md`. Each skill lives in its own folder so it can carry scripts, templates, and reference assets alongside the markdown.
 
+## In plain language, it is an invitation to collaborate on an outcome
+
+The definition above describes the mechanism correctly. It is worth also saying what a skill file is for, in the words you would use out loud, because that is what decides whether the one you write is any good.
+
+A skill file says: **let us work on this outcome together.**
+
+That framing is not decoration on top of "a procedure the agent runs." It changes what you write down. A procedure names steps and leaves the outcome implied. An invitation names the outcome first, and only then works out who does what inside it: which parts the agent takes, which parts need a person, and where the person is asked to look.
+
+Plenty of skills are almost entirely the agent plus a script, with the human contributing an invocation and a glance at the result. That is still the shape. The human's part is small and it is real, and a skill that pretends the human has no part in it usually turns out to have hidden one badly.
+
+**The design test is two sentences.** Can you state the outcome the skill exists to produce? And can you say where a person is needed inside it and where they are not? A skill file that cannot answer the second has usually not decided what it is for, and it shows up later as a step the operator keeps redoing by hand without being able to say why.
+
+The complement to encoding your own judgment, which the section below argues for, is **placing the other party's judgment**. Encode what you know. Leave a seam where the person running it has to look, and say what they are looking for.
+
+The failure on the other side is prescribing too much. A skill that dictates every interior decision is one nobody can adapt to the case in front of them, and it ages badly, because the operator running it is the one who finds out what the work actually needs. Name the outcome, name the constraints that must hold, and leave the rest.
+
+## It is software, and that is the point
+
+A skill file is version-controlled, invocable, and diffable. Those three properties are why an outcome worth repeating should end up as one rather than as a paragraph in a document.
+
+It improves by diff instead of by somebody remembering a better way. It costs a sentence to use instead of a re-read. And it can be checked against the outcome it exists to produce, which prose describing the same procedure never can be. A plugin holding several related skills carries the same properties for a whole body of work, so a team pulls improvements instead of re-deriving them.
+
+That is the practical difference between a group that has documented how it works and one that has made how it works reusable. The documented group hands over a description and each new person interprets it slightly differently. The other hands over software, so the interpretation happened once and the improvements accumulate somewhere everyone pulls from.
+
 ## A different ontological category than rule files or memory files
 
 Skill files are one of three peer categories that shape an agent:
