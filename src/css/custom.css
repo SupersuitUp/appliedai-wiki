@@ -257,11 +257,13 @@ nav[aria-label="Breadcrumbs"],
 button[aria-label="Copy link to this page"] {
   font-size: 0.7rem !important;
   padding: 0.25rem 0.6rem !important;
-  margin-top: 0.25rem !important;
-  margin-bottom: 1.5rem !important;
   letter-spacing: 0.02em;
   opacity: 0.7;
   transition: opacity 0.15s ease;
+  /* No vertical margin. The button sits in the meta row, a flex container with
+     align-items: center, which centres the MARGIN box; an asymmetric margin here
+     lifts the button above the date beside it. The row owns the spacing. */
+  margin: 0 !important;
 }
 
 button[aria-label="Copy link to this page"]:hover {

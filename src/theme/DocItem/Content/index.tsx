@@ -48,6 +48,8 @@ export default function ContentWrapper(props: Props): ReactNode {
         alignItems: 'center',
         flexWrap: 'wrap',
         gap: '0.75rem',
+        // Spacing belongs to the row, not to the button inside it.
+        margin: '0.25rem 0 1.5rem',
       }}
     >
       <PageDates />
