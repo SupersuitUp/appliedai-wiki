@@ -20,12 +20,14 @@ foo.webp without rewriting `![](/img/foo.png)` leaves a page with a broken image
 build, because a missing static asset is a 404 at read time, not a build error. The
 conversion and the rewrite are one operation or they are a bug.
 """
-import io, json, os, re, sys
+import hashlib, io, json, os, re, sys
+from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image
 
 ROOT = Path(sys.argv[0]).resolve().parent.parent
 MAX_W, QUALITY = 1536, 80
+SKIP_DIRS = {"node_modules", ".git", "build", ".docusaurus", ".next", ".vercel"}
 IMAGE_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 # Same two exemptions the gate makes, for the same reasons: icons must keep their format,
 # and share cards must stay png/jpg because several unfurl consumers do not render webp.
@@ -71,6 +73,8 @@ TEXT_FILES = ["docusaurus.config.ts", "sidebars.ts", "wiki.config.json"]
 TEXT_EXT = {".md", ".mdx", ".ts", ".tsx", ".js", ".jsx", ".json", ".html", ".yml", ".yaml"}
 
 dry = "--dry-run" in sys.argv
+
+
 
 
 def needs_work(path: Path):
@@ -138,11 +142,99 @@ def convert(path: Path):
         tmp.write_bytes(data)
         tmp.replace(new)          # atomic: an interrupted run never leaves a half image
         if new != path:
+            original = path.read_bytes()
             path.unlink()
             sidecar = path.with_name(path.name + ".recipe.json")
             if sidecar.exists():
-                sidecar.rename(new.with_name(new.name + ".recipe.json"))
+                moved = new.with_name(new.name + ".recipe.json")
+                sidecar.rename(moved)
+                carry_provenance(moved, path, new, original)
     return new
+
+
+def carry_provenance(sidecar: Path, old_path: Path, new_path: Path, original: bytes):
+    """Rewrite a moved sidecar so it describes the file it now sits beside.
+
+    RENAMING THE SIDECAR WAS NEVER ENOUGH, and the gap was invisible because the rename looks
+    like the whole job. The recipe's own `asset` field kept naming the .png that no longer
+    exists, so every converted illustration shipped a provenance record pointing at a deleted
+    file. Found across the fleet on 2026-09-08 by check-image-provenance.mjs, in hyperagency
+    (three) and multiplayer (one), all of them silent for months.
+
+    ABU SPEC §3.2 (v0.32) settles what to do: a deterministic in-repo TRANSFORM owns its
+    provenance exactly as a generator does. The generation fields are kept rather than replaced,
+    because the model and the prompt that made the source are still true of this file and are
+    the expensive half of the record; what gets ADDED is what happened afterwards, including the
+    hash of the bytes that went in, so the chain from the render to the shipped asset is
+    unbroken and checkable.
+    """
+    try:
+        recipe = json.loads(sidecar.read_text())
+    except (json.JSONDecodeError, OSError):
+        return  # a sidecar we cannot parse is the gate's problem to report, not ours to mangle
+    if not isinstance(recipe, dict):
+        return
+    rel = lambda q: str(q.relative_to(ROOT)) if ROOT in q.parents else q.name
+    recipe["asset"] = rel(new_path)
+    transforms = recipe.get("transforms")
+    if not isinstance(transforms, list):
+        transforms = []
+    transforms.append({
+        "tool": "scripts/optimize-images.py",
+        "op": "webp",
+        "quality": QUALITY,
+        "maxWidth": MAX_W,
+        "from": rel(old_path),
+        "fromSha256": hashlib.sha256(original).hexdigest(),
+        "at": datetime.now(timezone.utc).isoformat(),
+    })
+    recipe["transforms"] = transforms
+    sidecar.write_text(json.dumps(recipe, indent=2) + "\n")
+
+
+def repair_sidecars() -> int:
+    """Fix sidecars whose `asset` still names the pre-conversion file.
+
+    For the ones already on disk when the rule landed. It is deliberately narrow: it repairs
+    ONLY a disagreement that is purely the extension, because that is the signature of this
+    exact bug. A sidecar naming a different STEM is a different problem (a recipe copied onto
+    the wrong image), it cannot be fixed mechanically without guessing, and guessing there
+    would write a confident lie. Those are left for a human and reported by the gate.
+    """
+    fixed = 0
+    for sidecar in ROOT.rglob("*.recipe.json"):
+        if any(part in SKIP_DIRS for part in sidecar.parts):
+            continue
+        asset = sidecar.with_name(sidecar.name[: -len(".recipe.json")])
+        if not asset.exists():
+            continue
+        try:
+            recipe = json.loads(sidecar.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        claimed = recipe.get("asset")
+        if not isinstance(claimed, str):
+            continue
+        if Path(claimed).stem != asset.stem or Path(claimed).suffix == asset.suffix:
+            continue
+        rel = str(asset.relative_to(ROOT)) if ROOT in asset.parents else asset.name
+        print(f"  repaired  {rel}.recipe.json  (asset was {claimed})")
+        recipe["asset"] = rel
+        transforms = recipe.get("transforms")
+        if not isinstance(transforms, list):
+            transforms = []
+        transforms.append({
+            "tool": "scripts/optimize-images.py --repair-sidecars",
+            "op": "webp",
+            "from": claimed,
+            "note": "Recorded after the fact. This conversion predates the transform record, so the "
+                    "input bytes were already gone and no fromSha256 could be computed honestly.",
+            "at": datetime.now(timezone.utc).isoformat(),
+        })
+        recipe["transforms"] = transforms
+        sidecar.write_text(json.dumps(recipe, indent=2) + "\n")
+        fixed += 1
+    return fixed
 
 
 def text_files():
@@ -153,6 +245,16 @@ def text_files():
     for f in TEXT_FILES:
         if (ROOT / f).exists():
             yield ROOT / f
+
+# `--repair-sidecars` is the one-off for recipes written before the transform record existed.
+# It runs alone and converts nothing, because mixing a repair pass into a conversion run makes
+# the diff impossible to read.
+if "--repair-sidecars" in sys.argv:
+    print("[optimize-images] repairing sidecars whose asset still names the pre-conversion file")
+    n = repair_sidecars()
+    print(f"[optimize-images] repaired {n} sidecar(s)")
+    sys.exit(0)
+
 
 
 targets = [

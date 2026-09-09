@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "init": "bash scripts/init-wiki.sh",
-    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs && node scripts/check-links.mjs && node scripts/check-image-weight.mjs",
+    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs && node scripts/check-links.mjs && node scripts/check-image-weight.mjs && node scripts/check-image-provenance.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -20,7 +20,10 @@
     "optimize:images": "uv run --with pillow --quiet python3 scripts/optimize-images.py",
     "check:image-weight": "node scripts/check-image-weight.mjs",
     "share": "node scripts/unlock-link.mjs",
-    "test:unlock-link": "node --test scripts/unlock-link.test.mjs"
+    "test:unlock-link": "node --test scripts/unlock-link.test.mjs",
+    "check:provenance": "node scripts/check-image-provenance.mjs",
+    "accept:provenance": "node scripts/check-image-provenance.mjs --accept",
+    "test:provenance": "node scripts/test-image-provenance.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",
