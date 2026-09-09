@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/skill-files@0548f004b1c7a686eef34aeceea14b639e42582f",
+      "type": "updated",
+      "date": "2026-09-09T14:12:02-04:00",
+      "docKey": "concepts/skill-files",
+      "routePath": "/concepts/skill-files",
+      "section": "concepts",
+      "title": "Skill Files",
+      "description": "On-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. Episodic, parametric, called. The library of procedures the agent runs on your behalf."
+    },
+    {
+      "id": "concepts/the-two-readers@b7981e3cf35db2f39ee6870650ef666108db2776",
+      "type": "new",
+      "date": "2026-09-08T13:16:19-04:00",
+      "docKey": "concepts/the-two-readers",
+      "routePath": "/concepts/the-two-readers",
+      "section": "concepts",
+      "title": "The Two Readers",
+      "description": "Every artifact an agentic system writes has a reader, and it is either the next agent session or a person. They want opposite things, so audience is a separate axis from how much scrutiny the writing will survive, and it should be derived from where the file lives rather than decided sentence by sentence."
+    },
+    {
       "id": "concepts/hyperdocumented-skills@7a437031bdebf3f677f2626ca6b2f922faab2128",
       "type": "new",
       "date": "2026-09-02T11:11:02-05:00",
