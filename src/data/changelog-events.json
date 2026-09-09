@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agentic-project-management@d68532f7cb7f20c43c3bc18189d2480b360b5f62",
+      "type": "updated",
+      "date": "2026-09-09T15:19:57-04:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "/concepts/agentic-project-management",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
+      "id": "concepts/skill-files@d68532f7cb7f20c43c3bc18189d2480b360b5f62",
+      "type": "updated",
+      "date": "2026-09-09T15:19:57-04:00",
+      "docKey": "concepts/skill-files",
+      "routePath": "/concepts/skill-files",
+      "section": "concepts",
+      "title": "Skill Files",
+      "description": "On-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. Episodic, parametric, called. The library of procedures the agent runs on your behalf."
+    },
+    {
       "id": "concepts/skill-files@0548f004b1c7a686eef34aeceea14b639e42582f",
       "type": "updated",
       "date": "2026-09-09T14:12:02-04:00",
