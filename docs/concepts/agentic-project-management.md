@@ -41,6 +41,8 @@ Agents cannot advance a project whose definition of success they have to guess. 
 
 **The supervisor.** A subagent whose entire job is the state machine. It reads, it answers what is next, it updates state after work happens, and it says out loud when a deadline has stopped being realistic. It deliberately does not do the work. It knows where the work is, which is a different job and a full one.
 
+The separation is a workload argument here and becomes a structural one the moment a second party is involved. An agent that both advances the work and writes the only record of it is one side authoring the account both sides are meant to rely on, which is a status report with a better job title. See [The Arbiter State](https://multiplayer.wiki/concepts/the-arbiter-state).
+
 ## Resumability is the whole test
 
 There is exactly one gate, and it takes a minute.
@@ -113,6 +115,9 @@ That check exists because the first three versions of it did not work. One count
 Do not scaffold before you can state the deliverable, the deadline, and what would make it a failure. A repo built before those exist is a folder with extra steps.
 
 ## Related patterns, and how this differs
+
+**Two parties, rather than one operator.** Everything above assumes a single owner: one mission file, one definition of good, one supervisor. When the project is shared with somebody who does not report to you, the ontology has no answer for whose purpose wins, and the state file has no answer for who may write it. [Multiplayer hyperagency](https://multiplayer.wiki) extends the pattern to that case: [a purpose neither party owns alone](https://multiplayer.wiki/concepts/the-third-telos), [a record both write](https://multiplayer.wiki/concepts/the-arbiter-state), [a process cut at the points where responsibility changes hands](https://multiplayer.wiki/concepts/the-handoff-map), and [a repository that outlives the engagement on both sides](https://multiplayer.wiki/concepts/the-engagement-repo).
+
 
 [Campaign Plugins](/concepts/campaign-plugins) is the same machinery pointed at relationships: skills as atomic actions, versioned files as state, layered on the permanent contact record. Reach for it when the project IS the outreach. Reach for this when the project produces an artifact.
 

@@ -39,6 +39,8 @@ Plenty of skills are almost entirely the agent plus a script, with the human con
 
 The complement to encoding your own judgment, which the section below argues for, is **placing the other party's judgment**. Encode what you know. Leave a seam where the person running it has to look, and say what they are looking for.
 
+In a collaboration this has a boundary attached: naming which skills matter for an outcome is useful, and specifying how somebody runs their own turn is not yours to do. See [The Handoff Map](https://multiplayer.wiki/concepts/the-handoff-map).
+
 The failure on the other side is prescribing too much. A skill that dictates every interior decision is one nobody can adapt to the case in front of them, and it ages badly, because the operator running it is the one who finds out what the work actually needs. Name the outcome, name the constraints that must hold, and leave the rest.
 
 ## It is software, and that is the point
