@@ -7,8 +7,15 @@
 // and reads 401. It was wrong in the direction that looks like diligence.
 
 import { test } from "node:test";
+import { mkdtempSync, mkdirSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import assert from "node:assert/strict";
-import { decide, opens, candidateUrl, OPEN, UNLOCKED, BLOCKED } from "./unlock-link.mjs";
+import {
+  decide, opens, candidateUrl, withSlug, existingSlugFor,
+  shareMechanism,
+  OPEN, UNLOCKED, BLOCKED, MINTABLE,
+} from "./unlock-link.mjs";
 
 const PAGE = "https://example.wiki/concepts/thing";
 const KEYED = "https://example.wiki/concepts/thing?key=pw";
@@ -106,4 +113,97 @@ test("candidateUrl builds a WELL-FORMED url and keeps an existing query", () => 
 test("candidateUrl refuses rather than returning something unusable", () => {
   assert.equal(candidateUrl(PAGE, null, "pw"), null);
   assert.equal(candidateUrl(PAGE, "key", ""), null);
+});
+
+// ── the share-view path ──────────────────────────────────────────────────────────────────
+//
+// WRITTEN AFTER A REAL WRONG ANSWER. Asked for a sendable link to a page on a gated wiki, this
+// CLI returned BLOCKED with "no unlock parameter", and an agent relayed that to the operator as
+// "I cannot send you a link". Both were wrong in the same way: that wiki serves any page at an
+// unguessable /s/<slug> address from a COMMITTED slug list, which needs no password at all,
+// because it is a code change rather than a credential. The capability existed and the tool that
+// exists to answer this question did not know about it.
+//
+// So a wiki with a share mechanism must never be told a link is impossible.
+
+const shares = { kind: "committed-slug", prefix: "/s/", file: "src/auth/shareRoutes.ts" };
+
+test("a gated wiki with a share mechanism is MINTABLE, never BLOCKED", () => {
+  const r = decide(PAGE, { param: null, password: null, share: shares }, { bare: shut });
+  assert.equal(r.outcome, MINTABLE, r.why);
+  assert.equal(r.url, null, "no url yet: the slug does not exist until it is minted and deployed");
+});
+
+test("the mintable result says the file, the prefix, and that no secret is needed", () => {
+  // The operator's next action has to be in the output. "Cannot open" plus a shrug is what sent
+  // somebody to the registry to guess.
+  const r = decide(PAGE, { param: null, password: null, share: shares }, { bare: shut });
+  assert.match(r.ask, /shareRoutes\.ts/);
+  assert.match(r.ask, /--mint/);
+  assert.match(r.why + r.ask, /no (secret|password)/i);
+});
+
+test("a mintable wiki still prefers a plainly OPEN page", () => {
+  // The share address is for pages behind the gate. A page that already opens is just sent.
+  const r = decide(PAGE, { param: null, password: null, share: shares }, { bare: ok });
+  assert.equal(r.outcome, OPEN);
+  assert.equal(r.url, PAGE);
+});
+
+test("a mintable wiki still prefers a working unlock parameter over minting", () => {
+  // Minting is a commit and a deploy. A query-string link that works costs nothing, so a wiki
+  // with both takes the cheap one.
+  const r = decide(PAGE, { param: "key", password: "pw", share: shares }, { bare: shut, keyed: ok });
+  assert.equal(r.outcome, UNLOCKED);
+  assert.equal(r.url, KEYED);
+});
+
+test("a rotated password on a mintable wiki falls through to minting, not to a dead end", () => {
+  // The case that actually strands somebody: the password is stale AND the wiki can serve the
+  // page anyway. Before this it reported the rotation and stopped.
+  const r = decide(PAGE, { param: "key", password: "old", share: shares }, { bare: shut, keyed: shut });
+  assert.equal(r.outcome, MINTABLE);
+});
+
+test("no share mechanism is still BLOCKED, and that is correct", () => {
+  // Most wikis have no share-view. Reporting a mintable link on those would be inventing a
+  // capability, which is worse than the dead end this replaces.
+  const r = decide(PAGE, { param: null, password: null, share: null }, { bare: shut });
+  assert.equal(r.outcome, BLOCKED);
+});
+
+test("a slug is inserted into the real shareRoutes shape, and existing entries survive", () => {
+  const before = `export const SHARES: Record<string, string> = {
+  // a comment that must survive
+  'aaaabbbbccccdddd': '/reference/system-architecture',
+};`;
+  const after = withSlug(before, "0123456789abcdef", "/concepts/thing", "2026-09-10");
+  assert.match(after, /'0123456789abcdef': '\/concepts\/thing'/);
+  assert.match(after, /'aaaabbbbccccdddd'/, "clobbered an existing share");
+  assert.match(after, /a comment that must survive/);
+  assert.match(after, /2026-09-10/, "a minted slug with no date is one nobody can ever retire");
+});
+
+test("minting refuses a route that already has a slug", () => {
+  // Two slugs for one page means revoking the link you remember and leaving the other live.
+  const before = `export const SHARES: Record<string, string> = {
+  'aaaabbbbccccdddd': '/concepts/thing',
+};`;
+  assert.equal(existingSlugFor(before, "/concepts/thing"), "aaaabbbbccccdddd");
+  assert.equal(existingSlugFor(before, "/concepts/other"), null);
+});
+
+test("shareMechanism detects the file, and claims nothing when it is absent", () => {
+  // The detector, exercised directly. Every test above INJECTS `share`, so a mutation that
+  // claimed the mechanism existed on every wiki in the family survived the whole suite: the
+  // function that makes that call was never run. A detector with no test is decoration.
+  const root = mkdtempSync(join(tmpdir(), "unlock-share-"));
+  assert.equal(shareMechanism(root), null, "claimed a share mechanism in an empty repo");
+
+  mkdirSync(join(root, "src", "auth"), { recursive: true });
+  writeFileSync(join(root, "src", "auth", "shareRoutes.ts"), "export const SHARES = {};");
+  const found = shareMechanism(root);
+  assert.equal(found.kind, "committed-slug");
+  assert.equal(found.prefix, "/s/");
+  assert.match(found.path, /shareRoutes\.ts$/);
 });
