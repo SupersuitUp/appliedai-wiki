@@ -16,6 +16,8 @@ AI is doing the same thing, faster. The roles documented here are the ones an im
 
 What ties them together: each role exists to multiply not just the leader who hires it, but the teams that leader depends on. The upskilling architect and the workshop instructor arm the teams directly; the builder and the change-management partner make the multiplication stick across the org.
 
+These are seats. The person who fills any of them well is described elsewhere: an [Applied AI Athlete](https://supersuit.wiki/concepts/applied-ai-athlete) on supersuit.wiki, which is what a person is rather than what they are hired as.
+
 ## How the section is shaped
 
 Each role page documents:
