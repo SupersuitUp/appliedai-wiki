@@ -93,6 +93,38 @@ When the hypercontext is rich enough, an experience can skip the interview entir
 
 Most playable harness experiences sit between these poles: some questions remain because the substrate cannot guess, but most of the answers are already present. The interview-vs-substrate ratio is a design dial each cartridge sets for itself.
 
+## What makes it playable rather than merely runnable
+
+The word *playable* in the name has to earn itself, and for most bundles it does not. A cartridge that loads, runs, and produces an artifact is **runnable**. What separates a runnable experience from a playable one is not polish. It is that a game, at every moment, tells you three things: where you stand, what moves are available, and what each one is worth. A bundle that answers none of those is software you operate. A bundle that answers all three is something you play.
+
+The failure is specific and easy to miss, because nothing about it looks like a failure. A verb finishes. It did the thing correctly. It produced the artifact. And the person is now sitting in front of a finished step holding four possible next moves, none of which the system named. They have to remember what the bundle can do, work out which of those the last step made possible, and choose, all from memory. The experience did its job and handed back a guessing game.
+
+This is the [seam](https://userexperience.wiki/concepts/the-seam) problem in a lean-forward session. The end of a unit of work is the highest-risk moment in the flow, because the momentum the step just built is spent entirely on recall.
+
+### The three things a playable experience always shows
+
+- **Where you stand, as a number that moved.** Not a status page. A grade, a score, a distance to done, and ideally the previous value beside it. Progress a person cannot see is progress they do not feel, and a bundle whose state is only legible by reading its files has no scoreboard.
+- **The available moves, ranked, with what each one is worth.** Not a list of everything the bundle can do, which is a wall. Three or four, ordered by what they gain, each described in terms of the outcome rather than the mechanism. "Lock its plates, so every later render stops inventing it" is a move. "Run shoot-references" is a menu item.
+- **The moves as choices, not as prose.** This is the part most bundles get wrong even when they get the first two right. Describing the options in a paragraph and ending with a question mark is a reading task. Offering them as selectable options is a decision. Same information, different amount of work for the person, and over a long session that difference is most of the fatigue.
+
+### Compute the moves; never author them
+
+The instinct is to write the next-moves list into the skill file by hand. Resist it: a hand-written list is a second source of truth about the bundle's own state, and it is stale the moment the bundle grows.
+
+Derive them instead. If the experience already has anything that evaluates its own state, that evaluator almost certainly knows what to do next and is throwing the information away. A checker that reports what is wrong is one field away from reporting the verb that fixes it, and once each finding carries its own remedy, the board is a sort rather than a judgement. Worked example: the [Agentic Brand Universe](https://agenticbranduniverse.com) grader emits every open issue as an impact, a description, and the name of the verb that closes it, so the board is assembled from the grader's output and no ranking logic exists in a second place.
+
+### Two refusals worth stating
+
+**Offer at most four moves.** A fifth is a board the person is shown and cannot act on, and a long list is the wall that made them stop reading in the first place. Say how many you omitted instead, which is honest and costs one line.
+
+**Always leave the door open for the answer that is not on the board.** The most useful next move is frequently the one in the person's own head, and a board that presents itself as exhaustive quietly forbids it. Whatever mechanism offers the choices has to keep a visible way to say something else, and if a richer presentation costs you that door, the richer presentation is the wrong trade.
+
+### Pass the last move in, so the board reads as a consequence
+
+A board computed with no knowledge of what just happened has two tells. It offers the move the person has this second completed, which reads as though nothing was noticed. And it ignores what that move made possible, so it arrives as a fresh menu rather than as the next beat.
+
+Both are fixed by passing in the verb that just finished: drop it from the options, and promote whatever it unlocks. One consequence is not obvious and is worth building in deliberately. A move with no outstanding work against it should still be offered, and offered high, because the usual reason a step has nothing recorded against it is that nobody has reached it yet. That is precisely when naming it helps.
+
 ## Examples in the wild
 
 - **An EOS-business bootstrap template** that walks a leadership team through their first week running on the Entrepreneurial Operating System. Twelve skills drive weekly L10s, quarterly Rocks, annual V/TO refreshes, People Analyzer rounds. The workspace IS the running state of the company.
@@ -118,6 +150,7 @@ The closest existing analog is the open-source dotfile ecosystem: people share t
 
 - **Clear scope.** One well-defined job. "Bootstrap an EOS business in seven days." "Run a Q1 rocks-setting workshop." "Conduct a Bible-character assessment." A scope that fits in one sentence.
 - **Honest interview flow.** Sharp follow-up questions. No wasted prompts. The skill file should encode a domain expert's instinct for what to ask next.
+- **Ends every step by offering the next moves.** See [what makes it playable](#what-makes-it-playable-rather-than-merely-runnable). This is the single most commonly missing piece, and its absence is what makes an otherwise good bundle feel like software you operate instead of something you play.
 - **Produces actual artifacts.** A V/TO file. A signed scope. A graded assessment. Talk-only experiences do not count. The bundle's output IS the value.
 - **Resumable across sessions.** State preserved on disk so a multi-day experience can pause and resume. The user should be able to walk away mid-flow and return without losing place.
 - **Documented entry point.** README with the install command and the first invocation. A new user should be playing in under five minutes from landing on the GitHub repo.
@@ -137,3 +170,4 @@ If you have ever wanted to ship a piece of cognitive software that helps people 
 - [Company Context Layer](https://supersuit.wiki/concepts/company-context-layer): the company-shaped equivalent of personal hypercontext.
 - [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): a workspace shape that is itself a long-running playable harness experience.
 - [Superprompt](https://supersuit.wiki/concepts/superprompt): what an experience-driven session looks like at the chatbox.
+- [The Seam](https://userexperience.wiki/concepts/the-seam): the same boundary problem in a lean-back session, where the fix is to carry the stream rather than to offer the moves.
