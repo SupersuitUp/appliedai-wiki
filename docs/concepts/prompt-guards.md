@@ -69,6 +69,7 @@ The honest split is that guards eliminate the class of defect where **you alread
 
 ## Further Reading
 
+- [Gates and Hooks](/concepts/gates-and-hooks): the same principle for everything that is not a prompt; a gate refuses, a hook forces.
 - [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the parent principle: the fix belongs in the system, not the artifact.
 - [The Prompt Factory](/concepts/the-prompt-factory) is where guards live: deterministic code assembling the final prompt from locked parts.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails) explains why the need for this rises rather than falls as models improve.
