@@ -23,7 +23,9 @@
     "test:unlock-link": "node --test scripts/unlock-link.test.mjs",
     "check:provenance": "node scripts/check-image-provenance.mjs",
     "accept:provenance": "node scripts/check-image-provenance.mjs --accept",
-    "test:provenance": "node scripts/test-image-provenance.mjs"
+    "test:provenance": "node scripts/test-image-provenance.mjs",
+    "template:version": "node scripts/check-template-version.mjs",
+    "test:template-version": "node --test scripts/check-template-version.test.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",
