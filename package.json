@@ -25,7 +25,8 @@
     "accept:provenance": "node scripts/check-image-provenance.mjs --accept",
     "test:provenance": "node scripts/test-image-provenance.mjs",
     "template:version": "node scripts/check-template-version.mjs",
-    "test:template-version": "node --test scripts/check-template-version.test.mjs"
+    "test:template-version": "node --test scripts/check-template-version.test.mjs",
+    "test:share": "node --import ./scripts/ts-resolve-hooks.mjs --test src/share/*.test.ts plugins/share-view-plugin/src/*.test.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",

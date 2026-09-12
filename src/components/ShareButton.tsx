@@ -1,27 +1,55 @@
 import React, { useState } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { linkForPage, mintAndCopy } from '@site/src/share/mintAndCopy';
 
 const SHARE_PARAM = 'key';
 
+/**
+ * Copies the one-page share address for this page when the edge mints one
+ * (wiki-template v1.1.0: /s/<sig>/<route>, the page alone, no password and no
+ * sign-in for the holder). LOCAL VARIATION kept on purpose: when the edge does
+ * not answer, the fallback is this wiki's older whole-wiki link with ?key=
+ * attached, built on the clean path so a /listen resume position or any other
+ * query never rides along to a friend. The clipboard is opened before the mint
+ * request because iOS Safari expires the tap across an await.
+ */
 export default function ShareButton(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   const shareValue = String(siteConfig.customFields?.wikiPassword ?? '');
-  const [copied, setCopied] = useState(false);
+  const [label, setLabel] = useState<'idle' | 'minting' | 'copied' | 'copied-page'>('idle');
+
+  const wholeWikiLink = (url: string): string => {
+    const u = new URL(url);
+    if (shareValue) u.searchParams.set(SHARE_PARAM, shareValue);
+    return u.toString();
+  };
 
   const handleClick = async () => {
     if (typeof window === 'undefined') return;
-    const url = new URL(window.location.href);
-    if (shareValue) {
-      url.searchParams.set(SHARE_PARAM, shareValue);
-    }
+    setLabel('minting');
+    let focused = false;
+    let result: { url: string; copied: boolean };
     try {
-      await navigator.clipboard.writeText(url.toString());
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1800);
+      result = await mintAndCopy({
+        mint: async () => {
+          const link = await linkForPage(window.location.href);
+          focused = link.focused;
+          return link.focused ? link.url : wholeWikiLink(link.url);
+        },
+        clipboard: navigator.clipboard,
+      });
     } catch {
-      window.prompt('Copy this link:', url.toString());
+      result = { url: wholeWikiLink(window.location.origin + window.location.pathname), copied: false };
+    }
+    if (result.copied) {
+      setLabel(focused ? 'copied' : 'copied-page');
+      setTimeout(() => setLabel('idle'), 2200);
+    } else {
+      setLabel('idle');
+      window.prompt('Copy this link:', result.url);
     }
   };
+  const text = label === 'minting' ? 'minting…' : label === 'copied' ? 'copied · this page only' : label === 'copied-page' ? 'copied · whole wiki' : 'copy link';
 
   return (
     <button
@@ -42,7 +70,7 @@ export default function ShareButton(): JSX.Element {
       }}
       aria-label="Copy link to this page"
     >
-      {copied ? 'copied' : 'copy link'}
+      {text}
     </button>
   );
 }

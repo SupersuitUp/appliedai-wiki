@@ -175,6 +175,10 @@ const config: Config = {
         ],
       },
     ],
+    // A chrome-less, scriptless mirror of every page at /share-view/<route>/, which
+    // the edge serves for a one-page share address (/s/<sig>/<route>) on a gated
+    // wiki. Emitted on every build; only ever served through the middleware.
+    './plugins/share-view-plugin',
   ],
 
   presets: [

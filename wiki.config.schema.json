@@ -18,11 +18,54 @@
     "$schema": { "type": "string" },
     "title": { "type": "string", "description": "Site title and navbar label" },
     "tagline": { "type": "string", "description": "One-line site tagline" },
-    "url": { "type": "string", "description": "Production URL with protocol" },
+    "url": { "type": "string", "description": "Production URL with protocol. MUST be the host that serves 200 DIRECTLY, not one that redirects: Docusaurus turns this into every absolute URL the site emits (og:image, og:url, canonical), and a scraper that does not follow a redirect drops the share card entirely." },
     "organizationName": { "type": "string", "description": "GitHub org/user" },
     "projectName": { "type": "string", "description": "GitHub repo name" },
     "copyright": { "type": "string", "description": "Footer copyright text" },
     "noindex": { "type": "boolean", "description": "If true, robots noindex meta + disable sitemap" },
-    "description": { "type": "string", "description": "Site description used in llms.txt header" }
+    "description": { "type": "string", "description": "Site description used in llms.txt header" },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How this wiki's password gate is unlocked by a link. Read by scripts/unlock-link.mjs (pnpm share). Absent means the family convention.",
+      "properties": {
+        "unlockParam": {
+          "type": ["string", "null"],
+          "description": "The query parameter that carries the password in a prefilled link. `key` is the family convention and the default; reallife and the garysheng.com properties use `password`. null declares that no query-string unlock exists, so the CLI never builds one."
+        }
+      }
+    },
+    "hero_register": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How this wiki's article heroes get made. `mode` picks the engine and nothing else about a page changes when it moves: both engines emit the same five artifacts (deploy WebP, source PNG, provenance recipe beside the WebP, verbatim-prompt alt text, frontmatter image), so a wiki graduates from local to abu by editing one field.",
+      "properties": {
+        "mode": { "type": "string", "enum": ["local", "abu"], "description": "local: the vendored generator at illustrations/scripts/, no ABU install needed. abu: the shared wiki-article-hero form, via abu:make-a-work. Absent means abu, so wikis predating this field keep working." },
+        "layout": { "type": "string", "enum": ["multipanel", "single"], "description": "multipanel is the default. A hero is a strip of beats; one plate is the exception." },
+        "defaultPanels": { "type": "integer", "minimum": 2, "maximum": 6, "description": "Beats per hero when layout is multipanel. 3 is the default." },
+        "register": { "type": "string", "description": "One sentence naming the visual register, passed first on every render. Never name a living or recent illustrator; OpenAI moderation hard-blocks those. Describe the tradition instead." },
+        "spec": { "type": "string", "description": "Path to the fuller visual spec. Prose for humans and agents; the register string above is what actually reaches the model." },
+        "refs": { "type": "array", "items": { "type": "string" }, "description": "Blessed style references, all passed on every render. 2 to 4 is enough to lock a look without a recurring character." },
+        "outputDir": { "type": "string", "description": "Where deploy assets land. Default static/img/illustrations." },
+        "universe": { "type": "string", "description": "mode abu only. Path to the universe supplying the register and cast." },
+        "form": { "type": "string", "description": "mode abu only. The form id, normally wiki-article-hero." },
+        "stylePack": { "type": "string", "description": "mode abu only. Style pack path within the universe." },
+        "characterRef": { "type": "string", "description": "mode abu only. Locked character master." },
+        "motifRefs": { "type": "array", "items": { "type": "string" }, "description": "mode abu only. Locked motif plates." }
+      }
+    },
+    "intake_mode": { "type": "string", "enum": ["source-grounded", "authored-canon"], "description": "How this wiki grows. source-grounded: fold in external sources faithfully with citation. authored-canon: author net-new original philosophy that coheres with the canon. Drives which intake skill scripts/init-intake-skill.sh scaffolds into static/skills/." },
+    "skill_prefix": { "type": "string", "description": "Namespace for this wiki's skills when registered into the global registry (e.g. 'humanperformance' -> humanperformance-intake). Defaults to projectName minus a trailing -wiki. Used by scripts/register-skills.sh." },
+    "og": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Brand tokens for the auto-generated per-page social share cards (plugins/og-image-plugin). Every page without a frontmatter `image:` hero gets a card built from these at build time. Omit for the template defaults.",
+      "properties": {
+        "bg": { "type": "string", "description": "Card background color (hex)" },
+        "accent": { "type": "string", "description": "Accent color for the kicker and bar (hex)" },
+        "text": { "type": "string", "description": "Title text color (hex)" },
+        "muted": { "type": "string", "description": "Description/domain text color (hex)" }
+      }
+    }
   }
 }

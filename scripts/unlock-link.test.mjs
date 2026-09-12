@@ -13,7 +13,7 @@ import { join } from "node:path";
 import assert from "node:assert/strict";
 import {
   decide, opens, candidateUrl, withSlug, existingSlugFor,
-  shareMechanism,
+  shareMechanism, mintFocusedLink,
   OPEN, UNLOCKED, BLOCKED, MINTABLE,
 } from "./unlock-link.mjs";
 
@@ -206,4 +206,42 @@ test("shareMechanism detects the file, and claims nothing when it is absent", ()
   assert.equal(found.kind, "committed-slug");
   assert.equal(found.prefix, "/s/");
   assert.match(found.path, /shareRoutes\.ts$/);
+});
+
+test("a wiki with the signed-route share is detected ahead of the slug file", () => {
+  const root = mkdtempSync(join(tmpdir(), "wiki-"));
+  mkdirSync(join(root, "src", "share"), { recursive: true });
+  writeFileSync(join(root, "src", "share", "handleShare.ts"), "export {}");
+  const m = shareMechanism(root);
+  assert.equal(m.kind, "signed-route");
+  assert.equal(m.mint, "/s/mint");
+});
+
+test("a keyed page on a signed-route wiki is still UNLOCKED by decide; the focused link is minted after", () => {
+  const share = { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "src/share/handleShare.ts" };
+  const r = decide(PAGE, { param: "key", password: "pw", share }, { bare: shut, keyed: cookieRedirect });
+  assert.equal(r.outcome, UNLOCKED);
+  assert.equal(r.url, KEYED);
+});
+
+test("a signed-route wiki with no password is MINTABLE, and the ask names the password rather than a commit", () => {
+  const share = { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "src/share/handleShare.ts" };
+  const r = decide(PAGE, { param: "key", password: "", share }, { bare: shut, keyed: none });
+  assert.equal(r.outcome, MINTABLE);
+  assert.match(r.ask, /password/);
+  assert.doesNotMatch(r.ask, /commit/);
+});
+
+test("mintFocusedLink hands back the edge's url with the cookie it was given, and never throws", async () => {
+  const seen = [];
+  const ok = async (url, init) => { seen.push([url, init.headers.cookie]); return new Response(JSON.stringify({ url: "https://example.wiki/s/AAAAAAAAAAAAAAAAAAAAAA/concepts/thing", focused: true }), { status: 200 }); };
+  const m = await mintFocusedLink("https://example.wiki", "/concepts/thing", "wiki_gate=t", ok);
+  assert.equal(m.focused, true);
+  assert.match(m.url, /^https:\/\/example\.wiki\/s\/[A-Za-z0-9_-]{22}\/concepts\/thing$/);
+  assert.deepEqual(seen, [["https://example.wiki/s/mint?path=%2Fconcepts%2Fthing", "wiki_gate=t"]]);
+  const refused = await mintFocusedLink("https://example.wiki", "/concepts/thing", "", async () => new Response("{}", { status: 401 }));
+  assert.equal(refused.url, null);
+  assert.match(refused.why, /401/);
+  const down = await mintFocusedLink("https://example.wiki", "/concepts/thing", "", async () => { throw new Error("ECONNRESET"); });
+  assert.equal(down.url, null);
 });

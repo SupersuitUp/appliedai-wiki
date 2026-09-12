@@ -95,9 +95,34 @@ export function unlockParam(root = ROOT) {
  * instead of trusting a registry.
  */
 export function shareMechanism(root = ROOT) {
+  // The signed-route share (src/share/): one page at /s/<sig>/<route>, minted by the edge at
+  // /s/mint for an authorized reader, no commit and no deploy. Checked first because a wiki
+  // that has it never needs the slug file.
+  const signed = join(root, "src", "share", "handleShare.ts");
+  if (existsSync(signed)) {
+    return { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "src/share/handleShare.ts", path: signed };
+  }
   const file = join(root, "src", "auth", "shareRoutes.ts");
   if (!existsSync(file)) return null;
   return { kind: "committed-slug", prefix: "/s/", file: "src/auth/shareRoutes.ts", path: file };
+}
+
+/** Ask a wiki's edge for the focused share link of one route, as an authorized reader.
+ *  `cookie` is the jar the ?key= unlock produced; without it the edge answers 401. Returns the
+ *  url, or null with the reason, and never throws. */
+export async function mintFocusedLink(base, route, cookie, fetchImpl = fetch) {
+  const url = `${base}/s/mint?path=${encodeURIComponent(route)}`;
+  let r;
+  try {
+    r = await fetchImpl(url, { headers: { cookie, accept: "application/json" }, redirect: "manual" });
+  } catch (e) {
+    return { url: null, why: `the mint endpoint did not answer (${e.message})` };
+  }
+  if (r.status !== 200) return { url: null, why: `the mint endpoint answered ${r.status}` };
+  let body;
+  try { body = await r.json(); } catch { return { url: null, why: "the mint endpoint did not answer JSON" }; }
+  if (typeof body.url !== "string") return { url: null, why: "the mint endpoint answered without a url" };
+  return { url: body.url, focused: body.focused === true, why: null };
 }
 
 /** The slug already serving this exact route, or null. Two slugs for one page means revoking
@@ -140,10 +165,14 @@ export function decide(pageUrl, { param, password, share = null }, probes) {
   // it costs a commit and a deploy where ?key= costs nothing.
   const mintable = (checked, why) => ({
     outcome: MINTABLE, url: null, checked, why,
-    ask: `this wiki serves one page at a time at an unguessable ${share.prefix}<slug> address from `
-       + `${share.file}, and that needs no password or secret, because it is a code change rather `
-       + `than a credential. Run this command again with --mint to add the slug, commit that one `
-       + `file, push, and wait for the link to answer.`,
+    ask: share.kind === "signed-route"
+      ? `this wiki serves one page at a time at a signed ${share.prefix}<sig>/<route> address, minted `
+        + `by its edge at ${share.mint} for an authorized reader. Minting needs the password once: set `
+        + `WIKI_PASSWORD in this shell or run \`vercel env pull\` in this repo, then run this again.`
+      : `this wiki serves one page at a time at an unguessable ${share.prefix}<slug> address from `
+        + `${share.file}, and that needs no password or secret, because it is a code change rather `
+        + `than a credential. Run this command again with --mint to add the slug, commit that one `
+        + `file, push, and wait for the link to answer.`,
   });
 
   const candidate = candidateUrl(pageUrl, param, password);
@@ -178,8 +207,9 @@ if (invokedDirectly) {
   const json = args.includes("--json");
   const route = args.find((a) => !a.startsWith("--"));
   if (!route) {
-    console.error("usage: unlock-link.mjs </route or full url> [--json] [--mint]");
-    console.error("  --mint: on a gated wiki that serves single pages at /s/<slug>, mint one, push it, and wait for it to answer.");
+    console.error("usage: unlock-link.mjs </route or full url> [--json] [--mint] [--whole-wiki]");
+    console.error("  --mint: on a gated wiki that serves single pages from a committed /s/<slug> list, mint one, push it, and wait for it to answer.");
+    console.error("  --whole-wiki: on a gated wiki with signed one-page shares, hand back the ?key= link that opens everything instead.");
     process.exit(2);
   }
   const base = siteUrl();
@@ -197,7 +227,7 @@ if (invokedDirectly) {
       let r;
       try {
         r = await fetch(url, { redirect: "manual", headers: jar ? { cookie: jar } : {} });
-      } catch { return { status: 0, setsCookie }; }
+      } catch { return { status: 0, setsCookie, jar }; }
       const cookies = r.headers.getSetCookie?.() ?? [];
       if (cookies.length) {
         setsCookie = true;
@@ -209,9 +239,9 @@ if (invokedDirectly) {
         url = new URL(loc, url).toString();
         continue;
       }
-      return { status: r.status, setsCookie };
+      return { status: r.status, setsCookie, jar };
     }
-    return { status: 0, setsCookie };
+    return { status: 0, setsCookie, jar };
   };
   const probe = follow;
 
@@ -232,9 +262,29 @@ if (invokedDirectly) {
   const keyed = candidate ? await probe(candidate) : { status: 0, setsCookie: false };
   let out = decide(pageUrl, { param, password, share }, { bare, keyed });
 
+  // A signed-route wiki that the password unlocked: prefer the FOCUSED link, one page and
+  // nothing else, over the ?key= link that opens the whole wiki. The recipient was sent a page.
+  // `--whole-wiki` keeps the old behaviour for the times the whole wiki is the point.
+  if (out.outcome === UNLOCKED && share?.kind === "signed-route" && !args.includes("--whole-wiki")) {
+    const base = siteUrl() || new URL(pageUrl).origin;
+    const route = new URL(pageUrl).pathname;
+    const minted = await mintFocusedLink(base, route, keyed.jar || "");
+    if (minted.url && minted.focused) {
+      const p = await probe(minted.url);
+      if (opens(p)) {
+        out = { outcome: UNLOCKED, url: minted.url, checked: p.status,
+                why: "focused share: one page, no password, no way into the rest" };
+      } else {
+        console.error(`  (the focused link answered ${p.status}; falling back to the ?${param}= link)`);
+      }
+    } else if (minted.why) {
+      console.error(`  (could not mint a focused link: ${minted.why}; falling back to the ?${param}= link)`);
+    }
+  }
+
   // --mint is the remedy for MINTABLE, and it is a flag rather than automatic because it
   // commits, pushes and waits on a deploy. Nobody asking for a link expects a push.
-  if (out.outcome === MINTABLE && args.includes("--mint")) {
+  if (out.outcome === MINTABLE && args.includes("--mint") && share.kind === "committed-slug") {
     const route = pageUrl.replace(siteUrl() || "", "") || "/";
     const src = readFileSync(share.path, "utf8");
 

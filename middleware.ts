@@ -33,6 +33,8 @@
 // it: it runs only if WIKI_PASSWORD is set. The family default is Google-only,
 // so most deployments never set it.
 
+import { handleShare } from './src/share/handleShare';
+
 const BLOCKED_BOT_PATTERN =
   /\b(GPTBot|OAI-SearchBot|ChatGPT-User|ClaudeBot|Claude-Web|anthropic-ai|CCBot|Google-Extended|GoogleOther|Applebot-Extended|FacebookBot|Meta-ExternalAgent|meta-externalagent|Bytespider|PerplexityBot|Perplexity-User|Amazonbot|AI2Bot|cohere-ai|Diffbot|Omgili|ImagesiftBot|YouBot|DuckAssistBot|peer39_crawler|TimpiBot|Webzio-Extended|Kangaroo|Cotoyogi)\b/i;
 
@@ -823,6 +825,31 @@ export default async function middleware(
   const clientSecret = process.env.GOOGLE_OAUTH_CLIENT_SECRET ?? '';
   const secret = process.env.WIKI_GATE_SECRET ?? '';
   const gateOn = process.env.GATE_IDENTITY === '1' && Boolean(clientId && clientSecret && secret);
+  // One-page shares (wiki-template v1.1.0). /s/<sig>/<route> serves ONE page,
+  // chrome-less, to a reader with no password and no sign-in; /s/mint hands a
+  // fully authorized reader that address for the page they are on. Sits before
+  // the gate's own refusal and before the unfurl exemption below, so a share
+  // recipient never meets the door and a shared link still unfurls. With the
+  // gate dark this only redirects a share address to its page.
+  {
+    let authorized = true;
+    if (gateOn) {
+      const password = process.env.WIKI_PASSWORD ?? '';
+      authorized = password ? await hasValidTicket(request, secret) : true;
+      if (authorized) {
+        const who = await readIdentity(request, secret);
+        authorized = !!who && who.st === 'active';
+      }
+    }
+    const share = await handleShare({
+      url: new URL(request.url),
+      authorized,
+      secret: process.env.WIKI_SHARE_SECRET || secret,
+      gated: gateOn,
+    });
+    if (share) return share;
+  }
+
   if (!gateOn) return undefined;
 
   const url = new URL(request.url);
