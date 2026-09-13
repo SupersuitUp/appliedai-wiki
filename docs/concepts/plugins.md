@@ -55,10 +55,13 @@ For a single builder on one machine, a plugin's day-to-day gain over loose files
 
 Package by domain. Keep the portable cargo (MCP servers, AGENTS.md) portable, and let the plugin be the crate. The moment you need to move a toolkit, share it, or toggle it, the crate earns its keep. Until then, its main gift is that you learned the mechanism before you needed it. One domain shape deserves its own page: a goal-directed, time-bounded effort packaged as a [campaign plugin](/concepts/campaign-plugins), where the bundle's skills are the campaign's atomic actions and versioned files carry its state.
 
+The permanent counterpart is one plugin per business. A business is a small set of verbs it runs over and over (onboard a client, ship a release, invoice a retainer), and a [business plugin](https://agenticbusiness.wiki/concepts/the-business-plugin) packages those verbs as skills, each carrying its own map, so the owner's agent can act in the business the way it acts in the owner's life. The business improves the verbs on every call and keeps them when the owner steps back, which is why the plugin reads as enterprise value rather than as tooling.
+
 ## Further Reading
 
 - [Skill Files](/concepts/skill-files)
 - [Agent Rule Files](/concepts/agent-rule-files)
 - [Hyperlocal Skills](/concepts/hyperlocal-skills)
+- [The Business Plugin](https://agenticbusiness.wiki/concepts/the-business-plugin): one plugin per business, holding its verbs; the permanent counterpart to a campaign plugin
 - [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)
 - [Harness Engineering](/disciplines/harness-engineering)
