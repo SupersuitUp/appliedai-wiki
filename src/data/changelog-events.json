@@ -1,6 +1,46 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/gates-and-hooks@495edff89e18a1ef38f708c67efc0c38cc4add04",
+      "type": "updated",
+      "date": "2026-09-12T20:33:07-05:00",
+      "docKey": "concepts/gates-and-hooks",
+      "routePath": "/concepts/gates-and-hooks",
+      "section": "concepts",
+      "title": "Gates and Hooks",
+      "description": "The two mechanisms that turn an instruction to an agent into a constraint on it. A gate refuses: a check runs, and failing prevents the action. A hook forces: your step runs at a seam whether or not the agent remembered. Instructions are read. Gates and hooks are executed."
+    },
+    {
+      "id": "concepts/gates-and-hooks@24ad0f90f673edc7314d6cc5067c4c0cce1b18bc",
+      "type": "new",
+      "date": "2026-09-12T18:12:13-05:00",
+      "docKey": "concepts/gates-and-hooks",
+      "routePath": "/concepts/gates-and-hooks",
+      "section": "concepts",
+      "title": "Gates and Hooks",
+      "description": "The two mechanisms that turn an instruction to an agent into a constraint on it. A gate refuses: a check runs, and failing prevents the action. A hook forces: your step runs at a seam whether or not the agent remembered. Instructions are read. Gates and hooks are executed."
+    },
+    {
+      "id": "concepts/prompt-guards@24ad0f90f673edc7314d6cc5067c4c0cce1b18bc",
+      "type": "updated",
+      "date": "2026-09-12T18:12:13-05:00",
+      "docKey": "concepts/prompt-guards",
+      "routePath": "/concepts/prompt-guards",
+      "section": "concepts",
+      "title": "Prompt Guards",
+      "description": "Standing rules a generator appends to every prompt itself, conditional on what the prompt contains. A rule written as an instruction to the caller is a suggestion; a rule enforced at the chokepoint every caller passes through is a guarantee."
+    },
+    {
+      "id": "concepts/playable-harness-experience@3e0901d53a5c2f9dcc5ccbe4f4f57fcf7da48852",
+      "type": "updated",
+      "date": "2026-09-12T16:51:54-05:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
       "id": "concepts/agentic-project-management@d68532f7cb7f20c43c3bc18189d2480b360b5f62",
       "type": "updated",
       "date": "2026-09-09T15:19:57-04:00",
