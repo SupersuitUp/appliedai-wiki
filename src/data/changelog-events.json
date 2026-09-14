@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table@3cf1135759fd42407b2d3e231f8cd12d5c16059f",
+      "type": "updated",
+      "date": "2026-09-14T18:04:59-05:00",
+      "docKey": "perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table",
+      "routePath": "/perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table",
+      "section": "perspectives",
+      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
+      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+    },
+    {
       "id": "perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table@5b9a17cbbd79a9e361af0cc0e0723699c502f095",
       "type": "new",
       "date": "2026-09-14T17:54:56-05:00",

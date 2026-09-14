@@ -9,7 +9,7 @@ image: "/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.web
 
 *Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. Every promise that will not be kept was written against the second clock.*
 
-![Three-panel warm editorial strip on a cream ground. Title bar reads "ADOPTION SHOULD BE PACED BY THE PERSON, NOT THE CAP TABLE"; footer bar reads "HABITS MOVE AT THE SPEED OF TRUST". Panel one, captioned "THE BOARDROOM SETS A DATE": three seated figures in business clothes, seen from behind, look up at a back wall holding a large clock whose hands are blurred with speed, an unlabelled steep rising curve, and a calendar with one date circled in red. No laptop. Panel two, captioned "AT HOME SHE NEVER STARTS": the same red-circled calendar hangs in a home kitchen. A woman in an olive sweater sits with her back to us, nearest the camera; beyond her on the table a glowing amber laptop is angled so its screen faces her. Inside the screen a small rounded figure in a gold cap waits with its hands folded, idle. Her head is turned away from it, toward a counter piled with dirty dishes. Panel three, captioned "IN THE OFFICE SHE STARTS": the same woman at a quiet desk, same sweater, back still to us, both hands on the keyboard of the same laptop, its screen again facing her. Inside the screen the capped figure and two smaller helpers are now working. One phone lies face up beside her showing a single empty message bubble. No dishes, no calendar.](/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp)
+![Three-panel warm editorial strip on a cream ground. Title bar reads "ADOPTION SHOULD BE PACED BY THE PERSON, NOT THE CAP TABLE"; footer bar reads "HABITS MOVE AT THE SPEED OF TRUST". Panel one, captioned "THE BOARDROOM SETS A DATE": three seated figures in business clothes, seen from behind, look up at a wall holding a large clock whose hands are blurred with speed, an unlabelled steep rising curve, and a calendar with one date circled in red. Panel two, captioned "THE DATE DOES NOT MOVE HER": the same red-circled calendar now hangs above an ordinary desk by a window. A woman in an olive sweater sits with her back to us, nearest the camera; beyond her the glowing amber laptop is open with its screen facing her, and inside it a small rounded figure in a gold cap waits with its hands folded. Her hands are in her lap and she is looking out of the window. Panel three, captioned "SHE STARTS AT HER OWN PACE": the same desk, same window, same mug, same woman. The calendar is gone from the wall. Both her hands are on the keyboard, and inside the screen the capped figure and two smaller helpers are working. One phone lies face up beside her showing a single empty message bubble.](/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp)
 
 ---
 
@@ -21,31 +21,27 @@ That third clock is slow, and it does not speed up when you raise more money. It
 
 Pricing a business to the capital clock while delivery runs on the human clock is what manufactures a false promise. Nobody has to lie. The gap between the two schedules does it for you.
 
-## What adoption looks like up close
+## What the human clock looks like up close
 
-Here is a real one, from someone I had been working with for a few weeks. They had driven in to work out of the office rather than from home, and I asked why.
+Ask what actually moved the first time an AI rollout worked on someone, and the answer is almost never a feature. It is something small the person did for themselves that let them start at all: blocking the hour, moving to where the interruptions were not, telling someone they were going to do it.
+
+One of mine, a few weeks in, put it plainly:
 
 > Now that I started, I think it's great to be in the office because at home I'm like so distracted. I want to clean dishes and like, you know, but here you don't have dishes.
 
-That is the mechanism. Not a model release. Not a procurement cycle. A person moved themselves to a room where the dishes were not, because the dishes were winning.
-
-They also had a read on how the sessions should run:
-
-> I think it's good sometimes to have an in-person session, especially early on. Virtual is, it was fine too, like when we did it.
-
-In person early, virtual after. That is a real finding about delivery, and it came from the person receiving it rather than from a pricing model. Note what it costs: the expensive, unscalable format is the one that has to come first, at exactly the moment a deck would want the cheap one.
+The particular fix is hers and does not transfer to anyone else. The size of it does. That is the unit a whole market is pricing in millions of, and it arrived weeks after the software did, on her schedule rather than mine.
 
 ## The check-in is doing the work the software gets credit for
 
-The same conversation turned to the messages I had been sending between sessions.
+Between sessions I had been sending short messages asking whether they had done anything that day. They brought it up themselves:
 
 > Yeah, I like how you're like checking on me. Like, hey, did you do anything today?
 
-I said I was glad it was not annoying. That was a genuine question, and the answer matters more than it looks. The difference between care and nagging is not in the message. It is in whether the person believes you are on their side, which is earned before the message and cannot be added to it afterward.
+That is worth sitting with, because the same message from someone a person does not trust reads as nagging. The difference is not in the words. It is in whether they believe you are on their side, and that is settled long before the message goes out.
 
-Nothing about that check-in is technology. It is the oldest delivery mechanism there is, and it is carrying the result that the tooling will get credit for. An operator who bills for the software and treats the follow-up as overhead has the ledger backwards. The follow-up is the product working; the software is what makes the follow-up worth answering.
+Nothing about the check-in is technology. It is the oldest delivery method there is, and it is carrying a result the software will be credited for. An operator who bills for the software and treats the follow-up as overhead is charging for the wrong half.
 
-This is also why the pilot count has a hard ceiling, and why [too many early pilots will drown you](/perspectives/too-many-early-pilots-will-drown-you). Attention of this kind does not divide.
+It also caps how many customers one person can carry, which is why [too many early pilots will drown you](/perspectives/too-many-early-pilots-will-drown-you). You cannot give twenty people that kind of attention.
 
 ## Pacing to the cap table is what breaks the promise
 
@@ -55,9 +51,9 @@ Once a company owes a return on the capital clock, three moves become rational, 
 
 **Count seats instead of habits.** A seat is bookable this quarter. An upgraded habit is not, so it stops being measured, and then it stops being worked on. Usage is the only number that cannot be faked here, which is why [daily use is the benchmark that cannot be gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed).
 
-**Drop the format that works because it does not scale.** The in-person first session is the first thing cut, and it is the thing the customer named as load-bearing.
+**Drop the format that works because it does not scale.** The in-person first session is the first thing cut, and it is usually the thing customers name as the reason it took.
 
-Do this across a whole market and you get the valuations that assume a transformation the human layer cannot deliver on time. The correction that follows is not a verdict on the technology. It is the bill for the schedule. See [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming).
+Do this across a whole market and you get the valuations that assume a transformation the human layer cannot deliver on time. The correction that follows is not a verdict on the technology. It is what the schedule costs. See [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming).
 
 ## The humane pace is the one that compounds
 
@@ -65,7 +61,7 @@ Running on the person's clock looks slow from outside and is not. Each habit tha
 
 What it asks of an operator is specific. Sell the next step, at a price the step is worth. Put the expensive format first and say why. Measure whether they used it, not whether they bought it. Send the message that asks whether they did anything today, and mean it.
 
-None of that can be accelerated by a funding round, which is the point. The pace is set by the person in front of you, and a business that wants to keep its promises has to be priced to run at that speed.
+None of that can be accelerated by a funding round. The pace is set by the person in front of you, and a business that wants to keep its promises has to be priced to run at that speed.
 
 > **Adoption moves at the speed of one person upgrading one habit, and a promise written against any faster clock is a promise somebody else will have to break.**
 
