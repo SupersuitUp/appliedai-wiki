@@ -1,21 +1,21 @@
 ---
 title: "Adoption Should Be Paced by the Person, Not the Cap Table"
 slug: /perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table
-description: "Two clocks are running on AI adoption. One is how fast a person can change a habit. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+description: "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
 image: "/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp"
 ---
 
 # Adoption Should Be Paced by the Person, Not the Cap Table
 
-*Two clocks are running on AI adoption. One is how fast a person can change a habit. The other is how fast an investor needs a return. Every promise that will not be kept was written against the second clock.*
+*Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. Every promise that will not be kept was written against the second clock.*
 
-![Three-panel warm editorial strip on a cream ground. Title bar reads "ADOPTION SHOULD BE PACED BY THE PERSON, NOT THE CAP TABLE"; footer bar reads "HABITS MOVE AT THE SPEED OF TRUST". Panel one, captioned "THE BOARDROOM SETS A DATE": three seated figures in business clothes, seen from behind, look up at a back wall holding a large clock whose hands are blurred with speed, an unlabelled steep rising curve, and a calendar with one date circled in red. No laptop. Panel two, captioned "THE DATE MEETS A TUESDAY": the same red-circled calendar hangs in a home kitchen, where a woman in an olive sweater sits at the table with a glowing amber laptop open in front of her, the camera behind her shoulder so the screen faces her and us. Inside the screen a small rounded figure in a gold cap waits with its hands folded, idle. Her head is turned away from it toward a sink stacked with dirty dishes. Panel three, captioned "THE PACE THAT HOLDS": the same woman at a quiet desk, same sweater, same camera position, hands on the keyboard of the same laptop. Inside the screen the capped figure and two smaller helpers are now working. One phone lies face up beside her elbow showing a single empty message bubble. No dishes, no calendar.](/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp)
+![Three-panel warm editorial strip on a cream ground. Title bar reads "ADOPTION SHOULD BE PACED BY THE PERSON, NOT THE CAP TABLE"; footer bar reads "HABITS MOVE AT THE SPEED OF TRUST". Panel one, captioned "THE BOARDROOM SETS A DATE": three seated figures in business clothes, seen from behind, look up at a back wall holding a large clock whose hands are blurred with speed, an unlabelled steep rising curve, and a calendar with one date circled in red. No laptop. Panel two, captioned "AT HOME SHE NEVER STARTS": the same red-circled calendar hangs in a home kitchen. A woman in an olive sweater sits with her back to us, nearest the camera; beyond her on the table a glowing amber laptop is angled so its screen faces her. Inside the screen a small rounded figure in a gold cap waits with its hands folded, idle. Her head is turned away from it, toward a counter piled with dirty dishes. Panel three, captioned "IN THE OFFICE SHE STARTS": the same woman at a quiet desk, same sweater, back still to us, both hands on the keyboard of the same laptop, its screen again facing her. Inside the screen the capped figure and two smaller helpers are now working. One phone lies face up beside her showing a single empty message bubble. No dishes, no calendar.](/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp)
 
 ---
 
 ## Two clocks, and only one of them is real
 
-The technology clock is fast and getting faster. The capital clock is faster still, because capital is priced on a story about the next eight quarters. The third clock, the one that actually governs whether anything changes at all, is how long it takes one working adult to do their job differently on a Tuesday.
+The technology clock is fast and getting faster. The capital clock is faster still, because capital is priced on a story about the next eight quarters. The third clock, the one that actually governs whether anything changes at all, is how long it takes one working adult to upgrade the fundamental way they do their worklife.
 
 That third clock is slow, and it does not speed up when you raise more money. It does not speed up when the model improves either. It moves at the speed of a habit, and habits move at the speed of trust. This is the [AI Guidance Gap](/concepts/ai-guidance-gap) seen from the inside of one person instead of across a market.
 
@@ -53,7 +53,7 @@ Once a company owes a return on the capital clock, three moves become rational, 
 
 **Sell transformation instead of a step.** A step is small, provable, and worth roughly what it saves. A transformation can be priced against an imagined future. It also cannot be delivered on the schedule it was sold against, because [transformation is surgery](/concepts/transformation-as-surgery) and most patients do not need the cut.
 
-**Count seats instead of habits.** A seat is bookable this quarter. A changed habit is not, so it stops being measured, and then it stops being worked on. Usage is the only number that cannot be faked here, which is why [daily use is the benchmark that cannot be gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed).
+**Count seats instead of habits.** A seat is bookable this quarter. An upgraded habit is not, so it stops being measured, and then it stops being worked on. Usage is the only number that cannot be faked here, which is why [daily use is the benchmark that cannot be gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed).
 
 **Drop the format that works because it does not scale.** The in-person first session is the first thing cut, and it is the thing the customer named as load-bearing.
 
@@ -61,13 +61,13 @@ Do this across a whole market and you get the valuations that assume a transform
 
 ## The humane pace is the one that compounds
 
-Running on the person's clock looks slow from outside and is not. Each habit that actually changes stays changed, and it holds without you. Each one makes the next one easier, because the person now has evidence about themselves rather than a claim from you. That is the same argument [progressive automation is the job](/perspectives/progressive-automation-is-the-job) makes about the work: unglamorous increments, week after week, and the compounding is in the increments rather than in the announcement.
+Running on the person's clock looks slow from outside and is not. Each habit that actually gets upgraded stays upgraded, and it holds without you. Each one makes the next one easier, because the person now has evidence about themselves rather than a claim from you. That is the same argument [progressive automation is the job](/perspectives/progressive-automation-is-the-job) makes about the work: unglamorous increments, week after week, and the compounding is in the increments rather than in the announcement.
 
 What it asks of an operator is specific. Sell the next step, at a price the step is worth. Put the expensive format first and say why. Measure whether they used it, not whether they bought it. Send the message that asks whether they did anything today, and mean it.
 
 None of that can be accelerated by a funding round, which is the point. The pace is set by the person in front of you, and a business that wants to keep its promises has to be priced to run at that speed.
 
-> **Adoption moves at the speed of one person changing one habit, and a promise written against any faster clock is a promise somebody else will have to break.**
+> **Adoption moves at the speed of one person upgrading one habit, and a promise written against any faster clock is a promise somebody else will have to break.**
 
 ## Further Reading
 
