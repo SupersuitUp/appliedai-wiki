@@ -1,74 +1,76 @@
 ---
-title: "Adoption Should Be Paced by the Person, Not the Cap Table"
-slug: /perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table
-description: "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
-image: "/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp"
+title: "Bubble Money Cannot Build Worklife Infrastructure"
+slug: /perspectives/bubble-money-cannot-build-worklife-infrastructure
+description: "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+image: "/img/comics/bubble-money-cannot-build-worklife-infrastructure.webp"
 ---
 
-# Adoption Should Be Paced by the Person, Not the Cap Table
+# Bubble Money Cannot Build Worklife Infrastructure
 
-*Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. Every promise that will not be kept was written against the second clock.*
+*The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble.*
 
-![Three-panel warm editorial strip on a cream ground. Title bar reads "ADOPTION SHOULD BE PACED BY THE PERSON, NOT THE CAP TABLE"; footer bar reads "HABITS MOVE AT THE SPEED OF TRUST". Panel one, captioned "THE BOARDROOM SETS A DATE": three seated figures in business clothes, seen from behind, look up at a wall holding a large clock whose hands are blurred with speed, an unlabelled steep rising curve, and a calendar with one date circled in red. Panel two, captioned "THE DATE DOES NOT MOVE HER": the same red-circled calendar now hangs above an ordinary desk by a window. A woman in an olive sweater sits with her back to us, nearest the camera; beyond her the glowing amber laptop is open with its screen facing her, and inside it a small rounded figure in a gold cap waits with its hands folded. Her hands are in her lap and she is looking out of the window. Panel three, captioned "SHE STARTS AT HER OWN PACE": the same desk, same window, same mug, same woman. The calendar is gone from the wall. Both her hands are on the keyboard, and inside the screen the capped figure and two smaller helpers are working. One phone lies face up beside her showing a single empty message bubble.](/img/comics/adoption-should-be-paced-by-the-person-not-the-cap-table.webp)
+![Four-panel warm editorial strip on a cream ground. Title bar reads "BUBBLE MONEY CANNOT BUILD WORKLIFE INFRASTRUCTURE"; footer bar reads "ONE PERSON TEACHES THE NEXT". Panel one, captioned "THE CLOCK SETS THE BUDGET": three seated figures in business clothes, seen from behind, look up at a wall holding a large clock whose hands are blurred with speed and an unlabelled steep rising curve. Panel two, captioned "SO THE PRODUCT BECOMES A TRICK": a bright trade-show booth under a blank banner, where one of those figures presents a glowing amber laptop turned outward on a pedestal to a small clapping crowd; inside its screen the small rounded figures in gold caps are juggling rings for the audience rather than working. Panel three, captioned "THE MONEY GOES": the same booth, empty and dim, the pedestal bare, the banner blank, chairs stacked, blank torn paper on the floor, nobody there. Panel four, captioned "WHAT WAS BUILT SLOWLY IS STILL THERE": an ordinary desk by a window, where a woman in an olive sweater sits with her back to us, nearest the camera, both hands on the keyboard of a steadily glowing amber laptop whose screen faces her. Inside it a figure in a gold cap and two smaller helpers work calmly. An older man in a grey cardigan sits beside her with his own smaller laptop just beginning to glow.](/img/comics/bubble-money-cannot-build-worklife-infrastructure.webp)
 
 ---
 
-## Two clocks, and only one of them is real
+## Worklife infrastructure cannot be shipped
 
-The technology clock is fast and getting faster. The capital clock is faster still, because capital is priced on a story about the next eight quarters. The third clock, the one that actually governs whether anything changes at all, is how long it takes one working adult to upgrade the fundamental way they do their worklife.
+**[Worklife infrastructure](https://supersuit.wiki/concepts/worklife-infrastructure)** is software a person's work and life both run on. Not a tool they try, a layer they route their judgment, their context, and their relationships through, and keep routing through for years. The definition is argued on the category's own wiki; what matters here is the consequence for anyone trying to build one.
 
-That third clock is slow, and it does not speed up when you raise more money. It does not speed up when the model improves either. It moves at the speed of a habit, and habits move at the speed of trust. This is the [AI Guidance Gap](/concepts/ai-guidance-gap) seen from the inside of one person instead of across a market.
+A thing with that job cannot be launched. It has to accumulate: their material, their corrections, their preferences, their trust, deposited over months of ordinary use until removing it would cost them something real.
 
-Pricing a business to the capital clock while delivery runs on the human clock is what manufactures a false promise. Nobody has to lie. The gap between the two schedules does it for you.
+That is a growth curve, not a release. It has no launch date, no demo that proves it, and no version where it is finished. It also cannot be bought forward: a company can buy engineers, compute, and distribution, and none of those shorten the part where a specific human slowly reorganizes how they work.
 
-## What the human clock looks like up close
+## The capital sets the deadline, and the deadline sets the product
 
-Ask what actually moved the first time an AI rollout worked on someone, and the answer is almost never a feature. It is something small the person did for themselves that let them start at all: blocking the hour, moving to where the interruptions were not, telling someone they were going to do it.
+A company funded on this cycle's terms owes a return on a schedule that was decided before anyone met a customer. That schedule is shorter than the accumulation above, and the gap between them is not a strategy problem. It is arithmetic, and it forces four moves.
 
-One of mine, a few weeks in, put it plainly:
+**Gimmicks over foundations.** Given a quarter, you build the thing that demos. The demo-able feature and the load-bearing one are rarely the same feature, and the second is invisible for a long time before it pays. So the roadmap fills with what can be shown.
 
-> Now that I started, I think it's great to be in the office because at home I'm like so distracted. I want to clean dishes and like, you know, but here you don't have dishes.
+**Overclaiming.** When the product cannot yet do the thing, the marketing does it instead. This is not a character flaw in the people writing the copy. It is what happens when the story has to stay ahead of the software to keep the next round alive, and it is why [overclaiming AI capability is an ethical violation](/perspectives/overclaiming-ai-capability-is-an-ethical-violation) has to be said out loud rather than assumed.
 
-The particular fix is hers and does not transfer to anyone else. The size of it does. That is the unit a whole market is pricing in millions of, and it arrived weeks after the software did, on her schedule rather than mine.
+**Weird product choices.** Pricing that punishes the heaviest users, features shipped to satisfy a partner rather than a person, a pivot every time the narrative moves. Each one is locally rational and none of them is what you would build for someone you expected to keep for a decade.
 
-## The check-in is doing the work the software gets credit for
+**Seats over habits.** A seat is bookable this quarter. A habit is not, so it stops being measured, and then it stops being worked on. Usage is the number that cannot be faked, which is why [daily use is the benchmark that cannot be gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed).
 
-Between sessions I had been sending short messages asking whether they had done anything that day. They brought it up themselves:
+None of this requires anyone to be dishonest. Point the incentive at a date and it produces this behavior from good people, reliably.
 
-> Yeah, I like how you're like checking on me. Like, hey, did you do anything today?
+## The correction is coming, and it is a filter
 
-That is worth sitting with, because the same message from someone a person does not trust reads as nagging. The difference is not in the words. It is in whether they believe you are on their side, and that is settled long before the message goes out.
+The valuations assume a transformation that the human layer cannot deliver on the implied schedule. That gap has a name, the [AI Guidance Gap](/concepts/ai-guidance-gap), and the consequence is argued in full at [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming).
 
-Nothing about the check-in is technology. It is the oldest delivery method there is, and it is carrying a result the software will be credited for. An operator who bills for the software and treats the follow-up as overhead is charging for the wrong half.
+What matters here is what the correction selects for. It does not sort by how good the technology was. It sorts by who still has a reason to exist when the money stops being free: the ones whose users would notice if they disappeared. A gimmick has no such user. Worklife infrastructure is nothing but such users.
 
-It also caps how many customers one person can carry, which is why [too many early pilots will drown you](/perspectives/too-many-early-pilots-will-drown-you). You cannot give twenty people that kind of attention.
+So the pop is not a risk to plan around. It is the event that clears the field of everything that was only there for the money.
 
-## Pacing to the cap table is what breaks the promise
+## The real pace is a transformation cycle
 
-Once a company owes a return on the capital clock, three moves become rational, and all three cost the customer.
+The alternative is not a slower version of the same plan. It is a different unit of growth.
 
-**Sell transformation instead of a step.** A step is small, provable, and worth roughly what it saves. A transformation can be priced against an imagined future. It also cannot be delivered on the schedule it was sold against, because [transformation is surgery](/concepts/transformation-as-surgery) and most patients do not need the cut.
+One person gets genuinely transformed: their work reorganizes around the system, and they can now do things they could not do before. That takes weeks, sometimes months, and there is no way to compress it, because it runs at the speed of their own habits and their own trust. Then that person teaches someone else, and their word carries what no advertisement can, because they have nothing to sell and the other person can see their work.
 
-**Count seats instead of habits.** A seat is bookable this quarter. An upgraded habit is not, so it stops being measured, and then it stops being worked on. Usage is the only number that cannot be faked here, which is why [daily use is the benchmark that cannot be gamed](/perspectives/daily-use-is-the-benchmark-that-cant-be-gamed).
+That is an exponential with a long, boring, unimpressive beginning. Two, then four, then eight, and for a long while it loses every comparison to a company adding thousands of seats a month. It also compounds on something the seat-counting company does not have: each transformed person is a working proof, and proofs do not churn.
 
-**Drop the format that works because it does not scale.** The in-person first session is the first thing cut, and it is usually the thing customers name as the reason it took.
+**The slow start is the thing people get wrong about it.** They read it as a small business rather than as an early exponential, because at the point where the two are indistinguishable, the one with more capital looks obviously correct.
 
-Do this across a whole market and you get the valuations that assume a transformation the human layer cannot deliver on time. The correction that follows is not a verdict on the technology. It is what the schedule costs. See [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming).
+## Build the thing that does not need the bubble
 
-## The humane pace is the one that compounds
+The practical version is a set of refusals, and each one costs something now.
 
-Running on the person's clock looks slow from outside and is not. Each habit that actually gets upgraded stays upgraded, and it holds without you. Each one makes the next one easier, because the person now has evidence about themselves rather than a claim from you. That is the same argument [progressive automation is the job](/perspectives/progressive-automation-is-the-job) makes about the work: unglamorous increments, week after week, and the compounding is in the increments rather than in the announcement.
+- **Take money on terms that can wait**, or take less of it. Capital that needs an exit inside this cycle will make every decision above for you, whatever anyone intends.
+- **Charge for what is delivered**, so revenue arrives in proportion to real value rather than to a narrative. A business that can survive on its customers does not have to keep the story ahead of the software.
+- **Refuse the demo-able feature when it competes with the load-bearing one.** This is the expensive refusal and the one that compounds, which is the same argument [progressive automation is the job](/perspectives/progressive-automation-is-the-job) makes about the work itself.
+- **Count transformed people, not seats.** If the number is small, that is information, not a failure to spin.
+- **Say what the software actually does today.** An honest limit is worth more than a claim that cannot be checked, because the entire value of what you are building is that someone can rely on it.
 
-What it asks of an operator is specific. Sell the next step, at a price the step is worth. Put the expensive format first and say why. Measure whether they used it, not whether they bought it. Send the message that asks whether they did anything today, and mean it.
+None of this can be accelerated by a funding round, and that is the property being bought. What outlasts the correction will be the thing people already trusted before it was impressive, built patiently enough that the pop was an event in somebody else's business.
 
-None of that can be accelerated by a funding round. The pace is set by the person in front of you, and a business that wants to keep its promises has to be priced to run at that speed.
-
-> **Adoption moves at the speed of one person upgrading one habit, and a promise written against any faster clock is a promise somebody else will have to break.**
+> **The software a person's life rests on is grown one transformed person at a time, and money that needs a return before that finishes will always buy the trick instead.**
 
 ## Further Reading
 
-- [The AI Guidance Gap](/concepts/ai-guidance-gap) is the market-level version of the same mismatch: capability ships in weeks, guidance forms in years.
-- [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming) is what happens when a whole sector prices to the faster clock.
-- [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) is the work itself at the honest pace.
-- [The Goldilocks Pace](/concepts/the-goldilocks-pace) sets the speed a business should build at; this page sets the speed its customers can absorb.
-- [Too Many Early Pilots Will Drown You](/perspectives/too-many-early-pilots-will-drown-you) is the capacity constraint that follows from delivery this personal.
+- [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming) argues the correction itself; this page argues what to build given it.
+- [The AI Guidance Gap](/concepts/ai-guidance-gap) is why the human layer cannot move at the speed the valuations assume.
+- [Overclaiming AI Capability Is an Ethical Violation](/perspectives/overclaiming-ai-capability-is-an-ethical-violation) is the marketing failure mode named directly.
+- [The Goldilocks Pace](/concepts/the-goldilocks-pace) is the operating speed inside a business; this page is about the speed its customers can absorb.
+- [Progressive Automation Is the Job](/perspectives/progressive-automation-is-the-job) is the unglamorous work that accumulates into infrastructure.
