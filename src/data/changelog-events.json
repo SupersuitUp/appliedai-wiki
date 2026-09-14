@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/plugins@13d5bce7739962d506cf51930203dd5299735bc9",
+      "type": "updated",
+      "date": "2026-09-13T18:39:22-05:00",
+      "docKey": "concepts/plugins",
+      "routePath": "/concepts/plugins",
+      "section": "concepts",
+      "title": "Plugins",
+      "description": "The packaging and distribution layer for agent extensions: a per-vendor bundle of skills, commands, subagents, hooks, and MCP servers, installed from a marketplace. The plugin is the box; MCP is the cargo."
+    },
+    {
+      "id": "perspectives/be-choosy-about-who-co-evolves-your-framework@34177237e21976b5db255dfab72392d97a0d00cb",
+      "type": "new",
+      "date": "2026-09-13T08:19:43-05:00",
+      "docKey": "perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "routePath": "/perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "section": "perspectives",
+      "title": "Be Choosy About Who Co-Evolves Your Framework",
+      "description": "A framework you want others to adopt and co-evolve is shaped by whoever you let in. Every adopter's bug report is taken on faith and every pull request is taken on average, so the wrong adopters cost you bloat, and no software can be everything to everyone."
+    },
+    {
+      "id": "concepts/own-your-libraries@47c8b82cf4dd087422f5b2dc3f819eaeb48cbcee",
+      "type": "new",
+      "date": "2026-09-12T23:38:50-05:00",
+      "docKey": "concepts/own-your-libraries",
+      "routePath": "/concepts/own-your-libraries",
+      "section": "concepts",
+      "title": "Own Your Libraries",
+      "description": "Building your own software libraries used to be irrational, so everyone inherited someone else's. That calculation has flipped. A library you own carries your taste, improves every time you use it, and is waiting for you at the start of the next project."
+    },
+    {
       "id": "concepts/gates-and-hooks@495edff89e18a1ef38f708c67efc0c38cc4add04",
       "type": "updated",
       "date": "2026-09-12T20:33:07-05:00",
