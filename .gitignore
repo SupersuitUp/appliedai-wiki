@@ -23,3 +23,6 @@ static/search-index.json
 static/llms.txt
 static/llms-full.txt
 .vercel
+
+# Skill invocation ledgers are machine-local (matches freedom-dev and my-skills)
+**/invocations.jsonl
