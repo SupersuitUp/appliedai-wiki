@@ -165,7 +165,7 @@ Non-negotiables:
 
 ## Step 5: Hero comic (MANDATORY for new pages)
 
-**Every new page ships with a comic hero in the same session. Never ship text-only and offer the hero as a follow-up** (standing order from Gary, 2026-07-10). Use the `supersuit-org-comic` global skill (it bundles the canonical brand references and IP-name discipline). The image embeds as the first element after the italic definition line, with reproducible alt text, and the frontmatter gets `image: "/img/comics/<slug>.png"` (og:image rule in the parent CLAUDE.md). If generation fails after reasonable retries, tell Gary before pushing a heroless page. Only skip when editing an existing page that already has its hero.
+**Every new page ships with a comic hero in the same session. Never ship text-only and offer the hero as a follow-up** (standing order from Gary, 2026-07-10). Use the `supersuit-org-comic` global skill (it bundles the canonical brand references and IP-name discipline). The image embeds as the first element after the italic definition line, with reproducible alt text, and the frontmatter gets the same path. **The render is written as `static/img/comics/<slug>.png` and SHIPS as `.webp`:** save the PNG, then run `npm run optimize:images` in this repo, which converts it, renames the `.recipe.json` sidecar, and rewrites the embed and the frontmatter to `.webp` in one pass. `check-image-weight` in prebuild FAILS the build if you skip it, so never hand-write a `.png` path into frontmatter and leave it (og:image rule in the parent CLAUDE.md). If generation fails after reasonable retries, tell Gary before pushing a heroless page. Only skip when editing an existing page that already has its hero.
 
 ## Step 6: Sidebar
 
@@ -177,7 +177,9 @@ Most sections (`concepts`, `perspectives`, `playbooks`, `disciplines`, `roles`, 
 cd ~/Documents/github-repos/supersuit-repos/appliedai-wiki
 grep -rn "—" docs/<new-or-edited-file>     # must return nothing
 rg -n "Imagos|Magnolia|AAS|garyinparadise" docs/<file>   # no org branding / real names
-pnpm run build                              # onBrokenLinks: throw catches every dead link
+pnpm run build                              # prebuild's check-links.mjs is the real link gate
+# onBrokenLinks: throw does NOT fire in this repo; scripts/check-links.mjs in prebuild
+# resolves every in-wiki link itself and prints "no broken internal links". Read that line.
 ```
 
 Fix anything the build throws before committing. A broken cross-link fails the Vercel deploy.
@@ -185,7 +187,8 @@ Fix anything the build throws before committing. A broken cross-link fails the V
 ## Step 8: Commit and push
 
 ```bash
-git add docs/<file> [static/img/comics/<hero>.png if added]
+git add docs/<file> [static/img/comics/<hero>.webp static/img/comics/<hero>.webp.recipe.json if added]
+# a local build rewrites src/data/changelog-events.json; stage it too (parent CLAUDE.md)
 git commit -m "perspective: <Title>"    # or concept: / playbook: / etc.
 git push
 ```

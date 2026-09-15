@@ -184,18 +184,25 @@ Restoring a page whose section has since changed its naming convention (the pers
 
 ---
 
-## The broken-link check in this repo validates NOTHING (found 2026-08-09)
+## `onBrokenLinks: throw` validates NOTHING here; `scripts/check-links.mjs` is the gate
 
 `onBrokenLinks: 'throw'` is set and it catches zero broken links, because
 `src/theme/MDXComponents/A` forces `target="_blank"` on every link, so Docusaurus
-classifies all of them as external and never resolves them. **A green `pnpm build` is
-not evidence that your links work here.** 61 broken links were hiding behind it, one of
-them shipping live 404s from `disciplines/sop-execution-app/`.
+classifies all of them as external and never resolves them. 61 broken links were hiding
+behind it, one of them shipping live 404s from `disciplines/sop-execution-app/`.
 
-Until the component is fixed, verify links yourself: grep the target path under `docs/`
-before you write a link, and after a rename confirm the old slug is at zero outside
-`docusaurus.config.ts`. `bash scripts/check-cross-wiki-links.sh` still covers the
-cross-wiki half, which the build never checked either.
+**That gap is now closed by a gate that does not depend on framework behaviour.**
+`scripts/check-links.mjs` runs in `prebuild`, reads the files, resolves every in-wiki
+link itself, and fails the build on a dead one. So a green `pnpm build` IS evidence
+your in-wiki links resolve, and the line that proves it is
+`check-links: N files, N routes, no broken internal links` in the prebuild output.
+**Read that line rather than the exit code**, because it is the only part of the build
+that is actually checking.
+
+Two halves it still does not cover. **Cross-wiki `https://` links**, which are
+`bash scripts/check-cross-wiki-links.sh` (note that every `supersuit.wiki` URL returns
+401 there, because that wiki is password gated, so those are not dead). And the
+**stale link TEXT** left behind by a rename, which resolves fine and reads wrong.
 
 ## Common mistakes
 
