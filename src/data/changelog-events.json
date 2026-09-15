@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@f578223b27435a00f40eb826f52f43a8811b3b45",
+      "type": "updated",
+      "date": "2026-09-14T18:35:41-05:00",
+      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "section": "perspectives",
+      "title": "Bubble Money Cannot Build Worklife Infrastructure",
+      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+    },
+    {
       "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@8a73a34c79454922f564cdad47b66e16c19568e1",
       "type": "updated",
       "date": "2026-09-14T18:24:08-05:00",

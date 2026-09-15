@@ -1,18 +1,18 @@
 ---
 title: "Standards"
 slug: /reference/standards
-description: "Open agent-readable file formats: ALIGN.md for partnership alignment, INTEGRATE.md for wiring systems together, GENERATE.md for one-time scaffolding recipes, BOOMERANG.md for extracting build-ready material from a person, PROJECTION.json for declaring a kind of deliverable."
+description: "Open agent-readable standards: ALIGN.md for partnership alignment, INTEGRATE.md for wiring systems together, GENERATE.md for one-time scaffolding recipes, BOOMERANG.md for extracting build-ready material from a person, PROJECTION.json for declaring a kind of deliverable, brand.txt for priming an agent on a brand, and the Business Plugin conformance standard."
 ---
 
 # Standards
 
-*Open file formats designed to be parsed by AI agents, not just read by humans.*
+*Open formats and conformance standards designed to be parsed by AI agents, not just read by humans.*
 
 ---
 
 ## What lives here
 
-Six specs sit in this section. All are AI-readable file formats. All are versioned, dated, and meant to be copied into your own repos.
+Seven specs sit in this section. Six are AI-readable file formats and the seventh is a conformance standard for a package rather than for a file. All are versioned, dated, and meant to be copied into your own repos.
 
 - **[ALIGN.md](/reference/standards/align-md)**. A relational format. Describes who you are, what you value, what you bring, what you look for, and what makes you walk away. Agents on both sides cross-reference the two files to surface alignment or dealbreakers before anyone takes a call.
 - **[INTEGRATE.md](/reference/standards/integrate-md)**. A technical format. Teaches an agent how to wire one system into another, either a library into a codebase (Flavor A) or a service into your agent harness (Flavor B). The agent reads the file and executes the integration steps autonomously.
@@ -20,8 +20,9 @@ Six specs sit in this section. All are AI-readable file formats. All are version
 - **[BOOMERANG.md](/reference/standards/boomerang-md)**. An extraction format, and the family's first consumer-facing one. A prompt you hand to another person: they paste it into their own AI, it interviews them on their own time, and it writes their answers back in a structure you can build from. Every other format is read by your agent; a boomerang is a payload you give away. It often composes as the front half of a SKILL or GENERATE.
 - **[PROJECTION.json](/reference/standards/projection-json)**. An output format. Declares a KIND of deliverable: the surface it occupies, the canon it requires by kind, the slots it composes, the generator capabilities it invokes, and the invariants it is held to. Where GENERATE.md scaffolds an artifact once and SKILL.md describes a repeatable capability, a projection describes the SHAPE of an output and how to know it came out right. Its useful trick: complexity becomes a number, the count of invariants spanning more than one slot.
 - **[brand.txt](/reference/standards/brand-txt)**. A priming format. One statically-served file that makes a brand agent-ready in a single link: identity, preamble, characters roster, annotated GABRs, tokens, voice, and banned terms inlined, plus absolute URLs to every brand asset. Like `llms.txt` for a website, but for generating in a brand's voice and look. Generated at build time from an [Agentic Brand OS](/concepts/agentic-brand-os).
+- **[Business Plugin](/reference/standards/business-plugin)**. A conformance standard rather than a file format. Seven mechanically checkable requirements a plugin has to meet before someone other than its author can run the business it holds: identity, config, verbs, maps, a ship verb, tests, and a declared front door. Where the other six specs describe what one file has to contain, this one describes what a whole package has to contain, and it ships with a ratchet so a population that does not meet it can adopt it today. Built by hand in [Generate a Business Plugin](/playbooks/generate-a-business-plugin).
 
-Every format targets an AI reader. Four are read by your agent; BOOMERANG.md is pasted by another person into theirs. All are intentionally minimal at v0.x. All evolve based on real usage patterns rather than upfront design.
+Every spec targets an AI reader. Most are read by your agent; BOOMERANG.md is pasted by another person into theirs, and the Business Plugin standard is scored by a checker rather than read at all. All are intentionally minimal at v0.x. All evolve based on real usage patterns rather than upfront design.
 
 ## Why these formats exist
 
@@ -31,6 +32,7 @@ Practitioners working at the leverage layer keep running into the same coordinat
 2. **How do I wire this thing into my system?** INTEGRATE.md gives an agent a runnable recipe instead of a tutorial aimed at humans.
 3. **How do I scaffold this new thing from scratch?** GENERATE.md gives an agent a one-time recipe to bootstrap an artifact (a wiki, a workspace, a project) with the right inputs gathered through an interview.
 4. **How do I get what I need out of someone else's head?** BOOMERANG.md gives them a prompt that interviews them async and returns build-ready material to you.
+5. **Could anyone but me run this business?** The Business Plugin standard answers it as a score rather than as an opinion, and names the requirement each gap is about.
 
 All are designed to be forkable. Copy the format, publish your own, and the format spreads through bilateral use.
 
@@ -40,4 +42,5 @@ All are designed to be forkable. Copy the format, publish your own, and the form
 - [INTEGRATE.md](/reference/standards/integrate-md): The system integration format
 - [GENERATE.md](/reference/standards/generate-md): The one-time scaffolding format
 - [BOOMERANG.md](/reference/standards/boomerang-md): The consumer-facing extraction format
+- [Business Plugin](/reference/standards/business-plugin): The conformance standard for a business's own package of verbs
 - [Voice Rules](/reference/voice-rules): The house style these specs are written in
