@@ -196,6 +196,20 @@
   background: transparent;
 }
 
+/* A blockquote's inner paragraph keeps the `.markdown p` bottom margin, and
+   that margin sits INSIDE the left rule, so every quote hangs a phantom blank
+   line off its end. Measured 2026-09-15 on supersuit.wiki: 4px of space above
+   the text, 25.6px below, against a 27.2px line. Zeroing the OUTER margins
+   makes the rule wrap the text evenly; the gap BETWEEN paragraphs of a
+   multi-paragraph quote is untouched, because only first/last child match. */
+.markdown blockquote > :first-child {
+  margin-top: 0;
+}
+
+.markdown blockquote > :last-child {
+  margin-bottom: 0;
+}
+
 /* ============================
    Inline code
    ============================ */
