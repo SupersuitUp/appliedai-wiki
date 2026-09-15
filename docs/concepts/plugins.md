@@ -63,5 +63,6 @@ The permanent counterpart is one plugin per business. A business is a small set 
 - [Agent Rule Files](/concepts/agent-rule-files)
 - [Hyperlocal Skills](/concepts/hyperlocal-skills)
 - [The Business Plugin](https://agenticbusiness.wiki/concepts/the-business-plugin): one plugin per business, holding its verbs; the permanent counterpart to a campaign plugin
+- [Business Plugin Standard](/reference/standards/business-plugin): the seven requirements that decide whether one of those packages is runnable by anyone but its author
 - [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning)
 - [Harness Engineering](/disciplines/harness-engineering)

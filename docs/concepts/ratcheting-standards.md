@@ -57,6 +57,7 @@ They differ in what is accumulating. The determinism ratchet accumulates settled
 ## Further Reading
 
 - [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the general case, and the other sense of the ratchet.
+- [Business Plugin](/reference/standards/business-plugin): a standard that ships with a ratchet, and the three rules that keep its baseline from becoming a place to hide.
 - [Prompt Guards](/concepts/prompt-guards): the same chokepoint reasoning applied to prompts instead of code.
 - [The More Capable the Agent, the More Guardrails It Needs](/perspectives/capable-agents-need-more-guardrails): why enforcement has to scale with capability.
 - [Deny Rules Are Not a Wall](/perspectives/deny-rules-are-not-a-wall): where enforcement has to stop being a rule and become a removed capability.
