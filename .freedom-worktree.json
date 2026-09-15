@@ -1,0 +1,6 @@
+{
+  "reason": "This wiki's checkout is SHARED, and it is read by machinery outside it. Every Freedom session that changes a skill has to regenerate this wiki's pages, so this is one of the repos the most sessions write at once, and freedom-dev's page check runs the generator against whatever is sitting in this working tree. That means one session's uncommitted regeneration fails another session's release, naming a page that has nothing to do with the session being blocked. On 2026-09-14 a peer's in-flight `read-my-call-log` pages blocked a release carrying an unrelated fix. Work in a worktree and the collision cannot happen.",
+  "afterEnterWorktree": "Export FREEDOM_WIKI=<your worktree path> before running anything in freedom-dev that checks or regenerates wiki pages. `findWikis` reads FREEDOM_WIKI first, so this points the check at YOUR tree instead of the shared checkout; without it the check still reads the shared one and the isolation buys you nothing.",
+  "allow": [],
+  "allowWhy": "Nothing is writable on main. Page regeneration, content edits and the plain-language twins are all exactly the contended writes this gate exists to move off the shared tree, so there is no release-flow exception here of the kind freedom-dev needs."
+}
