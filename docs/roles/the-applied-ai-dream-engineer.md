@@ -75,7 +75,7 @@ The shared ancestor of all four roles is the observation that [execution is no l
 
 ## Patient zero
 
-The role scales by demonstration, because [demonstration is the highest-bandwidth spec](/perspectives/demonstration-is-the-highest-bandwidth-spec). The dream engineer picks one high-stakes person, multiplies them end to end, and lets the result speak: the executive who reclaimed 40 percent of their work life and spent it on the creative work they had deferred for a decade, the strategist who now stacks advisory seats because synthesis takes hours instead of weeks.
+The role scales by demonstration, because [demonstration is the highest-bandwidth spec](/perspectives/demonstration-is-the-highest-bandwidth-spec). The dream engineer picks one high-stakes person, multiplies them end to end, and lets the result speak: the executive who reclaimed 40 percent of their working hours and spent it on the creative work they had deferred for a decade, the strategist who now stacks advisory seats because synthesis takes hours instead of weeks.
 
 That first multiplied person is patient zero. Their testimony recruits the next one, and the playbooks extracted from each engagement become the academy, the certification, the book. The ambition is not one dream engineer with many clients. It is many multiplied people, some of whom turn around and learn the role themselves.
 

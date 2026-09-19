@@ -6,7 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "init": "bash scripts/init-wiki.sh",
-    "prebuild": "node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs && node scripts/check-links.mjs && node scripts/check-image-weight.mjs && node scripts/check-image-provenance.mjs",
+    "prebuild": "node scripts/check-retired-words.mjs && node scripts/check-admonitions.mjs && node scripts/llms-txt-env.mjs && node scripts/check-links.mjs && node scripts/check-image-weight.mjs && node scripts/check-image-provenance.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -26,7 +26,8 @@
     "test:provenance": "node scripts/test-image-provenance.mjs",
     "template:version": "node scripts/check-template-version.mjs",
     "test:template-version": "node --test scripts/check-template-version.test.mjs",
-    "test:share": "node --import ./scripts/ts-resolve-hooks.mjs --test src/share/*.test.ts plugins/share-view-plugin/src/*.test.ts"
+    "test:share": "node --import ./scripts/ts-resolve-hooks.mjs --test src/share/*.test.ts plugins/share-view-plugin/src/*.test.ts",
+    "test:retired-words": "node --test scripts/check-retired-words.test.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.1",

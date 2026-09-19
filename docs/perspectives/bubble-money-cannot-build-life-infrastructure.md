@@ -1,21 +1,21 @@
 ---
-title: "Bubble Money Cannot Build Worklife Infrastructure"
-slug: /perspectives/bubble-money-cannot-build-worklife-infrastructure
-description: "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
-image: "/img/comics/bubble-money-cannot-build-worklife-infrastructure.webp"
+title: "Bubble Money Cannot Build Life Infrastructure"
+slug: /perspectives/bubble-money-cannot-build-life-infrastructure
+description: "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+image: "/img/comics/bubble-money-cannot-build-life-infrastructure.webp"
 ---
 
-# Bubble Money Cannot Build Worklife Infrastructure
+# Bubble Money Cannot Build Life Infrastructure
 
-*The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble.*
+*The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble.*
 
-![Four-panel warm editorial strip on a cream ground. Title bar reads "BUBBLE MONEY CANNOT BUILD WORKLIFE INFRASTRUCTURE"; footer bar reads "ONE PERSON TEACHES THE NEXT". Panel one, captioned "THE CLOCK SETS THE BUDGET": three seated figures in business clothes, seen from behind, look up at a wall holding a large clock whose hands are blurred with speed and an unlabelled steep rising curve. Panel two, captioned "SO THE PRODUCT BECOMES A TRICK": a trade-show booth under a blank banner, where one of those figures presents a laptop turned outward on a pedestal to a small clapping crowd. That laptop glows VERMILION RED, and inside its screen the small rounded figures in gold caps are juggling rings for the audience rather than working. Panel three, captioned "THE MONEY GOES": the same booth, empty and dim, the pedestal bare, the banner blank, torn red and white paper on the floor, nobody there. Panel four, captioned "WHAT WAS BUILT SLOWLY IS STILL THERE": an ordinary desk by a window, where a woman in an olive sweater sits with her back to us, nearest the camera, both hands on the keyboard of a laptop that glows SLATE BLUE, its screen facing her, a figure in a gold cap and two smaller helpers working calmly inside it. An older man in a grey cardigan sits beside her with his own laptop just beginning to glow the same blue.](/img/comics/bubble-money-cannot-build-worklife-infrastructure.webp)
+![Four-panel warm editorial strip on a cream ground. Title bar reads "BUBBLE MONEY CANNOT BUILD LIFE INFRASTRUCTURE"; footer bar reads "ONE PERSON TEACHES THE NEXT". Panel one, captioned "THE CLOCK SETS THE BUDGET": three seated figures in business clothes, seen from behind, look up at a wall holding a large clock whose hands are blurred with speed and an unlabelled steep rising curve. Panel two, captioned "SO THE PRODUCT BECOMES A TRICK": a trade-show booth under a blank banner, where one of those figures presents a laptop turned outward on a pedestal to a small clapping crowd. That laptop glows VERMILION RED, and inside its screen the small rounded figures in gold caps are juggling rings for the audience rather than working. Panel three, captioned "THE MONEY GOES": the same booth, empty and dim, the pedestal bare, the banner blank, torn red and white paper on the floor, nobody there. Panel four, captioned "WHAT WAS BUILT SLOWLY IS STILL THERE": an ordinary desk by a window, where a woman in an olive sweater sits with her back to us, nearest the camera, both hands on the keyboard of a laptop that glows SLATE BLUE, its screen facing her, a figure in a gold cap and two smaller helpers working calmly inside it. An older man in a grey cardigan sits beside her with his own laptop just beginning to glow the same blue.](/img/comics/bubble-money-cannot-build-life-infrastructure.webp)
 
 ---
 
-## Worklife infrastructure cannot be shipped
+## Life infrastructure cannot be shipped
 
-**[Worklife infrastructure](https://supersuit.wiki/concepts/worklife-infrastructure)** is software a person's work and life both run on. Not a tool they try, a layer they route their judgment, their context, and their relationships through, and keep routing through for years. The definition is argued on the category's own wiki; what matters here is the consequence for anyone trying to build one.
+**[Life infrastructure](https://supersuit.wiki/concepts/life-infrastructure)** is software a person's whole life runs on. Not a tool they try, a layer they route their judgment, their context, and their relationships through, and keep routing through for years. The definition is argued on the category's own wiki; what matters here is the consequence for anyone trying to build one.
 
 A thing with that job cannot be launched. It has to accumulate: their material, their corrections, their preferences, their trust, deposited over months of ordinary use until removing it would cost them something real.
 
@@ -39,7 +39,7 @@ None of this requires anyone to be dishonest. Point the incentive at a date and 
 
 The valuations assume a transformation that the human layer cannot deliver on the implied schedule. That gap has a name, the [AI Guidance Gap](/concepts/ai-guidance-gap), and the consequence is argued in full at [The Magnificent Crash Is Coming](/perspectives/the-magnificent-crash-is-coming).
 
-What matters here is what the correction selects for. It does not sort by how good the technology was. It sorts by who still has a reason to exist when the money stops being free: the ones whose users would notice if they disappeared. A gimmick has no such user. Worklife infrastructure is nothing but such users.
+What matters here is what the correction selects for. It does not sort by how good the technology was. It sorts by who still has a reason to exist when the money stops being free: the ones whose users would notice if they disappeared. A gimmick has no such user. Life infrastructure is nothing but such users.
 
 So the pop is not a risk to plan around. It is the event that clears the field of everything that was only there for the money.
 
