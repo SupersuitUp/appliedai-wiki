@@ -57,7 +57,8 @@ const config: Config = {
         // old /foundations/* (or moved /concepts|/disciplines) link resolves
         // to the page's new home instead of 404ing.
         redirects: [
-          { from: '/perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table', to: '/perspectives/bubble-money-cannot-build-worklife-infrastructure' },
+          { from: '/perspectives/adoption-should-be-paced-by-the-person-not-the-cap-table', to: '/perspectives/bubble-money-cannot-build-life-infrastructure' },
+          { from: '/perspectives/bubble-money-cannot-build-worklife-infrastructure', to: '/perspectives/bubble-money-cannot-build-life-infrastructure' },
           {
             from: '/perspectives/if-your-judgment-does-not-beat-the-default-that-is-information',
             to: '/perspectives/beating-the-default-is-table-stakes',

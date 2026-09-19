@@ -39,7 +39,7 @@ Redesign without that reading is how you ruin the thing you were trying to help.
 
 ## Aim for flow at the highest impact
 
-The positive target is not a slightly less painful version of the same grind. It is a work life that is genuinely good to be inside: one that keeps you in flow, pointed at the highest impact you can make, leveraging the specific skills that are yours and nobody else's. Those skills are the reason you are in the seat. A workflow that spends your hours on drudgery is spending the one input it cannot replace on the one thing it should never touch.
+The positive target is not a slightly less painful version of the same grind. It is a working week that is genuinely good to be inside: one that keeps you in flow, pointed at the highest impact you can make, leveraging the specific skills that are yours and nobody else's. Those skills are the reason you are in the seat. A workflow that spends your hours on drudgery is spending the one input it cannot replace on the one thing it should never touch.
 
 Designing for flow is not indulgence. Flow is where your best judgment and your best craft actually come out. The operator who protects it ships more of what matters, not less.
 
