@@ -1,11 +1,50 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/plugins@a1aa285e3ac01fd382ee465f2e1b229387e2e18b",
+      "type": "updated",
+      "date": "2026-09-14T21:44:17-05:00",
+      "docKey": "concepts/plugins",
+      "routePath": "/concepts/plugins",
+      "section": "concepts",
+      "title": "Plugins",
+      "description": "The packaging and distribution layer for agent extensions: a per-vendor bundle of skills, commands, subagents, hooks, and MCP servers, installed from a marketplace. The plugin is the box; MCP is the cargo."
+    },
+    {
+      "id": "concepts/ratcheting-standards@a1aa285e3ac01fd382ee465f2e1b229387e2e18b",
+      "type": "updated",
+      "date": "2026-09-14T21:44:17-05:00",
+      "docKey": "concepts/ratcheting-standards",
+      "routePath": "/concepts/ratcheting-standards",
+      "section": "concepts",
+      "title": "Ratcheting Standards",
+      "description": "A check that records how many violations a codebase already has and fails only when the number goes up. Lets you adopt a standard today on a codebase that does not meet it, without blocking on a cleanup you will keep postponing."
+    },
+    {
+      "id": "playbooks/generate-a-business-plugin@a1aa285e3ac01fd382ee465f2e1b229387e2e18b",
+      "type": "new",
+      "date": "2026-09-14T21:44:17-05:00",
+      "docKey": "playbooks/generate-a-business-plugin",
+      "routePath": "/playbooks/generate-a-business-plugin",
+      "section": "playbooks",
+      "title": "Generate a Business Plugin"
+    },
+    {
+      "id": "reference/standards/business-plugin@a1aa285e3ac01fd382ee465f2e1b229387e2e18b",
+      "type": "new",
+      "date": "2026-09-14T21:44:17-05:00",
+      "docKey": "reference/standards/business-plugin",
+      "routePath": "/reference/standards/business-plugin",
+      "section": "reference",
+      "title": "Business Plugin",
+      "description": "A conformance standard for the package a business ships its own verbs in. Seven mechanically checkable requirements, what each one proves, what conformance means, and a ratchet that lets a machine full of non-conforming plugins adopt it today."
+    },
+    {
       "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@f578223b27435a00f40eb826f52f43a8811b3b45",
       "type": "updated",
       "date": "2026-09-14T18:35:41-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
       "title": "Bubble Money Cannot Build Worklife Infrastructure",
       "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
@@ -15,7 +54,7 @@
       "type": "updated",
       "date": "2026-09-14T18:24:08-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
       "title": "Bubble Money Cannot Build Worklife Infrastructure",
       "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
@@ -25,40 +64,40 @@
       "type": "updated",
       "date": "2026-09-14T18:23:51-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
+      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
     },
     {
       "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@f3711fb134b4965540af21d2813fa3a738532fdb",
       "type": "updated",
       "date": "2026-09-14T18:10:54-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
+      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
     },
     {
       "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@3cf1135759fd42407b2d3e231f8cd12d5c16059f",
       "type": "updated",
       "date": "2026-09-14T18:04:59-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
+      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
     },
     {
       "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@5b9a17cbbd79a9e361af0cc0e0723699c502f095",
       "type": "new",
       "date": "2026-09-14T17:54:56-05:00",
       "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "/perspectives/bubble-money-cannot-build-worklife-infrastructure",
+      "routePath": "",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
+      "description": "Two clocks are running on AI adoption. One is how fast a person can change a habit. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
     },
     {
       "id": "concepts/plugins@13d5bce7739962d506cf51930203dd5299735bc9",
