@@ -1,7 +1,9 @@
 {
   "words": [
     { "name": "worklife", "pattern": "\\bwork[- ]?life\\b|\\bwork/life\\b|\\bworklives\\b", "since": "2026-09-19",
-      "use": "life infrastructure (the thing), life engineering (the practice), work (the narrow sense)" }
+      "use": "life infrastructure (the thing), life engineering (the practice), work (the narrow sense)" },
+    { "name": "jarvis", "pattern": "\\bjarvis\\b", "since": "2026-09-02",
+      "use": "Freeda (the agent), Freedom (the software)" }
   ],
   "exempt": ["src/data/changelog-events.json", "static/**/*.recipe.json"]
 }
