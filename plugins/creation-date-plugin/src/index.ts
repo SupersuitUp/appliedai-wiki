@@ -1,56 +1,17 @@
 import type { Plugin, LoadContext, PluginOptions } from '@docusaurus/types';
-import * as path from 'path';
-import * as fs from 'fs';
-import {
-  collectChangeEvents,
-  isShallowClone,
-  sortNewestFirst,
-  type ChangeEvent,
-} from './collect';
+import type { ChangeEvent, PageDates } from './collect';
+import { loadHistory, undatedPages, SNAPSHOT_RELATIVE_PATH } from './snapshot';
 
-interface CreationDatePluginContent {
+export interface CreationDatePluginContent {
+  /** The changelog stream: newest first, meta pages excluded. */
   changeEvents: ChangeEvent[];
+  /** Created / Updated for every built page, keyed by docKey. See collect.ts. */
+  pageDates: Record<string, PageDates>;
 }
 
-// Vercel's build container clones the repo SHALLOW and with NO git remote, so
-// `git remote -v` is empty there, any fetch dies with "'origin' does not appear
-// to be a git repository", and `git fetch --unshallow` exits 0 having done
-// nothing. (Verified on way-of-fire-wiki, 2026-07-26. Earlier versions of this
-// recipe told you to unshallow in the build command; that never worked.)
-// History older than the clone's window is unreachable at build time.
-//
-// So history rides along in the repo. On a full clone (a laptop) the plugin
-// writes what git shows into the snapshot below; on a shallow clone it leaves
-// the snapshot alone and merges it with whatever recent git it can see, live
-// git winning on collision so titles track the working tree. Commit the
-// snapshot when it changes: it is what makes /changelog show more than the
-// last few weeks in production.
-const SNAPSHOT_RELATIVE_PATH = 'src/data/changelog-events.json';
-
-function readSnapshot(siteDir: string): ChangeEvent[] {
-  const file = path.join(siteDir, SNAPSHOT_RELATIVE_PATH);
-  if (!fs.existsSync(file)) return [];
-  try {
-    const parsed = JSON.parse(fs.readFileSync(file, 'utf-8'));
-    return Array.isArray(parsed?.changeEvents) ? parsed.changeEvents : [];
-  } catch {
-    return [];
-  }
-}
-
-function writeSnapshot(siteDir: string, events: ChangeEvent[]): void {
-  if (events.length === 0) return;
-  const file = path.join(siteDir, SNAPSHOT_RELATIVE_PATH);
-  const next = `${JSON.stringify({ changeEvents: events }, null, 2)}\n`;
-  const previous = fs.existsSync(file) ? fs.readFileSync(file, 'utf-8') : '';
-  if (previous === next) return;
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, next);
-  console.log(
-    `[changelog] snapshot refreshed with ${events.length} events, commit ${SNAPSHOT_RELATIVE_PATH}`,
-  );
-}
-
+// Git history in, two things out: the event stream /changelog renders and the
+// per-page dates every article shows under its title. How the snapshot keeps
+// production honest on Vercel's shallow clone is explained in snapshot.ts.
 export default function creationDatePlugin(
   context: LoadContext,
   _options: PluginOptions,
@@ -59,18 +20,23 @@ export default function creationDatePlugin(
     name: 'creation-date-plugin',
 
     async loadContent() {
-      const siteDir = context.siteDir;
-      const fromGit = collectChangeEvents(siteDir);
-
-      // Only a full clone may rewrite the snapshot. A shallow one would
-      // replace deep history with its own truncated window.
-      if (!isShallowClone(siteDir)) writeSnapshot(siteDir, fromGit);
-
-      const byId = new Map<string, ChangeEvent>();
-      for (const event of readSnapshot(siteDir)) byId.set(event.id, event);
-      for (const event of fromGit) byId.set(event.id, event);
-
-      return { changeEvents: sortNewestFirst([...byId.values()]) };
+      const history = loadHistory(context.siteDir);
+      if (history.wroteSnapshot) {
+        console.log(
+          `[changelog] snapshot refreshed with ${history.changeEvents.length} events and ${Object.keys(history.pageDates).length} dated pages, commit ${SNAPSHOT_RELATIVE_PATH}`,
+        );
+      }
+      // On the build host this is the only place the drift is visible: a page
+      // with no dates renders nothing, silently, and nobody sees a blank line.
+      if (history.shallow) {
+        const undated = undatedPages(history, history.liveDocKeys ?? []);
+        if (undated.length > 0) {
+          console.warn(
+            `[changelog] shallow clone: ${undated.length} page(s) have no Created/Updated dates because ${SNAPSHOT_RELATIVE_PATH} predates them and their commits are outside the clone window. Run \`wiki refresh-dates\` (or install the pre-commit hook with \`wiki install-hooks\`) and commit the snapshot:\n  ${undated.join('\n  ')}`,
+          );
+        }
+      }
+      return { changeEvents: history.changeEvents, pageDates: history.pageDates };
     },
 
     async contentLoaded({ content, actions }) {
