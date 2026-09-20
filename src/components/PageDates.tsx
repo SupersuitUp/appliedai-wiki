@@ -2,14 +2,18 @@ import React from 'react';
 import { useLocation } from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useGlobalData from '@docusaurus/useGlobalData';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 
-// Created / Updated for the article being read, from the same git-derived
-// event stream that feeds /changelog. Docusaurus ships `showLastUpdateTime`,
+// Created / Updated for the article being read, from the git-derived history
+// the creation-date plugin publishes. Docusaurus ships `showLastUpdateTime`,
 // but it reads git at build time, and the build host clones shallow with no
 // remote — so it reports the clone window's start date, not the truth. The
-// changelog plugin already solved that (full-clone snapshot committed to the
-// repo, merged with whatever live git the build can see), so the dates here
-// ride on a source that is correct in production.
+// plugin already solved that (full-clone snapshot committed to the repo, merged
+// with whatever live git the build can see), so the dates here ride on a source
+// that is correct in production.
+//
+// Rendered in the React tree, under the title, by DocMetaRow — so it is in the
+// static HTML, in the chrome-less share mirror, and there before hydration.
 //
 // Deliberately self-contained: it reads the plugin's global data itself rather
 // than importing from ChangelogWidget, so it drops into a wiki that has the
@@ -24,20 +28,23 @@ interface ChangeEvent {
   routePath: string; // public URL with leading slash; empty for removed pages
 }
 
-function useChangeEvents(): ChangeEvent[] {
+interface PageDatesEntry {
+  created?: string;
+  updated?: string;
+}
+
+interface PluginData {
+  changeEvents?: ChangeEvent[];
+  pageDates?: Record<string, PageDatesEntry>;
+}
+
+function usePluginData(): PluginData {
   const globalData = useGlobalData() as
     | Record<string, Record<string, unknown>>
     | undefined;
-  const data = globalData?.['creation-date-plugin']?.default as
-    | { changeEvents?: ChangeEvent[] }
-    | undefined;
-  return data?.changeEvents ?? [];
+  return (globalData?.['creation-date-plugin']?.default as PluginData | undefined) ?? {};
 }
 
-// Matching is by ROUTE, not by doc id. This component is injected into a DOM
-// slot via a portal, and reading the doc id would mean useDoc(), which throws
-// "Hook is called outside the <DocProvider>" from here. The plugin already
-// stores each event's public route, so the pathname is the natural key.
 function normalizeRoute(pathname: string, baseUrl: string): string {
   let route = pathname;
   if (baseUrl !== '/' && route.startsWith(baseUrl)) {
@@ -45,6 +52,12 @@ function normalizeRoute(pathname: string, baseUrl: string): string {
   }
   if (route.length > 1 && route.endsWith('/')) route = route.slice(0, -1);
   return route.toLowerCase();
+}
+
+/** `@site/docs/concepts/foo.md` -> `concepts/foo`, the plugin's docKey. */
+export function docKeyFromSource(source: string): string | null {
+  const m = source.match(/^@site\/[^/]+\/(.+?)\.mdx?$/);
+  return m ? m[1] : null;
 }
 
 function formatDay(iso: string): string {
@@ -65,28 +78,42 @@ interface Dates {
   updated?: string;
 }
 
+/**
+ * The dates for the doc being rendered. Looked up by the doc's SOURCE PATH
+ * first (exact, and it covers section indexes and intro pages the changelog
+ * leaves out), then by route through the changelog stream, which is what a
+ * snapshot written before `pageDates` existed still carries.
+ */
 export function usePageDates(): Dates {
-  const events = useChangeEvents();
+  const { changeEvents = [], pageDates = {} } = usePluginData();
+  const { metadata } = useDoc();
   const { pathname } = useLocation();
   const baseUrl = useBaseUrl('/');
+
+  const key = docKeyFromSource(metadata.source);
+  const byKey: Dates = (key && pageDates[key]) || {};
+
   const route = normalizeRoute(pathname, baseUrl);
-
-  const mine = events.filter(
-    (e) =>
-      e.type !== 'removed' &&
-      e.routePath &&
-      normalizeRoute(e.routePath, '/') === route,
+  const mine = changeEvents.filter(
+    (e) => e.type !== 'removed' && e.routePath && normalizeRoute(e.routePath, '/') === route,
   );
-  if (mine.length === 0) return {};
-
   // The stream is newest-first, so the last "new" event is the original birth
   // even if a page was deleted and re-added.
-  const created = [...mine].reverse().find((e) => e.type === 'new')?.date;
-  const updated = mine[0].date;
-  return { created, updated };
+  const byRoute: Dates = {
+    created: [...mine].reverse().find((e) => e.type === 'new')?.date,
+    updated: mine[0]?.date,
+  };
+
+  const at = (iso: string) => new Date(iso).getTime();
+  const earliest = (a?: string, b?: string) => (a && b ? (at(a) <= at(b) ? a : b) : a ?? b);
+  const latest = (a?: string, b?: string) => (a && b ? (at(a) >= at(b) ? a : b) : a ?? b);
+  return {
+    created: earliest(byKey.created, byRoute.created),
+    updated: latest(byKey.updated, byRoute.updated),
+  };
 }
 
-export default function PageDates(): JSX.Element | null {
+export default function PageDates(): React.JSX.Element | null {
   const { created, updated } = usePageDates();
   if (!created && !updated) return null;
 
@@ -103,7 +130,7 @@ export default function PageDates(): JSX.Element | null {
   };
 
   return (
-    <span style={style}>
+    <span className="doc-page-dates" style={style}>
       {createdDay ? (
         <>
           Created <time dateTime={created!.slice(0, 10)}>{createdDay}</time>

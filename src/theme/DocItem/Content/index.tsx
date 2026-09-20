@@ -1,66 +1,45 @@
-import React, { type ReactNode, useEffect, useState } from 'react';
-import { createPortal } from 'react-dom';
-import Content from '@theme-original/DocItem/Content';
-import type ContentType from '@theme/DocItem/Content';
-import type { WrapperProps } from '@docusaurus/types';
-import ShareButton from '@site/src/components/ShareButton';
-import PageDates from '@site/src/components/PageDates';
+import React, { type ReactNode } from 'react';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
+import Heading from '@theme/Heading';
+import MDXContent from '@theme/MDXContent';
+import type { Props } from '@theme/DocItem/Content';
+import DocMetaRow, { DocMetaPlacementContext } from '@theme/DocMetaRow';
 
-type Props = WrapperProps<typeof ContentType>;
+// theme-classic's DocItem/Content, ejected (it is fifteen lines) so the meta
+// row renders in the tree directly under the H1 instead of being portalled in
+// after hydration. Everything theme-classic does here is kept: the synthetic
+// title when frontmatter titles the page, and both cases under one
+// div.markdown block (facebook/docusaurus#4882).
+//
+// Ejected rather than wrapped because a wrapper can only put the row before or
+// after Content, and the H1 lives INSIDE Content. An instance that swizzles
+// DocItem/Content keeps using @theme-original and gets this one.
 
-// Injects the article meta row — Created / Updated dates and a Share button —
-// under the article's H1 via a portal slot.
-export default function ContentWrapper(props: Props): ReactNode {
-  const [metaSlot, setMetaSlot] = useState<HTMLElement | null>(null);
+// ThemeClassNames.docs.docMarkdown, written out so this file pulls in no second copy of
+// theme-common; it is a string constant and the class is public API.
+const DOC_MARKDOWN_CLASS = 'theme-doc-markdown';
 
-  useEffect(() => {
-    const h1 =
-      document.querySelector('article header h1') ||
-      document.querySelector('article h1') ||
-      document.querySelector('.markdown h1');
-    if (!h1) return;
+function useSyntheticTitle(): string | null {
+  const { metadata, frontMatter, contentTitle } = useDoc();
+  const shouldRender = !frontMatter.hide_title && typeof contentTitle === 'undefined';
+  if (!shouldRender) return null;
+  return metadata.title;
+}
 
-    // `.share-link-slot` is the slot's old name; clear either so a hot reload
-    // or a client-side nav never leaves two rows stacked under the title.
-    for (const stale of h1.parentElement?.querySelectorAll(
-      '.doc-meta-slot, .share-link-slot',
-    ) ?? []) {
-      stale.remove();
-    }
-
-    const slot = document.createElement('div');
-    slot.className = 'doc-meta-slot';
-    slot.style.cssText = 'margin-top: 0.5rem; margin-bottom: 1rem;';
-
-    h1.insertAdjacentElement('afterend', slot);
-    setMetaSlot(slot);
-
-    return () => {
-      slot.remove();
-      setMetaSlot(null);
-    };
-  }, []);
-
-  const metaRow = (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        flexWrap: 'wrap',
-        gap: '0.75rem',
-        // Spacing belongs to the row, not to the button inside it.
-        margin: '0.25rem 0 1.5rem',
-      }}
-    >
-      <PageDates />
-      <ShareButton />
-    </div>
-  );
-
+export default function DocItemContent({ children }: Props): ReactNode {
+  const syntheticTitle = useSyntheticTitle();
+  const placement = syntheticTitle ? 'after-synthetic-title' : 'after-content-h1';
   return (
-    <>
-      <Content {...props} />
-      {metaSlot ? createPortal(metaRow, metaSlot) : null}
-    </>
+    <div className={`${DOC_MARKDOWN_CLASS} markdown`}>
+      {syntheticTitle && (
+        <header>
+          <Heading as="h1">{syntheticTitle}</Heading>
+          <DocMetaRow />
+        </header>
+      )}
+      <DocMetaPlacementContext.Provider value={placement}>
+        <MDXContent>{children}</MDXContent>
+      </DocMetaPlacementContext.Provider>
+    </div>
   );
 }

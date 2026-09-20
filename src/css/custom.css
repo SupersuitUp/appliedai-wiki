@@ -140,14 +140,14 @@
    Italic definition line under H1
    ============================ */
 
-.markdown h1 + p > em:only-child,
-.markdown h1 + p em:first-child:last-child {
+.markdown :is(h1, header, .doc-meta-slot) + p > em:only-child,
+.markdown :is(h1, header, .doc-meta-slot) + p em:first-child:last-child {
   font-size: 1.1rem;
   color: #555;
   line-height: 1.5;
 }
 
-.markdown h1 + p:has(> em:only-child) {
+.markdown :is(h1, header, .doc-meta-slot) + p:has(> em:only-child) {
   font-size: 1.1rem;
   color: #555;
   margin-top: 0.25rem;
@@ -445,9 +445,9 @@ button[aria-label="Copy link to this page"]:hover {
   color: #f0f0f0;
 }
 
-[data-theme='dark'] .markdown h1 + p > em:only-child,
-[data-theme='dark'] .markdown h1 + p em:first-child:last-child,
-[data-theme='dark'] .markdown h1 + p:has(> em:only-child) {
+[data-theme='dark'] .markdown :is(h1, header, .doc-meta-slot) + p > em:only-child,
+[data-theme='dark'] .markdown :is(h1, header, .doc-meta-slot) + p em:first-child:last-child,
+[data-theme='dark'] .markdown :is(h1, header, .doc-meta-slot) + p:has(> em:only-child) {
   color: #a0a0a0;
 }
 

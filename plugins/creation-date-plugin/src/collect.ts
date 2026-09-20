@@ -9,6 +9,23 @@ import { execSync } from 'child_process';
 // same stream, so the widget is always exactly the top N of the changelog.
 export type ChangeType = 'new' | 'updated' | 'removed';
 
+/** Created / Updated for ONE live page, keyed by its docKey (docs-relative path, no extension,
+ *  number prefixes intact). Computed BEFORE the changelog exclusions, because a section index or
+ *  an intro page has a birthday even though the changelog must not list it. */
+export interface PageDates {
+  created?: string; // ISO8601 date of the commit that added the file (or its pre-rename self)
+  updated?: string; // ISO8601 date of the newest commit that touched it
+}
+
+export interface History {
+  changeEvents: ChangeEvent[];
+  pageDates: Record<string, PageDates>;
+  /** Every page in the working tree that is built (not draft, not hidden). Live git only; never in the snapshot. */
+  liveDocKeys?: string[];
+  /** The public route of every live page, so a snapshot row can be checked against what is served. */
+  liveRoutePaths?: string[];
+}
+
 export interface ChangeEvent {
   id: string; // unique React key: docKey@commitHash
   type: ChangeType;
@@ -119,8 +136,24 @@ function routePathFor(slug: string | undefined, docKey: string): string {
  * merges this with the committed snapshot rather than trusting it alone.
  */
 export function collectChangeEvents(siteDir: string): ChangeEvent[] {
+  return collectHistory(siteDir).changeEvents;
+}
+
+/**
+ * The change events AND the per-page dates, from the same walk of git history.
+ *
+ * The two differ only in what they keep. The changelog drops meta pages (section indexes,
+ * intro, the changelog itself) so it never lists itself; a page's own Created / Updated line
+ * has no such reason, so pageDates is recorded for every live, non-draft, non-hidden page.
+ *
+ * On a shallow clone `created` comes ONLY from a genuine "new" event inside the window: the
+ * oldest visible commit of a page that predates the window is an edit, and calling that its
+ * birthday would be a confident lie on every page the snapshot does not cover.
+ */
+export function collectHistory(siteDir: string): History {
   const docsDir = path.join(siteDir, 'docs');
-  if (!fs.existsSync(docsDir)) return [];
+  const empty: History = { changeEvents: [], pageDates: {} };
+  if (!fs.existsSync(docsDir)) return empty;
 
   // Metadata for files that still exist, read from the working tree.
   const currentMeta = new Map<
@@ -193,7 +226,7 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
       { cwd: siteDir, encoding: 'utf-8', maxBuffer: 128 * 1024 * 1024 },
     );
   } catch {
-    return [];
+    return empty;
   }
 
   // A page hidden with a leading "_" (on the file or on a parent folder) is
@@ -233,8 +266,12 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
   // the working tree in exactly one direction: a docKey present in
   // `currentMeta` is live and is never suppressed by history. A page that was
   // hidden and then deleted has no `currentMeta` entry, so it stays suppressed,
-  // which is the case the path rule exists for.
+  // which is the case the path rule exists for. (appliedai-wiki, 2026-08-12,
+  // unhiding nine drafts; lifted into the package 2026-09-20.)
+  // A file that STILL carries the underscore is in the tree and is not live, so
+  // it must not unhide itself.
   for (const docKey of currentMeta.keys()) {
+    if (docKey.split('/').some((s) => s.startsWith('_'))) continue;
     hiddenDocKeys.delete(bareKey(docKey));
     const leaf = draftLeaf(docKey);
     if (leaf) hiddenLeafKeys.delete(leaf);
@@ -271,7 +308,10 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     return meta;
   };
 
-  const boundaryCommits = shallowBoundaryCommits(siteDir);
+  const shallow = isShallowClone(siteDir);
+  const boundaryCommits = shallow ? shallowBoundaryCommits(siteDir) : new Set<string>();
+  const pageDates: Record<string, PageDates> = {};
+  const earliestAnyEvent: Record<string, string> = {};
 
   // A renamed page keeps its history, but git reports that history under
   // whatever path the file had AT THE TIME. Left alone, a page renamed today
@@ -341,7 +381,6 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
       if (fromKey && fromKey !== docKey) renameAlias.set(fromKey, docKey);
     }
 
-    if (isExcluded(docKey)) continue;
     // A page currently marked draft is invisible everywhere, including here:
     // drop all of its history, including events recorded under an older path
     // it has since moved away from.
@@ -351,6 +390,18 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     if (hiddenDocKeys.has(bareKey(docKey))) continue;
     const movedLeaf = draftLeaf(docKey);
     if (movedLeaf && draftLeafKeys.has(movedLeaf)) continue;
+
+    // The page's own dates, for every live page, before the changelog decides
+    // what it lists. The log is newest-first, so the first event seen is the
+    // newest touch and the last "new" seen is the birth.
+    if (type !== 'removed' && currentMeta.has(docKey)) {
+      const dates = (pageDates[docKey] ??= {});
+      if (!dates.updated) dates.updated = curDate;
+      if (type === 'new') dates.created = curDate;
+      earliestAnyEvent[docKey] = curDate;
+    }
+
+    if (isExcluded(docKey)) continue;
     const section = docKey.split('/')[0];
 
     if (type === 'removed') {
@@ -384,7 +435,38 @@ export function collectChangeEvents(siteDir: string): ChangeEvent[] {
     }
   }
 
-  return sortNewestFirst(events);
+  // A full clone that has no "new" event for a live page (it arrived by rename
+  // from outside docs/) still knows the oldest commit that touched it, and on a
+  // full clone that oldest commit is the truth. A shallow clone never guesses.
+  if (!shallow) {
+    for (const [docKey, dates] of Object.entries(pageDates)) {
+      if (!dates.created && earliestAnyEvent[docKey]) dates.created = earliestAnyEvent[docKey];
+    }
+  }
+
+  // Docusaurus never builds a `_`-prefixed file or folder, so those are not live pages.
+  const liveDocKeys = [...currentMeta.keys()].filter(
+    (k) => !k.split('/').some((s) => s.startsWith('_')) && !hiddenDocKeys.has(bareKey(k)),
+  );
+  const liveRoutePaths = liveDocKeys.map((k) => currentMeta.get(k)!.routePath);
+  return { changeEvents: sortNewestFirst(events), pageDates, liveDocKeys, liveRoutePaths };
+}
+
+/** Snapshot and live git, merged per page: the earliest birth and the latest touch win. */
+export function mergePageDates(
+  ...sources: Record<string, PageDates>[]
+): Record<string, PageDates> {
+  // Commit dates carry their own offsets, so compare instants, never strings.
+  const at = (iso: string) => new Date(iso).getTime();
+  const out: Record<string, PageDates> = {};
+  for (const source of sources) {
+    for (const [key, dates] of Object.entries(source)) {
+      const cur = (out[key] ??= {});
+      if (dates.created && (!cur.created || at(dates.created) < at(cur.created))) cur.created = dates.created;
+      if (dates.updated && (!cur.updated || at(dates.updated) > at(cur.updated))) cur.updated = dates.updated;
+    }
+  }
+  return out;
 }
 
 export function sortNewestFirst(events: ChangeEvent[]): ChangeEvent[] {

@@ -21,7 +21,7 @@ export const CHROME_HIDING_CSS = [
   'nav.navbar, .theme-doc-sidebar-container, .theme-doc-toc-desktop,',
   '.theme-doc-toc-mobile, .theme-doc-breadcrumbs, .breadcrumbs,',
   '.pagination-nav, footer.footer, .theme-edit-this-page, .theme-doc-footer,',
-  '.theme-doc-version-badge, .theme-last-updated, .doc-meta-slot { display: none !important; }',
+  '.theme-doc-version-badge, .theme-last-updated, .doc-meta-slot .doc-share-button { display: none !important; }',
   // With the columns hidden, cap and center the reading column. There is no <main> element in
   // this theme's markup (the wrapper is div.main-wrapper), so selectors scoped under `main`
   // silently match nothing; scope to real classes.

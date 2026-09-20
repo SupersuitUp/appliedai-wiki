@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@f2b9e9dcaba2070d32f8f2310d36b861c8497ced",
+      "type": "updated",
+      "date": "2026-09-19T12:38:46-04:00",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
+      "section": "perspectives",
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+    },
+    {
+      "id": "perspectives/pain-tolerance-for-drudgery-is-a-bug@f2b9e9dcaba2070d32f8f2310d36b861c8497ced",
+      "type": "updated",
+      "date": "2026-09-19T12:38:46-04:00",
+      "docKey": "perspectives/pain-tolerance-for-drudgery-is-a-bug",
+      "routePath": "/perspectives/pain-tolerance-for-drudgery-is-a-bug",
+      "section": "perspectives",
+      "title": "Pain Tolerance for Drudgery Is a Bug",
+      "description": "Enduring brute-force drudgery is a cost you stopped questioning, not a virtue. Redesign the workflow so you stay in flow at the highest impact, and hire the drudgery away, for yourself and for your clients."
+    },
+    {
+      "id": "roles/the-applied-ai-dream-engineer@f2b9e9dcaba2070d32f8f2310d36b861c8497ced",
+      "type": "updated",
+      "date": "2026-09-19T12:38:46-04:00",
+      "docKey": "roles/the-applied-ai-dream-engineer",
+      "routePath": "/roles/the-applied-ai-dream-engineer",
+      "section": "roles",
+      "title": "The Applied AI Dream Engineer",
+      "description": "The operator who fuses applied AI engineering with life coaching and turns a person's articulated dreams into shipped reality so fast that the bottleneck moves off execution entirely."
+    },
+    {
       "id": "concepts/plugins@a1aa285e3ac01fd382ee465f2e1b229387e2e18b",
       "type": "updated",
       "date": "2026-09-14T21:44:17-05:00",
@@ -40,64 +70,64 @@
       "description": "A conformance standard for the package a business ships its own verbs in. Seven mechanically checkable requirements, what each one proves, what conformance means, and a ratchet that lets a machine full of non-conforming plugins adopt it today."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@f578223b27435a00f40eb826f52f43a8811b3b45",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@f578223b27435a00f40eb826f52f43a8811b3b45",
       "type": "updated",
       "date": "2026-09-14T18:35:41-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@8a73a34c79454922f564cdad47b66e16c19568e1",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@8a73a34c79454922f564cdad47b66e16c19568e1",
       "type": "updated",
       "date": "2026-09-14T18:24:08-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Bubble Money Cannot Build Worklife Infrastructure",
-      "description": "The software worth building is worklife infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@0196c4da386ddf6f9b7840af35a5344608e2ae3a",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@0196c4da386ddf6f9b7840af35a5344608e2ae3a",
       "type": "updated",
       "date": "2026-09-14T18:23:51-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
-      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@f3711fb134b4965540af21d2813fa3a738532fdb",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@f3711fb134b4965540af21d2813fa3a738532fdb",
       "type": "updated",
       "date": "2026-09-14T18:10:54-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
-      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@3cf1135759fd42407b2d3e231f8cd12d5c16059f",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@3cf1135759fd42407b2d3e231f8cd12d5c16059f",
       "type": "updated",
       "date": "2026-09-14T18:04:59-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
-      "description": "Two clocks are running on AI adoption. One is how fast a person can upgrade the fundamental way they do their worklife. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
-      "id": "perspectives/bubble-money-cannot-build-worklife-infrastructure@5b9a17cbbd79a9e361af0cc0e0723699c502f095",
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@5b9a17cbbd79a9e361af0cc0e0723699c502f095",
       "type": "new",
       "date": "2026-09-14T17:54:56-05:00",
-      "docKey": "perspectives/bubble-money-cannot-build-worklife-infrastructure",
-      "routePath": "",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
       "section": "perspectives",
-      "title": "Adoption Should Be Paced by the Person, Not the Cap Table",
-      "description": "Two clocks are running on AI adoption. One is how fast a person can change a habit. The other is how fast an investor needs a return. The promises that will not be kept are the ones written against the second clock."
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
     },
     {
       "id": "concepts/plugins@13d5bce7739962d506cf51930203dd5299735bc9",
@@ -15461,5 +15491,1531 @@
       "title": "Voice Rules",
       "description": "Writing constraints every page is held to. Edit per wiki."
     }
-  ]
+  ],
+  "pageDates": {
+    "perspectives/bubble-money-cannot-build-life-infrastructure": {
+      "updated": "2026-09-19T12:38:46-04:00",
+      "created": "2026-09-14T17:54:56-05:00"
+    },
+    "perspectives/pain-tolerance-for-drudgery-is-a-bug": {
+      "updated": "2026-09-19T12:38:46-04:00",
+      "created": "2026-06-05T22:15:31-05:00"
+    },
+    "roles/the-applied-ai-dream-engineer": {
+      "updated": "2026-09-19T12:38:46-04:00",
+      "created": "2026-08-13T11:49:08-05:00"
+    },
+    "concepts/plugins": {
+      "updated": "2026-09-14T21:44:17-05:00",
+      "created": "2026-07-18T06:33:19-05:00"
+    },
+    "concepts/ratcheting-standards": {
+      "updated": "2026-09-14T21:44:17-05:00",
+      "created": "2026-07-31T20:35:54-05:00"
+    },
+    "playbooks/generate-a-business-plugin": {
+      "updated": "2026-09-14T21:44:17-05:00",
+      "created": "2026-09-14T21:44:17-05:00"
+    },
+    "reference/standards/business-plugin": {
+      "updated": "2026-09-14T21:44:17-05:00",
+      "created": "2026-09-14T21:44:17-05:00"
+    },
+    "reference/standards/index": {
+      "updated": "2026-09-14T21:44:17-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "perspectives/be-choosy-about-who-co-evolves-your-framework": {
+      "updated": "2026-09-13T08:19:43-05:00",
+      "created": "2026-09-13T08:19:43-05:00"
+    },
+    "concepts/own-your-libraries": {
+      "updated": "2026-09-12T23:38:50-05:00",
+      "created": "2026-09-12T23:38:50-05:00"
+    },
+    "concepts/gates-and-hooks": {
+      "updated": "2026-09-12T20:33:07-05:00",
+      "created": "2026-09-12T18:12:13-05:00"
+    },
+    "concepts/prompt-guards": {
+      "updated": "2026-09-12T18:12:13-05:00",
+      "created": "2026-07-26T18:18:01-05:00"
+    },
+    "roles/index": {
+      "updated": "2026-09-12T17:03:11-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/playable-harness-experience": {
+      "updated": "2026-09-12T16:51:54-05:00",
+      "created": "2026-05-25T10:30:31-05:00"
+    },
+    "concepts/agentic-project-management": {
+      "updated": "2026-09-09T15:19:57-04:00",
+      "created": "2026-07-29T14:39:45-05:00"
+    },
+    "concepts/skill-files": {
+      "updated": "2026-09-09T15:19:57-04:00",
+      "created": "2026-05-23T23:46:32-05:00"
+    },
+    "concepts/the-two-readers": {
+      "updated": "2026-09-08T13:16:19-04:00",
+      "created": "2026-09-08T13:16:19-04:00"
+    },
+    "concepts/hyperdocumented-skills": {
+      "updated": "2026-09-02T11:11:02-05:00",
+      "created": "2026-09-02T11:11:02-05:00"
+    },
+    "perspectives/give-the-agent-a-cli-not-the-database": {
+      "updated": "2026-09-02T09:12:54-05:00",
+      "created": "2026-09-02T09:12:54-05:00"
+    },
+    "concepts/coding-harness-apps": {
+      "updated": "2026-08-31T10:06:37-05:00",
+      "created": "2026-08-12T08:59:21-05:00"
+    },
+    "perspectives/the-harness-should-be-your-default-interface": {
+      "updated": "2026-08-31T10:06:37-05:00",
+      "created": "2026-08-12T08:59:21-05:00"
+    },
+    "perspectives/people-want-leverage-without-leaving-the-loop": {
+      "updated": "2026-08-29T22:45:50-05:00",
+      "created": "2026-08-29T22:45:50-05:00"
+    },
+    "concepts/agent-constellation": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-22T16:39:24-05:00"
+    },
+    "concepts/agent-experience": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-07T08:49:34-05:00"
+    },
+    "concepts/agent-rule-files": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-23T23:46:32-05:00"
+    },
+    "concepts/agentic-brand-os": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-03T16:55:51-05:00"
+    },
+    "concepts/agentic-brand-universe": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-19T15:39:20-05:00"
+    },
+    "concepts/ai-developer-workflow": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T23:25:48-05:00"
+    },
+    "concepts/ai-guidance-gap": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-24T13:58:32-05:00"
+    },
+    "concepts/ai-native-services-company": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "concepts/ai-operating-leverage": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "concepts/anxious-creativity": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-01T19:34:53-05:00"
+    },
+    "concepts/boomerang-prompt": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-08T17:12:52-05:00"
+    },
+    "concepts/business-logic-as-ai-system": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "concepts/campaign-plugins": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T22:19:43-05:00"
+    },
+    "concepts/cognitive-coverage": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-05T21:33:53-05:00"
+    },
+    "concepts/compounding-docs": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/deep-provenance": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-26T22:22:17-05:00"
+    },
+    "concepts/digital-employee": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-16T14:36:47-05:00"
+    },
+    "concepts/gain-sharing": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-05T09:20:51-05:00"
+    },
+    "concepts/generative-welcome": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T09:31:43-05:00"
+    },
+    "concepts/golden-chain": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T05:47:43-05:00"
+    },
+    "concepts/golden-examples": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T13:09:54-05:00"
+    },
+    "concepts/golden-processes": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T13:49:30-05:00"
+    },
+    "concepts/hand-rolling": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-23T13:03:40-05:00"
+    },
+    "concepts/hyperlocal-skills": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-10T16:28:54-05:00"
+    },
+    "concepts/idempotent-steps": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-30T16:40:17-05:00"
+    },
+    "concepts/in-context-learning": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T07:59:12-05:00"
+    },
+    "concepts/in-on-out-of-the-loop": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-02T14:47:35-05:00"
+    },
+    "concepts/jevons-paradox": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/just-in-time-context-collection": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T15:28:35-05:00"
+    },
+    "concepts/masturbatory-programming": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-22T14:43:17-05:00"
+    },
+    "concepts/neurosymbolic-ai": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-25T21:23:05-05:00"
+    },
+    "concepts/paving-the-desire-path": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-30T09:24:18-05:00"
+    },
+    "concepts/project-resumability": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-29T19:56:26-05:00"
+    },
+    "concepts/references-first-illustration": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-16T16:44:08-05:00"
+    },
+    "concepts/remote-harness-control": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-23T17:47:49-05:00"
+    },
+    "concepts/reverse-centaur": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-28T09:00:36-05:00"
+    },
+    "concepts/seat-wrapper": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-01T22:19:12-05:00"
+    },
+    "concepts/self-improving-artifacts": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "concepts/self-improving-skills": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-14T14:07:17-05:00"
+    },
+    "concepts/sovereignty": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T19:56:00-05:00"
+    },
+    "concepts/spare-cycles": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T15:40:57-05:00"
+    },
+    "concepts/spikes": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-24T08:38:16-05:00"
+    },
+    "concepts/the-ai-question": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-24T13:58:32-05:00"
+    },
+    "concepts/the-alignment-stack": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-11T08:16:38-05:00"
+    },
+    "concepts/the-billing-adapter": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T11:01:02-05:00"
+    },
+    "concepts/the-corpus-and-the-projection": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-24T08:39:38-05:00"
+    },
+    "concepts/the-correction-seam": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-11T05:35:13-05:00"
+    },
+    "concepts/the-doctor-pattern": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-25T18:38:36-05:00"
+    },
+    "concepts/the-goldilocks-pace": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T15:53:09-05:00"
+    },
+    "concepts/the-harness-and-the-deployment": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T13:38:42-05:00"
+    },
+    "concepts/the-imagination-economy": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-07T16:17:21-05:00"
+    },
+    "concepts/the-moat-layer": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-22T10:53:42-05:00"
+    },
+    "concepts/the-outcome-economy": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T10:34:56-05:00"
+    },
+    "concepts/the-outcome-frontier": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T15:57:11-05:00"
+    },
+    "concepts/the-personalizing-factory": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-29T09:20:30-05:00"
+    },
+    "concepts/the-portability-tax": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T13:38:42-05:00"
+    },
+    "concepts/the-product-as-operation": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "concepts/the-prompt-factory": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-19T05:30:48-05:00"
+    },
+    "concepts/the-renderer-and-the-payload": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-23T18:13:33-05:00"
+    },
+    "concepts/the-sam-altman-test": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "concepts/the-session-save": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T19:36:45-05:00"
+    },
+    "concepts/three-actors-of-value-creation": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T23:25:48-05:00"
+    },
+    "concepts/transformation-as-surgery": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-24T13:58:32-05:00"
+    },
+    "concepts/uncensored-inference": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "disciplines/context-engineering": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/harness-engineering": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/index": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/legible-organization": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "disciplines/sop-execution-app/case-studies/high-volume-content-studio": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/what-it-is": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/spec-writing": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "perspectives/a-bias-for-iteration-is-the-price-of-admission-now": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-08T12:11:03-05:00"
+    },
+    "perspectives/a-corpus-plus-a-form-is-most-of-the-book": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T11:42:44-05:00"
+    },
+    "perspectives/a-moved-measurable-is-the-only-proof": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-29T19:33:18-05:00"
+    },
+    "perspectives/a-startup-is-an-outcome-generator": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T10:37:53-05:00"
+    },
+    "perspectives/agents-read-readmes": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-28T13:14:00-05:00"
+    },
+    "perspectives/ai-discourse-refuses-to-name-its-political-reality": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-18T23:00:30-05:00"
+    },
+    "perspectives/ai-eats-labor-allocation": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/ai-is-your-smartest-most-coachable-friend": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-28T14:35:54-05:00"
+    },
+    "perspectives/ai-native-org-charts-put-humans-at-the-edges": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "perspectives/applied-ai-pays-off-where-fit-is-already-proven": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T10:52:27-05:00"
+    },
+    "perspectives/beating-the-default-is-table-stakes": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-23T17:44:15-04:00"
+    },
+    "perspectives/buyers-fumble-alone-before-they-hire-you": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-30T12:59:30-05:00"
+    },
+    "perspectives/capability-is-table-stakes-faithfulness-is-the-choice": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-07T13:39:30-05:00"
+    },
+    "perspectives/capable-agents-need-more-guardrails": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-24T11:43:28-05:00"
+    },
+    "perspectives/cheap-tokens-are-a-subsidy-that-will-be-withdrawn": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "perspectives/commercial-success-selects-for-truthful-models": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-24T11:08:18-05:00"
+    },
+    "perspectives/crossing-5m-revenue-re-rates-a-services-firm": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/daily-use-is-the-benchmark-that-cant-be-gamed": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T11:30:48-05:00"
+    },
+    "perspectives/demonstration-is-the-highest-bandwidth-spec": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-28T09:03:26-05:00"
+    },
+    "perspectives/deny-rules-are-not-a-wall": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-31T20:35:54-05:00"
+    },
+    "perspectives/developers-have-started-worshipping-the-build": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-19T21:25:58-05:00"
+    },
+    "perspectives/discoverability-is-a-just-in-time-problem": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-01T22:32:57-05:00"
+    },
+    "perspectives/document-and-streamline-load-bearing-workflows": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-09T13:13:35-05:00"
+    },
+    "perspectives/dont-hand-off-a-skill-until-it-one-shots": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-14T10:13:23-05:00"
+    },
+    "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T12:12:07-05:00"
+    },
+    "perspectives/engineers-are-version-shaped": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-12T16:01:40-05:00"
+    },
+    "perspectives/every-ai-business-model-has-a-different-ceiling": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/every-brand-is-a-version-controlled-universe": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-19T15:39:20-05:00"
+    },
+    "perspectives/every-company-is-quietly-sorting-its-people": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/everyone-is-paying-to-regenerate-the-same-software": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T17:37:17-05:00"
+    },
+    "perspectives/execution-is-no-longer-what-you-get-paid-for": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-23T18:52:00-05:00"
+    },
+    "perspectives/fixing-the-generator-does-not-fix-the-fleet": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-23T12:37:48-04:00"
+    },
+    "perspectives/frameworks-are-proven-by-variety-not-volume": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-23T08:57:05-05:00"
+    },
+    "perspectives/improvement-compounds-when-the-loops-nest": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-02T12:03:30-05:00"
+    },
+    "perspectives/intelligence-is-commoditized-deployment-is-the-moat": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T22:02:43-05:00"
+    },
+    "perspectives/lifestyle-or-enterprise-value-is-a-day-one-decision": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/llms-handle-judgment-code-handles-everything-else": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/mid-market-executives-are-buying-a-narrative": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/mid-markets-are-the-ai-sweet-spot": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/middle-management-is-ending": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T20:14:41-05:00"
+    },
+    "perspectives/only-frontier-models-replace-skilled-labor": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T08:06:33-05:00"
+    },
+    "perspectives/precise-procedures-are-written-for-the-agent": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T13:49:30-05:00"
+    },
+    "perspectives/progressive-automation-is-the-job": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-01T19:34:53-05:00"
+    },
+    "perspectives/rag-is-the-wrong-default-for-knowledge-bases": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-07T10:32:50-05:00"
+    },
+    "perspectives/recurring-work-belongs-in-code": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T08:04:14-05:00"
+    },
+    "perspectives/remote-control-is-incomplete-without-remote-boot": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-30T16:12:40-05:00"
+    },
+    "perspectives/small-binaries-matter": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-16T21:46:57-05:00"
+    },
+    "perspectives/software-is-disposable-context-is-the-asset": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "perspectives/some-of-every-role-should-never-be-automated": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-01T22:19:12-05:00"
+    },
+    "perspectives/sometimes-the-workflow-step-should-be-an-agent": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-14T16:00:59-05:00"
+    },
+    "perspectives/sovereignty-cannot-be-sold-at-the-expense-of-safety": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T05:54:59-05:00"
+    },
+    "perspectives/task-difficulty-does-not-predict-ai-performance": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-29T19:06:35-05:00"
+    },
+    "perspectives/the-agentic-os-ux-problem-is-a-packaging-problem": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-07T13:22:32-05:00"
+    },
+    "perspectives/the-best-judges-of-creations-should-be-training-ai": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T16:18:02-05:00"
+    },
+    "perspectives/the-best-transformations-follow-the-same-arc": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-02T14:47:35-05:00"
+    },
+    "perspectives/the-cheaper-code-gets-the-simpler-you-should-build": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-05T09:43:41-05:00"
+    },
+    "perspectives/the-evangelist-sees-the-frontier-before-the-lab-does": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-11T12:24:42-05:00"
+    },
+    "perspectives/the-generator-is-the-only-thing-worth-fixing": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-23T13:03:40-05:00"
+    },
+    "perspectives/the-magnificent-crash-is-coming": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-24T13:58:32-05:00"
+    },
+    "perspectives/the-self-improving-business-is-a-bad-meme": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-27T12:27:11-05:00"
+    },
+    "perspectives/there-is-no-standing-still-anymore": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/tokens-are-cheap-your-future-attention-is-not": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-26T13:53:30-05:00"
+    },
+    "perspectives/tokens-are-the-atomic-unit-of-ai-economics": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/too-many-early-pilots-will-drown-you": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "perspectives/trust-attaches-to-operators-with-a-named-framework": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "perspectives/variance-is-the-existential-problem": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "perspectives/vendor-resistance-is-a-revealed-preference-problem": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-05T21:58:06-05:00"
+    },
+    "perspectives/vertical-integration-is-the-moat": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T08:17:54-05:00"
+    },
+    "perspectives/weight-training-data-by-who-is-still-in-business": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-11T05:47:34-05:00"
+    },
+    "perspectives/you-are-having-the-2008-cloud-argument-again": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-22T10:22:21-05:00"
+    },
+    "perspectives/you-cannot-acquire-product-market-fit": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "perspectives/you-cannot-plan-the-upgrades-that-matter": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T06:25:05-05:00"
+    },
+    "perspectives/you-cannot-reason-about-ai-you-have-not-felt": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/you-cant-distill-your-way-to-the-frontier": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T14:14:23-05:00"
+    },
+    "perspectives/your-computer-was-always-underused": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T17:04:34-05:00"
+    },
+    "perspectives/your-edge-is-not-your-infrastructure": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T13:38:42-05:00"
+    },
+    "perspectives/your-first-touch-should-sell-the-next-step": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T18:46:39-05:00"
+    },
+    "perspectives/your-highest-leverage-writing-has-an-audience-of-one": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T08:16:02-05:00"
+    },
+    "perspectives/your-process-is-disposable-your-judgment-is-not": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T10:34:56-05:00"
+    },
+    "perspectives/your-reader-already-has-the-objection": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T18:46:39-05:00"
+    },
+    "playbooks/ai-tech-partnership-revenue-model": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "playbooks/archive-never-delete": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-19T14:28:48-05:00"
+    },
+    "playbooks/capture-first-autobiography": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-04T09:05:50-05:00"
+    },
+    "playbooks/generate-a-microautobiography": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-02T04:10:07-05:00"
+    },
+    "playbooks/generate-a-spec": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-15T09:18:36-05:00"
+    },
+    "playbooks/generate-agentic-brand-os": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-04T15:04:18-05:00"
+    },
+    "playbooks/index": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/make-every-share-link-an-invite": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-16T13:03:20-05:00"
+    },
+    "playbooks/package-the-patterns-you-copy": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-18T15:17:17-05:00"
+    },
+    "playbooks/picking-an-ai-services-market": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "playbooks/version-control-your-prompts": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-23T20:01:38-05:00"
+    },
+    "playbooks/workshop-blueprint-project-partnership-ladder": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "questions/my-assistant-cant-see-its-own-memory": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-23T17:31:39-05:00"
+    },
+    "roles/ai-guide": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-24T11:32:35-05:00"
+    },
+    "roles/ai-services-founder": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "roles/forward-deployed-engineer": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-20T22:02:43-05:00"
+    },
+    "roles/generative-experience-architect": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-07-21T13:27:12-05:00"
+    },
+    "start-here/index": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    },
+    "start-here/what-is-applied-ai": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "start-here/why-learn-to-wield-ai": {
+      "updated": "2026-08-29T07:29:14-04:00",
+      "created": "2026-08-09T10:51:16-05:00"
+    },
+    "skills/index": {
+      "updated": "2026-08-23T12:37:48-04:00",
+      "created": "2026-06-07T19:36:45-05:00"
+    },
+    "concepts/hypercontext-protocol": {
+      "updated": "2026-08-15T11:12:38-07:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/standards/boomerang-md": {
+      "updated": "2026-08-14T12:33:51-05:00",
+      "created": "2026-07-15T09:30:44-05:00"
+    },
+    "concepts/minimum-viable-infrastructure": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "note-sharers/the-primetime/index": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "perspectives/open-weights-cap-what-closed-labs-can-charge": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-06-01T22:26:21-05:00"
+    },
+    "perspectives/open-weights-win-on-bounded-work": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-08-12T19:56:00-05:00"
+    },
+    "perspectives/the-lock-in-is-coming": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "reference/glossary": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    },
+    "reference/standards/brand-txt": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-06-06T01:46:53-05:00"
+    },
+    "start-here/executive-summary": {
+      "updated": "2026-08-12T19:56:00-05:00",
+      "created": "2026-06-03T17:49:52-05:00"
+    },
+    "note-sharers/the-primetime/2026-06-12-lying-to-you": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "note-sharers/vervaeke-pageau/2026-06-12-wisdom-is-the-only-defense": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "people-to-follow/dr-errol-brandt": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "perspectives/ai-labs-speak-to-investors-not-operators": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "perspectives/loop-everything-advice-is-free-for-the-people-selling-it": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "perspectives/overclaiming-ai-capability-is-an-ethical-violation": {
+      "updated": "2026-08-12T18:01:27-05:00",
+      "created": "2026-08-12T17:54:33-05:00"
+    },
+    "note-sharers/index": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "people-to-follow/index": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "perspectives/acceleration-is-not-completion": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-06-12T09:48:59-05:00"
+    },
+    "perspectives/ai-fluency-manufactures-false-confidence": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/simple-harnesses-keep-winning": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "perspectives/the-harness-is-the-thing-worth-learning": {
+      "updated": "2026-08-12T17:54:33-05:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "disciplines/evals": {
+      "updated": "2026-08-12T12:12:07-05:00",
+      "created": "2026-05-15T11:45:23-05:00"
+    },
+    "perspectives/you-are-the-bottleneck": {
+      "updated": "2026-08-12T12:12:07-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/local-first-software": {
+      "updated": "2026-08-12T08:59:21-05:00",
+      "created": "2026-06-21T20:29:49-05:00"
+    },
+    "concepts/skill-file-first-app-second": {
+      "updated": "2026-08-12T08:59:21-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/sop-execution-app/anatomy": {
+      "updated": "2026-08-09T20:13:41-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "engagement-patterns/pe-fund-cascade": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-22T15:39:40-05:00"
+    },
+    "note-sharers/anonymous-ai-consultancy/2026-05-21-three-month-poc-pe-fund-cascade": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-22T15:39:40-05:00"
+    },
+    "note-sharers/board-of-innovation/2024-11-08-three-waves": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "note-sharers/bycloud/2026-05-27-deepseek-v4-cost-curse": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-01T22:26:21-05:00"
+    },
+    "note-sharers/bycloud/index": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-01T22:26:21-05:00"
+    },
+    "note-sharers/caleb-curry/2026-07-15-instructions-into-deterministic-gates": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-31T20:35:54-05:00"
+    },
+    "note-sharers/caleb-curry/index": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-31T20:35:54-05:00"
+    },
+    "note-sharers/custom-ai-studio/2026-05-25-playbook-for-100m-ai-agency": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "note-sharers/frank-coyle/2026-07-23-neurosymbolic-ai": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-25T21:23:05-05:00"
+    },
+    "note-sharers/goldratt/2026-06-29-management-attention-ultimate-constraint": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-29T20:05:19-05:00"
+    },
+    "note-sharers/goldratt/index": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-29T20:05:19-05:00"
+    },
+    "note-sharers/greg-isenberg/2026-07-20-forward-deployed-engineer": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-20T22:02:43-05:00"
+    },
+    "note-sharers/indydevdan/2026-07-18-ai-developer-workflows": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-18T23:25:48-05:00"
+    },
+    "note-sharers/the-chairman/2026-06-19-idolizing-the-build": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-19T21:25:58-05:00"
+    },
+    "note-sharers/vervaeke-pageau/index": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "note-sharers/y-combinator/2026-05-19-self-improving-company": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "note-sharers/y-combinator/2026-06-03-ai-native-services-company": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-07T11:26:57-05:00"
+    },
+    "onboarding/curriculum": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "people-to-follow/claire-vo": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-07-22T16:39:24-05:00"
+    },
+    "people-to-follow/cory-doctorow": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-28T09:00:36-05:00"
+    },
+    "people-to-follow/daniel-priestley": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-23T19:02:14-05:00"
+    },
+    "people-to-follow/satya-nadella": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-06-05T21:33:53-05:00"
+    },
+    "roles/ai-advisor-to-the-ceo": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "roles/ai-enablement-architect": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "roles/applied-ai-streamliner": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "roles/leader-as-workflow-pm": {
+      "updated": "2026-08-09T20:12:39-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "perspectives/agents-compress-work-onto-your-judgment": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/agi-is-already-here-for-people-who-can-wield-it": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/ai-is-becoming-the-thing-we-serve": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "perspectives/efficiency-wins-do-not-predict-new-category-wins": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "perspectives/generation-is-cheap-discrimination-is-the-job": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/great-work-is-a-byproduct-of-volume-plus-taste": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/knowing-ai-changes-how-you-use-it": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "perspectives/making-one-layer-cheap-just-moves-the-bottleneck": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-01T22:26:21-05:00"
+    },
+    "perspectives/model-upgrades-are-no-longer-strictly-upgrades": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/owners-near-an-exit-are-the-easiest-ai-buyers": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-30T16:47:16-05:00"
+    },
+    "perspectives/permissions-are-the-load-bearing-layer-of-a-harness": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/strategy-is-the-new-execution": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/strategy-starts-from-what-will-not-change": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "perspectives/the-chat-is-not-the-product": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/the-gui-is-becoming-legacy": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/the-human-role-splits-into-instigator-and-editor": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "perspectives/throughput-without-taste-is-a-slop-factory": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "perspectives/vice-is-quantifiable": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "perspectives/wisdom-is-the-only-durable-ai-defense": {
+      "updated": "2026-08-09T20:11:45-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "disciplines/outside-in-future-back-strategy": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "disciplines/teammate-discipline": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/ai-led-brand-interview": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/ai-opportunity-radar": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "playbooks/audit-to-sprint-to-deployment": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-07-20T22:02:43-05:00"
+    },
+    "playbooks/convert-the-pilot-to-an-engagement": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-22T15:39:40-05:00"
+    },
+    "playbooks/decompose-the-workflow": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/deploy-a-slide-deck-as-a-website": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-06-23T00:18:44-05:00"
+    },
+    "playbooks/design-a-knowledge-repo": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/dont-scale-slop": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "playbooks/engineer-the-first-hour": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "playbooks/experimental-improvement": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "playbooks/finding-clients": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "playbooks/nail-your-icp-first": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/pitch-the-pilot": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/pricing": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/scope-the-pilot": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "playbooks/stand-up-an-eval-harness-in-week-one": {
+      "updated": "2026-08-09T20:11:35-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/agentic-ux-rules": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/golden-atomic-brand-references": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-06-10T17:41:27-05:00"
+    },
+    "concepts/golden": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-07-19T15:39:20-05:00"
+    },
+    "concepts/hyperdocumented-sop": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-07-01T20:11:27-05:00"
+    },
+    "concepts/mission-harness": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/propaganda-weighted-average": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-05-28T14:50:00-05:00"
+    },
+    "concepts/roles-to-workflows": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/the-tool-agent-category-error": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "concepts/visible-thinking": {
+      "updated": "2026-08-09T20:11:26-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/command-centers": {
+      "updated": "2026-08-09T19:58:40-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "disciplines/sop-execution-app/index": {
+      "updated": "2026-08-09T19:58:40-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "perspectives/index": {
+      "updated": "2026-08-09T19:56:58-05:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "reference/quality-rubric": {
+      "updated": "2026-08-09T19:56:58-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/clips": {
+      "updated": "2026-08-09T18:54:49-05:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "disciplines/sop-execution-app/how-to-get-one-built": {
+      "updated": "2026-08-09T18:54:49-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/when-to-get-one": {
+      "updated": "2026-08-09T18:54:49-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "concepts/memory-files": {
+      "updated": "2026-08-04T15:06:27-05:00",
+      "created": "2026-05-23T23:46:32-05:00"
+    },
+    "disciplines/ontology-as-substrate": {
+      "updated": "2026-07-25T21:47:06-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "note-sharers/frank-coyle/index": {
+      "updated": "2026-07-25T21:23:05-05:00",
+      "created": "2026-07-25T21:23:05-05:00"
+    },
+    "reference/standards/projection-json": {
+      "updated": "2026-07-23T09:17:11-05:00",
+      "created": "2026-07-23T09:17:11-05:00"
+    },
+    "disciplines/anatomy-of-a-harness": {
+      "updated": "2026-07-21T13:40:43-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "note-sharers/greg-isenberg/index": {
+      "updated": "2026-07-20T22:02:43-05:00",
+      "created": "2026-07-20T22:02:43-05:00"
+    },
+    "note-sharers/anthropic/2026-05-22-beyond-the-basics-with-claude-code": {
+      "updated": "2026-07-20T07:59:12-05:00",
+      "created": "2026-07-20T07:59:12-05:00"
+    },
+    "note-sharers/anthropic/index": {
+      "updated": "2026-07-20T07:59:12-05:00",
+      "created": "2026-07-20T07:59:12-05:00"
+    },
+    "note-sharers/indydevdan/index": {
+      "updated": "2026-07-18T23:25:48-05:00",
+      "created": "2026-07-18T23:25:48-05:00"
+    },
+    "playbooks/designing-an-ai-loop": {
+      "updated": "2026-07-18T23:25:48-05:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "reference/graphic-style": {
+      "updated": "2026-07-16T14:46:48-05:00",
+      "created": "2026-05-15T22:43:25-05:00"
+    },
+    "reference/standards/generate-md": {
+      "updated": "2026-07-16T14:46:48-05:00",
+      "created": "2026-05-19T13:28:34-05:00"
+    },
+    "concepts/always-on-agents": {
+      "updated": "2026-07-16T14:32:28-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "note-sharers/custom-ai-studio/index": {
+      "updated": "2026-07-14T17:00:05-05:00",
+      "created": "2026-05-25T21:25:51-05:00"
+    },
+    "note-sharers/the-chairman/index": {
+      "updated": "2026-07-14T17:00:05-05:00",
+      "created": "2026-06-12T09:36:19-05:00"
+    },
+    "disciplines/retrieval": {
+      "updated": "2026-07-14T16:44:03-05:00",
+      "created": "2026-05-15T11:45:23-05:00"
+    },
+    "reference/tools/codex": {
+      "updated": "2026-07-14T16:44:03-05:00",
+      "created": "2026-05-15T11:45:23-05:00"
+    },
+    "questions/index": {
+      "updated": "2026-06-23T17:31:39-05:00",
+      "created": "2026-06-23T17:31:39-05:00"
+    },
+    "concepts/golden-atomic-brand-templates": {
+      "updated": "2026-06-22T22:20:06-05:00",
+      "created": "2026-06-22T22:20:06-05:00"
+    },
+    "reference/standards/align-md": {
+      "updated": "2026-06-15T12:59:22-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "reference/standards/integrate-md": {
+      "updated": "2026-06-15T12:59:22-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/pharmakeia-of-ai": {
+      "updated": "2026-06-12T13:43:28-05:00",
+      "created": "2026-06-12T10:28:31-05:00"
+    },
+    "note-sharers/the-chairman/2026-06-11-ai-transformation-resistance": {
+      "updated": "2026-06-12T09:36:19-05:00",
+      "created": "2026-06-12T09:36:19-05:00"
+    },
+    "note-sharers/y-combinator/index": {
+      "updated": "2026-06-07T11:26:57-05:00",
+      "created": "2026-05-21T13:45:59-05:00"
+    },
+    "concepts/agentic-exploration": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/context-overflow": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/context-searching": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/html-first-artifacts": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/signal-theory": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "engagement-patterns/ramp-glass": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "note-sharers/board-of-innovation/index": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-21T13:22:58-05:00"
+    },
+    "onboarding/index": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "onboarding/student-journey": {
+      "updated": "2026-06-03T17:49:52-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/sop-execution-app/case-studies/index": {
+      "updated": "2026-05-27T16:07:58-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/case-studies/video-strategy-workflow": {
+      "updated": "2026-05-27T16:07:58-05:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/truth-management/index": {
+      "updated": "2026-05-27T11:32:24-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/fat-skills": {
+      "updated": "2026-05-23T23:46:32-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/self-improving-systems": {
+      "updated": "2026-05-23T23:46:32-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "note-sharers/anonymous-ai-consultancy/index": {
+      "updated": "2026-05-22T15:39:40-05:00",
+      "created": "2026-05-22T15:39:40-05:00"
+    },
+    "perspectives/the-agent-is-the-increment": {
+      "updated": "2026-05-21T21:01:20-05:00",
+      "created": "2026-05-21T20:54:23-05:00"
+    },
+    "changelog": {
+      "updated": "2026-05-17T12:48:02-05:00",
+      "created": "2026-05-17T12:48:02-05:00"
+    },
+    "concepts/agent-accessible-products": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/integration-recipe": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/vibe-curation": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "disciplines/interview-prompts": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/tools/github-cli": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/tools/nodejs": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/tools/vscode": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "roles/agentic-os-trainer": {
+      "updated": "2026-05-15T15:53:48-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "disciplines/intent-engineering": {
+      "updated": "2026-05-15T12:09:44-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "roles/applied-ai-consultant": {
+      "updated": "2026-05-15T12:09:44-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "roles/corporate-upskiller": {
+      "updated": "2026-05-15T12:09:44-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "concepts/llms-txt": {
+      "updated": "2026-05-15T11:35:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "engagement-patterns/rostam-mahabadi": {
+      "updated": "2026-05-15T11:35:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/index": {
+      "updated": "2026-05-15T11:35:52-05:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    },
+    "reference/tools/git": {
+      "updated": "2026-05-15T11:35:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "reference/tools/homebrew": {
+      "updated": "2026-05-15T11:35:52-05:00",
+      "created": "2026-05-15T11:35:52-05:00"
+    },
+    "disciplines/observable-behavior-engineering": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/ontology-driven-development": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/prompting": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/align-before-committing": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/dont-assume-common-sense": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/empower-your-truth-manager": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/getting-started": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/maintain-coherence": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/make-every-file-count": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/make-your-company-refactorable": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/migrate-to-refactorable-systems": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/protect-your-truth": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/refactor-your-information-architecture": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/source-controller": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/start-your-company-handbook": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/truth-as-context": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/voice-transcriber": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "disciplines/truth-management/why-it-matters": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "engagement-patterns/index": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "reference/tools/claude-code": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "reference/tools/index": {
+      "updated": "2026-05-15T11:10:04-05:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    },
+    "concepts/index": {
+      "updated": "2026-05-15T11:42:40-04:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    },
+    "reference/voice-rules": {
+      "updated": "2026-05-15T11:42:40-04:00",
+      "created": "2026-05-15T11:42:40-04:00"
+    }
+  }
 }
