@@ -1,0 +1,143 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/superprompt.png",
+  "sourceRecipe": "illustrations/superprompt.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-09-22T15:15:40.450Z",
+  "asset": "static/img/comics/superprompt.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "superprompt",
+    "title": "SUPERPROMPT",
+    "labels": [
+      "One short line with nothing behind it",
+      "The same line, carried by everything she built",
+      "Four finished diagrams, checked on her phone"
+    ],
+    "beats": [
+      "BEAT ONE: A woman in her fifties with short silver hair, round tortoiseshell glasses and a muted slate-blue knit cardigan over a grey blouse sits at a wooden desk with a plain, dim, ordinary laptop that does NOT glow. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. On the dull grey screen there is only one small empty chat box with a single short typed line and nothing else. Out of the laptop drifts one blank, generic sheet of paper. She looks unimpressed. The desk is bare. No agents are present on this screen. ABSOLUTELY NOT, in every panel: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. Never the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. The same woman appears in every panel.",
+      "BEAT TWO: The same woman at the same desk, now with the glowing translucent amber supercharged laptop. Same camera: behind her right shoulder, she is nearer to the camera than the laptop, the keyboard half nearest to her, the lid tilting AWAY from the camera. INSIDE the glowing screen the Chief of Agents (a rounded character in a gold military cap) and small sub-agents stack four layers into one tall bundle: at the bottom a thick bound binder of standing instructions, above it a stack of manila folders and a transcript page, above that a fan of index cards holding procedures, and on top one tiny slip of paper carrying her short typed line. The tiny slip is visibly the smallest piece of the bundle. The layers carry no writing. She is outside the laptop in the warm room, fingers resting on the keyboard, calm. ABSOLUTELY NOT, in every panel: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. Never the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. The same woman appears in every panel.",
+      "BEAT THREE: The same woman, same camera behind her right shoulder, same amber laptop with its lid tilting away from the camera. Inside the screen the sub-agents set four finished diagrams (simple boxes and arrows, drawn cleanly) into the pages of an open draft. Outside the laptop, in her hand, she holds a phone showing one of the diagrams at small size, checking it, and she gives a small approving nod. The warm desk lamp lights the scene. ABSOLUTELY NOT, in every panel: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. Never the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. The same woman appears in every panel."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "abu"
+  },
+  "readback": {
+    "rounds": 2,
+    "overruled": false,
+    "verdicts": [
+      {
+        "assertion": "every person's eyes are open and clearly visible unless plainly asleep",
+        "verdict": "PASS",
+        "note": "The woman and all small figures have open, visible eyes; nobody appears asleep."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "PASS",
+        "note": "I see only the title and the three declared label strings; screens/pages show lines or diagrams but no extra words."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "The laptop and phone displays are angled toward the woman using them, viewed over her shoulder/side."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "There are exactly three illustrated panels."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels are arranged in one horizontal row with cream gutters and no drawn outline borders."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image is warm, painterly editorial illustration with soft brushwork, not vector, comic, photoreal, or 3D."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The palette is muted and natural, set on a warm cream background."
+      },
+      {
+        "assertion": "no identifiable recurring person's face or signature clothing is baked into the style; humans (if any) are ordinary and varied",
+        "verdict": "PASS",
+        "note": "The human subject looks like an ordinary older woman; no signature face or clothing appears baked into the style."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "All declared strings are present and spelled exactly as specified."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "PASS",
+        "note": "No additional readable text appears beyond the declared title and panel labels."
+      },
+      {
+        "assertion": "title bar and footer bar sit in the cream margin, never over the artwork",
+        "verdict": "PASS",
+        "note": "The title sits in the cream top margin; no footer text/bar is visible over the artwork."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device.",
+        "verdict": "PASS",
+        "note": "All visible device screens face the user and are seen from an over-the-shoulder or side angle, including the phone."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "The readable/display surfaces face the woman reading them; diagrams and lines are not flipped toward a wrong-side reader."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "No moving vehicle or rider/passenger is shown."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated woman has a chair, visible waist/lap area, and the table is in front of her body."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "PASS",
+        "note": "The device screens show only simple lines/diagrams, with no invented UI menus, buttons, status bars, or lettering."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"SUPERPROMPT\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The top title reads exactly \u201cSUPERPROMPT\u201d."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"One short line with nothing behind it\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \u201cOne short line with nothing behind it\u201d."
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"The same line, carried by everything she built\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \u201cThe same line, carried by everything she built\u201d."
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"Four finished diagrams, checked on her phone\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \u201cFour finished diagrams, checked on her phone\u201d."
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/superprompt.png",
+      "fromSha256": "9ff8dcc0d1bbc2ee8cf4e0d313511117a532ea3cc03d6d899babeecd494f86dd",
+      "at": "2026-09-22T15:15:40.852758+00:00"
+    }
+  ]
+}
