@@ -7,5 +7,9 @@
   "projectName": "appliedai-wiki",
   "copyright": "appliedai.wiki",
   "noindex": true,
-  "description": "Curated ground truth for practitioners applying AI to businesses at the highest leverage possible."
+  "description": "Curated ground truth for practitioners applying AI to businesses at the highest leverage possible.",
+  "hero": {
+    "stylePack": "warm-editorial-titled",
+    "outputDir": "static/img/comics"
+  }
 }
