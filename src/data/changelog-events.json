@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/playable-harness-experience@7500a4c88d5a3128dadba9e52ce8798838b800b9",
+      "type": "updated",
+      "date": "2026-09-22T11:16:37-04:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
+      "id": "concepts/superprompt@7500a4c88d5a3128dadba9e52ce8798838b800b9",
+      "type": "new",
+      "date": "2026-09-22T11:16:37-04:00",
+      "docKey": "concepts/superprompt",
+      "routePath": "/concepts/superprompt",
+      "section": "concepts",
+      "title": "Superprompt",
+      "description": "A regular prompt is the trigger. A superprompt is the trigger plus the activated system: the always-loaded baseline, the files tagged for the job, the invoked skill files, and the utterance, which is the only part supplied in the moment."
+    },
+    {
       "id": "perspectives/bubble-money-cannot-build-life-infrastructure@f2b9e9dcaba2070d32f8f2310d36b861c8497ced",
       "type": "updated",
       "date": "2026-09-19T12:38:46-04:00",
@@ -15493,6 +15513,14 @@
     }
   ],
   "pageDates": {
+    "concepts/playable-harness-experience": {
+      "updated": "2026-09-22T11:16:37-04:00",
+      "created": "2026-05-25T10:30:31-05:00"
+    },
+    "concepts/superprompt": {
+      "updated": "2026-09-22T11:16:37-04:00",
+      "created": "2026-09-22T11:16:37-04:00"
+    },
     "perspectives/bubble-money-cannot-build-life-infrastructure": {
       "updated": "2026-09-19T12:38:46-04:00",
       "created": "2026-09-14T17:54:56-05:00"
@@ -15544,10 +15572,6 @@
     "roles/index": {
       "updated": "2026-09-12T17:03:11-05:00",
       "created": "2026-05-15T11:10:04-05:00"
-    },
-    "concepts/playable-harness-experience": {
-      "updated": "2026-09-12T16:51:54-05:00",
-      "created": "2026-05-25T10:30:31-05:00"
     },
     "concepts/agentic-project-management": {
       "updated": "2026-09-09T15:19:57-04:00",

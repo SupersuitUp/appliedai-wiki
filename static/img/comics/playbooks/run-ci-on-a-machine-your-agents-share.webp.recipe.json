@@ -1,0 +1,143 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/playbooks/run-ci-on-a-machine-your-agents-share.png",
+  "sourceRecipe": "illustrations/playbooks/run-ci-on-a-machine-your-agents-share.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-09-24T21:51:15.522Z",
+  "asset": "static/img/comics/playbooks/run-ci-on-a-machine-your-agents-share.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "playbooks/run-ci-on-a-machine-your-agents-share",
+    "title": "ONE MACHINE, MANY AGENTS",
+    "labels": [
+      "ONE HUNG TEST JAMS THE LINE",
+      "THE RELEASE GOES FIRST",
+      "THE FULL RUN WAITS FOR NIGHT"
+    ],
+    "beats": [
+      "BEAT ONE: the same woman in every panel: in her mid thirties, curly auburn hair tied back, a rust-colored cardigan over a cream blouse. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. Never the laptop standing between her and the camera with its lid turned toward us. She sits at a wooden desk in daylight, holding a small sealed wooden crate on her lap, waiting. Inside the glowing translucent amber laptop screen, many small rounded agent figures stand queued in a single line before one narrow amber gate, and in the gate itself one grey agent figure sits frozen and slumped with a dull stopped clock above its head, blocking everyone. The Chief of Agents, a rounded character in a gold military cap, stands on the screen with arms spread, unable to pass.",
+      "BEAT TWO: the same woman in every panel: in her mid thirties, curly auburn hair tied back, a rust-colored cardigan over a cream blouse. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. Never the laptop standing between her and the camera with its lid turned toward us. Same desk, same daylight. Inside the screen a bright amber clock face has swung down like a crane hook and lifted the frozen grey figure out of the gate and off to one side. She has set her sealed crate on the keyboard and inside the screen that same crate is carried through the open gate first, ahead of the queue, by two agent figures, while the other agents step aside and wait.",
+      "BEAT THREE: the same woman in every panel: in her mid thirties, curly auburn hair tied back, a rust-colored cardigan over a cream blouse. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. Same room at night: through a window a crescent moon, the desk lamp off, she is asleep in an armchair beside the desk under a blanket, seen from behind and to the side. The laptop is open and dimmed to a low warm amber; inside the screen the lanes are empty and a single agent figure with a lantern walks the whole length of every lane alone, checking each station in turn."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "none (--publish)"
+  },
+  "readback": {
+    "rounds": 3,
+    "overruled": true,
+    "verdicts": [
+      {
+        "assertion": "every person's eyes are open and clearly visible unless plainly asleep",
+        "verdict": "PASS",
+        "note": "The human and the small agent figures have visible open eyes; no one appears ambiguously asleep."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "PASS",
+        "note": "I see only the title and the three declared panel labels; no readable extra words on screens, books, papers, or objects."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "Each laptop screen faces the nearby user in an over-the-shoulder/side view, not as a viewer-facing screen with the user behind it."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "There are exactly three illustrated panels."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels are arranged in one horizontal row with cream gutters and no drawn outline borders."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image uses warm painterly editorial brushwork, not flat vector, photorealistic, 3D, or comic-line styling."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The palette is muted and natural, with warm cream surrounding areas."
+      },
+      {
+        "assertion": "no identifiable recurring person's face or signature clothing is baked into the style; humans (if any) are ordinary and varied",
+        "verdict": "DEFECT",
+        "note": "The same curly-haired woman in the same rust sweater recurs across all three panels as an identifiable repeated person."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "All declared strings are present and appear character-exact."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "PASS",
+        "note": "No additional readable text beyond the declared strings is visible."
+      },
+      {
+        "assertion": "title bar and footer bar sit in the cream margin, never over the artwork",
+        "verdict": "PASS",
+        "note": "The main title sits in the cream top margin, and no footer bar is present over the artwork."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device. AND THE SECOND DEFECT, which an anatomically correct render still commits: if what the screen shows (or fails to show) is part of what this beat argues, and the camera is in FRONT of the user so the viewer sees the back of the device and not the display, the beat has been shot from a position that cannot show its own subject: DEFECT. Judge it by the beat, not by the anatomy; a clean view of the back of the device is a correct picture of the wrong thing.",
+        "verdict": "PASS",
+        "note": "All visible laptop displays are shown from the user's side/over the shoulder, so the glowing display faces the user and can show the beat subject."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "No readable in-scene page or card is turned toward the camera while being read from the wrong side."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "No moving vehicle or rider/passenger is shown."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated woman has a visible chair/seat, body, lap area, and table in front of her."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "PASS",
+        "note": "The screens show illustrative scenes without invented menus, buttons, status bars, or UI text."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"ONE MACHINE, MANY AGENTS\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The title reads exactly \u201cONE MACHINE, MANY AGENTS\u201d."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"ONE HUNG TEST JAMS THE LINE\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \u201cONE HUNG TEST JAMS THE LINE\u201d."
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"THE RELEASE GOES FIRST\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \u201cTHE RELEASE GOES FIRST\u201d."
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"THE FULL RUN WAITS FOR NIGHT\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \u201cTHE FULL RUN WAITS FOR NIGHT\u201d."
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/playbooks/run-ci-on-a-machine-your-agents-share.png",
+      "fromSha256": "7858cda932d9121d0a95976285c8532c44d6f5135c11d8dd7e34c7970781db18",
+      "at": "2026-09-24T21:51:16.050350+00:00"
+    }
+  ]
+}
