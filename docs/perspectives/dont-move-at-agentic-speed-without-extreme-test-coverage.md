@@ -89,4 +89,5 @@ Teams pitch tests as a quality practice. For an operator moving at agentic speed
 - [Capable Agents Need More Guardrails](/perspectives/capable-agents-need-more-guardrails): why rising capability raises the guardrail bar rather than lowering it.
 - [Cognitive Coverage](/concepts/cognitive-coverage): test coverage pointed at your own understanding of what the agent did.
 - [Ratcheting Standards](/concepts/ratcheting-standards): how a check that can say no holds a line permanently.
+- [Run CI on a Machine Your Agents Share](/playbooks/run-ci-on-a-machine-your-agents-share): keeping an extreme suite runnable when a dozen agent sessions share one laptop.
 - [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the deterministic half of the system, which is the half a test suite can hold.

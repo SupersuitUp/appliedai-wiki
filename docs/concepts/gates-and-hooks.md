@@ -71,6 +71,7 @@ A gate can be worse than no gate, and the failure is always the same: everyone b
 - [Self-Improving Systems](/concepts/self-improving-systems): hooks as the observation layer.
 - [The Alignment Stack](/concepts/the-alignment-stack): where the operator's written intent sits, and why it needs mechanisms under it.
 - [Gate](https://telontology.wiki/concepts/gate): the definition, on the wiki that owns it.
+- [Run CI on a Machine Your Agents Share](/playbooks/run-ci-on-a-machine-your-agents-share): gates in a test pipeline on a shared machine, and why a drift gate belongs at commit time rather than release.
 - [Hook](https://getfreedom.wiki/concepts/hook): the seam where your own steps attach to a shipped skill.
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): the hook points Claude Code exposes.
 
