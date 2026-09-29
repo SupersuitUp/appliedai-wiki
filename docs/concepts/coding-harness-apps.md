@@ -99,7 +99,7 @@ Some CHAPPS are for a person who will never open a terminal, and whose material 
 
 Three things the door has to handle, because each one is the first thing a nervous person would meet:
 
-1. **The helper is asleep.** The door says so in one sentence and offers one button that wakes it through a URL scheme the machine answers, the way it answers a meeting link.
+1. **The helper is asleep.** When the door's probe fails, it says so in one sentence rather than forwarding the person straight into a browser error. A URL scheme the machine answers, the way it answers a meeting link, is the natural next step for a wake button.
 2. **The link is opened on a phone.** The door says to open it on the computer, because the room can only ever be served by the machine that holds the documents.
 3. **Another page in the same browser.** The link carries a room key that opens only that one room, checked on every request, so no other site open in that browser can drive the harness.
 
