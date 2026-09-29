@@ -87,6 +87,24 @@ But the death date is a default, not a rule, and the earlier framing of this ide
 
 **An outreach tracker, durable.** A skill builds a filtered queue of people to contact, then hands over a single-file page with the queue loaded: copy the message, open it in the messaging app, mark sent or skipped, next. Progress persists locally in case the browser closes. At the end you download a log, and the skill ingests it back into a permanent record. The human is in the loop for the part that needs a human, which is deciding what to actually say to each person and pressing send.
 
+## A variant: the door and the room
+
+Some CHAPPS are for a person who will never open a terminal, and whose material must never leave their own machine. Someone working through a multi-step life project with documents at the end, leaving a business partnership, say, is the clearest case. The variant splits the interface in two.
+
+**The door** is a public page at a stable address. It holds nothing: no documents, no names, no state. Its only job is to hand the browser to the room, by navigation rather than by fetching the room itself, because a public page reaching into a person's laptop is exactly the thing a browser exists to stop. The room's address rides in the fragment of the link, the part after the `#`, which a browser never sends to any server, so the door cannot see it even by accident. And it refuses to forward anywhere except `127.0.0.1`, so it can never be used as an open redirect.
+
+**The room** is a page the person's own machine serves, on that same `127.0.0.1`, from a small helper that is already running because it starts at login. A web page cannot start a program on a laptop, so "just tap a link" is only true when something local is already listening. Browsers are also tightening what a public page may ask of a local one, Chrome's local network access permission being the current shape of that, which is the other reason the door forwards by navigation instead of calling into the machine directly. After the handoff the browser is talking to its own machine, so the walls between a public site and a laptop never come up. Everything the room shows is read from one folder of plain files, the same [local-first](/concepts/local-first-software) commitment as the rest of a CHAPPS, just enforced by distance rather than by discipline.
+
+**The brain** is the person's own harness, run headless inside that folder, under their own login, with its tools fenced in the arguments rather than in the prompt: the file tools, no shell, nothing outside the folder. It streams short progress lines to the page while it works, and the page counts a step done only when its document actually changed.
+
+Three things the door has to handle, because each one is the first thing a nervous person would meet:
+
+1. **The helper is asleep.** The door says so in one sentence and offers one button that wakes it through a URL scheme the machine answers, the way it answers a meeting link.
+2. **The link is opened on a phone.** The door says to open it on the computer, because the room can only ever be served by the machine that holds the documents.
+3. **Another page in the same browser.** The link carries a room key that opens only that one room, checked on every request, so no other site open in that browser can drive the harness.
+
+The link itself has to be minted on the machine that serves the room, never handed out from anywhere else. Prove the handoff in every browser the person might use before they get a link. A first tap that fails confirms the fear the room was built to answer.
+
 ## The failure mode to design for
 
 A CHAPPS inherits a problem normal apps do not have: **your runtime can decline to work and still report success.**
