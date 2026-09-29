@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/gates-and-hooks@a096f1e686d19b8ffbb54fee289ea12f9bc3556c",
+      "type": "updated",
+      "date": "2026-09-24T17:53:38-04:00",
+      "docKey": "concepts/gates-and-hooks",
+      "routePath": "/concepts/gates-and-hooks",
+      "section": "concepts",
+      "title": "Gates and Hooks",
+      "description": "The two mechanisms that turn an instruction to an agent into a constraint on it. A gate refuses: a check runs, and failing prevents the action. A hook forces: your step runs at a seam whether or not the agent remembered. Instructions are read. Gates and hooks are executed."
+    },
+    {
+      "id": "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage@a096f1e686d19b8ffbb54fee289ea12f9bc3556c",
+      "type": "updated",
+      "date": "2026-09-24T17:53:38-04:00",
+      "docKey": "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage",
+      "routePath": "/perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage",
+      "section": "perspectives",
+      "title": "Don't Move at Agentic Speed Without Extreme Test Coverage",
+      "description": "The regression tax is charged at the rate you change things, and agents raised that rate by an order of magnitude. Writing tests used to be the expensive part, which is what made skipping them defensible. It is not expensive anymore, so the excuse is gone and the coverage bar should be extreme."
+    },
+    {
+      "id": "playbooks/run-ci-on-a-machine-your-agents-share@a096f1e686d19b8ffbb54fee289ea12f9bc3556c",
+      "type": "new",
+      "date": "2026-09-24T17:53:38-04:00",
+      "docKey": "playbooks/run-ci-on-a-machine-your-agents-share",
+      "routePath": "/playbooks/run-ci-on-a-machine-your-agents-share",
+      "section": "playbooks",
+      "title": "Run CI on a Machine Your Agents Share",
+      "description": "Nine things to build into a test pipeline when several agent sessions share one machine: a limit on every test, a nightly full run, the foreground going first, three verdicts instead of two, arithmetic instead of races, one lone re-run before a red is final, anchors that still apply, drift gates at commit time, and verdicts where people already look. Each one was learned from a single day of releases on one repo."
+    },
+    {
       "id": "concepts/playable-harness-experience@7500a4c88d5a3128dadba9e52ce8798838b800b9",
       "type": "updated",
       "date": "2026-09-22T11:16:37-04:00",
@@ -15513,6 +15543,18 @@
     }
   ],
   "pageDates": {
+    "concepts/gates-and-hooks": {
+      "updated": "2026-09-24T17:53:38-04:00",
+      "created": "2026-09-12T18:12:13-05:00"
+    },
+    "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage": {
+      "updated": "2026-09-24T17:53:38-04:00",
+      "created": "2026-08-12T12:12:07-05:00"
+    },
+    "playbooks/run-ci-on-a-machine-your-agents-share": {
+      "updated": "2026-09-24T17:53:38-04:00",
+      "created": "2026-09-24T17:53:38-04:00"
+    },
     "concepts/playable-harness-experience": {
       "updated": "2026-09-22T11:16:37-04:00",
       "created": "2026-05-25T10:30:31-05:00"
@@ -15560,10 +15602,6 @@
     "concepts/own-your-libraries": {
       "updated": "2026-09-12T23:38:50-05:00",
       "created": "2026-09-12T23:38:50-05:00"
-    },
-    "concepts/gates-and-hooks": {
-      "updated": "2026-09-12T20:33:07-05:00",
-      "created": "2026-09-12T18:12:13-05:00"
     },
     "concepts/prompt-guards": {
       "updated": "2026-09-12T18:12:13-05:00",
@@ -15984,10 +16022,6 @@
     "perspectives/dont-hand-off-a-skill-until-it-one-shots": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-08-14T10:13:23-05:00"
-    },
-    "perspectives/dont-move-at-agentic-speed-without-extreme-test-coverage": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-08-12T12:12:07-05:00"
     },
     "perspectives/engineers-are-version-shaped": {
       "updated": "2026-08-29T07:29:14-04:00",
