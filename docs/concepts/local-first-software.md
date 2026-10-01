@@ -39,3 +39,4 @@ A concrete example: a local interface to clean up a voiceprint library, an Expre
 - [Jevons Paradox](/concepts/jevons-paradox): when the cost of building collapses, you build far more of it.
 - [HTML-First Artifacts](/concepts/html-first-artifacts): lightweight, self-contained outputs in the same spirit.
 - [Coding Harness Apps](/concepts/coding-harness-apps): when the interface is not just over your files but wired to the agent itself.
+- [Living Template App](/concepts/living-template-app): a shared app for a common need that an agent tailors to one owner, on stores that owner holds.

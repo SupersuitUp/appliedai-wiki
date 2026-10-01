@@ -170,4 +170,5 @@ If you have ever wanted to ship a piece of cognitive software that helps people 
 - [Company Context Layer](https://supersuit.wiki/concepts/company-context-layer): the company-shaped equivalent of personal hypercontext.
 - [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): a workspace shape that is itself a long-running playable harness experience.
 - [Superprompt](/concepts/superprompt): what an experience-driven session looks like at the chatbox.
+- [Living Template App](/concepts/living-template-app): the sibling shape that ships a finished app, tailored to one person and kept current as the template improves.
 - [The Seam](https://userexperience.wiki/concepts/the-seam): the same boundary problem in a lean-back session, where the fix is to carry the stream rather than to offer the moves.

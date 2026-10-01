@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/coding-harness-apps@3d7b9ad891833e8622bf0285a4d3b1fa56281fc0",
+      "type": "updated",
+      "date": "2026-09-29T08:28:57-05:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
+      "id": "concepts/coding-harness-apps@2a847296abd31bc41b4819698ab1f49c29b7a0c2",
+      "type": "updated",
+      "date": "2026-09-29T08:25:10-05:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
       "id": "concepts/gates-and-hooks@a096f1e686d19b8ffbb54fee289ea12f9bc3556c",
       "type": "updated",
       "date": "2026-09-24T17:53:38-04:00",
@@ -15543,6 +15563,10 @@
     }
   ],
   "pageDates": {
+    "concepts/coding-harness-apps": {
+      "updated": "2026-09-29T08:28:57-05:00",
+      "created": "2026-08-12T08:59:21-05:00"
+    },
     "concepts/gates-and-hooks": {
       "updated": "2026-09-24T17:53:38-04:00",
       "created": "2026-09-12T18:12:13-05:00"
@@ -15630,10 +15654,6 @@
     "perspectives/give-the-agent-a-cli-not-the-database": {
       "updated": "2026-09-02T09:12:54-05:00",
       "created": "2026-09-02T09:12:54-05:00"
-    },
-    "concepts/coding-harness-apps": {
-      "updated": "2026-08-31T10:06:37-05:00",
-      "created": "2026-08-12T08:59:21-05:00"
     },
     "perspectives/the-harness-should-be-your-default-interface": {
       "updated": "2026-08-31T10:06:37-05:00",
