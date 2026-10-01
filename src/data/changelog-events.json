@@ -1,6 +1,46 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/living-template-app@6a1e452881b2d523cbccd4f60ed3e652099eb226",
+      "type": "new",
+      "date": "2026-09-30T19:36:23-05:00",
+      "docKey": "concepts/living-template-app",
+      "routePath": "/concepts/living-template-app",
+      "section": "concepts",
+      "title": "Living Template App",
+      "description": "An app already about 99% built for a common life need, kept as one shared template that keeps improving. A person's agent tailors it to them with a prompt, they own the result, and every improvement to the template keeps flowing into their copy without overwriting what they changed."
+    },
+    {
+      "id": "concepts/local-first-software@6a1e452881b2d523cbccd4f60ed3e652099eb226",
+      "type": "updated",
+      "date": "2026-09-30T19:36:23-05:00",
+      "docKey": "concepts/local-first-software",
+      "routePath": "/concepts/local-first-software",
+      "section": "concepts",
+      "title": "Local-First Software",
+      "description": "Software that runs and keeps its data on your own machine. In the agentic era, a bespoke tool per problem becomes cheap enough to build, use once, and throw away."
+    },
+    {
+      "id": "concepts/own-your-libraries@6a1e452881b2d523cbccd4f60ed3e652099eb226",
+      "type": "updated",
+      "date": "2026-09-30T19:36:23-05:00",
+      "docKey": "concepts/own-your-libraries",
+      "routePath": "/concepts/own-your-libraries",
+      "section": "concepts",
+      "title": "Own Your Libraries",
+      "description": "Building your own software libraries used to be irrational, so everyone inherited someone else's. That calculation has flipped. A library you own carries your taste, improves every time you use it, and is waiting for you at the start of the next project."
+    },
+    {
+      "id": "concepts/playable-harness-experience@6a1e452881b2d523cbccd4f60ed3e652099eb226",
+      "type": "updated",
+      "date": "2026-09-30T19:36:23-05:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
       "id": "concepts/coding-harness-apps@3d7b9ad891833e8622bf0285a4d3b1fa56281fc0",
       "type": "updated",
       "date": "2026-09-29T08:28:57-05:00",
@@ -15563,6 +15603,22 @@
     }
   ],
   "pageDates": {
+    "concepts/living-template-app": {
+      "updated": "2026-09-30T19:36:23-05:00",
+      "created": "2026-09-30T19:36:23-05:00"
+    },
+    "concepts/local-first-software": {
+      "updated": "2026-09-30T19:36:23-05:00",
+      "created": "2026-06-21T20:29:49-05:00"
+    },
+    "concepts/own-your-libraries": {
+      "updated": "2026-09-30T19:36:23-05:00",
+      "created": "2026-09-12T23:38:50-05:00"
+    },
+    "concepts/playable-harness-experience": {
+      "updated": "2026-09-30T19:36:23-05:00",
+      "created": "2026-05-25T10:30:31-05:00"
+    },
     "concepts/coding-harness-apps": {
       "updated": "2026-09-29T08:28:57-05:00",
       "created": "2026-08-12T08:59:21-05:00"
@@ -15578,10 +15634,6 @@
     "playbooks/run-ci-on-a-machine-your-agents-share": {
       "updated": "2026-09-24T17:53:38-04:00",
       "created": "2026-09-24T17:53:38-04:00"
-    },
-    "concepts/playable-harness-experience": {
-      "updated": "2026-09-22T11:16:37-04:00",
-      "created": "2026-05-25T10:30:31-05:00"
     },
     "concepts/superprompt": {
       "updated": "2026-09-22T11:16:37-04:00",
@@ -15622,10 +15674,6 @@
     "perspectives/be-choosy-about-who-co-evolves-your-framework": {
       "updated": "2026-09-13T08:19:43-05:00",
       "created": "2026-09-13T08:19:43-05:00"
-    },
-    "concepts/own-your-libraries": {
-      "updated": "2026-09-12T23:38:50-05:00",
-      "created": "2026-09-12T23:38:50-05:00"
     },
     "concepts/prompt-guards": {
       "updated": "2026-09-12T18:12:13-05:00",
@@ -16446,10 +16494,6 @@
     "perspectives/you-are-the-bottleneck": {
       "updated": "2026-08-12T12:12:07-05:00",
       "created": "2026-05-15T11:35:52-05:00"
-    },
-    "concepts/local-first-software": {
-      "updated": "2026-08-12T08:59:21-05:00",
-      "created": "2026-06-21T20:29:49-05:00"
     },
     "concepts/skill-file-first-app-second": {
       "updated": "2026-08-12T08:59:21-05:00",

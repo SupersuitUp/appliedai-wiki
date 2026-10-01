@@ -61,6 +61,19 @@ This is the same discipline as [fixing the generator](/perspectives/the-generato
 
 Both are tailored apps cut from living templates. The second couple and the second family start from everything the first ones already built.
 
+## Every template ships with its own plugin
+
+A living template app is not finished until it has a **plugin** for the agent that operates it. The plugin is how the template reaches a person, and how their agent runs the tailored app afterward. Four jobs belong to it:
+
+- **Tailoring.** Installing the plugin and giving the agent one prompt cuts a new tailored app from the template.
+- **The nightly update.** The plugin carries the routine that brings template improvements into the owner's copy and leaves their changes alone.
+- **Everyday verbs.** The common operations on the app become named verbs the owner asks for in plain words, so nobody opens settings or edits configuration by hand.
+- **A version that moves with the template.** The plugin is released alongside the template, so the agent always knows which template version a tailored app was cut from and which one it should move to.
+
+For the private album for two, the verbs add photos to the album and publish a poem. For the newborn's first-years app, they add a family member, change how often someone is notified, and log a doctor visit from a photo of the visit summary. In both cases the owner never learns the app's internals. They say what they want and the agent calls the verb.
+
+The rule is short: every template app needs its own plugin. A template with no plugin is a codebase someone has to be walked through, and its owners drift back toward the tenant position this pattern exists to avoid.
+
 ## Why it makes the system concrete
 
 There is a practical reason this pattern matters beyond efficiency. People do not adopt an agentic system because it "makes their computer better." That sentence is true and moves nobody. They adopt it because of one concrete thing it did for their life: *it helped me document my baby's first year.* A tailored app is that concrete thing. It is the first proof a person can point at, and the reason the rest of the system starts to make sense to them.
