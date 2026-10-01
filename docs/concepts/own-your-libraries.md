@@ -113,4 +113,5 @@ The test is simple. If your version would be worse than the incumbent and identi
 - [Compounding Docs](/concepts/compounding-docs): The same flywheel, applied to writing rather than to code.
 - [The Layer Above the Harness](https://compounding.wiki/concepts/the-layer-above-the-harness): Why the layer you own is the part that survives the tools underneath it changing.
 - [Agentic Brand Universe](/concepts/agentic-brand-universe): A worked example of an owned library for a domain that has no packages on any registry.
+- [Living Template App](/concepts/living-template-app): The same build-once argument at the level of a whole app, reused for every person who has the same need.
 - [The Cathedral and the Bazaar (Eric S. Raymond, 1997)](http://www.catb.org/~esr/writings/cathedral-bazaar/): The essay this argument is often confused with. Raymond contrasts closed development with open; the claim here is narrower and about ownership rather than process, and a library you own is meant to end up in the bazaar precisely so that other people find its holes.

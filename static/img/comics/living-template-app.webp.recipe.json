@@ -1,0 +1,143 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/living-template-app.png",
+  "sourceRecipe": "illustrations/living-template-app.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-10-01T00:35:18.361Z",
+  "asset": "static/img/comics/living-template-app.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "living-template-app",
+    "title": "LIVING TEMPLATE APP",
+    "labels": [
+      "The app is already almost built",
+      "Her agent tailors it to her",
+      "Every upgrade still reaches her copy"
+    ],
+    "beats": [
+      "Inside the glowing amber laptop on a wooden kitchen table, the Chief of Agents in his gold cap stands beside one large, nearly finished house-shaped app on a workbench: rooms for a photo album, a journal, a book of poems, with only the front door left unpainted. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, NOT the laptop standing between her and the camera with its lid turned toward us. The same woman in every panel: early 40s, short curly grey-streaked hair, a rust-colored knit cardigan. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. She holds a phone with one short prompt on it, about to paste.",
+      "Inside the laptop screen, the Chief of Agents and two small sub-agents copy the finished house onto a new plot and paint the door with her family's colors, hanging her own photos in its windows, while a small lockbox with a key icon sits beside the new house to show the data is hers. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, NOT the laptop standing between her and the camera with its lid turned toward us. The same woman in every panel: early 40s, short curly grey-streaked hair, a rust-colored knit cardigan. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. She leans forward, watching.",
+      "Inside the laptop screen, the original template house in the back gets a new porch built by sub-agents, and a thin amber line carries the same new porch forward to several small tailored houses in the foreground, each still wearing its own painted door and its own photos untouched. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, NOT the laptop standing between her and the camera with its lid turned toward us. The same woman in every panel: early 40s, short curly grey-streaked hair, a rust-colored knit cardigan. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. She sits back, relaxed, a mug in hand."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "none (--publish)"
+  },
+  "readback": {
+    "rounds": 3,
+    "overruled": true,
+    "verdicts": [
+      {
+        "assertion": "every person's eyes are open and clearly visible unless plainly asleep",
+        "verdict": "PASS",
+        "note": "The visible human eyes and the small character eyes appear open/visible; no person is plainly asleep."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "PASS",
+        "note": "I see only the title and three declared label strings, with no invented folder/screen/tag words."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "The laptop and phone screens are oriented toward the woman using them, viewed over/near her shoulder."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "There are exactly three panels, one for each beat."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels sit in a single horizontal row with cream gutters and no drawn border lines."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image has warm editorial painterly brushwork, not flat vector, comic, photoreal, or 3D rendering."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The palette is muted and natural on a warm cream background."
+      },
+      {
+        "assertion": "no identifiable recurring person's face or signature clothing is baked into the style; humans (if any) are ordinary and varied",
+        "verdict": "PASS",
+        "note": "The human shown is ordinary, and the illustration style does not depend on a branded recurring face or signature outfit."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "All declared strings are present and spelled exactly as specified."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "PASS",
+        "note": "No extra readable text appears beyond the declared strings."
+      },
+      {
+        "assertion": "title bar and footer bar sit in the cream margin, never over the artwork",
+        "verdict": "PASS",
+        "note": "The title sits in the cream top margin, and the panel label bands sit above the artwork rather than across it."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device. AND THE SECOND DEFECT, which an anatomically correct render still commits: if what the screen shows (or fails to show) is part of what this beat argues, and the camera is in FRONT of the user so the viewer sees the back of the device and not the display, the beat has been shot from a position that cannot show its own subject: DEFECT. Judge it by the beat, not by the anatomy; a clean view of the back of the device is a correct picture of the wrong thing.",
+        "verdict": "PASS",
+        "note": "Each visible device display faces its user, and the laptop contents are shown from an over-the-shoulder angle rather than from the wrong side."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "The visible reading/display surfaces are oriented toward their in-scene user, not flipped for the camera."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "No moving vehicle or rider/passenger is shown."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated woman has a chair/seat and body below the tabletop, with the table in front of her."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "DEFECT",
+        "note": "The phone screen in panel 1 contains an undeclared blank rounded UI card/button-like element."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"LIVING TEMPLATE APP\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The top title reads exactly \"LIVING TEMPLATE APP\"."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"The app is already almost built\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \"The app is already almost built\"."
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"Her agent tailors it to her\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \"Her agent tailors it to her\"."
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"Every upgrade still reaches her copy\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \"Every upgrade still reaches her copy\"."
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/living-template-app.png",
+      "fromSha256": "b0a057004e61f61e71f94ad003c3ecabe2864c7bf9ee3e45fd78407769c5e99f",
+      "at": "2026-10-01T00:35:18.792096+00:00"
+    }
+  ]
+}
