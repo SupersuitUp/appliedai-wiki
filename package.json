@@ -38,6 +38,7 @@
     "@docusaurus/plugin-content-docs": "3.10.1",
     "@docusaurus/preset-classic": "3.10.1",
     "@mdx-js/react": "^3.0.0",
+    "@supersuit/docusaurus-preset-wiki": "^1.17.0",
     "clsx": "^2.0.0",
     "glob": "^13.0.6",
     "gray-matter": "^4.0.3",
