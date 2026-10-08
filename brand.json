@@ -1,0 +1,19 @@
+{
+  "ground": "#f7f4ed",
+  "text": "#1a1a17",
+  "accent": "#cc785c",
+  "dark": {
+    "ground": "#141312",
+    "text": "#f0ede8",
+    "accent": "#e08b6d"
+  },
+  "provenance": {
+    "universe": "~/Documents/github-repos/hyperagentic-age/universe",
+    "surface": "default",
+    "asked": "wiki",
+    "file": "canon/entities/explanatory-plate.json",
+    "path": "structured.palette",
+    "commit": "218348c7a95e60d494871259c3d5187e51ef1f27",
+    "generator": "freedom-brand.mjs emit --surface wiki"
+  }
+}

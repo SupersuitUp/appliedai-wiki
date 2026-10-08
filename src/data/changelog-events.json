@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/living-template-app@f3ee14803cde324871cafb8d48e371b4ed8cb2dc",
+      "type": "updated",
+      "date": "2026-09-30T21:06:04-05:00",
+      "docKey": "concepts/living-template-app",
+      "routePath": "/concepts/living-template-app",
+      "section": "concepts",
+      "title": "Living Template App",
+      "description": "An app already about 99% built for a common life need, kept as one shared template that keeps improving. A person's agent tailors it to them with a prompt, they own the result, and every improvement to the template keeps flowing into their copy without overwriting what they changed."
+    },
+    {
       "id": "concepts/living-template-app@6a1e452881b2d523cbccd4f60ed3e652099eb226",
       "type": "new",
       "date": "2026-09-30T19:36:23-05:00",
@@ -15604,7 +15614,7 @@
   ],
   "pageDates": {
     "concepts/living-template-app": {
-      "updated": "2026-09-30T19:36:23-05:00",
+      "updated": "2026-09-30T21:06:04-05:00",
       "created": "2026-09-30T19:36:23-05:00"
     },
     "concepts/local-first-software": {

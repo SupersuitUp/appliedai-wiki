@@ -2,6 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import wiki from './wiki.config.json';
+import { brandHeadTags } from '@supersuit/docusaurus-preset-wiki/brand';
 
 const config: Config = {
   title: wiki.title,
@@ -243,5 +244,9 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
+// freedom#163: the owner's brand universe. brand.json is emitted by Freedom's freedom-brand.mjs
+// from the universe's declared wiki roles; change a color there and re-emit, never here.
+config.headTags = [...(config.headTags ?? []), ...brandHeadTags(process.cwd())];
 
 export default config;

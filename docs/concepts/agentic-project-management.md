@@ -89,6 +89,22 @@ The pattern is indifferent to subject. It holds anywhere there is a deliverable,
 
 The tax case is the clearest demonstration that this is not a knowledge-work trick. It is a year of documents, a fixed date, a specific definition of complete, and a set of verbs that do not change.
 
+## Keeping the human in the loop over weeks
+
+A project that runs for weeks and touches dozens or thousands of people needs the operator at specific moments and nowhere else. The pattern is to let the agent move every ball it can, and make the moments that need a human cheap, scheduled and impossible to misread. It is built on an honest model of the person: [well-meaning, creative, and forgetful](https://personalaiengineering.com/concepts/designing-for-human-frailty).
+
+**If it is not in the state, it did not happen.** This is the operating rule between the people on the project and the agent supervising it. A call, a decision, a letter mailed: until it is in the record, the supervisor plans as if it never occurred. The mirror rule matters as much. **If it is in the state, it must have happened**, so a send is logged by whatever did the sending, with the time, the channel, the exact content and any link, and never filled in afterwards from memory.
+
+**Think hard once, at the front.** The design phase is an intense back-and-forth between the operator and the agent until the plan is solid. After that the plan can still change at any point, but each step that follows should ask for as little fresh thinking as possible.
+
+**The calendar is generated from the plan.** Every moment that needs the operator becomes a calendar block created by the supervisor and tagged as its own. The block says why it exists, links the full project context, states exactly what to do, and estimates how long it takes. At its simplest the instruction is: open a new agent session and paste this in. When the plan changes, the supervisor regenerates every future block from it, so rescheduling never means editing events one at a time.
+
+**Pivot reviews are scheduled, with the threshold decided in advance.** A campaign that mailed letters yesterday gets a dedicated session on the day results should be in, where operator and agent think together about whether to change course. The criterion, such as fewer than a stated number of replies by a stated date, is written into the plan while everyone is clear-headed, so the review is a short decision rather than a fresh argument.
+
+**One ledger row per person per contact.** When the project is outreach at scale, every touch is a row: who, when, which channel, which version of the message, what was linked, what came back, and the next touch due. The progress view is computed from the ledger. Nobody maintains it by hand, which is what keeps "where are we" a glance at hundreds of contacts rather than an investigation. See [Campaign Plugins](/concepts/campaign-plugins) for the relationship-driven form.
+
+**Approve the plan, then let it send.** Agents can draft and send messages on the operator's behalf. Approving the plan covers every send that stays inside the approved list and the approved template. Anything off-plan comes back for a yes. That lets the system be radical about letting the agent act, while the operator still decides what goes out under their name.
+
 ## How to start one
 
 Give an agent the [generator](https://www.appliedai.wiki/generators/start-agentic-project/GENERATE.md) and answer its questions:
@@ -135,3 +151,4 @@ Do not scaffold before you can state the deliverable, the deadline, and what wou
 - [The Session Save](/concepts/the-session-save) on routing a session's value into durable homes.
 - [Memory Files](/concepts/memory-files) on what an agent should carry between sessions.
 - [Project Resumability](/concepts/project-resumability) on the property this pattern produces, stated independently of the repo shape.
+- [Designing for Human Frailty](https://personalaiengineering.com/concepts/designing-for-human-frailty) on the model of the person that the human-in-the-loop rules are built around.
