@@ -60,6 +60,16 @@ An operator maintains a small internal image-generator app. A recurring chore: a
 
 Six months later the app gains a fifth touchpoint. The commit that adds it updates the skill in the same diff. That is the whole point.
 
+## A project's skill library
+
+The same rule applies one level further in. A project is a subject too, and a skill that only makes sense for one project lives in that project's own `skills/` folder.
+
+The trigger is repetition. A project step done by hand once is a step. A step done by hand twice becomes a project skill, written while the second run is still fresh. In a [superproject](https://superprojects.wiki/concepts/superproject) this is visible on the [plan map](https://superprojects.wiki/concepts/the-plan-map): every step names the skill that runs it or says "by hand", so the steps still done by hand form a list anyone can read.
+
+A project skill moves outward only when a second project needs it, either to the global folder or into a [plugin](/concepts/plugins). Until then it stays where it is used, next to the project files it reads. The promotion rule is the one above, cheap to promote and expensive to demote, applied to projects instead of repos.
+
+When the project closes, its skill library stays with it. The next project of the same shape starts by reading that library, so a second letter campaign begins with the print-set skill the first campaign wrote. A finished project leaves its tools behind along with its deliverable.
+
 ## Failure modes this prevents
 
 - **The stale global skill.** A skill written against version 1 of a repo, invoked against version 3, producing confidently wrong edits. Hyperlocal placement makes the skill visible in every refactor.
@@ -77,3 +87,4 @@ Six months later the app gains a fifth touchpoint. The commit that adds it updat
 - [Anatomy of a Harness](/disciplines/anatomy-of-a-harness): how the harness discovers and lazy-loads skills from these paths.
 - [Harness Engineering](/disciplines/harness-engineering): the craft this pattern belongs to.
 - [Compounding Docs](/concepts/compounding-docs): the same keep-truth-next-to-the-work logic applied to documentation generally.
+- [Superproject](https://superprojects.wiki/concepts/superproject): the project type whose plan names a skill, or "by hand", for every step.

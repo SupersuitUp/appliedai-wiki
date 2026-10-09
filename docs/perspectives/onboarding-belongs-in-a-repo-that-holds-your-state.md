@@ -20,7 +20,7 @@ The gap is between "I know what this is" and "I know my first move, in my repo, 
 
 A doc site is the same for every reader and remembers none of them. Everything about where you are lives in your head: which parts you tried, what broke, which of the six concepts you still have not internalized, what you decided to build first, why you stopped. That context is expensive to rebuild and it evaporates in about a week.
 
-So the developer pays a reload tax every time they return, and the tax is usually larger than the appetite they have that evening. This is the same failure [Agentic Project Management](/concepts/agentic-project-management) diagnoses for research and deliverables, arriving in a different costume: the project does not fail because the work is hard, it fails because reloading the context costs more than the will to continue.
+So the developer pays a reload tax every time they return, and the tax is usually larger than the appetite they have that evening. This is the same failure [Agentic Project Management](https://superprojects.wiki/concepts/agentic-project-management) diagnoses for research and deliverables, arriving in a different costume: the project does not fail because the work is hard, it fails because reloading the context costs more than the will to continue.
 
 ## Progress is integration, not lessons completed
 
@@ -41,10 +41,10 @@ A template repo whose purpose is to manage one project: the developer's adoption
 - **A state file that is honest about progress.** Not a syllabus. What has been tried, what is integrated, what broke and why, what the next concrete move is. It updates as the work happens rather than as boxes are ticked.
 - **The verbs as skills.** The operations the developer needs are runnable rather than described, so the first working call is a command instead of a copy-paste assembly job.
 - **A supervising agent that answers what is next**, reading the state and the codebase together, which is the part a doc site structurally cannot offer.
-- **A cold-start guarantee.** Someone who has been away three weeks opens it and gets the true state in minutes. That property has a name and a test: [project resumability](/concepts/project-resumability).
+- **A cold-start guarantee.** Someone who has been away three weeks opens it and gets the true state in minutes. That property has a name and a test: [project resumability](https://superprojects.wiki/concepts/project-resumability).
 - **Something that pushes.** A schedule, a nudge, an accountability partner that notices the project has been quiet and says so. Adoption dies from silence more often than from difficulty.
 
-Nothing here is novel machinery. It is [Agentic Project Management](/concepts/agentic-project-management) pointed at learning instead of at a deliverable, and the reason it transfers cleanly is that adoption IS a project: it has a goal, a definition of done, more context than fits in a head, and a deadline the developer keeps quietly missing.
+Nothing here is novel machinery. It is [Agentic Project Management](https://superprojects.wiki/concepts/agentic-project-management) pointed at learning instead of at a deliverable, and the reason it transfers cleanly is that adoption IS a project: it has a goal, a definition of done, more context than fits in a head, and a deadline the developer keeps quietly missing.
 
 ## The blank page is where this gets abandoned
 
@@ -64,8 +64,8 @@ The other real cost is maintenance. A stateful onboarding project is software, a
 
 ## Further Reading
 
-- [Agentic Project Management](/concepts/agentic-project-management): the machinery this borrows, pointed at deliverables.
-- [Project Resumability](/concepts/project-resumability): the property that makes a paused project cheap to restart, and how to test it.
+- [Agentic Project Management](https://superprojects.wiki/concepts/agentic-project-management): the machinery this borrows, pointed at deliverables.
+- [Project Resumability](https://superprojects.wiki/concepts/project-resumability): the property that makes a paused project cheap to restart, and how to test it.
 - [The Harness Is the Thing Worth Learning](/perspectives/the-harness-is-the-thing-worth-learning): why the harness is the surface, and why wrappers over it cost the developer transferable skill.
 - [Plugins](/concepts/plugins): the packaging a harness-native experience ships as.
 - [AI Enablement Architect](/roles/ai-enablement-architect): the seat that builds this inside a company rather than for a vendor.
