@@ -13,6 +13,21 @@
       "source": "/skills/save-your-progress/SKILL.md",
       "destination": "/skills/save-my-progress/SKILL.md",
       "permanent": true
+    },
+    {
+      "source": "/concepts/agentic-project-management",
+      "destination": "https://superprojects.wiki/concepts/agentic-project-management",
+      "permanent": true
+    },
+    {
+      "source": "/concepts/project-resumability",
+      "destination": "https://superprojects.wiki/concepts/project-resumability",
+      "permanent": true
+    },
+    {
+      "source": "/generators/start-agentic-project/GENERATE.md",
+      "destination": "https://superprojects.wiki/generators/start-agentic-project/GENERATE.md",
+      "permanent": true
     }
   ]
 }

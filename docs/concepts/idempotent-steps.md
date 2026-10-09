@@ -71,7 +71,7 @@ the blessed one. Skipping it is both cheaper and more correct.
 
 They are siblings and they are often confused.
 
-[Project resumability](/concepts/project-resumability) is about a cold reader reaching the true
+[Project resumability](https://superprojects.wiki/concepts/project-resumability) is about a cold reader reaching the true
 state of the work from the files alone. It is a property of the *artifact*.
 
 Idempotency is a property of the *operation*. A resumable project tells you where things stand.
@@ -100,7 +100,7 @@ check has to compare the inputs and not merely the presence of an output.
 
 ## Further Reading
 
-- [Project Resumability](/concepts/project-resumability), the sibling property, about the artifact rather than the operation.
+- [Project Resumability](https://superprojects.wiki/concepts/project-resumability), the sibling property, about the artifact rather than the operation.
 - [The Session Save](/concepts/the-session-save), the ritual that gets a session's value into durable homes before the context clears.
 - [Prompt Guards](/concepts/prompt-guards), a worked example of a guard that skips itself when the rule is already present.
 - [Playable Harness Experience](/concepts/playable-harness-experience), the distributable bundle these steps usually live inside.
