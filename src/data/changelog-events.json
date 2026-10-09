@@ -1,6 +1,76 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/agentic-project-management@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "removed",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/agentic-project-management",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Agentic Project Management",
+      "description": "Holding a project as a repo an agent can read: every piece of context in files, a resumable state machine, the project's verbs as skills, and a supervising subagent that answers what is next. Version control, source control and resumability stop being features to build and arrive for free."
+    },
+    {
+      "id": "concepts/hyperlocal-skills@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "updated",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/hyperlocal-skills",
+      "routePath": "/concepts/hyperlocal-skills",
+      "section": "concepts",
+      "title": "Hyperlocal Skills",
+      "description": "A file-organization pattern for harness users: a skill file lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer."
+    },
+    {
+      "id": "concepts/idempotent-steps@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "updated",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/idempotent-steps",
+      "routePath": "/concepts/idempotent-steps",
+      "section": "concepts",
+      "title": "Idempotent Steps",
+      "description": "A step is idempotent when running it a second time is safe and changes nothing. In agentic work, where sessions crash, run out of context, and get interrupted constantly, idempotency converts crash recovery from a design problem into a non-problem: the recovery procedure is just run it again."
+    },
+    {
+      "id": "concepts/project-resumability@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "removed",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/project-resumability",
+      "routePath": "",
+      "section": "concepts",
+      "title": "Project Resumability",
+      "description": "The property that lets a reader who was not there reach a project's true state in minutes, from the files alone, and be right about it. Saving is the act, agentic project management is one implementation, resumability is the quality both are trying to produce."
+    },
+    {
+      "id": "concepts/the-session-save@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "updated",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/the-session-save",
+      "routePath": "/concepts/the-session-save",
+      "section": "concepts",
+      "title": "The Session Save",
+      "description": "The deliberate act of routing a work session's hard-won value (decisions, rationale, and newly-earned tribal knowledge) into durable homes (work logs, skill files, wiki pages, memory, commits) before the chat clears or the context window fills. The save mechanic for the playable harness experience: a reviewed sweep, never autopilot."
+    },
+    {
+      "id": "concepts/the-two-readers@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "updated",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "concepts/the-two-readers",
+      "routePath": "/concepts/the-two-readers",
+      "section": "concepts",
+      "title": "The Two Readers",
+      "description": "Every artifact an agentic system writes has a reader, and it is either the next agent session or a person. They want opposite things, so audience is a separate axis from how much scrutiny the writing will survive, and it should be derived from where the file lives rather than decided sentence by sentence."
+    },
+    {
+      "id": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state@84aa5c69bb9b146a0994c354719e024d2ce746db",
+      "type": "updated",
+      "date": "2026-10-09T11:11:31-04:00",
+      "docKey": "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "routePath": "/perspectives/onboarding-belongs-in-a-repo-that-holds-your-state",
+      "section": "perspectives",
+      "title": "Onboarding Belongs in a Repo That Holds Your State",
+      "description": "The friction in adopting new AI infrastructure is that nobody holds your state between sessions. Ship the onboarding as a project the developer clones, which tracks real integration instead of lessons read."
+    },
+    {
       "id": "concepts/agentic-project-management@6810307e21c3a40ec6a66d5d8e436720f18277f7",
       "type": "updated",
       "date": "2026-10-08T14:55:56-04:00",
@@ -15623,6 +15693,30 @@
     }
   ],
   "pageDates": {
+    "concepts/hyperlocal-skills": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-07-10T16:28:54-05:00"
+    },
+    "concepts/idempotent-steps": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-07-30T16:40:17-05:00"
+    },
+    "concepts/the-session-save": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-06-07T19:36:45-05:00"
+    },
+    "concepts/the-two-readers": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-09-08T13:16:19-04:00"
+    },
+    "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-08-09T20:14:41-05:00"
+    },
+    "skills/index": {
+      "updated": "2026-10-09T11:11:31-04:00",
+      "created": "2026-06-07T19:36:45-05:00"
+    },
     "concepts/living-template-app": {
       "updated": "2026-09-30T21:06:04-05:00",
       "created": "2026-09-30T19:36:23-05:00"
@@ -15706,10 +15800,6 @@
     "concepts/skill-files": {
       "updated": "2026-09-09T15:19:57-04:00",
       "created": "2026-05-23T23:46:32-05:00"
-    },
-    "concepts/the-two-readers": {
-      "updated": "2026-09-08T13:16:19-04:00",
-      "created": "2026-09-08T13:16:19-04:00"
     },
     "concepts/hyperdocumented-skills": {
       "updated": "2026-09-02T11:11:02-05:00",
@@ -15818,14 +15908,6 @@
     "concepts/hand-rolling": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-07-23T13:03:40-05:00"
-    },
-    "concepts/hyperlocal-skills": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-07-10T16:28:54-05:00"
-    },
-    "concepts/idempotent-steps": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-07-30T16:40:17-05:00"
     },
     "concepts/in-context-learning": {
       "updated": "2026-08-29T07:29:14-04:00",
@@ -15962,10 +16044,6 @@
     "concepts/the-sam-altman-test": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-06-07T11:26:57-05:00"
-    },
-    "concepts/the-session-save": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-06-07T19:36:45-05:00"
     },
     "concepts/three-actors-of-value-creation": {
       "updated": "2026-08-29T07:29:14-04:00",
@@ -16162,10 +16240,6 @@
     "perspectives/middle-management-is-ending": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-05-21T13:45:59-05:00"
-    },
-    "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-08-09T20:14:41-05:00"
     },
     "perspectives/only-frontier-models-replace-skilled-labor": {
       "updated": "2026-08-29T07:29:14-04:00",
@@ -16406,10 +16480,6 @@
     "start-here/why-learn-to-wield-ai": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-08-09T10:51:16-05:00"
-    },
-    "skills/index": {
-      "updated": "2026-08-23T12:37:48-04:00",
-      "created": "2026-06-07T19:36:45-05:00"
     },
     "concepts/hypercontext-protocol": {
       "updated": "2026-08-15T11:12:38-07:00",
