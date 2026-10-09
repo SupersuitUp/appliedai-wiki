@@ -62,13 +62,7 @@ Six months later the app gains a fifth touchpoint. The commit that adds it updat
 
 ## A project's skill library
 
-The same rule applies one level further in. A project is a subject too, and a skill that only makes sense for one project lives in that project's own `skills/` folder.
-
-The trigger is repetition. A project step done by hand once is a step. A step done by hand twice becomes a project skill, written while the second run is still fresh. In a [superproject](https://superprojects.wiki/concepts/superproject) this is visible on the [plan map](https://superprojects.wiki/concepts/the-plan-map): every step names the skill that runs it or says "by hand", so the steps still done by hand form a list anyone can read.
-
-A project skill moves outward only when a second project needs it, either to the global folder or into a [plugin](/concepts/plugins). Until then it stays where it is used, next to the project files it reads. The promotion rule is the one above, cheap to promote and expensive to demote, applied to projects instead of repos.
-
-When the project closes, its skill library stays with it. The next project of the same shape starts by reading that library, so a second letter campaign begins with the print-set skill the first campaign wrote. A finished project leaves its tools behind along with its deliverable.
+The same rule applies one level further in. A skill that only makes sense for one superproject lives in that superproject's own `skills/` folder, and moves outward only when a second project needs it. [The Project Skill Library](https://superprojects.wiki/concepts/the-project-skill-library) on superprojects.wiki covers when a step becomes a project skill, how it is promoted, and what a closed superproject leaves behind for the next one.
 
 ## Failure modes this prevents
 
